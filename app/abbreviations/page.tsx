@@ -80,7 +80,7 @@ const Abbreviations = () => {
             </div>
           </div>
           
-          <h1 className="lg:text-7xl text-5xl font-black mb-6 leading-tight tracking-tight">
+          <h1 className="lg:text-6xl text-3xl font-black mb-6 leading-tight tracking-tight">
             <span 
               className="block mb-2 bg-clip-text text-transparent"
               style={{
@@ -92,7 +92,7 @@ const Abbreviations = () => {
               Indian Railways
             </span>
             <span 
-              className="block text-5xl lg:text-6xl bg-clip-text text-transparent"
+              className="block text-2xl lg:text-5xl bg-clip-text text-transparent"
               style={{
                 backgroundImage: 'linear-gradient(to right, #a78bfa, #60a5fa, #a78bfa)',
                 WebkitBackgroundClip: 'text',
@@ -103,7 +103,7 @@ const Abbreviations = () => {
             </span>
           </h1>
           
-          <p className="lg:text-xl text-lg text-purple-200 max-w-3xl mx-auto leading-relaxed mb-8 font-light tracking-wide">
+          <p className="lg:text-xl text-lg text-purple-200 max-w-3xl mx-auto leading-relaxed mb-4 font-light tracking-wide">
             Comprehensive guide to Indian Railways terminology and abbreviations with detailed explanations and references.
           </p>
         </div>
@@ -117,8 +117,8 @@ const Abbreviations = () => {
             backdropFilter: 'blur(20px)',
             WebkitBackdropFilter: 'blur(20px)',
             transition: 'all 0.3s ease',
-            paddingTop: '1rem',
-            paddingBottom: '1rem',
+            paddingTop: '0.75rem',
+            paddingBottom: '0.75rem',
             borderBottom: '1px solid rgba(147, 51, 234, 0.2)',
             boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)'
           }}
@@ -126,40 +126,45 @@ const Abbreviations = () => {
           <div className="max-w-3xl mx-auto px-4">
             <div className="relative group">
               <div 
-                className="absolute -inset-1 rounded-2xl opacity-50 group-hover:opacity-70 blur-xl transition duration-500"
+                className="absolute -inset-0.5 rounded-2xl opacity-40 group-hover:opacity-60 blur-lg transition duration-300"
                 style={{
-                  background: 'linear-gradient(to right, #9333ea, #3b82f6)'
+                  background: 'linear-gradient(to right, #9333ea, #3b82f6, #6366f1)'
                 }}
               ></div>
               <div 
-                className="relative backdrop-blur-2xl border border-purple-400/60 shadow-purple-500/40 rounded-2xl p-3 shadow-2xl transition-all duration-300"
+                className="relative backdrop-blur-xl border border-purple-400/50 shadow-lg rounded-2xl transition-all duration-300 group-hover:border-purple-300/60 group-hover:shadow-purple-500/30"
                 style={{
-                  background: 'linear-gradient(to right, rgba(147, 51, 234, 0.5), rgba(59, 130, 246, 0.5))'
+                  background: 'linear-gradient(to right, rgba(147, 51, 234, 0.4), rgba(59, 130, 246, 0.4))'
                 }}
               >
-                <div className="relative flex items-center">
-                  <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
-                    <svg className="w-6 h-6 text-purple-300 group-hover:text-purple-200 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="relative flex items-center gap-3 px-4 py-2.5">
+                  {/* Search Icon */}
+                  <div className="shrink-0">
+                    <svg className="w-5 h-5 text-purple-300 group-hover:text-purple-200 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                   </div>
+                  
+                  {/* Input Field */}
                   <input
                     type="text"
-                    placeholder="Search Abbreviations (Example: APAR, KAVACH, etc.)"
+                    placeholder="Search Abbreviations..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full pl-14 pr-12 py-4 bg-transparent text-white placeholder-purple-300/60 focus:outline-none text-lg lg:text-base font-medium tracking-wide"
+                    className="flex-1 bg-transparent text-white placeholder-purple-300/50 focus:outline-none text-base font-medium tracking-wide py-1"
                   />
+                  
+                  {/* Clear Button */}
                   {searchTerm && (
                     <button
                       type="button"
                       aria-label="Clear search"
                       onClick={() => setSearchTerm("")}
-                      className="absolute inset-y-0 right-0 flex items-center pr-5 text-gray-500 hover:text-red-400 transition-colors duration-200"
+                      className="shrink-0 p-1.5 rounded-lg text-purple-300 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200"
                       tabIndex={0}
                     >
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
                       </svg>
                     </button>
                   )}
@@ -170,7 +175,7 @@ const Abbreviations = () => {
         </div>
 
         {/* Spacer to prevent content from going under fixed search bar */}
-        <div className="h-24 mb-10"></div>
+        <div className="h-20 mb-10"></div>
 
         {/* Results Count */}
         <div className="text-center mb-10">
@@ -213,7 +218,7 @@ const Abbreviations = () => {
             return (
             <div
               key={letter}
-              className="group relative backdrop-blur-xl border border-purple-500/30 rounded-3xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/30 hover:border-purple-400/50"
+              className="group relative backdrop-blur-xl border border-purple-500/30 rounded-xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/30 hover:border-purple-400/50"
               style={{
                 animationDelay: `${index * 50}ms`,
                 background: 'linear-gradient(to bottom right, rgba(147, 51, 234, 0.2), rgba(59, 130, 246, 0.2))'
@@ -243,12 +248,12 @@ const Abbreviations = () => {
                 ></div>
                 <div className="relative p-6 lg:p-8 text-center">
                   <div 
-                    className="inline-flex items-center justify-center w-24 h-24 lg:w-28 lg:h-28 backdrop-blur-md rounded-3xl mb-5 border border-white/20 shadow-2xl"
+                    className="inline-flex items-center justify-center w-16 h-16 lg:w-24 lg:h-24 backdrop-blur-md rounded-full mb-5 border border-white/20 shadow-2xl"
                     style={{
                       background: 'linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1))'
                     }}
                   >
-                    <h2 className="text-6xl lg:text-7xl font-black text-white drop-shadow-2xl tracking-tight">
+                    <h2 className="text-4xl lg:text-7xl font-black text-white drop-shadow-2xl tracking-tight">
                       {letter}
                     </h2>
                   </div>
