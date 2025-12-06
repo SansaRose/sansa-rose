@@ -73,7 +73,7 @@ const TopicContentPage = () => {
 
   if (!TopicComponent) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-white mb-4">Topic Not Found</h1>
           <p className="text-gray-300 mb-6">The requested topic does not exist.</p>
@@ -89,9 +89,9 @@ const TopicContentPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 relative">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 relative">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 via-indigo-700 to-purple-800 text-white py-6 shadow-lg">
+      <div className="bg-linear-to-r from-blue-600 via-indigo-700 to-purple-800 text-white py-6 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div>
@@ -131,7 +131,7 @@ const TopicContentPage = () => {
               disabled={!prevTopic}
               className={`flex flex-col items-center space-y-1 px-3 py-2 rounded-sm text-white transition-all duration-300 ${
                 prevTopic
-                  ? 'bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 hover:scale-105'
+                  ? 'bg-linear-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 hover:scale-105'
                   : 'bg-gray-500 cursor-not-allowed opacity-50'
               }`}
             >
@@ -146,7 +146,7 @@ const TopicContentPage = () => {
 
             {/* Current Topic Indicator */}
             <div className="flex-1 text-center">
-              <div className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-lg">
+              <div className="inline-block px-4 py-2 bg-linear-to-r from-purple-500 to-indigo-600 rounded-lg">
                 <span className="text-white text-sm font-medium">
                   {topicNames[topicId]}
                 </span>
@@ -163,7 +163,7 @@ const TopicContentPage = () => {
               disabled={!nextTopic}
               className={`flex flex-col items-center space-y-1 px-3 py-2 rounded-sm text-white transition-all duration-300 ${
                 nextTopic
-                  ? 'bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 hover:scale-105'
+                  ? 'bg-linear-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 hover:scale-105'
                   : 'bg-gray-500 cursor-not-allowed opacity-50'
               }`}
             >
@@ -183,7 +183,7 @@ const TopicContentPage = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 left-4 bg-gradient-to-tr from-blue-600 via-blue-400 to-blue-700 text-white p-1 rounded-full shadow-2xl border-2 border-white hover:scale-110 hover:from-blue-700 hover:to-blue-500 transition-all duration-300 z-50 flex items-center justify-center animate-pulse"
+          className="fixed bottom-4 left-4 bg-linear-to-tr from-blue-600 via-blue-400 to-blue-700 text-white p-1 rounded-full shadow-2xl border-2 border-white hover:scale-110 hover:from-blue-700 hover:to-blue-500 transition-all duration-300 z-50 flex items-center justify-center animate-pulse"
           aria-label="Scroll to top"
         >
           <svg

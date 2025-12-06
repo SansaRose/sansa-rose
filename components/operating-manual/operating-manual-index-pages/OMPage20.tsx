@@ -24,28 +24,28 @@ import {
 
 const OMPage20 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+      {/* Animated Background Elements */}  
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Building2 className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               STATION MANAGEMENT
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Operating Manual - Station Operations</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to station management, staff responsibilities, and essential registers 
               for efficient railway station operations.
@@ -56,15 +56,15 @@ const OMPage20 = () => {
           <div className="space-y-6">
             
             {/* Station Management Overview */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Building2 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Management Overview
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
-                <ul className="space-y-5 pl-2">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+                <ul className="space-y-5 pl-0">
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 mt-1">👤</span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -100,15 +100,15 @@ const OMPage20 = () => {
             </div>
 
             {/* Station Director/Manager/SM in-charge */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Director/Manager/SM in-charge
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
-                <ul className="space-y-5 pl-2">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+                <ul className="space-y-5 pl-0">
                   <li className="flex items-start gap-3">
                     <span className="text-green-400 mt-1">🛡️</span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -138,14 +138,14 @@ const OMPage20 = () => {
             </div>
 
             {/* Staff Grading System */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Award className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Staff Grading System
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   All operating staff involved in train passing duties shall be assigned grades under
                   one of the four heads – &quot;A&quot;, &quot;B&quot;, &quot;C&quot; &amp; &quot;D&quot;. The categorization shall be done after
@@ -229,7 +229,7 @@ const OMPage20 = () => {
                     </div>
                   </div>
                   <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
-                    <p className="text-sm text-red-200 flex items-center">
+                    <p className="text-sm text-red-200 flex flex-col gap-2 items-center">
                       <AlertTriangle className="w-4 h-4 mr-2" />
                       <strong>Important:</strong> Alcoholic staff must be categorized under &quot;D&quot; category irrespective of marks obtained
                       by them in other aspect of working.
@@ -240,14 +240,14 @@ const OMPage20 = () => {
             </div>
 
                          {/* Essential Registers */}
-             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                 <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                 <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                    <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                  </span>
                  Essential Station Registers
                </h2>
-               <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
+               <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                  <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                    Some of the registers maintained for the purpose of managing the various facets of
                    the station are…
@@ -255,8 +255,8 @@ const OMPage20 = () => {
 
                  <div className="space-y-6">
                    {/* Address Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <Users className="w-5 h-5 mr-2" />
                        Address Register
                      </h4>
@@ -269,7 +269,7 @@ const OMPage20 = () => {
                        numbers, blood group if available and office copy of their Photo Identity Cards.
                      </p>
                      <div className="bg-yellow-500/20 rounded-lg p-3 border border-yellow-400/30">
-                       <p className="text-sm text-yellow-200 flex items-center">
+                       <p className="text-sm text-yellow-200 flex flex-col gap-2 items-center">
                          <AlertCircle className="w-4 h-4 mr-2" />
                          <strong>Security Note:</strong> Entry of such persons into station area should be permitted only after checking the identify card.
                        </p>
@@ -277,8 +277,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Staff Gradation Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <Award className="w-5 h-5 mr-2" />
                        Staff Gradation Register
                      </h4>
@@ -290,8 +290,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Staff Grievance Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <UserCheck className="w-5 h-5 mr-2" />
                        Staff Grievance Register
                      </h4>
@@ -301,15 +301,15 @@ const OMPage20 = () => {
                        their acknowledgement. Separate grievance register has to be maintained for
                        general and SC/ST staff.
                      </p>
-                     <p className="text-sm text-gray-200">
+                     <p className="text-sm text-gray-200 flex flex-col gap-2 items-center">
                        The rectification of the grievance also has to be mentioned
                        in this register.
                      </p>
                    </div>
 
                    {/* Overtime Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <Clock className="w-5 h-5 mr-2" />
                        Overtime Register
                      </h4>
@@ -321,8 +321,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Safety Meeting Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <Shield className="w-5 h-5 mr-2" />
                        Safety Meeting Register
                      </h4>
@@ -334,8 +334,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Weather Warning Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <AlertTriangle className="w-5 h-5 mr-2" />
                        Weather Warning Register
                      </h4>
@@ -352,8 +352,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Public Complaints Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <FileText className="w-5 h-5 mr-2" />
                        Public Complaints Register
                      </h4>
@@ -369,8 +369,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Statistical Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <TrendingUp className="w-5 h-5 mr-2" />
                        Statistical Register
                      </h4>
@@ -382,8 +382,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Establishment Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <Settings className="w-5 h-5 mr-2" />
                        Establishment Register
                      </h4>
@@ -394,8 +394,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Tools and Plant Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center justify-center text-center">
                        <Wrench className="w-5 h-5 mr-2" />
                        Tools and Plant (Dead Stock) Register
                      </h4>
@@ -411,8 +411,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Accident Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <AlertCircle className="w-5 h-5 mr-2" />
                        Accident Register
                      </h4>
@@ -423,8 +423,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Untoward Incidents Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <XCircle className="w-5 h-5 mr-2" />
                        Untoward Incidents Register
                      </h4>
@@ -440,8 +440,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Station Imprest Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center">
                        <Database className="w-5 h-5 mr-2" />
                        Station Imprest Register
                      </h4>
@@ -453,8 +453,8 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Rake & Loco Detention Registers */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                     <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                     <h4 className="font-semibold text-orange-300 mb-3 flex flex-col gap-2 items-center justify-center text-center">
                        <Train className="w-5 h-5 mr-2" />
                        Rake Detention Register and Loco Detention Register
                      </h4>
@@ -470,17 +470,17 @@ const OMPage20 = () => {
              </div>
 
              {/* Inspection Registers */}
-             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                 <span className="bg-gradient-to-r from-teal-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                 <span className="bg-linear-to-r from-teal-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                    <Shield className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                  </span>
                  Inspection Registers
                </h2>
-               <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-teal-400/30">
+               <div className="bg-linear-to-br from-teal-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-teal-400/30">
                  <div className="space-y-6">
                    {/* Officer's Inspection Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Users className="w-5 h-5 mr-2" />
                        Officer&apos;s Inspection Register
@@ -493,7 +493,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Inspector's Inspection Register (Traffic) */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <BarChart3 className="w-5 h-5 mr-2" />
                        Inspector&apos;s Inspection Register (Traffic)
@@ -507,7 +507,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Inspector's Inspection Register (other than Traffic) */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Settings className="w-5 h-5 mr-2" />
                        Inspector&apos;s Inspection Register (other than Traffic)
@@ -521,7 +521,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* SMR/SS Night Surprise Inspection Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Clock className="w-5 h-5 mr-2" />
                        SMR/SS Night Surprise Inspection Register
@@ -535,7 +535,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Cabin Inspection Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Building2 className="w-5 h-5 mr-2" />
                        Cabin Inspection Register
@@ -549,7 +549,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Level Crossing Gate Inspection Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Train className="w-5 h-5 mr-2" />
                        Level Crossing Gate Inspection Register
@@ -561,7 +561,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Joint Inspection of Points and Crossings Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Wrench className="w-5 h-5 mr-2" />
                        Joint Inspection of Points and Crossings Register
@@ -575,7 +575,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Joint Inspection of Track Circuits Register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                        <Database className="w-5 h-5 mr-2" />
                        Joint Inspection of Track Circuits Register
@@ -589,7 +589,7 @@ const OMPage20 = () => {
                    </div>
 
                    {/* Joint Inspection of OHE Bond register */}
-                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
+                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <h4 className="font-semibold text-teal-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center">
                        <Shield className="w-5 h-5 mr-2" />
                        Joint Inspection of OHE Bond register
@@ -606,14 +606,14 @@ const OMPage20 = () => {
              </div>
 
                            {/* Commercial Registers */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-linear-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <TrendingUp className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Commercial Registers
                 </h2>
-                <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-emerald-400/30">
+                <div className="bg-linear-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                   <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
                     Apart from the above registers, various commercial registers like Wagon
                     demand/priority register, indent/loading register, etc. are to be maintained at the
@@ -623,14 +623,14 @@ const OMPage20 = () => {
               </div>
 
               {/* Record Preservation Periods */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                    <span className="bg-linear-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <Database className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Record Preservation Periods
                 </h2>
-                <div className="bg-gradient-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-violet-400/30">
+                <div className="bg-linear-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-violet-400/30">
                   <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                     The period for which Station Operating Registers and Records are required to be
                     preserved is advised by division office. An indicative period of preservation from the
@@ -639,7 +639,7 @@ const OMPage20 = () => {
 
                   <div className="space-y-6">
                     {/* 1 Year Records */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-violet-300 mb-4 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <Clock className="w-5 h-5 mr-2" />
                         Records to be Preserved for 1 Year
@@ -664,7 +664,7 @@ const OMPage20 = () => {
                     </div>
 
                     {/* 3 Years Records */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-violet-300 mb-4 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <Calendar className="w-5 h-5 mr-2" />
                         Records to be Preserved for 3 Years
@@ -719,7 +719,7 @@ const OMPage20 = () => {
                     </div>
 
                     {/* 6 Months Records */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-violet-300 mb-4 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <Clock className="w-5 h-5 mr-2" />
                         Records to be Preserved for 6 Months
@@ -793,29 +793,41 @@ const OMPage20 = () => {
                         Important Notes
                       </h4>
                       <div className="space-y-3">
-                        <div className="bg-yellow-500/20 rounded-lg p-3 border border-yellow-400/30">
+                        <div className="bg-yellow-500/20 rounded-lg p-3 border border-yellow-400/30 flex items-start gap-3">
+                          <span className="font-serif text-xl text-yellow-300 shrink-0 bg-yellow-600/30 rounded-full w-9 h-9 flex items-center justify-center border border-yellow-200 shadow-sm">
+                            i
+                          </span>
                           <p className="text-sm text-yellow-200">
-                            <strong>i)</strong> In calculating the one year or the three years period, the year to which the books
+                            In calculating the one year or the three years period, the year to which the books
                             and documents relate, and the year in which they are to be destroyed should be
                             excluded.
                           </p>
                         </div>
-                        <div className="bg-orange-500/20 rounded-lg p-3 border border-orange-400/30">
+                        <div className="bg-orange-500/20 rounded-lg p-3 border border-orange-400/30 flex items-start gap-3">
+                          <span className="font-serif text-xl text-orange-300 shrink-0 bg-orange-600/30 rounded-full w-9 h-9 flex items-center justify-center border border-orange-200 shadow-sm">
+                          ii
+                          </span>
                           <p className="text-sm text-orange-200">
-                            <strong>ii)</strong> Record pertaining to Court cases, departmental enquiries should not be
+                            Record pertaining to Court cases, departmental enquiries should not be
                             destroyed till three years from the date the case is decided.
                           </p>
                         </div>
-                        <div className="bg-red-500/20 rounded-lg p-3 border border-red-400/30">
+                        <div className="bg-red-500/20 rounded-lg p-3 border border-red-400/30 flex items-start gap-3">
+                          <span className="font-serif text-xl text-red-300 shrink-0 bg-red-600/30 rounded-full w-9 h-9 flex items-center justify-center border border-red-200 shadow-sm">
+                            iii
+                          </span>
                           <p className="text-sm text-red-200">
-                            <strong>iii)</strong> Record pertaining to public claims etc., or those under reference from Home or
+                            Record pertaining to public claims etc., or those under reference from Home or
                             other railways, should not be destroyed without permission from DRM
                             concerned.
                           </p>
                         </div>
-                        <div className="bg-blue-500/20 rounded-lg p-3 border border-blue-400/30">
+                        <div className="bg-blue-500/20 rounded-lg p-3 border border-blue-400/30 flex items-start gap-3">
+                          <span className="font-serif text-xl text-blue-300 shrink-0 bg-blue-600/30 rounded-full w-9 h-9 flex items-center justify-center border border-blue-200 shadow-sm">
+                            iv
+                          </span>
                           <p className="text-sm text-blue-200">
-                            <strong>iv)</strong> Each book/register when completed must be stocked in a bundle with a cover
+                            Each book/register when completed must be stocked in a bundle with a cover
                             showing dates of commencement and completion.
                           </p>
                         </div>
@@ -826,19 +838,19 @@ const OMPage20 = () => {
               </div>
 
               {/* Charts and Station Management */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 mb-8">
-                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
+                  <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Items to be Displayed at the Station
                 </h2>
-                <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+                <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                   <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                     The following boards have to be made and displayed in station:
                   </p>
-                  <ul className="space-y-3 pl-2">
+                  <ul className="space-y-3 pl-0 text-sm">
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-1">📋</span>
                       <span className="text-gray-100">
@@ -923,43 +935,71 @@ const OMPage20 = () => {
               </div>
 
               {/* Correspondence */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-green-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-linear-to-r from-green-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Correspondence
                 </h2>
-                <div className="bg-gradient-to-br from-green-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+                <div className="bg-linear-to-br from-green-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                   <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                     All official correspondence must be attended to by the Station Master, who shall
                     open all covers and see that all letters are replied without delay. Every outward letter
                     must be numbered, dated and must also bear reference number of the subject.
                   </p>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-green-300 mb-4 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-green-300 mb-4 flex items-center text-center text-lg flex-col gap-2">
                       <CheckCircle className="w-5 h-5 mr-2" />
                       Correspondence Guidelines
                     </h4>
-                    <div className="space-y-3 text-sm text-gray-200">
-                      <p>• This must be adhered to in all subsequent correspondences when replying to correspondence, reference must be made to the letter number under reply.</p>
-                      <p>• Letters from the public asking for information must be replied promptly.</p>
-                      <p>• If there is any difficulty in supplying the required information, the receipt of the letter must be acknowledged and matter referred to the DRM.</p>
-                      <p>• When forwarding letters or complaints from staff working under them, Station Masters must furnish their own remarks along.</p>
-                    </div>
+                    <ul className="space-y-4 text-gray-200 text-sm ">
+                      <li className="flex items-start gap-3">
+                        <span className="shrink-0 rounded-full bg-green-500/20 text-green-300 w-7 h-7 flex items-center justify-center shadow">
+                          <CheckCircle className="w-4 h-4" />
+                        </span>
+                        <span>
+                          This must be adhered to in all subsequent correspondences; when replying to correspondence, reference must be made to the letter number under reply.
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="shrink-0 rounded-full bg-green-500/20 text-green-300 w-7 h-7 flex items-center justify-center shadow">
+                          <CheckCircle className="w-4 h-4" />
+                        </span>
+                        <span>
+                          Letters from the public asking for information must be replied promptly.
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="shrink-0 rounded-full bg-green-500/20 text-green-300 w-7 h-7 flex items-center justify-center shadow">
+                          <CheckCircle className="w-4 h-4" />
+                        </span>
+                        <span>
+                          If there is any difficulty in supplying the required information, the receipt of the letter must be acknowledged and matter referred to the DRM.
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="shrink-0 rounded-full bg-green-500/20 text-green-300 w-7 h-7 flex items-center justify-center shadow">
+                          <CheckCircle className="w-4 h-4" /> 
+                        </span>
+                        <span>
+                          When forwarding letters or complaints from staff working under them, Station Masters must furnish their own remarks along.
+                        </span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
 
               {/* Station Imprest Cash */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <Database className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Station Imprest Cash
                 </h2>
-                <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-yellow-400/30">
+                <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 mb-4">
                     <p className="text-xs text-gray-300 text-center">
                       <strong>Reference:</strong> 14/P/Vol.XV/G.III dated 01.05.2010, JPOs No S.200Mode of Distribution.97 (1/97) & MD.52/P dated 2004 of CCM/PS & FA&CAO
@@ -970,13 +1010,56 @@ const OMPage20 = () => {
                     authorized to spend from the cash imprest to meet the miscellaneous & urgent
                     requirement of station like cleaning, minor repairs, stationary etc.</p>
                     
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h4 className="font-semibold text-yellow-300 mb-3">Key Points:</h4>
-                      <ul className="space-y-2 text-sm">
-                        <li>• Individual items of expenditure should not exceed Rs.500/- per case</li>
-                        <li>• Recoupment of cash should be initiated by SM when the expenditure level reaches 50% of the sanctioned imprest cash</li>
-                        <li>• Existing imprest cash can be enhanced by obtaining associate finance concurrence and sanction of competent authority</li>
-                        <li>• A register is to be maintained regarding the purchase and its use</li>
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-yellow-300/20 shadow-lg">
+                      <h4 className="font-semibold text-yellow-300 mb-4 flex items-center gap-2 text-center text-lg">
+                        
+                        Key Points:
+                      </h4>
+                      <ul className="flex flex-col gap-4 mt-2">
+                        <li className="flex items-start gap-3">
+                          <span className="bg-yellow-400/20 text-yellow-300 rounded-full min-w-7 min-h-7 flex items-center justify-center shadow">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                              <circle cx="12" cy="12" r="10" strokeOpacity="0.5" />
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4" />
+                            </svg>
+                          </span>
+                          <span className="text-gray-100 text-sm leading-relaxed">
+                            Individual items of expenditure should not exceed <span className="font-semibold text-yellow-200">Rs.500/-</span> per case.
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <span className="bg-yellow-400/20 text-yellow-300 rounded-full min-w-7 min-h-7 flex items-center justify-center shadow">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                              <circle cx="12" cy="12" r="10" strokeOpacity="0.5" />
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4" />
+                            </svg>
+                          </span>
+                          <span className="text-gray-100 text-sm leading-relaxed">
+                            Recoupment of cash should be initiated by <span className="font-semibold text-yellow-200">SM</span> when the expenditure level reaches <span className="font-semibold text-yellow-200">50%</span> of the sanctioned imprest cash.
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <span className="bg-yellow-400/20 text-yellow-300 rounded-full min-w-7 min-h-7 flex items-center justify-center shadow">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                              <circle cx="12" cy="12" r="10" strokeOpacity="0.5" />
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4" />
+                            </svg>
+                          </span>
+                          <span className="text-gray-100 text-sm leading-relaxed">
+                            Existing imprest cash can be enhanced by obtaining associate finance concurrence and sanction of competent authority.
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <span className="bg-yellow-400/20 text-yellow-300 rounded-full min-w-7 min-h-7 flex items-center justify-center shadow">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                              <circle cx="12" cy="12" r="10" strokeOpacity="0.5" />
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4" />
+                            </svg>
+                          </span>
+                          <span className="text-gray-100 text-sm leading-relaxed">
+                            A register is to be maintained regarding the purchase and its use.
+                          </span>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -984,45 +1067,85 @@ const OMPage20 = () => {
               </div>
 
               {/* Public Notices for Exhibition */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-pink-500 to-rose-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-linear-to-r from-pink-500 to-rose-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <AlertCircle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Public Notices for Exhibition
                 </h2>
-                <div className="bg-gradient-to-br from-pink-500/20 to-rose-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-pink-400/30">
+                <div className="bg-linear-to-br from-pink-500/20 to-rose-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-pink-400/30">
                   <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                     The following notices and publications, besides those, which may be ordered from
                     time to time, have to be exhibited at each station in conspicuous places.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-3">
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>1)</strong> Time table of arrival departure of all the trains stopping at the station.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40">
+                          1
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Time table of arrival departure of all the trains stopping at the station.
+                        </p>
                       </div>
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>2)</strong> Board showing current running of trains in the Waiting hall or at the Entrance.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40">
+                          2
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Board showing current running of trains in the Waiting hall or at the Entrance.
+                        </p>
                       </div>
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>3)</strong> Indication signage boards for various facilities and offices.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40">
+                          3
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Indication signage boards for various facilities and offices.
+                        </p>
                       </div>
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>4)</strong> Notices regarding hours of business of Booking windows, Reservation Windows, goods, luggage and parcels – outside the respective offices.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40">
+                          4
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Notices regarding hours of business of Booking windows, Reservation Windows, goods, luggage and parcels – outside the respective offices.
+                        </p>
                       </div>
                     </div>
                     <div className="space-y-3">
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>5)</strong> Notices regarding restrictions in Goods Booking</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40 border-2 border-pink-300/60">
+                          5
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Notices regarding restrictions in Goods Booking
+                        </p>
                       </div>
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>6)</strong> Notices regarding Allotment of Wagons.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40 border-2 border-pink-300/60">
+                          6
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Notices regarding Allotment of Wagons.
+                        </p>
                       </div>
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>7)</strong> Rules regarding occupation/use of Waiting rooms – Inside the Waiting rooms.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40 border-2 border-pink-300/60">
+                          7
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Rules regarding occupation/use of Waiting rooms – Inside the Waiting rooms.
+                        </p>
                       </div>
-                      <div className="bg-white/10 rounded-lg p-3 border border-white/20">
-                        <p className="text-sm text-gray-200"><strong>8)</strong> Rules for the occupation/tariff of Rest houses and Rest rooms.</p>
+                      <div className="bg-white/10 rounded-lg p-3 border border-white/20 flex items-start gap-3">
+                        <span className="flex items-center justify-center bg-pink-500 text-white font-bold rounded-full w-7 h-7 shadow-lg text-base mt-1 ring-2 ring-white/40 border-2 border-pink-300/60">
+                          8
+                        </span>
+                        <p className="text-sm text-gray-200 flex-1">
+                          Rules for the occupation/tariff of Rest houses and Rest rooms.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1037,14 +1160,14 @@ const OMPage20 = () => {
               </div>
 
               {/* Exhibition of Public Advertisements */}
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
-                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-purple-500 to-violet-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
+                  <span className="bg-linear-to-r from-purple-500 to-violet-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <TrendingUp className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Exhibition of Public Advertisements
                 </h2>
-                <div className="bg-gradient-to-br from-purple-500/20 to-violet-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+                <div className="bg-linear-to-br from-purple-500/20 to-violet-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                   <div className="space-y-4 text-sm text-gray-200">
                     <p>In station premises, public advertisements in the form of Boards, Posters, Show
                     cases, Models, Neon signs or in any other form should be allowed to be exhibited at
@@ -1052,10 +1175,30 @@ const OMPage20 = () => {
                     commercial office.</p>
                     
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h4 className="font-semibold text-purple-300 mb-3">Requirements:</h4>
-                      <ul className="space-y-2">
-                        <li>• The Station Master will maintain a register showing full particulars of each advertisement exhibited at the station in the prescribed form.</li>
-                        <li>• The Station Masters and other Railway staff including Guards and Loco pilots of any train must not permit the display of advertisement matters on Engines, Passenger Coaches and other Rolling stock unless the prior permission of the competent officer of divisional commercial office has been obtained.</li>
+                      <h4 className="font-semibold text-purple-300 mb-3 text-center">Requirements:</h4>
+                      <ul className="space-y-4 pl-0">
+                        <li className="flex items-start gap-3">
+                          <span className="inline-flex mt-1 bg-purple-400 rounded-full p-1.5 shadow-md">
+                            <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="#a78bfa" />
+                              <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01"/>
+                            </svg>
+                          </span>
+                          <span className="text-gray-100 text-sm">
+                            <span className="font-medium text-purple-200">The Station Master</span> will maintain a register showing full particulars of each advertisement exhibited at the station in the prescribed form.
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <span className="inline-flex mt-1 bg-purple-400 rounded-full p-1.5 shadow-md">
+                            <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="#a78bfa" />
+                              <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01"/>
+                            </svg>
+                          </span>
+                          <span className="text-gray-100 text-sm">
+                            <span className="font-medium text-purple-200">Station Masters and other Railway staff</span> (including Guards and Loco pilots of any train) <span className="font-semibold text-purple-100">must not permit</span> the display of advertisement matters on Engines, Passenger Coaches and other Rolling stock unless the prior permission of the competent officer of divisional commercial office has been obtained.
+                          </span>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -1065,15 +1208,15 @@ const OMPage20 = () => {
               {/* Prohibition and Restrictions */}
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <XCircle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Prohibition and Restrictions
                 </h2>
-                <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-red-400/30">
+                <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                   <div className="space-y-6">
                     {/* Photography Prohibition */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-red-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <XCircle className="w-5 h-5 mr-2" />
                         Prohibition against Photography / Film shooting on Railway premises
@@ -1086,7 +1229,7 @@ const OMPage20 = () => {
                     </div>
 
                     {/* Encroachments */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-red-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <AlertTriangle className="w-5 h-5 mr-2" />
                         Encroachments within the Railway limits
@@ -1104,12 +1247,12 @@ const OMPage20 = () => {
               {/* Station Management Challenges */}
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                 <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-gradient-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-linear-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                     <Building2 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Station Management Challenges
                 </h2>
-                <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-cyan-400/30">
+                <div className="bg-linear-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                   <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                     Every station based on its lay out, infrastructure, geographical location,
                     facilities offered and type of traffic handled has different areas of concerns and
@@ -1118,7 +1261,7 @@ const OMPage20 = () => {
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Passenger Terminals */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-cyan-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <Users className="w-5 h-5 mr-2" />
                         Major Passenger Terminals
@@ -1131,7 +1274,7 @@ const OMPage20 = () => {
                     </div>
 
                     {/* Freight Terminals */}
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                         <Train className="w-5 h-5 mr-2" />
                         Freight Terminals
@@ -1144,7 +1287,7 @@ const OMPage20 = () => {
                     </div>
                   </div>
 
-                  <div className="mt-6 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-lg py-6 lg:px-4 px-2 border border-cyan-400/30">
+                  <div className="mt-6 bg-linear-to-r from-cyan-500/20 to-blue-500/20 rounded-lg py-6 lg:px-4 px-2 border border-cyan-400/30">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed text-center">
                       With all train running and user activities happening, stations will
                       continue to be a vital unit in operations.

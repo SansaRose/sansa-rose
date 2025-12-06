@@ -203,33 +203,33 @@ const BWMPartC = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-violet-900 to-fuchsia-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-violet-900 to-fuchsia-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-purple-400/20 to-violet-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-fuchsia-400/20 to-violet-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-purple-400/10 to-fuchsia-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-purple-400/20 to-violet-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-fuchsia-400/20 to-violet-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-purple-400/10 to-fuchsia-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-8">
-            <div className="inline-block p-2 bg-gradient-to-r from-purple-500/20 to-violet-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-purple-500 to-violet-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-purple-500/20 to-violet-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-purple-500 to-violet-600 p-3 rounded-full">
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-purple-100 to-violet-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-purple-100 to-violet-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               BLOCK WORKING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-xl font-bold text-fuchsia-300 mb-4">PART-C - DOUBLE LINE BWMD</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-violet-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-purple-500 to-violet-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Complete Chapter Index for Block Working Manual Part-C - Comprehensive guide covering all 8 chapters 
               with detailed procedures, safety protocols, and operational guidelines for double line block working.
             </p>
-            <div className="mt-6 bg-gradient-to-r from-purple-500/20 to-violet-500/20 rounded-lg p-4 backdrop-blur-sm border border-purple-400/30">
+            <div className="mt-6 bg-linear-to-r from-purple-500/20 to-violet-500/20 rounded-lg p-4 backdrop-blur-sm border border-purple-400/30">
               <p className="text-purple-200 font-medium">BWMD 2008 - For Official Use Only</p>
             </div>
           </div>
@@ -244,7 +244,7 @@ const BWMPartC = () => {
                 >
                   {/* Chapter Header */}
                   <div 
-                    className={`bg-gradient-to-r ${chapter.color} text-white p-6 cursor-pointer hover:brightness-110 transition-all duration-300`}
+                    className={`bg-linear-to-r ${chapter.color} text-white p-6 cursor-pointer hover:brightness-110 transition-all duration-300`}
                     onClick={() => toggleChapter(chapter.id)}
                   >
                     <div className="flex flex-col items-center text-center">
@@ -294,7 +294,7 @@ const BWMPartC = () => {
                             key={index}
                             className="flex items-start space-x-4 py-4 lg:px-4 px-2 bg-white/5 backdrop-blur-sm rounded-lg hover:bg-white/10 transition-all duration-300 border border-white/10"
                           >
-                            <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
+                            <div className="shrink-0 w-8 h-8 bg-linear-to-r from-purple-500 to-violet-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
                               {index + 1}
                             </div>
                             <div className="flex-1">
@@ -312,7 +312,7 @@ const BWMPartC = () => {
                                   className={`flex items-center space-x-2 px-3 py-1.5 text-white text-sm font-medium rounded-md transition-all duration-300 ${
                                     openingPDF === rule.page
                                       ? 'bg-gray-500 cursor-not-allowed'
-                                      : 'bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 hover:shadow-lg hover:scale-105'
+                                      : 'bg-linear-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 hover:shadow-lg hover:scale-105'
                                   }`}
                                 >
                                   {openingPDF === rule.page ? (
@@ -331,7 +331,7 @@ const BWMPartC = () => {
                                   className={`flex items-center space-x-2 px-3 py-1.5 text-white text-sm font-medium rounded-md transition-all duration-300 ${
                                     openingContent === rule.page
                                       ? 'bg-gray-500 cursor-not-allowed'
-                                      : 'bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:shadow-lg hover:scale-105'
+                                      : 'bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:shadow-lg hover:scale-105'
                                   }`}
                                 >
                                   {openingContent === rule.page ? (

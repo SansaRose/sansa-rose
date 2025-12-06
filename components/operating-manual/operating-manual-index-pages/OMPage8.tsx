@@ -26,28 +26,28 @@ import {
 
 const OMPage8 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Building2 className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Chapter II - Station Buildings & Operations</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding station infrastructure, passenger amenities, 
               and operational procedures in railway stations.
@@ -58,18 +58,18 @@ const OMPage8 = () => {
           <div className="space-y-6">
             
             {/* Station Buildings */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Building2 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Buildings
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <div className="space-y-6">
                   {/* Technical Buildings */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
                       <Settings className="w-5 h-5 mr-2" />
                       Technical Infrastructure
                     </h4>
@@ -77,12 +77,12 @@ const OMPage8 = () => {
                       The station equipment are housed in buildings like Panel room, Relay room, Cabins etc. 
                       These along with other rooms critical to train running like Running rooms, Crew lobby are kept away from public.
                     </p>
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-blue-200 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 border border-white/20">
+                      <h5 className="font-semibold text-blue-200 mb-2 flex flex-col gap-2 items-center">
                         <Lock className="w-4 h-4 mr-2" />
                         Security Features
                       </h5>
-                      <p className="text-sm text-gray-200">
+                      <p className="text-base text-gray-200">
                         Relay rooms are double key locked so as to ensure only authorized S&T personnel can have access 
                         and only with the knowledge of the on duty SM.
                       </p>
@@ -90,24 +90,24 @@ const OMPage8 = () => {
                   </div>
 
                   {/* Service Buildings */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-cyan-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-cyan-300 mb-3 flex flex-col gap-2 items-center">
                       <Zap className="w-5 h-5 mr-2" />
                       Service Buildings
                     </h4>
-                    <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4">
                       Service buildings like power supply room, ARME, Train lighting staff room are also located nearer 
                       so that they are readily accessible when required.
                     </p>
                   </div>
 
                   {/* Passenger Amenities */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
                       <Users className="w-5 h-5 mr-2" />
                       Passenger Amenities
                     </h4>
-                    <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4">
                       Passenger and other user amenities are made with easy access for passengers/users as per the service 
                       they provide and foot fall expected.
                     </p>
@@ -117,52 +117,52 @@ const OMPage8 = () => {
             </div>
 
             {/* Passenger & User Amenities */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Passenger & User Amenities
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <div className="space-y-6">
                   
                   {/* Platforms */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-green-300 mb-3 flex flex-col gap-2 items-center">
                       <Square className="w-5 h-5 mr-2" />
                       Platforms
                     </h4>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                      <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 border border-white/20">
                         <h6 className="font-semibold text-green-200 mb-2">Passenger Platforms</h6>
-                        <p className="text-xs text-gray-200">
+                        <p className="text-sm text-gray-200">
                           Passenger platforms are provided at the station to facilitate the boarding/alighting of passengers.
                         </p>
                       </div>
-                      <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 border border-white/20">
                         <h6 className="font-semibold text-emerald-200 mb-2">Goods Shed Platforms</h6>
-                        <p className="text-xs text-gray-200">
+                        <p className="text-sm text-gray-200">
                           Goods shed platforms are provided to facilitate loading/unloading freight/parcel trains.
                         </p>
                       </div>
                     </div>
-                    <div className="mt-4 bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-green-200 mb-2 flex items-center">
+                    <div className="mt-4 bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 border border-white/20">
+                      <h5 className="font-semibold text-green-200 mb-2 flex flex-col gap-2 items-center">
                         <Train className="w-4 h-4 mr-2" />
                         Platform Specifications
                       </h5>
                       <ul className="space-y-2 text-sm text-gray-200">
                         <li className="flex items-start">
-                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
                           Number of platforms varies from station to station based on the quantum of traffic dealt
                         </li>
                         <li className="flex items-start">
-                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
                           Platform length has to accommodate the longest train dealt on it
                         </li>
                         <li className="flex items-start">
-                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
                           Suburban train platforms are of higher level while goods shed platforms are generally ground level
                         </li>
                       </ul>
@@ -171,8 +171,8 @@ const OMPage8 = () => {
 
                   {/* Office Facilities */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
                         <Ticket className="w-5 h-5 mr-2" />
                         Enquiry/Booking Office
                       </h4>
@@ -182,8 +182,8 @@ const OMPage8 = () => {
                       </p>
                     </div>
 
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-green-300 mb-3 flex flex-col gap-2 items-center">
                         <Calendar className="w-5 h-5 mr-2" />
                         Reservation Office
                       </h4>
@@ -195,8 +195,8 @@ const OMPage8 = () => {
 
                   {/* Parcel & Goods */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
                         <Package className="w-5 h-5 mr-2" />
                         Parcel Office
                       </h4>
@@ -206,8 +206,8 @@ const OMPage8 = () => {
                       </p>
                     </div>
 
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-green-300 mb-3 flex flex-col gap-2 items-center">
                         <Warehouse className="w-5 h-5 mr-2" />
                         Goods Shed
                       </h4>
@@ -220,8 +220,8 @@ const OMPage8 = () => {
 
                   {/* Accommodation & Facilities */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
                         <Home className="w-5 h-5 mr-2" />
                         Waiting Halls
                       </h4>
@@ -231,8 +231,8 @@ const OMPage8 = () => {
                       </p>
                     </div>
 
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-green-300 mb-3 flex flex-col gap-2 items-center">
                         <Bed className="w-5 h-5 mr-2" />
                         Retiring Rooms/Dormitories
                       </h4>
@@ -245,32 +245,32 @@ const OMPage8 = () => {
 
                   {/* Additional Services */}
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h5 className="font-semibold text-emerald-200 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h5 className="font-semibold text-emerald-200 mb-2 flex flex-col gap-2 items-center">
                         <Luggage className="w-4 h-4 mr-2" />
                         Cloak Rooms
                       </h5>
-                      <p className="text-xs text-gray-200">
+                      <p className="text-sm text-gray-200">
                         Facility is provided for passengers to deposit their luggage in case they do not want to carry with them during their stay.
                       </p>
                     </div>
 
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h5 className="font-semibold text-green-200 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h5 className="font-semibold text-green-200 mb-2 flex flex-col gap-2 items-center">
                         <Megaphone className="w-4 h-4 mr-2" />
                         Sign Boards/Displays
                       </h5>
-                      <p className="text-xs text-gray-200">
+                      <p className="text-sm text-gray-200">
                         Display boards and PA system are provided for passengers to know about train details and directions.
                       </p>
                     </div>
 
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h5 className="font-semibold text-emerald-200 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h5 className="font-semibold text-emerald-200 mb-2 flex flex-col gap-2 items-center">
                         <Toilet className="w-4 h-4 mr-2" />
                         Public Utilities
                       </h5>
-                      <p className="text-xs text-gray-200">
+                      <p className="text-sm text-gray-200">
                         Toilets and bathing facilities are provided on platforms. Maintained by railways at way side stations and run under pay and use system at major stations.
                       </p>
                     </div>
@@ -278,8 +278,8 @@ const OMPage8 = () => {
 
                   {/* Food & Utility Stalls */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-green-300 mb-3 flex flex-col gap-2 items-center">
                         <Coffee className="w-5 h-5 mr-2" />
                         Food Stalls
                       </h4>
@@ -288,8 +288,8 @@ const OMPage8 = () => {
                       </p>
                     </div>
 
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                      <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                      <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
                         <ShoppingBag className="w-5 h-5 mr-2" />
                         Utility Stalls
                       </h4>
@@ -304,19 +304,19 @@ const OMPage8 = () => {
             </div>
 
             {/* Train Operations at Station */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Train Operations at Station
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="space-y-6">
                   
                   {/* Operating Rules */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex flex-col gap-2 items-center">
                       <FileText className="w-5 h-5 mr-2" />
                       Operating Rules & Procedures
                     </h4>
@@ -329,8 +329,8 @@ const OMPage8 = () => {
                   </div>
 
                   {/* Temporary Working Instructions */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-pink-300 mb-3 flex flex-col gap-2 text-center items-center">
                       <AlertCircle className="w-5 h-5 mr-2" />
                       Temporary Working Instructions (TWI)
                     </h4>
@@ -341,8 +341,8 @@ const OMPage8 = () => {
                   </div>
 
                   {/* Additional Instructions */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex flex-col gap-2 text-center items-center">
                       <Database className="w-5 h-5 mr-2" />
                       Additional Operational Instructions
                     </h4>
@@ -356,15 +356,7 @@ const OMPage8 = () => {
             </div>
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-4 backdrop-blur-sm border border-white/20">
-              <Building2 className="w-8 h-8 text-gray-300" />
-            </div>
-            <p className="text-gray-300">
-              Operating Manual - Chapter II: Station Buildings & Operations
-            </p>
-          </div>
+          
         </div>
       </div>
 

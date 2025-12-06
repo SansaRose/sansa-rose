@@ -23,28 +23,28 @@ import {
 
 const OMPage3 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Building2 className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Chapter II - Working of Stations</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+              <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding station operations, yard management, 
               signaling systems, and interlocking mechanisms in railway operations.
@@ -57,12 +57,12 @@ const OMPage3 = () => {
             {/* Station Definition */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <MapPin className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Definition
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4">
                   Station is a nodal point in dealing trains. As per GR 1.02 (51), „station means
                   any place on a line of railway at which traffic is dealt with, or at which an authority to
@@ -80,12 +80,12 @@ const OMPage3 = () => {
             {/* Station Yard */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Yard
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   A station yard is basically a grid of lines where trains are dealt. The grid is made of
                   tracks which are connected to each other through points and crossings.
@@ -184,12 +184,12 @@ const OMPage3 = () => {
             {/* Signals */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Signal className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Signals
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   The movement of trains in station yards is controlled through signals. Signals are of
                   various types viz. fixed signals, hand signals, detonating signals and warning
@@ -239,12 +239,12 @@ const OMPage3 = () => {
             {/* Station Yard Features */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Yard Features
               </h2>
-              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
+              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
                 
                 {/* Station Gradient */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
@@ -289,15 +289,15 @@ const OMPage3 = () => {
                   </p>
                   <ul className="space-y-2 text-sm text-gray-200">
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
                       Connection to another line or long siding
                     </li>
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
                       Provision of short dead end siding
                     </li>
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
                       Provision of trap
                     </li>
                   </ul>
@@ -323,12 +323,12 @@ const OMPage3 = () => {
             {/* Interlocking */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Network className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Interlocking
               </h2>
-              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
+              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Signals are usually interlocked with track/routes through track circuiting & relays.
                   Such an arrangement of signals, points and track circuits/axle counters, operated
@@ -345,21 +345,21 @@ const OMPage3 = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <ul className="space-y-2 text-sm text-gray-200">
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-indigo-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-indigo-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         Setting of route
                       </li>
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-indigo-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-indigo-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         Locking of route
                       </li>
                     </ul>
                     <ul className="space-y-2 text-sm text-gray-200">
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         Holding of route
                       </li>
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         Preventing conflicting movements
                       </li>
                     </ul>
@@ -375,31 +375,31 @@ const OMPage3 = () => {
                     </h4>
                     <ul className="space-y-4 text-sm text-gray-200 pl-1">
                       <li className="flex items-start">
-                        <Settings className="w-4 h-4 text-indigo-400 mt-1 mr-3 flex-shrink-0" />
+                        <Settings className="w-4 h-4 text-indigo-400 mt-1 mr-3 shrink-0" />
                         <span>
                           In yards where points and signals are operated by levers, the sequence of pulling levers is ensured by mechanical arrangements in lever frames.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Lock className="w-4 h-4 text-blue-400 mt-1 mr-3 flex-shrink-0" />
+                        <Lock className="w-4 h-4 text-blue-400 mt-1 mr-3 shrink-0" />
                         <span>
                           Lock bars are provided for locking points.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Users className="w-4 h-4 text-indigo-300 mt-1 mr-3 flex-shrink-0" />
+                        <Users className="w-4 h-4 text-indigo-300 mt-1 mr-3 shrink-0" />
                         <span>
                           Mechanical slots are provided for ensuring coordination between staff to enable a single operation.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <MoveHorizontal className="w-4 h-4 text-blue-300 mt-1 mr-3 flex-shrink-0" />
+                        <MoveHorizontal className="w-4 h-4 text-blue-300 mt-1 mr-3 shrink-0" />
                         <span>
                           Such interlocking is restricted by the size of the lever frames and hence not feasible for bigger yards.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Wrench className="w-4 h-4 text-indigo-400 mt-1 mr-3 flex-shrink-0" />
+                        <Wrench className="w-4 h-4 text-indigo-400 mt-1 mr-3 shrink-0" />
                         <span>
                           It is also maintenance intensive as alignments need to be consistently checked and maintained so that levers operate smoothly and interlocking is not compromised.
                         </span>
@@ -415,25 +415,25 @@ const OMPage3 = () => {
                     </h4>
                     <ul className="space-y-4 text-sm text-gray-200 pl-1">
                       <li className="flex items-start">
-                        <Zap className="w-4 h-4 text-blue-400 mt-1 mr-3 flex-shrink-0" />
+                        <Zap className="w-4 h-4 text-blue-400 mt-1 mr-3 shrink-0" />
                         <span>
                           Electromagnetic relays connected to track circuits, point machines and signals are used in relay interlocking.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Monitor className="w-4 h-4 text-indigo-400 mt-1 mr-3 flex-shrink-0" />
+                        <Monitor className="w-4 h-4 text-indigo-400 mt-1 mr-3 shrink-0" />
                         <span>
                           When operations of points and signals in the station are enabled through panels, such interlocking is named as <span className="font-semibold text-blue-200">Panel Interlocking (PI)</span>.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Route className="w-4 h-4 text-blue-300 mt-1 mr-3 flex-shrink-0" />
+                        <Route className="w-4 h-4 text-blue-300 mt-1 mr-3 shrink-0" />
                         <span>
                           In bigger yards, where interlocking is done between one route and another so that simultaneous operation for various routes does not lead to conflicting movements, it is named as <span className="font-semibold text-blue-200">Route Relay Interlocking (RRI)</span>.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Signal className="w-4 h-4 text-indigo-300 mt-1 mr-3 flex-shrink-0" />
+                        <Signal className="w-4 h-4 text-indigo-300 mt-1 mr-3 shrink-0" />
                         <span>
                           In RRI, the Station Master need not operate individual points in a route and can take off signals by pressing the concerned signal button and route button.
                         </span>
@@ -449,31 +449,31 @@ const OMPage3 = () => {
                     </h4>
                     <ul className="space-y-4 text-sm text-gray-200 pl-1">
                       <li className="flex items-start">
-                        <Cpu className="w-4 h-4 text-indigo-400 mt-1 mr-3 flex-shrink-0" />
+                        <Cpu className="w-4 h-4 text-indigo-400 mt-1 mr-3 shrink-0" />
                         <span>
                           Interlocking is achieved through computerized microprocessor-based software.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Network className="w-4 h-4 text-blue-400 mt-1 mr-3 flex-shrink-0" />
+                        <Network className="w-4 h-4 text-blue-400 mt-1 mr-3 shrink-0" />
                         <span>
                           Inputs are received via relays connected to track circuits, point machines, and signals.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Wrench className="w-4 h-4 text-indigo-300 mt-1 mr-3 flex-shrink-0" />
+                        <Wrench className="w-4 h-4 text-indigo-300 mt-1 mr-3 shrink-0" />
                         <span>
                           The complex sets of relays required for route-wise interlocking in RRI are replaced by compact computer hardware running dedicated software.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Gauge className="w-4 h-4 text-blue-300 mt-1 mr-3 flex-shrink-0" />
+                        <Gauge className="w-4 h-4 text-blue-300 mt-1 mr-3 shrink-0" />
                         <span>
                           This system is highly advanced, easy to maintain, and considered the safest.
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <Shield className="w-4 h-4 text-indigo-400 mt-1 mr-3 flex-shrink-0" />
+                        <Shield className="w-4 h-4 text-indigo-400 mt-1 mr-3 shrink-0" />
                         <span>
                           Subjected to rigorous testing both in the factory and on site, making it less prone to interference.
                         </span>

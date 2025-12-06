@@ -92,30 +92,30 @@ const SWR = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+      {/* Animated Background Elements */}  
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-12 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-16">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               STATION WORKING RULES
             </h1>
             <h2 className="lg:text-4xl text-xl font-bold text-cyan-300 mb-4">Appendix - XIV</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="text-lg text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to station working rules and procedures for railway operations, 
               ensuring systematic control and monitoring of train movements.
@@ -125,7 +125,7 @@ const SWR = () => {
           {/* Topics Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-8 px-4 mb-12 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-blue-500 to-purple-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-blue-500 to-purple-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
@@ -137,10 +137,10 @@ const SWR = () => {
               {topics.map((topic, index) => (
                 <div
                   key={index}
-                  className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-lg p-4 shadow-lg border border-blue-400/30 hover:shadow-xl hover:scale-105 hover:-translate-y-1 transition-all duration-300 group"
-                >
+                  className="bg-linear-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-lg p-4 shadow-lg border border-blue-400/30 hover:shadow-xl hover:scale-105 hover:-translate-y-1 transition-all duration-300 group"
+                > 
                   <div className="flex items-start">
-                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-full lg:w-8 lg:h-8 w-6 h-6 flex items-center justify-center mr-4 mt-1 group-hover:scale-110 transition-transform duration-300">
+                    <div className="bg-linear-to-r from-blue-500 to-purple-600 rounded-full lg:w-8 lg:h-8 w-6 h-6 flex items-center justify-center mr-4 mt-1 group-hover:scale-110 transition-transform duration-300">
                       <span className="text-white font-bold lg:text-sm text-xs">{index + 1}</span>
                     </div>
                     <p className="text-gray-200 leading-relaxed lg:text-lg text-base group-hover:text-white transition-colors duration-300">{topic}</p>
@@ -153,7 +153,7 @@ const SWR = () => {
           {/* Appendices Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-8 px-4 mb-12 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-amber-500 to-yellow-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-amber-500 to-yellow-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
@@ -166,7 +166,7 @@ const SWR = () => {
               {appendices.map((appendix, index) => (
                 <div
                   key={index}
-                  className="bg-gradient-to-br from-amber-500/20 to-yellow-500/20 backdrop-blur-lg rounded-xl p-4 lg:p-6 shadow-lg border border-amber-400/30 hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 group"
+                  className="bg-linear-to-br from-amber-500/20 to-yellow-500/20 backdrop-blur-lg rounded-xl p-4 lg:p-6 shadow-lg border border-amber-400/30 hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 group"
                 >
                   <div className="text-center mb-4">
                     <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">{appendix.icon}</div>
@@ -182,7 +182,7 @@ const SWR = () => {
           {/* Key Features Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-8 px-4 mb-12 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -220,7 +220,7 @@ const SWR = () => {
           {/* Implementation Guidelines */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-8 px-4 mb-12 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-3 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
@@ -228,9 +228,9 @@ const SWR = () => {
               Implementation Guidelines
             </h2>
             <div className="space-y-8">
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl p-4 lg:p-8 shadow-lg border border-purple-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl p-4 lg:p-8 shadow-lg border border-purple-400/30 hover:shadow-xl transition-all duration-300">
                 <h3 className="lg:text-2xl text-xl font-bold text-white mb-6 flex lg:flex-row flex-col gap-3 items-center">
-                  <span className="w-4 h-4 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mr-3 animate-pulse"></span>
+                  <span className="w-4 h-4 bg-linear-to-br from-purple-500 to-pink-500 rounded-full mr-3 animate-pulse"></span>
                   Documentation Requirements
                 </h3>
                 <div className="grid md:grid-cols-2 lg:gap-6 gap-3">
@@ -256,7 +256,7 @@ const SWR = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-2xl p-5 text-white text-center">
+          <div className="bg-linear-to-r from-blue-600 to-purple-600 rounded-2xl shadow-2xl p-5 text-white text-center">
             <h3 className="lg:text-3xl text-2xl font-bold mb-4">Ready to Master Station Working Rules?</h3>
             <p className="lg:text-xl text-base mb-8 opacity-90 max-w-3xl mx-auto">
               Explore our comprehensive study materials and practice tests to excel in your railway examinations.

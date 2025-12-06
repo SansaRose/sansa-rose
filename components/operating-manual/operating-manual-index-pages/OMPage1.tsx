@@ -24,28 +24,28 @@ import {
 
 const OMPage1 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+      {/* Animated Background Elements */}  
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
-                <BookOpen className="w-8 h-8 text-white" />
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+                <BookOpen className="w-8 h-8 text-white" /> 
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Chapter I - Introduction</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding the fundamentals of railway operations, 
               infrastructure, and the evolution of Indian Railways as a world-class transportation system.
@@ -58,15 +58,15 @@ const OMPage1 = () => {
             {/* Historical Background */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Historical Background
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4">
-                    <span className="bg-gradient-to-r from-gray-700 to-blue-400 p-2 rounded-full flex items-center justify-center mt-1">
+                    <span className="bg-linear-to-r from-gray-700 to-blue-400 p-2 rounded-full flex items-center justify-center mt-1">
                       <Factory className="lg:w-6 lg:h-6 w-4 h-4 text-cyan-300" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -74,7 +74,7 @@ const OMPage1 = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="bg-gradient-to-r from-blue-500 to-cyan-500 p-2 rounded-full flex items-center justify-center mt-1">
+                    <span className="bg-linear-to-r from-blue-500 to-cyan-500 p-2 rounded-full flex items-center justify-center mt-1">
                       <Ship className="lg:w-6 lg:h-6 w-4 h-4 text-blue-200" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -82,7 +82,7 @@ const OMPage1 = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="bg-gradient-to-r from-cyan-500 to-blue-400 p-2 rounded-full flex items-center justify-center mt-1">
+                    <span className="bg-linear-to-r from-cyan-500 to-blue-400 p-2 rounded-full flex items-center justify-center mt-1">
                       <Settings className="lg:w-6 lg:h-6 w-4 h-4 text-blue-300" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -90,7 +90,7 @@ const OMPage1 = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="bg-gradient-to-r from-blue-400 to-cyan-400 p-2 rounded-full flex items-center justify-center mt-1">
+                    <span className="bg-linear-to-r from-blue-400 to-cyan-400 p-2 rounded-full flex items-center justify-center mt-1">
                       <TrendingUp className="lg:w-6 lg:h-6 w-4 h-4 text-blue-300" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -104,12 +104,12 @@ const OMPage1 = () => {
             {/* Indian Railways Overview */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Globe className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Indian Railways Overview
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30 mb-6">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30 mb-6">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Of all the national railway networks in the world, Indian Railways is the fourth
                   largest. It carries about 8 billion passengers and 1.4 billion tonnes of freight per
@@ -139,12 +139,12 @@ const OMPage1 = () => {
             {/* South Central Railway */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Building2 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 South Central Railway (SCR)
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30 mb-6">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30 mb-6">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Among the zones, South Central Railway is the 5th largest in terms of freight
                   loading and 8th largest in terms of passenger trains run.
@@ -159,19 +159,19 @@ const OMPage1 = () => {
                     </h4>
                     <ul className="space-y-2 text-sm text-gray-200">
                       <li className="flex items-start">
-                        <Factory className="w-4 h-4 text-purple-400 mr-2 mt-0.5 flex-shrink-0" />
+                        <Factory className="w-4 h-4 text-purple-400 mr-2 mt-0.5 shrink-0" />
                         Coal mines of Singareni and Western Coal fields
                       </li>
                       <li className="flex items-start">
-                        <Factory className="w-4 h-4 text-purple-400 mr-2 mt-0.5 flex-shrink-0" />
+                        <Factory className="w-4 h-4 text-purple-400 mr-2 mt-0.5 shrink-0" />
                         Cement industries in Tadipatri, Manikgarh, Malkhaid, Tandur and Jaggiyapet
                       </li>
                       <li className="flex items-start">
-                        <Ship className="w-4 h-4 text-purple-400 mr-2 mt-0.5 flex-shrink-0" />
+                        <Ship className="w-4 h-4 text-purple-400 mr-2 mt-0.5 shrink-0" />
                         Major ports: Krishnapatnam and Kakinada
                       </li>
                       <li className="flex items-start">
-                        <Truck className="w-4 h-4 text-purple-400 mr-2 mt-0.5 flex-shrink-0" />
+                        <Truck className="w-4 h-4 text-purple-400 mr-2 mt-0.5 shrink-0" />
                         Food grain loading by FCI and State civil supplies
                       </li>
                     </ul>
@@ -204,33 +204,33 @@ const OMPage1 = () => {
             {/* Network Operations */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Network Operations
               </h2>
-              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
+              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <Train className="w-5 h-5 text-orange-400 mr-3 mt-1 flex-shrink-0" />
+                    <Train className="w-5 h-5 text-orange-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       Train operations in the SCR network are spread across <span className="font-semibold text-orange-300">600 stations</span>.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <MapPin className="w-5 h-5 text-red-400 mr-3 mt-1 flex-shrink-0" />
+                    <MapPin className="w-5 h-5 text-red-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       Understanding of <span className="font-semibold text-orange-300">Stations</span>, <span className="font-semibold text-orange-300">Trains</span>, and their working is fundamental to train operations.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <BookOpen className="w-5 h-5 text-orange-400 mr-3 mt-1 flex-shrink-0" />
+                    <BookOpen className="w-5 h-5 text-orange-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       These aspects are covered in the <span className="font-semibold text-orange-300">first two chapters</span> of the manual.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <Users className="w-5 h-5 text-red-400 mr-3 mt-1 flex-shrink-0" />
+                    <Users className="w-5 h-5 text-red-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       The <span className="font-semibold text-orange-300">Control Organization</span> chapter follows, acting as the nerve center for coordinating train operations across stations, sections, divisions, and zones.
                     </span>
@@ -242,39 +242,39 @@ const OMPage1 = () => {
             {/* Maintenance & Operations */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Shield className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Maintenance & Operations
               </h2>
-              <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 <ul className="space-y-5">
                   <li className="flex items-start">
-                    <Settings className="w-6 h-6 text-pink-400 mr-3 mt-1 flex-shrink-0" />
+                    <Settings className="w-6 h-6 text-pink-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       In Railways, <span className="font-semibold text-pink-300">operations and maintenance</span> are closely linked, ensuring smooth and safe train running.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <PauseCircle className="w-6 h-6 text-red-400 mr-3 mt-1 flex-shrink-0" />
+                    <PauseCircle className="w-6 h-6 text-red-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       Maintenance activities that require <span className="font-semibold text-pink-300">operational downtime</span> can impact train schedules as they consume valuable path.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <BookOpen className="w-6 h-6 text-pink-400 mr-3 mt-1 flex-shrink-0" />
+                    <BookOpen className="w-6 h-6 text-pink-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       The <span className="font-semibold text-pink-300">chapter on traffic blocks</span> in the manual addresses these operational challenges in detail.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <AlertTriangle className="w-6 h-6 text-red-400 mr-3 mt-1 flex-shrink-0" />
+                    <AlertTriangle className="w-6 h-6 text-red-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       Large-scale daily train operations are susceptible to <span className="font-semibold text-pink-300">failures and unusual occurrences</span>. If not detected or addressed, these can lead to unsafe situations.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <FileText className="w-6 h-6 text-pink-400 mr-3 mt-1 flex-shrink-0" />
+                    <FileText className="w-6 h-6 text-pink-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       The <span className="font-semibold text-pink-300">fifth chapter</span> of the manual briefly covers some of the important unusual incidents and their management.
                     </span>
@@ -286,12 +286,12 @@ const OMPage1 = () => {
             {/* Operational Efficiency */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Target className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Operational Efficiency
               </h2>
-              <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-emerald-400/30">
+              <div className="bg-linear-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-emerald-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   In order to attain the best operational efficiency, all assets have to be utilized
                   in the best possible way. The final output i.e. train running depends on how
@@ -303,31 +303,31 @@ const OMPage1 = () => {
                 {/* Operational Efficiency List */}
                 <ul className="space-y-5">
                   <li className="flex items-start">
-                    <TrendingUp className="w-6 h-6 text-emerald-400 mr-3 mt-1 flex-shrink-0" />
+                    <TrendingUp className="w-6 h-6 text-emerald-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-emerald-300">Maximize Asset Utilization:</span> Efficient use of all available resources is essential for optimal train operations.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <BarChart3 className="w-6 h-6 text-teal-400 mr-3 mt-1 flex-shrink-0" />
+                    <BarChart3 className="w-6 h-6 text-teal-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-emerald-300">Performance Measurement:</span> Key indices and statistics are used to monitor and improve operational performance.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <Settings className="w-6 h-6 text-emerald-400 mr-3 mt-1 flex-shrink-0" />
+                    <Settings className="w-6 h-6 text-emerald-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-emerald-300">Coordination:</span> Seamless coordination between departments ensures smooth train running and minimizes delays.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <Users className="w-6 h-6 text-teal-400 mr-3 mt-1 flex-shrink-0" />
+                    <Users className="w-6 h-6 text-teal-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-emerald-300">Teamwork:</span> Collaborative efforts among staff at all levels drive operational excellence.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <TrendingUp className="w-6 h-6 text-emerald-400 mr-3 mt-1 flex-shrink-0" />
+                    <TrendingUp className="w-6 h-6 text-emerald-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-emerald-300">Continuous Improvement:</span> Regular analysis and adaptation help in achieving higher efficiency and better results.
                     </span>
@@ -339,40 +339,40 @@ const OMPage1 = () => {
             {/* Safety & Monitoring */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-yellow-500 to-amber-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-yellow-500 to-amber-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Eye className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Safety & Monitoring
               </h2>
-              <div className="bg-gradient-to-br from-yellow-500/20 to-amber-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
+              <div className="bg-linear-to-br from-yellow-500/20 to-amber-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                 <ul className="space-y-5">
                   <li className="flex items-start">
-                    <Shield className="w-6 h-6 text-yellow-400 mr-3 mt-1 flex-shrink-0" />
+                    <Shield className="w-6 h-6 text-yellow-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-yellow-300">Safe Working Practices:</span> All activities at stations, on trains, in control offices, and at work sites must be performed with utmost safety to ensure smooth operations.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <Eye className="w-6 h-6 text-amber-400 mr-3 mt-1 flex-shrink-0" />
+                    <Eye className="w-6 h-6 text-amber-400 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-yellow-300">Continuous Monitoring:</span> Supervisory and officer levels closely monitor all operational activities to maintain high safety standards.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <AlertTriangle className="w-6 h-6 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                    <AlertTriangle className="w-6 h-6 text-yellow-500 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-yellow-300">Inspections:</span> Regular inspections are conducted to assess the quality and effectiveness of safety measures.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <FileText className="w-6 h-6 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <FileText className="w-6 h-6 text-amber-500 mr-3 mt-1 shrink-0" />
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
                       <span className="font-semibold text-yellow-300">Documentation:</span> Proper records of inspections and monitoring activities are maintained for accountability and improvement.
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <PauseCircle className="w-6 h-6 text-yellow-400 mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <PauseCircle className="w-6 h-6 text-yellow-400 mr-3 mt-1 shrink-0" />
+                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed mr-3">
                       <span className="font-semibold text-yellow-300">Corrective Actions:</span> Any deficiencies found during monitoring or inspections are promptly addressed to uphold safety in train operations.
                     </span>
                   </li>
@@ -383,40 +383,40 @@ const OMPage1 = () => {
             {/* Planning & Growth */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <TrendingUp className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Planning & Growth
               </h2>
-              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
+              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4">
-                    <Target className="w-6 h-6 text-indigo-400 mt-1 flex-shrink-0" />
-                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <Target className="w-6 h-6 text-indigo-400 mt-1 shrink-0 mr-3" />
+                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed mr-3">
                       <span className="font-semibold text-indigo-200">Continuous Planning:</span> Organizations must plan continuously to adapt to changing demands and business patterns.
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <Building2 className="w-6 h-6 text-blue-400 mt-1 flex-shrink-0" />
-                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <Building2 className="w-6 h-6 text-blue-400 mt-1 shrink-0" />
+                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed mr-3">
                       <span className="font-semibold text-indigo-200">Long Gestation Projects:</span> Railway projects require significant time for completion, making early and careful planning essential.
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <BarChart3 className="w-6 h-6 text-indigo-300 mt-1 flex-shrink-0" />
-                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <BarChart3 className="w-6 h-6 text-indigo-300 mt-1 shrink-0" />
+                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed mr-3">
                       <span className="font-semibold text-indigo-200">Traffic Forecasting:</span> Planning must consider future scenarios and trends to ensure capacity meets demand.
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <Truck className="w-6 h-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <Truck className="w-6 h-6 text-blue-300 mt-1 shrink-0" />
+                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed mr-3">
                       <span className="font-semibold text-indigo-200">Facility Development:</span> Well-planned traffic facilities ensure smooth train operations and future growth.
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
-                    <FileText className="w-6 h-6 text-indigo-400 mt-1 flex-shrink-0" />
-                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
+                    <FileText className="w-6 h-6 text-indigo-400 mt-1 shrink-0" />
+                    <span className="text-gray-200 lg:text-lg text-base leading-relaxed mr-3">
                       <span className="font-semibold text-indigo-200">Holistic Understanding:</span> Traffic planning is best appreciated after understanding all aspects of train operations, as discussed in the final chapter.
                     </span>
                   </li>

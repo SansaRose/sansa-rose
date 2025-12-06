@@ -29,35 +29,35 @@ const Navbar = () => {
   ]
 
   const actsLinks = [
-    { href: '/acts/workmen-compensation-act-1923', label: 'Workmen Compensation Act, 1923' },
-    { href: '/acts/trade-union-act-1926', label: 'Trade Union Act, 1926' },
-    { href: '/acts/railway-servants-rest-rules-2005', label: 'Railway Servants (Rest) Rules, 2005' },
-    { href: '/acts/rajabhasha', label: 'Rajabhasha' },
-    { href: '/acts/railway-servants-pass-rules-1986', label: 'Railway Servants (Pass) Rules, 1986' },
-    { href: '/acts/industrial-relations-code-2010', label: 'Industrial Relations Code, 2010' },
-    { href: '/acts/factories-act-1948', label: 'Factories Act, 1948' },
-    { href: '/acts/employees-compensation-act-2010', label: 'Employees Compensation Act, 2010' },
-    { href: '/acts/industrial-disputes-act-1947', label: 'Industrial Disputes Act, 1947' },
     { href: '/acts/disaster-management-act-2005', label: 'Disaster Management Act, 2005' },
+    { href: '/acts/employees-compensation-act-2010', label: 'Employees Compensation Act, 2010' },
+    { href: '/acts/factories-act-1948', label: 'Factories Act, 1948' },
+    { href: '/acts/industrial-disputes-act-1947', label: 'Industrial Disputes Act, 1947' },
+    { href: '/acts/industrial-relations-code-2010', label: 'Industrial Relations Code, 2010' },
+    { href: '/acts/indian-railway-acts-1989', label: 'Indian Railway Acts, 1989' },
+    { href: '/acts/official-language-act-1963', label: 'Official Language Act, 1963' },
     { href: '/acts/railway-servants-da-rules-1968', label: 'Railway Servants (DA) Rules, 1968' },
+    { href: '/acts/railway-servants-pass-rules-1986', label: 'Railway Servants (Pass) Rules, 1986' },
+    { href: '/acts/railway-servants-rest-rules-2005', label: 'Railway Servants (Rest) Rules, 2005' },
     { href: '/acts/railway-services-conduct-rules-1966', label: 'Railway Services (Conduct) Rules, 1966' },
     { href: '/acts/right-to-information-act-2005', label: 'Right to Information Act, 2005' },
-    { href: '/acts/indian-railway-acts-1989', label: 'Indian Railway Acts, 1989' },
+    { href: '/acts/trade-union-act-1926', label: 'Trade Union Act, 1926' },
+    { href: '/acts/workmen-compensation-act-1923', label: 'Workmen Compensation Act, 1923' },
   ]
 
   const pdfsLinks = [
-    { href: '/pdfs/general-subsidiary-rules-amendments', label: 'General & Subsidiary Rules Amendments', icon: '📋' },
-    { href: '/pdfs/block-working-manual-amendments', label: 'Block Working Manual Amendments', icon: '🛤️' },
     { href: '/pdfs/accident-manual-amendments', label: 'Accident Manual Amendments', icon: '🚨' },
     { href: '/pdfs/authorities', label: 'Authorities', icon: '📜' },
+    { href: '/pdfs/block-working-manual-amendments', label: 'Block Working Manual Amendments', icon: '🛤️' },
     { href: '/pdfs/circulars', label: 'Circulars', icon: '📄' },
+    { href: '/pdfs/general-subsidiary-rules-amendments', label: 'General & Subsidiary Rules Amendments', icon: '📋' },
   ]
 
   const manualsLinks = [
-    { href: '/manuals/opertaing-manual', label: 'Operating Manual', icon: '📘' },
     { href: '/manuals/accident-manual', label: 'Accident Manual', icon: '⚠️' },
     { href: '/manuals/block-working-manual', label: 'Block Working Manual', icon: '🔧' },
     { href: '/manuals/general-subsidiary-rules', label: 'General Subsidiary Rules', icon: '📋' },
+    { href: '/manuals/opertaing-manual', label: 'Operating Manual', icon: '📘' },
     { href: '/manuals/station-working-rules', label: 'Station Working Rules', icon: '🚉' },
     { href: '/manuals/working-time-table', label: 'Working Time Table', icon: '⏰' },
   ]
@@ -191,7 +191,7 @@ const Navbar = () => {
               
               {/* Dropdown Menu */}
               {isActsDropdownOpen && (
-                <div className="absolute top-full right-0 mt-2 w-[650px] bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
+                <div className="absolute top-full right-0 mt-2 w-[400px] bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
                   {/* Header */}
                   <div className="bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
                     <div className="flex items-center justify-between">
@@ -203,8 +203,8 @@ const Navbar = () => {
                     </div>
                   </div>
                   
-                  {/* Content - Two Column Grid */}
-                  <div className="p-4 grid grid-cols-2 gap-2.5">
+                  {/* Content - Single Column with Scroll */}
+                  <div className="p-4 flex flex-col gap-2.5 max-h-[400px] overflow-y-auto">
                     {actsLinks.map((act) => {
                       const isActive = pathname === act.href
                       const year = act.href.match(/\d{4}/)?.[0] || ''
@@ -664,7 +664,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`md:hidden overflow-y-auto transition-all duration-300 ease-in-out ${
             isMobileMenuOpen ? 'max-h-[800px] opacity-100 pb-4' : 'max-h-0 opacity-0'
           }`}
         >
@@ -710,7 +710,7 @@ const Navbar = () => {
               
               {/* Mobile Acts Dropdown */}
               <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
                   isActsDropdownOpen ? 'max-h-[600px] opacity-100 mt-2' : 'max-h-0 opacity-0'
                 }`}
               >
@@ -762,7 +762,7 @@ const Navbar = () => {
               
               {/* Mobile PDFs Dropdown */}
               <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
                   isPdfsDropdownOpen ? 'max-h-[400px] opacity-100 mt-2' : 'max-h-0 opacity-0'
                 }`}
               >
@@ -815,7 +815,7 @@ const Navbar = () => {
               
               {/* Mobile Manuals Dropdown */}
               <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
                   isManualsDropdownOpen ? 'max-h-[400px] opacity-100 mt-2' : 'max-h-0 opacity-0'
                 }`}
               >
@@ -868,7 +868,7 @@ const Navbar = () => {
               
               {/* Mobile Topics Dropdown */}
               <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
                   isTopicsDropdownOpen ? 'max-h-[400px] opacity-100 mt-2' : 'max-h-0 opacity-0'
                 }`}
               >
