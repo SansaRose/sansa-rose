@@ -152,8 +152,8 @@ const OMPage1 = () => {
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   {/* Freight Operations */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex flex-col gap-2 items-center">
                       <Truck className="w-5 h-5 mr-2" />
                       Freight Operations
                     </h4>
@@ -178,20 +178,30 @@ const OMPage1 = () => {
                   </div>
 
                   {/* Passenger Operations */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
                       <Bus className="w-5 h-5 mr-2" />
                       Passenger Operations
                     </h4>
                     <p className="text-sm text-gray-200 mb-3">
                       Major terminals at:
                     </p>
-                    <div className="grid grid-cols-2 gap-2 text-sm text-gray-200">
-                      <div>• Secunderabad</div>
-                      <div>• Hyderabad</div>
-                      <div>• Vijayawada</div>
-                      <div>• Tirupathy</div>
-                      <div>• Aurangabad</div>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 text-sm">
+                      {[
+                        { name: "Secunderabad", color: "bg-purple-400/80", icon: "🏰" },
+                        { name: "Hyderabad", color: "bg-fuchsia-500/60", icon: "🌆" },
+                        { name: "Vijayawada", color: "bg-rose-500/60", icon: "🌉" },
+                        { name: "Tirupathy", color: "bg-indigo-500/60", icon: "⛩️" },
+                        { name: "Aurangabad", color: "bg-pink-500/70", icon: "🏯" }
+                      ].map(({ name, color, icon }) => (
+                        <div
+                          key={name}
+                          className={`flex items-center gap-3 rounded-lg border border-white/20 ${color} shadow-md px-4 py-2 backdrop-blur-sm hover:scale-[1.03] transition-transform duration-150`}
+                        >
+                          <span className="text-lg lg:text-xl drop-shadow-sm">{icon}</span>
+                          <span className="font-medium text-white tracking-wide">{name}</span>
+                        </div>
+                      ))}
                     </div>
                     <p className="text-sm text-gray-200 mt-3">
                       Strategically placed between zones like ECoR, CR, SWR and SR
@@ -425,15 +435,7 @@ const OMPage1 = () => {
             </div>
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-4 backdrop-blur-sm border border-white/20">
-              <FileText className="w-8 h-8 text-gray-300" />
-            </div>
-            <p className="text-gray-300">
-              Operating Manual - South Central Railway
-            </p>
-          </div>
+          
         </div>
       </div>
 

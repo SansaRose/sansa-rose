@@ -32,28 +32,28 @@ import {
 
 const OMPage29 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+      {/* Animated Background Elements */}  
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Train className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Chapter III - Working of Trains</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding train operations, components, crew management, 
               and systems of working in railway operations.
@@ -64,14 +64,14 @@ const OMPage29 = () => {
           <div className="space-y-6">
             
             {/* Train Definition */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Train Definition
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                 <ul className="space-y-5">
                   <li className="flex items-start gap-3">
                     <span className="mt-1">
@@ -108,43 +108,51 @@ const OMPage29 = () => {
             </div>
 
             {/* Components of a Train */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Components of a Train
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 
                 {/* Locomotive */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
                   <h4 className="font-semibold text-green-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center">
                     <Zap className="w-5 h-5 mr-2" />
                     Locomotive
                   </h4>
-                  <ul className="space-y-4 ml-2">
-                    <li className="flex items-start gap-3">
-                      <ArrowUpRight className="w-5 h-5 text-green-400 mt-1" />
-                      <span className="text-sm text-gray-200">
+                  <ul className="space-y-6 ml-2">
+                    <li className="group flex items-start gap-4 transition-all">
+                      <div className="shrink-0 rounded-full bg-green-700/30 group-hover:scale-110 ring-2 ring-green-400/40 shadow-lg p-2 transition-all duration-300">
+                        <ArrowUpRight className="lg:w-6 lg:h-6 w-4 h-4 text-green-300 group-hover:text-green-400 transition" />
+                      </div>
+                      <span className="text-base text-gray-100 px-2 py-1 rounded-lg bg-linear-to-br from-green-400/5 to-white/5 shadow-inner group-hover:from-green-500/10 group-hover:to-white/10 transition-all duration-300">
                         A locomotive or engine provides the motive power for hauling a train. It is normally attached in front of the train for hauling the formation behind. In few cases, it is attached in the rear of the train for pushing the formation like in ghat section working or for banking.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Flame className="w-5 h-5 text-orange-400 mt-1" />
-                      <span className="text-sm text-gray-200">
+                    <li className="group flex items-start gap-4 transition-all">
+                      <div className="shrink-0 rounded-full bg-orange-700/30 group-hover:scale-110 ring-2 ring-orange-400/40 shadow-lg p-2 transition-all duration-300">
+                        <Flame className="lg:w-6 lg:h-6 w-4 h-4 text-orange-300 group-hover:text-orange-400 transition" />
+                      </div>
+                      <span className="text-base text-gray-100 px-2 py-1 rounded-lg bg-linear-to-br from-orange-400/5 to-white/5 shadow-inner group-hover:from-orange-500/10 group-hover:to-white/10 transition-all duration-300">
                         Railway transport system in initial days was conceived with steam engines. With improvements in technology, locomotives have become better in terms of horse power, reliability and energy efficiency.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Fuel className="w-5 h-5 text-yellow-400 mt-1" />
-                      <span className="text-sm text-gray-200">
+                    <li className="group flex items-start gap-4 transition-all">
+                      <div className="shrink-0 rounded-full bg-yellow-700/20 group-hover:scale-110 ring-2 ring-yellow-300/50 shadow-lg p-2 transition-all duration-300">
+                        <Fuel className="lg:w-6 lg:h-6 w-4 h-4 text-yellow-300 group-hover:text-yellow-400 transition" />
+                      </div>
+                      <span className="text-base text-gray-100 px-2 py-1 rounded-lg bg-linear-to-br from-yellow-100/10 to-white/5 shadow-inner group-hover:from-yellow-200/10 group-hover:to-white/10 transition-all duration-300">
                         Steam locomotives were gradually replaced by diesel locomotives.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Bolt className="w-5 h-5 text-blue-400 mt-1" />
-                      <span className="text-sm text-gray-200">
+                    <li className="group flex items-start gap-4 transition-all">
+                      <div className="shrink-0 rounded-full bg-blue-700/30 group-hover:scale-110 ring-2 ring-blue-400/40 shadow-lg p-2 transition-all duration-300">
+                        <Bolt className="lg:w-6 lg:h-6 w-4 h-4 text-blue-300 group-hover:text-blue-400 transition" />
+                      </div>
+                      <span className="text-base text-gray-100 px-2 py-1 rounded-lg bg-linear-to-br from-blue-400/5 to-white/5 shadow-inner group-hover:from-blue-500/10 group-hover:to-white/10 transition-all duration-300">
                         With electrification, diesel locomotives have largely been replaced by electric locomotives.
                       </span>
                     </li>
@@ -152,54 +160,78 @@ const OMPage29 = () => {
                 </div>
 
                 {/* Formation */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
                   <h4 className="font-semibold text-emerald-300 mb-5 flex flex-col lg:flex-row gap-4 items-center justify-center">
                     <Car className="w-5 h-5 mr-2" />
                     Formation
                   </h4>
-                  <ul className="space-y-5 ml-2">
-                    <li className="flex items-start gap-3">
-                      <Train className="w-5 h-5 text-emerald-400 mt-1" />
-                      <span className="text-sm text-gray-200">
-                        Coaches and wagons form the basic unit of passenger and goods trains respectively. These units are attached to each other through coupling and usually piped through for enabling the braking system.
+                  <ul className="space-y-6 ml-0">
+                    {/* 1 */}
+                    <li className="group flex items-start gap-4 rounded-xl bg-linear-to-r from-emerald-900/30 to-emerald-900/20 p-4 shadow-lg hover:from-emerald-700/40 hover:to-emerald-700/10 transition-all duration-300 border border-emerald-600/30 hover:scale-[1.025]">
+                      <span className="relative flex items-center justify-center shrink-0 lg:w-10 lg:h-10 w-8 h-8 rounded-full bg-emerald-700/40 group-hover:bg-emerald-500/40 shadow-xl transition-all duration-300 border-2 border-emerald-300/40">
+                        <Train className="lg:w-6 lg:h-6 w-4 h-4 text-emerald-300 group-hover:text-white transition-all" />
+                        <span className="absolute -right-2 -bottom-2 w-3 h-3 bg-emerald-400 rounded-full blur-[2px] opacity-60"></span>
+                      </span>
+                      <span className="text-base leading-relaxed text-gray-200 flex-1">
+                        <span className="font-semibold text-emerald-200">Coaches and wagons</span> form the basic unit of passenger and goods trains respectively. These units are attached to each other through coupling and usually piped through for enabling the braking system.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <ListOrdered className="w-5 h-5 text-green-400 mt-1" />
-                      <span className="text-sm text-gray-200">
-                        The sequence in which the units are coupled in a formation is called Marshaling order, which is designed duly keeping in mind safety and convenience. Normally a formation is complete with a brake van or SLR at the rear most.
+                    {/* 2 */}
+                    <li className="group flex items-start gap-4 rounded-xl bg-linear-to-r from-green-900/40 to-green-900/10 p-4 shadow-lg hover:from-green-700/40 hover:to-green-600/10 transition-all duration-300 border border-green-600/30 hover:scale-[1.025]">
+                      <span className="relative flex items-center justify-center shrink-0 lg:w-10 lg:h-10 w-8 h-8 rounded-full bg-green-800/35 group-hover:bg-green-500/30 shadow-xl border-2 border-green-400/30 transition-all duration-300">
+                        <ListOrdered className="lg:w-6 lg:h-6 w-4 h-4 text-green-300 group-hover:text-white transition-all" />
+                        <span className="absolute -left-2 -top-2 w-3 h-3 bg-lime-400 rounded-full blur-[2px] opacity-60"></span>
+                      </span>
+                      <span className="text-base leading-relaxed text-gray-200 flex-1">
+                        The sequence in which the units are coupled in a formation is called <span className="font-semibold text-green-200">Marshaling order</span>, which is designed duly keeping in mind safety and convenience. Normally a formation is complete with a brake van or SLR at the rear most.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <PlusCircle className="w-5 h-5 text-lime-400 mt-1" />
-                      <span className="text-sm text-gray-200">
-                        However in exceptional cases, two more additional vehicles can be attached behind the brake van or SLR.
+                    {/* 3 */}
+                    <li className="group flex items-start gap-4 rounded-xl bg-linear-to-r from-lime-900/40 to-lime-900/10 p-4 shadow-lg hover:from-lime-700/40 hover:to-lime-600/10 transition-all duration-300 border border-lime-600/30 hover:scale-[1.025]">
+                      <span className="relative flex items-center justify-center shrink-0 lg:w-10 lg:h-10 w-8 h-8 rounded-full bg-lime-900/30 group-hover:bg-lime-700/30 border-2 border-lime-400/30 shadow-xl transition-all duration-300">
+                        <PlusCircle className="lg:w-6 lg:h-6 w-4 h-4 text-lime-300 group-hover:text-white transition-all" />
+                        <span className="absolute -right-2 -top-2 w-2.5 h-2.5 bg-lime-400 rounded-full blur-[2px] opacity-60"></span>
+                      </span>
+                      <span className="text-base leading-relaxed text-gray-200 flex-1">
+                        However in exceptional cases, <span className="font-semibold text-lime-200">two more additional vehicles</span> can be attached behind the brake van or SLR.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <LampCeiling className="w-5 h-5 text-yellow-400 mt-1" />
-                      <span className="text-sm text-gray-200">
-                        An LV board or tail lamp is attached to the last vehicle that signifies the intactness of the formation as complete.
+                    {/* 4 */}
+                    <li className="group flex items-start gap-4 rounded-xl bg-linear-to-r from-yellow-900/40 to-yellow-900/10 p-4 shadow-lg hover:from-yellow-700/30 hover:to-yellow-600/10 transition-all duration-300 border border-yellow-600/30 hover:scale-[1.025]">
+                      <span className="relative flex items-center justify-center shrink-0 lg:w-10 lg:h-10 w-8 h-8 rounded-full bg-yellow-800/25 group-hover:bg-yellow-700/30 border-2 border-yellow-400/30 shadow-xl transition-all duration-300">
+                        <LampCeiling className="lg:w-6 lg:h-6 w-4 h-4 text-yellow-200 group-hover:text-white transition-all" />
+                        <span className="absolute -left-2 -bottom-2 w-2.5 h-2.5 bg-yellow-300 rounded-full blur-[2px] opacity-50"></span>
+                      </span>
+                      <span className="text-base leading-relaxed text-gray-200 flex-1">
+                        An <span className="font-semibold text-yellow-200">LV board</span> or tail lamp is attached to the last vehicle that signifies the intactness of the formation as complete.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1" />
-                      <span className="text-sm text-gray-200">
-                        Each formation is certified its fitness through a Brake Power Certificate.
+                    {/* 5 */}
+                    <li className="group flex items-start gap-4 rounded-xl bg-linear-to-r from-emerald-900/30 to-emerald-900/10 p-4 shadow-lg hover:from-emerald-800/30 hover:to-emerald-700/10 transition-all duration-300 border border-emerald-500/20 hover:scale-[1.025]">
+                      <span className="relative flex items-center justify-center shrink-0 lg:w-10 lg:h-10 w-8 h-8 rounded-full bg-emerald-800/30 group-hover:bg-emerald-600/30 border-2 border-emerald-400/50 shadow-xl transition-all duration-300">
+                        <CheckCircle2 className="lg:w-6 lg:h-6 w-4 h-4 text-emerald-400 group-hover:text-white transition-all" />
+                        <span className="absolute -right-2 -top-2 w-2.5 h-2.5 bg-emerald-400 rounded-full blur-[2px] opacity-50"></span>
+                      </span>
+                      <span className="text-base leading-relaxed text-gray-200 flex-1">
+                        Each formation is certified its fitness through a <span className="font-semibold text-emerald-200">Brake Power Certificate</span>.
                       </span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <FileText className="w-5 h-5 text-cyan-400 mt-1" />
-                      <span className="text-sm text-gray-200">
-                        The particulars of the formation and the destination to which it is booked to are provided in a document called Vehicle Guidance which is prepared by the station staff and handed over to the crew.
+                    {/* 6 */}
+                    <li className="group flex items-start gap-4 rounded-xl bg-linear-to-r from-cyan-900/30 to-cyan-900/10 p-4 shadow-lg hover:from-cyan-800/30 hover:to-cyan-700/10 transition-all duration-300 border border-cyan-600/20 hover:scale-[1.025]">
+                      <span className="relative flex items-center justify-center shrink-0 lg:w-10 lg:h-10 w-8 h-8 rounded-full bg-cyan-800/40 group-hover:bg-cyan-600/40 border-2 border-cyan-400/40 shadow-xl transition-all duration-300">
+                        <FileText className="lg:w-6 lg:h-6 w-4 h-4 text-cyan-300 group-hover:text-white transition-all" />
+                        <span className="absolute -left-2 -top-2 w-2.5 h-2.5 bg-cyan-300 rounded-full blur-[2px] opacity-40"></span>
+                      </span>
+                      <span className="text-base leading-relaxed text-gray-200 flex-1">
+                        The particulars of the formation and the destination to which it is booked to are provided in a document called <span className="font-semibold text-cyan-200">Vehicle Guidance</span> which is prepared by the station staff and handed over to the crew.
                       </span>
                     </li>
                   </ul>
                 </div>
 
                 {/* Train Sets */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2">
                     <Cog className="w-5 h-5 mr-2" />
                     Train Sets
                   </h4>
@@ -217,14 +249,14 @@ const OMPage29 = () => {
             </div>
 
             {/* Crew */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Crew
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Train Crew are competent railway staff who are authorized to operate, or support the
                   operation of a locomotive / train. Loco pilots, Assistant Loco Pilots, Guards,
@@ -232,8 +264,8 @@ const OMPage29 = () => {
                 </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center flex-col gap-2">
                       <Shield className="w-5 h-5 mr-2" />
                       Crew Responsibilities
                     </h4>
@@ -244,8 +276,8 @@ const OMPage29 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center flex-col gap-2">
                       <Target className="w-5 h-5 mr-2" />
                       Crew Types
                     </h4>
@@ -257,8 +289,8 @@ const OMPage29 = () => {
                   </div>
                 </div>
 
-                <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h5 className="font-semibold text-purple-300 mb-2 flex items-center">
+                <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h5 className="font-semibold text-purple-300 mb-2 flex items-center flex-col gap-2">
                     <Eye className="w-4 h-4 mr-2" />
                     Training Requirements
                   </h5>
@@ -270,14 +302,14 @@ const OMPage29 = () => {
             </div>
 
             {/* Path */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Route className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Path
               </h2>
-              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
+              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Path is the time and space consumed by a train while running between two stations.
                   As trains are run through many stations which form a section, paths are visualized
@@ -285,8 +317,8 @@ const OMPage29 = () => {
                 </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2">
                       <BarChart3 className="w-5 h-5 mr-2" />
                       Line Capacity
                     </h4>
@@ -297,8 +329,8 @@ const OMPage29 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-red-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-red-300 mb-3 flex items-center flex-col gap-2">
                       <Zap className="w-5 h-5 mr-2" />
                       Performance Impact
                     </h4>
@@ -312,22 +344,22 @@ const OMPage29 = () => {
             </div>
 
             {/* Train Ordering */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Clock className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Train Ordering
               </h2>
-              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
+              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   A train is ordered to run when all the requirements for running it - locomotive,
                   formation, crew and path are ready or expected to be ready.
                 </p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-indigo-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-indigo-300 mb-3 flex items-center flex-col gap-2">
                       <CheckCircle className="w-5 h-5 mr-2" />
                       Coaching Trains
                     </h4>
@@ -337,8 +369,8 @@ const OMPage29 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center flex-col gap-2">
                       <FileText className="w-5 h-5 mr-2" />
                       Goods Trains
                     </h4>
@@ -350,8 +382,8 @@ const OMPage29 = () => {
                   </div>
                 </div>
 
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-indigo-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-indigo-300 mb-3 flex items-center flex-col gap-2">
                     <Users className="w-5 h-5 mr-2" />
                     Crew Booking Process
                   </h4>
@@ -361,8 +393,8 @@ const OMPage29 = () => {
                   </p>
                 </div>
 
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-blue-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h4 className="font-semibold text-blue-300 mb-3 flex items-center flex-col gap-2">
                     <ArrowRight className="w-5 h-5 mr-2" />
                     Efficiency Benefits
                   </h4>
@@ -374,14 +406,14 @@ const OMPage29 = () => {
             </div>
 
             {/* System of Working */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-cyan-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-cyan-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Network className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 System of Working
               </h2>
-              <div className="bg-gradient-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-cyan-400/30">
+              <div className="bg-linear-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   A Train is run between stations through a system of working. There are different
                   systems of working viz. Absolute Block, Automatic Block, One train only, Following
@@ -391,7 +423,7 @@ const OMPage29 = () => {
                 <div className="space-y-6">
                   {/* Absolute Block System */}
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-cyan-300 mb-3 flex items-center">
+                    <h4 className="font-semibold text-cyan-300 mb-3 flex items-center flex-col gap-2">
                       <Lock className="w-5 h-5 mr-2" />
                       Absolute Block System
                     </h4>
@@ -403,7 +435,7 @@ const OMPage29 = () => {
 
                   {/* Automatic Block System */}
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-teal-300 mb-3 flex items-center">
+                    <h4 className="font-semibold text-teal-300 mb-3 flex items-center flex-col gap-2">
                       <Signal className="w-5 h-5 mr-2" />
                       Automatic Block System
                     </h4>
@@ -417,7 +449,7 @@ const OMPage29 = () => {
 
                   {/* One Train Only System */}
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-cyan-300 mb-3 flex items-center">
+                    <h4 className="font-semibold text-cyan-300 mb-3 flex items-center flex-col gap-2">
                       <Train className="w-5 h-5 mr-2" />
                       One Train Only System
                     </h4>
@@ -428,8 +460,8 @@ const OMPage29 = () => {
                   </div>
 
                   {/* Authority and Caution Orders */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-teal-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-teal-300 mb-3 flex items-center flex-col gap-2">
                       <AlertTriangle className="w-5 h-5 mr-2" />
                       Authority and Caution Orders
                     </h4>

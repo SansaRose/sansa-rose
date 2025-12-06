@@ -55,7 +55,7 @@ const OMPage3 = () => {
           <div className="space-y-6">
             
             {/* Station Definition */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
                 <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <MapPin className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
@@ -93,8 +93,8 @@ const OMPage3 = () => {
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   {/* Running Lines */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Train className="w-5 h-5 mr-2" />
                       Running Lines
                     </h4>
@@ -105,8 +105,8 @@ const OMPage3 = () => {
                   </div>
 
                   {/* Non-running Lines */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Settings className="w-5 h-5 mr-2" />
                       Non-running Lines
                     </h4>
@@ -118,8 +118,8 @@ const OMPage3 = () => {
                 </div>
 
                 <div className="mt-6 space-y-4">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h5 className="font-semibold text-green-300 mb-2 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h5 className="font-semibold text-green-300 mb-2 flex items-center flex-col gap-2 text-center">
                       <Building2 className="w-4 h-4 mr-2" />
                       Stabling Lines
                     </h5>
@@ -130,8 +130,8 @@ const OMPage3 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h5 className="font-semibold text-emerald-300 mb-2 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h5 className="font-semibold text-emerald-300 mb-2 flex items-center flex-col gap-2 text-center">
                       <Route className="w-4 h-4 mr-2" />
                       Sidings
                     </h5>
@@ -143,8 +143,8 @@ const OMPage3 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h5 className="font-semibold text-green-300 mb-2 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h5 className="font-semibold text-green-300 mb-2 flex items-center flex-col gap-2 text-center">
                       <Gauge className="w-4 h-4 mr-2" />
                       Pit Lines
                     </h5>
@@ -155,8 +155,8 @@ const OMPage3 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h5 className="font-semibold text-emerald-300 mb-2 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h5 className="font-semibold text-emerald-300 mb-2 flex items-center flex-col gap-2 text-center">
                       <Shield className="w-4 h-4 mr-2" />
                       Sick Lines
                     </h5>
@@ -166,8 +166,8 @@ const OMPage3 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h5 className="font-semibold text-green-300 mb-2 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h5 className="font-semibold text-green-300 mb-2 flex items-center flex-col gap-2 text-center">
                       <Zap className="w-4 h-4 mr-2" />
                       Shunting Neck
                     </h5>
@@ -182,7 +182,7 @@ const OMPage3 = () => {
             </div>
 
             {/* Signals */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
                 <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Signal className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
@@ -197,8 +197,8 @@ const OMPage3 = () => {
                 </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Monitor className="w-5 h-5 mr-2" />
                       Fixed Signals
                     </h4>
@@ -209,8 +209,8 @@ const OMPage3 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Settings className="w-5 h-5 mr-2" />
                       Signal Operation
                     </h4>
@@ -221,8 +221,8 @@ const OMPage3 = () => {
                   </div>
                 </div>
 
-                <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h5 className="font-semibold text-purple-300 mb-2 flex items-center">
+                <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h5 className="font-semibold text-purple-300 mb-2 flex items-center flex-col gap-2 text-center">
                     <Route className="w-4 h-4 mr-2" />
                     Level Crossing Gates
                   </h5>
@@ -237,18 +237,18 @@ const OMPage3 = () => {
             </div>
 
             {/* Station Yard Features */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
                 <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Yard Features
               </h2>
-              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
+              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 
                 {/* Station Gradient */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Gauge className="w-5 h-5 mr-2" />
                     Station Gradient
                   </h4>
@@ -258,15 +258,15 @@ const OMPage3 = () => {
                   </p>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                       <h6 className="font-semibold text-orange-200 mb-2">Slip Siding</h6>
-                      <p className="text-xs text-gray-200">
+                      <p className="text-sm text-gray-200">
                         Intended to prevent vehicles escaping into block section. Provided where falling gradient towards the block section is steeper than 1 in 100.
                       </p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-red-200 mb-2">Catch Siding</h6>
-                      <p className="text-xs text-gray-200">
+                      <p className="text-sm text-gray-200">
                         Intended to catch vehicles coming out of control from the adjacent block section. Provided where falling gradient towards the station section is steeper than 1 in 80.
                       </p>
                     </div>
@@ -274,8 +274,8 @@ const OMPage3 = () => {
                 </div>
 
                 {/* Isolation */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-red-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-red-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Lock className="w-5 h-5 mr-2" />
                     Isolation
                   </h4>
@@ -287,25 +287,43 @@ const OMPage3 = () => {
                   <p className="text-sm text-gray-200 mb-4">
                     Isolation can be achieved by any of the following methods:
                   </p>
-                  <ul className="space-y-2 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Connection to another line or long siding
+                  <ul className="space-y-4 text-sm">
+                    <li className="flex items-start bg-linear-to-r from-red-600/20 via-orange-400/10 to-yellow-200/5 rounded-lg p-4 border border-red-300/20 shadow-sm hover:bg-red-600/20 transition">
+                      <div className="shrink-0">
+                        <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-500/80 shadow-lg border-2 border-white mr-4">
+                          <Lock className="w-5 h-5 text-white" />
+                        </span>
+                      </div>
+                      <span className="text-gray-100 font-semibold">
+                        Connection to another line or <span className="text-orange-200 font-bold">long siding</span>
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Provision of short dead end siding
+                    <li className="flex items-start bg-linear-to-r from-orange-500/20 via-red-400/10 to-yellow-100/0 rounded-lg p-4 border border-orange-300/20 shadow-sm hover:bg-orange-600/20 transition">
+                      <div className="shrink-0">
+                        <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-orange-500/80 shadow-lg border-2 border-white mr-4">
+                          <Lock className="w-5 h-5 text-white" />
+                        </span>
+                      </div>
+                      <span className="text-gray-100 font-semibold">
+                        Provision of <span className="text-orange-200 font-bold">short dead end siding</span>
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Provision of trap
+                    <li className="flex items-start bg-linear-to-r from-red-400/20 via-orange-300/10 to-transparent rounded-lg p-4 border border-red-200/20 shadow-sm hover:bg-orange-500/20 transition">
+                      <div className="shrink-0">
+                        <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-400/90 shadow-lg border-2 border-white mr-4">
+                          <Lock className="w-5 h-5 text-white" />
+                        </span>
+                      </div>
+                      <span className="text-gray-100 font-semibold">
+                        Provision of <span className="text-red-200 font-bold">trap</span>
+                      </span>
                     </li>
                   </ul>
                 </div>
 
                 {/* Adequate Distance */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <MapPin className="w-5 h-5 mr-2" />
                     Adequate Distance
                   </h4>
@@ -321,14 +339,14 @@ const OMPage3 = () => {
             </div>
 
             {/* Interlocking */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
                 <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Network className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Interlocking
               </h2>
-              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
+              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Signals are usually interlocked with track/routes through track circuiting & relays.
                   Such an arrangement of signals, points and track circuits/axle counters, operated
@@ -337,30 +355,28 @@ const OMPage3 = () => {
                   Interlocking.
                 </p>
 
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-indigo-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-indigo-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Target className="w-5 h-5 mr-2" />
                     Objectives of Interlocking
                   </h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <ul className="space-y-2 text-sm text-gray-200">
-                      <li className="flex items-start">
-                        <span className="w-2 h-2 bg-indigo-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                        Setting of route
+                    <ul className="space-y-3 w-full">
+                      <li className="flex items-center gap-3 bg-indigo-900/40 rounded-lg py-2 px-3 shadow-sm">
+                        <span className="w-3 h-3 bg-indigo-400 rounded-full shrink-0 border border-white/20"></span>
+                        <span className="text-gray-100 font-medium">Setting of route</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="w-2 h-2 bg-indigo-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                        Locking of route
+                      <li className="flex items-center gap-3 bg-indigo-900/30 rounded-lg py-2 px-3 shadow-sm">
+                        <span className="w-3 h-3 bg-indigo-400 rounded-full shrink-0 border border-white/20"></span>
+                        <span className="text-gray-100 font-medium">Locking of route</span>
                       </li>
-                    </ul>
-                    <ul className="space-y-2 text-sm text-gray-200">
-                      <li className="flex items-start">
-                        <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                        Holding of route
+                      <li className="flex items-center gap-3 bg-blue-900/40 rounded-lg py-2 px-3 shadow-sm">
+                        <span className="w-3 h-3 bg-blue-400 rounded-full shrink-0 border border-white/20"></span>
+                        <span className="text-gray-100 font-medium">Holding of route</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                        Preventing conflicting movements
+                      <li className="flex items-center gap-3 bg-blue-900/30 rounded-lg py-2 px-3 shadow-sm">
+                        <span className="w-3 h-3 bg-blue-400 rounded-full shrink-0 border border-white/20"></span>
+                        <span className="text-gray-100 font-medium">Preventing conflicting movements</span>
                       </li>
                     </ul>
                   </div>
@@ -368,7 +384,7 @@ const OMPage3 = () => {
 
                 <div className="space-y-6">
                   {/* Mechanical Interlocking */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                     <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-4 items-center text-center justify-center">
                       <Settings className="w-5 h-5 mr-2" />
                       Mechanical Interlocking
@@ -408,7 +424,7 @@ const OMPage3 = () => {
                   </div>
 
                   {/* Relay Interlocking */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                     <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-4 items-center text-center justify-center">
                       <Zap className="w-5 h-5 mr-2" />
                       Relay Interlocking

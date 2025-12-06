@@ -13,7 +13,11 @@ import {
   Heart,
   Stethoscope,
   Route,
-  Lock
+  Lock,
+  ChevronUp,
+  BookOpen,
+  Zap,
+  BarChart3
 } from 'lucide-react'
 
 const OMPage10 = () => {
@@ -94,30 +98,60 @@ const OMPage10 = () => {
                     <Shield className="w-5 h-5 mr-2" />
                     Key Responsibilities
                   </h4>
-                  <ul className="space-y-3 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Responsible for safe & efficient working of the station in his/her shift
+                  <ul className="space-y-5 text-base text-gray-200">
+                    <li className="group flex items-start bg-emerald-900/10 rounded-xl border border-emerald-400/10 px-1 py-2 hover:shadow-lg hover:border-emerald-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-emerald-400 via-green-400 to-emerald-500 shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Shield className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        <span className="font-semibold text-emerald-200">Safe & Efficient Operations:&nbsp;</span>
+                        Responsible for safe &amp; efficient working of the station in his/her shift.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Update and maintain all train passing documents/registers during shifts correctly
+                    <li className="group flex items-start bg-emerald-900/10 rounded-xl border border-emerald-400/10 px-1 py-2 hover:shadow-lg hover:border-emerald-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-green-400 via-emerald-400 to-green-500 shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <FileText className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        <span className="font-semibold text-emerald-200">Documentation:&nbsp;</span>
+                        Update and maintain all train passing documents/registers during shifts correctly.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Properly appraise position of equipment, lines, block sections, speed restrictions, shunting operations to reliever
+                    <li className="group flex items-start bg-emerald-900/10 rounded-xl border border-emerald-400/10 px-1 py-2 hover:shadow-lg hover:border-emerald-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-emerald-500 via-green-300 to-emerald-300 shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <ChevronUp className="w-4 h-4 text-green-400" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        <span className="font-semibold text-emerald-200">Handover Briefing:&nbsp;</span>
+                        Properly appraise position of equipment, lines, block sections, speed restrictions, shunting operations to reliever.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Keep updated knowledge of rule books, manuals with latest amendments and safety literature
+                    <li className="group flex items-start bg-emerald-900/10 rounded-xl border border-emerald-400/10 px-1 py-2 hover:shadow-lg hover:border-emerald-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-green-300 via-emerald-400 to-green-500 shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <BookOpen className="w-4 h-4 text-green-400" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        <span className="font-semibold text-emerald-200">Knowledge & Compliance:&nbsp;</span>
+                        Keep updated knowledge of rule books, manuals with latest amendments and safety literature.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Ensure safe, efficient operations keeping detentions to minimum during abnormal situations
+                    <li className="group flex items-start bg-emerald-900/10 rounded-xl border border-emerald-400/10 px-1 py-2 hover:shadow-lg hover:border-emerald-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-green-400 via-emerald-500 to-green-400 shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Zap className="w-4 h-4 text-green-400" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        <span className="font-semibold text-emerald-200">Crisis Management:&nbsp;</span>
+                        Ensure safe, efficient operations keeping detentions to minimum during abnormal situations.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Report deficiencies in safety equipment or procedures immediately to Station Manager
+                    <li className="group flex items-start bg-emerald-900/10 rounded-xl border border-emerald-400/10 px-1 py-2 hover:shadow-lg hover:border-emerald-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-red-400 via-orange-300 to-emerald-300 shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <BarChart3 className="w-4 h-4 text-green-400" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        <span className="font-semibold text-emerald-200">Safety Reporting:&nbsp;</span>
+                        Report deficiencies in safety equipment or procedures immediately to Station Manager.
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -156,30 +190,54 @@ const OMPage10 = () => {
                     <Settings className="w-5 h-5 mr-2" />
                     Primary Duties
                   </h4>
-                  <ul className="space-y-3 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Performing shunting operations
+                  <ul className="space-y-3 text-[15px] text-gray-100">
+                    <li className="group flex items-center bg-linear-to-r from-orange-800/30 to-orange-600/10 rounded-xl p-1 py-2 border border-orange-400/20 shadow-sm hover:bg-linear-to-l hover:from-orange-500/10 hover:to-yellow-400/10 hover:border-orange-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-orange-400 via-yellow-300 to-amber-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Settings className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-orange-200 transition-colors">
+                        Performing shunting operations
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Exchange of all right signals
+                    <li className="group flex items-center bg-linear-to-r from-orange-800/30 to-orange-600/10 rounded-xl p-1 py-2 border border-orange-400/20 shadow-sm hover:bg-linear-to-l hover:from-orange-500/10 hover:to-yellow-400/10 hover:border-orange-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-amber-400 via-orange-300 to-yellow-300 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <ChevronUp className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-orange-200 transition-colors">
+                        Exchange of all right signals
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Manning traffic LC gates
+                    <li className="group flex items-center bg-linear-to-r from-orange-800/30 to-orange-600/10 rounded-xl p-1 py-2 border border-orange-400/20 shadow-sm hover:bg-linear-to-l hover:from-orange-500/10 hover:to-yellow-400/10 hover:border-orange-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-orange-400 via-amber-300 to-yellow-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Lock className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-orange-200 transition-colors">
+                        Manning traffic LC gates
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Observing abnormalities in train, points, signals, track, OHE in station premises
+                    <li className="group flex items-center bg-linear-to-r from-orange-800/30 to-orange-600/10 rounded-xl p-3 border border-orange-400/20 shadow-sm hover:bg-linear-to-l hover:from-orange-500/10 hover:to-yellow-400/10 hover:border-orange-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-yellow-400 via-orange-300 to-amber-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <AlertTriangle className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-orange-200 transition-colors">
+                        Observing abnormalities in train, points, signals, track, OHE in station premises
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Clamping & padlocking of points in case of signal/point failure
+                    <li className="group flex items-center bg-linear-to-r from-orange-800/30 to-orange-600/10 rounded-xl p-1 py-2 border border-orange-400/20 shadow-sm hover:bg-linear-to-l hover:from-orange-500/10 hover:to-yellow-400/10 hover:border-orange-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-amber-400 via-orange-400 to-yellow-300 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Lock className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-orange-200 transition-colors">
+                        Clamping & padlocking of points in case of signal/point failure
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Cleanliness of SM office/cabins and other miscellaneous works
+                    <li className="group flex items-center bg-linear-to-r from-orange-800/30 to-orange-600/10 rounded-xl p-1 py-2 border border-orange-400/20 shadow-sm hover:bg-linear-to-l hover:from-orange-500/10 hover:to-yellow-400/10 hover:border-orange-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-orange-300 via-yellow-300 to-orange-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Settings className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-orange-200 transition-colors">
+                        Cleanliness of SM office/cabins and other miscellaneous works
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -193,14 +251,22 @@ const OMPage10 = () => {
                     While working as gateman, he/she need to follow the GWI and is responsible for
                     closing/opening of the LC gates duly observing safe running of trains.
                   </p>
-                  <ul className="space-y-2 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Ensure cleanliness of the gate lodge and rails on the road
+                  <ul className="space-y-3 text-sm text-gray-200">
+                    <li className="group flex items-center bg-linear-to-r from-red-800/30 to-red-600/10 rounded-xl p-3 border border-red-400/20 shadow-sm hover:bg-linear-to-l hover:from-rose-500/10 hover:to-orange-400/10 hover:border-red-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-red-400 via-rose-300 to-orange-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <Lock className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-rose-200 transition-colors">
+                        Ensure cleanliness of the gate lodge and rails on the road
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Initiate action and report to Station Master/official immediately for any abnormalities
+                    <li className="group flex items-center bg-linear-to-r from-red-800/30 to-red-600/10 rounded-xl p-3 border border-red-400/20 shadow-sm hover:bg-linear-to-l hover:from-rose-500/10 hover:to-orange-400/10 hover:border-red-400/40 transition-all duration-300">
+                      <span className="flex items-center justify-center w-8 h-8 bg-linear-to-br from-orange-400 via-red-300 to-rose-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                        <AlertTriangle className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium tracking-wide group-hover:text-rose-200 transition-colors">
+                        Initiate action and report to Station Master/official immediately for any abnormalities
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -333,20 +399,30 @@ const OMPage10 = () => {
                     in the interest of safety under the following circumstances unless they have been under 
                     the treatment of a Railway Medical Officer:
                   </p>
-                  <ul className="space-y-3 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-teal-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Having undergone any treatment or operation for eye irrespective of the duration of sickness.
+                  <ul className="space-y-4 text-sm text-gray-200">
+                    <li className="flex items-start group transition-all duration-200 hover:bg-teal-900/15 rounded-lg px-2 py-3 border border-transparent hover:border-teal-400/25 shadow-sm">
+                      <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-teal-400 to-emerald-400 shadow-md mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                        <AlertTriangle className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        Having undergone any treatment or operation for eye irrespective of the duration of sickness.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-teal-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Absence from duty for a period in excess of 90 days.
+                    <li className="flex items-start group transition-all duration-200 hover:bg-teal-900/15 rounded-lg px-2 py-3 border border-transparent hover:border-teal-400/25 shadow-sm">
+                      <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-teal-400 to-emerald-400 shadow-md mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                        <AlertTriangle className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        Absence from duty for a period in excess of 90 days.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-teal-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      In case of A-1, A-2 and A-3 the employee may be asked to give an undertaking to his
-                      supervisor when reporting back to duty after leave or absence, irrespective of the period, 
-                      that he/she has not suffered from any eye disease or undergone an eye operation.
+                    <li className="flex items-start group transition-all duration-200 hover:bg-teal-900/15 rounded-lg px-2 py-3 border border-transparent hover:border-teal-400/25 shadow-sm">
+                      <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-teal-400 to-emerald-400 shadow-md mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                        <AlertTriangle className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        In case of A-1, A-2 and A-3 the employee may be asked to give an undertaking to his supervisor when reporting back to duty after leave or absence, irrespective of the period, that he/she has not suffered from any eye disease or undergone an eye operation.
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -372,14 +448,22 @@ const OMPage10 = () => {
                     made based on the workload and in accordance with HOER. The rosters are issued
                     by division office duly vetted by personnel branch.
                   </p>
-                  <ul className="space-y-3 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-cyan-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Staff shall handover charge at the end of the hours of duty as prescribed at the station/yard to their proper reliever
+                  <ul className="space-y-4 text-sm text-gray-200">
+                    <li className="group flex items-start bg-cyan-900/10 rounded-xl border border-cyan-400/10 px-1 py-2 hover:shadow-lg hover:border-cyan-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-cyan-400 to-blue-400 shadow-md mr-4 group-hover:scale-110 transition-transform duration-200">
+                        <Clock className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        Staff shall handover charge at the end of the hours of duty as prescribed at the station/yard to their proper reliever.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-cyan-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Assigned duty hours should not be changed without the permission of Station in charge
+                    <li className="group flex items-start bg-cyan-900/10 rounded-xl border border-cyan-400/10 px-1 py-2 hover:shadow-lg hover:border-cyan-400/30 transition-all duration-300">
+                      <span className="shrink-0 flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-cyan-400 to-blue-400 shadow-md mr-4 group-hover:scale-110 transition-transform duration-200">
+                        <Lock className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 leading-relaxed">
+                        Assigned duty hours should not be changed without the permission of Station in charge.
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -389,18 +473,30 @@ const OMPage10 = () => {
                     <Clipboard className="w-5 h-5 mr-2" />
                     Attendance Management
                   </h4>
-                  <ul className="space-y-3 text-sm text-gray-200">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      All staff shall sign in the appearance register and mention the duty timings performed
+                  <ul className="space-y-4 text-sm">
+                    <li className="flex items-start group transition-all duration-200 hover:bg-blue-900/20 rounded-lg px-1 py-2 border border-transparent hover:border-blue-400/30 shadow-sm">
+                      <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-blue-400 to-cyan-400 shadow-lg mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                        <Clipboard className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium text-gray-100 group-hover:text-blue-200 transition-colors">
+                        All staff shall sign in the appearance register and mention the duty timings performed.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Station in-charge or authorized person should endorse attendance of staff by closing the muster every day
+                    <li className="flex items-start group transition-all duration-200 hover:bg-blue-900/20 rounded-lg px-1 py-2 border border-transparent hover:border-blue-400/30 shadow-sm">
+                      <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-blue-400 to-cyan-400 shadow-lg mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                        <Clipboard className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium text-gray-100 group-hover:text-blue-200 transition-colors">
+                        Station in-charge or authorized person should endorse attendance of staff by closing the muster every day.
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                      Muster copy for nominated period to be sent to SrDPO office through courier along with statements of NDA, NHA, OT etc.
+                    <li className="flex items-start group transition-all duration-200 hover:bg-blue-900/20 rounded-lg px-1 py-2 border border-transparent hover:border-blue-400/30 shadow-sm">
+                      <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-blue-400 to-cyan-400 shadow-lg mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                        <Clipboard className="w-4 h-4 text-white" />
+                      </span>
+                      <span className="flex-1 font-medium text-gray-100 group-hover:text-blue-200 transition-colors">
+                        Muster copy for nominated period to be sent to SrDPO office through courier along with statements of NDA, NHA, OT etc.
+                      </span>
                     </li>
                   </ul>
                 </div>

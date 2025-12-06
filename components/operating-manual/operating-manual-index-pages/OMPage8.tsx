@@ -21,7 +21,8 @@ import {
   Settings,
   FileText,
   AlertCircle,
-  Database
+  Database,
+  ChevronUp
 } from 'lucide-react'
 
 const OMPage8 = () => {
@@ -152,18 +153,33 @@ const OMPage8 = () => {
                         <Train className="w-4 h-4 mr-2" />
                         Platform Specifications
                       </h5>
-                      <ul className="space-y-2 text-sm text-gray-200">
-                        <li className="flex items-start">
-                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                          Number of platforms varies from station to station based on the quantum of traffic dealt
+                      <ul className="space-y-4 text-sm text-gray-200">
+                        <li className="flex items-start group transition-all duration-200 hover:bg-green-900/20 rounded-lg px-1 py-2 border border-transparent hover:border-green-400/30 shadow-sm">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-green-400 to-emerald-400 shadow-lg mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                            <Square className="w-4 h-4 text-white"/>
+                          </span>
+                          <span className="flex-1 leading-relaxed">
+                            <span className="font-medium text-green-200">Platform Numbers:&nbsp;</span>
+                            Number of platforms varies from station to station based on the quantum of traffic dealt.
+                          </span>
                         </li>
-                        <li className="flex items-start">
-                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                          Platform length has to accommodate the longest train dealt on it
+                        <li className="flex items-start group transition-all duration-200 hover:bg-green-900/20 rounded-lg px-1 py-2 border border-transparent hover:border-green-400/30 shadow-sm">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-green-400 to-emerald-400 shadow-lg mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                            <Train className="w-4 h-4 text-white"/>
+                          </span>
+                          <span className="flex-1 leading-relaxed">
+                            <span className="font-medium text-green-200">Platform Length:&nbsp;</span>
+                            Platform length must accommodate the longest train dealt on it.
+                          </span>
                         </li>
-                        <li className="flex items-start">
-                          <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                          Suburban train platforms are of higher level while goods shed platforms are generally ground level
+                        <li className="flex items-start group transition-all duration-200 hover:bg-green-900/20 rounded-lg px-1 py-2 border border-transparent hover:border-green-400/30 shadow-sm">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-green-400 to-emerald-400 shadow-lg mr-4 shrink-0 transition-transform duration-200 group-hover:scale-110">
+                            <ChevronUp className="w-4 h-4 text-white"/>
+                          </span>
+                          <span className="flex-1 leading-relaxed">
+                            <span className="font-medium text-green-200">Platform Level:&nbsp;</span>
+                            Suburban train platforms are higher; goods shed platforms are generally ground level.
+                          </span>
                         </li>
                       </ul>
                     </div>

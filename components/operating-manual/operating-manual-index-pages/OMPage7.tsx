@@ -20,7 +20,8 @@ import {
   Network,
   HardDrive,
   Search,
-  TrendingUp
+  TrendingUp,
+  Key
 } from 'lucide-react'
 
 const OMPage7 = () => {
@@ -81,14 +82,22 @@ const OMPage7 = () => {
                         <Lock className="w-4 h-4 mr-2" />
                         Security Features
                       </h5>
-                      <ul className="space-y-2 text-sm text-gray-200 pl-1">
-                                                 <li className="flex items-start">
-                           <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                           This panel can be locked by a SM&apos;s key so that no person other than authorized can use it
-                         </li>
-                        <li className="flex items-start">
-                          <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                          This key should always be under the custody of the on duty Station Master
+                      <ul className="space-y-3 text-sm text-gray-200 pl-1">
+                        <li className="flex items-start gap-3 bg-blue-800/10 rounded-lg px-3 py-2 border border-blue-400/30">
+                          <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-300 mt-0.5">
+                            <Lock className="w-4 h-4" />
+                          </span>
+                          <span>
+                            This panel can be locked by a SM&apos;s key so that no person other than authorized can use it
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-3 bg-blue-800/10 rounded-lg px-3 py-2 border border-blue-400/30">
+                          <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-300 mt-0.5">
+                            <Key className="w-4 h-4" />
+                          </span>
+                          <span>
+                            This key should always be under the custody of the on duty Station Master
+                          </span>
                         </li>
                       </ul>
                     </div>

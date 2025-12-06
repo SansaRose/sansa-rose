@@ -24,12 +24,10 @@ import {
   Wrench,
   Lock,
   Key,
-  Droplets,
-  Phone,
-  BarChart3,
-  Eye,
-  MessageSquare,
-  List
+  
+  List,
+  LaptopMinimal,
+  Clock
 } from 'lucide-react'
 
 const OMPage15 = () => {
@@ -138,22 +136,38 @@ const OMPage15 = () => {
                                               In this register, the on duty SM records the timings of various train passing operations and events
                                               in the station for every train.
                                           </p>
-                                          <ul className="space-y-2 text-sm text-gray-200 pl-1">
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  Timings of various events from the time of granting line clear to rear station up to section clearance at the advance station
+                                          <ul className="space-y-3 text-gray-100 text-[15px]">
+                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-400 via-emerald-400 to-green-500 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                                      <Clock className="w-4 h-4 text-white" />
+                                                  </span>
+                                                  <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
+                                                      Timings of various events from granting line clear to rear station up to section clearance at the advance station
+                                                  </span>
                                               </li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  Failure of block instruments, Maintenance blocks in force, PN obtained from guard regarding complete arrival
+                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-500 via-green-300 to-emerald-300 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                                      <AlertTriangle className="w-4 h-4 text-white" />
+                                                  </span>
+                                                  <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
+                                                      Failure of block instruments, Maintenance blocks in force, PN obtained from guard regarding complete arrival
+                                                  </span>
                                               </li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  Each block instrument mandates a separate TSR
+                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-400 via-emerald-400 to-green-500 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                                      <List className="w-4 h-4 text-white" />
+                                                  </span>
+                                                  <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
+                                                      Each block instrument mandates a separate TSR
+                                                  </span>
                                               </li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  C-TSR/E-TSR systems available at some stations for computerized entries
+                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-400 via-emerald-500 to-green-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                                      <LaptopMinimal className="w-4 h-4 text-green-100" />
+                                                  </span>
+                                                  <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
+                                                      C-TSR/E-TSR systems available at some stations for computerized entries
+                                                  </span>
                                               </li>
                                           </ul>
                                       </div>
@@ -272,17 +286,17 @@ const OMPage15 = () => {
                                               Every Monday at 00.00 hrs., SM on duty has to bring forward all the existing caution orders in geographical order.
                                           </p>
                                           <ul className="space-y-2 text-sm text-gray-200 pl-1">
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  New caution orders issued in that week are entered with serial numbers
+                                              <li className="flex items-center gap-3">
+                                                  <span className="flex-none w-3 h-3 bg-linear-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
+                                                  <span className="flex-1">New caution orders issued in that week are entered with serial numbers</span>
                                               </li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  All caution orders from message register should be reflected here
+                                              <li className="flex items-center gap-3">
+                                                  <span className="flex-none w-3 h-3 bg-linear-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
+                                                  <span className="flex-1">All caution orders from message register should be reflected here</span>
                                               </li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 shrink-0"></span>
-                                                  Should be tallied/cross checked during inspection
+                                              <li className="flex items-center gap-3">
+                                                  <span className="flex-none w-3 h-3 bg-linear-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
+                                                  <span className="flex-1">Should be tallied/cross checked during inspection</span>
                                               </li>
                                           </ul>
                                       </div>
@@ -303,22 +317,27 @@ const OMPage15 = () => {
                                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                                       <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                                           <h6 className="font-semibold text-blue-200 mb-2">Recorded Information</h6>
-                                          <ul className="space-y-1 text-sm text-gray-200 flex flex-col gap-2">
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-blue-400 rounded-full  mr-3 shrink-0 mt-1"></span>
-                                                  Visit of various officers/inspectors</li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-blue-400 rounded-full  mr-3 shrink-0 mt-1"></span>
-                                                  Cleanliness and safety aspects inspected</li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-blue-400 rounded-full  mr-3 shrink-0 mt-1"></span>
-                                                  Motor trolley permit details</li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-blue-400 rounded-full  mr-3 shrink-0 mt-1"></span>
-                                                  Track fit certificates</li>
-                                              <li className="flex items-start">
-                                                  <span className="w-2 h-2 bg-blue-400 rounded-full  mr-3 shrink-0 mt-1"></span>
-                                                  Vehicle/loco fit certificates after accidents</li>
+                                          <ul className="space-y-2 text-sm text-gray-200">
+                                              <li className="flex items-center gap-2">
+                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span>Visit of various officers/inspectors</span>
+                                              </li>
+                                              <li className="flex items-center gap-2">
+                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span>Cleanliness and safety aspects inspected</span>
+                                              </li>
+                                              <li className="flex items-center gap-2">
+                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span>Motor trolley permit details</span>
+                                              </li>
+                                              <li className="flex items-center gap-2">
+                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span>Track fit certificates</span>
+                                              </li>
+                                              <li className="flex items-center gap-2">
+                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span>Vehicle/loco fit certificates after accidents</span>
+                                              </li>
                                           </ul>
                                       </div>
                                       <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
@@ -578,8 +597,8 @@ const OMPage15 = () => {
                               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Truck className="w-5 h-5 mr-2" />
-                                          1) Guards Equipment Register
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-indigo-500 to-blue-400 text-white text-2xl font-bold shadow-lg mb-1">1</span>
+                                          Guards Equipment Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Register for maintaining records of all equipment provided to guards for their duties.
@@ -588,8 +607,8 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Phone className="w-5 h-5 mr-2" />
-                                          2) Guards Call Book
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-blue-500 to-cyan-400 text-white text-2xl font-bold shadow-lg mb-1">2</span>
+                                          Guards Call Book
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Register for recording calls and communications related to guard duties.
@@ -598,8 +617,8 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-2 items-center">
-                                          <CheckCircle className="w-5 h-5 mr-2" />
-                                          3) Guards Signing On / Signing Off Register
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-indigo-600 to-blue-400 text-white text-2xl font-bold shadow-lg mb-1">3</span>
+                                          Guards Signing On / Signing Off Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Register for recording when guards start and end their duty shifts.
@@ -608,8 +627,8 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
-                                          <BookOpen className="w-5 h-5 mr-2" />
-                                          4) Guards (Standing Order Book)
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-blue-500 to-indigo-300 text-white text-2xl font-bold shadow-lg mb-1">4</span>
+                                          Guards (Standing Order Book)
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Book containing standing orders and instructions for guards.
@@ -618,8 +637,8 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Droplets className="w-5 h-5 mr-2" />
-                                          5) Breathalyser Test Register
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-indigo-500 to-pink-400 text-white text-2xl font-bold shadow-lg mb-1">5</span>
+                                          Breathalyser Test Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Register for recording breathalyser test results of guards before duty.
@@ -628,8 +647,8 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
-                                          <FileText className="w-5 h-5 mr-2" />
-                                          6) LTM Register
+                                            <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-blue-600 to-cyan-400 text-white text-2xl font-bold shadow-lg mb-1">6</span>
+                                          LTM Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Register for maintaining records related to LTM (Load Testing Machine) operations.
@@ -656,8 +675,10 @@ const OMPage15 = () => {
                               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Clipboard className="w-5 h-5 mr-2" />
-                                          1) Equipment List Book
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-teal-400 to-blue-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">1</span>
+                                          </span>
+                                          Equipment List Book
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           A book showing the list of equipment available at the level crossing gate.
@@ -666,8 +687,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Calendar className="w-5 h-5 mr-2" />
-                                          2) Duty Rosters
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-teal-400 via-blue-400 to-sky-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">2</span>
+                                          </span>
+                                          Duty Rosters
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Rosters showing the duty schedule of gatemen and staff.
@@ -676,8 +699,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <FileText className="w-5 h-5 mr-2" />
-                                          3) Duty List with Regional Language Translation
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-blue-400 to-indigo-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">3</span>
+                                          </span>
+                                          Duty List with Regional Language Translation
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           A copy of duty list with translation in regional language for better understanding.
@@ -686,8 +711,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <BookOpen className="w-5 h-5 mr-2" />
-                                          4) Level Crossing Working Instructions
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-teal-400 via-purple-400 to-blue-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">4</span>
+                                          </span>
+                                          Level Crossing Working Instructions
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Level crossing working instructions in regional language, which should appear as separate appendix to SWR.
@@ -696,8 +723,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <MessageSquare className="w-5 h-5 mr-2" />
-                                          5) Public Complaint Book
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-teal-300 to-cyan-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">5</span>
+                                          </span>
+                                          Public Complaint Book
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Book for recording complaints and feedback from the public regarding level crossing operations.
@@ -706,8 +735,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Eye className="w-5 h-5 mr-2" />
-                                          6) Vision Test and Competency Certificate
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-sky-400 via-blue-500 to-emerald-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">6</span>
+                                          </span>
+                                          Vision Test and Competency Certificate
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Vision test results and competency certificates of the gateman for ensuring safety.
@@ -716,8 +747,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <BarChart3 className="w-5 h-5 mr-2" />
-                                          7) Traffic Census Results
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-cyan-400 to-indigo-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">7</span>
+                                          </span>
+                                          Traffic Census Results
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Results of last Traffic Census conducted at the level crossing gate.
@@ -726,8 +759,10 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <Clipboard className="w-5 h-5 mr-2" />
-                                          8) Inspection Books
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-blue-400 via-teal-300 to-emerald-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                              <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">8</span>
+                                          </span>
+                                          Inspection Books
                                       </h4>
                                       <p className="text-sm text-gray-200">
                                           Books for recording inspections and maintenance activities at the level crossing gate.
