@@ -20,28 +20,28 @@ import {
 
 const OMPage47 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Package className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Freight Train Operations</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to freight transportation, types of freight trains, 
               and locomotive operations for efficient cargo movement across Indian Railways.
@@ -52,14 +52,14 @@ const OMPage47 = () => {
           <div className="space-y-6">
             
             {/* Introduction */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <TrendingUp className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Freight Transportation Overview
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4">
                   Freight Transportation involves movement of raw material from production
                   centers to industries and semi-finished/finished goods to consuming areas. It plays
@@ -73,18 +73,18 @@ const OMPage47 = () => {
             </div>
 
             {/* Types of Freight Trains */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Types of Freight Trains
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 
                 {/* Pilot Trains */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Route className="w-5 h-5 mr-2" />
                     Pilot Trains
                   </h4>
@@ -95,8 +95,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Through Goods Trains */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Zap className="w-5 h-5 mr-2" />
                     Through Goods Trains
                   </h4>
@@ -108,8 +108,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* MGR Trains */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <RefreshCw className="w-5 h-5 mr-2" />
                     Merry Go Round (MGR) Trains
                   </h4>
@@ -128,8 +128,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Block Rake */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Package className="w-5 h-5 mr-2" />
                     Block Rake
                   </h4>
@@ -141,8 +141,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Mini Rake */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Gauge className="w-5 h-5 mr-2" />
                     Mini Rake
                   </h4>
@@ -154,8 +154,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Long Haul Trains */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Route className="w-5 h-5 mr-2" />
                     Long Haul Trains
                   </h4>
@@ -178,8 +178,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Two Point Rake */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <MapPin className="w-5 h-5 mr-2" />
                     Two Point Rake
                   </h4>
@@ -190,8 +190,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Multi Point Rake */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Link className="w-5 h-5 mr-2" />
                     Multi Point Rake
                   </h4>
@@ -202,8 +202,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Crack Trains */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Zap className="w-5 h-5 mr-2" />
                     Crack Trains
                   </h4>
@@ -219,8 +219,8 @@ const OMPage47 = () => {
                 </div>
 
                 {/* Private Trains */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Building2 className="w-5 h-5 mr-2" />
                     Private Trains
                   </h4>
@@ -235,14 +235,14 @@ const OMPage47 = () => {
             </div>
 
             {/* Freight Locomotives */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Power className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Freight Locomotives
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Locomotives for freight operations are usually of higher hauling power in order to
                   work loaded trains. Except in some captive circuits, freight locomotives do not work
@@ -251,8 +251,8 @@ const OMPage47 = () => {
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   {/* Load Chart */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <BarChart3 className="w-5 h-5 mr-2" />
                       Load Chart
                     </h4>
@@ -266,8 +266,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Power Plan */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Cpu className="w-5 h-5 mr-2" />
                       Power Plan
                     </h4>
@@ -283,14 +283,14 @@ const OMPage47 = () => {
             </div>
 
             {/* Types of Wagons */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Package className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Types of Wagons
               </h2>
-              <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-yellow-400/30">
+              <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Based on the different goods to be transported in freight trains, the following types of
                   wagon have been designed and put in use.
@@ -298,8 +298,8 @@ const OMPage47 = () => {
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   {/* Open Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Package className="w-5 h-5 mr-2" />
                       Open Wagons
                     </h4>
@@ -312,8 +312,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Covered Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Building2 className="w-5 h-5 mr-2" />
                       Covered Wagons
                     </h4>
@@ -324,8 +324,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Flat Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Gauge className="w-5 h-5 mr-2" />
                       Flat Wagons
                     </h4>
@@ -336,8 +336,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Container Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Package className="w-5 h-5 mr-2" />
                       Container Wagons
                     </h4>
@@ -348,8 +348,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Hopper Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Zap className="w-5 h-5 mr-2" />
                       Hopper Wagons
                     </h4>
@@ -360,8 +360,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Well Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Gauge className="w-5 h-5 mr-2" />
                       Well Wagons
                     </h4>
@@ -372,8 +372,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Tank Wagons */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-yellow-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Package className="w-5 h-5 mr-2" />
                       Tank Wagons
                     </h4>
@@ -384,8 +384,8 @@ const OMPage47 = () => {
                   </div>
 
                   {/* Automobile Carriers */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Train className="w-5 h-5 mr-2" />
                       Automobile Carriers
                     </h4>
@@ -399,21 +399,21 @@ const OMPage47 = () => {
             </div>
 
             {/* Wagon Syntax */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-cyan-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-cyan-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Wagon Syntax
               </h2>
-              <div className="bg-gradient-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-cyan-400/30">
+              <div className="bg-linear-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   All wagons are provided with alphabetical code which indicates the type or purpose
                   of the wagon.
                 </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                     <h5 className="font-semibold text-cyan-300 mb-2">Code</h5>
                     <h6 className="font-semibold text-teal-300 mb-2">Details</h6>
                   </div>
@@ -512,14 +512,14 @@ const OMPage47 = () => {
             </div>
 
             {/* Wagon Pooling */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Link className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Wagon Pooling
               </h2>
-              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
+              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Every zonal railway of IR has been allotted with a fleet of freight wagons by the
                   Directorate of Wagon Interchange (DWI) under the IRCA for coordinating wagon
@@ -535,14 +535,14 @@ const OMPage47 = () => {
             </div>
 
             {/* Train Examination */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-pink-500 to-rose-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-pink-500 to-rose-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Wrench className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Train Examination
               </h2>
-              <div className="bg-gradient-to-br from-pink-500/20 to-rose-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-pink-400/30">
+              <div className="bg-linear-to-br from-pink-500/20 to-rose-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-pink-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Freight trains are examined in nominated yards having the facilities for examination
                   and wagon attention. The examination normally gets done when the wagons are in
@@ -559,14 +559,14 @@ const OMPage47 = () => {
             </div>
 
             {/* Crew */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Crew
               </h2>
-              <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-emerald-400/30">
+              <div className="bg-linear-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
                   In case of freight trains, crew is booked through Crew Management System (CMS)
                   on the basis of first in and first out for the first week and in subsequent week based

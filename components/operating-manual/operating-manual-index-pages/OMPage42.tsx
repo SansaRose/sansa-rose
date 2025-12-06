@@ -19,28 +19,28 @@ import {
 
 const OMPage42 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Clock className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               PUNCTUALITY
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Operating Manual - Chapter on Punctuality</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding railway punctuality monitoring, 
               real-time reporting systems, and the technologies that ensure efficient train operations.
@@ -51,17 +51,17 @@ const OMPage42 = () => {
           <div className="space-y-6">
             
             {/* Punctuality Overview */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Clock className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Punctuality Overview
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <ul className="space-y-6">
                   <li className="flex items-start">
-                    <span className="flex-shrink-0 bg-blue-500/80 rounded-full p-2 mr-4">
+                    <span className="shrink-0 bg-blue-500/80 rounded-full p-2 mr-4">
                       <TrendingUp className="lg:w-6 lg:h-6 w-4 h-4 text-white" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -69,7 +69,7 @@ const OMPage42 = () => {
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="flex-shrink-0 bg-cyan-500/80 rounded-full p-2 mr-4">
+                    <span className="shrink-0 bg-cyan-500/80 rounded-full p-2 mr-4">
                       <Activity className="lg:w-6 lg:h-6 w-4 h-4 text-white" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -77,7 +77,7 @@ const OMPage42 = () => {
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="flex-shrink-0 bg-blue-400/80 rounded-full p-2 mr-4">
+                    <span className="shrink-0 bg-blue-400/80 rounded-full p-2 mr-4">
                       <BarChart3 className="lg:w-6 lg:h-6 w-4 h-4 text-white" />
                     </span>
                     <span className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -89,21 +89,21 @@ const OMPage42 = () => {
             </div>
 
             {/* ICMS Integration */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Monitor className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 ICMS Integration & Analysis
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Based on ICMS data, inputs of which are made at different levels detailed analysis 
                   of bad runners, bad sections are done and action plan are drawn in order to improve punctuality.
                 </p>
                 
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Zap className="w-5 h-5 mr-2" />
                     COA Integration
                   </h4>
@@ -115,14 +115,14 @@ const OMPage42 = () => {
             </div>
 
             {/* Train Categories */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Train Categories for Monitoring
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   To monitor the Passenger carrying trains effectively according to their importance,
                   relevance and stock they are grouped into following categories.
@@ -130,8 +130,8 @@ const OMPage42 = () => {
                 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   {/* M/Express Trains */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Zap className="w-5 h-5 mr-2" />
                       M/Express Trains
                     </h4>
@@ -142,8 +142,8 @@ const OMPage42 = () => {
                   </div>
 
                   {/* Passenger Trains */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Route className="w-5 h-5 mr-2" />
                       Passenger Trains
                     </h4>
@@ -153,8 +153,8 @@ const OMPage42 = () => {
                   </div>
 
                   {/* Sub-urban Trains */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-purple-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Settings className="w-5 h-5 mr-2" />
                       Sub-urban Trains
                     </h4>
@@ -167,22 +167,22 @@ const OMPage42 = () => {
             </div>
 
             {/* Punctuality Norms */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Target className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Punctuality Norms
               </h2>
-              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
+              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
-                  Train arriving late is considered to be „Lost Train‟ based on the following norms.
+                  Train arriving late is considered to be &quot;Lost Train&quot; based on the following norms.
                 </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
                   {/* Intra Zonal & Terminating Trains */}
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                    <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Route className="w-5 h-5 mr-2" />
                       Intra Zonal & Terminating Trains
                     </h4>
@@ -195,7 +195,7 @@ const OMPage42 = () => {
 
                   {/* Originating & Passing Through Trains */}
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-red-300 mb-3 flex items-center">
+                    <h4 className="font-semibold text-red-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Train className="w-5 h-5 mr-2" />
                       Originating & Passing Through Trains
                     </h4>
@@ -209,7 +209,7 @@ const OMPage42 = () => {
 
                 {/* Sub-urban Trains */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-orange-300 mb-3 flex items-center">
+                  <h4 className="font-semibold text-orange-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Settings className="w-5 h-5 mr-2" />
                     Sub-urban Trains
                   </h4>
@@ -222,7 +222,7 @@ const OMPage42 = () => {
 
                 {/* Punctuality Formula */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-red-300 mb-3 flex items-center">
+                  <h4 className="font-semibold text-red-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <BarChart3 className="w-5 h-5 mr-2" />
                     Punctuality Percentage Formula
                   </h4>
@@ -239,17 +239,17 @@ const OMPage42 = () => {
             </div>
 
             {/* Real Time Reporting */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Activity className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Real Time Reporting
               </h2>
-              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-indigo-400/30">
+              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   To improve factual reporting of punctuality and asset failures in ICMS by the
-                  divisions, Railway Board declared 2018-19 as „Zero base year‟. Further to improve
+                  divisions, Railway Board declared 2018-19 as &quot;Zero base year&quot;. Further to improve
                   factual reporting, Control Office Application (COA) has been integrated with
                   RTIS/REMMLOT devices provided in locos; Data loggers; E-TSR & C-TSR at stations.
                 </p>
@@ -262,8 +262,8 @@ const OMPage42 = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
                   {/* REMMLOT / RTIS */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-indigo-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-indigo-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Navigation className="w-5 h-5 mr-2" />
                       REMMLOT / RTIS
                     </h4>
@@ -279,8 +279,8 @@ const OMPage42 = () => {
                   </div>
 
                   {/* Data Logger */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-blue-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Database className="w-5 h-5 mr-2" />
                       Data Logger
                     </h4>
@@ -294,7 +294,7 @@ const OMPage42 = () => {
 
                 {/* E-TSR & C-TSR */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-indigo-300 mb-3 flex items-center">
+                  <h4 className="font-semibold text-indigo-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Monitor className="w-5 h-5 mr-2" />
                     E-TSR & C-TSR
                   </h4>
@@ -306,7 +306,7 @@ const OMPage42 = () => {
 
                 {/* Sequence of Picking Up Timings */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-blue-300 mb-3 flex lg:flex-row flex-col gap-3 items-center">
+                  <h4 className="font-semibold text-blue-300 mb-3 flex lg:flex-row flex-col gap-3 items-center flex-col gap-2 text-center">
                     <Settings className="w-5 h-5 mr-2" />
                     Sequence of Picking Up Timings in COA
                   </h4>
@@ -335,16 +335,16 @@ const OMPage42 = () => {
             {/* Lost Train Analysis */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <XCircle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Lost Train Analysis
               </h2>
-              <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 
                 {/* Point 1 */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg py-6 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-red-300 mb-3 flex lg:flex-row flex-col gap-3 items-center">
+                  <h4 className="font-semibold text-red-300 mb-3 flex lg:flex-row flex-col gap-3 items-center flex-col gap-2 text-center">
                     <Target className="w-5 h-5 mr-2" />
                     Analysis of Punctuality Loss
                   </h4>
@@ -360,15 +360,15 @@ const OMPage42 = () => {
                     </p>
                     <ul className="space-y-2 text-sm text-gray-200">
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         It is a summary of the timing lost and gained on account of various departments and causes
                       </li>
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         The Guard at the end of the trip has to total up all the losses occurred under various department heads
                       </li>
                       <li className="flex items-start">
-                        <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 shrink-0"></span>
                         Summarize for each of the department separately
                       </li>
                     </ul>
@@ -425,8 +425,8 @@ const OMPage42 = () => {
 
                 {/* Point 3 & 4 */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-red-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">  
+                    <h4 className="font-semibold text-red-300 mb-3 flex items-center flex-col gap-2 text-center text-center">
                       <Settings className="w-5 h-5 mr-2" />
                       Daily Analysis
                     </h4>
@@ -436,8 +436,8 @@ const OMPage42 = () => {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                    <h4 className="font-semibold text-pink-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Clock className="w-5 h-5 mr-2" />
                       Regular Meetings
                     </h4>
@@ -451,14 +451,14 @@ const OMPage42 = () => {
             </div>
 
             {/* Measures for Improving Punctuality */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
+                <span className="bg-linear-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <TrendingUp className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Measures for Improving Punctuality
               </h2>
-              <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-emerald-400/30">
+              <div className="bg-linear-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                 
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Punctuality requires constant analysis and monitoring. Long term measures like
@@ -472,8 +472,8 @@ const OMPage42 = () => {
                 </p>
 
                 {/* Originating Stations */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Train className="w-5 h-5 mr-2" />
                     Originating Stations
                   </h4>
@@ -485,27 +485,27 @@ const OMPage42 = () => {
                 </div>
 
                 {/* Control Organization */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Settings className="w-5 h-5 mr-2" />
                     Control Organization
                   </h4>
                   <div className="space-y-3">
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Crossings and precedence have to be arranged judiciously and efficiently.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Wrong / improper crossings / precedence contrary to normal priority like
                         through goods trains over passenger trains should be rarely done.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         The Controller should develop knowledge of the various passenger trains,
                         dependability of the Loco Pilot and Guards, behavior of the passengers,
@@ -513,7 +513,7 @@ const OMPage42 = () => {
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Perennial issues if any should be flagged to time table controller to factor in
                         during time tabling.
@@ -523,21 +523,21 @@ const OMPage42 = () => {
                 </div>
 
                 {/* Stations enroute */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
-                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
+                  <h4 className="font-semibold text-emerald-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Route className="w-5 h-5 mr-2" />
                     Stations enroute
                   </h4>
                   <div className="space-y-3">
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Timely advice to gateman for closure of gates, timely planning of shunting or
                         other conflicting movements.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         In case of single line section, smart calculation of block section running time
                         for reception & dispatch of trains or utilizing provision of simultaneous
@@ -545,26 +545,26 @@ const OMPage42 = () => {
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         If there are perishables loading, the material is to be stacked at suitable place
                         for prompt loading.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         At crew change points, ensure readiness of the crew and box loading if any.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Clearing signals as per PTT timings.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Proper information should be conveyed to public regarding platform
                         nominations etc., well in advance.
@@ -574,14 +574,14 @@ const OMPage42 = () => {
                 </div>
 
                 {/* Crew of the train */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-white/20">
-                  <h4 className="font-semibold text-green-300 mb-3 flex items-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
+                  <h4 className="font-semibold text-green-300 mb-3 flex items-center flex-col gap-2 text-center">
                     <Users className="w-5 h-5 mr-2" />
                     Crew of the train
                   </h4>
                   <div className="space-y-3">
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Shall attend to their assigned trains well in time with complete equipment;
                         conduct brake continuity test and verify that the train is in proper state of
@@ -589,28 +589,28 @@ const OMPage42 = () => {
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Make up time in case the train is running late by conserving gains on run and
                         smartly exchanging all right signals.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Take prompt remedial actions in case of unusual occurrences and
                         equipment defects.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Before scheduled departure, Guard to ensure parcel/luggage loading is
                         completed, SLR doors are closed and locked, and relevant papers taken.
                       </span>
                     </div>
                     <div className="flex items-start space-x-2">
-                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></span>
                       <span className="text-sm text-gray-200">
                         Start the train as per PTT.
                       </span>
@@ -622,18 +622,18 @@ const OMPage42 = () => {
              {/* Coaching Terminal Operational Procedures */}
              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                 <span className="bg-gradient-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                 <span className="bg-linear-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                    <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                  </span>
                  Coaching Terminal Operational Procedures
                </h2>
-               <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
+               <div className="bg-linear-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                  
                  <div className="space-y-4">
                    {/* Point i */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">i</div>
+                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">i</div>
                        <p className="text-sm text-gray-200">
                          On arrival of a rake at a station, mechanical staff to close all doors and windows of coaches.
                        </p>
@@ -643,7 +643,7 @@ const OMPage42 = () => {
                    {/* Point ii */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">ii</div>
+                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">ii</div>
                        <p className="text-sm text-gray-200">
                          Before backing on to stabled/pit line, SM to ensure parcels and bedrolls are unloaded.
                        </p>
@@ -653,7 +653,7 @@ const OMPage42 = () => {
                    {/* Point iii */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">iii</div>
+                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">iii</div>
                        <p className="text-sm text-gray-200">
                          In case of major repairs/ due for IOH/POH, mechanical and electrical staff has to advise SM for detaching with its replacement duly advising the control.
                        </p>
@@ -663,7 +663,7 @@ const OMPage42 = () => {
                    {/* Point iv */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">iv</div>
+                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">iv</div>
                        <p className="text-sm text-gray-200">
                          If any coach is to be detached / attached on account of electrical maintenance, the SSE/TL shall inform the SSE/C&W and the mechanical staff shall issue sick/fit certificate to the Station Master.
                        </p>
@@ -673,7 +673,7 @@ const OMPage42 = () => {
                    {/* Point v */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">v</div>
+                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">v</div>
                        <p className="text-sm text-gray-200">
                          SM will form rake with fit coaches as per it‟s consist and place it on the pit line as per its schedule.
                        </p>
@@ -683,7 +683,7 @@ const OMPage42 = () => {
                    {/* Point vi */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">vi</div>
+                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">vi</div>
                        <p className="text-sm text-gray-200">
                          The TNC/SM has to advise Mechanical department in form No T.431 duly mentioning the painted numbers of the coaches and timing.
                        </p>
@@ -693,7 +693,7 @@ const OMPage42 = () => {
                    {/* Point vii */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">vii</div>
+                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">vii</div>
                        <p className="text-sm text-gray-200">
                          Once the rake is offered for examination, SM shall neither disturb the rake nor perform any shunting onto the rake.
                        </p>
@@ -703,7 +703,7 @@ const OMPage42 = () => {
                    {/* Point viii */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">viii</div>
+                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">viii</div>
                        <p className="text-sm text-gray-200">
                          SSE/C&W shall obtain line block from the SM before deputing men on to the formation. The mechanical staff shall place danger board at the entry into the pit line, place scotch block and lock before commencing the work on the formation, to prevent in advertent entry of outside vehicles, which may harm the staff attending the rake.
                        </p>
@@ -713,7 +713,7 @@ const OMPage42 = () => {
                    {/* Point ix */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">ix</div>
+                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">ix</div>
                        <p className="text-sm text-gray-200">
                          After the rake is checked the mechanical staff advise SM by returning one foil of T.431 mentioning the time of completion and release the Line Block. The mechanical staff shall also remove the danger board and the scotch block.
                        </p>
@@ -723,7 +723,7 @@ const OMPage42 = () => {
                    {/* Point x */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">x</div>
+                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">x</div>
                        <p className="text-sm text-gray-200">
                          SM to back the rake on stabled/platform line as necessary.
                        </p>
@@ -733,7 +733,7 @@ const OMPage42 = () => {
                    {/* Point xi */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">xi</div>
+                       <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">xi</div>
                        <p className="text-sm text-gray-200">
                          The VG of the train will be prepared by SM/TNC and handed over to the Guard of the train.
                        </p>
@@ -743,7 +743,7 @@ const OMPage42 = () => {
                    {/* Point xii */}
                    <div className="bg-white/10 backdrop-blur-sm rounded-lg py-4 lg:px-4 px-2 hover:shadow-lg transition-all duration-300 border border-white/20">
                      <div className="flex items-start space-x-3">
-                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs flex-shrink-0">xii</div>
+                       <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xs shrink-0">xii</div>
                        <p className="text-sm text-gray-200">
                          The TNC/Station staff has to ensure that the BV equipment is available in front/middle/rear SLR and is sealed.
                        </p>
@@ -756,12 +756,12 @@ const OMPage42 = () => {
              {/* Coaching Vehicle Census */}
              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                 <span className="bg-gradient-to-r from-purple-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                 <span className="bg-linear-to-r from-purple-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                    <Database className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                  </span>
                  Coaching Vehicle Census
                </h2>
-               <div className="bg-gradient-to-br from-purple-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+               <div className="bg-linear-to-br from-purple-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                  
                  <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                    Coaching Vehicle census is conducted to know the location of coaching vehicles and
