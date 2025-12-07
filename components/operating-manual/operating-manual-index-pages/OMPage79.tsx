@@ -16,28 +16,28 @@ import {
 
 const OMPage79 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-green-500/20 to-emerald-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-green-500 to-emerald-600 p-3 rounded-full">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-green-100 to-emerald-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-green-100 to-emerald-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               BLOCK PRODUCTIVITY
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Machine Performance & Output Standards</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-green-500 to-emerald-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to block productivity measurement, machine output standards, and performance optimization 
               for efficient railway maintenance operations in congested sections.
@@ -48,24 +48,24 @@ const OMPage79 = () => {
           <div className="space-y-6">
             
             {/* Overview Section */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Target className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Block Productivity Overview
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <div className="space-y-4">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <p className="text-white lg:text-base text-sm leading-relaxed">
                       The actual output of a block as compared to the designed / standardized output is a measure of productivity of the block. 
                       Block productivity is critical in congested sections and it has to be the maximum there. It can be improved by reducing 
                       ineffective time in a block and also by improving the output obtained during the effective time.
                     </p>
                   </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                    <h5 className="font-semibold text-blue-300 mb-3 flex items-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
+                    <h5 className="font-semibold text-blue-300 mb-3 flex items-center flex-col gap-2 text-center">
                       <Clock className="w-5 h-5 mr-2" />
                       4-Hour Block Standards
                     </h5>
@@ -78,18 +78,18 @@ const OMPage79 = () => {
             </div>
 
             {/* Track Machines Section */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Wrench className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Track Maintenance Machines
               </h2>
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   
                   {/* 09-3X Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-green-400">
                         Track Machine : 
@@ -110,7 +110,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* CSM Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-blue-400">
                         Track Machine
@@ -132,7 +132,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* UNO Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-purple-400">
                         Track Machine
@@ -153,7 +153,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* DUO (0) Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-orange-400">
                         Track Machine
@@ -174,7 +174,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* WST Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-teal-400">
                         Track Machine
@@ -192,7 +192,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* BCM Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-indigo-400">
                         Track Machine
@@ -213,7 +213,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* FRM Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-pink-400">
                         Track Machine
@@ -234,7 +234,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* UNI Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-yellow-400">
                         Track Machine
@@ -255,7 +255,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* DGS Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-emerald-400">
                         Track Machine
@@ -276,7 +276,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* TRT Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-violet-400">
                         Track Machine
@@ -297,7 +297,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* PQRS Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-cyan-400">
                         Track Machine
@@ -318,7 +318,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* T-28 Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-rose-400">
                         Track Machine
@@ -339,7 +339,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* UTV Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-amber-400">
                         Track Machine
@@ -360,7 +360,7 @@ const OMPage79 = () => {
                   </div>
 
                   {/* BRM Machine */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <div className="flex items-center mb-3">
                       <div className=" mr-3 flex items-center justify-center text-sm font-semibold text-sky-400">
                         Track Machine
@@ -385,14 +385,14 @@ const OMPage79 = () => {
             </div>
 
             {/* Key Factors Section */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
+                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Star className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Key Factors Affecting Block Output
               </h2>
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-white lg:text-base text-sm leading-relaxed">
@@ -405,7 +405,7 @@ const OMPage79 = () => {
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-purple-300 mb-2 flex items-center">
+                      <h5 className="font-semibold text-purple-300 mb-2 flex items-center flex-col gap-2 text-center">
                         <CheckCircle className="w-4 h-4 mr-2" />
                         Preparatory Works
                       </h5>
@@ -414,7 +414,7 @@ const OMPage79 = () => {
                       </p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-pink-300 mb-2 flex items-center">
+                      <h5 className="font-semibold text-pink-300 mb-2 flex items-center flex-col gap-2 text-center">
                         <Users className="w-4 h-4 mr-2" />
                         Staff & Labour Strength
                       </h5>
@@ -423,7 +423,7 @@ const OMPage79 = () => {
                       </p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-purple-400 mb-2 flex items-center">
+                      <h5 className="font-semibold text-purple-400 mb-2 flex items-center flex-col gap-2 text-center">
                         <ClipboardList className="w-4 h-4 mr-2" />
                         Detailed Planning
                       </h5>
@@ -432,7 +432,7 @@ const OMPage79 = () => {
                       </p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-pink-400 mb-2 flex items-center">
+                      <h5 className="font-semibold text-pink-400 mb-2 flex items-center flex-col gap-2 text-center">
                         <Settings className="w-4 h-4 mr-2" />
                         Maintenance Strategy
                       </h5>
@@ -446,18 +446,18 @@ const OMPage79 = () => {
             </div>
 
             {/* Performance Optimization Section */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
+                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Award className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Performance Optimization Strategies
               </h2>
-              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-orange-400/30">
+              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-orange-300 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
+                      <h5 className="font-semibold text-orange-300 mb-2 flex items-center flex-col gap-2 text-center">
                         <Clock className="w-4 h-4 mr-2" />
                         Reduce Ineffective Time
                       </h5>
@@ -465,8 +465,8 @@ const OMPage79 = () => {
                         Minimize downtime and optimize block utilization
                       </p>
                     </div>
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-red-300 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
+                      <h5 className="font-semibold text-red-300 mb-2 flex items-center flex-col gap-2 text-center">
                         <TrendingUp className="w-4 h-4 mr-2" />
                         Improve Effective Time Output
                       </h5>
@@ -474,8 +474,8 @@ const OMPage79 = () => {
                         Maximize productivity during active work periods
                       </p>
                     </div>
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-orange-400 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
+                      <h5 className="font-semibold text-orange-400 mb-2 flex items-center flex-col gap-2 text-center">
                         <Lightbulb className="w-4 h-4 mr-2" />
                         Congested Section Focus
                       </h5>
@@ -483,8 +483,8 @@ const OMPage79 = () => {
                         Prioritize productivity in high-traffic areas
                       </p>
                     </div>
-                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <h5 className="font-semibold text-red-400 mb-2 flex items-center">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
+                      <h5 className="font-semibold text-red-400 mb-2 flex items-center flex-col gap-2 text-center">
                         <Target className="w-4 h-4 mr-2" />
                         Asset Utilization
                       </h5>
