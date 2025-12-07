@@ -160,43 +160,7 @@ const AMChapterPage16B = () => {
             </div>
           </div>
 
-          {/* Key Points Summary */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 mt-6 border border-white/20">
-            <h3 className="lg:text-3xl text-xl font-bold text-white mb-6 text-center flex flex-col gap-3 items-center justify-center">
-              <span className="bg-gradient-to-r from-blue-500 to-indigo-500 lg:p-3 p-2 rounded-full mr-4">
-                <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </span>
-              TTE Duties Summary
-            </h3>
-            <div className="flex flex-col gap-3">
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-green-400 mr-4 mt-1 lg:text-2xl text-xl group-hover:scale-110 transition-transform">👨‍⚕️</span>
-                <span className="text-gray-200 lg:text-lg text-base">Arrange first aid and locate doctors</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-green-400 mr-4 mt-1 lg:text-2xl text-xl group-hover:scale-110 transition-transform">🚪</span>
-                <span className="text-gray-200 lg:text-lg text-base">Help passengers exit coaches safely</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-green-400 mr-4 mt-1 lg:text-2xl text-xl group-hover:scale-110 transition-transform">💼</span>
-                <span className="text-gray-200 lg:text-lg text-base">Hand over unclaimed luggage to GRP</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-green-400 mr-4 mt-1 lg:text-2xl text-xl group-hover:scale-110 transition-transform">📋</span>
-                <span className="text-gray-200 lg:text-lg text-base">Prepare classified list of casualties</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-green-400 mr-4 mt-1 lg:text-2xl text-xl group-hover:scale-110 transition-transform">📝</span>
-                <span className="text-gray-200 lg:text-lg text-base">Collect detailed passenger information</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-green-400 mr-4 mt-1 lg:text-2xl text-xl group-hover:scale-110 transition-transform">🏥</span>
-                <span className="text-gray-200 lg:text-lg text-base">Record casualties transported by locals</span>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
 

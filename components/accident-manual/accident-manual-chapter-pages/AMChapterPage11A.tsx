@@ -154,31 +154,7 @@ const AMChapterPage11A = () => {
             </div>
           </div>
 
-          {/* Key Points Summary */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-6 px-4 mt-8 border border-white/20">
-            <h3 className="lg:text-3xl text-xl font-bold text-white mb-6 text-center flex flex-col items-center justify-center gap-3">
-              <span className="bg-gradient-to-r from-blue-500 to-indigo-500 p-3 rounded-full">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </span>
-              Indicative Accidents Summary
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-emerald-400 mr-3 mt-1 text-2xl group-hover:scale-110 transition-transform">✅</span>
-                <span className="text-gray-200">Class F: Averted collisions</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-amber-400 mr-3 mt-1 text-2xl group-hover:scale-110 transition-transform">⚠️</span>
-                <span className="text-gray-200">Class G: Breach of block rules</span>
-              </div>
-              <div className="flex items-start group hover:bg-white/5 lg:p-4 p-2 rounded-lg transition-all duration-300">
-                <span className="text-rose-400 mr-3 mt-1 text-2xl group-hover:scale-110 transition-transform">🚨</span>
-                <span className="text-gray-200">Class H: Signal violations</span>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
 

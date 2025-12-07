@@ -34,7 +34,7 @@ const Navbar = () => {
     { href: '/acts/factories-act-1948', label: 'Factories Act, 1948' },
     { href: '/acts/industrial-disputes-act-1947', label: 'Industrial Disputes Act, 1947' },
     { href: '/acts/industrial-relations-code-2010', label: 'Industrial Relations Code, 2010' },
-    { href: '/acts/indian-railway-acts-1989', label: 'Indian Railway Acts, 1989' },
+    { href: '/acts/indian-railways-act-1989', label: 'Indian Railway Acts, 1989' },
     { href: '/acts/official-language-act-1963', label: 'Official Language Act, 1963' },
     { href: '/acts/railway-servants-da-rules-1968', label: 'Railway Servants (DA) Rules, 1968' },
     { href: '/acts/railway-servants-pass-rules-1986', label: 'Railway Servants (Pass) Rules, 1986' },
