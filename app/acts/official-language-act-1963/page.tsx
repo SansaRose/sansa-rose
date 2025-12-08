@@ -28,94 +28,295 @@ const OfficialLanguageAct1963 = () => {
             <h2 className="text-lg sm:text-2xl lg:text-4xl font-bold text-cyan-300 mb-2 sm:mb-4">Articles 343 to 351</h2>
               <div className="w-16 sm:w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-3 sm:mb-6 rounded-full"></div>
             <p className="text-sm sm:text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed px-2">
-              A comprehensive guide to India&apos;s official language policy, constitutional provisions, and implementation guidelines for promoting Hindi while maintaining linguistic diversity.
+            On 14th September, 1949 Hindi Was accepted as Official Language of the Union
+by the Constitutional Assembly to include in the Constitution of India which was
+promulgated on 26 th January, 1950. We celebrate Hindi Day (Hindi Divas) on 14 th
+September, every year. Provisions regarding Official Language are contained in Article
+120 (1), 210(1) and 343 to 351 of the constitution.
             </p>
           </div>
 
           {/* Constitutional Chapters Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 mb-8 sm:mb-12 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-6 sm:mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
-              <span className="bg-linear-to-r from-blue-500 to-cyan-500 p-2 sm:p-4 rounded-full mr-2 sm:mr-4 shadow-lg">
-                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="relative mb-8 sm:mb-12 py-10 px-2 sm:px-6 lg:px-12 bg-linear-to-tr from-blue-900/70 via-cyan-800/80 to-purple-900/70 border border-cyan-200/15 rounded-3xl shadow-2xl overflow-hidden ring-2 ring-white/10 hover:ring-cyan-200/30 transition-all duration-400">
+            {/* Ambient gradient glows */}
+            <div className="pointer-events-none absolute -top-24 -left-20 w-80 h-80 bg-linear-to-br from-blue-400/30 via-cyan-300/20 to-transparent rounded-full blur-3xl animate-pulse opacity-40"></div>
+            <div className="pointer-events-none absolute -bottom-32 -right-28 w-96 h-96 bg-linear-to-br from-pink-400/30 via-blue-400/10 to-transparent rounded-full blur-3xl animate-pulse opacity-30"></div>
+            {/* Decorative corners */}
+            <div className="pointer-events-none absolute top-0 left-0 w-24 h-24 bg-linear-to-br from-cyan-300/15 to-transparent rounded-2xl"></div>
+            <div className="pointer-events-none absolute bottom-0 right-0 w-24 h-24 bg-linear-to-tl from-fuchsia-300/15 to-transparent rounded-2xl"></div>
+
+            <h2 className="relative z-10 text-2xl sm:text-3xl lg:text-4xl font-bold bg-linear-to-r from-cyan-300 via-blue-200 to-purple-200 bg-clip-text text-transparent mb-6 sm:mb-10 flex flex-col sm:flex-row gap-3 sm:gap-6 items-center justify-center drop-shadow-lg">
+              <span className="bg-linear-to-tr from-blue-500 via-cyan-400 to-purple-600 p-3 sm:p-5 rounded-full shadow-xl ring-2 ring-cyan-200/40 transition-all duration-300 scale-110 hover:scale-125">
+                <svg className="w-7 h-7 sm:w-10 sm:h-10 text-white drop-shadow-glow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </span>
               Constitutional Chapters
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
+            <div className="relative z-10 grid md:grid-cols-2 gap-8 sm:gap-10">
               {/* Chapter I */}
-              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-4 lg:px-4 px-2 shadow-lg border border-blue-400/30 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 flex lg:flex-row flex-col gap-4 items-center">
-                  <span className="w-3 h-3 sm:w-4 sm:h-4 bg-linear-to-br from-blue-500 to-cyan-500 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
-                  Chapter I - Language of the Union
-                </h3>
-                <div className="space-y-2 sm:space-y-3">
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 343:</strong> Official language of the Union.</span>
+              <div className="relative bg-linear-to-br from-blue-500/30 via-cyan-400/20 to-sky-500/30 shadow-2xl rounded-3xl border border-blue-300/30 backdrop-blur-2xl lg:px-4 px-2 py-6 overflow-hidden mb-1 hover:scale-[1.03] transition-all duration-300 group">
+                <div className="w-full flex justify-center mb-4">
+                  <div className="bg-linear-to-br from-blue-400 via-cyan-500 to-blue-300 text-transparent bg-clip-text">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest">
+                      <span className="flex items-center justify-center gap-2">
+                        Chapter I - Language of the Union
+                      </span>
+                    </h3>
                   </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 344:</strong> Commission and Committee of Parliament on official language.</span>
-                  </div>
+                </div>
+                <div className="space-y-4">
+                  <blockquote className="border-l-4 border-blue-300/80 pl-4 italic text-blue-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-blue-200">Article 343(1)</span> <br/>
+                    <span className=" text-blue-100">
+                      The Official Language of the Union shall be Hindi in Devanagari script. The form of numerals to be used for the official purposes of the Union shall be the international form of Indian numerals.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-blue-300/80 pl-4 italic text-blue-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-blue-200">Article 343(2)</span> <br/>
+                    <span className=" text-blue-100">
+                      For a period of 15 years from the commencement of this constitution, the English Language shall continue to be used for all official purposes of the Union for which it was being used immediately before such commencement.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-blue-300/80 pl-4 italic text-blue-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-blue-200">Article 343(3)</span> <br/>
+                    <span className=" text-blue-100">
+                      Parliament may by law provide for the use of the English language after 14-15 years for such purposes as may be specified in the law.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-blue-300/80 pl-4 italic text-blue-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-blue-200">Article 344</span> <br/>
+                    <span className=" text-blue-100">
+                      The president shall constitute a commission after five years from the commencement of the constitution and thereafter ten years from such commencement.<br/>
+                      The duty of the commission shall be to make recommendations to the president as to:-
+                      <ul className="list-disc list-inside ml-1 mt-1 text-blue-100">
+                        <li >(a) the progressive use of the Hindi Language for the Official purposes of the Union.</li>
+                        <li>(b) restrictions on the use of English Language for all or any of the Official purposes of the Union.</li>
+                        <li>(1) the official language for communication between Union and State or between One State and another.</li>
+                      </ul>
+                      There shall be a constitutional committee consisting of thirty members of whom twenty shall be from Lok Sabha and ten from Rajya Sabha. It shall be the duty of the Parliamentary Committee to examine the recommendations of the commission so constituted.
+                    </span>
+                  </blockquote>
                 </div>
               </div>
 
               {/* Chapter II */}
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-4 lg:px-4 px-2 shadow-lg border border-green-400/30 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 flex lg:flex-row flex-col gap-4 items-center">
-                  <span className="w-3 h-3 sm:w-4 sm:h-4 bg-linear-to-br from-green-500 to-emerald-500 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
-                  Chapter II - Regional Languages
-                </h3>
-                <div className="space-y-2 sm:space-y-3">
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 345:</strong> Official language or languages of a State</span>
+              <div className="relative bg-linear-to-br from-green-500/30 via-emerald-400/20 to-emerald-500/30 shadow-2xl rounded-3xl border border-green-300/30 backdrop-blur-2xl lg:px-4 px-2 py-6 overflow-hidden mb-1 hover:scale-[1.03] transition-all duration-300 group">
+                
+                <div className="w-full flex justify-center mb-4">
+                  <div className="bg-linear-to-br from-green-400 via-emerald-500 to-green-300 text-transparent bg-clip-text">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest">
+                      <span className="flex items-center justify-center gap-2">
+                        Chapter II - Regional Languages
+                      </span>
+                    </h3>
                   </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 sm:p-3 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 346:</strong> Official language for communication between States and Union.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 sm:p-3 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 347:</strong> Special provision for language spoken by section of population.</span>
-                  </div>
+                </div>
+                <div className="space-y-4">
+                  <blockquote className="border-l-4 border-green-300/80 pl-4 italic text-green-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-green-200">Article 345</span> <br/>
+                    <span className=" text-green-100">
+                      Official language or languages of a State. The Legislature of States by law can adopt one or more languages as
+                      Official Language or Languages of the State.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-green-300/80 pl-4 italic text-green-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-green-200">Article 346</span> <br/>
+                    <span className=" text-green-100">
+                      Official language for communication between States and Union.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-green-300/80 pl-4 italic text-green-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-green-200">Article 347</span> <br/>
+                    <span className=" text-green-100">
+                    Provides for special provision relating to language spoken by a Section
+                    of the population of a state.
+                    </span>
+                  </blockquote>
                 </div>
               </div>
 
               {/* Chapter III */}
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-4 lg:px-4 px-2 shadow-lg border border-purple-400/30 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 flex lg:flex-row flex-col gap-4 items-center">
-                  <span className="w-3 h-3 sm:w-4 sm:h-4 bg-linear-to-br from-purple-500 to-pink-500 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
-                  Chapter III - Language of Courts
-                </h3>
-                <div className="space-y-2 sm:space-y-3">
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 348:</strong> Language in Supreme Court, High Courts, Acts, Bills, etc.</span>
+              <div className="relative bg-linear-to-br from-purple-500/30 via-pink-400/20 to-pink-500/30 shadow-2xl rounded-3xl border border-fuchsia-300/30 backdrop-blur-2xl lg:px-4 px-2 py-6 overflow-hidden mb-1 hover:scale-[1.03] transition-all duration-300 group">
+
+                <div className="w-full flex justify-center mb-4">
+                  <div className="bg-linear-to-br from-purple-400 via-pink-500 to-purple-300 text-transparent bg-clip-text">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest">
+                      <span className="flex items-center justify-center gap-2">
+                        Chapter III - Language of Courts
+                      </span>
+                    </h3>
                   </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 349:</strong> Special procedure for language-related laws.</span>
-                  </div>
+                </div>
+                <div className="space-y-4">
+                  <blockquote className="border-l-4 border-purple-300/80 pl-4 italic text-purple-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-purple-200">Article 348</span> <br/>
+                    <span className=" text-purple-100">
+                    Deals with languages to be used in the Supreme Court and in the High
+                    Courts and Acts, bills etc.The authoritative of bills Act, ordinances, orders regulations and bye-laws issued under the constitution shall be
+                    in English language.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-purple-300/80 pl-4 italic text-purple-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-purple-200">Article 349</span> <br/>
+                    <span className=" text-purple-100">
+                    No bill to be introduced for amendment of the language unless
+president gives sanction after considering the recommendation of the
+commission and the committee constituted for the purpose.
+                    </span>
+                  </blockquote>
                 </div>
               </div>
 
               {/* Chapter IV */}
-              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-4 lg:px-4 px-2 shadow-lg border border-orange-400/30 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 flex lg:flex-row flex-col gap-4 items-center">
-                  <span className="w-3 h-3 sm:w-4 sm:h-4 bg-linear-to-br from-orange-500 to-red-500 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
-                  Chapter IV - Special Directives
-                </h3>
-                <div className="space-y-2 sm:space-y-3">
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 350:</strong> Language for grievance redressal (citizens can submit grievances in any language used in the Union or State).</span>
+              <div className="relative bg-linear-to-br from-orange-400/30 via-red-400/20 to-red-500/30 shadow-2xl rounded-3xl border border-orange-300/30 backdrop-blur-2xl lg:px-4 px-2 py-6 overflow-hidden mb-1 hover:scale-[1.03] transition-all duration-300 group">
+                
+                <div className="w-full flex justify-center mb-4">
+                  <div className="bg-linear-to-br from-orange-400 via-red-500 to-yellow-500 text-transparent bg-clip-text">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest">
+                      <span className="flex items-center justify-center gap-2">
+                        Chapter IV - Special Directives
+                      </span>
+                    </h3>
                   </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 350A:</strong> Facilities for instruction in mother tongue at primary stage for children belonging to linguistic minorities.</span>
+                </div>
+                <div className="space-y-4">
+                  <blockquote className="border-l-4 border-orange-300/80 pl-4 italic text-orange-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-orange-200">Article 350</span> <br/>
+                    <span className=" text-orange-100">
+                      Language for grievance redressal (citizens can submit grievances in any language used in the Union or State).
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-orange-300/80 pl-4 italic text-orange-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-orange-200">Article 350A</span> <br/>
+                    <span className=" text-orange-100">
+                      Facilities for instruction in mother tongue at primary stage for children belonging to linguistic minorities.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-orange-300/80 pl-4 italic text-orange-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-orange-200">Article 350B</span> <br/>
+                    <span className=" text-orange-100">
+                      Appointment of Special Officer for linguistic minorities to investigate and report on matters relating to safeguards for linguistic minorities.
+                    </span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-orange-300/80 pl-4 italic text-orange-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-orange-200">Article 351</span> <br/>
+                    <span className=" text-orange-100">
+                    Deals with Directive for development of Hindi language to promote the
+spread of the Hindi language to develop it so that it may serve as a
+medium of expression for the composite culture of India to secure its
+enrichment by assimilating without interfering with its the genius forms,
+style and expressions used in Hindustani and in the other languages
+of India.
+                    </span>
+                  </blockquote>
+                </div>
+              </div>
+{/* Important Note */}
+              <div className="relative bg-linear-to-br from-yellow-400/30 via-orange-500/20 to-red-500/30 shadow-2xl rounded-3xl border border-yellow-300/30 backdrop-blur-2xl lg:px-4 px-2 py-6 overflow-hidden mb-1 hover:scale-[1.03] transition-all duration-300 group">
+                
+                <div className="w-full flex justify-center mb-4">
+                  <div className="bg-linear-to-br from-orange-400 via-pink-500 to-yellow-400 text-transparent bg-clip-text">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest">
+                      <span className="flex items-center justify-center gap-2">
+                        Important Note
+                      </span>
+                    </h3>
                   </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 350B:</strong> Appointment of Special Officer for linguistic minorities to investigate and report on matters relating to safeguards for linguistic minorities.</span>
+                </div>
+                <div className="space-y-4">
+                  <blockquote className="border-l-4 border-yellow-300/80 pl-4 italic text-orange-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-yellow-200">Article 120</span> <br/>
+                    <span className=" text-orange-100">Business in Parliament shall be transacted in Hindi or in English.</span>
+                  </blockquote>
+                  <blockquote className="border-l-4 border-yellow-300/80 pl-4 italic text-orange-100 bg-white/5 rounded-lg py-2">
+                    <span className="font-bold text-yellow-200">Article 210</span> <br/>
+                    <span className=" text-orange-100">Business in the Legislature of a State shall be transacted in the Official Language(s) of the State or in Hindi or in English.</span>
+                  </blockquote>
+                </div>
+              </div>
+{/* VIII Schedule Languages */}
+              <div className="relative bg-linear-to-br from-yellow-400/40 via-orange-500/30 to-red-500/40 shadow-2xl rounded-3xl border border-yellow-200/40 backdrop-blur-2xl lg:px-6 px-3 py-8 overflow-hidden mb-2 hover:scale-105 transition-all duration-300 group">
+                <div className="w-full flex justify-center mb-6">
+                  <span className="inline-block rounded-xl bg-linear-to-tr from-orange-400 via-pink-500 to-yellow-400 px-6 py-2 shadow-lg">
+                    <h3 className="text-center text-white bg-clip-text text-2xl sm:text-3xl font-extrabold tracking-widest drop-shadow-lg whitespace-nowrap">
+                      VIII Schedule Languages
+                    </h3>
+                  </span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 px-2 sm:px-4">
+                  {[
+                    "Assamese", "Oriya", "Urdu", "Kannada", "Kashmiri", "Gujarati", "Tamil", "Telugu", "Punjabi",
+                    "Bengali", "Marathi", "Malayalam", "Sanskrit", "Sindhi", "Hindi", "Manipuri", "Konkani",
+                    "Nepali", "Bodo", "Maithili", "Dogri", "Santhali"
+                  ].map((lang, idx) => (
+                    <div
+                      key={lang}
+                      className="flex items-center gap-3 border border-yellow-300/20 rounded-xl bg-white/10 backdrop-blur-md px-4 py-3 shadow-sm hover:border-orange-200/40 hover:bg-linear-to-r hover:from-orange-400/10 hover:to-yellow-300/10 transition-all duration-200"
+                    >
+                      <span className="w-8 h-8 flex items-center justify-center text-lg font-semibold rounded-full bg-orange-500/70 text-white shadow">
+                        {idx + 1}
+                      </span>
+                      <span className="text-lg font-medium text-white tracking-wide drop-shadow">{lang}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* The Official Language Act 1963 Amended in 1967 */}
+              <div className="relative bg-linear-to-br from-yellow-400/40 via-orange-500/30 to-red-500/50 shadow-2xl rounded-3xl border border-yellow-200/40 backdrop-blur-2xl lg:px-8 px-2 py-5 overflow-hidden mb-4 hover:scale-105 transition-transform duration-300 group">
+                <div className="w-full flex justify-center mb-6">
+                  <span className="inline-block rounded-xl bg-linear-to-tr from-orange-400 via-pink-500 to-yellow-400 px-6 py-2 shadow-lg text-white text-center">
+                  THE OFFICIAL LANGUAGE ACT 1963 AMENDED IN 1967
+                  </span>
+                </div>
+                <div className="space-y-6">
+                  <div className="bg-linear-to-r from-yellow-100/10 via-orange-100/10 to-pink-100/10 border-l-4 border-amber-400/60 p-4 rounded-xl shadow">
+                    <h4 className="text-lg sm:text-xl font-bold text-yellow-200 mb-2 flex items-center gap-2">
+                      Section 3(1)
+                    </h4>
+                    <p className="text-orange-50 sm:text-base text-sm">
+                      <span className="font-semibold text-orange-100">Continuation of English:</span> English shall continue to be used in addition to Hindi for official purposes of the Union and for use in Parliament.
+                    </p>
                   </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-2 transition-all duration-300">
-                    <span className="text-gray-200 text-sm sm:text-base"><strong>Article 351:</strong> Directive for the development of the Hindi language to promote its spread and enrichment.</span>
+                  <div className="bg-linear-to-r from-yellow-100/10 via-orange-100/10 to-red-100/10 border-l-4 border-orange-300/60 p-4 rounded-xl shadow">
+                    <h4 className="text-lg sm:text-xl font-bold text-yellow-200 mb-2 flex items-center gap-2">
+                      Section 3(2)
+                    </h4>
+                    <p className="text-orange-50 sm:text-base text-sm">
+                      <span className="font-semibold text-orange-100">Communication with Central Entities:</span> Hindi or English may be used for communication between Ministries, Departments, Offices of the Central Government and any Corporation or Company owned by the Central Government.<br />
+                      <span className="italic text-yellow-100">Translation in Hindi/English shall continue until the staff concerned acquires working knowledge of Hindi.</span>
+                    </p>
+                  </div>
+                  <div className="bg-linear-to-r from-yellow-100/10 via-orange-100/10 to-pink-100/10 border-l-4 border-pink-300/60 p-4 rounded-xl shadow">
+                    <h4 className="text-lg sm:text-xl font-bold text-yellow-200 mb-2 flex items-center gap-2">
+                      Section 3(3)
+                    </h4>
+                    <p className="text-orange-50 sm:text-base text-sm">
+                      <span className="font-semibold text-orange-100">Bilingual Requirement:</span> Both Hindi & English must be used for: Resolutions, General Orders, Rules, Notifications, Administrative and other reports, press communiqu&eacute;s, contracts, agreements, licences, permits, notices, and forms of tender issued by Central Government offices.
+                    </p>
+                  </div>
+                  <div className="bg-linear-to-r from-yellow-100/10 via-orange-100/10 to-pink-100/10 border-l-4 border-amber-200/60 p-4 rounded-xl shadow">
+                    <h4 className="text-lg sm:text-xl font-bold text-yellow-200 mb-2 flex items-center gap-2">
+                      Rulemaking Power
+                    </h4>
+                    <p className="text-orange-50 sm:text-base text-sm">
+                      The Central Government may make rules by notification in the Official Gazette to carry out the provisions of the Act.
+                    </p>
+                  </div>
+                  <div className="bg-linear-to-r from-pink-100/10 via-orange-100/10 to-yellow-100/10 border-l-4 border-pink-300/60 p-4 rounded-xl shadow">
+                    <h4 className="text-lg sm:text-xl font-bold text-yellow-200 mb-2 flex items-center gap-2">
+                      Resolution, 1968
+                    </h4>
+                    <p className="text-orange-50 sm:text-base text-sm">
+                      <span className="font-semibold text-orange-100">Intensive &amp; Comprehensive Programme:</span> The Government of India should prepare and implement a robust programme to accelerate the spread and development of Hindi in collaboration with State Governments.
+                    </p>
                   </div>
                 </div>
               </div>
+
+
             </div>
           </div>
 
