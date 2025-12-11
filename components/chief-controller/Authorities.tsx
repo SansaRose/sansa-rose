@@ -25,6 +25,8 @@ const Authorities = () => {
     
     { question: 'LP shall pass a Semi - Automatic signal with extinguished \'A\' marker at \'ON\' on receipt of written authority', answer: 'T.369(3b)', form: 'T.369' },
 
+    { question: 'When Outer signal is defective, written authority to pass the signal at "ON" is', answer: 'T.369(3b)', form: 'T.369' },
+
     { question: 'If "A" & "AG" marker lit, Signal above shall be deemed to work as a Manual stop signal and Loco Pilot shall pass only on assumption of "OFF" position or on receipt of T.369(3b) + PHS', answer: 'T.369(3b) + PHS', form: 'T.369' },
 
     { question: 'If "A" & "AG" marker extinguished, Points are not correctly secured or failed, irrespective of LC gate position, Signal above shall be deemed to work as a Manual stop signal and Loco Pilot shall pass only on assumption of "OFF" position or on receipt of T.369(3b) + PHS', answer: 'T.369(3b) + PHS', form: 'T.369' },
@@ -33,6 +35,8 @@ const Authorities = () => {
     { question: 'When a Loco Pilot finds a Semi-Automatic Stop signal with illuminated "A" marker at "ON". Where there is a provision of "AG" marker, and "AG" marker is illuminated, loco pilot shall bring the train to stop in rear of it and shall pass such signal only on assumption of "OFF" position or on receipt of T.369(3b) + PHS', answer: 'T.369(3b) + PHS', form: 'T.369' },
 
     { question: 'When a Loco Pilot finds a Semi-Automatic Stop signal with Extinguished "A" marker at "ON". Where there is no provision of "AG" marker, Loco pilot shall bring the train to stop in rear of it and shall pass such signal only on assumption of "OFF" position or on receipt of T.369(3b) + PHS', answer: 'T.369(3b) + PHS', form: 'T.369' },
+
+    { question: 'In Automatic section on Double line if LSS is defective, the Loco Pilot shall be given __________ with a speed restriction of 10/8 kmph upto next automatic signal.', answer: 'T.369(3b) + Caution Order', form: 'T.369' },
     
     { question: 'Caution Order (Divisional/Sectional)', answer: 'T.409', form: 'T.409' },
     { question: 'Caution Order (Nil)', answer: 'T/A 409', form: 'T.409' },
@@ -96,6 +100,8 @@ const Authorities = () => {
     { question: 'When LSS becomes defective on Single line Automatic block system', answer: 'T/A 912 + PLCT', form: 'T.912' },
     { question: 'Authority to open communication on Single line Automatic block system', answer: 'T/A 912 + T/B 602', form: 'T.912' },
     { question: 'Authority to despatch the trains during Temporary Single Line working on Automatic block system (first train on right line and all trains on wring line)', answer: 'T/A 912 +  T/D 602', form: 'T.912' },
+
+    { question: 'In automatic section on Single line if LSS is defective, the Loco Pilot shall be given __________ with a speed restriction of 25 kmph for the first train.', answer: 'T/A 912 +  PLCT + Caution Order', form: 'T.912' },
     
     { question: 'When signals and communication fail on Double line Automatic Block System, the authority given to the Loco Pilot is', answer: 'T/B 912', form: 'T.912' },
 
@@ -133,11 +139,14 @@ const Authorities = () => {
     { question: 'The authority given to the loco pilot at station when IBS is defective', answer: 'PLCT', form: 'Other' },
     { question: 'When RRV is to be dispatched from a station provided with track circuit/panel, such movements in the block section would be dealt only on', answer: 'PLCT', form: 'Other' },
     { question: 'To pass Home signal of class \'C\' station on Double line section', answer: 'PLCT', form: 'Other' },
+
     { question: 'When Loco pilot enters block section without an ATP and report is sent to station in rear, the SM gives', answer: 'PLCT', form: 'Other' },
+
+    { question: 'In class "C" station, Home signal is the First Stop Signal (FSS and Last Stop Signal (LSS), then Home Signal is defective, the authority to pass the signal at "ON" is', answer: 'PLCT', form: 'Other' },
 
     { question: 'When Loco pilot enters block section without an ATP and report is sent to station in advance, the SM gives', answer: 'Caution Order', form: 'Other' },
 
-    { question: 'If Permissive signal is stuck in "OFF" postion, the rear Station master shall give Caution Order to the Loco Pilot to stop and observe the PHS at the foot of the signal stuck in "OFF" position', answer: 'Caution Order', form: 'Other' },
+    { question: 'If Permissive signal is stuck in "OFF" postion, the rear Station master shall give ________ to the Loco Pilot to stop and observe the PHS at the foot of the signal stuck in "OFF" position', answer: 'Caution Order', form: 'Other' },
 
     { question: 'When goods Train run without Guard has to be divided, the Loco Pilot shall bring first portion by preparing', answer: 'Written Memo', form: 'Other' },
 
@@ -158,26 +167,26 @@ const Authorities = () => {
 
   const getFormColor = (form: string) => {
     if (form === 'Other') {
-      return 'bg-gradient-to-r from-purple-600 to-purple-700'
+      return 'bg-linear-to-r from-purple-600 to-purple-700'
     }
     const formNum = parseInt(form.replace('T.', '').replace('T/', '').replace('T/A', '').replace('T/B', '').replace('T/C', '').replace('T/D', '').replace('T/E', '').replace('T/F', '').replace('T/G', '').replace('T/H', '').replace('T/I.', '').replace('T/J.', '').replace('T/ ', '').split('.')[0].split(' ')[0])
     if (isNaN(formNum)) {
-      return 'bg-gradient-to-r from-purple-600 to-purple-700'
+      return 'bg-linear-to-r from-purple-600 to-purple-700'
     }
-    if (formNum <= 400) return 'bg-gradient-to-r from-red-600 to-red-700'
-    if (formNum <= 600) return 'bg-gradient-to-r from-orange-600 to-orange-700'
-    if (formNum <= 900) return 'bg-gradient-to-r from-yellow-600 to-yellow-700'
-    if (formNum <= 1500) return 'bg-gradient-to-r from-green-600 to-green-700'
-    if (formNum <= 1700) return 'bg-gradient-to-r from-blue-600 to-blue-700'
-    return 'bg-gradient-to-r from-indigo-600 to-indigo-700'
+    if (formNum <= 400) return 'bg-linear-to-r from-red-600 to-red-700'
+    if (formNum <= 600) return 'bg-linear-to-r from-orange-600 to-orange-700'
+    if (formNum <= 900) return 'bg-linear-to-r from-yellow-600 to-yellow-700'
+    if (formNum <= 1500) return 'bg-linear-to-r from-green-600 to-green-700'
+    if (formNum <= 1700) return 'bg-linear-to-r from-blue-600 to-blue-700'
+    return 'bg-linear-to-r from-indigo-600 to-indigo-700'
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             Authorities
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
@@ -201,13 +210,13 @@ const Authorities = () => {
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-gradient-to-r from-slate-800 to-slate-700"
+                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-linear-to-r from-slate-800 to-slate-700"
                   >
                     <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                       {/* Question */}
                       <div className="flex-1">
                         <div className="flex items-start gap-3">
-                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
+                          <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
                             {index + 1}
                           </span>
                           <p className="text-gray-200 leading-relaxed font-medium">
@@ -217,7 +226,7 @@ const Authorities = () => {
                       </div>
 
                       {/* Answer */}
-                      <div className="flex-shrink-0 sm:w-48 ml-8">
+                      <div className="shrink-0 sm:w-48 ml-8">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-blue-900/50 border border-blue-700">
                           <span className="text-blue-300 font-semibold text-lg">
                             {item.answer}

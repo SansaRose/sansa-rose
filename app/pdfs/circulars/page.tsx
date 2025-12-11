@@ -8,6 +8,8 @@ import {
   fortnightlySafetyBulletinPdfFiles,
   monthlySafetyBulletinPdfFiles,
   safetyDrivePdfFiles,
+  operatingSafetyDrivePdfFiles,
+  divisionalOperatingSafetyDrivePdfFiles,
   ruleOfTheMonthPdfFiles
 } from '@/assets/circulars'
 import { FileText, Download, Calendar, AlertTriangle, Clock, CheckCircle, Loader2, Shield, BookOpen, BarChart3, Zap, ChevronDown, ChevronUp } from 'lucide-react'
@@ -25,7 +27,7 @@ const Circulars = () => {
         
         if (isMobile) {
           // For mobile devices, try multiple approaches
-          const pdfUrl = `/circularpdfs/${filename}`
+          const pdfUrl = `/circulars-pdfs/${filename}`
           
           // Method 1: Try to open directly first (works on some mobile browsers)
           try {
@@ -79,12 +81,12 @@ const Circulars = () => {
           }
         } else {
           // For desktop, open directly in new tab
-          window.open(`/circularpdfs/${filename}`, '_blank')
+          window.open(`/circulars-pdfs/${filename}`, '_blank')
         }
       } catch (error) {
         console.error('Error handling PDF:', error)
         // Ultimate fallback
-        window.open(`/circularpdfs/${filename}`, '_blank')
+        window.open(`/circulars-pdfs/${filename}`, '_blank')
       } finally {
         setLoadingFile(null)
       }
@@ -657,6 +659,160 @@ const Circulars = () => {
                           <Loader2 className="w-5 h-5 text-zinc-400 animate-spin ml-3" />
                         ) : (
                           <Download className="w-5 h-5 text-zinc-400 hover:text-zinc-300 transition-colors ml-3" />
+                        )
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Operating Safety Drive Section */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-6 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300 mb-6">
+            <div 
+              className="flex flex-col lg:flex-row gap-3 text-center items-center mb-6 cursor-pointer"
+              onClick={() => toggleSection('operating-safety-drive')}
+            >
+              <div className="bg-linear-to-r from-cyan-500 to-blue-500 p-3 rounded-full mr-4 shadow-lg">
+                <Zap className="w-6 h-6 text-white" />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-2xl font-bold text-white">Operating Safety Drive</h2>
+                <p className="text-gray-300">Operating safety drive circulars for 2025</p>
+                <h3 className="text-2xl font-bold text-white mb-2">{operatingSafetyDrivePdfFiles.length}</h3>
+              </div>
+              <div className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
+                {isSectionExpanded('operating-safety-drive') ? (
+                  <ChevronUp className="w-6 h-6 text-white" />
+                ) : (
+                  <ChevronDown className="w-6 h-6 text-white" />
+                )}
+              </div>
+            </div>
+
+            {isSectionExpanded('operating-safety-drive') && (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 animate-fade-in">
+                {operatingSafetyDrivePdfFiles.map((file, index) => (
+                  <div
+                    key={index}
+                    className={`py-4 lg:px-4 px-2 rounded-lg border transition-all duration-300 cursor-pointer hover:shadow-lg ${
+                      file.filename 
+                        ? 'border-cyan-400/30 hover:border-cyan-400 bg-linear-to-r from-cyan-500/10 to-blue-500/10 hover:from-cyan-500/20 hover:to-blue-500/20' 
+                        : 'border-gray-400/30 bg-gray-500/10 opacity-60 cursor-not-allowed'
+                    }`}
+                    onClick={() => file.filename && handlePdfClick(file.filename)}
+                  >
+                    <div className="flex items-start justify-between">
+                      <div className="flex items-start flex-1">
+                        <div className={`p-2 rounded-full mr-3 mt-1 ${
+                          file.filename ? 'bg-cyan-500/20' : 'bg-gray-500/20'
+                        }`}>
+                          <Shield className={`w-4 h-4 ${
+                            file.filename ? 'text-cyan-400' : 'text-gray-400'
+                          }`} />
+                        </div>
+                        <div className="flex-1">
+                          <h3 className={`font-medium ${
+                            file.filename ? 'text-white' : 'text-gray-400'
+                          }`}>
+                            {file.name}
+                          </h3>
+                          {file.filename && (
+                            <div className="mt-1 space-y-1">
+                              <p className="text-sm text-cyan-200 leading-relaxed">
+                                {file.subject}
+                              </p>
+                              <div className="flex items-center text-xs text-cyan-300">
+                                <Calendar className="w-3 h-3 mr-1" />
+                                {file.date}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      {file.filename && (
+                        loadingFile === file.filename ? (
+                          <Loader2 className="w-5 h-5 text-cyan-400 animate-spin ml-3" />
+                        ) : (
+                          <Download className="w-5 h-5 text-cyan-400 hover:text-cyan-300 transition-colors ml-3" />
+                        )
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Divisional Operating Safety Drive Section */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-6 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300 mb-6">
+            <div 
+              className="flex flex-col lg:flex-row gap-3 text-center items-center mb-6 cursor-pointer"
+              onClick={() => toggleSection('divisional-operating-safety-drive')}
+            >
+              <div className="bg-linear-to-r from-violet-500 to-purple-500 p-3 rounded-full mr-4 shadow-lg">
+                <Zap className="w-6 h-6 text-white" />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-2xl font-bold text-white">Divisional Operating Safety Drive</h2>
+                <p className="text-gray-300">Divisional operating safety drive circulars for 2025</p>
+                <h3 className="text-2xl font-bold text-white mb-2">{divisionalOperatingSafetyDrivePdfFiles.length}</h3>
+              </div>
+              <div className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
+                {isSectionExpanded('divisional-operating-safety-drive') ? (
+                  <ChevronUp className="w-6 h-6 text-white" />
+                ) : (
+                  <ChevronDown className="w-6 h-6 text-white" />
+                )}
+              </div>
+            </div>
+
+            {isSectionExpanded('divisional-operating-safety-drive') && (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 animate-fade-in">
+                {divisionalOperatingSafetyDrivePdfFiles.map((file, index) => (
+                  <div
+                    key={index}
+                    className={`py-4 lg:px-4 px-2 rounded-lg border transition-all duration-300 cursor-pointer hover:shadow-lg ${
+                      file.filename 
+                        ? 'border-violet-400/30 hover:border-violet-400 bg-linear-to-r from-violet-500/10 to-purple-500/10 hover:from-violet-500/20 hover:to-purple-500/20' 
+                        : 'border-gray-400/30 bg-gray-500/10 opacity-60 cursor-not-allowed'
+                    }`}
+                    onClick={() => file.filename && handlePdfClick(file.filename)}
+                  >
+                    <div className="flex items-start justify-between">
+                      <div className="flex items-start flex-1">
+                        <div className={`p-2 rounded-full mr-3 mt-1 ${
+                          file.filename ? 'bg-violet-500/20' : 'bg-gray-500/20'
+                        }`}>
+                          <Shield className={`w-4 h-4 ${
+                            file.filename ? 'text-violet-400' : 'text-gray-400'
+                          }`} />
+                        </div>
+                        <div className="flex-1">
+                          <h3 className={`font-medium ${
+                            file.filename ? 'text-white' : 'text-gray-400'
+                          }`}>
+                            {file.name}
+                          </h3>
+                          {file.filename && (
+                            <div className="mt-1 space-y-1">
+                              <p className="text-sm text-violet-200 leading-relaxed">
+                                {file.subject}
+                              </p>
+                              <div className="flex items-center text-xs text-violet-300">
+                                <Calendar className="w-3 h-3 mr-1" />
+                                {file.date}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      {file.filename && (
+                        loadingFile === file.filename ? (
+                          <Loader2 className="w-5 h-5 text-violet-400 animate-spin ml-3" />
+                        ) : (
+                          <Download className="w-5 h-5 text-violet-400 hover:text-violet-300 transition-colors ml-3" />
                         )
                       )}
                     </div>

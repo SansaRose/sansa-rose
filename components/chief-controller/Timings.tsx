@@ -10,9 +10,14 @@ interface Timing {
 
 const Timings = () => {
   const timings: Timing[] = [
+    { question: 'How often do the Station Kavach and Loco Kavach units communicate with each other?', answer: 'every 2 seconds', timing: '2 seconds' },
+
+    { question: 'What is the timeout period for radio communication failure in an Automatic Block Section before KAVACH takes action?', answer: '10 seconds', timing: '10 seconds' },
+
     { question: 'In the Siemen\'s panel \'NCR\' indication along with audible warning appears after a button is kept pressed for a prolonged period of', answer: '10 seconds or more', timing: '10 seconds' },
 
     { question: 'When acknowledgement cannot be obtained for ‘Call attention’ bell beat, again Call attention shall be given by SM after_____', answer: '20 seconds', timing: '20 seconds' },
+    { question: 'KAVACH automatically transition from Full Supervision (FS) mode to Limited Supervision Mode (LS) if radio communication is lost for ________ seconds in an Absolute Block Section?', answer: '30 seconds', timing: '30 seconds' },
     
     { question: 'During day when Gate signal is at ON, the LP shall wait for', answer: '1 minute', timing: '1 minute' },
     { question: 'The signal shall be treated as defective, whenever colour light signal is flickering / bobbing and does not assume a steady aspect at least for', answer: '60 seconds', timing: '1 minute' },
@@ -26,6 +31,8 @@ const Timings = () => {
     { question: 'When engine disabled, LP will request the Guard to arrange for a relief engine if the LP expects that putting the engine in working order will take more than', answer: '5 minutes', timing: '5 minutes' },
     { question: 'LP shall depute his ALP to check the train and inform Guard of no tension in OHE when it is held up for more than', answer: '5 Minutes', timing: '5 minutes' },
     { question: 'At train starting station \'is line clear\' shall be asked, how many minutes before the booked departure of the passenger carrying trains', answer: 'before 5 min', timing: '5 minutes' },
+
+    { question: 'In Modified Semi-automatic stop signal, when Loco Pilot finds mid-section modified semi-automatic stop signal with "A" marker extinguished in "ON" position, when Loco Pilot is unable to contact the Station Master of station ahead, he shall pass the signal at "ON" ______________ and proceed cautiously and be prepared to stop short of any obstruction, at a speed not exceeding 10 kmph upto next Signal.', answer: 'After waiting for 5 minutes at the signal', timing: '5 minutes' },
     
     { question: 'In the case of train is booked to run through a station, is line clear shall be asked how many minutes before the train is due to pass', answer: '7 minutes', timing: '7 minutes' },
     
@@ -67,17 +74,34 @@ const Timings = () => {
     { question: 'When power supply fails in Non-electrified area, one generator can be used at a time for a maximum of________', answer: '4 hours', timing: '4 hours' },
 
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
+
+    { question: 'The maximum duty hours in any one trip should not exceed.', answer: '10 hours', timing: '10 hours' },
+
+    { question: 'Minimum home station rest for duty more than 8 hours is:', answer: '16 hours', timing: '16 hours' },
     
+    { question: 'If a BPC Rake (CC, Premium, or End-to-End) is stabled for more than _______ hours at a TXR yard, BPC becomes invalid.', answer: '24 hours', timing: '24 hours' },
+
     { question: 'Temporary Instructions shall be issued for Disconnections / maintenance likely to last for more than', answer: 'one day', timing: '1 day' },
     
     { question: 'BPC of a material train is valid for 30days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
+
+    { question: 'When must an Empty End-to-End Rake reach the loading point from the time of BPC issue, otherwise a fresh BPC is required?', answer: 'Within 4 days', timing: '4 days' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
     { question: 'Engineering and S&T officials shall send a circular notice before the work is due to commence to the Sr. DOM/DOM at least', answer: '15 days in advance', timing: '15 days' },
     
+    { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '20 days', timing: '20 days' },
+
+
+    { question: 'If the distance (km) data is missing and not retrievable for a CC Rake, for how many days is the BPC valid?', answer: '20 days', timing: '20 days' },
+
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
+
+    { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
+
+    { question: 'First Aid boxes available with Station Masters and Guards of passenger carrying trains are to be inspected by DMO ____________', answer: 'Once in a month', timing: '1 month' },
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
     { question: 'All Signals on a section shall be jointly inspected by the Signal, Transportation and Loco Inspectors (SI, TI & LI) at least once in 3 months.', answer: '3 months', timing: '3 months' },
@@ -127,35 +151,35 @@ const Timings = () => {
 
   const getTimingColor = (timing: string) => {
     if (timing === 'Other') {
-      return 'bg-gradient-to-r from-purple-600 to-purple-700'
+      return 'bg-linear-to-r from-purple-600 to-purple-700'
     }
     if (timing.includes('sec') || timing.includes('minute') && timing.includes('1')) {
-      return 'bg-gradient-to-r from-red-600 to-red-700'
+      return 'bg-linear-to-r from-red-600 to-red-700'
     }
     if (timing.includes('minute') && (timing.includes('2') || timing.includes('5') || timing.includes('7'))) {
-      return 'bg-gradient-to-r from-orange-600 to-orange-700'
+      return 'bg-linear-to-r from-orange-600 to-orange-700'
     }
     if (timing.includes('minute') && (timing.includes('10') || timing.includes('15'))) {
-      return 'bg-gradient-to-r from-yellow-600 to-yellow-700'
+      return 'bg-linear-to-r from-yellow-600 to-yellow-700'
     }
     if (timing.includes('minute') && (timing.includes('25') || timing.includes('30') || timing.includes('60'))) {
-      return 'bg-gradient-to-r from-green-600 to-green-700'
+      return 'bg-linear-to-r from-green-600 to-green-700'
     }
     if (timing.includes('hour') || timing.includes('day') || timing.includes('Fortnight')) {
-      return 'bg-gradient-to-r from-blue-600 to-blue-700'
+      return 'bg-linear-to-r from-blue-600 to-blue-700'
     }
     if (timing.includes('month') || timing.includes('year')) {
-      return 'bg-gradient-to-r from-indigo-600 to-indigo-700'
+      return 'bg-linear-to-r from-indigo-600 to-indigo-700'
     }
-    return 'bg-gradient-to-r from-purple-600 to-purple-700'
+    return 'bg-linear-to-r from-purple-600 to-purple-700'
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             Timings
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
@@ -179,13 +203,13 @@ const Timings = () => {
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-gradient-to-r from-slate-800 to-slate-700"
+                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-linear-to-r from-slate-800 to-slate-700"
                   >
                     <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                       {/* Question */}
                       <div className="flex-1">
                         <div className="flex items-start gap-3">
-                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
+                          <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
                             {index + 1}
                           </span>
                           <p className="text-gray-200 leading-relaxed font-medium">
@@ -195,7 +219,7 @@ const Timings = () => {
                       </div>
 
                       {/* Answer */}
-                      <div className="flex-shrink-0 sm:w-48 ml-8">
+                      <div className="shrink-0 sm:w-48 ml-8">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-900/50 border border-blue-700">
                           <span className="text-blue-300 font-semibold text-lg">
                             {item.answer}

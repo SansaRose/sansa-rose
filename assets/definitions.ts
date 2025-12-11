@@ -709,5 +709,29 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       definition: "The number of trains which can be run on a section in 24 hours is termed as Sectional Capacity.",
       reference: "--"
     },
+    {
+      number: 117,
+      term: "Repeating Signal",
+      definition: "A signal is placed in rear of a fixed signal for the purpose of repeating to the Loco Pilot of an approaching train the aspects of the fixed signal in advance is called a Repeating signal.",
+      reference: "--"
+    },
+    {
+      number: 118,
+      term: "Critical Block Section",
+      definition: "The longest block section or the one with the maximum running time to clear the section is called a Critical Block Section.",
+      reference: "--"
+    },
+    {
+      number: 119,
+      term: "Throughput",
+      definition: "Throughput of a section is the total quantum of traffic which is transported over the section in a period of 24 hours.",
+      reference: "--"
+    },
+    {
+      number: 120,
+      term: "Wagon Turn Round (WTR)",
+      definition: "Wagon Turn Round is the time interval between two successive loadings. Calculated from the time a wagon is placed for the loading until it again becomes available for reloading. This represents the total time a wagon spends in one complete operational cycle.",
+      reference: "--"
+    },
     
   ];

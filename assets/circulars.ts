@@ -92,6 +92,18 @@ export const alertAdvicePdfFiles = [
       subject: "Shunting on Hand operated points precautions",
       date: "03/10/2025",
     },
+    {
+      name: "Alert Advice 16 of 2025",
+      filename: "Alert Advice 16 of 2025.pdf",
+      subject: "Train operations during foggy & inclement weather - Precautions",
+      date: "29/10/2025",
+    },
+    {
+      name: "Alert Advice 18 of 2025",
+      filename: "Alert Advice 18 of 2025.pdf",
+      subject: "Joint Procedural Order on Safe Execution of Shunting Operations",
+      date: "29/11/2025",
+    },
   ];
   
   export const flyLeafPdfFiles = [
@@ -177,6 +189,42 @@ export const alertAdvicePdfFiles = [
       subject: "(As per reference (i) LHB Maintenance Manual Volume II – System Documentation IRCAMTECH /GWL /MECH/ 2022-23/LHB/Manual/1.1 JULY, 2022 (Annexure -10.5, Sl.No. 27 to 27.29, Air Spring /FIBA & Chapter-4. Bogie, Annexure-C & D. (Ii) RDSOLr.No.SV.AS.FIBA, dated: 22.06.2020).",
       date: "01/09/2025",
     },
+    {
+      name: "Fly Leaf 14 of 2025",
+      filename: "Fly Leaf 14 of 2025.pdf",
+      subject: "Air Brake Testing (Single Car) - LHB Coaching Stock",
+      date: "15/09/2025",
+    },
+    {
+      name: "Fly Leaf 15 of 2025",
+      filename: "Fly Leaf 15 of 2025.pdf",
+      subject: "General Safety Precautions to be observed in the Territory",
+      date: "30/09/2025",
+    },
+    {
+      name: "Fly Leaf 16 of 2025",
+      filename: "Fly Leaf 16 of 2025.pdf",
+      subject: "Winter Precautions in Maintenance of Track",
+      date: "08/10/2025",
+    },
+    {
+      name: "Fly Leaf 17 of 2025",
+      filename: "Fly Leaf 17 of 2025.pdf",
+      subject: "Instruction for FSDS during Dead Coach Movement (LHB & ICF Coaches Stock)",
+      date: "25/10/2025",
+    },
+    {
+      name: "Fly Leaf 18 of 2025",
+      filename: "Fly Leaf 18 of 2025.pdf",
+      subject: "Train Operations during foggy & inclement weather - Precautions",
+      date: "08/11/2025",
+    },
+    {
+      name: "Fly Leaf 19 of 2025",
+      filename: "Fly Leaf 19 of 2025.pdf",
+      subject: "Shunting",
+      date: "22/11/2025",
+    },
   ];
   
   export const operatingSafetyCircularPdfFiles = [
@@ -219,6 +267,18 @@ export const alertAdvicePdfFiles = [
       subject: "Pushing back of a Train outside of Station limits (Engine Pushing) as GR&SR 4.12",
       date: "14/08/2025",
     },
+    {
+      name: "Operating Safety Circular 11 of 2025",
+      filename: "Operating Safety Circular 11 of 2025.pdf",
+      subject: "Detailed and clear instructions on T-806-Reg.",
+      date: "06/11/2025",
+    },
+    {
+      name: "Operating Safety Circular 12 of 2025",
+      filename: "Operating Safety Circular 12 of 2025.pdf",
+      subject: "Action by SMs in case of Point indication flashing - Reg.",
+      date: "19/11/2025",
+    },
   ];
   
   export const operatingGeneralCircularPdfFiles = [
@@ -245,6 +305,24 @@ export const alertAdvicePdfFiles = [
       filename: "Operating General Circular 06 of 2025.pdf",
       subject: "Issuing of written memo for the work to be done inside the Siding",
       date: "14/10/2025",
+    },
+  ];
+
+  export const operatingSafetyDrivePdfFiles = [
+    {
+      name: "Operating Safety Drive 03 of 2025",
+      filename: "Operating Safety Drive 03 of 2025.pdf",
+      subject: "Operating Safety Drive for 45 days on Loading/Unloading and Safe Enroute Movement of EUR Rakes - reg.",
+      date: "03/11/2025",
+    },
+  ];
+
+  export const divisionalOperatingSafetyDrivePdfFiles = [
+    {
+      name: "Divisional Operating Safety Drive 03 of 2025",
+      filename: "Divisional Operating Safety Drive 03 of 2025.pdf",
+      subject: "Setting of wrong route and signalling by SMs - Reg.",
+      date: "11/12/2025",
     },
   ];
   
@@ -334,6 +412,21 @@ export const alertAdvicePdfFiles = [
       filename: "Fortnightly Safety Bulletin September 2nd FN 2025.pdf",
       date: "31/09/2025",
     },
+    {
+      name: "Fortnightly Safety Bulletin October 1st FN 2025",
+      filename: "Fortnightly Safety Bulletin October 1st FN 2025.pdf",
+      date: "15/10/2025",
+    },
+    {
+      name: "Fortnightly Safety Bulletin October 2nd FN 2025",
+      filename: "Fortnightly Safety Bulletin October 2nd FN 2025.pdf",
+      date: "31/10/2025",
+    },
+    {
+      name: "Fortnightly Safety Bulletin November 2nd FN 2025",
+      filename: "Fortnightly Safety Bulletin November 2nd FN 2025.pdf",
+      date: "30/11/2025",
+    },
     
   ];
   
@@ -357,6 +450,11 @@ export const alertAdvicePdfFiles = [
       name: "Monthly Safety Bulletin July 2025",
       filename: "Monthly Safety Bulletin July 2025.pdf",
       date: "31/07/2025",
+    },
+    {
+      name: "Monthly Safety Bulletin October 2025",
+      filename: "Monthly Safety Bulletin October 2025.pdf",
+      date: "31/10/2025",
     },
   ];
   
@@ -473,6 +571,20 @@ export const alertAdvicePdfFiles = [
       subject:
         "Railway Board Safety Drive No:13: Drive on shunting precautions covering all shunting locations in the Division-reg",
       date: "17/09/2025",
+    },
+    {
+      name: "Safety Drive November 1 2025",
+      filename: "Safety Drive November 1 2025.pdf",
+      subject:
+        "Railway Board Safety Drive No. 17 (FY: 2025-26): Winter Preparedness drive.",
+      date: "03/11/2025",
+    },
+    {
+      name: "Safety Drive November 3 2025",
+      filename: "Safety Drive November 3 2025.pdf",
+      subject:
+        "Railway Board Safety Calendar Drive for the month of November 2025",
+      date: "07/11/2025",
     },
   ];
   

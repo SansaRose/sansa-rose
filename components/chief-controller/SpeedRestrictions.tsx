@@ -45,6 +45,10 @@ const SpeedRestrictions = () => {
     { question: 'The Loco Pilot on observing PHS shall be pass the defective signal at "ON" position at a speed not exceeding 15 kmph..', answer: '15 kmph', speed: '15 kmph' },
 
     { question: 'Light engine/vehicle which is going for opening of communication shall proceed with a restricted speed of _______ kmph.', answer: '15 kmph', speed: '15 kmph' },
+
+    { question: 'What is the default supervised speed in Shunt (SH) mode?', answer: '15 kmph', speed: '15 kmph' },
+    
+    { question: 'Loco Pilot can pass an Automatic Signal at "ON" position without any authority after waiting 1/2 minutes during day/night with great caution so as to stop short of any obstruction', answer: '15 kmph', speed: '15 kmph' },
     
     { question: 'When IBS is at "ON" and the telephone is out of order, Loco Pilot after waiting for five minutes shall proceed when view is clear/not clear up to next stop signal at a speed of', answer: '15/8 kmph', speed: '15/8 kmph' },
     { question: 'When material train, TTM & Tower wagon are permitted in same block section to work, speed for the following is restricted to and the distance to be kept between them is', answer: '15/8 kmph, 150metres', speed: '15/8 kmph' },
@@ -63,6 +67,13 @@ const SpeedRestrictions = () => {
     { question: 'The light engine which is coming on T/609 to pick up the second portion shall come with a restricted speed of', answer: '25 KMPH', speed: '25 kmph' },
     
     { question: 'During prolonged failure of signals but communications are available on D/L Automatic Block System, the speed of first train and second and subsequent trains respectively', answer: '25 kmph & Sectional speed', speed: '25 kmph' },
+
+    { question: 'What is the default supervised speed in Reverse (RV) mode?', answer: '25 kmph', speed: '25 kmph' },
+
+    { question: 'What is the maximum permissible speed for a Class "B" ODC on Metre Gauge (MG) section?', answer: '25 kmph', speed: '25 kmph' },
+
+    { question: 'What is the maximum permissible speed for a Class "C" ODC on Broad Gauge (BG) section?', answer: '25 kmph', speed: '25 kmph' },
+
     
     { question: 'During T I C on double line, the Loco Pilot to proceed with a restricted speed of', answer: '25/10 kmph', speed: '25/10 kmph' },
     { question: 'If enquiry is made for more than one train and reply is also received, after a clear interval of 30 minutes the second train can be allowed to go with a restricted speed of', answer: '25/10 KMPH', speed: '25/10 kmph' },
@@ -80,6 +91,8 @@ const SpeedRestrictions = () => {
 
     { question: 'LP and Guard notice Flat tyre on Run in Block Section should clear block section with a speed restriction of', answer: '30 kmph', speed: '30 kmph' },
 
+    { question: 'After an SOS brings a train to a stop, KAVACH supervises the train speed at ________ kmph Until the train passes the originating location of the "SOS" message', answer: '30 kmph', speed: '30 kmph' },
+
     
     { question: '\'Patrol\' or \'Search-light\' special with one or more vehicles in front of the engine may be permitted to run at a maximum speed of', answer: '40 kmph', speed: '40 kmph' },
     { question: 'If the night patrolman does not turn up even after 15 minutes beyond the schedule arrival time, SM shall stop all the trains and issue caution order restricting the speed to', answer: '40 kmph', speed: '40 kmph' },
@@ -87,10 +100,19 @@ const SpeedRestrictions = () => {
     { question: 'In case of emergency the Assistant Loco Pilot can be authorized to drive the train at a restricted speed up to the nearest point where he can be relieved, not exceeding', answer: '40 kmph', speed: '40 kmph' },
 
     { question: 'When leading compartment of an electric or diesel engine with twin cab is defective and the train is driven from trailing compartment by Assistant Loco Pilot, the speed shall not exceed', answer: '40 kmph', speed: '40 kmph' },
+
+    { question: 'What is the typical speed restriction for a Class "B" ODC on Broad Gauge (BG)?', answer: '40 kmph', speed: '40 kmph' },
     
     { question: 'Isolation is necessary where the trains are to run through a station at a speed exceeding', answer: '50 kmph', speed: '50 kmph' },
     { question: 'When major work such as relaying and re-girdering is in progress a speed restriction that shall be observed on the adjoining line of DL//MULTIPLE/ line section', answer: '50kmph', speed: '50 kmph' },
+
     { question: 'At standard – I R interlocked station the maximum speed permitted for the train over main line points is', answer: '50 KMPH', speed: '50 kmph' },
+
+    { question: 'At stations with manually operated multiple-aspect signals and train speed not exceeding _______, Distant and Home signals may be provided in each direction', answer: '50 KMPH', speed: '50 kmph' },
+
+    { question: 'What is the maximum permissible train speed for the proviso under GR 3.33?', answer: '50 KMPH', speed: '50 kmph' },
+
+    { question: 'What is the maximum permitted speed for loaded long haul trains?', answer: '55 KMPH', speed: '55 kmph' },
     
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing green light shall be restricted to', answer: '60kmph', speed: '60 kmph' },
     
@@ -102,10 +124,16 @@ const SpeedRestrictions = () => {
     { question: 'During dense fog and fog safety device is provided maximum speed of a train on Absolute block system shall be restricted to', answer: '75 kmph', speed: '75 kmph' },
     
     { question: 'At standard – II R interlocked station the maximum speed permitted for the train over main line points is', answer: '110 KMPH', speed: '110 kmph' },
+
+    { question: 'Where necessary (when sectional speed is more than 110 kmph) two distant signals (Double distant) may be provided in the same direction', answer: '110 KMPH', speed: '110 kmph' },
     
     { question: 'At standard – III R interlocked station the maximum speed permitted for the train over main line points is', answer: '140 KMPH', speed: '140 kmph' },
+
+    { question: 'In case Loco is not equipped with Kavach or Loco Kavach becomes defective, the maximum speed of train shall not exceed __________ subject to other speed restrictions.', answer: '140 kmph', speed: '140 kmph' },
     
     { question: 'At standard – IV R interlocked station the maximum speed permitted for the train over main line points is', answer: '160 KMPH', speed: '160 kmph' },
+
+    { question: 'KAVACH RFID tags are designed to be reliable for train speeds up to what limit?', answer: '200 KMPH', speed: '200 kmph' },
     
     { question: 'When the train is working without BV, while pushing back the LP has to observe the hand signals of guard and proceed with', answer: 'Walking speed', speed: 'Walking' },
     { question: 'During dense fog maximum speed of a train on Automatic block system when it is showing single yellow light shall be restricted to', answer: 'Restricted speed to stop at next stop signal', speed: 'Restricted' },
@@ -128,22 +156,22 @@ const SpeedRestrictions = () => {
   const getSpeedColor = (speed: string) => {
     const speedNum = parseInt(speed)
     if (isNaN(speedNum)) {
-      return 'bg-gradient-to-r from-purple-600 to-purple-700'
+      return 'bg-linear-to-r from-purple-600 to-purple-700'
     }
-    if (speedNum <= 10) return 'bg-gradient-to-r from-red-600 to-red-700'
-    if (speedNum <= 20) return 'bg-gradient-to-r from-orange-600 to-orange-700'
-    if (speedNum <= 40) return 'bg-gradient-to-r from-yellow-600 to-yellow-700'
-    if (speedNum <= 60) return 'bg-gradient-to-r from-green-600 to-green-700'
-    if (speedNum <= 100) return 'bg-gradient-to-r from-blue-600 to-blue-700'
-    return 'bg-gradient-to-r from-indigo-600 to-indigo-700'
+    if (speedNum <= 10) return 'bg-linear-to-r from-red-600 to-red-700'
+    if (speedNum <= 20) return 'bg-linear-to-r from-orange-600 to-orange-700'
+    if (speedNum <= 40) return 'bg-linear-to-r from-yellow-600 to-yellow-700'
+    if (speedNum <= 60) return 'bg-linear-to-r from-green-600 to-green-700'
+    if (speedNum <= 100) return 'bg-linear-to-r from-blue-600 to-blue-700'
+    return 'bg-linear-to-r from-indigo-600 to-indigo-700'
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             Speed Restrictions
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
@@ -167,13 +195,13 @@ const SpeedRestrictions = () => {
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-gradient-to-r from-slate-800 to-slate-700"
+                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-linear-to-r from-slate-800 to-slate-700"
                   >
                     <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                       {/* Question */}
                       <div className="flex-1">
                         <div className="flex items-start gap-3">
-                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
+                          <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
                             {index + 1}
                           </span>
                           <p className="text-gray-200 leading-relaxed font-medium">
@@ -183,7 +211,7 @@ const SpeedRestrictions = () => {
                       </div>
 
                       {/* Answer */}
-                      <div className="flex-shrink-0 sm:w-48 ml-8">
+                      <div className="shrink-0 sm:w-48 ml-8">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-900/50 border border-blue-700">
                           <span className="text-blue-300 font-semibold text-lg">
                             {item.answer}

@@ -105,6 +105,10 @@ type AbbreviationItem = {
         explanation: "A major trade union representing Indian Railway employees",
         reference: "--"
       },
+      { acronym: "AITT", fullForm: "All India Time Table",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "AITUC", fullForm: "All India Trade Union Congress",
         explanation: "Will be added later",
         reference: "--"
@@ -751,11 +755,19 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CSL", fullForm: "Clear Standing Length",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CSO", fullForm: "Chief Safety Officer",
         explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "CSO", fullForm: "Central Standards Office",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CSR", fullForm: "Clear Standing Room",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1099,6 +1111,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "EI", fullForm: "Electronic Interlocking",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "EIMWB", fullForm: "Electronic In - Motion Weigh Bridge",
         explanation: "Will be added later",
         reference: "--"
@@ -1168,6 +1184,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "ES", fullForm: "Elementary Section",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "ESI", fullForm: "Engineering Stop Indicator",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1862,6 +1882,12 @@ type AbbreviationItem = {
     ],
     M: [
       {
+        acronym: "MA",
+        fullForm: "Movement Authority",
+        explanation: "Movement Authority' It is the distance up to which the train is permitted to travel safety",
+        reference: "--"
+      },
+      {
         acronym: "MACPS",
         fullForm: "Modified Assured Career Progression Scheme",
         explanation: "Financial upgradation scheme when promotions are delayed.",
@@ -1909,6 +1935,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "MLO", fullForm: "Multiple Loco Operations",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "MM", fullForm: "Member Mechanical",
         explanation: "Will be added later",
         reference: "--"
@@ -1938,6 +1968,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "MPS", fullForm: "Maximum Permissible Speed",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "MRSP", fullForm: "Most Restrictive Speed Profile",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2082,6 +2116,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "ODR", fullForm: "Oldest Date of Registration",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "OEM", fullForm: "Original Equipment Manufacturer",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2269,6 +2307,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "PI", fullForm: "Panel Interlocking",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PIA", fullForm: "Project Influence Area",
         explanation: "Will be added later",
         reference: "--"
@@ -2315,6 +2357,10 @@ type AbbreviationItem = {
       },
       { acronym: "POL", fullForm: "Petroleum Oil Lubricants",
         explanation: "Major scheduled maintenance of rolling stock at specified intervals",
+        reference: "--"
+      },
+      { acronym: "POL", fullForm: "Power On Line",
+        explanation: "",
         reference: "--"
       },
       { acronym: "POMKA", fullForm: "Portable Medical Kit for Accidents",
@@ -2953,6 +2999,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "STS", fullForm: "Station to Station Rates",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "STT", fullForm: "Sheet Time Table",
         explanation: "Will be added later",
         reference: "--"
       },

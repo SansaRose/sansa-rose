@@ -106,10 +106,27 @@ const Distances = () => {
     { question: 'After exploding the detonator, if no obstruction found further, the Loco Pilot, can pick up normal speed after proceeding cautiously up to a distance of', answer: '1500M', distance: '1500M' },
     
     { question: 'Wherever double distant is provided, from the stop signal, distant signal location is', answer: '2000M', distance: '2000M' },
+    { question: 'When a manual SOS is generated from a station, within what radius will brakes be applied automatically to functional KAVACH locos?', answer: '3000M', distance: '3000M' },
     
     { question: 'The beat of the Patrolman shall no case exceed', answer: '5KM', distance: '5KM' },
     
     { question: 'Under no circumstances a patrolman should be rostered to walk more than', answer: '20KM', distance: '20KM' },
+
+    { question: 'In FTR booking, Empty Haulage Charge is applied on a minimum chargeable distance of how many kilometres?', answer: '200KM', distance: '200KM' },
+
+    
+    { question: 'What is the maximum distance allowed for an End-to-End Rake movement under a GLP check?', answer: '400KM', distance: '400KM' },
+    
+    { question: 'What is the maximum distance limit (km cap) for GLP movements, as an exam-focused must-write point?', answer: '400KM', distance: '400KM' },
+
+    { question: 'What is the validity period for BPC of an ICF Mail/Express Train?', answer: '3500 km or 96 hours (4 days)', distance: '3500KM' },
+
+    { question: 'Passenger Trains (ICF Stock) Without Toilets have a BPC validity of 3500 km OR 7 days, whichever is earlier.', answer: '3500 km OR 7 days, whichever is earlier', distance: '3500KM' },
+    
+    { question: 'What is the validity of BPC for LHB Coaching Stock running as a Mail/Express train?', answer: '4000KM or 96 hours (4 days)', distance: '4000KM' },
+
+    { question: 'What is the validity of BPC for a Dedicated Parcel Express Train?', answer: '4500 km or 10 days', distance: '4500KM' },
+    { question: 'What is the enhanced (under trial) validity for a BOXN/BOXNHL CC Rake?', answer: '10000 km or 35+5 days', distance: '1000KM' },
     
     { question: 'The provision of Catch siding is compulsory, where the falling gradient towards Station section is steeper than', answer: '1 in 80', distance: 'Gradients' },
     { question: 'The provision of slip siding is compulsory, where the falling gradient towards block section is steeper than', answer: '1 in 100', distance: 'Gradients' },
@@ -147,11 +164,11 @@ const Distances = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             Distances
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
@@ -175,13 +192,13 @@ const Distances = () => {
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-gradient-to-r from-slate-800 to-slate-700"
+                    className="group p-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-md transition-all duration-300 bg-linear-to-r from-slate-800 to-slate-700"
                   >
                     <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                       {/* Question */}
                       <div className="flex-1">
                         <div className="flex items-start gap-3">
-                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
+                          <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
                             {index + 1}
                           </span>
                           <p className="text-gray-200 leading-relaxed font-medium">
@@ -191,7 +208,7 @@ const Distances = () => {
                       </div>
 
                       {/* Answer */}
-                      <div className="flex-shrink-0 sm:w-48 ml-8">
+                      <div className="shrink-0 sm:w-48 ml-8">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-blue-900/50 border border-blue-700">
                           <span className="text-blue-300 font-semibold text-lg">
                             {item.answer}
