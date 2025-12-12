@@ -8,7 +8,7 @@ const RailwayServantsLeaveRules1949Rule503 = () => {
         {/* Content Section */}
         <div className="space-y-6">
           {/* Main Heading */}
-          <h1 className="text-2xl md:text-6xl font-bold mb-6 tracking-tight text-white text-center">
+          <h1 className="text-xl md:text-4xl font-bold mb-6 tracking-tight text-white text-center">
             Railway Servants (Liberalised Leave) Rules, 1949
           </h1>
 
@@ -25,8 +25,16 @@ const RailwayServantsLeaveRules1949Rule503 = () => {
           <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl px-4 py-6 lg:px-8 lg:py-8 border border-gray-700/20">
             {/* Right to leave section */}
             <div className="mb-6">
+            <div className="flex items-center justify-center flex-col gap-2 mb-4">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-r from-emerald-500 to-teal-600 text-white font-bold text-lg shadow-md mr-3">
+              503
+            </span>
+            <h2 className="text-white text-lg md:text-2xl font-bold">
+              Right to leave
+            </h2>
+          </div>
               <p className="text-white text-sm lg:text-lg leading-relaxed">
-                <span className="font-semibold">Right to leave.—</span>Leave cannot be claimed as of right and leave of any kind may be refused or revoked by the authority* competent to grant it, but it shall not be open to that authority to alter the kind of leave due and applied for except at the written request of the Railway servant. <span className="font-semibold">*See schedule.</span>
+                Leave cannot be claimed as of right and leave of any kind may be refused or revoked by the authority* competent to grant it, but it shall not be open to that authority to alter the kind of leave due and applied for except at the written request of the Railway servant. <span className="font-semibold">*See schedule.</span>
               </p>
             </div>
 

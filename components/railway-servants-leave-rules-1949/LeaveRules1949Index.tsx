@@ -4,6 +4,66 @@ import { FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Calendar
 import { useRouter } from 'next/navigation'
 
 const LeaveRules1949Index = () => {
+  const ruleDescriptions = [
+    'Short title',
+    'Extent of application',
+    'Right to leave',
+    'Effect of dismissal, removal or resignation on leave at credit',
+    'Conversion of one kind of leave into another',
+    'Commencement and end of leave',
+    'Combination of different kinds of leave',
+    'Combination of holidays with leave',
+    'Employment during leave',
+    'Maximum amount of continuous leave',
+    'Application for leave',
+    'Grant of leave',
+    'Leave account',
+    'Verification of title to leave',
+    'Leave when not to be granted',
+    'Recall to duty before expiry of leave',
+    'Return to duty from leave',
+    'Absence after the expiry of leave',
+    'Grant of leave on Medical Certificate',
+    'Grant of leave on Medical Certificate to Group A and Group B Officers',
+    'Comutted leave/Leave on Production of Medical Certificate by the Railway Servants',
+    'Leave to a railway servant who is unlikely to be fit to return to duty',
+    'Leave on average pay',
+    'Calculation of leave on average pay',
+    'Leave applicable to school staff',
+    'Leave on half average pay',
+    'Commuted leave',
+    'Leave not due',
+    'Leave not due to temporary railway employees',
+    'Extraordinary leave',
+    'Leave to probationers and a railway servant on probation',
+    'Leave to Special Class Railway Apprentices',
+    'Leave to Apprentices Mechanics',
+    'Leave to Trade Apprentices',
+    'Leave to other Apprentices',
+    'Extraordinary leave to Apprentices',
+    'General Conditions for grant of leave to Apprentices',
+    'Leave to persons re-employed after retirement',
+    'Leave to workshop staff',
+    'Leave preparatory to retirement & Encashment of Leave on Average Pay along with Railway Pass while in service',
+    'Leave beyond the date of retirement or quitting service',
+    'Leave on termination of employment and leave (terminal) to teporary railway servantm',
+    'Drawal of leave salary',
+    'Leave salary',
+    'Leave salary to workshop staff',
+    'Leave salary to running staff',
+    'Reckoning of special pay for leave salary',
+    'Advances of leave salary',
+    'Cash equivalent of leave salary in case of death in service & Payment of Cash equivalent of Leave Salary in case of death etc. of Railway servant',
+    'Cash Payment in lieu of unutilized leave on average pay on the date of retirement',
+    'Maternity leave & Paternity Leave & Paternity Leave to Leave to Male casual Railway employee who has been granted temporary status & Child Adoption Leave & Paternity Leave for child adoption & Child Care Leave',
+    'Special disability leave for injury intentionally inflicted',
+    'Special disability leave for accidental  injury',
+    'Hospital Leave',
+    'Quarantine Leave-- Deleted',
+    'Study Leave',
+    'Miscellaneous',
+  ]
+
   const [expandedRule, setExpandedRule] = useState<string | null>(null)
   const [isMobile, setIsMobile] = useState(false)
   const [openingContent, setOpeningContent] = useState<string | null>(null)
@@ -55,7 +115,7 @@ const LeaveRules1949Index = () => {
       title: `Rule ${ruleNumber}`,
       icon: <Calendar className="w-6 h-6" />,
       color: colors[colorIndex],
-      description: `Railway Servants (Liberalised Leave) Rules, 1949 - Rule ${ruleNumber}`
+      description: ruleDescriptions[i] ?? `Railway Servants (Liberalised Leave) Rules, 1949 - Rule ${ruleNumber}`,
     }
   })
 
@@ -77,7 +137,7 @@ const LeaveRules1949Index = () => {
                 <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-emerald-100 to-teal-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-4xl text-xl font-bold bg-linear-to-r from-white via-emerald-100 to-teal-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               RAILWAY SERVANTS (LIBERALISED LEAVE) RULES, 1949
             </h1>
             <h2 className="lg:text-4xl text-xl font-bold text-emerald-300 mb-4">RULES INDEX</h2>
@@ -151,7 +211,7 @@ const LeaveRules1949Index = () => {
                           {openingContent === rule.id ? (
                             <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
                           ) : (
-                            <BookOpenCheck className="w-4 h-4" />
+                            <BookOpenCheck className="w-4 h-4 hidden" />
                           )}
                           <span>{openingContent === rule.id ? 'Opening...' : 'View Content'}</span>
                           {!isMobile && openingContent !== rule.id && <ExternalLink className="w-3 h-3" />}
@@ -163,21 +223,7 @@ const LeaveRules1949Index = () => {
               ))}
             </div>
 
-            {/* Footer */}
-            <div className="mt-6 text-center">
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-white/20">
-                <div className="flex flex-col lg:flex-row gap-4 items-center justify-center space-x-3 mb-4">
-                  <FileText className="w-8 h-8 text-emerald-400" />
-                  <h3 className="text-2xl font-bold text-white">
-                    Complete Railway Servants (Liberalised Leave) Rules, 1949 Reference
-                  </h3>
-                </div>
-                <p className="text-gray-300 max-w-2xl mx-auto">
-                  This comprehensive guide covers all essential rules from Rule 501 to Rule 557 for Railway Servants (Liberalised Leave) Rules, 1949, 
-                  providing complete reference material for leave entitlements and regulations required for Railway Servants in Indian Railways.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

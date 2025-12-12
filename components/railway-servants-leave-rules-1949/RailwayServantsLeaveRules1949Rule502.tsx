@@ -8,7 +8,7 @@ const RailwayServantsLeaveRules1949Rule502 = () => {
         {/* Content Section */}
         <div className="space-y-6">
           {/* Main Heading */}
-          <h1 className="text-2xl md:text-6xl font-bold mb-6 tracking-tight text-white text-center">
+          <h1 className="text-xl md:text-4xl font-bold mb-6 tracking-tight text-white text-center">
             Railway Servants (Liberalised Leave) Rules, 1949
           </h1>
 
@@ -23,6 +23,14 @@ const RailwayServantsLeaveRules1949Rule502 = () => {
 
           {/* Main Content */}
           <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl px-2 py-4 border border-gray-700/20">
+          <div className="flex items-center justify-center flex-col gap-2 mb-4">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-r from-emerald-500 to-teal-600 text-white font-bold text-lg shadow-md mr-3">
+              502
+            </span>
+            <h2 className="text-white text-lg md:text-2xl font-bold">
+              Extent of application
+            </h2>
+          </div>
             <p className="text-white text-base lg:text-xl leading-relaxed text-center font-medium mb-6">
               These rules shall apply to
             </p>

@@ -15,13 +15,13 @@ const RailwayServantsLeaveRules1949 = () => {
                 <FileText className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
+            <h1 className="text-2xl md:text-4xl font-bold mb-6 tracking-tight">
               Railway Servants (Liberalised Leave) Rules, 1949
             </h1>
-            <div className="text-2xl md:text-3xl font-light mb-8 text-emerald-100">
+            <div className="text-xl md:text-2xl font-light mb-8 text-emerald-100">
               Leave Rules Reference
             </div>
-            <p className="text-lg md:text-xl text-emerald-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base md:text-lg text-emerald-100 max-w-4xl mx-auto leading-relaxed">
               Railway Servants are entitled for different kinds of leave which is governed by the Railway Servants (Liberalised Leave) Rules, 1949. 
               Comprehensive reference guide covering all rules from Rule 501 to Rule 557. Essential reference material for Railway Servants in Indian Railways.
             </p>

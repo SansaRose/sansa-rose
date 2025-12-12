@@ -186,8 +186,8 @@ const RuleContentPage = () => {
                 <span className="text-sm font-medium">Back to Leave Rules</span>
               </button>
               <div className="flex justify-center items-center w-full">
-                <h1 className="text-2xl md:text-3xl font-bold uppercase text-center">
-                  Rule {ruleNumber}
+                <h1 className="text-xl md:text-3xl font-bold text-center">
+                  Rule: {ruleNumber}
                 </h1>
               </div>
             </div>
@@ -264,7 +264,7 @@ const RuleContentPage = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 left-4 bg-linear-to-tr from-emerald-600 via-emerald-400 to-teal-700 text-white p-1 rounded-full shadow-2xl border-2 border-white hover:scale-110 hover:from-emerald-700 hover:to-teal-500 transition-all duration-300 z-50 flex items-center justify-center animate-pulse"
+          className="fixed bottom-4 right-4 bg-linear-to-tr from-emerald-600 via-emerald-400 to-teal-700 text-white p-1 rounded-full shadow-2xl border-2 border-white hover:scale-110 hover:from-emerald-700 hover:to-teal-500 transition-all duration-300 z-50 flex items-center justify-center animate-pulse"
           aria-label="Scroll to top"
         >
           <svg

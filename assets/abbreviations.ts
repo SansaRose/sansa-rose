@@ -1559,6 +1559,10 @@ type AbbreviationItem = {
         explanation: "To undertake catering and tourism activities of the Railways. Also facilitates internet ticketing through its website.",
         reference: "--"
       },
+      { acronym: "IREC", fullForm: "Indian Railway Establishment Code",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "IREM", fullForm: "Indian Railway Establishment Manual",
         explanation: "Will be added later",
         reference: "--"
