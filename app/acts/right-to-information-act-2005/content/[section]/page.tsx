@@ -98,8 +98,8 @@ const ContentPage = () => {
   }
 
   const openPDF = () => {
-    const pdfFileName = `RTIACT2005SECTION${sectionParam}.pdf`
-    const pdfPath = `/rti-act-2005/${pdfFileName}`
+    const pdfFileName = `RTIACT2005Section${sectionParam}.pdf`
+    const pdfPath = `/right-to-information-act-2005/${pdfFileName}`
     window.open(pdfPath, '_blank')
   }
 
@@ -120,7 +120,7 @@ const ContentPage = () => {
       return
     }
 
-    router.push(`/rti-act-2005/content/${sections[targetIndex]}`)
+    router.push(`/acts/right-to-information-act-2005/content/${sections[targetIndex]}`)
   }
 
   if (!ContentComponent) {
@@ -133,7 +133,7 @@ const ContentPage = () => {
               Content for Section {sectionParam.toUpperCase()} is not available yet.
             </p>
             <button
-              onClick={() => router.push('/rti-act-2005')}
+              onClick={() => router.push('/acts/right-to-information-act-2005')}
               className="bg-linear-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300"
             >
               Back to Index
@@ -158,7 +158,7 @@ const ContentPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <button
-                onClick={() => router.push('/rti-act-2005')}
+                onClick={() => router.push('/acts/right-to-information-act-2005')}
                 className="flex items-center space-x-2 bg-linear-to-r from-blue-500 to-indigo-600 text-white text-xs lg:text-base lg:px-4 px-2 py-2 rounded-sm hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 mr-2"
               >
                 <span>Back to Index</span>

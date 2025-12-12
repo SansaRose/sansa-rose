@@ -32,7 +32,7 @@ const IRAct1989 = () => {
 
   const openPDF = (sectionNumber: string) => {
     const pdfFileName = `IRACT1989SECTION${sectionNumber}.pdf`
-    const pdfPath = `/ir-act-1989/${pdfFileName}`
+    const pdfPath = `/indian-railways-act-1989/${pdfFileName}`
     
     setOpeningPDF(sectionNumber)
     setTimeout(() => {
@@ -48,8 +48,11 @@ const IRAct1989 = () => {
   const openContent = (sectionNumber: string) => {
     setOpeningContent(sectionNumber)
     
+    const route = `/acts/indian-railways-act-1989/content/${sectionNumber}`
+    console.log('Navigating to:', route, 'from section:', sectionNumber)
+    
     setTimeout(() => {
-      router.push(`/ir-act/content/${sectionNumber}`)
+      router.push(route)
       setOpeningContent(null)
     }, 100)
   }

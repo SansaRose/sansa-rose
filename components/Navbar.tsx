@@ -38,6 +38,7 @@ const Navbar = () => {
     { href: '/acts/official-language-act-1963', label: 'Official Language Act, 1963' },
     { href: '/acts/railway-servants-da-rules-1968', label: 'Railway Servants (DA) Rules, 1968' },
     { href: '/acts/railway-servants-pass-rules-1986', label: 'Railway Servants (Pass) Rules, 1986' },
+    { href: '/acts/railway-servants-leave-rules-1949', label: 'Railway Servants (Leave) Rules, 1949' },
     { href: '/acts/railway-servants-rest-rules-2005', label: 'Railway Servants (Rest) Rules, 2005' },
     { href: '/acts/railway-services-conduct-rules-1966', label: 'Railway Services (Conduct) Rules, 1966' },
     { href: '/acts/right-to-information-act-2005', label: 'Right to Information Act, 2005' },

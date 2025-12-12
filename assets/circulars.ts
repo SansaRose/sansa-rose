@@ -410,7 +410,7 @@ export const alertAdvicePdfFiles = [
     {
       name: "Fortnightly Safety Bulletin September 2nd FN 2025",
       filename: "Fortnightly Safety Bulletin September 2nd FN 2025.pdf",
-      date: "31/09/2025",
+      date: "30/09/2025",
     },
     {
       name: "Fortnightly Safety Bulletin October 1st FN 2025",

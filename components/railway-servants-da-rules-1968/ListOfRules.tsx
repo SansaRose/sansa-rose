@@ -54,7 +54,7 @@ const ListOfRules = () => {
         pdfFileName = `DARule${ruleNum}.pdf`
       }
       
-      const pdfPath = `/da-rules-1968/${pdfFileName}`
+      const pdfPath = `/railway-servants-da-rules-1968/${pdfFileName}`
       
       if (isMobile) {
         window.location.href = pdfPath
@@ -73,18 +73,18 @@ const ListOfRules = () => {
       if (ruleNumber.toLowerCase().includes('schedule')) {
         const scheduleNum = ruleNumber.toLowerCase().replace('schedule', '').trim()
         if (scheduleNum === 'i' || scheduleNum === '1') {
-          router.push(`/da-rules/content/schedule1`)
+          router.push(`/acts/railway-servants-da-rules-1968/content/schedule1`)
         } else if (scheduleNum === 'ii' || scheduleNum === '2') {
-          router.push(`/da-rules/content/schedule2`)
+          router.push(`/acts/railway-servants-da-rules-1968/content/schedule2`)
         } else if (scheduleNum === 'iii' || scheduleNum === '3') {
-          router.push(`/da-rules/content/schedule3`)
+          router.push(`/acts/railway-servants-da-rules-1968/content/schedule3`)
         } else {
-          router.push(`/da-rules/content/${ruleNumber.replace(/[^0-9]/g, '')}`)
+          router.push(`/acts/railway-servants-da-rules-1968/content/${ruleNumber.replace(/[^0-9]/g, '')}`)
         }
       } else {
         // Handle rules with -A suffix (e.g., 25-A, 26-A)
         const normalizedRule = ruleNumber.replace(/\s+/g, '-').toLowerCase()
-        router.push(`/da-rules/content/${normalizedRule}`)
+        router.push(`/acts/railway-servants-da-rules-1968/content/${normalizedRule}`)
       }
       setOpeningContent(null)
     }, 100)

@@ -10,6 +10,25 @@
   "tailwindCSS.lint.invalidVariant": "ignore",
   "tailwindCSS.lint.recommendedVariantOrder": "ignore",
   "tailwindCSS.suggestions": true,
-  "css.lint.unknownAtRules": "ignore"
+  "css.lint.unknownAtRules": "ignore",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass"
+  ],
+  "editor.quickSuggestions": {
+    "strings": "off"
+  },
+  "tailwindCSS.validate": true,
+  "tailwindCSS.experimental.configFile": null,
+  "css.validate": false
 }
-

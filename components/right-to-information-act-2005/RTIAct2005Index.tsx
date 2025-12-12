@@ -49,8 +49,8 @@ const RTIAct2005Index = () => {
       return
     }
 
-    const pdfFileName = `RTIACT2005SECTION${normalized}.pdf`
-    const pdfPath = `/rti-act-2005/${pdfFileName}`
+    const pdfFileName = `RTIACT2005Section${normalized}.pdf`
+    const pdfPath = `/right-to-information-act-2005/${pdfFileName}`
 
     setOpeningPDF(sectionNumber)
     setTimeout(() => {
@@ -66,8 +66,18 @@ const RTIAct2005Index = () => {
   const openContent = (sectionNumber: string) => {
     setOpeningContent(sectionNumber)
     
+    // Normalize section number for URL (handle Schedule sections)
+    let normalizedSection = sectionNumber
+    if (sectionNumber.includes('Schedule')) {
+      // For Schedule I -> schedule-i, Schedule II -> schedule-ii
+      normalizedSection = sectionNumber.toLowerCase().replace(/\s+/g, '-')
+    }
+    
+    const route = `/acts/right-to-information-act-2005/content/${normalizedSection}`
+    console.log('Navigating to:', route, 'from section:', sectionNumber)
+    
     setTimeout(() => {
-      router.push(`/rti-act-2005/content/${sectionNumber}`)
+      router.push(route)
       setOpeningContent(null)
     }, 100)
   }

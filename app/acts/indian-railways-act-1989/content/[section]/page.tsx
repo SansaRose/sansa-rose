@@ -434,7 +434,7 @@ const ContentPage = () => {
 
   const openPDF = () => {
     const pdfFileName = `IRACT1989SECTION${sectionNumber}.pdf`
-    const pdfPath = `/ir-act-1989/${pdfFileName}`
+    const pdfPath = `/indian-railways-act-1989/${pdfFileName}`
     window.open(pdfPath, '_blank')
   }
 
@@ -446,7 +446,7 @@ const ContentPage = () => {
             <h1 className="text-2xl font-bold text-white mb-4">Section Not Found</h1>
             <p className="text-gray-300 mb-6">Content for Section {sectionNumber} is not available.</p>
             <button
-              onClick={() => router.push('/ir-act')}
+              onClick={() => router.push('/acts/indian-railways-act-1989')}
               className="bg-linear-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300"
             >
               Back to Index
@@ -465,7 +465,7 @@ const ContentPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <button
-                onClick={() => router.push('/ir-act')}
+                onClick={() => router.push('/acts/indian-railways-act-1989')}
                 className="flex items-center space-x-2 bg-linear-to-r from-blue-500 to-indigo-600 text-white text-xs lg:text-base lg:px-4 px-2 py-2 rounded-sm hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 mr-2"
               >
                 <span>Back to Index</span>
@@ -506,7 +506,7 @@ const ContentPage = () => {
 
                 if (currentIndex > 0) {
                   const prevSection = availableSections[currentIndex - 1]
-                  router.push(`/ir-act/content/${prevSection}`)
+                  router.push(`/acts/indian-railways-act-1989/content/${prevSection}`)
                 }
               }}
               disabled={(() => {
@@ -554,7 +554,7 @@ const ContentPage = () => {
 
                 if (currentIndex < availableSections.length - 1) {
                   const nextSection = availableSections[currentIndex + 1]
-                  router.push(`/ir-act/content/${nextSection}`)
+                  router.push(`/acts/indian-railways-act-1989/content/${nextSection}`)
                 }
               }}
               disabled={(() => {

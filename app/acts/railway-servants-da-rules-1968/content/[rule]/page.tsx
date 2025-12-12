@@ -132,7 +132,7 @@ const ContentPage = () => {
     } else {
       pdfFileName = `DARule${ruleNumber.replace(/[^0-9]/g, '')}.pdf`
     }
-    const pdfPath = `/da-rules-1968/${pdfFileName}`
+    const pdfPath = `/railway-servants-da-rules-1968/${pdfFileName}`
     window.open(pdfPath, '_blank')
   }
 
@@ -184,7 +184,7 @@ const ContentPage = () => {
             <h1 className="text-2xl font-bold text-white mb-4">Rule Not Found</h1>
             <p className="text-gray-300 mb-6">Content for {getRuleTitle(ruleNumber)} is not available.</p>
             <button
-              onClick={() => router.push('/da-rules')}
+              onClick={() => router.push('/acts/railway-servants-da-rules-1968')}
               className="bg-linear-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300"
             >
               Back to Index
@@ -206,7 +206,7 @@ const ContentPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <button
-                onClick={() => router.push('/da-rules')}
+                onClick={() => router.push('/acts/railway-servants-da-rules-1968')}
                 className="flex items-center space-x-2 bg-linear-to-r from-blue-500 to-indigo-600 text-white text-xs lg:text-base lg:px-4 px-2 py-2 rounded-sm hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 mr-2"
               >
                 <span>Back to Index</span>
@@ -242,7 +242,7 @@ const ContentPage = () => {
             <button
               onClick={() => {
                 if (prevRule) {
-                  router.push(`/da-rules/content/${prevRule}`)
+                  router.push(`/acts/railway-servants-da-rules-1968/content/${prevRule}`)
                 }
               }}
               disabled={!prevRule}
@@ -265,7 +265,7 @@ const ContentPage = () => {
             <button
               onClick={() => {
                 if (nextRule) {
-                  router.push(`/da-rules/content/${nextRule}`)
+                  router.push(`/acts/railway-servants-da-rules-1968/content/${nextRule}`)
                 }
               }}
               disabled={!nextRule}

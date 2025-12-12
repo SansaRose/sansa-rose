@@ -31,8 +31,8 @@ const ConductRules1966Index = () => {
   }
 
   const openPDF = (ruleNumber: string) => {
-    const pdfFileName = `CONDUCTRULES1966RULE${ruleNumber}.pdf`
-    const pdfPath = `/conduct-rules-1966-pdf-pages/${pdfFileName}`
+    const pdfFileName = `ConductRules1966Rule${ruleNumber}.pdf`
+    const pdfPath = `/railway-services-conduct-rules-1966/${pdfFileName}`
     
     setOpeningPDF(ruleNumber)
     setTimeout(() => {
@@ -49,7 +49,7 @@ const ConductRules1966Index = () => {
     setOpeningContent(ruleNumber)
     
     setTimeout(() => {
-      router.push(`/conduct-rules/content/${ruleNumber}`)
+      router.push(`/acts/railway-services-conduct-rules-1966/content/${ruleNumber}`)
       setOpeningContent(null)
     }, 100)
   }

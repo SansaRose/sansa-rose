@@ -717,6 +717,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CPR", fullForm: "Cardio Pulmonary Resuscitation",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CPRO", fullForm: "Chief Public Relations Officer",
         explanation: "Will be added later",
         reference: "--"
@@ -2308,7 +2312,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PI", fullForm: "Panel Interlocking",
-        explanation: "Will be added later",
+        explanation: "It is modern signalling system provided at station where points and signals are operated from centrally located panels by mean of push buttons or knobs",
         reference: "--"
       },
       { acronym: "PIA", fullForm: "Project Influence Area",

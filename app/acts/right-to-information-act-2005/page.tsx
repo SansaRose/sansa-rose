@@ -121,7 +121,7 @@ const RightToInformationAct2005 = () => {
             </p>
 
             <Link
-              href="/rti-act-2005/RTIACT2005.pdf"
+              href="/right-to-information-act-2005/RTIACT2005.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Right To Information Act 2005.pdf"

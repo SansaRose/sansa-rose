@@ -88,8 +88,8 @@ const ConductRuleContentPage = () => {
   const ContentComponent = ruleComponents[ruleNumber]
 
   const openPDF = () => {
-    const pdfFileName = `CONDUCTRULES1966RULE${ruleNumber}.pdf`
-    const pdfPath = `/conduct-rules-1966-pdf-pages/${pdfFileName}`
+    const pdfFileName = `ConductRules1966Rule${ruleNumber}.pdf`
+    const pdfPath = `/railway-services-conduct-rules-1966/${pdfFileName}`
     window.open(pdfPath, '_blank')
   }
 
@@ -112,7 +112,7 @@ const ConductRuleContentPage = () => {
             <h1 className="text-2xl font-bold text-white mb-4">Rule Not Found</h1>
             <p className="text-gray-300 mb-6">Content for Rule {ruleNumber} is not available.</p>
             <button
-              onClick={() => router.push('/railway-services-conduct-rules-1966')}
+              onClick={() => router.push('/acts/railway-services-conduct-rules-1966')}
               className="bg-linear-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300"
             >
               Back to Index
@@ -138,7 +138,7 @@ const ConductRuleContentPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <button
-                onClick={() => router.push('/railway-services-conduct-rules-1966')}
+                onClick={() => router.push('/acts/railway-services-conduct-rules-1966')}
                 className="flex items-center space-x-2 bg-linear-to-r from-blue-500 to-indigo-600 text-white text-xs lg:text-base lg:px-4 px-2 py-2 rounded-sm hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 mr-2"
               >
                 <span>Back to Index</span>
@@ -171,7 +171,7 @@ const ConductRuleContentPage = () => {
             <button
               onClick={() => {
                 if (prevRule !== null) {
-                  router.push(`/railway-services-conduct-rules-1966/content/${prevRule}`)
+                  router.push(`/acts/railway-services-conduct-rules-1966/content/${prevRule}`)
                 }
               }}
               disabled={!hasPrev}
@@ -193,7 +193,7 @@ const ConductRuleContentPage = () => {
             <button
               onClick={() => {
                 if (nextRule !== null) {
-                  router.push(`/railway-services-conduct-rules-1966/content/${nextRule}`)
+                  router.push(`/acts/railway-services-conduct-rules-1966/content/${nextRule}`)
                 }
               }}
               disabled={!hasNext}
