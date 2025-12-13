@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { Gauge, Clock, Ruler, FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Volume2, Bell, BellRing, BookOpen, Layers, FolderOpen } from 'lucide-react'
+import { Gauge, Clock, Ruler, FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Volume2, Bell, BellRing, BookOpen, Layers, FolderOpen, Percent } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const ChiefControllerIndex = () => {
@@ -83,6 +83,13 @@ const ChiefControllerIndex = () => {
       icon: <Ruler className="w-6 h-6" />,
       color: 'from-green-500 to-green-600',
       description: 'Important distance measurements and clearance requirements for railway operations'
+    },
+    {
+      id: 'percentages',
+      title: 'Percentages',
+      icon: <Percent className="w-6 h-6" />,
+      color: 'from-yellow-500 to-yellow-600',
+      description: 'Essential percentage requirements for brake power and spare coaches in railway operations'
     },
     {
       id: 'authorities',

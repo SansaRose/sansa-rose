@@ -4,6 +4,7 @@ import { useParams, useRouter } from 'next/navigation'
 import SpeedRestrictions from '@/components/chief-controller/SpeedRestrictions'
 import Timings from '@/components/chief-controller/Timings'
 import Distances from '@/components/chief-controller/Distances'
+import Percentages from '@/components/chief-controller/Percentages'
 import Authorities from '@/components/chief-controller/Authorities'
 import WhistleCodes from '@/components/chief-controller/WhistleCodes'
 import BellCodes from '@/components/chief-controller/BellCodes'
@@ -40,6 +41,7 @@ const TopicContentPage = () => {
     'speed-restrictions': SpeedRestrictions,
     'timings': Timings,
     'distances': Distances,
+    'percentages': Percentages,
     'authorities': Authorities,
     'whistle-codes': WhistleCodes,
     'bell-codes': BellCodes,
@@ -54,6 +56,7 @@ const TopicContentPage = () => {
     'speed-restrictions': 'Speed Restrictions',
     'timings': 'Timings',
     'distances': 'Distances',
+    'percentages': 'Percentages',
     'authorities': 'Authorities',
     'whistle-codes': 'Whistle Codes',
     'bell-codes': 'Bell Codes',
@@ -66,7 +69,7 @@ const TopicContentPage = () => {
 
   const TopicComponent = topicComponents[topicId]
 
-  const topics = ['gsr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'authorities', 'whistle-codes', 'bell-codes', 'bell-signals']
+  const topics = ['gsr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'whistle-codes', 'bell-codes', 'bell-signals']
   const currentIndex = topics.indexOf(topicId)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
   const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null
