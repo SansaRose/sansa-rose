@@ -1069,6 +1069,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "DWI", fullForm: "Directorate of Wagon Interchange ",
+        explanation: "Will be added later",
+        reference: "--"
+      },
     ],
     E: [
       { acronym: "EA", fullForm: "Extra Allowances",
@@ -1401,6 +1405,10 @@ type AbbreviationItem = {
       },
     ],
     H: [
+      { acronym: "HCW", fullForm: "High Capacity Wagons",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "HKT", fullForm: "Happer Key Transmitter",
         explanation: "Will be added later",
         reference: "--"
@@ -1826,6 +1834,10 @@ type AbbreviationItem = {
         explanation: "Kavach",
         reference: "--"
       },
+      { acronym: "LTM", fullForm: "Late Train Movement",
+        explanation: "Every Coaching train Guard after completion of his journey is required to submit a report called LTM report.",
+        reference: "--"
+      },
       { acronym: "LTTC", fullForm: "Long Term Traffic Contact",
         explanation: "Will be added later",
         reference: "--"
@@ -2066,6 +2078,10 @@ type AbbreviationItem = {
         explanation: "Logs train movements, inputs, and fault messages. It automatically alerts the fault teams to address issues.",
         reference: "--"
       },
+      { acronym: "NP", fullForm: "Non-Pooled",
+        explanation: "Wagons not contributed to the general pool of wagons are marked as Non-Pooled Wagons (&apos;NP&apos;). These are usually some special-purpose high-capacity wagons earmarked for specific operations on particular routes.",
+        reference: "--"
+      },
       { acronym: "NPG", fullForm: "Network Planning Group",
         explanation: "Will be added later",
         reference: "--"
@@ -2127,7 +2143,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "OEM", fullForm: "Original Equipment Manufacturer",
+      { acronym: "OEM", fullForm: "Other End Maintenance",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2948,6 +2964,12 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      {
+        acronym: "SPW",
+        fullForm: "Special Purpose Wagons",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "SR", fullForm: "Subsidiary Rules",
         explanation: "Will be added later",
         reference: "--"
@@ -3400,6 +3422,12 @@ type AbbreviationItem = {
         acronym: "WDP",
         fullForm: "Wide Gauge Diesel Passenger (Locomotive Class)",
         explanation: "Diesel locomotives mainly used for passenger services.",
+        reference: "--"
+      },
+      {
+        acronym: "WDRF",
+        fullForm: "Wagon Demand Registration Fees",
+        explanation: "Will be added later",
         reference: "--"
       },
       {

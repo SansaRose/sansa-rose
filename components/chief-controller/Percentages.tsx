@@ -41,6 +41,16 @@ const Percentages = () => {
       category: '6%' 
     },
     { 
+      question: '_______ Trainee Reserve is added to support ongoing training and development of new crew members.', 
+      answer: '10%', 
+      category: '10%' 
+    },
+    { 
+      question: '_______ Leave Reserve is usually added to the bare requirement to ensure adequate coverage during leave periods.', 
+      answer: '30%', 
+      category: '30%' 
+    },
+    { 
       question: 'The effective brake power in case of Mail/Express enroute should be not less than', 
       answer: '90%', 
       category: '90%' 

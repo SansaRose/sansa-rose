@@ -25,6 +25,7 @@ const Timings = () => {
     { question: 'When the Loco Pilot notices a signal warning of an obstruction other than detonators and no further details are noticed, shall stop the train immediately and wait during day/night for 1/2 minutes cautiously proceed up to next block station', answer: 'one/two minute', timing: '1/2 minutes' },
     
     { question: 'During night when Gate signal is at ON, the LP shall wait for', answer: '2 minutes', timing: '2 minutes' },
+    { question: 'For Originating and passing through trains, Handing over by more than ______ minutes at interchange point.', answer: '3 minutes', timing: '3 minutes' },
     
     { question: 'When a train is held up at F S S, the Loco Pilot shall depute Assistant Loco Pilot to go to Station. After', answer: '5 minutes', timing: '5 minutes' },
     { question: 'When IBS is at "ON" and the telephone is out of order, Loco Pilot shall wait for', answer: '5 minutes', timing: '5 minutes' },
@@ -34,6 +35,8 @@ const Timings = () => {
 
     { question: 'In Modified Semi-automatic stop signal, when Loco Pilot finds mid-section modified semi-automatic stop signal with "A" marker extinguished in "ON" position, when Loco Pilot is unable to contact the Station Master of station ahead, he shall pass the signal at "ON" ______________ and proceed cautiously and be prepared to stop short of any obstruction, at a speed not exceeding 10 kmph upto next Signal.', answer: 'After waiting for 5 minutes at the signal', timing: '5 minutes' },
     
+    { question: 'For Sub-urban trains, punctuality of the train is lost when it arrives more than ______ minutes late at destination.', answer: '5 minutes', timing: '5 minutes' },
+
     { question: 'In the case of train is booked to run through a station, is line clear shall be asked how many minutes before the train is due to pass', answer: '7 minutes', timing: '7 minutes' },
     
     { question: 'Before the arrival of the train, to avoid complaints from road user, taking off the approach signals can be delayed to ensure that gate is closed only for', answer: '10 minutes', timing: '10 minutes' },
@@ -48,6 +51,8 @@ const Timings = () => {
 
     { question: 'If for any reason, a train is brought to a stand, the hand brakes of Locomotive and formation brakes shall be applied for more than if stoppage is more than', answer: '15 minutes', timing: '15 minutes' },
 
+    { question: 'For Intra Zonal and Terminating trains, train arriving more than ______ minutes late at destination.', answer: '15 minutes', timing: '15 minutes' },
+
     { question: 'Guards of Suburban trains shall report for duty at least 15 minutes before the scheduled departure of the train.', answer: '15 minutes', timing: '15 minutes' },
     { question: 'The target time for turning out Medical Relief Train (MRT) for direct/indirect dispatch, is ________', answer: '15/20 minutes', timing: '15/20 minutes' },
     
@@ -60,6 +65,7 @@ const Timings = () => {
     { question: 'A relief engine should be sent, if the engine or vehicles running away have not arrived even after a lapse of how many minutes more than the running time of the slowest speed goods train', answer: '30 minutes', timing: '30 minutes' },
 
     { question: 'Before the passage of VIP special patrolling is done at least', answer: '30 mins before', timing: '30 minutes' },
+    { question: 'A train running to time should not be detained more than ______ minutes to effect crossing on Single Line.', answer: '30 minutes', timing: '30 minutes' },
 
     { question: 'Passenger Guards must report for duty at least 30 minutes before the scheduled departure of the train.', answer: '30 mins before', timing: '30 minutes' },
 
@@ -75,7 +81,9 @@ const Timings = () => {
 
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
+    { question: 'Running duty at a stretch should not ordinarily exceed _____ hours from the departure of the train.', answer: '9 hours', timing: '9 hours' },
     { question: 'The maximum duty hours in any one trip should not exceed.', answer: '10 hours', timing: '10 hours' },
+    { question: 'Overall duty of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
 
     { question: 'Minimum home station rest for duty more than 8 hours is:', answer: '16 hours', timing: '16 hours' },
     
@@ -116,7 +124,9 @@ const Timings = () => {
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
     { question: 'All Gds, LPs, ALP, Motor men who are required to work in automatic block system shall undergo one day intensive training and a certificate shall be renewed once in', answer: '6 months', timing: '6 months' },
     { question: 'Loco Pilot shall be re-examined after a refresher course and his certificate endorsed if he has not driven an electric engine or multiple units for more than', answer: '6 months', timing: '6 months' },
+
     { question: 'Record foils of the caution orders shall be preserved for a period of', answer: '6 months', timing: '6 months' },
+    { question: 'Crew requirement is reviewed once in _______ months by the division based on the crew required for working coaching links and average working hours of goods crew.', answer: '6 months', timing: '6 months' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
 

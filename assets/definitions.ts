@@ -733,5 +733,22 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       definition: "Wagon Turn Round is the time interval between two successive loadings. Calculated from the time a wagon is placed for the loading until it again becomes available for reloading. This represents the total time a wagon spends in one complete operational cycle.",
       reference: "--"
     },
-    
+    {
+      number: 121,
+      term: "Block Rake",
+      definition: "Depending upon the type of wagon, a full train length is dertermined as a Block Rake",
+      reference: "--"
+    },
+    {
+      number: 122,
+      term: "Rebooking",
+      definition: "Booking of a consignment after reaching the original destination, without taking delivery, to any other station, is known as rebooking.",
+      reference: "--"
+    },
+    {
+      number: 123,
+      term: "Diversion",
+      definition: "Diversion means diverting a loaded wagon or rake from a common junction to a new destination. PCOM of the zone in which wagons are physically available is empowered to grant permission for diversion of the wagons / rake.",
+      reference: "--"
+    },
   ];
