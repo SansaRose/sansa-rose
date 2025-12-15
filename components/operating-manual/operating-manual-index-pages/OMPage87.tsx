@@ -28,28 +28,28 @@ import {
 
 const OMPage87 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-900 via-indigo-900 to-purple-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-purple-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-indigo-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-purple-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-indigo-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
                 <AlertTriangle className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               FLAT TYRE & SAFETY PROTOCOLS
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-purple-300 mb-4">Comprehensive Safety Procedures & Emergency Response</h2>
-            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Essential procedures for handling flat tyre incidents, brake binding, delayed trains, and block section safety 
               to ensure railway operational safety and prevent accidents.
@@ -62,12 +62,12 @@ const OMPage87 = () => {
             {/* Flat Tyre Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-red-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-gradient-to-r from-red-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <AlertTriangle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Flat Tyre Detection & Response
               </h2>
-              <div className="bg-linear-to-br from-red-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-gradient-to-br from-red-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20">
                     <h5 className="font-semibold text-red-300 mb-3 flex items-center flex-col gap-2 text-center">
@@ -252,12 +252,12 @@ const OMPage87 = () => {
             {/* Brake Binding Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Wrench className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Brake Binding & Prevention
               </h2>
-              <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
+              <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20">
                     <h5 className="font-semibold text-yellow-300 mb-3 flex flex-col lg:flex-row gap-4 items-center text-center">
@@ -328,12 +328,12 @@ const OMPage87 = () => {
             {/* Delayed Trains Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Clock className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Trains Unusually Delayed in Section
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20">
                     <h5 className="font-semibold text-purple-300 mb-3 flex flex-col lg:flex-row gap-4 items-center text-center">
@@ -383,12 +383,12 @@ const OMPage87 = () => {
             {/* Trains Stopped in Block Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <MapPin className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Trains Stopped in Block Section
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20">
                     <h5 className="font-semibold text-green-300 mb-3 flex flex-col lg:flex-row gap-4 items-center text-center">
@@ -489,12 +489,12 @@ const OMPage87 = () => {
             {/* Key Safety Points Summary */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Shield className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Key Safety Points Summary
               </h2>
-              <div className="bg-linear-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
+              <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20">
                     <h5 className="font-semibold text-cyan-300 mb-2 flex items-center flex-col gap-2 text-center">
@@ -557,12 +557,12 @@ const OMPage87 = () => {
             {/* Emergency Response Flow */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <AlertTriangle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Emergency Response Flow
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                   {[
                     {
@@ -595,7 +595,7 @@ const OMPage87 = () => {
                       className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20 text-center flex flex-col items-center shadow-lg transition-transform hover:-translate-y-1 hover:shadow-2xl duration-300"
                     >
                       <div
-                        className={`bg-linear-to-br ${step.numberBg} text-white font-bold text-2xl lg:text-3xl w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center rounded-full shadow-lg mb-4 border-4 border-white/20 animate-fade-in`}
+                        className={`bg-gradient-to-br ${step.numberBg} text-white font-bold text-2xl lg:text-3xl w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center rounded-full shadow-lg mb-4 border-4 border-white/20 animate-fade-in`}
                         style={{ letterSpacing: '2px' }}
                       >
                         {idx + 1}
@@ -616,29 +616,29 @@ const OMPage87 = () => {
             {/* Communication Priority */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <MessageSquare className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Communication Priority
               </h2>
-              <div className="bg-linear-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
+              <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20 text-center">
-                    <div className="bg-linear-to-r from-cyan-500 to-blue-500 p-3 rounded-full lg:w-16 lg:h-16 w-10 h-10 mx-auto mb-3 flex items-center justify-center">
+                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-3 rounded-full lg:w-16 lg:h-16 w-10 h-10 mx-auto mb-3 flex items-center justify-center">
                       <RadioTower className="w-8 h-8 text-white" />
                     </div>
                     <h5 className="font-semibold text-cyan-300 mb-2">C&W Control</h5>
                     <p className="text-sm text-gray-200">Immediate notification of defects</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20 text-center">
-                    <div className="bg-linear-to-r from-blue-500 to-cyan-500 p-3 rounded-full lg:w-16 lg:h-16 w-10 h-10 mx-auto mb-3 flex items-center justify-center">
+                    <div className="bg-gradient-to-r from-blue-500 to-cyan-500 p-3 rounded-full lg:w-16 lg:h-16 w-10 h-10 mx-auto mb-3 flex items-center justify-center">
                       <Train className="w-8 h-8 text-white" />
                     </div>
                     <h5 className="font-semibold text-blue-300 mb-2">SCOR</h5>
                     <p className="text-sm text-gray-200">Senior Control Office Representative</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-5 border border-white/20 text-center">
-                    <div className="bg-linear-to-r from-cyan-600 to-blue-600 p-3 rounded-full lg:w-16 lg:h-16 w-10 h-10 mx-auto mb-3 flex items-center justify-center">
+                    <div className="bg-gradient-to-r from-cyan-600 to-blue-600 p-3 rounded-full lg:w-16 lg:h-16 w-10 h-10 mx-auto mb-3 flex items-center justify-center">
                       <Users className="w-8 h-8 text-white" />
                     </div>
                     <h5 className="font-semibold text-cyan-400 mb-2">Engineering Control</h5>

@@ -21,28 +21,28 @@ import {
 
 const OMPage66 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Shield className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATIONAL DISCIPLINE
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Control Orders & Operational Procedures</h2>
-            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to operational discipline, control orders, unusual reporting, 
               and modern control office applications for efficient railway operations.
@@ -55,12 +55,12 @@ const OMPage66 = () => {
             {/* Operational Discipline Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Shield className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Operational Discipline
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <ul className="space-y-4">
                   <li className="flex items-start bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <span className="shrink-0 mt-1 mr-3 text-blue-300">
@@ -85,12 +85,12 @@ const OMPage66 = () => {
             {/* Unusual Reporting Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-red-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-red-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <AlertTriangle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Unusual Reporting
               </h2>
-              <div className="bg-linear-to-br from-red-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-gradient-to-br from-red-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <h5 className="font-semibold text-red-300 mb-2 flex items-center gap-3 text-center flex-col">
@@ -122,12 +122,12 @@ const OMPage66 = () => {
             {/* Engine Movements Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Engine Movements to and from Sheds
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="mr-3 text-green-400">
@@ -160,12 +160,12 @@ const OMPage66 = () => {
             {/* Time Checking Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-yellow-500 to-amber-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-yellow-500 to-amber-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Clock className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Time to be Checked with Control
               </h2>
-              <div className="bg-linear-to-br from-yellow-500/20 to-amber-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
+              <div className="bg-gradient-to-br from-yellow-500/20 to-amber-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -181,17 +181,17 @@ const OMPage66 = () => {
             {/* Control Phone Usage Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Phone className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Mode of Using the Control Phone
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="space-y-8">
                   {/* Beautifully designed lettered list */}
                   <ol className="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-2 gap-6 list-none">
                     <li>
-                      <div className="bg-linear-to-r from-purple-900/30 to-purple-600/20 border-purple-400 rounded-xl lg:p-4 p-3 shadow-md flex flex-col items-center justify-center gap-4">
+                      <div className="bg-gradient-to-r from-purple-900/30 to-purple-600/20 border-purple-400 rounded-xl lg:p-4 p-3 shadow-md flex flex-col items-center justify-center gap-4">
                         <span className="shrink-0">
                           <span className="rounded-full bg-purple-700 text-white ring-2 ring-white/40 shadow-lg px-3 py-1 text-base font-bold flex items-center">
                             <span>a</span>
@@ -211,7 +211,7 @@ const OMPage66 = () => {
                     </li>
 
                     <li>
-                      <div className="bg-linear-to-r from-pink-900/30 to-pink-600/20 border-pink-400 rounded-xl lg:p-4 p-3 shadow-md flex flex-col items-center justify-center gap-4">
+                      <div className="bg-gradient-to-r from-pink-900/30 to-pink-600/20 border-pink-400 rounded-xl lg:p-4 p-3 shadow-md flex flex-col items-center justify-center gap-4">
                         <span className="shrink-0">
                           <span className="rounded-full bg-pink-700 text-white ring-2 ring-white/40 shadow-lg px-3 py-1 text-base font-bold flex items-center">
                             <span>b</span>
@@ -235,7 +235,7 @@ const OMPage66 = () => {
                   {/* Next three in a visually pleasing row */}
                   <ol className="grid grid-cols-1 md:grid-cols-3 gap-6 list-none mt-2">
                     <li>
-                      <div className="bg-linear-to-br from-purple-500/20 to-white/10 border-purple-400 rounded-xl lg:p-4 p-3 shadow-lg flex flex-col items-center justify-center gap-4">
+                      <div className="bg-gradient-to-br from-purple-500/20 to-white/10 border-purple-400 rounded-xl lg:p-4 p-3 shadow-lg flex flex-col items-center justify-center gap-4">
                         <span className="rounded-full bg-purple-600/70 text-purple-100 px-3 py-1 font-bold text-base shadow-md flex items-center mb-1">
                           <span>c</span>
                         </span>
@@ -250,7 +250,7 @@ const OMPage66 = () => {
                       </div>
                     </li>
                     <li>
-                      <div className="bg-linear-to-br from-pink-500/20 to-white/10 border-pink-400 rounded-xl lg:p-4 p-3 shadow-lg flex flex-col items-center justify-center gap-4">
+                      <div className="bg-gradient-to-br from-pink-500/20 to-white/10 border-pink-400 rounded-xl lg:p-4 p-3 shadow-lg flex flex-col items-center justify-center gap-4">
                         <span className="rounded-full bg-pink-600/70 text-pink-100 px-3 py-1 font-bold text-base shadow-md flex items-center mb-1">
                           <span>d</span>
                         </span>
@@ -265,7 +265,7 @@ const OMPage66 = () => {
                       </div>
                     </li>
                     <li>
-                      <div className="bg-linear-to-br from-indigo-500/20 to-white/10 border-indigo-400 rounded-xl lg:p-4 p-3 shadow-lg flex flex-col items-center justify-center gap-4">
+                      <div className="bg-gradient-to-br from-indigo-500/20 to-white/10 border-indigo-400 rounded-xl lg:p-4 p-3 shadow-lg flex flex-col items-center justify-center gap-4">
                         <span className="rounded-full bg-indigo-600/70 text-indigo-100 px-3 py-1 font-bold text-base shadow-md flex items-center mb-1">
                           <span>e</span>
                         </span>
@@ -288,12 +288,12 @@ const OMPage66 = () => {
             {/* Accidents Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <AlertTriangle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Accidents
               </h2>
-              <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -308,12 +308,12 @@ const OMPage66 = () => {
             {/* Working of Trains when Control is Interrupted Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Working of Trains when Control is Interrupted
               </h2>
-              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
+              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -338,12 +338,12 @@ const OMPage66 = () => {
             {/* Operating Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Operating Control
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <h6 className="font-semibold text-blue-300 mb-3 flex flex-col lg:flex-row gap-3 text-center items-center">
@@ -467,12 +467,12 @@ const OMPage66 = () => {
             {/* Power Control/Traction Loco Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Zap className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Power Control/Traction Loco Control
               </h2>
-              <div className="bg-linear-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
+              <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -484,7 +484,7 @@ const OMPage66 = () => {
                     {/* (a) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                       <h6 className="font-semibold text-emerald-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-emerald-400 via-emerald-600 to-teal-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-emerald-200 ring-2 ring-emerald-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-emerald-400 via-emerald-600 to-teal-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-emerald-200 ring-2 ring-emerald-400/30 transition-transform duration-200 hover:scale-110">
                           a
                         </span>
                         Engine Requisitioning
@@ -497,7 +497,7 @@ const OMPage66 = () => {
                     {/* (b) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-teal-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-teal-400 via-teal-600 to-cyan-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-teal-200 ring-2 ring-teal-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-teal-400 via-teal-600 to-cyan-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-teal-200 ring-2 ring-teal-400/30 transition-transform duration-200 hover:scale-110">
                           b
                         </span>
                         Economic Usage
@@ -510,7 +510,7 @@ const OMPage66 = () => {
                     {/* (c) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-green-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-green-400 via-green-700 to-lime-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-green-200 ring-2 ring-green-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-green-400 via-green-700 to-lime-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-green-200 ring-2 ring-green-400/30 transition-transform duration-200 hover:scale-110">
                           c
                         </span>
                         Schedule Planning
@@ -523,7 +523,7 @@ const OMPage66 = () => {
                     {/* (d) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-cyan-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-cyan-400 via-cyan-600 to-blue-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-cyan-200 ring-2 ring-cyan-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-cyan-400 via-cyan-600 to-blue-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-cyan-200 ring-2 ring-cyan-400/30 transition-transform duration-200 hover:scale-110">
                           d
                         </span>
                         Crew Management
@@ -536,7 +536,7 @@ const OMPage66 = () => {
                     {/* (e) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-blue-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-blue-400 to-indigo-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-blue-200 ring-2 ring-blue-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-blue-400 to-indigo-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-blue-200 ring-2 ring-blue-400/30 transition-transform duration-200 hover:scale-110">
                           e
                         </span>
                         Outstation Balance
@@ -548,7 +548,7 @@ const OMPage66 = () => {
                     {/* (f) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-indigo-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-indigo-400 to-purple-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-indigo-200 ring-2 ring-indigo-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-indigo-400 to-purple-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-indigo-200 ring-2 ring-indigo-400/30 transition-transform duration-200 hover:scale-110">
                           f
                         </span>
                         Link Locos
@@ -560,7 +560,7 @@ const OMPage66 = () => {
                     {/* (g) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-purple-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-purple-400 to-pink-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-purple-200 ring-2 ring-purple-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-purple-400 to-pink-500 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-purple-200 ring-2 ring-purple-400/30 transition-transform duration-200 hover:scale-110">
                           g
                         </span>
                         Relief Locos
@@ -572,7 +572,7 @@ const OMPage66 = () => {
                     {/* (h) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-pink-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-pink-400 via-pink-500 to-rose-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-pink-200 ring-2 ring-pink-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-pink-400 via-pink-500 to-rose-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-pink-200 ring-2 ring-pink-400/30 transition-transform duration-200 hover:scale-110">
                           h
                         </span>
                         Special Equipment
@@ -585,7 +585,7 @@ const OMPage66 = () => {
                     {/* (i) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-orange-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-orange-400 via-yellow-400 to-amber-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-orange-200 ring-2 ring-orange-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-orange-400 via-yellow-400 to-amber-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-orange-200 ring-2 ring-orange-400/30 transition-transform duration-200 hover:scale-110">
                           i
                         </span>
                         Home Shed Return
@@ -598,7 +598,7 @@ const OMPage66 = () => {
                     {/* (j) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-yellow-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-yellow-300 via-yellow-500 to-orange-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-yellow-200 ring-2 ring-yellow-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-yellow-300 via-yellow-500 to-orange-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-yellow-200 ring-2 ring-yellow-400/30 transition-transform duration-200 hover:scale-110">
                           j
                         </span>
                         Engine Balance
@@ -611,7 +611,7 @@ const OMPage66 = () => {
                     {/* (k) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-red-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-red-400 via-rose-400 to-orange-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-red-200 ring-2 ring-red-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-red-400 via-rose-400 to-orange-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-red-200 ring-2 ring-red-400/30 transition-transform duration-200 hover:scale-110">
                           k
                         </span>
                         Light Engine Minimization
@@ -623,7 +623,7 @@ const OMPage66 = () => {
                     {/* (l) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-emerald-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-emerald-500 via-teal-500 to-green-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-emerald-200 ring-2 ring-emerald-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-emerald-500 via-teal-500 to-green-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-emerald-200 ring-2 ring-emerald-400/30 transition-transform duration-200 hover:scale-110">
                           l
                         </span>
                         Troubleshooting
@@ -640,12 +640,12 @@ const OMPage66 = () => {
             {/* Carriage and Wagon Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-blue-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Carriage and Wagon Control
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -658,7 +658,7 @@ const OMPage66 = () => {
                     {/* (a) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                       <h6 className="font-semibold text-blue-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-blue-400 via-cyan-400 to-blue-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-blue-200 ring-2 ring-blue-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-blue-400 via-cyan-400 to-blue-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-blue-200 ring-2 ring-blue-400/30 transition-transform duration-200 hover:scale-110">
                           a
                         </span>
                         Train Examination
@@ -670,7 +670,7 @@ const OMPage66 = () => {
                     {/* (b) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                       <h6 className="font-semibold text-indigo-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-indigo-400 via-violet-400 to-indigo-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-indigo-200 ring-2 ring-indigo-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-indigo-400 via-violet-400 to-indigo-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-indigo-200 ring-2 ring-indigo-400/30 transition-transform duration-200 hover:scale-110">
                           b
                         </span>
                         Sick Wagon Management
@@ -684,7 +684,7 @@ const OMPage66 = () => {
                     {/* (c) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                       <h6 className="font-semibold text-purple-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-purple-400 via-fuchsia-400 to-purple-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-purple-200 ring-2 ring-purple-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-purple-400 via-fuchsia-400 to-purple-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-purple-200 ring-2 ring-purple-400/30 transition-transform duration-200 hover:scale-110">
                           c
                         </span>
                         Sick Line Monitoring
@@ -696,7 +696,7 @@ const OMPage66 = () => {
                     {/* (d) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-cyan-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-cyan-400 via-sky-400 to-cyan-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-cyan-200 ring-2 ring-cyan-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-cyan-400 via-sky-400 to-cyan-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-cyan-200 ring-2 ring-cyan-400/30 transition-transform duration-200 hover:scale-110">
                           d
                         </span>
                         POH Stock Movement
@@ -708,7 +708,7 @@ const OMPage66 = () => {
                     {/* (e) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-green-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-green-400 via-emerald-400 to-green-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-green-200 ring-2 ring-green-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-green-400 via-emerald-400 to-green-300 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-green-200 ring-2 ring-green-400/30 transition-transform duration-200 hover:scale-110">
                           e
                         </span>
                         Detention Monitoring
@@ -721,7 +721,7 @@ const OMPage66 = () => {
                     {/* (f) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-yellow-300 mb-2 flex flex-col items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-yellow-400 via-orange-300 to-yellow-200 text-gray-900 shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-yellow-200 ring-2 ring-yellow-400/30 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-yellow-500 via-orange-400 to-yellow-400 text-white shadow-md rounded-full w-9 h-9 text-lg font-extrabold border-2 border-yellow-300 ring-2 ring-yellow-500/30 transition-transform duration-200 hover:scale-110">
                           f
                         </span>
                         Troubleshooting Support
@@ -738,12 +738,12 @@ const OMPage66 = () => {
             {/* Commercial Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Commercial Control
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -756,7 +756,7 @@ const OMPage66 = () => {
                     {/* (a) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-green-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-green-400 via-green-300 to-emerald-200 text-green-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-green-100 ring-2 ring-green-400/25 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-green-400 via-green-300 to-emerald-200 text-green-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-green-100 ring-2 ring-green-400/25 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           a
                         </span>
                         Passenger Train Monitoring
@@ -770,7 +770,7 @@ const OMPage66 = () => {
                     {/* (b) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-emerald-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-emerald-400 via-teal-300 to-emerald-200 text-emerald-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-emerald-100 ring-2 ring-emerald-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-emerald-400 via-teal-300 to-emerald-200 text-emerald-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-emerald-100 ring-2 ring-emerald-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           b
                         </span>
                         Loading/Unloading Activities
@@ -784,7 +784,7 @@ const OMPage66 = () => {
                     {/* (c) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-teal-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-teal-400 via-cyan-300 to-green-200 text-sky-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-teal-100 ring-2 ring-teal-300/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-teal-400 via-cyan-300 to-green-200 text-sky-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-teal-100 ring-2 ring-teal-300/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           c
                         </span>
                         Public Amenities
@@ -797,7 +797,7 @@ const OMPage66 = () => {
                     {/* (d) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-cyan-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-cyan-400 via-sky-300 to-blue-200 text-sky-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-cyan-100 ring-2 ring-cyan-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-cyan-400 via-sky-300 to-blue-200 text-sky-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-cyan-100 ring-2 ring-cyan-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           d
                         </span>
                         Public Complaints
@@ -810,7 +810,7 @@ const OMPage66 = () => {
                     {/* (e) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-blue-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-blue-400 via-indigo-300 to-blue-200 text-blue-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-blue-100 ring-2 ring-blue-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-blue-400 via-indigo-300 to-blue-200 text-blue-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-blue-100 ring-2 ring-blue-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           e
                         </span>
                         Transshipment
@@ -824,7 +824,7 @@ const OMPage66 = () => {
                     {/* (f) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-indigo-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-indigo-400 via-purple-300 to-indigo-200 text-indigo-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-indigo-100 ring-2 ring-indigo-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-indigo-400 via-purple-300 to-indigo-200 text-indigo-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-indigo-100 ring-2 ring-indigo-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           f
                         </span>
                         Accident Relief
@@ -838,7 +838,7 @@ const OMPage66 = () => {
                     {/* (g) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 md:col-span-2">
                       <h6 className="font-semibold text-purple-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-purple-400 via-fuchsia-300 to-purple-200 text-purple-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-purple-100 ring-2 ring-purple-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-purple-400 via-fuchsia-300 to-purple-200 text-purple-900 font-extrabold rounded-full w-9 h-9 shadow-lg border-2 border-purple-100 ring-2 ring-purple-400/20 text-lg transition-transform duration-200 hover:scale-110 mr-2">
                           g
                         </span>
                         Unclaimed Items
@@ -856,12 +856,12 @@ const OMPage66 = () => {
             {/* Traction Power Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Zap className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Traction Power Control
               </h2>
-              <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
+              <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -874,7 +874,7 @@ const OMPage66 = () => {
                     {/* (a) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-yellow-200/20 hover:shadow-lg transition duration-300">
                       <h6 className="font-semibold text-yellow-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-yellow-200 via-yellow-400 to-yellow-500 text-yellow-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-yellow-100 ring-2 ring-yellow-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-yellow-200 via-yellow-400 to-yellow-500 text-yellow-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-yellow-100 ring-2 ring-yellow-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
                           a
                         </span>
                         Power Supply Management
@@ -887,7 +887,7 @@ const OMPage66 = () => {
                     {/* (b) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-orange-200/20 hover:shadow-lg transition duration-300">
                       <h6 className="font-semibold text-orange-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-orange-200 via-orange-400 to-orange-500 text-orange-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-orange-100 ring-2 ring-orange-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-orange-200 via-orange-400 to-orange-500 text-orange-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-orange-100 ring-2 ring-orange-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
                           b
                         </span>
                         Maintenance Blocks
@@ -899,7 +899,7 @@ const OMPage66 = () => {
                     {/* (c) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-red-200/20 hover:shadow-lg transition duration-300">
                       <h6 className="font-semibold text-red-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-red-200 via-red-400 to-red-500 text-red-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-red-100 ring-2 ring-red-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-red-200 via-red-400 to-red-500 text-red-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-red-100 ring-2 ring-red-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
                           c
                         </span>
                         OHE Failure Monitoring
@@ -911,7 +911,7 @@ const OMPage66 = () => {
                     {/* (d) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-pink-200/20 hover:shadow-lg transition duration-300">
                       <h6 className="font-semibold text-pink-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-pink-100 via-pink-400 to-pink-600 text-pink-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-pink-100 ring-2 ring-pink-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-pink-100 via-pink-400 to-pink-600 text-pink-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-pink-100 ring-2 ring-pink-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
                           d
                         </span>
                         Train Detention
@@ -923,7 +923,7 @@ const OMPage66 = () => {
                     {/* (e) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-purple-200/20 hover:shadow-lg transition duration-300">
                       <h6 className="font-semibold text-purple-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-purple-100 via-purple-400 to-purple-600 text-purple-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-purple-100 ring-2 ring-purple-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-purple-100 via-purple-400 to-purple-600 text-purple-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-purple-100 ring-2 ring-purple-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
                           e
                         </span>
                         Troubleshooting
@@ -935,7 +935,7 @@ const OMPage66 = () => {
                     {/* (f) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-indigo-200/20 hover:shadow-lg transition duration-300">
                       <h6 className="font-semibold text-indigo-300 mb-2 flex items-center gap-2">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-indigo-100 via-indigo-400 to-indigo-600 text-indigo-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-indigo-100 ring-2 ring-indigo-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-indigo-100 via-indigo-400 to-indigo-600 text-indigo-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-indigo-100 ring-2 ring-indigo-400/20 text-lg mr-2 transition-transform duration-200 hover:scale-110">
                           f
                         </span>
                         MD Monitoring
@@ -954,12 +954,12 @@ const OMPage66 = () => {
             {/* Engineering Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Wrench className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Engineering Control
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -972,7 +972,7 @@ const OMPage66 = () => {
                     {/* (a) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-purple-300 mb-2 flex items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-purple-100 via-purple-300 to-purple-500 text-purple-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-purple-200 text-lg select-none">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-purple-100 via-purple-300 to-purple-500 text-purple-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-purple-200 text-lg select-none">
                           a
                         </span>
                         Caution Orders
@@ -984,7 +984,7 @@ const OMPage66 = () => {
                     {/* (b) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-pink-300 mb-2 flex items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-pink-100 via-pink-300 to-pink-500 text-pink-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-pink-200 text-lg select-none">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-pink-100 via-pink-300 to-pink-500 text-pink-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-pink-200 text-lg select-none">
                           b
                         </span>
                         Engineering Blocks
@@ -996,7 +996,7 @@ const OMPage66 = () => {
                     {/* (c) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-indigo-300 mb-2 flex items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-indigo-100 via-indigo-300 to-indigo-500 text-indigo-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-indigo-200 text-lg select-none">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-indigo-100 via-indigo-300 to-indigo-500 text-indigo-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-indigo-200 text-lg select-none">
                           c
                         </span>
                         Track Machine Coordination
@@ -1009,7 +1009,7 @@ const OMPage66 = () => {
                     {/* (d) */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-blue-300 mb-2 flex items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-blue-100 via-blue-300 to-blue-500 text-blue-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-blue-200 text-lg select-none">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-blue-100 via-blue-300 to-blue-500 text-blue-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-blue-200 text-lg select-none">
                           d
                         </span>
                         Safety Monitoring
@@ -1028,12 +1028,12 @@ const OMPage66 = () => {
             {/* Security Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Shield className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Security Control
               </h2>
-              <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -1045,7 +1045,7 @@ const OMPage66 = () => {
                     {/* (a) Law and Order */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 flex flex-col">
                       <h6 className="font-semibold text-red-300 mb-2 flex items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-red-100 via-red-200 to-red-400 text-red-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-red-200 text-lg select-none">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-red-100 via-red-200 to-red-400 text-red-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-red-200 text-lg select-none">
                           a
                         </span>
                         Law and Order
@@ -1057,7 +1057,7 @@ const OMPage66 = () => {
                     {/* (b) Passenger Complaints */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 flex flex-col">
                       <h6 className="font-semibold text-pink-300 mb-2 flex items-center gap-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-tr from-pink-100 via-pink-200 to-pink-400 text-pink-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-pink-200 text-lg select-none">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-tr from-pink-100 via-pink-200 to-pink-400 text-pink-900 font-extrabold rounded-full w-9 h-9 shadow-md border-2 border-pink-200 text-lg select-none">
                           b
                         </span>
                         Passenger Complaints
@@ -1074,12 +1074,12 @@ const OMPage66 = () => {
             {/* Signal & Telecom Control Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-cyan-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Phone className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Signal & Telecom Control
               </h2>
-              <div className="bg-linear-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
+              <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -1092,7 +1092,7 @@ const OMPage66 = () => {
                     {/* (a) Equipment Monitoring */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-cyan-300/30 shadow group flex flex-col items-center text-center hover:bg-cyan-900/20 transition">
                       <div className="flex items-center justify-center mb-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-cyan-100 via-cyan-300 to-cyan-400 text-cyan-900 font-extrabold rounded-full w-10 h-10 shadow-md border-2 border-cyan-200 text-lg select-none transition group-hover:scale-105">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-cyan-100 via-cyan-300 to-cyan-400 text-cyan-900 font-extrabold rounded-full w-10 h-10 shadow-md border-2 border-cyan-200 text-lg select-none transition group-hover:scale-105">
                           a
                         </span>
                       </div>
@@ -1105,7 +1105,7 @@ const OMPage66 = () => {
                     {/* (b) Failure Management */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-blue-300/30 shadow group flex flex-col items-center text-center hover:bg-blue-900/20 transition">
                       <div className="flex items-center justify-center mb-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-blue-100 via-blue-300 to-blue-400 text-blue-900 font-extrabold rounded-full w-10 h-10 shadow-md border-2 border-blue-200 text-lg select-none transition group-hover:scale-105">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-blue-100 via-blue-300 to-blue-400 text-blue-900 font-extrabold rounded-full w-10 h-10 shadow-md border-2 border-blue-200 text-lg select-none transition group-hover:scale-105">
                           b
                         </span>
                       </div>
@@ -1117,7 +1117,7 @@ const OMPage66 = () => {
                     {/* (c) Emergency Controls */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-indigo-300/30 shadow group flex flex-col items-center text-center hover:bg-indigo-900/20 transition">
                       <div className="flex items-center justify-center mb-3">
-                        <span className="inline-flex items-center justify-center bg-linear-to-br from-indigo-100 via-indigo-300 to-indigo-400 text-indigo-900 font-extrabold rounded-full w-10 h-10 shadow-md border-2 border-indigo-200 text-lg select-none transition group-hover:scale-105">
+                        <span className="inline-flex items-center justify-center bg-gradient-to-br from-indigo-100 via-indigo-300 to-indigo-400 text-indigo-900 font-extrabold rounded-full w-10 h-10 shadow-md border-2 border-indigo-200 text-lg select-none transition group-hover:scale-105">
                           c
                         </span>
                       </div>
@@ -1134,12 +1134,12 @@ const OMPage66 = () => {
             {/* Telecommunication Facilities Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Phone className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Telecommunication Facilities in Control Office
               </h2>
-              <div className="bg-linear-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-violet-400/30">
+              <div className="bg-gradient-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-violet-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-4 p-3 border border-white/20">
                     <p className="text-gray-200 lg:text-lg text-base leading-relaxed">
@@ -1328,7 +1328,7 @@ const OMPage66 = () => {
                       className="flex items-start bg-white/5 rounded-lg px-4 py-3 shadow transition hover:bg-cyan-900/20"
                     >
                       <span
-                        className="shrink-0 w-8 h-8 flex items-center justify-center bg-linear-to-tr from-teal-700/75 to-cyan-600/80 rounded-full text-teal-200 font-bold mr-5 text-lg border-2 border-teal-300 shadow-inner"
+                        className="shrink-0 w-8 h-8 flex items-center justify-center bg-gradient-to-tr from-teal-700/75 to-cyan-600/80 rounded-full text-teal-200 font-bold mr-5 text-lg border-2 border-teal-300 shadow-inner"
                         aria-label={`Item ${letter}`}
                       >{letter}</span>
                       <span className="text-white">{text}</span>
@@ -1372,7 +1372,7 @@ const OMPage66 = () => {
                       className="flex items-start bg-white/5 rounded-lg px-4 py-3 shadow transition hover:bg-cyan-900/20"
                     >
                       <span
-                        className="shrink-0 w-8 h-8 flex items-center justify-center bg-linear-to-tr from-teal-700/75 to-cyan-600/80 rounded-full text-teal-200 font-bold mr-5 text-lg border-2 border-teal-300 shadow-inner"
+                        className="shrink-0 w-8 h-8 flex items-center justify-center bg-gradient-to-tr from-teal-700/75 to-cyan-600/80 rounded-full text-teal-200 font-bold mr-5 text-lg border-2 border-teal-300 shadow-inner"
                         aria-label={`Item ${letter}`}
                       >{letter}</span>
                       <span className="text-white">{text}</span>

@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { BookOpen, Train, Building, Settings, AlertTriangle, BarChart3, ChevronDown, ChevronUp, CheckCircle, Signal, Eye, Target, ExternalLink, FileText, BookOpenCheck } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
@@ -9,6 +9,7 @@ const OPTGIndex = () => {
   const [openingPDF, setOpeningPDF] = useState<string | null>(null)
   const [openingContent, setOpeningContent] = useState<string | null>(null)
   const router = useRouter()
+  const navigatingRef = useRef(false)
 
   useEffect(() => {
     const checkDevice = () => {
@@ -57,14 +58,31 @@ const OPTGIndex = () => {
   }
 
   const openContent = (pageNumber: string) => {
+    // Prevent multiple clicks/navigations
+    if (navigatingRef.current || openingContent === pageNumber) {
+      return
+    }
+    
+    navigatingRef.current = true
     setOpeningContent(pageNumber)
     
-    // Small delay to show loading state
-    setTimeout(() => {
-      // Navigate to the content page (note-pages route)
-      router.push(`/manuals/opertaing-manual/content/${pageNumber}`)
-      setOpeningContent(null)
-    }, 100)
+    // Use requestAnimationFrame for smoother navigation on mobile
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        try {
+          // Navigate to the content page
+          router.push(`/manuals/opertaing-manual/content/${pageNumber}`)
+        } catch (error) {
+          console.error('Navigation error:', error)
+        } finally {
+          // Reset after navigation completes
+          setTimeout(() => {
+            setOpeningContent(null)
+            navigatingRef.current = false
+          }, 500)
+        }
+      }, 150)
+    })
   }
 
   const sections = [
@@ -198,33 +216,33 @@ const OPTGIndex = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-900 via-indigo-900 to-purple-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-4 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-8">
-            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-indigo-600 lg:p-3 p-2 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-indigo-600 lg:p-3 p-2 rounded-full">
                 <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-xl font-bold text-purple-300 mb-4">SCR 2023 - COMPLETE INDEX</h2>
-            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Complete Chapter Index for Operating Manual SCR 2023 - Comprehensive guide covering all 9 sections 
               with detailed procedures, operational guidelines, and safety protocols for railway operations.
             </p>
-            <div className="mt-6 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-lg p-4 backdrop-blur-sm border border-blue-400/30">
+            <div className="mt-6 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-lg p-4 backdrop-blur-sm border border-blue-400/30">
               <p className="text-blue-200 font-medium">Operating Manual SCR 2023 - For Official Use Only</p>
             </div>
             
@@ -241,7 +259,7 @@ const OPTGIndex = () => {
                 >
                   {/* Section Header */}
                   <div 
-                    className={`bg-linear-to-r ${section.color} text-white p-6 cursor-pointer hover:brightness-110 transition-all duration-300`}
+                    className={`bg-gradient-to-r ${section.color} text-white p-6 cursor-pointer hover:brightness-110 transition-all duration-300`}
                     onClick={() => toggleSection(section.id)}
                   >
                     <div className="flex flex-col items-center text-center">
@@ -291,7 +309,7 @@ const OPTGIndex = () => {
                             key={index}
                             className="flex items-start space-x-4 py-4 lg:px-4 px-2 bg-white/5 backdrop-blur-sm rounded-lg hover:bg-white/10 transition-all duration-300 border border-white/10"
                           >
-                            <div className="shrink-0 w-8 h-8 bg-linear-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
+                            <div className="shrink-0 w-8 h-8 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
                               {index + 1}
                             </div>
                             <div className="flex-1">
@@ -306,7 +324,7 @@ const OPTGIndex = () => {
                                   className={`flex items-center space-x-2 px-3 py-1.5 text-white text-sm font-medium rounded-md transition-all duration-300 ${
                                     openingPDF === topic.page
                                       ? 'bg-gray-500 cursor-not-allowed'
-                                      : 'bg-linear-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 hover:shadow-lg hover:scale-105'
+                                      : 'bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 hover:shadow-lg hover:scale-105'
                                   }`}
                                 >
                                   {openingPDF === topic.page ? (
@@ -325,7 +343,7 @@ const OPTGIndex = () => {
                                   className={`flex items-center space-x-2 px-3 py-1.5 text-white text-sm font-medium rounded-md transition-all duration-300 ${
                                     openingContent === topic.page
                                       ? 'bg-gray-500 cursor-not-allowed'
-                                      : 'bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:shadow-lg hover:scale-105'
+                                      : 'bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:shadow-lg hover:scale-105'
                                   }`}
                                 >
                                   {openingContent === topic.page ? (

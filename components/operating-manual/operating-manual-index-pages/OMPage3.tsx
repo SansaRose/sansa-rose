@@ -23,28 +23,28 @@ import {
 
 const OMPage3 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Building2 className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Chapter II - Working of Stations</h2>
-              <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+              <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding station operations, yard management, 
               signaling systems, and interlocking mechanisms in railway operations.
@@ -57,12 +57,12 @@ const OMPage3 = () => {
             {/* Station Definition */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <MapPin className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Definition
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4">
                   Station is a nodal point in dealing trains. As per GR 1.02 (51), „station means
                   any place on a line of railway at which traffic is dealt with, or at which an authority to
@@ -80,12 +80,12 @@ const OMPage3 = () => {
             {/* Station Yard */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Train className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Yard
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-green-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   A station yard is basically a grid of lines where trains are dealt. The grid is made of
                   tracks which are connected to each other through points and crossings.
@@ -184,12 +184,12 @@ const OMPage3 = () => {
             {/* Signals */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Signal className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Signals
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   The movement of trains in station yards is controlled through signals. Signals are of
                   various types viz. fixed signals, hand signals, detonating signals and warning
@@ -239,12 +239,12 @@ const OMPage3 = () => {
             {/* Station Yard Features */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Station Yard Features
               </h2>
-              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
+              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 
                 {/* Station Gradient */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
@@ -288,7 +288,7 @@ const OMPage3 = () => {
                     Isolation can be achieved by any of the following methods:
                   </p>
                   <ul className="space-y-4 text-sm">
-                    <li className="flex items-start bg-linear-to-r from-red-600/20 via-orange-400/10 to-yellow-200/5 rounded-lg p-4 border border-red-300/20 shadow-sm hover:bg-red-600/20 transition">
+                    <li className="flex items-start bg-gradient-to-r from-red-600/20 via-orange-400/10 to-yellow-200/5 rounded-lg p-4 border border-red-300/20 shadow-sm hover:bg-red-600/20 transition">
                       <div className="shrink-0">
                         <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-500/80 shadow-lg border-2 border-white mr-4">
                           <Lock className="w-5 h-5 text-white" />
@@ -298,7 +298,7 @@ const OMPage3 = () => {
                         Connection to another line or <span className="text-orange-200 font-bold">long siding</span>
                       </span>
                     </li>
-                    <li className="flex items-start bg-linear-to-r from-orange-500/20 via-red-400/10 to-yellow-100/0 rounded-lg p-4 border border-orange-300/20 shadow-sm hover:bg-orange-600/20 transition">
+                    <li className="flex items-start bg-gradient-to-r from-orange-500/20 via-red-400/10 to-yellow-100/0 rounded-lg p-4 border border-orange-300/20 shadow-sm hover:bg-orange-600/20 transition">
                       <div className="shrink-0">
                         <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-orange-500/80 shadow-lg border-2 border-white mr-4">
                           <Lock className="w-5 h-5 text-white" />
@@ -308,7 +308,7 @@ const OMPage3 = () => {
                         Provision of <span className="text-orange-200 font-bold">short dead end siding</span>
                       </span>
                     </li>
-                    <li className="flex items-start bg-linear-to-r from-red-400/20 via-orange-300/10 to-transparent rounded-lg p-4 border border-red-200/20 shadow-sm hover:bg-orange-500/20 transition">
+                    <li className="flex items-start bg-gradient-to-r from-red-400/20 via-orange-300/10 to-transparent rounded-lg p-4 border border-red-200/20 shadow-sm hover:bg-orange-500/20 transition">
                       <div className="shrink-0">
                         <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-400/90 shadow-lg border-2 border-white mr-4">
                           <Lock className="w-5 h-5 text-white" />
@@ -341,12 +341,12 @@ const OMPage3 = () => {
             {/* Interlocking */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Network className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Interlocking
               </h2>
-              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
+              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Signals are usually interlocked with track/routes through track circuiting & relays.
                   Such an arrangement of signals, points and track circuits/axle counters, operated

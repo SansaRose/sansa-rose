@@ -32,28 +32,28 @@ import {
 
 const OMPage15 = () => {
   return (
-    <><div className="min-h-screen bg-linear-to-br from-indigo-900 text-white via-purple-900 to-pink-900 relative overflow-hidden">
+    <><div className="min-h-screen bg-gradient-to-br from-indigo-900 text-white via-purple-900 to-pink-900 relative overflow-hidden">
           {/* Animated Background Elements */}
           <div className="absolute inset-0 overflow-hidden">
-              <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+              <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+              <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
           </div>
 
           <div className="relative z-10 py-6 lg:px-4 px-2">
               <div className="max-w-7xl mx-auto">
                   {/* Header Section */}
                   <div className="text-center mb-10">
-                      <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-                          <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+                      <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+                          <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                               <BookOpen className="w-8 h-8 text-white" />
                           </div>
                       </div>
-                      <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+                      <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
                           STATION REGISTERS, BOOKS & FORMS
                       </h1>
                       <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Operating Manual - Chapter</h2>
-                      <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+                      <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
                       <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
                           A comprehensive guide to understanding the essential registers, books, and forms
                           that must be maintained at railway stations for proper documentation and safety.
@@ -66,12 +66,12 @@ const OMPage15 = () => {
                       {/* Introduction Section */}
                       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                           <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                              <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                              <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                                   <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                               </span>
                               Introduction
                           </h2>
-                          <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+                          <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                               <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4">
                                   In order to streamline day to day working in stations and to ensure due procedure,
                                   proper documentation of events, a set of books & forms and registers are warranted
@@ -113,12 +113,12 @@ const OMPage15 = () => {
                       {/* Main Registers Section */}
                       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                           <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                              <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                              <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                                   <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                               </span>
                               Essential Station Registers
                           </h2>
-                          <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+                          <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
 
                               {/* Train Passing Registers */}
                               <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-2 hover:shadow-lg transition-all duration-300 border border-white/20 mb-6">
@@ -137,32 +137,32 @@ const OMPage15 = () => {
                                               in the station for every train.
                                           </p>
                                           <ul className="space-y-3 text-gray-100 text-[15px]">
-                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
-                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-400 via-emerald-400 to-green-500 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                              <li className="group flex items-center bg-gradient-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-gradient-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-gradient-to-br from-green-400 via-emerald-400 to-green-500 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
                                                       <Clock className="w-4 h-4 text-white" />
                                                   </span>
                                                   <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
                                                       Timings of various events from granting line clear to rear station up to section clearance at the advance station
                                                   </span>
                                               </li>
-                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
-                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-500 via-green-300 to-emerald-300 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                              <li className="group flex items-center bg-gradient-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-gradient-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-gradient-to-br from-green-500 via-green-300 to-emerald-300 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
                                                       <AlertTriangle className="w-4 h-4 text-white" />
                                                   </span>
                                                   <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
                                                       Failure of block instruments, Maintenance blocks in force, PN obtained from guard regarding complete arrival
                                                   </span>
                                               </li>
-                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
-                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-400 via-emerald-400 to-green-500 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                              <li className="group flex items-center bg-gradient-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-gradient-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-gradient-to-br from-green-400 via-emerald-400 to-green-500 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
                                                       <List className="w-4 h-4 text-white" />
                                                   </span>
                                                   <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
                                                       Each block instrument mandates a separate TSR
                                                   </span>
                                               </li>
-                                              <li className="group flex items-center bg-linear-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-linear-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
-                                                  <span className="flex items-center justify-center w-7 h-7 bg-linear-to-br from-green-400 via-emerald-500 to-green-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
+                                              <li className="group flex items-center bg-gradient-to-r from-green-800/20 to-green-600/10 rounded-xl px-2 py-2 border border-green-400/20 shadow-sm hover:bg-gradient-to-l hover:from-green-500/10 hover:to-emerald-400/10 hover:border-green-400/40 transition-all duration-300">
+                                                  <span className="flex items-center justify-center w-7 h-7 bg-gradient-to-br from-green-400 via-emerald-500 to-green-400 rounded-full shadow-lg mr-4 group-hover:scale-110 transition-transform">
                                                       <LaptopMinimal className="w-4 h-4 text-green-100" />
                                                   </span>
                                                   <span className="flex-1 font-medium tracking-wide group-hover:text-green-200 transition-colors">
@@ -287,15 +287,15 @@ const OMPage15 = () => {
                                           </p>
                                           <ul className="space-y-2 text-sm text-gray-200 pl-1">
                                               <li className="flex items-center gap-3">
-                                                  <span className="flex-none w-3 h-3 bg-linear-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
+                                                  <span className="flex-none w-3 h-3 bg-gradient-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
                                                   <span className="flex-1">New caution orders issued in that week are entered with serial numbers</span>
                                               </li>
                                               <li className="flex items-center gap-3">
-                                                  <span className="flex-none w-3 h-3 bg-linear-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
+                                                  <span className="flex-none w-3 h-3 bg-gradient-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
                                                   <span className="flex-1">All caution orders from message register should be reflected here</span>
                                               </li>
                                               <li className="flex items-center gap-3">
-                                                  <span className="flex-none w-3 h-3 bg-linear-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
+                                                  <span className="flex-none w-3 h-3 bg-gradient-to-br from-orange-300 to-orange-500 rounded-full shadow"></span>
                                                   <span className="flex-1">Should be tallied/cross checked during inspection</span>
                                               </li>
                                           </ul>
@@ -319,23 +319,23 @@ const OMPage15 = () => {
                                           <h6 className="font-semibold text-blue-200 mb-2">Recorded Information</h6>
                                           <ul className="space-y-2 text-sm text-gray-200">
                                               <li className="flex items-center gap-2">
-                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span className="w-2 h-2 bg-gradient-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
                                                   <span>Visit of various officers/inspectors</span>
                                               </li>
                                               <li className="flex items-center gap-2">
-                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span className="w-2 h-2 bg-gradient-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
                                                   <span>Cleanliness and safety aspects inspected</span>
                                               </li>
                                               <li className="flex items-center gap-2">
-                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span className="w-2 h-2 bg-gradient-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
                                                   <span>Motor trolley permit details</span>
                                               </li>
                                               <li className="flex items-center gap-2">
-                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span className="w-2 h-2 bg-gradient-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
                                                   <span>Track fit certificates</span>
                                               </li>
                                               <li className="flex items-center gap-2">
-                                                  <span className="w-2 h-2 bg-linear-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
+                                                  <span className="w-2 h-2 bg-gradient-to-br from-blue-300 to-blue-600 rounded-full shadow-md"></span>
                                                   <span>Vehicle/loco fit certificates after accidents</span>
                                               </li>
                                           </ul>
@@ -402,12 +402,12 @@ const OMPage15 = () => {
                       {/* Staff Registers Section */}
                       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                           <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                              <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                              <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                               </span>
                               Staff Registers
                           </h2>
-                          <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
+                          <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
 
                               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">  
@@ -493,12 +493,12 @@ const OMPage15 = () => {
                       {/* S&T Registers Section */}
                       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                           <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                              <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                              <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                                   <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                               </span>
                               S&T Registers
                           </h2>
-                          <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+                          <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
 
                               <div className="space-y-6">
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
@@ -583,12 +583,12 @@ const OMPage15 = () => {
                       {/* Guard Registers Section */}
                       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                           <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                              <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                              <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                                   <Shield className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                               </span>
                               Guard Registers
                           </h2>
-                          <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
+                          <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
 
                               <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                                   The following registers are to be maintained where Guards are Headquartered/ Terminating/Originating stations:
@@ -597,7 +597,7 @@ const OMPage15 = () => {
                               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-indigo-500 to-blue-400 text-white text-2xl font-bold shadow-lg mb-1">1</span>
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-blue-400 text-white text-2xl font-bold shadow-lg mb-1">1</span>
                                           Guards Equipment Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
@@ -607,7 +607,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-blue-500 to-cyan-400 text-white text-2xl font-bold shadow-lg mb-1">2</span>
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-cyan-400 text-white text-2xl font-bold shadow-lg mb-1">2</span>
                                           Guards Call Book
                                       </h4>
                                       <p className="text-sm text-gray-200">
@@ -617,7 +617,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-indigo-600 to-blue-400 text-white text-2xl font-bold shadow-lg mb-1">3</span>
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-600 to-blue-400 text-white text-2xl font-bold shadow-lg mb-1">3</span>
                                           Guards Signing On / Signing Off Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
@@ -627,7 +627,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-blue-500 to-indigo-300 text-white text-2xl font-bold shadow-lg mb-1">4</span>
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-indigo-300 text-white text-2xl font-bold shadow-lg mb-1">4</span>
                                           Guards (Standing Order Book)
                                       </h4>
                                       <p className="text-sm text-gray-200">
@@ -637,7 +637,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-indigo-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-indigo-500 to-pink-400 text-white text-2xl font-bold shadow-lg mb-1">5</span>
+                                          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-pink-400 text-white text-2xl font-bold shadow-lg mb-1">5</span>
                                           Breathalyser Test Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
@@ -647,7 +647,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-blue-300 mb-3 flex flex-col gap-2 items-center">
-                                            <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-tr from-blue-600 to-cyan-400 text-white text-2xl font-bold shadow-lg mb-1">6</span>
+                                            <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-blue-600 to-cyan-400 text-white text-2xl font-bold shadow-lg mb-1">6</span>
                                           LTM Register
                                       </h4>
                                       <p className="text-sm text-gray-200">
@@ -661,12 +661,12 @@ const OMPage15 = () => {
                       {/* Level Crossing Gate Books Section */}
                       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
                           <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                              <span className="bg-linear-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                              <span className="bg-gradient-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                                   <Route className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                               </span>
                               Level Crossing Gate Books
                           </h2>
-                          <div className="bg-linear-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
+                          <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
 
                               <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                                   The following books and notices are maintained at level crossing gate provided with gate lodge.
@@ -675,7 +675,7 @@ const OMPage15 = () => {
                               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-teal-400 to-blue-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-emerald-400 via-teal-400 to-blue-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">1</span>
                                           </span>
                                           Equipment List Book
@@ -687,7 +687,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-teal-400 via-blue-400 to-sky-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-teal-400 via-blue-400 to-sky-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">2</span>
                                           </span>
                                           Duty Rosters
@@ -699,7 +699,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-blue-400 to-indigo-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-emerald-400 via-blue-400 to-indigo-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">3</span>
                                           </span>
                                           Duty List with Regional Language Translation
@@ -711,7 +711,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-teal-400 via-purple-400 to-blue-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-teal-400 via-purple-400 to-blue-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">4</span>
                                           </span>
                                           Level Crossing Working Instructions
@@ -723,7 +723,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-teal-300 to-cyan-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-emerald-400 via-teal-300 to-cyan-500 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">5</span>
                                           </span>
                                           Public Complaint Book
@@ -735,7 +735,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-sky-400 via-blue-500 to-emerald-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-sky-400 via-blue-500 to-emerald-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">6</span>
                                           </span>
                                           Vision Test and Competency Certificate
@@ -747,7 +747,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-emerald-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-emerald-400 via-cyan-400 to-indigo-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-emerald-400 via-cyan-400 to-indigo-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">7</span>
                                           </span>
                                           Traffic Census Results
@@ -759,7 +759,7 @@ const OMPage15 = () => {
 
                                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
                                       <h4 className="font-semibold text-teal-300 mb-3 flex flex-col gap-2 items-center">
-                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-linear-to-tr from-blue-400 via-teal-300 to-emerald-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
+                                          <span className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-tr from-blue-400 via-teal-300 to-emerald-400 shadow-lg mb-1 border-2 border-white/40 animate-fade-in">
                                               <span className="text-xl lg:text-2xl font-bold text-white drop-shadow-md">8</span>
                                           </span>
                                           Inspection Books
@@ -778,12 +778,12 @@ const OMPage15 = () => {
           {/* Operating Forms Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-linear-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-gradient-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                       <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Operating Forms
               </h2>
-              <div className="bg-linear-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-violet-400/30">
+              <div className="bg-gradient-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-violet-400/30">
 
                   <div className="space-y-6">
                       <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
@@ -832,12 +832,12 @@ const OMPage15 = () => {
           {/* Non-Interlocked Working Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                  <span className="bg-linear-to-r from-rose-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-gradient-to-r from-rose-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                       <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Non-Interlocked Working
               </h2>
-              <div className="bg-linear-to-br from-rose-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-rose-400/30">
+              <div className="bg-gradient-to-br from-rose-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-rose-400/30">
 
                   <div className="space-y-6">
                       <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
@@ -863,12 +863,12 @@ const OMPage15 = () => {
           {/* Temporary Working Instructions Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                  <span className="bg-linear-to-r from-amber-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                  <span className="bg-gradient-to-r from-amber-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                       <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                   </span>
                   Temporary Working Instructions (TWI)
               </h2>
-              <div className="bg-linear-to-br from-amber-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-amber-400/30">
+              <div className="bg-gradient-to-br from-amber-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-amber-400/30">
 
                   <div className="space-y-6">
                       <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 hover:shadow-lg transition-all duration-300 border border-white/20">
@@ -913,37 +913,37 @@ const OMPage15 = () => {
                           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                               <div className="space-y-3">
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">1</span>
+                                      <span className="w-6 h-6 bg-amber-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">1</span>
                                       <p className="text-sm text-gray-200">Procedure for granting/obtaining Line Clear</p>
                                   </div>
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">2</span>
+                                      <span className="w-6 h-6 bg-amber-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">2</span>
                                       <p className="text-sm text-gray-200">Procedure for ensuring clearance of nominated line</p>
                                   </div>
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">3</span>
+                                      <span className="w-6 h-6 bg-amber-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">3</span>
                                       <p className="text-sm text-gray-200">Procedure for closure of level crossing gates, if any</p>
                                   </div>
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">4</span>
+                                      <span className="w-6 h-6 bg-amber-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">4</span>
                                       <p className="text-sm text-gray-200">Procedure for setting of route</p>
                                   </div>
                               </div>
                               <div className="space-y-3">
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-orange-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">5</span>
+                                      <span className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">5</span>
                                       <p className="text-sm text-gray-200">Description of series of points involved, from trailing end</p>
                                   </div>
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-orange-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">6</span>
+                                      <span className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">6</span>
                                       <p className="text-sm text-gray-200">Description of the position of each point (Normal/Reverse) to be set</p>
                                   </div>
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-orange-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">7</span>
+                                      <span className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">7</span>
                                       <p className="text-sm text-gray-200">Conditions to be fulfilled before taking off signals</p>
                                   </div>
                                   <div className="flex items-start">
-                                      <span className="w-6 h-6 bg-orange-400 rounded-full flex items-center justify-center text-sm font-bold text-gray-900 mr-3 mt-1 shrink-0">8</span>
+                                      <span className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-sm font-bold text-white mr-3 mt-1 shrink-0 shadow-lg">8</span>
                                       <p className="text-sm text-gray-200">Procedure for taking off signals</p>
                                   </div>
                               </div>

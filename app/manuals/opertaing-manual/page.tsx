@@ -23,34 +23,34 @@ const OperatingManual = () => {
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-indigo-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-slate-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-indigo-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-slate-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10">
         {/* Hero Section */}
-        <div className="bg-linear-to-r from-blue-900 via-indigo-900 to-purple-900 text-white py-4 relative overflow-hidden">
+        <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900 text-white py-4 relative overflow-hidden">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative max-w-7xl mx-auto lg:px-6 px-2 text-center">
-            <div className="inline-block lg:p-3 p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-8 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-purple-600 lg:p-4 p-2 rounded-full">
+            <div className="inline-block lg:p-3 p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-8 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-purple-600 lg:p-4 p-2 rounded-full">
                 <Train className="lg:w-10 lg:h-10 w-6 h-6 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-3xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-3xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
             OPERATING MANUAL
             </h1>
             <h2 className="lg:text-5xl text-2xl font-bold text-cyan-300 mb-4">South Central Railway</h2>
-            <div className="w-32 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-8 rounded-full"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-8 rounded-full"></div>
             <p className="lg:text-2xl text-lg text-blue-200 mb-8 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide for railway personnel involved in train operations, 
               ensuring safety, efficiency, and excellence in railway operations.
             </p>
-            <div className="inline-flex items-center px-6 py-3 bg-linear-to-r from-red-600 to-red-700 text-white text-lg font-medium rounded-full shadow-2xl border border-red-500/30 backdrop-blur-sm">
+            <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 text-white text-lg font-medium rounded-full shadow-2xl border border-red-500/30 backdrop-blur-sm">
               <Shield className="w-5 h-5 mr-3" />
               For official use only
             </div>
@@ -62,14 +62,14 @@ const OperatingManual = () => {
           {/* Introduction Card */}
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl py-6 lg:px-4 px-2 mb-16 border border-white/20 hover:bg-white/15 transition-all duration-500">
             <div className="flex items-center text-center flex-col gap-4 mb-10">
-              <div className="lg:w-16 lg:h-16 w-12 h-12 bg-linear-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mr-6 shadow-xl">
+              <div className="lg:w-16 lg:h-16 w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mr-6 shadow-xl">
                 <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
               </div>
               <h2 className="lg:text-4xl text-2xl font-bold text-white">Preface</h2>
             </div>
             
             <div className="prose prose-lg max-w-none text-gray-200 leading-relaxed space-y-4">
-              <div className="bg-linear-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
                 <p className="lg:text-xl text-base text-gray-100 leading-relaxed">
                   &apos;Operating Manual for Indian Railways&apos; was issued in the year 2008 with an
                   objective to provide a ready handbook to officers and staff involved in train
@@ -78,7 +78,7 @@ const OperatingManual = () => {
                 </p>
               </div>
               
-              <div className="bg-linear-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
                 <p className="lg:text-xl text-base text-gray-100 leading-relaxed">
                   Preparation of &apos;Operating Manual for South Central Railway&apos; started in the
                   year 2015 by a team of Instructors of ZRTI, Moula ali. This effort was carried
@@ -88,7 +88,7 @@ const OperatingManual = () => {
                 </p>
               </div>
               
-              <div className="bg-linear-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-emerald-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-emerald-400/30 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start">
                   <Award className="w-8 h-8 text-emerald-400 mr-4 mt-1 shrink-0" />
                   <p className="lg:text-xl text-base text-emerald-100 font-medium leading-relaxed">
@@ -98,7 +98,7 @@ const OperatingManual = () => {
                 </div>
               </div>
               
-              <div className="bg-linear-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
                 <p className="lg:text-xl text-base text-gray-100 leading-relaxed">
                   The Manual is an attempt to bring about an understanding of various facets of
                   train operations currently in vogue. The focus has been kept on the basics rather
@@ -109,7 +109,7 @@ const OperatingManual = () => {
                 </p>
               </div>
               
-              <div className="bg-linear-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
                 <p className="lg:text-xl text-base text-gray-100 leading-relaxed">
                   In the absence of such a Manual, many procedural instructions have got
                   incorporated as Subsidiary Rules in G&SR. As and when the Manual gets
@@ -119,7 +119,7 @@ const OperatingManual = () => {
                 </p>
               </div>
               
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-green-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-green-400/30 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start">
                   <Award className="w-8 h-8 text-green-400 mr-4 mt-1 shrink-0" />
                   <p className="lg:text-xl text-base text-green-100 font-medium leading-relaxed">
@@ -130,7 +130,7 @@ const OperatingManual = () => {
                 </div>
               </div>
               
-              <div className="bg-linear-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-blue-400/30 hover:shadow-xl transition-all duration-300">
                 <p className="lg:text-xl text-base text-gray-100 leading-relaxed">
                   I hope that the Operating Manual prepared by South Central Railway will
                   enrich the knowledge of Operating Staff in their day to day working and also will work
@@ -139,10 +139,10 @@ const OperatingManual = () => {
               </div>
               
               <div className="mt-6 pt-8 border-t border-white/20">
-                <div className="bg-linear-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-white/20">
+                <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-2xl py-6 lg:px-6 px-4 border border-white/20">
                   <div className="flex flex-col lg:flex-row items-center justify-between">
                     <div className="flex items-center mb-6 lg:mb-0 flex-col lg:flex-row gap-4">
-                      <div className="w-12 h-12 bg-linear-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
+                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
                         <Users className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -169,12 +169,12 @@ const OperatingManual = () => {
         </div>
 
         {/* Download PDF Section */}
-        <div className="bg-linear-to-r from-indigo-600 via-purple-600 to-indigo-800 py-4 relative overflow-hidden">
+        <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-800 py-4 relative overflow-hidden">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative max-w-5xl mx-auto px-4 text-center">
             <div className="bg-white/10 backdrop-blur-lg rounded-3xl py-6 px-4 border border-white/20 shadow-2xl">
               <div className="flex flex-col gap-6 items-center justify-center mb-10">
-                <div className="lg:w-20 lg:h-20 w-12 h-12 bg-linear-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-2xl">
+                <div className="lg:w-20 lg:h-20 w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-2xl">
                   <FileText className="lg:w-10 lg:h-10 w-6 h-6 text-white" />
                 </div>
                 <h2 className="lg:text-4xl text-2xl font-bold text-white">
@@ -190,9 +190,9 @@ const OperatingManual = () => {
 
               <button
                 onClick={handleDownloadPDF}
-                className="group relative inline-flex items-center justify-center lg:px-10 lg:py-5 px-6 py-3 lg:text-xl text-base font-semibold text-white bg-linear-to-r from-yellow-500 via-yellow-600 to-yellow-700 rounded-lg shadow-2xl hover:shadow-yellow-500/25 transition-all duration-300 hover:scale-105 active:scale-95 border border-yellow-400/30"
+                className="group relative inline-flex items-center justify-center lg:px-10 lg:py-5 px-6 py-3 lg:text-xl text-base font-semibold text-white bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 rounded-lg shadow-2xl hover:shadow-yellow-500/25 transition-all duration-300 hover:scale-105 active:scale-95 border border-yellow-400/30"
               >
-                <div className="absolute inset-0 bg-linear-to-r from-yellow-400 to-yellow-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative flex items-center space-x-4">
                   <Download className="lg:w-7 lg:h-7 w-5 h-5 animate-pulse" />
                   <span>Download PDF</span>

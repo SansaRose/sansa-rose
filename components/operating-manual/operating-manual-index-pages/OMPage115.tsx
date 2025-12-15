@@ -15,27 +15,27 @@ import {
 
 const OMPage115 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-green-900 via-teal-900 to-blue-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-green-900 via-teal-900 to-blue-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-green-400/20 to-teal-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-blue-400/20 to-green-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-teal-400/10 to-green-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-green-400/20 to-teal-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-blue-400/20 to-green-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-teal-400/10 to-green-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-linear-to-r from-green-500/20 to-teal-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-green-500 to-teal-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-green-500/20 to-teal-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-green-500 to-teal-600 p-3 rounded-full">
                 <Package className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-green-100 to-teal-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-green-100 to-teal-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               Private Freight Handling Terminals
             </h1>
-            <div className="w-24 h-1 bg-linear-to-r from-green-500 to-teal-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-teal-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to Private Freight Handling Terminals on Private land and Railway land, including Private Sidings, PFT, and GCT policies.
             </p>
@@ -47,38 +47,38 @@ const OMPage115 = () => {
             {/* Terminal Types Overview Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Building className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Types of Private Freight Handling Terminals
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 mb-6">
                   <p className="text-white lg:text-base text-sm leading-relaxed mb-4">
                     There are 3 types of Private Freight handling terminals on Private land / fully or partially on railway land.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div className="bg-linear-to-br from-green-600/40 via-green-700/20 to-emerald-700/30 rounded-xl p-5 border border-green-300/20 text-center hover:scale-[1.025] shadow-lg hover:shadow-green-400/20 transition-all duration-300 relative overflow-hidden">
+                    <div className="bg-gradient-to-br from-green-600/40 via-green-700/20 to-emerald-700/30 rounded-xl p-5 border border-green-300/20 text-center hover:scale-[1.025] shadow-lg hover:shadow-green-400/20 transition-all duration-300 relative overflow-hidden">
                       <div className="flex justify-center mb-4">
-                        <span className="inline-flex items-center justify-center w-12 h-12 text-2xl font-extrabold rounded-full bg-linear-to-br from-white/70 to-green-500/30 text-green-700 shadow-inner border-2 border-green-400">
+                        <span className="inline-flex items-center justify-center w-12 h-12 text-2xl font-extrabold rounded-full bg-gradient-to-br from-white/70 to-green-500/30 text-green-700 shadow-inner border-2 border-green-400">
                           1
                         </span>
                       </div>
                       <h5 className="font-semibold text-green-200 text-lg mb-2 drop-shadow">Private Sidings</h5>
                       <p className="text-white/90 text-sm font-light">Traditional private freight terminals</p>
                     </div>
-                    <div className="bg-linear-to-br from-teal-600/40 via-teal-700/20 to-cyan-700/20 rounded-xl p-5 border border-teal-300/20 text-center hover:scale-[1.025] shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 relative overflow-hidden">
+                    <div className="bg-gradient-to-br from-teal-600/40 via-teal-700/20 to-cyan-700/20 rounded-xl p-5 border border-teal-300/20 text-center hover:scale-[1.025] shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 relative overflow-hidden">
                       <div className="flex justify-center mb-4">
-                        <span className="inline-flex items-center justify-center w-12 h-12 text-2xl font-extrabold rounded-full bg-linear-to-br from-white/70 to-teal-500/30 text-teal-700 shadow-inner border-2 border-teal-400">
+                        <span className="inline-flex items-center justify-center w-12 h-12 text-2xl font-extrabold rounded-full bg-gradient-to-br from-white/70 to-teal-500/30 text-teal-700 shadow-inner border-2 border-teal-400">
                           2
                         </span>
                       </div>
                       <h5 className="font-semibold text-teal-200 text-lg mb-2 drop-shadow">Private Freight Terminals (PFT)</h5>
                       <p className="text-white/90 text-sm font-light">Modern freight terminal facilities</p>
                     </div>
-                    <div className="bg-linear-to-br from-blue-700/40 via-indigo-700/15 to-blue-500/20 rounded-xl p-5 border border-blue-300/20 text-center hover:scale-[1.025] shadow-lg hover:shadow-blue-400/20 transition-all duration-300 relative overflow-hidden">
+                    <div className="bg-gradient-to-br from-blue-700/40 via-indigo-700/15 to-blue-500/20 rounded-xl p-5 border border-blue-300/20 text-center hover:scale-[1.025] shadow-lg hover:shadow-blue-400/20 transition-all duration-300 relative overflow-hidden">
                       <div className="flex justify-center mb-4">
-                        <span className="inline-flex items-center justify-center w-12 h-12 text-2xl font-extrabold rounded-full bg-linear-to-br from-white/70 to-blue-500/30 text-blue-700 shadow-inner border-2 border-blue-400">
+                        <span className="inline-flex items-center justify-center w-12 h-12 text-2xl font-extrabold rounded-full bg-gradient-to-br from-white/70 to-blue-500/30 text-blue-700 shadow-inner border-2 border-blue-400">
                           3
                         </span>
                       </div>
@@ -93,12 +93,12 @@ const OMPage115 = () => {
             {/* Policy Guidelines Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-blue-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-blue-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Policy Guidelines & Processing
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 mb-6">
                   <div className="flex items-center mb-4 flex-col lg:flex-row gap-4 text-center">
                     <div className="bg-blue-500/20 p-2 rounded-full mr-3">
@@ -154,12 +154,12 @@ const OMPage115 = () => {
             {/* Important Circulars Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Important Policy Circulars
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <ol className="space-y-6 pl-0">
                   {/* Circular 1 */}
                   <li className="relative bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 p-0">
@@ -263,12 +263,12 @@ const OMPage115 = () => {
             {/* Summary Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Award className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Terminal Management Overview
               </h2>
-              <div className="bg-linear-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
+              <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
                     <h5 className="font-semibold text-emerald-300 mb-3">Terminal Types</h5>

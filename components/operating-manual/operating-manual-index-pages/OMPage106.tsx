@@ -24,28 +24,28 @@ import {
 
 const OMPage106 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-900 via-indigo-900 to-purple-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-purple-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-indigo-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-purple-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-indigo-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
                 <Map className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               TRAFFIC SURVEY
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-purple-300 mb-4">Comprehensive Traffic Analysis & Planning</h2>
-            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Complete guide to traffic survey methodologies, feasibility studies, Gati Shakti implementation, and final location surveys 
               for railway infrastructure development and strategic planning.
@@ -58,12 +58,12 @@ const OMPage106 = () => {
             {/* Traffic Survey Overview Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Search className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Traffic Survey Overview
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <p className="text-white lg:text-base text-sm leading-relaxed mb-4">
@@ -97,12 +97,12 @@ const OMPage106 = () => {
             {/* Traffic Survey Team Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Traffic Survey Team Structure
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <div className="space-y-4">
@@ -141,7 +141,7 @@ const OMPage106 = () => {
                         </div>
                       </div>
                       
-                      <div className="bg-linear-to-r from-green-500/20 to-emerald-500/20 rounded-lg p-4 border border-green-400/30">
+                      <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-lg p-4 border border-green-400/30">
                         <h6 className="font-semibold text-green-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                           <Network className="w-5 h-5 mr-2" />
                           Collaboration Requirements:
@@ -174,12 +174,12 @@ const OMPage106 = () => {
             {/* Types of Traffic Survey Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Types of Traffic Survey
               </h2>
-              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
+              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <p className="text-white lg:text-base text-sm leading-relaxed mb-4">
@@ -190,7 +190,7 @@ const OMPage106 = () => {
                       {/* Item (a) */}
                       <div className="bg-white/5 rounded-2xl lg:p-7 p-4 border border-orange-300/30 shadow-lg transition-transform hover:scale-[1.02] relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-full flex justify-center -translate-y-1/2">
-                          <span className="inline-flex items-center justify-center rounded-full bg-linear-to-tr from-orange-400 to-yellow-300 shadow-md w-14 h-14 border-4 border-white/10 text-3xl font-extrabold text-white drop-shadow-lg select-none">
+                          <span className="inline-flex items-center justify-center rounded-full bg-gradient-to-tr from-orange-400 to-yellow-300 shadow-md w-14 h-14 border-4 border-white/10 text-3xl font-extrabold text-white drop-shadow-lg select-none">
                             a
                           </span>
                         </div>
@@ -228,7 +228,7 @@ const OMPage106 = () => {
                       {/* Item (b) */}
                       <div className="bg-white/5 rounded-2xl lg:p-7 p-4 border border-red-300/30 shadow-lg transition-transform hover:scale-[1.02] relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-full flex justify-center -translate-y-1/2">
-                          <span className="inline-flex items-center justify-center rounded-full bg-linear-to-tr from-rose-500 to-red-400 shadow-md w-14 h-14 border-4 border-white/10 text-3xl font-extrabold text-white drop-shadow-lg select-none">
+                          <span className="inline-flex items-center justify-center rounded-full bg-gradient-to-tr from-rose-500 to-red-400 shadow-md w-14 h-14 border-4 border-white/10 text-3xl font-extrabold text-white drop-shadow-lg select-none">
                             b
                           </span>
                         </div>
@@ -271,12 +271,12 @@ const OMPage106 = () => {
             {/* Feasibility Studies Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <CheckCircle className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Feasibility Studies & Approvals
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                     <div className="space-y-4">
@@ -302,7 +302,7 @@ const OMPage106 = () => {
                         </div>
                       </div>
                       
-                      <div className="bg-linear-to-r from-purple-500/20 to-pink-500/20 rounded-lg lg:p-6 p-3 border border-purple-400/30">
+                      <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-lg lg:p-6 p-3 border border-purple-400/30">
                         <h6 className="font-semibold text-purple-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                           <Settings className="w-5 h-5 mr-2" />
                           Approval Authorities:
@@ -340,12 +340,12 @@ const OMPage106 = () => {
             {/* Gati Shakti Units Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Zap className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Gati Shakti Units
               </h2>
-              <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
+              <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-yellow-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <div className="space-y-4">
@@ -371,7 +371,7 @@ const OMPage106 = () => {
                         </div>
                       </div>
                       
-                      <div className="bg-linear-to-r from-yellow-500/20 to-orange-500/20 rounded-lg lg:p-6 p-3 border border-yellow-400/30">
+                      <div className="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-lg lg:p-6 p-3 border border-yellow-400/30">
                         <h6 className="font-semibold text-yellow-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                           <Activity className="w-5 h-5 mr-2" />
                           Implementation Process:
@@ -404,12 +404,12 @@ const OMPage106 = () => {
             {/* Network Planning Group Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Network className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Network Planning Group (NPG)
               </h2>
-              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
+              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <div className="space-y-4">
@@ -442,7 +442,7 @@ const OMPage106 = () => {
                         </div>
                       </div>
                       
-                      <div className="bg-linear-to-r from-indigo-500/20 to-blue-500/20 rounded-lg lg:p-6 p-3 border border-indigo-400/30">
+                      <div className="bg-gradient-to-r from-indigo-500/20 to-blue-500/20 rounded-lg lg:p-6 p-3 border border-indigo-400/30">
                         <h6 className="font-semibold text-indigo-300 mb-3 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                           <CheckCircle className="w-5 h-5 mr-2" />
                           DPR Preparation Approval:
@@ -461,12 +461,12 @@ const OMPage106 = () => {
             {/* Final Location Survey Details Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <MapPin className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Final Location Survey Details
               </h2>
-              <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
+              <div className="bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-red-400/30">
                 <div className="space-y-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <div className="space-y-4">
@@ -522,7 +522,7 @@ const OMPage106 = () => {
                         </div>
                       </div>
                       
-                      <div className="bg-linear-to-r from-red-500/20 to-pink-500/20 rounded-lg lg:p-6 p-3 border border-red-400/30">
+                      <div className="bg-gradient-to-r from-red-500/20 to-pink-500/20 rounded-lg lg:p-6 p-3 border border-red-400/30">
                         <h6 className="font-semibold text-red-300 mb-2 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                           <Calculator className="w-4 h-4 mr-2" />
                           Financial Assessment:
@@ -540,12 +540,12 @@ const OMPage106 = () => {
             {/* Key Survey Components Summary */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <BarChart3 className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Key Survey Components Summary
               </h2>
-              <div className="bg-linear-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
+              <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg lg:p-6 p-3 border border-white/20">
                     <h5 className="font-semibold text-emerald-300 mb-2 flex items-center justify-center text-center">

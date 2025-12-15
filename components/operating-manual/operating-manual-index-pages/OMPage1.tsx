@@ -24,7 +24,15 @@ import {
 
 const OMPage1 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div 
+      className="min-h-screen relative overflow-hidden" 
+      style={{ 
+        minHeight: '100vh',
+        width: '100%',
+        background: 'linear-gradient(135deg, #0f172a 0%, #1e1b4b 20%, #312e81 40%, #581c87 60%, #831843 80%, #9f1239 100%)',
+        backgroundColor: '#0f172a'
+      }}
+    >
       {/* Animated Background Elements */}  
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>

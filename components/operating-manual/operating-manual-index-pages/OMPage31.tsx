@@ -31,28 +31,28 @@ import {
 
 const OMPage31 = () => {
   return (
-    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Train className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               OPERATING MANUAL
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">Coaching Train Operations</h2>
-            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               A comprehensive guide to understanding coaching train operations, types of services, 
               and passenger satisfaction strategies in Indian Railways.
@@ -65,12 +65,12 @@ const OMPage31 = () => {
             {/* Overview */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Target className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Overview
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <ul className="space-y-5">
                   <li className="flex items-start">
                     <Train className="w-6 h-6 text-blue-300 mr-3 shrink-0 mt-1" />
@@ -101,12 +101,12 @@ const OMPage31 = () => {
             {/* Types of Coaching Services */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Settings className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Types of Coaching Services
               </h2>
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
+              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-green-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Indian Railways have evolved various types of services keeping in view of the public
                   demand, such as&hellip;
@@ -311,12 +311,12 @@ const OMPage31 = () => {
             {/* Numbering of Trains */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Target className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Numbering of Trains
               </h2>
-              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-purple-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Every coaching train in Indian Railways is provided with unique number, following a
                   five digit numbering system in vogue since December 20, 2010. In this scheme, the
@@ -426,12 +426,12 @@ const OMPage31 = () => {
             {/* Coaching Locomotives */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-orange-500 to-red-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Zap className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Coaching Locomotives
               </h2>
-              <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
+              <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-orange-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Locomotives are categorized as coaching, freight and mixed based on their design
                   specifications especially hauling power and gear ratio. It finds mention in the
@@ -502,28 +502,28 @@ const OMPage31 = () => {
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                       <h6 className="font-semibold text-orange-200 mb-2">Third Digit - Job Type</h6>
                       <div className="grid grid-cols-2 gap-3 text-sm">
-                        <div className="flex items-center bg-linear-to-r from-indigo-700/60 to-purple-700/40 rounded-lg px-3 py-2 shadow border border-purple-400/20">
+                        <div className="flex items-center bg-gradient-to-r from-indigo-700/60 to-purple-700/40 rounded-lg px-3 py-2 shadow border border-purple-400/20">
                           <span className="flex items-center justify-center w-7 h-7 rounded-md bg-pink-500/20 text-pink-200 font-bold text-base mr-3 shadow-inner">G</span>
                           <span className="text-white font-medium mr-1">Goods</span>
                         </div>
-                        <div className="flex items-center bg-linear-to-r from-teal-700/60 to-cyan-700/40 rounded-lg px-3 py-2 shadow border border-cyan-400/20">
+                        <div className="flex items-center bg-gradient-to-r from-teal-700/60 to-cyan-700/40 rounded-lg px-3 py-2 shadow border border-cyan-400/20">
                           <span className="flex items-center justify-center w-7 h-7 rounded-md bg-cyan-500/20 text-cyan-200 font-bold text-base mr-3 shadow-inner">P</span>
                           <span className="text-white font-medium mr-1">Passenger</span>
                         </div>
-                        <div className="flex items-center bg-linear-to-r from-yellow-700/70 to-orange-700/40 rounded-lg px-3 py-2 shadow border border-yellow-400/20 col-span-2">
+                        <div className="flex items-center bg-gradient-to-r from-yellow-700/70 to-orange-700/40 rounded-lg px-3 py-2 shadow border border-yellow-400/20 col-span-2">
                           <span className="flex items-center justify-center w-7 h-7 rounded-md bg-yellow-500/20 text-yellow-200 font-bold text-base mr-3 shadow-inner">M</span>
                           <span className="text-white font-medium mr-1">Mixed</span>
                           <span className="text-gray-300 text-xs ml-1">(Passenger &amp; Goods)</span>
                         </div>
-                        <div className="flex items-center bg-linear-to-r from-red-700/60 to-rose-700/40 rounded-lg px-3 py-2 shadow border border-rose-400/20">
+                        <div className="flex items-center bg-gradient-to-r from-red-700/60 to-rose-700/40 rounded-lg px-3 py-2 shadow border border-rose-400/20">
                           <span className="flex items-center justify-center w-7 h-7 rounded-md bg-red-500/20 text-red-200 font-bold text-base mr-3 shadow-inner">S</span>
                           <span className="text-white font-medium mr-1">Shunting</span>
                         </div>
-                        <div className="flex items-center bg-linear-to-r from-green-700/60 to-emerald-700/40 rounded-lg px-3 py-2 shadow border border-emerald-400/20">
+                        <div className="flex items-center bg-gradient-to-r from-green-700/60 to-emerald-700/40 rounded-lg px-3 py-2 shadow border border-emerald-400/20">
                           <span className="flex items-center justify-center w-7 h-7 rounded-md bg-green-500/20 text-green-200 font-bold text-base mr-3 shadow-inner">U</span>
                           <span className="text-white font-medium mr-1">Multiple Units</span>
                         </div>
-                        <div className="flex items-center bg-linear-to-r from-purple-700/60 to-indigo-700/40 rounded-lg px-3 py-2 shadow border border-indigo-400/20">
+                        <div className="flex items-center bg-gradient-to-r from-purple-700/60 to-indigo-700/40 rounded-lg px-3 py-2 shadow border border-indigo-400/20">
                           <span className="flex items-center justify-center w-7 h-7 rounded-md bg-purple-500/20 text-purple-200 font-bold text-base mr-3 shadow-inner">R</span>
                           <span className="text-white font-medium mr-1">Rail Cars</span>
                         </div>
@@ -550,12 +550,12 @@ const OMPage31 = () => {
             {/* Loco Maintenance */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-indigo-500 to-blue-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Wrench className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Loco Maintenance
               </h2>
-              <div className="bg-linear-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
+              <div className="bg-gradient-to-br from-indigo-500/20 to-blue-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-indigo-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Locos are maintained in the loco sheds. Depending upon the type of locomotives,
                   kms worked and time spent on line, different schedules for maintenance are
@@ -572,7 +572,7 @@ const OMPage31 = () => {
                   {/* Visually Appealing Card Format */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Trip inspection (TI) */}
-                    <div className="bg-linear-to-br from-indigo-900/60 to-blue-900/40 rounded-xl p-3 lg:p-5 border border-indigo-400/30 shadow-lg">
+                    <div className="bg-gradient-to-br from-indigo-900/60 to-blue-900/40 rounded-xl p-3 lg:p-5 border border-indigo-400/30 shadow-lg">
                       <h5 className="text-indigo-200 font-bold text-lg mb-2">Trip inspection (TI)</h5>
                       <ul className="text-gray-200 text-sm space-y-1">
                         <li>
@@ -584,7 +584,7 @@ const OMPage31 = () => {
                       </ul>
                     </div>
                     {/* IA */}
-                    <div className="bg-linear-to-br from-blue-900/60 to-indigo-900/40 rounded-xl p-3 lg:p-5 border border-blue-400/30 shadow-lg">
+                    <div className="bg-gradient-to-br from-blue-900/60 to-indigo-900/40 rounded-xl p-3 lg:p-5 border border-blue-400/30 shadow-lg">
                       <h5 className="text-blue-200 font-bold text-lg mb-2">IA</h5>
                       <ul className="text-gray-200 text-sm space-y-1">
                         <li>
@@ -596,7 +596,7 @@ const OMPage31 = () => {
                       </ul>
                     </div>
                     {/* IC */}
-                    <div className="bg-linear-to-br from-indigo-900/60 to-blue-900/40 rounded-xl p-3 lg:p-5 border border-indigo-400/30 shadow-lg">
+                    <div className="bg-gradient-to-br from-indigo-900/60 to-blue-900/40 rounded-xl p-3 lg:p-5 border border-indigo-400/30 shadow-lg">
                       <h5 className="text-indigo-200 font-bold text-lg mb-2">IC</h5>
                       <ul className="text-gray-200 text-sm space-y-1">
                         <li>
@@ -608,7 +608,7 @@ const OMPage31 = () => {
                       </ul>
                     </div>
                     {/* AOH */}
-                    <div className="bg-linear-to-br from-blue-900/60 to-indigo-900/40 rounded-xl p-3 lg:p-5 border border-blue-400/30 shadow-lg">
+                    <div className="bg-gradient-to-br from-blue-900/60 to-indigo-900/40 rounded-xl p-3 lg:p-5 border border-blue-400/30 shadow-lg">
                       <h5 className="text-blue-200 font-bold text-lg mb-2">AOH</h5>
                       <ul className="text-gray-100 text-base space-y-2 pl-1">
                         <li className="flex items-center">
@@ -631,7 +631,7 @@ const OMPage31 = () => {
                       </ul>
                     </div>
                     {/* IOH */}
-                    <div className="bg-linear-to-br from-indigo-900/60 to-blue-900/40 rounded-xl p-3 lg:p-5 border border-indigo-400/30 shadow-lg">
+                    <div className="bg-gradient-to-br from-indigo-900/60 to-blue-900/40 rounded-xl p-3 lg:p-5 border border-indigo-400/30 shadow-lg">
                       <h5 className="text-indigo-200 font-bold text-lg mb-2">IOH</h5>
                       <ul className="space-y-3 text-gray-100 text-base pl-1">
                         <li className="flex items-center">
@@ -666,12 +666,12 @@ const OMPage31 = () => {
                       </ul>
                     </div>
                     {/* POH */}
-                    <div className="bg-linear-to-b from-blue-900/70 via-indigo-900/60 to-indigo-800/60 rounded-2xl p-3 lg:p-5 border border-blue-400/40 shadow-2xl overflow-hidden relative">
+                    <div className="bg-gradient-to-b from-blue-900/70 via-indigo-900/60 to-indigo-800/60 rounded-2xl p-3 lg:p-5 border border-blue-400/40 shadow-2xl overflow-hidden relative">
                       {/* Decorative Background Blur Circles */}
                       <div className="absolute -top-7 -left-7 w-32 h-32 bg-blue-800/30 rounded-full blur-2xl pointer-events-none"></div>
                       <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-indigo-700/20 rounded-full blur-3xl pointer-events-none"></div>
                       {/* Content */}
-                      <h5 className="text-2xl font-black bg-linear-to-r from-cyan-400 via-indigo-400 to-blue-200 bg-clip-text text-transparent mb-4 tracking-wide flex items-center gap-3">
+                      <h5 className="text-2xl font-black bg-gradient-to-r from-cyan-400 via-indigo-400 to-blue-200 bg-clip-text text-transparent mb-4 tracking-wide flex items-center gap-3">
                         <svg className="w-7 h-7 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <circle cx="12" cy="12" r="10" strokeWidth="2" />
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4" />
@@ -686,7 +686,7 @@ const OMPage31 = () => {
                             </svg>
                             Duration:
                           </span>
-                          <span className="bg-linear-to-r from-indigo-900/70 to-blue-800/70 px-3 lg:px-4 py-1.5 rounded-md shadow-sm text-blue-100 ml-1">24 working days</span>
+                          <span className="bg-gradient-to-r from-indigo-900/70 to-blue-800/70 px-3 lg:px-4 py-1.5 rounded-md shadow-sm text-blue-100 ml-1">24 working days</span>
                         </li>
                         <li className="flex flex-col gap-2">
                           <span className="font-semibold text-indigo-200 flex items-center gap-2 mb-1">
@@ -727,12 +727,12 @@ const OMPage31 = () => {
             {/* Loco Links */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-cyan-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-cyan-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Route className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Loco Links
               </h2>
-              <div className="bg-linear-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
+              <div className="bg-gradient-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-cyan-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Locomotives nominated to work coaching trains are programmed to match the time
                   table. These schedules are called loco links. While preparing loco links, factors like
@@ -749,7 +749,7 @@ const OMPage31 = () => {
                     </h4>
                     <ul className="space-y-3 text-base">
                       <li className="flex items-start bg-cyan-900/20 rounded-xl p-3 shadow-sm transition-all group hover:bg-cyan-900/30">
-                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-linear-to-br from-cyan-400 via-teal-400 to-teal-500 shadow-lg group-hover:scale-105 transition-transform">
+                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-gradient-to-br from-cyan-400 via-teal-400 to-teal-500 shadow-lg group-hover:scale-105 transition-transform">
                           <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 20 20"><path strokeLinecap="round" strokeLinejoin="round" d="M5 10l4 4 6-6" /></svg>
                         </span>
                         <span className="font-medium text-cyan-100 group-hover:text-cyan-200">
@@ -757,7 +757,7 @@ const OMPage31 = () => {
                         </span>
                       </li>
                       <li className="flex items-start bg-cyan-900/10 rounded-xl p-3 shadow-sm transition-all group hover:bg-cyan-900/20">
-                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-linear-to-br from-teal-400 via-cyan-400 to-cyan-300 shadow-lg group-hover:scale-105 transition-transform">
+                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-gradient-to-br from-teal-400 via-cyan-400 to-cyan-300 shadow-lg group-hover:scale-105 transition-transform">
                           <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 20 20"><path strokeLinecap="round" strokeLinejoin="round" d="M5 10l4 4 6-6" /></svg>
                         </span>
                         <span className="font-medium text-cyan-100 group-hover:text-cyan-200">
@@ -765,7 +765,7 @@ const OMPage31 = () => {
                         </span>
                       </li>
                       <li className="flex items-start bg-cyan-900/20 rounded-xl p-3 shadow-sm transition-all group hover:bg-cyan-900/30">
-                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-linear-to-br from-cyan-300 via-blue-400 to-teal-400 shadow-lg group-hover:scale-105 transition-transform">
+                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-gradient-to-br from-cyan-300 via-blue-400 to-teal-400 shadow-lg group-hover:scale-105 transition-transform">
                           <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 20 20"><path strokeLinecap="round" strokeLinejoin="round" d="M5 10l4 4 6-6" /></svg>
                         </span>
                         <span className="font-medium text-cyan-100 group-hover:text-cyan-200">
@@ -773,7 +773,7 @@ const OMPage31 = () => {
                         </span>
                       </li>
                       <li className="flex items-start bg-cyan-900/10 rounded-xl p-3 shadow-sm transition-all group hover:bg-cyan-900/20">
-                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-linear-to-br from-teal-500 via-cyan-400 to-cyan-500 shadow-lg group-hover:scale-105 transition-transform">
+                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-gradient-to-br from-teal-500 via-cyan-400 to-cyan-500 shadow-lg group-hover:scale-105 transition-transform">
                           <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 20 20"><path strokeLinecap="round" strokeLinejoin="round" d="M5 10l4 4 6-6" /></svg>
                         </span>
                         <span className="font-medium text-cyan-100 group-hover:text-cyan-200">
@@ -781,7 +781,7 @@ const OMPage31 = () => {
                         </span>
                       </li>
                       <li className="flex items-start bg-cyan-900/20 rounded-xl p-3 shadow-sm transition-all group hover:bg-cyan-900/30">
-                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-linear-to-br from-cyan-400 via-blue-400 to-teal-400 shadow-lg group-hover:scale-105 transition-transform">
+                        <span className="flex items-center justify-center w-8 h-8 mr-3 rounded-full bg-gradient-to-br from-cyan-400 via-blue-400 to-teal-400 shadow-lg group-hover:scale-105 transition-transform">
                           <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 20 20"><path strokeLinecap="round" strokeLinejoin="round" d="M5 10l4 4 6-6" /></svg>
                         </span>
                         <span className="font-medium text-cyan-100 group-hover:text-cyan-200">
@@ -843,12 +843,12 @@ const OMPage31 = () => {
             {/* Coaching Stock */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Car className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Coaching Stock
               </h2>
-              <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-yellow-400/30">
+              <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-yellow-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   For providing the various types of services mentioned above, different types of
                   coaches have been designed, manufactured and put into service. They form the
@@ -889,12 +889,12 @@ const OMPage31 = () => {
             {/* Types of Coaches and Their Codes */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-pink-500 to-rose-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-pink-500 to-rose-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Types of Coaches and Their Codes
               </h2>
-              <div className="bg-linear-to-br from-pink-500/20 to-rose-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-pink-400/30">
+              <div className="bg-gradient-to-br from-pink-500/20 to-rose-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-pink-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   All coaching vehicles are provided with an alphabetical code indicating the facilities
                   provided in them. The meanings of the letters in the code are as follows.
@@ -1088,12 +1088,12 @@ const OMPage31 = () => {
             {/* Coach Maintenance */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-emerald-500 to-green-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Wrench className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Coach Maintenance
               </h2>
-              <div className="bg-linear-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
+              <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-emerald-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   The following schedules of maintenance are followed for coaching trains&hellip;
                 </p>
@@ -1206,12 +1206,12 @@ const OMPage31 = () => {
                     ].map((item, idx) => (
                       <div
                         key={idx}
-                        className="relative bg-linear-to-br from-emerald-900/40 to-green-900/30 rounded-xl p-3 lg:p-6 border border-emerald-400/20 shadow-lg flex items-start"
+                        className="relative bg-gradient-to-br from-emerald-900/40 to-green-900/30 rounded-xl p-3 lg:p-6 border border-emerald-400/20 shadow-lg flex items-start"
                       >
                         {/* Beautiful Number Box */}
                         <div className="shrink-0 mr-4">
                           <div
-                            className="w-8 h-8 lg:w-10 lg:h-10 flex items-center justify-center rounded-xl bg-linear-to-br from-emerald-400/60 to-emerald-700/60 border-2 border-emerald-300 shadow-lg text-white font-bold text-base lg:text-xl select-none ring-1 ring-emerald-300/60"
+                            className="w-8 h-8 lg:w-10 lg:h-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400/60 to-emerald-700/60 border-2 border-emerald-300 shadow-lg text-white font-bold text-base lg:text-xl select-none ring-1 ring-emerald-300/60"
                           >
                             {idx + 1}
                           </div>
@@ -1232,12 +1232,12 @@ const OMPage31 = () => {
             {/* Spare Coaches */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-blue-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-blue-500 to-indigo-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Car className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Spare Coaches
               </h2>
-              <div className="bg-linear-to-br from-blue-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
+              <div className="bg-gradient-to-br from-blue-500/20 to-indigo-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-2 shadow-lg border border-blue-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   These are general guidelines for spare coaching to be kept at station where Primary
                   maintenance takes place:
@@ -1311,12 +1311,12 @@ const OMPage31 = () => {
             {/* Crew Links */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+                <span className="bg-gradient-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                   <Users className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Crew Links
               </h2>
-              <div className="bg-linear-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-violet-400/30">
+              <div className="bg-gradient-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-violet-400/30">
                 <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-6">
                   Coaching crew is scheduled to work coaching trains as per time table. These
                   schedules are called crew links. These links are prepared for optimum utilization of
