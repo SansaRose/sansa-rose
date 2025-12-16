@@ -1061,7 +1061,7 @@ type AbbreviationItem = {
       },
       {
         acronym: "DV",
-        fullForm: "Distributor Valve",
+        fullForm: "Distribute Valves",
         explanation: "A key component in the train brake system that regulates and distributes brake pressure.",
         reference: "--"
       },
@@ -2789,6 +2789,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "SCO", fullForm: "Sectional Caution Order",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "SCOR", fullForm: "Senior Control Office Representative",
         explanation: "Will be added later",
         reference: "--"
       },

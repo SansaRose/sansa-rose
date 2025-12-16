@@ -279,6 +279,18 @@ export const alertAdvicePdfFiles = [
       subject: "Action by SMs in case of Point indication flashing - Reg.",
       date: "19/11/2025",
     },
+    {
+      name: "Operating Safety Circular 13 of 2025",
+      filename: "Operating Safety Circular 13 of 2025.pdf",
+      subject: "Occasions for conducting of GLP check - Reg.",
+      date: "12/12/2025",
+    },
+    {
+      name: "Operating Safety Circular 14 of 2025",
+      filename: "Operating Safety Circular 14 of 2025.pdf",
+      subject: "Repeated Unusual Incidents due to failure of Optg Staff - Serious Concern - Reg.",
+      date: "16/12/2025",
+    },
   ];
   
   export const operatingGeneralCircularPdfFiles = [

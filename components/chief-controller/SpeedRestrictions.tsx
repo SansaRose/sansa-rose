@@ -93,6 +93,8 @@ const SpeedRestrictions = () => {
 
     { question: 'After an SOS brings a train to a stop, KAVACH supervises the train speed at ________ kmph Until the train passes the originating location of the "SOS" message', answer: '30 kmph', speed: '30 kmph' },
 
+    { question: 'Inspection can be done by either by travelling in a light engine/Tower Car with a restricted speed of ________ kmph or by proceeding on a motor/push trolley if Loco/Tower car is not readily available (In case of Flat Tyre).', answer: '30 kmph', speed: '30 kmph' },
+
     
     { question: '\'Patrol\' or \'Search-light\' special with one or more vehicles in front of the engine may be permitted to run at a maximum speed of', answer: '40 kmph', speed: '40 kmph' },
     { question: 'If the night patrolman does not turn up even after 15 minutes beyond the schedule arrival time, SM shall stop all the trains and issue caution order restricting the speed to', answer: '40 kmph', speed: '40 kmph' },
@@ -112,6 +114,9 @@ const SpeedRestrictions = () => {
 
     { question: 'What is the maximum permissible train speed for the proviso under GR 3.33?', answer: '50 KMPH', speed: '50 kmph' },
 
+    { question: 'Engineering Control in consultation with SSE/JE-P.Way Supervisor who has inspected the section (In case of of Flat Tyre) shall impose Speed Restriction of ______ KMPH for Passenger trains as well as for empty Goods trains in the affected section till USFD test is conducted.', answer: '50 KMPH', speed: '50 kmph' },
+    { question: 'Loaded goods shall be permitted at 50 KMPH on completion of USFD and after observing for 24 hours, normal speed shall be restored for such trains (In case of Flat Tyre).', answer: '50 KMPH', speed: '50 kmph' },
+
     { question: 'What is the maximum permitted speed for loaded long haul trains?', answer: '55 KMPH', speed: '55 kmph' },
     
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing green light shall be restricted to', answer: '60kmph', speed: '60 kmph' },
@@ -121,7 +126,10 @@ const SpeedRestrictions = () => {
     { question: 'Heavy wind is considered dangerous for running trains if wind velocity is________', answer: '65 kmph or more', speed: '65 kmph' },
     
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing green light and fog safety device is provided shall be restricted to', answer: '75kmph', speed: '75 kmph' },
+
     { question: 'During dense fog and fog safety device is provided maximum speed of a train on Absolute block system shall be restricted to', answer: '75 kmph', speed: '75 kmph' },
+
+    { question: 'On completion of USFD testing, speed of passenger trains and that of empty goods trains shall be raised to 75 KMPH and after observing for 24 hours, normal sectional speed shall be restored for these trains (In case of Flat Tyre).', answer: '75 kmph', speed: '75 kmph' },
     
     { question: 'At standard – II R interlocked station the maximum speed permitted for the train over main line points is', answer: '110 KMPH', speed: '110 kmph' },
 

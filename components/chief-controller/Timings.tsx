@@ -53,6 +53,10 @@ const Timings = () => {
 
     { question: 'For Intra Zonal and Terminating trains, train arriving more than ______ minutes late at destination.', answer: '15 minutes', timing: '15 minutes' },
 
+    { question: 'If a Patrolman does not turn up within ________ minutes of his/her scheduled arrival, the Station Master shall stop run through trains proceeding into the block section. Issue a Caution Order to all trains proceeding into the block section advising the Loco Pilot to be alert and specify a speed restriction of 40 kmph.', answer: '15 minutes', timing: '15 minutes' },
+
+    { question: 'If, for any reason, a train is brought to a stand for a period longer than ______ minutes, the hand brakes of the locomotive shall be applied in addition to the application of air brake etc.', answer: '15 minutes', timing: '15 minutes' },
+
     { question: 'Guards of Suburban trains shall report for duty at least 15 minutes before the scheduled departure of the train.', answer: '15 minutes', timing: '15 minutes' },
     { question: 'The target time for turning out Medical Relief Train (MRT) for direct/indirect dispatch, is ________', answer: '15/20 minutes', timing: '15/20 minutes' },
     
