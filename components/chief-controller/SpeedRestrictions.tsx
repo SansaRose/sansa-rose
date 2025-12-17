@@ -118,7 +118,8 @@ const SpeedRestrictions = () => {
     { question: 'Loaded goods shall be permitted at 50 KMPH on completion of USFD and after observing for 24 hours, normal speed shall be restored for such trains (In case of Flat Tyre).', answer: '50 KMPH', speed: '50 kmph' },
 
     { question: 'What is the maximum permitted speed for loaded long haul trains?', answer: '55 KMPH', speed: '55 kmph' },
-    
+
+    { question: 'Mail Express trains are faster than passenger trains. Superfast trains have a higher average speed of greater than or equal to ______ kmph.', answer: '55 kmph', speed: '55 kmph' },
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing green light shall be restricted to', answer: '60kmph', speed: '60 kmph' },
     
     { question: 'When healthy section is temporarily isolated and re-energised, if train entered faulty section, the speed of the first train by day / night shall be', answer: '60/30 kmph', speed: '60/30 kmph' },

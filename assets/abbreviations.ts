@@ -183,6 +183,10 @@ type AbbreviationItem = {
         explanation: "Kavach",
         reference: "--"
       },
+      { acronym: "ATR", fullForm: "Action Taken Reports",
+        explanation: "Station Superintendents must submit Action Taken Reports (ATR) on observations, after taking corrective actions such as counseling or written advice to concerned departments. ATRs should be sent to SrDOMs, with a copy to the inspecting official.",
+        reference: "--"
+      },
       { acronym: "ATVM", fullForm: "Automatic Ticket Vending Machine",
         explanation: "Self-service kiosk for issuing unreserved tickets using smart cards or cash",
         reference: "--"
@@ -1002,7 +1006,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "DPR", fullForm: "Detailed Project Report",
-        explanation: "Will be added later",
+        explanation: "Detailed Project Report is required to be prepared for all works costing above Rs.5 Crore. DPRs are sent to Railway Board by Zonal/PSUs for appraisal and obtaining sanction of the competent authority as per the prevailing delegation of powers.",
         reference: "--"
       },
       { acronym: "DPWCS", fullForm: "Distributed Power Wireless control System",
@@ -1063,6 +1067,10 @@ type AbbreviationItem = {
         acronym: "DV",
         fullForm: "Distribute Valves",
         explanation: "A key component in the train brake system that regulates and distributes brake pressure.",
+        reference: "--"
+      },
+      { acronym: "DWB", fullForm: "Divisional Wagon Balance",
+        explanation: "Divisional Wagon Balance (DWB) is the total number of wagons held by the division, including the ineffective and departmental. It indicates the status of freight train operations in a division.",
         reference: "--"
       },
       { acronym: "DTWL", fullForm: "Disabled Train Warning Light ",
@@ -1135,6 +1143,10 @@ type AbbreviationItem = {
         acronym: "EIW",
         fullForm: "Essential Indirect Workers",
         explanation: "Support staff indirectly contributing to production/service delivery.",
+        reference: "--"
+      },
+      { acronym: "EKM", fullForm: "Engine Kilometer",
+        explanation: "Engine Kilometer (EKM) is the distance traveled by an engine in a day. It includes train kms hauled by the engine as well as distance travelled by the engine as 'light engine'.",
         reference: "--"
       },
       { acronym: "EKT", fullForm: "Electronic Key Transmitter",
@@ -1421,6 +1433,10 @@ type AbbreviationItem = {
         acronym: "HOER",
         fullForm: "Hours of Employment Regulations",
         explanation: "Rules regulating duty hours and rest periods for railway running and safety staff.",
+        reference: "--"
+      },
+      { acronym: "HOER", fullForm: "Hours of Employment and period of Rest Rules",
+        explanation: "Hours of Employment and period of Rest Rules (HOER) are the rules governing the working hours and rest periods for railway running and safety staff.",
         reference: "--"
       },
       { acronym: "HOG", fullForm: "Head On Generation",
@@ -1760,6 +1776,10 @@ type AbbreviationItem = {
     ],
     L: [
       { acronym: "LAP", fullForm: "Leave on Average Pay",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "LAR", fullForm: "Latest Accepted Rates",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2906,7 +2926,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "SOP", fullForm: "Schedule Off Powers",
+      { acronym: "SOP", fullForm: "Schedule Of Powers",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3493,6 +3513,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "WKM", fullForm: "Wagon Kilometer",
+        explanation: "",
+        reference: "--"
+      },
       { acronym: "WMUCS", fullForm: "Wireless Multiple Unit Coupler System",
         explanation: "Will be added later",
         reference: "--"
@@ -3506,7 +3530,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "WTR", fullForm: "Wagon Turn Round",
-        explanation: "Will be added later",
+        explanation: "Wagon Turn Round is the time interval between two successive loadings. It is normally expressed in number of days. It is the time taken by a wagon to go through one complete cycle of loading, movement to destination, unloading and next loading.",
         reference: "--"
       },
       { acronym: "WTT", fullForm: "Working Time Table",

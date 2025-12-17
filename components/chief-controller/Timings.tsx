@@ -130,7 +130,9 @@ const Timings = () => {
     { question: 'Loco Pilot shall be re-examined after a refresher course and his certificate endorsed if he has not driven an electric engine or multiple units for more than', answer: '6 months', timing: '6 months' },
 
     { question: 'Record foils of the caution orders shall be preserved for a period of', answer: '6 months', timing: '6 months' },
+
     { question: 'Crew requirement is reviewed once in _______ months by the division based on the crew required for working coaching links and average working hours of goods crew.', answer: '6 months', timing: '6 months' },
+    { question: 'Medical Relief Van and Auxiliary Van shall be inspected at least once in _______ months jointly by Divisional Officers of Medical, Safety, Civil Engineering, Mechanical, Electrical and S&T.', answer: '6 months', timing: '6 months' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
 
@@ -145,7 +147,10 @@ const Timings = () => {
     { question: 'The competency certificate issued by DEE (TRD) to SM for operating the isolators (in emergency) is valid for', answer: '3 years', timing: '3 years' },
     
     { question: 'Certificate of competency issued to Gateman will be valid for a period of', answer: '5 years', timing: '5 years' },
+
     { question: 'SWR should be issued afresh once in', answer: '5 years', timing: '5 years' },
+
+    { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
     
     { question: 'After issue of following number of amendment slips SWR should be issued afresh', answer: '5', timing: 'Other' },
     { question: 'Normal monsoon period for SC, HYB & NED divisions is from 15th June to', answer: '15 October', timing: 'Other' },

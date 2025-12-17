@@ -751,4 +751,11 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       definition: "Diversion means diverting a loaded wagon or rake from a common junction to a new destination. PCOM of the zone in which wagons are physically available is empowered to grant permission for diversion of the wagons / rake.",
       reference: "--"
     },
+    {
+      number: 124,
+      term: "Operating Statistics",
+      definition: "The data and indices that are related to train operations and used by operating department in its management and working are called Operating Statistics.",
+      reference: "--"
+    },
+    
   ];
