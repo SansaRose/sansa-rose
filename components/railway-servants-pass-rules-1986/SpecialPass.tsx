@@ -3,9 +3,9 @@ import React from 'react'
 const SpecialPass = () => {
   return (
     <div>
-        <section className="bg-gradient-to-br from-cyan-50 to-blue-100 rounded-xl shadow-xl p-8 mb-8 border-2 border-cyan-200">
+        <section className="bg-linear-to-br from-cyan-50 to-blue-100 rounded-xl shadow-xl py-4 px-2 mb-8 border-2 border-cyan-200">
           <div className="flex flex-col lg:flex-row items-center mb-8">
-            <div className="lg:w-16 lg:h-16 w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center mr-6 shadow-lg mb-4 lg:mb-0">
+            <div className="lg:w-16 lg:h-16 w-12 h-12 bg-linear-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center mr-6 shadow-lg mb-4 lg:mb-0">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -44,8 +44,8 @@ const SpecialPass = () => {
           {/* Grounds Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {/* Medical Grounds */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-red-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center flex-col gap-3 mb-4">
                 <div className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">1</span>
                 </div>
@@ -57,8 +57,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Sports Account */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">2</span>
                 </div>
@@ -70,8 +70,8 @@ const SpecialPass = () => {
             </div>
 
             {/* RRB/Selection Board */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">3</span>
                 </div>
@@ -86,8 +86,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Courts */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-purple-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg ">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">4</span>
                 </div>
@@ -97,8 +97,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Disciplinary Enquiries */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-orange-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">5</span>
                 </div>
@@ -113,8 +113,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Complainant's Enquiry */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-teal-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">6</span>
                 </div>
@@ -128,8 +128,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Appellate Authority */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-indigo-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">7</span>
                 </div>
@@ -143,8 +143,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway Unions */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-pink-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">8</span>
                 </div>
@@ -158,8 +158,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Staff Benefit Fund */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-yellow-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">9</span>
                 </div>
@@ -173,8 +173,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Special Class Railway Apprentices */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-cyan-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">10</span>
                 </div>
@@ -188,8 +188,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Other Apprentices */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-emerald-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">11</span>
                 </div>
@@ -201,8 +201,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Scout and Guide */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-rose-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-rose-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">12</span>
                 </div>
@@ -214,8 +214,8 @@ const SpecialPass = () => {
             </div>
 
             {/* St. John's Ambulance */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-violet-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-violet-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">13</span>
                 </div>
@@ -229,8 +229,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Settlement Dues */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-amber-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">14</span>
                 </div>
@@ -242,8 +242,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Motor Vehicle */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-lime-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-lime-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">15</span>
                 </div>
@@ -255,8 +255,8 @@ const SpecialPass = () => {
             </div>
 
             {/* First Appointment */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-sky-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">16</span>
                 </div>
@@ -270,8 +270,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Retirement/Decease */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-slate-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-slate-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">17</span>
                 </div>
@@ -285,8 +285,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway Safety */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-stone-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-stone-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">18</span>
                 </div>
@@ -298,8 +298,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Quasi Railway Institutions */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-neutral-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-neutral-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">19</span>
                 </div>
@@ -313,8 +313,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Suspension */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-zinc-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-zinc-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">20</span>
                 </div>
@@ -326,8 +326,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Conferences */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-gray-500">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-gray-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">21</span>
                 </div>
@@ -339,8 +339,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Territorial Army */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-red-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">22</span>
                 </div>
@@ -354,8 +354,8 @@ const SpecialPass = () => {
             </div>
 
             {/* RRB Candidates */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">23</span>
                 </div>
@@ -368,8 +368,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Children's Camps */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">24</span>
                 </div>
@@ -383,8 +383,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Cultural Activities */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-purple-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">25</span>
                 </div>
@@ -398,8 +398,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway User&apos;s Committees */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-orange-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">26</span>
                 </div>
@@ -414,8 +414,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Reservists */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-teal-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-teal-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">27</span>
                 </div>
@@ -427,8 +427,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Retired Railway Servants */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-indigo-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">28</span>
                 </div>
@@ -444,8 +444,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Medically Decategorised */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-pink-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">29</span>
                 </div>
@@ -460,8 +460,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Retired Railway Servant Assistance */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-yellow-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-yellow-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">30</span>
                 </div>
@@ -480,8 +480,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Casual Labour */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-cyan-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-cyan-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">31</span>
                 </div>
@@ -493,8 +493,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway Accidents */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-emerald-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-emerald-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">32</span>
                 </div>
@@ -509,8 +509,8 @@ const SpecialPass = () => {
             </div>
 
             {/* RPF Dogs */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-rose-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-rose-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">33</span>
                 </div>
@@ -522,8 +522,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Bazar Passes */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-violet-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-violet-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">34</span>
                 </div>
@@ -533,8 +533,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Visiting Lecturer */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-amber-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">35</span>
                 </div>
@@ -549,8 +549,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Zonal Unions */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-lime-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-lime-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">36</span>
                 </div>
@@ -563,8 +563,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway Magistrates */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-sky-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-sky-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">37</span>
                 </div>
@@ -576,8 +576,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Government Railway Police */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-slate-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-slate-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">38</span>
                 </div>
@@ -589,8 +589,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Workers Education */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-stone-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-stone-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">39</span>
                 </div>
@@ -606,8 +606,8 @@ const SpecialPass = () => {
             </div>
 
             {/* MR/MOS(R)/DMR */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-neutral-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-neutral-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">40</span>
                 </div>
@@ -619,8 +619,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Non-Railwaymen */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-zinc-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-zinc-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">41</span>
                 </div>
@@ -630,8 +630,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway Claims Tribunal */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-gray-600">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">42</span>
                 </div>
@@ -645,8 +645,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Railway Inquiry Officers */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-red-700">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-red-700 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">43</span>
                 </div>
@@ -663,8 +663,8 @@ const SpecialPass = () => {
             </div>
 
             {/* Medical Staff */}
-            <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-700">
-              <div className="flex items-center mb-4">
+            <div className="bg-white rounded-xl shadow-lg py-4 px-3">
+              <div className="flex items-center mb-4 flex-col gap-3">
                 <div className="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-sm">44</span>
                 </div>
@@ -679,8 +679,8 @@ const SpecialPass = () => {
 
           {/* Important Notes */}
           <div className="space-y-6">
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200">
-              <h4 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+            <div className="bg-linear-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200">
+              <h4 className="text-lg font-semibold text-gray-800 mb-4 flex items-center flex-col gap-3">
                 <span className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-3">
                   <svg
                     className="w-4 h-4 text-white"
@@ -729,8 +729,8 @@ const SpecialPass = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6 border-2 border-yellow-200">
-              <h4 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+            <div className="bg-linear-to-r from-yellow-50 to-orange-50 rounded-xl py-4 px-3 border-2 border-yellow-200">
+              <h4 className="text-lg font-semibold text-gray-800 mb-4 flex items-center flex-col gap-3">
                 <span className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center mr-3">
                   <svg
                     className="w-4 h-4 text-white"
@@ -778,22 +778,10 @@ const SpecialPass = () => {
           </div>
 
           {/* Bottom Info Bar */}
-          <div className="mt-8 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl p-6 text-white">
-            <div className="flex items-center justify-between">
+          <div className="mt-8 bg-linear-to-r from-cyan-500 to-blue-600 rounded-xl p-6 text-white">
+            <div className="flex items-center justify-between flex-col gap-3">
               <div className="flex items-center">
-                <svg
-                  className="w-8 h-8 mr-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+  
                 <div>
                   <h4 className="text-lg font-semibold">
                     Special Pass Assistance

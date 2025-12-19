@@ -3,39 +3,39 @@ import React from 'react'
 
 const SchoolPass = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-900 via-teal-900 to-emerald-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-green-900 via-teal-900 to-emerald-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-green-400/20 to-teal-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-emerald-400/20 to-green-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-teal-400/10 to-green-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-green-400/20 to-teal-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-emerald-400/20 to-green-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-teal-400/10 to-green-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
-      <div className="relative z-10 py-8 px-4">
+      <div className="relative z-10 py-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
-          <div className="text-center mb-12">
-            <div className="inline-block p-2 bg-gradient-to-r from-green-500/20 to-teal-500/20 rounded-full mb-4 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-green-500 to-teal-600 p-3 rounded-full">
+          <div className="text-center mb-6">
+            <div className="inline-block p-2 bg-linear-to-r from-green-500/20 to-teal-500/20 rounded-full mb-4 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-green-500 to-teal-600 p-3 rounded-full">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-5xl text-2xl font-bold bg-gradient-to-r from-white via-green-100 to-teal-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+            <h1 className="lg:text-5xl text-2xl font-bold bg-linear-to-r from-white via-green-100 to-teal-100 bg-clip-text text-transparent mb-4 animate-fade-in">
               SCHOOL PASS
             </h1>
-            <div className="w-20 h-1 bg-gradient-to-r from-green-500 to-teal-600 mx-auto mb-4 rounded-full"></div>
+            <div className="w-20 h-1 bg-linear-to-r from-green-500 to-teal-600 mx-auto mb-4 rounded-full"></div>
             <p className="lg:text-lg text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Educational travel benefits for railway servants&apos; children studying in recognized institutions
             </p>
           </div>
 
           {/* Introduction Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300 mb-8">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 mb-8">
             <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex flex-col lg:flex-row gap-4 items-center">
-              <span className="bg-gradient-to-r from-green-500 to-teal-500 p-2 rounded-full mr-3 shadow-lg">
+              <span className="bg-linear-to-r from-green-500 to-teal-500 p-2 rounded-full mr-3 shadow-lg">
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
@@ -58,7 +58,7 @@ const SchoolPass = () => {
           {/* Key Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {/* School Cheque Pass */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">🎫</div>
                 <h4 className="font-semibold text-white text-lg">School Cheque Pass</h4>
@@ -72,7 +72,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Both Parents Railway Servants */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">👨‍👩‍👧‍👦</div>
                 <h4 className="font-semibold text-white text-lg">Both Parents Railway Servants</h4>
@@ -85,7 +85,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Parent/Guardian Inclusion */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">👨‍👩‍👦</div>
                 <h4 className="font-semibold text-white text-lg">Parent/Guardian Inclusion</h4>
@@ -97,7 +97,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Separate Pass for Parent */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">🎫</div>
                 <h4 className="font-semibold text-white text-lg">Separate Pass for Parent</h4>
@@ -111,7 +111,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Guardian II Class Pass */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">👨‍💼</div>
                 <h4 className="font-semibold text-white text-lg">Guardian II Class Pass</h4>
@@ -123,7 +123,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Vacation Duration */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">📅</div>
                 <h4 className="font-semibold text-white text-lg">Vacation Duration</h4>
@@ -136,7 +136,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Admission/Jointing Travel */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">🚂</div>
                 <h4 className="font-semibold text-white text-lg">Admission/Jointing Travel</h4>
@@ -148,7 +148,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Break of Journey */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">🔄</div>
                 <h4 className="font-semibold text-white text-lg">Break of Journey</h4>
@@ -160,7 +160,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Gazette Officer Approval */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">👨‍⚖️</div>
                 <h4 className="font-semibold text-white text-lg">Gazette Officer Approval</h4>
@@ -175,7 +175,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Pass Stoppage */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">⏸️</div>
                 <h4 className="font-semibold text-white text-lg">Pass Stoppage</h4>
@@ -188,7 +188,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Suspension Incidents */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">⚠️</div>
                 <h4 className="font-semibold text-white text-lg">Suspension Incidents</h4>
@@ -200,7 +200,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Bonafide Certificate */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">📜</div>
                 <h4 className="font-semibold text-white text-lg">Bonafide Certificate</h4>
@@ -212,7 +212,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Advance Issue */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">⏰</div>
                 <h4 className="font-semibold text-white text-lg">Advance Issue</h4>
@@ -224,7 +224,7 @@ const SchoolPass = () => {
             </div>
 
             {/* Without Certificate */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="text-4xl mb-2">📝</div>
                 <h4 className="font-semibold text-white text-lg">Without Certificate</h4>
@@ -238,9 +238,9 @@ const SchoolPass = () => {
 
           {/* Entitlement Section */}
           <div className="mb-8">
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-6 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-teal-500 to-emerald-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-teal-500 to-emerald-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -265,7 +265,7 @@ const SchoolPass = () => {
                 </div>
 
                 {/* Non-Gazetted */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-teal-400/30 shadow-lg hover:bg-white/15 transition-all duration-300">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl py-4 px-3 border border-teal-400/30 shadow-lg hover:bg-white/15 transition-all duration-300">
                   <div className="text-center mb-4">
                     <div className="text-3xl mb-2">👨‍💻</div>
                     <h4 className="font-semibold text-white text-lg">Non-Gazetted</h4>
@@ -282,7 +282,7 @@ const SchoolPass = () => {
               </div>
 
               {/* Special Case Note */}
-              <div className="mt-6 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl p-4 border border-yellow-400/30 hover:bg-yellow-500/25 transition-all duration-300">
+              <div className="mt-6 bg-linear-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-lg rounded-xl p-4 border border-yellow-400/30 hover:bg-yellow-500/25 transition-all duration-300">
                 <div className="flex flex-col lg:flex-row gap-4 items-center">
                   <div className="text-3xl mr-4 mt-1">⚠️</div>
                   <div>

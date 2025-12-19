@@ -3,29 +3,29 @@ import React from 'react'
 
 const SuspensionPass = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-900 via-pink-900 to-purple-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-red-900 via-pink-900 to-purple-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-red-400/20 to-pink-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-purple-400/20 to-red-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-pink-400/10 to-red-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-red-400/20 to-pink-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-purple-400/20 to-red-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-pink-400/10 to-red-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
-      <div className="relative z-10 py-8 px-4">
+      <div className="relative z-10 py-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
-          <div className="text-center mb-12">
-            <div className="inline-block p-2 bg-gradient-to-r from-red-500/20 to-pink-500/20 rounded-full mb-4 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-red-500 to-pink-600 p-3 rounded-full">
+          <div className="text-center mb-6">
+            <div className="inline-block p-2 bg-linear-to-r from-red-500/20 to-pink-500/20 rounded-full mb-4 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-red-500 to-pink-600 p-3 rounded-full">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-5xl text-xl font-bold bg-gradient-to-r from-white via-red-100 to-pink-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+            <h1 className="lg:text-5xl text-xl font-bold bg-linear-to-r from-white via-red-100 to-pink-100 bg-clip-text text-transparent mb-4 animate-fade-in">
               SUSPENSION PASSES & DISTANCE RESTRICTIONS
             </h1>
-            <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-pink-600 mx-auto mb-4 rounded-full"></div>
+            <div className="w-20 h-1 bg-linear-to-r from-red-500 to-pink-600 mx-auto mb-4 rounded-full"></div>
             <p className="lg:text-lg text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Special provisions for suspended employees and route restrictions with comprehensive guidelines
             </p>
@@ -34,8 +34,8 @@ const SuspensionPass = () => {
           {/* Suspension Passes Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="inline-block p-2 bg-gradient-to-r from-red-500/20 to-pink-500/20 rounded-full mb-4 backdrop-blur-sm">
-                <div className="bg-gradient-to-r from-red-500 to-pink-600 p-3 rounded-full">
+              <div className="inline-block p-2 bg-linear-to-r from-red-500/20 to-pink-500/20 rounded-full mb-4 backdrop-blur-sm">
+                <div className="bg-linear-to-r from-red-500 to-pink-600 p-3 rounded-full">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
                   </svg>
@@ -48,9 +48,9 @@ const SuspensionPass = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               {/* Passes Card */}
-              <div className="bg-gradient-to-br from-red-600 to-red-700 rounded-2xl shadow-2xl p-6 border border-red-400/30 hover:scale-105 transition-all duration-300 group">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:shadow-xl transition-all duration-300">
+              <div className="bg-linear-to-br from-red-600 to-red-700 rounded-2xl shadow-2xl py-4 px-3 border border-red-400/30 hover:scale-105 transition-all duration-300 group">
+                <div className="flex items-center flex-col gap-3 mb-4">
+                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center flex-col gap-3 justify-center mr-4 shadow-lg group-hover:shadow-xl transition-all duration-300">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
@@ -81,8 +81,8 @@ const SuspensionPass = () => {
               </div>
 
               {/* PTOs Card */}
-              <div className="bg-gradient-to-br from-pink-600 to-pink-700 rounded-2xl shadow-2xl p-6 border border-pink-400/30 hover:scale-105 transition-all duration-300 group">
-                <div className="flex items-center mb-4">
+              <div className="bg-linear-to-br from-pink-600 to-pink-700 rounded-2xl shadow-2xl py-4 px-3 border border-pink-400/30 hover:scale-105 transition-all duration-300 group">
+                <div className="flex items-center flex-col gap-3 mb-4">
                   <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:shadow-xl transition-all duration-300">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -118,8 +118,8 @@ const SuspensionPass = () => {
           {/* Distance Restrictions Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-4 backdrop-blur-sm">
-                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
+              <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-4 backdrop-blur-sm">
+                <div className="bg-linear-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -139,8 +139,8 @@ const SuspensionPass = () => {
             {/* Route Conditions Grid */}
             <div className="grid md:grid-cols-3 gap-6">
               {/* Alternative Routes */}
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl p-6 border border-blue-400/30 hover:scale-105 transition-all duration-300 group">
-                <div className="flex items-center mb-4">
+              <div className="bg-linear-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl py-4 px-3 border border-blue-400/30 hover:scale-105 transition-all duration-300 group">
+                <div className="flex items-center mb-4 flex-col gap-3">
                   <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:shadow-xl transition-all duration-300">
                     <span className="text-white font-bold text-lg">1</span>
                   </div>
@@ -163,8 +163,8 @@ const SuspensionPass = () => {
               </div>
 
               {/* Longer Route within 15% */}
-              <div className="bg-gradient-to-br from-green-600 to-green-700 rounded-2xl shadow-2xl p-6 border border-green-400/30 hover:scale-105 transition-all duration-300 group">
-                <div className="flex items-center mb-4">
+              <div className="bg-linear-to-br from-green-600 to-green-700 rounded-2xl shadow-2xl p-6 border border-green-400/30 hover:scale-105 transition-all duration-300 group">
+                <div className="flex items-center mb-4 flex-col gap-3">
                   <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:shadow-xl transition-all duration-300">
                     <span className="text-white font-bold text-lg">2</span>
                   </div>
@@ -187,8 +187,8 @@ const SuspensionPass = () => {
               </div>
 
               {/* Quicker Route */}
-              <div className="bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl p-6 border border-purple-400/30 hover:scale-105 transition-all duration-300 group">
-                <div className="flex items-center mb-4">
+              <div className="bg-linear-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl p-6 border border-purple-400/30 hover:scale-105 transition-all duration-300 group">
+                <div className="flex items-center mb-4 flex-col gap-3">
                   <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:shadow-xl transition-all duration-300">
                     <span className="text-white font-bold text-lg">3</span>
                   </div>
@@ -212,8 +212,8 @@ const SuspensionPass = () => {
           {/* Important Notes Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="inline-block p-2 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-full mb-4 backdrop-blur-sm">
-                <div className="bg-gradient-to-r from-yellow-500 to-orange-600 p-3 rounded-full">
+              <div className="inline-block p-2 bg-linear-to-r from-yellow-500/20 to-orange-500/20 rounded-full mb-4 backdrop-blur-sm">
+                <div className="bg-linear-to-r from-yellow-500 to-orange-600 p-3 rounded-full">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -250,8 +250,8 @@ const SuspensionPass = () => {
           {/* Application Guidelines Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 mb-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-4">
-              <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-4 backdrop-blur-sm">
-                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
+              <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-4 backdrop-blur-sm">
+                <div className="bg-linear-to-r from-blue-500 to-indigo-600 p-3 rounded-full">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>

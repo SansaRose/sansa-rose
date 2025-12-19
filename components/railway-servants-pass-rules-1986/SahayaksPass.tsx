@@ -3,39 +3,39 @@ import React from 'react'
 
 const SahayaksPass = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-indigo-900 to-blue-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-indigo-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-indigo-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
-      <div className="relative z-10 py-8 px-4">
+      <div className="relative z-10 py-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
-          <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-purple-500 to-pink-600 p-3 rounded-full">
+          <div className="text-center mb-6">
+            <div className="inline-block p-2 bg-linear-to-r from-purple-500/20 to-pink-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-purple-500 to-pink-600 p-3 rounded-full">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-6xl text-xl font-bold bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-xl font-bold bg-linear-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               PASSES/PTOS FOR LICENSED PORTES
             </h1>
             <h2 className="lg:text-4xl text-xl font-bold text-purple-300 mb-4">(SAHAYAKS)</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-purple-500 to-pink-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive pass system designed for licensed porters (Sahayaks) providing both complimentary passes and privilege ticket orders for railway travel.
             </p>
           </div>
 
           {/* Pass Types Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -45,9 +45,9 @@ const SahayaksPass = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               {/* Complimentary Administrative Cheque Passes */}
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-purple-400/30 hover:shadow-xl transition-all duration-300 group">
+              <div className="bg-linear-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-purple-400/30 hover:shadow-xl transition-all duration-300 group">
                 <div className="flex flex-col items-center mb-4">
-                  <div className="bg-gradient-to-r from-purple-500 to-pink-600 p-3 rounded-full mb-2 group-hover:scale-110 transition-transform duration-300">
+                  <div className="bg-linear-to-r from-purple-500 to-pink-600 p-3 rounded-full mb-2 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                     </svg>
@@ -76,9 +76,9 @@ const SahayaksPass = () => {
               </div>
 
               {/* Privilege Ticket Orders */}
-              <div className="bg-gradient-to-br from-pink-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-pink-400/30 hover:shadow-xl transition-all duration-300 group">
+              <div className="bg-linear-to-br from-pink-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-pink-400/30 hover:shadow-xl transition-all duration-300 group">
                 <div className="flex flex-col lg:flex-row gap-4 items-center mb-4">
-                  <div className="bg-gradient-to-r from-pink-500 to-purple-600 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="bg-linear-to-r from-pink-500 to-purple-600 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
                     </svg>
@@ -109,9 +109,9 @@ const SahayaksPass = () => {
           </div>
 
           {/* Key Features Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-emerald-500 to-teal-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
@@ -148,9 +148,9 @@ const SahayaksPass = () => {
           </div>
 
           {/* Important Notes Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-amber-500 to-yellow-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-amber-500 to-yellow-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
                 </svg>
@@ -179,9 +179,9 @@ const SahayaksPass = () => {
           </div>
 
           {/* Benefits Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py- px-3 border border-white/20">
             <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-              <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+              <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -190,7 +190,7 @@ const SahayaksPass = () => {
             </h2>
             
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl p-6 text-white text-center hover:scale-105 transition-all duration-300 group">
+              <div className="bg-linear-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl py-4 px-3 text-white text-center hover:scale-105 transition-all duration-300 group">
                 <div className="bg-white/20 rounded-full lg:w-16 lg:h-16 w-12 h-12 mx-auto mb-4 flex items-center justify-center backdrop-blur-sm group-hover:bg-white/30 transition-all">
                   <svg className="lg:w-8 lg:h-8 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
@@ -200,7 +200,7 @@ const SahayaksPass = () => {
                 <p className="text-blue-200 text-sm">Free travel benefits for licensed porters and their spouses</p>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl p-6 text-white text-center hover:scale-105 transition-all duration-300 group">
+              <div className="bg-linear-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl py-4 px-3 text-white text-center hover:scale-105 transition-all duration-300 group">
                 <div className="bg-white/20 rounded-full lg:w-16 lg:h-16 w-12 h-12 mx-auto mb-4 flex items-center justify-center backdrop-blur-sm group-hover:bg-white/30 transition-all">
                   <svg className="lg:w-8 lg:h-8 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
@@ -210,7 +210,7 @@ const SahayaksPass = () => {
                 <p className="text-purple-200 text-sm">Additional PTO benefits for enhanced travel options</p>
               </div>
 
-              <div className="bg-gradient-to-br from-pink-600 to-pink-700 rounded-2xl shadow-2xl p-6 text-white text-center hover:scale-105 transition-all duration-300 group">
+              <div className="bg-linear-to-br from-pink-600 to-pink-700 rounded-2xl shadow-2xl py-4 px-3 text-white text-center hover:scale-105 transition-all duration-300 group">
                 <div className="bg-white/20 rounded-full lg:w-16 lg:h-16 w-12 h-12 mx-auto mb-4 flex items-center justify-center backdrop-blur-sm group-hover:bg-white/30 transition-all">
                   <svg className="lg:w-8 lg:h-8 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />

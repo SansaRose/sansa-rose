@@ -3,29 +3,29 @@ import React from 'react'
 
 const PrevilegePass = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-indigo-900 to-blue-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-indigo-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-indigo-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
-      <div className="relative z-10 py-8 px-4">
+      <div className="relative z-10 py-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-12">
-            <div className="inline-block p-2 bg-gradient-to-r from-purple-500/20 to-indigo-500/20 rounded-full mb-4 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-purple-500 to-indigo-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-purple-500/20 to-indigo-500/20 rounded-full mb-4 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-purple-500 to-indigo-600 p-3 rounded-full">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-5xl text-2xl font-bold bg-gradient-to-r from-white via-purple-100 to-indigo-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+            <h1 className="lg:text-5xl text-2xl font-bold bg-linear-to-r from-white via-purple-100 to-indigo-100 bg-clip-text text-transparent mb-4 animate-fade-in">
               PRIVILEGE PASS
             </h1>
-            <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-600 mx-auto mb-4 rounded-full"></div>
+            <div className="w-20 h-1 bg-linear-to-r from-purple-500 to-indigo-600 mx-auto mb-4 rounded-full"></div>
             <p className="lg:text-lg text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Travel benefit for railway servants enabling personal travel with family members at concessional rates
             </p>
@@ -37,7 +37,7 @@ const PrevilegePass = () => {
             {/* Definition and Purpose Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-purple-500 to-indigo-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-purple-500 to-indigo-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
@@ -55,7 +55,7 @@ const PrevilegePass = () => {
             {/* Eligibility Criteria Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-green-500 to-emerald-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-green-500 to-emerald-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -72,7 +72,7 @@ const PrevilegePass = () => {
             {/* Family Member Inclusion Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
@@ -89,7 +89,7 @@ const PrevilegePass = () => {
             {/* Validity and Usage Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-orange-500 to-amber-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-orange-500 to-amber-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -106,7 +106,7 @@ const PrevilegePass = () => {
             {/* Class of Travel Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-red-500 to-pink-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-red-500 to-pink-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                   </svg>
@@ -121,9 +121,9 @@ const PrevilegePass = () => {
             </div>
 
             {/* Key Features Section */}
-            <div className="bg-gradient-to-br from-purple-600 to-indigo-700 rounded-2xl shadow-2xl py-6 px-4 border border-purple-400/30 hover:scale-105 transition-all duration-300">
+            <div className="bg-linear-to-br from-purple-600 to-indigo-700 rounded-2xl shadow-2xl py-6 px-4 border border-purple-400/30 hover:scale-105 transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-6 flex flex-col lg:flex-row gap-4 items-center">
-                <span className="bg-gradient-to-r from-yellow-500 to-orange-500 p-2 rounded-full mr-3 shadow-lg">
+                <span className="bg-linear-to-r from-yellow-500 to-orange-500 p-2 rounded-full mr-3 shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -165,8 +165,8 @@ const PrevilegePass = () => {
             {/* Benefits Grid Section */}
             <div className="grid md:grid-cols-3 gap-6">
               {/* Travel Benefits */}
-              <div className="bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl py-6 px-4 text-white hover:scale-105 transition-all duration-300 group">
-                <h3 className="text-xl font-bold mb-4 flex items-center justify-center">
+              <div className="bg-linear-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl py-6 px-4 text-white hover:scale-105 transition-all duration-300 group">
+                <h3 className="text-xl font-bold mb-4 flex items-center justify-center flex-col gap-3">
                   <span className="mr-2">🚂</span>
                   Travel Benefits
                 </h3>
@@ -191,8 +191,8 @@ const PrevilegePass = () => {
               </div>
 
               {/* Validity Benefits */}
-              <div className="bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-2xl shadow-2xl py-6 px-4 text-white hover:scale-105 transition-all duration-300 group">
-                <h3 className="text-xl font-bold mb-4 flex items-center justify-center">
+              <div className="bg-linear-to-br from-indigo-600 to-indigo-700 rounded-2xl shadow-2xl py-6 px-4 text-white hover:scale-105 transition-all duration-300 group">
+                <h3 className="text-xl font-bold mb-4 flex items-center justify-center flex-col gap-3">
                   <span className="mr-2">⏰</span>
                   Validity Features
                 </h3>
@@ -217,8 +217,8 @@ const PrevilegePass = () => {
               </div>
 
               {/* Class Benefits */}
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl py-6 px-4 text-white hover:scale-105 transition-all duration-300 group">
-                <h3 className="text-xl font-bold mb-4 flex items-center justify-center">
+              <div className="bg-linear-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl py-6 px-4 text-white hover:scale-105 transition-all duration-300 group">
+                <h3 className="text-xl font-bold mb-4 flex items-center justify-center flex-col gap-3">
                   <span className="mr-2">🎫</span>
                   Class Features
                 </h3>

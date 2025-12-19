@@ -3,38 +3,38 @@ import React from 'react'
 
 const RetirementPass = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-900 via-orange-900 to-yellow-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-amber-900 via-orange-900 to-yellow-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-amber-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-yellow-400/20 to-amber-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-orange-400/10 to-amber-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-amber-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-yellow-400/20 to-amber-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-orange-400/10 to-amber-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
-      <div className="relative z-10 py-8 px-4">
+      <div className="relative z-10 py-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
-          <div className="text-center mb-12">
-            <div className="inline-block p-2 bg-gradient-to-r from-amber-500/20 to-orange-500/20 rounded-full mb-4 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-amber-500 to-orange-600 p-3 rounded-full">
+          <div className="text-center mb-6">
+            <div className="inline-block p-2 bg-linear-to-r from-amber-500/20 to-orange-500/20 rounded-full mb-4 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-amber-500 to-orange-600 p-3 rounded-full">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-5xl text-2xl font-bold bg-gradient-to-r from-white via-amber-100 to-orange-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+            <h1 className="lg:text-5xl text-2xl font-bold bg-linear-to-r from-white via-amber-100 to-orange-100 bg-clip-text text-transparent mb-4 animate-fade-in">
               POST-RETIREMENT COMPLIMENTARY PASS
             </h1>
-            <div className="w-20 h-1 bg-gradient-to-r from-amber-500 to-orange-600 mx-auto mb-4 rounded-full"></div>
+            <div className="w-20 h-1 bg-linear-to-r from-amber-500 to-orange-600 mx-auto mb-4 rounded-full"></div>
             <p className="text-lg text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Retirement benefits for railway servants with comprehensive travel entitlements
             </p>
           </div>
 
           {/* Introduction Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+              <div className="w-16 h-16 bg-linear-to-br from-amber-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -47,7 +47,7 @@ const RetirementPass = () => {
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-md border border-amber-200/30 mb-6">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl py-4 px-3 shadow-md border border-amber-200/30 mb-6">
               <p className="text-gray-200 leading-relaxed">
                 A post-retirement complimentary pass may be issued to a railway
                 servant after retirement or after he ceases to be a railway
@@ -65,7 +65,7 @@ const RetirementPass = () => {
           {/* Key Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {/* Advance Issue */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,7 +85,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Medical Decategorisation */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -106,7 +106,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Retirement Year Entitlement */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,7 +128,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Both Spouses Retired */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Voluntary Retirement */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -167,7 +167,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Identity Verification */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,7 +186,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Identity Card */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -204,7 +204,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Last Month Issue */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -226,7 +226,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Choice of Office */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -246,7 +246,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Senior Citizen Companion */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -265,7 +265,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Nilgiri Railway Restriction */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-red-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-red-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -283,7 +283,7 @@ const RetirementPass = () => {
             </div>
 
             {/* Level 1 Employees */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-6 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg py-4 px-3 border-l-4 border-amber-500 hover:bg-white/15 transition-all duration-300 group">
               <div className="text-center mb-4">
                 <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -302,9 +302,9 @@ const RetirementPass = () => {
           </div>
 
           {/* Entitlement Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-amber-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+              <div className="w-16 h-16 bg-linear-to-r from-orange-500 to-amber-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -411,9 +411,9 @@ const RetirementPass = () => {
           </div>
 
           {/* Members Permitted Section */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 px-4 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-3 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+              <div className="w-16 h-16 bg-linear-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
