@@ -59,6 +59,7 @@ const Navbar = () => {
     { href: '/manuals/block-working-manual', label: 'Block Working Manual', icon: '🔧' },
     { href: '/manuals/general-subsidiary-rules', label: 'General Subsidiary Rules', icon: '📋' },
     { href: '/manuals/opertaing-manual', label: 'Operating Manual', icon: '📘' },
+    { href: '/manuals/indian-railways-operating-manual', label: 'Indian Railways Operating Manual', icon: '🚂' },
     { href: '/manuals/station-working-rules', label: 'Station Working Rules', icon: '🚉' },
     { href: '/manuals/working-time-table', label: 'Working Time Table', icon: '⏰' },
   ]
