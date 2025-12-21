@@ -3,15 +3,7 @@ import {
   Train,
   Package,
   Settings,
-  BarChart3,
-  Users,
-  Building2,
-  TrendingUp,
-  Target,
-  AlertCircle,
-  Zap,
-  ClipboardList,
-  Network
+  AlertCircle
 } from 'lucide-react'
 
 const FreightOperation = () => {
@@ -54,7 +46,7 @@ const FreightOperation = () => {
             
             {/* Importance of Freight Operation Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-blue-500/20 transition-all duration-500 group">
-              <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
+              <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
                 <span className="bg-linear-to-r from-blue-500/30 to-cyan-500/30 lg:p-5 p-3 rounded-full shadow-xl flex items-center justify-center backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-cyan-500/30 transition-all duration-500">
                   <AlertCircle className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
                 </span>
@@ -79,7 +71,12 @@ const FreightOperation = () => {
                   <Train className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
                 </span>
                 <span className="bg-linear-to-r from-white to-green-100 bg-clip-text text-transparent">
-                  I. Broad Classification of Goods Trains
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        I
+                      </span>
+                    </span>
+                  Broad Classification of Goods Trains
                 </span>
               </h2>
               <div className="bg-linear-to-br from-green-500/20 via-emerald-500/15 to-teal-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -122,7 +119,12 @@ const FreightOperation = () => {
                   <Settings className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
                 </span>
                 <span className="bg-linear-to-r from-white to-purple-100 bg-clip-text text-transparent">
-                  II. Complexity of Freight operations
+                  <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-purple-600/60 border-2 border-white/20 shadow-lg text-purple-100 font-bold text-base mb-3">
+                        II
+                      </span>
+                    </span>
+                  Complexity of Freight operations
                 </span>
               </h2>
               <div className="bg-linear-to-br from-purple-500/20 via-pink-500/15 to-rose-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -159,9 +161,9 @@ const FreightOperation = () => {
                       </li>
                     </ul>
                     <ul className="ml-10 mt-2 space-y-1">
-                      <li className="text-purple-50/95 lg:text-sm text-xs leading-relaxed">• End to End/Intensive Examination</li>
-                      <li className="text-purple-50/95 lg:text-sm text-xs leading-relaxed">• Premium end to end</li>
-                      <li className="text-purple-50/95 lg:text-sm text-xs leading-relaxed">• C.C. rake</li>
+                      <li className="text-purple-50/95 lg:text-base text-sm leading-relaxed">• End to End/Intensive Examination</li>
+                      <li className="text-purple-50/95 lg:text-base text-sm leading-relaxed">• Premium end to end</li>
+                      <li className="text-purple-50/95 lg:text-base text-sm leading-relaxed">• C.C. rake</li>
                     </ul>
                     <p className="text-purple-50/95 lg:text-base text-sm leading-relaxed mt-2">
                       This in turn results in -Sick Wagon detachments & attachment of fit wagons for completing the rake composition.
@@ -205,11 +207,13 @@ const FreightOperation = () => {
             {/* III. Ordering of Goods Train Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-blue-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-blue-500/30 to-cyan-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-cyan-500/30 transition-all duration-500">
-                  <ClipboardList className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+               
                 <span className="bg-linear-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                  III. Ordering of Goods Train
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        III
+                      </span>
+                    </span>Ordering of Goods Train
                 </span>
               </h2>
               <div className="bg-linear-to-br from-blue-500/20 via-cyan-500/15 to-sky-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -250,11 +254,13 @@ const FreightOperation = () => {
             {/* IV. Planning of Locomotives Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-indigo-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-indigo-500/30 to-purple-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-purple-500/30 transition-all duration-500">
-                  <Zap className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-indigo-100 bg-clip-text text-transparent">
-                  IV. Planning of Locomotives
+                  <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-indigo-600/60 border-2 border-white/20 shadow-lg text-indigo-100 font-bold text-base mb-3">
+                        IV
+                      </span>
+                    </span>Planning of Locomotives
                 </span>
               </h2>
               <div className="bg-linear-to-br from-indigo-500/20 via-purple-500/15 to-pink-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -375,11 +381,13 @@ const FreightOperation = () => {
             {/* V. Role of Various Agencies in Freight Operation Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-green-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-green-500/30 to-emerald-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-emerald-500/30 transition-all duration-500">
-                  <Users className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-green-100 bg-clip-text text-transparent">
-                  V. Role of Various Agencies in Freight Operation
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        V
+                      </span>
+                    </span>Role of Various Agencies in Freight Operation
                 </span>
               </h2>
               <div className="bg-linear-to-br from-green-500/20 via-emerald-500/15 to-teal-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -432,29 +440,29 @@ const FreightOperation = () => {
                   <p className="text-green-50/95 lg:text-base text-sm leading-relaxed mb-4">
                     The trend of the day&apos;s position is reviewed by the Chief Controllers and Officers in the afternoon. Detailed review of the previous day&apos;s performance is carried out early in the morning by the Operating Officers with the following objectives:
                     </p>
-                    <ul className="ml-6 space-y-2 mb-4">
+                    <ul className="ml-0 space-y-2 mb-4">
                       <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">1. Analysing shortfalls of previous day to take remedial measures and pin-point weak spots.</li>
                       <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">2. Provide data for planning for the current day.</li>
                     </ul>
                     <p className="text-green-50/95 lg:text-base text-sm leading-relaxed mb-2">
                       The main features of performance, which can be reviewed, include:
                     </p>
-                    <ul className="ml-6 space-y-1">
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Interchange failures</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Divisional Wagon Balance (Wagons on Division)</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Train Running</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Disposition of empties</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Loading at important terminals – and in case of shortfall, reason for the same.</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Review of unusual occurrences</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Examination of Control Charts</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Particulars of stabled loads</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Yard performance</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Unloading on Division</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Registrations and Loading</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Power position, utilisation of Locos & Terminal detention</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Sick line working</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Special type of stock</li>
-                      <li className="text-green-50/95 lg:text-sm text-xs leading-relaxed">• Clearance of piecemeal wagons (sick or otherwise) from roadside stations.</li>
+                    <ul className="ml-0 space-y-1">
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Interchange failures</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Divisional Wagon Balance (Wagons on Division)</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Train Running</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Disposition of empties</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Loading at important terminals – and in case of shortfall, reason for the same.</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Review of unusual occurrences</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Examination of Control Charts</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Particulars of stabled loads</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Yard performance</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Unloading on Division</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Registrations and Loading</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Power position, utilisation of Locos & Terminal detention</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Sick line working</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Special type of stock</li>
+                      <li className="text-green-50/95 lg:text-base text-sm leading-relaxed">• Clearance of piecemeal wagons (sick or otherwise) from roadside stations.</li>
                     </ul>
                   </div>
                 </div>
@@ -464,11 +472,13 @@ const FreightOperation = () => {
             {/* VI. Head Quarter's Role in Freight Operations Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-purple-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-purple-500/30 to-pink-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-pink-500/30 transition-all duration-500">
-                  <Building2 className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-purple-100 bg-clip-text text-transparent">
-                  VI. Head Quarter&apos;s Role in Freight Operations
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        VI
+                      </span>
+                    </span>Head Quarter&apos;s Role in Freight Operations
                 </span>
               </h2>
               <div className="bg-linear-to-br from-purple-500/20 via-pink-500/15 to-rose-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -481,11 +491,13 @@ const FreightOperation = () => {
             {/* VII. Management Information System Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-blue-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-blue-500/30 to-cyan-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-cyan-500/30 transition-all duration-500">
-                  <BarChart3 className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+               
                 <span className="bg-linear-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                  VII. Management Information System
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        VII
+                      </span>
+                    </span>Management Information System
                 </span>
               </h2>
               <div className="bg-linear-to-br from-blue-500/20 via-cyan-500/15 to-sky-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -497,7 +509,7 @@ const FreightOperation = () => {
                     This includes, loading and stock position, particulars of old outstanding and fresh registration of indents, category wise position of unloading, transhipment, Yard balances, important yards and wagons on Divisions, Train Running on each section, average speed, interchange position, Locomotive position and Locomotive utilization etc.
                   </p>
                   <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mb-4">
-                    The position is reviewed and analyzed by the COM/CFTM/ Dy.COM (Goods), STM (Goods) CMPE(R&L) and CELE. The important position pertaining to various Departments is conveyed to the Departments concerned as well as the General Manager. The Head Quarter Office also obtains the Statements at the end of each month or whenever required and the performance is compared with (i) The Targets (ii) The figures of the previous month (iii) The figures of the corresponding month of the previous year and (iv) the best ever record etc.
+                    The position is reviewed and analyzed by the COM/CFTM/ Dy.COM (Goods), STM (Goods) CMPE(R&L) and CELE. The important position pertaining to various Departments is conveyed to the Departments concerned as well as the General Manager. The Head Quarter Office also obtains the Statements at the end of each month or whenever required and the performance is compared with <br/> (i) The Targets <br/> (ii) The figures of the previous month <br/> (iii) The figures of the corresponding month of the previous year and <br/> (iv) the best ever record etc.
                   </p>
                   <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
                     In addition, the Statistical Branch also provides Data to the General Manager and the Departments concerned with Operations for detailed analysis and review.
@@ -508,7 +520,7 @@ const FreightOperation = () => {
                   <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mb-4">
                     <span className="font-semibold text-blue-200">2.</span> Head Quarters plays an important part in planning and co-ordinating freight operations. After detailed conference with the Operating Officers, and in terms of Railway Boards current-operating directives Head Quarters issues directions and instructions regarding the following items:
                   </p>
-                  <ul className="ml-6 space-y-2">
+                  <ul className="ml-0 space-y-2">
                     <li className="text-blue-50/95 lg:text-base text-sm leading-relaxed">(a) Interchange transactions (category wise)</li>
                     <li className="text-blue-50/95 lg:text-base text-sm leading-relaxed">(b) Loading and Unloading</li>
                     <li className="text-blue-50/95 lg:text-base text-sm leading-relaxed">(c) Traffic insight from other Railways/Divisions This information is now available on FOIS terminal where a pipe line can be seen from end to end and expected arrival of train at destination is also estimated by FOIS system</li>
@@ -524,45 +536,121 @@ const FreightOperation = () => {
             {/* VIII. Railway Board's Control on Freight Operations Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-indigo-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-indigo-500/30 to-purple-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-purple-500/30 transition-all duration-500">
-                  <Network className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-indigo-100 bg-clip-text text-transparent">
-                  VIII. Railway Board&apos;s Control on Freight Operations
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        VIII
+                      </span>
+                    </span>Railway Board&apos;s Control on Freight Operations
                 </span>
               </h2>
               <div className="bg-linear-to-br from-indigo-500/20 via-purple-500/15 to-pink-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <p className="text-indigo-50/95 lg:text-lg text-base leading-relaxed font-light">
-                  The Railway Board provides Unity of Control and direction for the freight operations. It also has the important role of supervision and co-ordination, which is very much essential for a big network like Indian Railways. The Railway Board&apos;s Control Office also remains in contact with the Head Quarter (Central Controls) of the Zonal Head Quarters and watches loading and movement of important streams of traffic, like coal, raw material for steel plants (iron ore), cement, food grains, fertilisers, POL, sugar, export ores, container traffic etc. It also watches loading, interchange, power position, goods train running on important sections etc. to ensure that each Railway fulfils its obligation and optimises the use of various assets. The items watched are more or less the same as those watched by the Zonal Head Quarters in respect of the Divisions, but the perspective is wider. Railway Board plays an important co-ordinating role between various Railways and other Central Government Departments and vital sectors of Economy connected with Railways. Policy formulation and Planning, which have important bearing on Freight Operations is also the major function of the Railway board.
-                </p>
+                <ul className="list-inside space-y-4 text-indigo-50/95 lg:text-lg text-base leading-relaxed font-light">
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      The Railway Board provides <span className="font-semibold text-indigo-200">Unity of Control</span> and direction for freight operations.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      It plays a crucial role in <span className="font-semibold text-indigo-200">supervision and co-ordination</span>, essential for a vast and complex network like Indian Railways.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      The Control Office at Railway Board stays in touch with Zonal Head Quarters (Central Controls) and monitors <span className="font-semibold text-indigo-200">loading and movement of important streams of traffic</span> such as: coal, iron ore (raw material for steel plants), cement, food grains, fertilisers, POL, sugar, export ores, container traffic, etc.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      It also observes <span className="font-semibold text-indigo-200">loading, interchange, power position, and goods train running</span> on important sections to ensure that each Railway fulfills its obligation and optimizes use of assets.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      While the items monitored are similar to those watched by Zonal Head Quarters for Divisions, the <span className="font-semibold text-indigo-200">Railway Board’s view is broader and more comprehensive</span>.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      Railway Board acts as a <span className="font-semibold text-indigo-200">co-ordinator between different Railways and other Central Government Departments</span>, as well as vital sectors of the economy related to Railways.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-300 mt-0.5 font-semibold">•</span>
+                    <span>
+                      <span className="font-semibold text-indigo-200">Policy formulation and Planning</span> with direct impact on Freight Operations is also a major function of the Railway Board.
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
 
             {/* IX. Role of Some Other Departments Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-green-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-green-500/30 to-emerald-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-emerald-500/30 transition-all duration-500">
-                  <Users className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-green-100 bg-clip-text text-transparent">
-                  IX. Role of Some Other Departments
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-4">
+                        IX
+                      </span>
+                    </span>Role of Some Other Departments
                 </span>
               </h2>
               <div className="bg-linear-to-br from-green-500/20 via-emerald-500/15 to-teal-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <p className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light">
-                  The Commercial Department plays an important role in canvassing for Traffic, improving marketing, customer relations in general, booking of traffic, expediting loading/unloading of wagons, quick disposal of unconnected wagons and transhipment of Wagon detached out of course for Hot Axles etc. The various other Departments like Mechanical, Electrical, Civil Engineering and S&T provide and maintain various assets and infrastructure (track, wagons, engines, S&T Network etc.). These departments also ensure sufficient availability, reliability, predictability, safety and reduction in equipment failures; promptness in restoration in case of breakdowns and accidents should also be ensured. They also endeavour for the achievements in technology upgradation along with the operating strategies and determine the level of excellence in Railway Operations to a great extent. In nutshell, all the functionaries have to work as a dedicated team.
-                </p>
+                <ul className="space-y-4 pl-2">
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-300 mt-1.5 text-lg">&#9670;</span>
+                    <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light">
+                      <span className="font-semibold text-green-200">The Commercial Department</span> plays an important role in canvassing for traffic, improving marketing, customer relations in general, booking of traffic, expediting loading/unloading of wagons, quick disposal of unconnected wagons and transhipment of wagons detached out of course for Hot Axles etc.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-300 mt-1.5 text-lg">&#9670;</span>
+                    <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light">
+                      <span className="font-semibold text-green-200">Other Departments</span> like Mechanical, Electrical, Civil Engineering, and S&T provide and maintain various assets and infrastructure (track, wagons, engines, S&T Network etc.).
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-300 mt-1.5 text-lg">&#9670;</span>
+                    <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light">
+                      These departments ensure sufficient availability, reliability, predictability, safety, and reduction in equipment failures; promptness in restoration in case of breakdowns and accidents should also be ensured.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-300 mt-1.5 text-lg">&#9670;</span>
+                    <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light">
+                      They also endeavour for achievements in technology upgradation along with operating strategies and determine the level of excellence in Railway Operations to a great extent.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-300 mt-1.5 text-lg">&#9670;</span>
+                    <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light">
+                      <span className="italic">In nutshell, all the functionaries have to work as a dedicated team.</span>
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
 
             {/* X. Some Indices of Freight Operation and Efficiency Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-purple-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-purple-500/30 to-pink-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-pink-500/30 transition-all duration-500">
-                  <TrendingUp className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-purple-100 bg-clip-text text-transparent">
-                  X. Some Indices of Freight Operation and Efficiency
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        X
+                      </span>
+                    </span>Some Indices of Freight Operation and Efficiency
                 </span>
               </h2>
               <div className="bg-linear-to-br from-purple-500/20 via-pink-500/15 to-rose-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -575,11 +663,12 @@ const FreightOperation = () => {
             {/* XI. Wagon Holding Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-blue-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-blue-500/30 to-cyan-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-cyan-500/30 transition-all duration-500">
-                  <Package className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
                 <span className="bg-linear-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                  XI. Wagon Holding
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        XI
+                      </span>
+                    </span>Wagon Holding
                 </span>
               </h2>
               <div className="bg-linear-to-br from-blue-500/20 via-cyan-500/15 to-sky-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -771,11 +860,13 @@ const FreightOperation = () => {
             {/* XII. Staff Supervisions Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-green-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-green-500/30 to-emerald-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-emerald-500/30 transition-all duration-500">
-                  <Users className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
-                <span className="bg-linear-to-r from-white to-green-100 bg-clip-text text-transparent">
-                  XII. Staff Supervisions
+                
+              <span className="bg-linear-to-r from-white to-blue-100 bg-clip-text text-transparent">
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        XII
+                      </span>
+                    </span>Staff Supervisions
                 </span>
               </h2>
               <div className="bg-linear-to-br from-green-500/20 via-emerald-500/15 to-teal-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
@@ -788,17 +879,33 @@ const FreightOperation = () => {
             {/* XIII. Targets and Statistics Section */}
             <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl py-4 lg:px-10 px-2 border border-white/10 hover:border-white/30 hover:bg-white/10 hover:shadow-purple-500/20 transition-all duration-500 group">
               <h2 className="lg:text-4xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
-                <span className="bg-linear-to-r from-purple-500/30 to-pink-500/30 lg:p-5 p-3 rounded-full shadow-xl backdrop-blur-md border border-white/20 group-hover:scale-110 group-hover:shadow-pink-500/30 transition-all duration-500">
-                  <Target className="lg:w-10 lg:h-10 w-7 h-7 text-white drop-shadow-lg" />
-                </span>
+                
                 <span className="bg-linear-to-r from-white to-purple-100 bg-clip-text text-transparent">
-                  XIII. Targets and Statistics
+                <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        XIII
+                      </span>
+                    </span>Targets and Statistics
                 </span>
               </h2>
               <div className="bg-linear-to-br from-purple-500/20 via-pink-500/15 to-rose-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <p className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light">
-                  One of the important means to utilise fully and efficiently the existing carrying capacity of a railway is to set measurable and specific targets for the various performances after taking into consideration all the local conditions. Once the targets are laid down, all possible efforts must be made to attain them. The targets should be set sufficiently high and reviewed constantly with a view to improving the performance further. Details regarding Statistics pertaining to Railway Operations are given in chapter on Operating Statistics where targets are not attained within a reasonable period, the causes must be traced and effective remedial action taken, if necessary, revised targets should be laid down.
-                </p>
+                <ul className="list-none space-y-4 text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pl-2">
+                  <li className="flex items-start gap-3"><span className="mt-1 shrink-0"><span className="w-3 h-3 inline-block align-middle rotate-45 bg-purple-400/80 rounded-sm shadow-sm mr-2"></span></span>
+                    One of the important means to utilise fully and efficiently the existing carrying capacity of a railway is to set measurable and specific targets for the various performances after taking into consideration all the local conditions.
+                  </li>
+                  <li className="flex items-start gap-3"><span className="mt-1 shrink-0"><span className="w-3 h-3 inline-block align-middle rotate-45 bg-purple-400/80 rounded-sm shadow-sm mr-2"></span></span>
+                    Once the targets are laid down, all possible efforts must be made to attain them.
+                  </li>
+                  <li className="flex items-start gap-3"><span className="mt-1 shrink-0"><span className="w-3 h-3 inline-block align-middle rotate-45 bg-purple-400/80 rounded-sm shadow-sm mr-2"></span></span>
+                    The targets should be set sufficiently high and reviewed constantly with a view to improving the performance further.
+                  </li>
+                  <li className="flex items-start gap-3"><span className="mt-1 shrink-0"><span className="w-3 h-3 inline-block align-middle rotate-45 bg-purple-400/80 rounded-sm shadow-sm mr-2"></span></span>
+                    Details regarding Statistics pertaining to Railway Operations are given in chapter on Operating Statistics.
+                  </li>
+                  <li className="flex items-start gap-3"><span className="mt-1 shrink-0"><span className="w-3 h-3 inline-block align-middle rotate-45 bg-purple-400/80 rounded-sm shadow-sm mr-2"></span></span>
+                    Where targets are not attained within a reasonable period, the causes must be traced and effective remedial action taken; if necessary, revised targets should be laid down.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

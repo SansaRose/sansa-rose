@@ -171,7 +171,7 @@ const WorkingOfStations = () => {
                       ix
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">ix.</span> He shall investigate all public complaints and send the extracts of the complaint with explanation of the staff and his own remarks to Divisional Office in time. In case of complaints concerning the other department, intimation may be given to the subordinate In-Charge of that department immediately so that action may be taken to avoid recurrence.
+                      He shall investigate all public complaints and send the extracts of the complaint with explanation of the staff and his own remarks to Divisional Office in time. In case of complaints concerning the other department, intimation may be given to the subordinate In-Charge of that department immediately so that action may be taken to avoid recurrence.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">
@@ -179,7 +179,7 @@ const WorkingOfStations = () => {
                       x
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">x.</span> He shall promptly attend all accidents, assume charge of the site to and assist in relief measures ensuring prompt evacuation of injured & stranded passengers. He shall take note of all the information available and protect the clues/evidence, which may be helpful in the enquiry. He shall intimate the control office at regular interval for current information and ask for the required assistance i.e., Relief Train, Medical van etc. He shall investigate yard accidents, obtain statements of the staff responsible and submit his report with conclusions and joint note to the Divisional office.
+                       He shall promptly attend all accidents, assume charge of the site to and assist in relief measures ensuring prompt evacuation of injured & stranded passengers. He shall take note of all the information available and protect the clues/evidence, which may be helpful in the enquiry. He shall intimate the control office at regular interval for current information and ask for the required assistance i.e., Relief Train, Medical van etc. He shall investigate yard accidents, obtain statements of the staff responsible and submit his report with conclusions and joint note to the Divisional office.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">
@@ -187,7 +187,7 @@ const WorkingOfStations = () => {
                       xi
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xi.</span> He shall ensure that fire fighting equipments at the station such as fire extinguisher, fire buckets etc. are in fine fettle and ready for use.
+                       He shall ensure that fire fighting equipments at the station such as fire extinguisher, fire buckets etc. are in fine fettle and ready for use.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">
@@ -195,7 +195,7 @@ const WorkingOfStations = () => {
                       xii
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xii.</span> The Station Master should regularly test and record in the charge book, the working of Points, Signals and Track Circuit to ensure that:
+                      The Station Master should regularly test and record in the charge book, the working of Points, Signals and Track Circuit to ensure that:
                       <ul className="mt-4 ml-0 space-y-3 bg-white/5 rounded-lg p-4 border border-white/10">
                         <li className="flex items-start gap-3">
                           <span className="text-purple-300 mt-1.5 font-bold">•</span>
@@ -229,7 +229,7 @@ const WorkingOfStations = () => {
                       xiii
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xiii.</span> He must ensure that burners and wicks of the hand signal lamps are daily cleaned, trimmed and oiled properly.
+                       He must ensure that burners and wicks of the hand signal lamps are daily cleaned, trimmed and oiled properly.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">
@@ -237,7 +237,7 @@ const WorkingOfStations = () => {
                       xiv
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xiv.</span> He must ensure that the essential Safety equipments at his station are the same, complete and, if there is any deficiency should be made good without delay.
+                     He must ensure that the essential Safety equipments at his station are the same, complete and, if there is any deficiency should be made good without delay.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">
@@ -245,7 +245,7 @@ const WorkingOfStations = () => {
                       xv
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xv.</span> He shall conduct night and surprise inspections to check the alertness of staff and working of signals, and points and visibility of the signals.
+                      He shall conduct night and surprise inspections to check the alertness of staff and working of signals, and points and visibility of the signals.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">
@@ -253,7 +253,7 @@ const WorkingOfStations = () => {
                       xvi
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xvi.</span> The Station Master in charge at a station shall inspect his station daily with a view to ensure efficient working of-
+                      The Station Master in charge at a station shall inspect his station daily with a view to ensure efficient working of-
                       <ul className="mt-4 ml-0 space-y-3 bg-white/5 rounded-lg p-4 border border-white/10">
                         <li className="flex items-start gap-3">
                           <span className="text-purple-300 mt-1.5 font-bold">•</span>
@@ -287,7 +287,7 @@ const WorkingOfStations = () => {
                       xvii
                     </span>
                     <span className="text-purple-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">
-                      <span className="font-bold text-purple-300 mr-2">xvii.</span> He shall see that train signal register, station Diary, Inspection Note Book, reference books and other station record is property maintained and preserved for a minimum period as prescribed later in this chapter.
+                      He shall see that train signal register, station Diary, Inspection Note Book, reference books and other station record is property maintained and preserved for a minimum period as prescribed later in this chapter.
                     </span>
                   </li>
                   <li className="flex items-center flex-col gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300 group/item">

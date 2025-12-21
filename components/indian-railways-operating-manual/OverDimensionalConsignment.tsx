@@ -363,7 +363,7 @@ const OverDimensionalConsignment = () => {
                   <p className="text-yellow-50/95 lg:text-base text-sm leading-relaxed font-light">
                     <span className="font-semibold text-yellow-200">d)</span> The following are the prescribed clearance from contact wires for the passage of over-dimensional loads through electrified traction areas and the special restrictions required:
                   </p>
-                  <ul className="ml-6 space-y-2">
+                  <ul className="ml-2 space-y-2">
                     <li className="text-yellow-50/95 lg:text-base text-sm leading-relaxed">
                       <span className="text-yellow-300">e)</span> Special speed restriction is not required when the gross clearance is at least 390 mm.
                     </li>

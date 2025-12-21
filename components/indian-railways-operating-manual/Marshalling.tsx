@@ -80,7 +80,14 @@ const Marshalling = () => {
                 
                 {/* I. Position of upper class coaches */}
                 <div className="mb-8">
-                  <h3 className="text-green-200 font-bold lg:text-2xl text-xl mb-4">I. Position of upper class coaches, ladies compartment, dining car,in respect of easy accessibility</h3>
+                  <h3 className="text-green-200 font-bold lg:text-2xl text-xl mb-4 flex items-center gap-2 flex-col">
+                    <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base">
+                        I
+                      </span>
+                    </span>
+                    Position of upper class coaches, ladies compartment, dining car,in respect of easy accessibility
+                  </h3>
                   <p className="text-green-50/95 lg:text-base text-sm leading-relaxed mb-4">
                     Normally the dining cars or the catering compartments, air-conditioned and upper class coaches, shall be marshalled in the middle of the train or as near to it as possible and ladies compartment will be near Guard&apos;s SLR.
                   </p>
@@ -91,7 +98,11 @@ const Marshalling = () => {
 
                 {/* 1. The Marshalling of SLRs */}
                 <div className="mb-8">
-                  <h3 className="text-green-200 font-bold lg:text-2xl text-xl mb-4">1. The Marshalling of SLRs and Anti-Telescopic/Steel- Bodied Coaches on Passenger Carrying Trains:</h3>
+                  <h3 className="text-green-200 font-bold lg:text-2xl text-xl mb-4"><span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base mb-3">
+                        1
+                      </span>
+                    </span> The Marshalling of SLRs and Anti-Telescopic/Steel- Bodied Coaches on Passenger Carrying Trains:</h3>
                   
                   {/* (a) Marshalling of Mail and Express trains */}
                   <div className="mb-6">
@@ -242,15 +253,27 @@ const Marshalling = () => {
               <div className="bg-linear-to-br from-green-500/20 via-emerald-500/15 to-teal-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300">
-                    <span className="bg-linear-to-r from-green-600/60 to-emerald-500/50 p-3 rounded-full flex items-center justify-center border-2 border-white/20 shrink-0 shadow-lg text-green-100 font-bold lg:text-lg text-base">1</span>
+                  <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base">
+                        1
+                      </span>
+                    </span>
                     <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">Rules on the subject contained in GR 4.08 and in the current Working Time Table should be followed.</span>
                   </li>
                   <li className="flex items-start gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300">
-                    <span className="bg-linear-to-r from-green-600/60 to-emerald-500/50 p-3 rounded-full flex items-center justify-center border-2 border-white/20 shrink-0 shadow-lg text-green-100 font-bold lg:text-lg text-base">2</span>
+                  <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base">
+                        2
+                      </span>
+                    </span>
                     <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">On MG and NG the single empty or loaded 4 wheeler must not be marshalled between an engine and bogie vehicle/wagon or between two bogies /wagons.</span>
                   </li>
                   <li className="flex items-start gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all duration-300">
-                    <span className="bg-linear-to-r from-green-600/60 to-emerald-500/50 p-3 rounded-full flex items-center justify-center border-2 border-white/20 shrink-0 shadow-lg text-green-100 font-bold lg:text-lg text-base">3</span>
+                  <span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600/60 border-2 border-white/20 shadow-lg text-green-100 font-bold text-base">
+                        3
+                      </span>
+                    </span>
                     <span className="text-green-50/95 lg:text-lg text-base leading-relaxed font-light pt-1">However, on BG the above restrictions do not apply to match trucks along with Break Down trains and whenever under special instructions four-wheeled brake-van is attached next to engine provided that such stock is fitted with center buffer couplers.</span>
                   </li>
                 </ul>
@@ -362,7 +385,11 @@ const Marshalling = () => {
                 
                 {/* I. Conditions for attachment of dead locomotive */}
                 <div className="mb-8">
-                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4">I. Conditions for attachment of dead locomotive:-</h3>
+                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4"><span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-red-600/60 border-2 border-white/20 shadow-lg text-red-100 font-bold text-base mb-3">
+                        I
+                      </span>
+                    </span>Conditions for attachment of dead locomotive:-</h3>
                   <ul className="space-y-3 ml-4">
                     <li className="flex items-start gap-3">
                       <span className="text-red-300 mt-1.5 font-bold">i)</span>
@@ -397,7 +424,11 @@ const Marshalling = () => {
 
                 {/* II. Attaching/hauling of dead locomotives by Mail/Express/Super fast/Passenger trains */}
                 <div className="mb-8">
-                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4">II. Attaching/hauling of dead locomotives by Mail/Express/Super fast/Passenger trains: -</h3>
+                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4 text-center"><span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-red-600/60 border-2 border-white/20 shadow-lg text-red-100 font-bold text-base mb-3">
+                        II
+                      </span>
+                    </span>Attaching/hauling of dead locomotives by Mail/Express/Super fast/Passenger trains: -</h3>
                   <ul className="space-y-3 ml-4">
                     <li className="flex items-start gap-3">
                       <span className="text-red-300 mt-1.5 font-bold">i)</span>
@@ -419,7 +450,11 @@ const Marshalling = () => {
 
                 {/* III. Attaching/Hauling of dead locomotives by goods trains */}
                 <div className="mb-8">
-                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4">III. Attaching/Hauling of dead locomotives by goods trains:</h3>
+                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4 text-center"><span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-red-600/60 border-2 border-white/20 shadow-lg text-red-100 font-bold text-base mb-3">
+                        III
+                      </span>
+                    </span>Attaching/Hauling of dead locomotives by goods trains:</h3>
                   <p className="text-red-50/95 lg:text-base text-sm leading-relaxed">
                     Movement of maximum three locomotives (2 working+1 dead) with load is permissible subject to observations of all restrictions on operation of double/triple headed working locomotives in the section provided that brakes in dead locomotives are operational.
                   </p>
@@ -430,7 +465,11 @@ const Marshalling = () => {
 
                 {/* IV. Escorting of dead Locomotives */}
                 <div>
-                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4">IV. Escorting of dead Locomotives:-</h3>
+                  <h3 className="text-red-200 font-bold lg:text-2xl text-xl mb-4"><span className="flex items-center justify-center">
+                      <span className="flex items-center justify-center w-10 h-10 rounded-full bg-red-600/60 border-2 border-white/20 shadow-lg text-red-100 font-bold text-base mb-3">
+                        IV
+                      </span>
+                    </span>Escorting of dead Locomotives:-</h3>
                   <p className="text-red-50/95 lg:text-base text-sm leading-relaxed">
                     Escorting of locomotives (diesel as well as electric) attached to freight and passenger carrying trains is not necessary if the brakes including proportionate are fully operational and the dead locomotive is attached next to the train engine. The dead locomotive will continue to be escorted if attached in the rear of brake van or has defect in undergear equipment.
                   </p>
