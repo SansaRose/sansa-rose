@@ -56,18 +56,76 @@ const AntiCollisionDevice = () => {
               <div className="bg-linear-to-br from-blue-500/20 via-cyan-500/15 to-indigo-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-6">
                   <div className="bg-white/5 rounded-xl p-5 border border-blue-400/20">
-                    <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mb-3">
-                      Anti Collision Device (ACD) is a fully integrated Electronic Control System designed to minimize collisions and increase safety on Railway system. It is a non signaling system and provides additional cover of safety in train operations to prevent dangerous train collisions caused due to human errors or limitations and equipment failure. Being the non-signaling and inter locking system it does not replace any existing signaling and interlocking system and does not alter any procedures of train operations in vogue.
-                    </p>
-                    <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mb-3">
-                      ACD is a Network of Anti -Collision Devices (ACDs) comprising of a variety of devices such as onboard (Mobile). ACDs for Locomotives and Guard vans and track-side (Stationery) ACDs, Level Crossing ACDs, Loco Shed ACDs, Sensor based ACOs and ACO Repeaters. All these work on the principle of distributed control systems. All ACDs along the ACDroute communicate with each other through radio communication when they are within a radial range of at least 3 kms. On board computers use inputs from Global Positioning System (GPS) for determination of train location, speed, course of travel and time. Both mobile and stationary components of ACO system exchange information and take decisions based on train working rules and embedded software to apply brakes automatically without any input from the users. If two ACOs are deemed to be at a risk of collision, the ACD system activates automatic braking operation to prevent collisions. Loco ACO is designed to interface with various types of braking system of locomotives.
-                    </p>
-                    <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mb-3">
-                      System provides audio-visual &quot;Train Approach&quot; warning to road users at level crossings. At Manned LC Gates, when approaching Loco ACD detects &quot;Gate Open&quot; condition, the speed of the train/loco is reduced and kept under a pre-defined speed. Similarly, it can also provide warning and regulate speed in case of movements of land slopes in deep cuttings that are &quot;sensed&quot; through Inclinometer grids, embedded in such slopes. ACD system does not interfere with normal working of train operations.
-                    </p>
-                    <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
-                      More than 2,000 Anti Collision Devices have already been installed over 2,700 Route Kms of track on Indian Railway system out of which about 1900 Route Kms are on North east Frontier Railway and balance are on Konkan Railway. Further proliferation of this safety device on the balance BG network of Indian Railways is being planned.
-                    </p>
+                    <ul className="space-y-4 list-none">
+                      {/* 1. Overview */}
+                      <li className="flex items-start gap-4">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-blue-500/70 to-cyan-500/70 shadow-lg border border-white/20 text-white font-bold text-xl mr-2 mt-1">
+                          1
+                        </span>
+                        <div>
+                          <span className="font-semibold text-blue-100 block mb-1">Comprehensive Safety System</span>
+                          <span className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
+                            The <b>Anti Collision Device (ACD)</b> is an advanced Electronic Control System developed to minimize collisions and enhance safety on the railways. It operates as a <span className="italic">non-signaling</span> solution, providing a crucial shield against collisions caused by human error, limitations, or equipment failure. Notably, it <b>does not replace</b> or interfere with existing signaling or interlocking systems.
+                          </span>
+                        </div>
+                      </li>
+                      {/* 2. ACD Network & Components */}
+                      <li className="flex items-start gap-4">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-blue-500/70 to-cyan-500/70 shadow-lg border border-white/20 text-white font-bold text-xl mr-2 mt-1">
+                          2
+                        </span>
+                        <div>
+                          <span className="font-semibold text-blue-100 block mb-1">Distributed Control Network</span>
+                          <span className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
+                            The ACD system is a <b>network</b> comprising:
+                            <ul className="list-disc ml-6 mt-2 space-y-1 text-blue-50/90">
+                              <li>Onboard (Mobile) ACDs for Locomotives and Guard vans</li>
+                              <li>Track-side (Stationary) ACDs</li>
+                              <li>Level Crossing ACDs</li>
+                              <li>Loco Shed ACDs</li>
+                              <li>Sensor-based ACOs and ACO Repeaters</li>
+                            </ul>
+                            All ACDs communicate via radio when within a radial range of <b>at least 3 km</b>. Onboard computers leverage GPS to determine train location, speed, and direction, enabling real-time distributed decision making and automatic brake application without user intervention. 
+                          </span>
+                        </div>
+                      </li>
+                      {/* 3. Collision Prevention Features */}
+                      <li className="flex items-start gap-4">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-blue-500/70 to-cyan-500/70 shadow-lg border border-white/20 text-white font-bold text-xl mr-2 mt-1">
+                          3
+                        </span>
+                        <div>
+                          <span className="font-semibold text-blue-100 block mb-1">Intelligent Safety Actions</span>
+                          <span className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
+                            When two ACOs are at risk of collision, the <b>system triggers automatic braking</b> to prevent an accident and is specifically designed to interface seamlessly with diverse locomotive braking systems. The system uses both embedded software and operational rules for these critical actions.
+                          </span>
+                        </div>
+                      </li>
+                      {/* 4. Level Crossing & Slope Monitoring */}
+                      <li className="flex items-start gap-4">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-blue-500/70 to-cyan-500/70 shadow-lg border border-white/20 text-white font-bold text-xl mr-2 mt-1">
+                          4
+                        </span>
+                        <div>
+                          <span className="font-semibold text-blue-100 block mb-1">Level Crossing & Terrain Safety</span>
+                          <span className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
+                            The system delivers <b>audio-visual &quot;Train Approach&quot;</b> warnings to road users at level crossings. At manned LC gates, if a &quot;Gate Open&quot; condition is detected, the train/loco speed is automatically regulated. It can also monitor dangerous land slopes using inclinometer grids and provides timely warnings to prevent accidents. Importantly, the ACD functions <span className="italic">without disrupting normal train operations</span>.
+                          </span>
+                        </div>
+                      </li>
+                      {/* 5. Deployment Status */}
+                      <li className="flex items-start gap-4">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-blue-500/70 to-cyan-500/70 shadow-lg border border-white/20 text-white font-bold text-xl mr-2 mt-1">
+                          5
+                        </span>
+                        <div>
+                          <span className="font-semibold text-blue-100 block mb-1">Extensive Deployment</span>
+                          <span className="text-blue-50/95 lg:text-base text-sm leading-relaxed">
+                            Over <b>2,000 ACD units</b> have been installed on more than <b>2,700 route kilometers</b> of Indian Railways, with major installations on the North East Frontier and Konkan Railway networks. Plans are in motion to expand ACD coverage to the entire broad gauge network.
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

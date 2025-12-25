@@ -75,21 +75,28 @@ const ControlOfficeApplication = () => {
                     <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       COA covers the following core functionalities Control Office Operations. They include: -
                     </p>
-                    <ul className="ml-4 space-y-2 text-xs">
-                      <li className="text-blue-50/95">• Train Ordering</li>
-                      <li className="text-blue-50/95">• Maintain Train Information</li>
-                      <li className="text-blue-50/95">• Manage Train Movement (Abnormal Working, Stabling, Banker Movement)</li>
-                      <li className="text-blue-50/95">• Report Unusual Occurrences.</li>
-                      <li className="text-blue-50/95">• Management of Maintenance Blocks</li>
-                      <li className="text-blue-50/95">• Caution Orders</li>
-                      <li className="text-blue-50/95">• Plot Graph.</li>
-                      <li className="text-blue-50/95">• Advance Plotting _ System / Manual</li>
-                      <li className="text-blue-50/95">• Maintain referential data</li>
-                      <li className="text-blue-50/95">• MIS Reports</li>
-                      <li className="text-blue-50/95">• Yard Management Siding</li>
-                      <li className="text-blue-50/95">• Miscellaneous Functions</li>
-                      <li className="text-blue-50/95">• View Station Layout</li>
-                    </ul>
+                    <div className="space-y-2">
+                      {[
+                        "Train Ordering",
+                        "Maintain Train Information",
+                        "Manage Train Movement (Abnormal Working, Stabling, Banker Movement)",
+                        "Report Unusual Occurrences.",
+                        "Management of Maintenance Blocks",
+                        "Caution Orders",
+                        "Plot Graph.",
+                        "Advance Plotting _ System / Manual",
+                        "Maintain referential data",
+                        "MIS Reports",
+                        "Yard Management Siding",
+                        "Miscellaneous Functions",
+                        "View Station Layout"
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-3 bg-blue-900/30 rounded-lg px-3 py-2 border border-blue-400/20 hover:bg-blue-800/40 transition-all duration-300 group">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+                          <span className="text-blue-50/95 text-sm">{item}</span>
+                        </div>
+                      ))}
+                    </div>
                     <p className="text-blue-50/95 lg:text-base text-sm leading-relaxed mt-3">
                       The application will have interfacing capability with Data Logger to capture data pertaining to train movements in the final version of the product. .
                     </p>
@@ -98,23 +105,37 @@ const ControlOfficeApplication = () => {
                   {/* 1.3 Intended Audience */}
                   <div className="bg-white/5 rounded-xl p-5 border border-blue-400/20">
                     <h3 className="text-blue-200 font-bold lg:text-lg text-base mb-3">1.3 Intended Audience</h3>
-                    <ul className="ml-4 space-y-2 text-xs">
-                      <li className="text-blue-50/95">• Operations Managers</li>
-                      <li className="text-blue-50/95">• Train Controllers</li>
-                      <li className="text-blue-50/95">• Key functionaries of sister departments.</li>
-                    </ul>
+                    <div className="space-y-2">
+                      {[
+                        "Operations Managers",
+                        "Train Controllers",
+                        "Key functionaries of sister departments."
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-3 bg-blue-900/30 rounded-lg px-3 py-2 border border-blue-400/20 hover:bg-blue-800/40 transition-all duration-300 group">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+                          <span className="text-blue-50/95 text-sm">{item}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
 
                   {/* 1.4 Benefits */}
                   <div className="bg-white/5 rounded-xl p-5 border border-blue-400/20">
                     <h3 className="text-blue-200 font-bold lg:text-lg text-base mb-3">1.4 Benefits:</h3>
-                    <ul className="ml-4 space-y-2 text-xs">
-                      <li className="text-blue-50/95">• Fully Automated work environment</li>
-                      <li className="text-blue-50/95">• As an aid to the controller in terms of efficiency, precision &amp; time management.</li>
-                      <li className="text-blue-50/95">• Leverage to Controller&apos;s Experience in decision making through manual forecast</li>
-                      <li className="text-blue-50/95">• Real time information on train operation without human dependence</li>
-                      <li className="text-blue-50/95">• To serve as a backbone system for sharing of data between allied systems</li>
-                    </ul>
+                    <div className="space-y-2">
+                      {[
+                        "Fully Automated work environment",
+                        "As an aid to the controller in terms of efficiency, precision & time management.",
+                        "Leverage to Controller's Experience in decision making through manual forecast",
+                        "Real time information on train operation without human dependence",
+                        "To serve as a backbone system for sharing of data between allied systems"
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-3 bg-blue-900/30 rounded-lg px-3 py-2 border border-blue-400/20 hover:bg-blue-800/40 transition-all duration-300 group">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+                          <span className="text-blue-50/95 text-sm">{item}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>

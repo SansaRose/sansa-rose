@@ -78,71 +78,28 @@ const DerailmentInvestigation = () => {
               </h2>
               <div className="bg-linear-to-br from-blue-500/20 via-cyan-500/15 to-indigo-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-3">
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">1)</span> Condition of track with special reference to gauge cross level, super elevation. Gauge of the track to be checked under the load and for a distance of 45 meters on either side of point of mount, if cause is indisputably known otherwise for a distance of 90 meters ahead of the point of mount. In case of sabotage or suspected sabotage nothing to be disturbed except to rescue life till ok from police.
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">2)</span> A rough sketch showing the position of derailed vehicles marks on sleepers should be made. Point of drop/mount to be indicated.
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">3)</span> Locomotive speed records/graph
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">4)</span> Condition of rolling stock with special reference to brake power; marshalling of trains and engine details as also breakage of components like brake blocks underframe assemblies having caused obstructions.
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">5)</span> The position of block instruments, signals, points indicators.
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">6)</span> At stations with panel interlocking position of switches &amp; indicators to be recorded preferably by two officers or two Sr. Subordinates of different branches and relay room to be sealed;
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">7)</span> Position of important relays
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">8)</span> Seize &amp; freeze all records as laid down in accident manual
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">9)</span> The statement of the concerned staff available at site should be recorded for finding the cause of accident.
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">10)</span> To give the prima-facie cause of the accident with expected time of restoration
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">11)</span> Marshalling of the train, with regard to anti-telescopic coaches;
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">12)</span> Arrange to take photographs from different angles to assist in reconstructing the scene of the accident;
-                    </p>
-                  </div>
-                  <div className="bg-white/5 rounded-lg p-3 border border-blue-400/10">
-                    <p className="text-blue-50/95 lg:text-sm text-xs">
-                      <span className="font-semibold text-blue-200">13)</span> The dates as given in the accident reporting form must be recorded for locomotive to produce before the Accident Enquiry Committee. The track and coach/wagon is to be examined jointly and the data and information collected are to be recorded jointly signed by the Sr. Subordinates available at the site.
-                    </p>
-                  </div>
+                  {[
+                    "Condition of track with special reference to gauge cross level, super elevation. Gauge of the track to be checked under the load and for a distance of 45 meters on either side of point of mount, if cause is indisputably known otherwise for a distance of 90 meters ahead of the point of mount. In case of sabotage or suspected sabotage nothing to be disturbed except to rescue life till ok from police.",
+                    "A rough sketch showing the position of derailed vehicles marks on sleepers should be made. Point of drop/mount to be indicated.",
+                    "Locomotive speed records/graph",
+                    "Condition of rolling stock with special reference to brake power; marshalling of trains and engine details as also breakage of components like brake blocks underframe assemblies having caused obstructions.",
+                    "The position of block instruments, signals, points indicators.",
+                    "At stations with panel interlocking position of switches & indicators to be recorded preferably by two officers or two Sr. Subordinates of different branches and relay room to be sealed;",
+                    "Position of important relays",
+                    "Seize & freeze all records as laid down in accident manual",
+                    "The statement of the concerned staff available at site should be recorded for finding the cause of accident.",
+                    "To give the prima-facie cause of the accident with expected time of restoration",
+                    "Marshalling of the train, with regard to anti-telescopic coaches;",
+                    "Arrange to take photographs from different angles to assist in reconstructing the scene of the accident;",
+                    "The dates as given in the accident reporting form must be recorded for locomotive to produce before the Accident Enquiry Committee. The track and coach/wagon is to be examined jointly and the data and information collected are to be recorded jointly signed by the Sr. Subordinates available at the site."
+                  ].map((item, idx) => (
+                    <div key={idx} className="flex items-start gap-3 bg-blue-900/30 rounded-lg px-3 py-2 border border-blue-400/20 hover:bg-blue-800/40 transition-all duration-300 group">
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-linear-to-br from-blue-500/50 to-cyan-500/50 border border-blue-300/30 text-blue-100 font-bold text-xs shadow group-hover:scale-110 transition-all duration-300 shrink-0">
+                        {idx + 1}
+                      </span>
+                      <span className="text-blue-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -159,31 +116,47 @@ const DerailmentInvestigation = () => {
               </h2>
               <div className="bg-linear-to-br from-green-500/20 via-emerald-500/15 to-teal-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="bg-white/5 rounded-xl p-5 border border-green-400/20">
-                  <ul className="space-y-2 ml-4 text-xs">
-                    <li className="text-green-50/95">• Speed of the train just before the accident</li>
-                    <li className="text-green-50/95">• Uneven load/shifted load/load in all the vehicles must be checked to get an idea of loading and lashing/securing loads.</li>
-                    <li className="text-green-50/95">• Application of brakes</li>
-                    <li className="text-green-50/95">• Brake power of the train and location of vehicles without brake power</li>
-                    <li className="text-green-50/95">• Whether all hand brakes are in released condition.</li>
-                    <li className="text-green-50/95">• How was the train received or dispatched by the stationmaster. Whether station staff adopted any abnormal method of working</li>
-                    <li className="text-green-50/95">• Sudden reversal of points</li>
-                    <li className="text-green-50/95">• S&amp;T failure reported before the accident – how and when was it set right.</li>
-                  </ul>
-                  <p className="text-green-50/95 lg:text-sm text-xs mt-4">
+                  <div className="space-y-2 ml-0">
+                    {[
+                      "Speed of the train just before the accident",
+                      "Uneven load/shifted load/load in all the vehicles must be checked to get an idea of loading and lashing/securing loads.",
+                      "Application of brakes",
+                      "Brake power of the train and location of vehicles without brake power",
+                      "Whether all hand brakes are in released condition.",
+                      "How was the train received or dispatched by the stationmaster. Whether station staff adopted any abnormal method of working",
+                      "Sudden reversal of points",
+                      "S&T failure reported before the accident – how and when was it set right."
+                    ].map((item, idx) => (
+                      <div key={idx} className="flex items-center gap-3 bg-green-900/30 rounded-lg px-3 py-2 border border-green-400/20 hover:bg-green-800/40 transition-all duration-300 group">
+                        <span className="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+                        <span className="text-green-50/95 text-base">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-green-50/95 lg:text-base text-sm mt-4">
                     It is always useful to look into all aspects connected with the derailment. Sometimes important clues get neglected due to preconceived ideas and it becomes very difficult to properly arrive at the cause of derailment.
                   </p>
-                  <p className="text-green-50/95 lg:text-sm text-xs mt-3">
+                  <p className="text-green-50/95 lg:text-base text-sm mt-3">
                     Accidents involving collision, passing signal at danger, rolling back of a train etc. are generally caused by violation of train operation rules and it is not very difficult to trace the irregularities committed. The most difficult accidents, from investigation point of view, are the ones where wheel leaves the rail.
                   </p>
-                  <p className="text-green-50/95 lg:text-sm text-xs mt-3">
+                  <p className="text-green-50/95 lg:text-base text-sm mt-3">
                     Such accidents can be categorized in four types:
                   </p>
-                  <ul className="ml-4 space-y-1 text-xs mt-2">
-                    <li className="text-green-50/95">1. When one or both of the same wheel-set fall inside the track.</li>
-                    <li className="text-green-50/95">2. When the wheel derail without any mark on the rail table.</li>
-                    <li className="text-green-50/95">3. When the wheel derails with single flange mark on the rail table</li>
-                    <li className="text-green-50/95">4. When a number of wheels derail with multiple flange marks on the rail table.</li>
-                  </ul>
+                  <div className="space-y-2 mt-2">
+                    {[
+                      "When one or both of the same wheel-set fall inside the track.",
+                      "When the wheel derail without any mark on the rail table.",
+                      "When the wheel derails with single flange mark on the rail table",
+                      "When a number of wheels derail with multiple flange marks on the rail table."
+                    ].map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-green-900/30 rounded-lg px-3 py-2 border border-green-400/20 hover:bg-green-800/40 transition-all duration-300 group">
+                        <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-green-500/60 to-emerald-500/60 border border-green-300/30 text-green-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                          {idx + 1}
+                        </span>
+                        <span className="text-green-50/95 text-base flex-1 leading-relaxed">{item}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -204,36 +177,45 @@ const DerailmentInvestigation = () => {
                     <p className="text-purple-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       In such derailments the cause of accident is very clear, i.e., spread gauge or may be a remote possibility of shifting of wheel disc on the axle or breakage of axle or journal. It is generally seen that in such cases of wheel/wheels falling inside the track, the affected rolling stock is lifted with the help of jacks and the rolling stock can be lowered and moved on the same track.
                     </p>
-                    <p className="text-purple-50/95 lg:text-base text-sm leading-relaxed mb-3">
+                    <p className="text-purple-50/95 lg:text-base text-base leading-relaxed mb-3">
                       In the case of spread gauge, special care has to be taken for recording the condition of track fittings. Loose keys, signs of rail-chairs shifting on the sleeper, condition of elastic clamps, tie rod cotters etc. must be carefully examined and recorded. If a wheel starts mounting the rail, its tread lose contact with the rail and entire weight is shifted to this point of contact on the flange. At this particular moment, the arrangement of forces is as follows: -
                     </p>
                     <div className="bg-white/5 rounded-lg p-3 border border-purple-400/10 mb-3">
-                      <p className="text-purple-50/95 lg:text-sm text-xs font-mono text-center mb-2">Q</p>
-                      <p className="text-purple-50/95 lg:text-sm text-xs font-mono text-center">μR</p>
+                      <p className="text-purple-50/95 lg:text-base text-base font-mono text-center mb-2">Q</p>
+                      <p className="text-purple-50/95 lg:text-base text-base font-mono text-center">μR</p>
                     </div>
-                    <p className="text-purple-50/95 lg:text-sm text-xs mb-2">
+                    <p className="text-purple-50/95 lg:text-base text-base mb-2">
                       In the above figure different forces shown are as follow:
                     </p>
-                    <ul className="ml-4 space-y-1 text-xs mb-3">
-                      <li className="text-purple-50/95">Q: Instantaneous wheel load</li>
-                      <li className="text-purple-50/95">R: Reaction of rail</li>
-                      <li className="text-purple-50/95">Y: Lateral thrust (flange force)</li>
-                      <li className="text-purple-50/95">μR: Frictional force between rail and wheel flange (acts upward)</li>
-                      <li className="text-purple-50/95">μ: Coefficient of friction</li>
-                      <li className="text-purple-50/95">β: Flange angle</li>
-                    </ul>
-                    <p className="text-purple-50/95 lg:text-sm text-xs mb-2">
+                    <div className="space-y-2 mb-3">
+                      {[
+                        "Instantaneous wheel load",
+                        "Reaction of rail",
+                        "Lateral thrust (flange force)",
+                        "Frictional force between rail and wheel flange (acts upward)",
+                        "Coefficient of friction",
+                        "Flange angle"
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-start gap-3 bg-purple-900/30 rounded-lg px-3 py-2 border border-purple-400/20 hover:bg-purple-800/40 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-purple-500/60 to-pink-500/60 border border-purple-300/30 text-purple-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                            {['Q', 'R', 'Y', 'μR', 'μ', 'β'][idx]}
+                          </span>
+                          <span className="text-purple-50/95 text-base flex-1 leading-relaxed">{item}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-purple-50/95 lg:text-base text-base mb-2">
                       From the above simple model, following formula was derived by Nadal in 1908:
                     </p>
                     <div className="bg-white/5 rounded-lg p-3 border border-purple-400/10 mb-3">
-                      <p className="text-purple-50/95 lg:text-sm text-xs font-mono text-center">
+                      <p className="text-purple-50/95 lg:text-base text-base font-mono text-center">
                         Y/Q tanβ -μ/1+μ tanβ
                       </p>
                     </div>
-                    <p className="text-purple-50/95 lg:text-sm text-xs mb-2">
+                    <p className="text-purple-50/95 lg:text-base text-base mb-2">
                       The ratio Y/Q is called derailment coefficient.
                     </p>
-                    <p className="text-purple-50/95 lg:text-sm text-xs">
+                    <p className="text-purple-50/95 lg:text-base text-base">
                       (While investigating into derailment, all track vehicle defects and features and operational aspects which cause one or more above mentioned factors to occur should be listed as possible contributory factors. The list of such contributory defects and features thus arrived at should be arranged in descending order of their assessed contribution. Thus one can arrive at one or more causes of derailment.)
                     </p>
                   </div>
@@ -251,19 +233,28 @@ const DerailmentInvestigation = () => {
                   Type-2: When the wheel derails without any mark on the rail table
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-indigo-500/20 via-purple-500/15 to-pink-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+              <div className="bg-linear-to-br from-indigo-500/20 via-purple-500/15 to-pink-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="bg-white/5 rounded-xl p-5 border border-indigo-400/20">
                   <p className="text-indigo-50/95 lg:text-base text-sm leading-relaxed mb-3">
                     In such type of derailments no flange marks are found on the rail table, In majority of such derailments following reasons may have caused the accident:
                   </p>
-                  <ul className="ml-4 space-y-2 text-xs mb-3">
-                    <li className="text-indigo-50/95">• Obstruction in the path of wheel.</li>
-                    <li className="text-indigo-50/95">• Breaking of vehicle suspension arrangement.</li>
-                    <li className="text-indigo-50/95">• Jamming of wheel due to roller bearing failure.</li>
-                    <li className="text-indigo-50/95">• Mishandling of train by loco pilot</li>
-                    <li className="text-indigo-50/95">• Wrong marshalling of vehicles with no brake power kept together or heavy vehicles in the rear.</li>
-                  </ul>
-                  <p className="text-indigo-50/95 lg:text-sm text-xs">
+                  <div className="space-y-2 mb-3">
+                    {[
+                      "Obstruction in the path of wheel.",
+                      "Breaking of vehicle suspension arrangement.",
+                      "Jamming of wheel due to roller bearing failure.",
+                      "Mishandling of train by loco pilot",
+                      "Wrong marshalling of vehicles with no brake power kept together or heavy vehicles in the rear."
+                    ].map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-indigo-900/30 rounded-lg px-3 py-2 border border-indigo-400/20 hover:bg-indigo-800/40 transition-all duration-300 group">
+                        <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-indigo-500/60 to-purple-500/60 border border-indigo-300/30 text-indigo-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                          {String.fromCharCode(97 + idx)}
+                        </span>
+                        <span className="text-indigo-50/95 text-sm flex-1 leading-relaxed">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-indigo-50/95 lg:text-base text-sm">
                     For investigation of such derailments the accident site must be carefully inspected for foreign body, which might have caused obstruction to the derailed wheel. Examination of train brake power, position of zero brake power vehicles and heavily loaded vehicles must be critically done. Additionally, loco speedometer chart must be checked for last brake application.
                   </p>
                 </div>
@@ -285,15 +276,24 @@ const DerailmentInvestigation = () => {
                   <p className="text-teal-50/95 lg:text-base text-sm leading-relaxed mb-3">
                     This is the most interesting category of derailment and requires detailed examination of track, vehicles, loading condition and train operating conditions. First the wheel mount mark itself has to be properly ascertained. The length of flange mark gives a clue to reasons for derailment. The following factors must be considered after seeing the flange mark:
                   </p>
-                  <ul className="ml-4 space-y-2 text-xs mb-3">
-                    <li className="text-teal-50/95">• Long flange mark suggests that the wheel load reduced considerably for a long period.</li>
-                    <li className="text-teal-50/95">• Short flange mark suggests that the lateral thrust increased to a considerably high value.</li>
-                    <li className="text-teal-50/95">• The weight of the vehicle and speed of the train at the time of accident affect the impression of flange mark on the rail.</li>
-                  </ul>
-                  <p className="text-teal-50/95 lg:text-sm text-xs mb-3">
+                  <div className="space-y-2 mb-3">
+                    {[
+                      "Long flange mark suggests that the wheel load reduced considerably for a long period.",
+                      "Short flange mark suggests that the lateral thrust increased to a considerably high value.",
+                      "The weight of the vehicle and speed of the train at the time of accident affect the impression of flange mark on the rail."
+                    ].map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-teal-900/30 rounded-lg px-3 py-2 border border-teal-400/20 hover:bg-teal-800/40 transition-all duration-300 group">
+                        <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-teal-500/60 to-cyan-500/60 border border-teal-300/30 text-teal-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                          {String.fromCharCode(97 + idx)}
+                        </span>
+                        <span className="text-teal-50/95 text-sm flex-1 leading-relaxed">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-teal-50/95 lg:text-base text-sm mb-3">
                     In a number of cases an empty derailed wagon had been pulled to a very long distance and the wheel mount mark was found but disputed due to ignorance of the investigating officials. In all the cases, one must ascertain the first wheel drop mark and then trace back the mount mark. After locating the mount mark, next step is to match it with the wheel that derailed first. For this matching of damages on sleepers and position of vehicles after derailment will have to be done.
                   </p>
-                  <p className="text-teal-50/95 lg:text-sm text-xs">
+                  <p className="text-teal-50/95 lg:text-base text-sms">
                     After identifying the point of mount and drop, detailed examination and recording of track geometry rolling stock parameters, condition of loads in derailed as well as non-derailed vehicles and operating conditions has to be done. This record reveals reasons for the accident. The analysis has to be done with a view to find out reasons for increase in thrust and reduction in instantaneous wheel load.
                   </p>
                 </div>
@@ -315,14 +315,23 @@ const DerailmentInvestigation = () => {
                   <p className="text-amber-50/95 lg:text-base text-sm leading-relaxed mb-3">
                     In this category of derailment the probable reasons for derailment can be as follows:
                   </p>
-                  <ul className="ml-4 space-y-2 text-xs mb-3">
-                    <li className="text-amber-50/95">• Obstructions in the path of wheels.</li>
-                    <li className="text-amber-50/95">• Disturbed track (work being done on the track or sabotage)</li>
-                    <li className="text-amber-50/95">• Rail failure</li>
-                    <li className="text-amber-50/95">• Serious track defect-twist misalignment or formation failure</li>
-                    <li className="text-amber-50/95">• Buckling of track</li>
-                  </ul>
-                  <p className="text-amber-50/95 lg:text-sm text-xs">
+                  <div className="space-y-2 mb-3">
+                    {[
+                      "Obstructions in the path of wheels.",
+                      "Disturbed track (work being done on the track or sabotage)",
+                      "Rail failure",
+                      "Serious track defect-twist misalignment or formation failure",
+                      "Buckling of track"
+                    ].map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-amber-900/30 rounded-lg px-3 py-2 border border-amber-400/20 hover:bg-amber-800/40 transition-all duration-300 group">
+                        <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-amber-500/60 to-orange-500/60 border border-amber-300/30 text-amber-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                          {String.fromCharCode(97 + idx)}
+                        </span>
+                        <span className="text-amber-50/95 text-sm flex-1 leading-relaxed">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-amber-50/95 lg:text-base text-sm">
                     In such cases, if there is no obvious reason like obstructions or rail failure, track parameters are of particular relevance and sufficient care has to be taken in recording them. Readings of track geometry is of great importance in establishing the behaviour of vehicle just before the derailment. In addition to the readings taken after derailments, records of previous maintenance (rail renewal, de-stressing etc.) must be perused to assess the amount of work done in the last few days.
                   </p>
                 </div>
@@ -351,61 +360,88 @@ const DerailmentInvestigation = () => {
                     <p className="text-rose-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       Most of the derailments at points and crossings either initiate at the toe of the tongue rail or near the nose of the crossing. Whenever a derailment takes place on a point the following checks must be done:-
                     </p>
-                    <p className="text-rose-50/95 lg:text-sm text-xs mb-2">
+                    <p className="text-rose-50/95 lg:text-base text-sm mb-2">
                       Gauge of point must be checked at four locations:
                     </p>
-                    <ul className="ml-4 space-y-1 text-xs mb-3">
-                      <li className="text-rose-50/95">• 305 mm in advance of nose of tongue rail</li>
-                      <li className="text-rose-50/95">• 152 mm inside the tongue rail for straight road and turn out.</li>
-                      <li className="text-rose-50/95">• At heel for tongue rail for straight road and turn out.</li>
-                      <li className="text-rose-50/95">• At middle of tongue rail for straight road and turn out.</li>
-                    </ul>
-                    <p className="text-rose-50/95 lg:text-sm text-xs mb-3">
+                    <div className="space-y-2 mb-3">
+                      {[
+                        "305 mm in advance of nose of tongue rail",
+                        "152 mm inside the tongue rail for straight road and turn out.",
+                        "At heel for tongue rail for straight road and turn out.",
+                        "At middle of tongue rail for straight road and turn out."
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-start gap-3 bg-rose-900/30 rounded-lg px-3 py-2 border border-rose-400/20 hover:bg-rose-800/40 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-rose-500/60 to-pink-500/60 border border-rose-300/30 text-rose-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                            {String.fromCharCode(97 + idx)}
+                          </span>
+                          <span className="text-rose-50/95 text-sm flex-1 leading-relaxed">{item}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-rose-50/95 lg:text-base text-sm mb-3">
                       The Gauge must be correct at all places except at the toe where it may be 6 mm slack for housing the tongue rail.
                     </p>
-                    <p className="text-rose-50/95 lg:text-sm text-xs mb-3">
+                    <p className="text-rose-50/95 lg:text-base text-sm mb-3">
                       It can be appreciated that conditions created by slack gauge&apos; are not permitted near the switch. IRPWM-1985, Para 237 t&apos; (8) (a) and (b) is reproduced below:
                     </p>
                     <div className="bg-white/5 rounded-lg p-3 border border-rose-400/10 mb-3">
-                      <p className="text-rose-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-rose-50/95 lg:text-base text-sm mb-2">
                         &quot;(8) Gauge and Super-elevation in turnouts-(a) It is a good practice to maintain uniform gauge over turnouts.
                       </p>
-                      <p className="text-rose-50/95 lg:text-sm text-xs">
+                      <p className="text-rose-50/95 lg:text-base text-sm">
                         (b) If gauge of track adjoining the points and crossings is maintained wider/tighter than the gauge on the points and crossings. the gauge on the adjoining track must be brought to the same gauge as in points and crossings and run out at the rate of I mm in 3 metres to the requisite extent. It should, however, be ensured that the same gauge as applicable to the points and crossings is maintained for at least one rail length on either side of point and crossings.&quot;
                       </p>
                     </div>
                     <div className="bg-white/5 rounded-lg p-3 border border-rose-400/10 mb-3">
-                      <p className="text-rose-200 font-semibold mb-2 text-xs">
+                      <p className="text-rose-200 font-semibold mb-2 text-sm">
                         In case of derailment suspected to have started near the switch of the turnout the following points need to be carefully examined:
                       </p>
-                      <ul className="ml-4 space-y-1 text-xs">
-                        <li className="text-rose-50/95">• The condition of tongue rail-whether broken, chipped or bent.</li>
-                        <li className="text-rose-50/95">• Whether the damage is old or new.</li>
-                        <li className="text-rose-50/95">• Height of the tip of the switch from top of stock rail.</li>
-                        <li className="text-rose-50/95">• Thickness of the tongue rail</li>
-                        <li className="text-rose-50/95">• Any gap between the tongue rail and stock rail</li>
-                        <li className="text-rose-50/95">• Any damage to stretcher bar</li>
-                        <li className="text-rose-50/95">• In case of interlocked points, the slackness between the locking bar slot and slide should be recorded</li>
-                        <li className="text-rose-50/95">• The condition of brackets holding the stock rail</li>
-                        <li className="text-rose-50/95">• Whether the switch jumps up when a wheel passes on its heel.</li>
-                      </ul>
+                      <div className="space-y-2">
+                        {[
+                          "The condition of tongue rail-whether broken, chipped or bent.",
+                          "Whether the damage is old or new.",
+                          "Height of the tip of the switch from top of stock rail.",
+                          "Thickness of the tongue rail",
+                          "Any gap between the tongue rail and stock rail",
+                          "Any damage to stretcher bar",
+                          "In case of interlocked points, the slackness between the locking bar slot and slide should be recorded",
+                          "The condition of brackets holding the stock rail",
+                          "Whether the switch jumps up when a wheel passes on its heel."
+                        ].map((item, idx) => (
+                          <div key={idx} className="flex items-start gap-3 bg-rose-900/20 rounded-lg px-3 py-2 border border-rose-400/10 hover:bg-rose-800/30 transition-all duration-300 group">
+                            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-rose-500/60 to-pink-500/60 border border-rose-300/30 text-rose-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                              {String.fromCharCode(97 + idx)}
+                            </span>
+                            <span className="text-rose-50/95 text-sm flex-1 leading-relaxed">{item}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                     <div className="bg-white/5 rounded-lg p-3 border border-rose-400/10 mb-3">
-                      <p className="text-rose-200 font-semibold mb-2 text-xs">
+                      <p className="text-rose-200 font-semibold mb-2 text-sm">
                         If the derailment is suspected to have started near the crossing the following points must be carefully checked:-
                       </p>
-                      <ul className="ml-4 space-y-1 text-xs">
-                        <li className="text-rose-50/95">• Condition of nose-wear, breakage, chipped, bent</li>
-                        <li className="text-rose-50/95">• Reduction in the level of nost as compared with wing rails.</li>
-                        <li className="text-rose-50/95">• Clearance between wing rail and stock rail (near the nose) on both sides.</li>
-                        <li className="text-rose-50/95">• Clearance between guard rail and stock rail</li>
-                        <li className="text-rose-50/95">• Alignment of turnout to be measured for checking smoothness (with 6 metre chord at 1.5 metre intervals)</li>
-                      </ul>
+                      <div className="space-y-2">
+                        {[
+                          "Condition of nose-wear, breakage, chipped, bent",
+                          "Reduction in the level of nost as compared with wing rails.",
+                          "Clearance between wing rail and stock rail (near the nose) on both sides.",
+                          "Clearance between guard rail and stock rail",
+                          "Alignment of turnout to be measured for checking smoothness (with 6 metre chord at 1.5 metre intervals)"
+                        ].map((item, idx) => (
+                          <div key={idx} className="flex items-start gap-3 bg-rose-900/20 rounded-lg px-3 py-2 border border-rose-400/10 hover:bg-rose-800/30 transition-all duration-300 group">
+                            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-rose-500/60 to-pink-500/60 border border-rose-300/30 text-rose-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5">
+                              {String.fromCharCode(97 + idx)}
+                            </span>
+                            <span className="text-rose-50/95 text-sm flex-1 leading-relaxed">{item}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                    <p className="text-rose-50/95 lg:text-sm text-xs mb-3">
+                    <p className="text-rose-50/95 lg:text-base text-sm mb-3">
                       IRPWM has specified a check-list for complete examination of points and crossings.
                     </p>
-                    <p className="text-rose-50/95 lg:text-sm text-xs">
+                    <p className="text-rose-50/95 lg:text-base text-sm">
                       There is one potentially dangerous structure called diamond crossing, which is generally not provided on the main line. A simple diamond crossing has four noses (two acute angle and two obtuse angle), which require a critical watch. Even a slight damage to these noses or disturbance to the clearance between stock rails and guardrails make this diamond crossing unsafe. The problem is further compounded if a diamond crossing has one or two slips also. The curvature of the slip is generally so high that these structure are not fit for speeds above 8 to 10 kmph. It is advisable to avoid use of these structures.
                     </p>
                   </div>
@@ -428,43 +464,57 @@ const DerailmentInvestigation = () => {
                   {/* (A) Permanent Way */}
                   <div className="bg-white/5 rounded-xl p-5 border border-violet-400/20">
                     <h3 className="text-violet-200 font-bold lg:text-xl text-lg mb-4">(A) Permanent Way</h3>
-                    <ul className="ml-4 space-y-2 text-xs mb-4">
-                      <li className="text-violet-50/95">• Spread gauge</li>
-                      <li className="text-violet-50/95">• Gaping in points</li>
-                      <li className="text-violet-50/95">• Tipping of the toe of switch</li>
-                      <li className="text-violet-50/95">• Worn out &amp; broken tongue Rail</li>
-                      <li className="text-violet-50/95">• Excessive clearances of check rail opposite to the nose of the crossing</li>
-                      <li className="text-violet-50/95">• Loose or slack points connections</li>
-                      <li className="text-violet-50/95">• Sharp curves with kinking alignments</li>
-                      <li className="text-violet-50/95">• Worn out Rails</li>
-                      <li className="text-violet-50/95">• Abrupt introduction of super elevation</li>
-                      <li className="text-violet-50/95">• Super elevation not corresponding to speed of the train</li>
-                      <li className="text-violet-50/95">• Buckling of track</li>
-                      <li className="text-violet-50/95">• Shearing of fish plate bolts</li>
-                      <li className="text-violet-50/95">• Subsidence of track</li>
-                      <li className="text-violet-50/95">• Uneven Cross level</li>
-                      <li className="text-violet-50/95">• Condition of Ballast</li>
-                      <li className="text-violet-50/95">• Security fastening deficient/loose</li>
-                    </ul>
-                    <p className="text-violet-50/95 lg:text-sm text-xs mb-4">
+                    <div className="space-y-2 mb-4">
+                      {[
+                        "Spread gauge",
+                        "Gaping in points",
+                        "Tipping of the toe of switch",
+                        "Worn out & broken tongue Rail",
+                        "Excessive clearances of check rail opposite to the nose of the crossing",
+                        "Loose or slack points connections",
+                        "Sharp curves with kinking alignments",
+                        "Worn out Rails",
+                        "Abrupt introduction of super elevation",
+                        "Super elevation not corresponding to speed of the train",
+                        "Buckling of track",
+                        "Shearing of fish plate bolts",
+                        "Subsidence of track",
+                        "Uneven Cross level",
+                        "Condition of Ballast",
+                        "Security fastening deficient/loose"
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-3 bg-violet-900/30 rounded-lg px-3 py-2 border border-violet-400/20 hover:bg-violet-800/40 transition-all duration-300 group">
+                          <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                          <span className="text-violet-50/95 text-sm">{item}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-violet-50/95 lg:text-base text-sm mb-4">
                       Track defects have a vital role in the accident and therefore it is very essential to check the various parameters of the track. The following parameters must be checked thoroughly to pin point the defects in the track:
                     </p>
 
                     {/* (1) Gauge */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(1) Gauge - It is the shortest distance between the two rails of the track.</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2 font-semibold">Rail Gauge</p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2 font-semibold">Rail Gauge</p>
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         The standard gauge is 1676 mm.
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2 font-semibold">Permissible Variations</p>
-                      <ul className="ml-4 space-y-1 text-xs">
-                        <li className="text-violet-50/95">• Straight line 6 mm tight to 6 mm slack ± 6 mm)</li>
-                        <li className="text-violet-50/95">• On curve with radius 350 Mtrs or more-6 mm tight to 15 mm slack (-6 to +15)</li>
-                        <li className="text-violet-50/95">• On curve with radius less than 350 Mtrs-Slack up to 20 IllIl1 (correction slip No. 10 Rly Bd. L.No. 94/CE/II/TSG/I Dt. 20/24-6-96 of P. Way, manual)</li>
-                        <li className="text-violet-50/95">• Gauge sleeper to sleeper Variation -- 2 mm</li>
-                      </ul>
-                      <p className="text-violet-50/95 lg:text-xs text-xs italic mt-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2 font-semibold">Permissible Variations</p>
+                      <div className="space-y-2">
+                        {[
+                          "Straight line 6 mm tight to 6 mm slack ± 6 mm)",
+                          "On curve with radius 350 Mtrs or more-6 mm tight to 15 mm slack (-6 to +15)",
+                          "On curve with radius less than 350 Mtrs-Slack up to 20 IllIl1 (correction slip No. 10 Rly Bd. L.No. 94/CE/II/TSG/I Dt. 20/24-6-96 of P. Way, manual)",
+                          "Gauge sleeper to sleeper Variation -- 2 mm"
+                        ].map((item, idx) => (
+                          <div key={idx} className="flex items-center gap-3 bg-violet-900/20 rounded-lg px-3 py-1 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
+                            <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                            <span className="text-violet-50/95 text-sm">{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <p className="text-violet-50/95 lg:text-base text-sm italic mt-2">
                         IRPM Para 316(2) (a)
                       </p>
                     </div>
@@ -472,16 +522,16 @@ const DerailmentInvestigation = () => {
                     {/* (2) Cross-level */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(2) Cross-level</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Cross-level of the track is relative level difference between the two rail tables measured perpendicular to the track at the same point. It includes the variation in the super elevation in case of curve cross level to be recorded on every fourth sleeper or 3 mts apart. The cross level reading helps in calculating the TWIST available in the track. TWIST is calculated in mm/meters by using the formula
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Algebraic difference of cross level at two points A &amp; B in mm divided by Distance between points A &amp; B in meters,
                       </p>
-                      <p className="text-violet-50/95 lg:text-xs text-xs italic mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm italic mb-2">
                         Ref. IRPWM - Para 316 (2) (C)
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs">
+                      <p className="text-violet-50/95 lg:text-base text-sm">
                         Twist should not be more than 3 mm/mt as per Railway Board letter no. 631W6/TK/I0/Dt 10.11.1964.
                       </p>
                     </div>
@@ -489,7 +539,7 @@ const DerailmentInvestigation = () => {
                     {/* (3) Unevenness */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(3) Unevenness</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs">
+                      <p className="text-violet-50/95 lg:text-base text-sm">
                         This defect of the track is not reflected in the gauge and cross level reading. Low joints, high joints, loose packing, sleepers and lifting of sleepers cause this defect. Long sags are not taken as unevenness. It is recorded for left and right rail separately. It is measured in terms of difference in longitudinal levels over&apos; a fixed base. Unevenness gives rise to forced oscillations in a vehicle and can cause variations in the values of instantaneous Wheel load and lateral thrust. Para 607 of IRPWM classifies unevenness (measured on 3.6 Mts cord) above 15111m as category D.
                       </p>
                     </div>
@@ -497,54 +547,61 @@ const DerailmentInvestigation = () => {
                     {/* (4) Versine and super elevation */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(4) Versine and super elevation</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Versine and super elevation are measured for checking correctness of a curve. At the beginning and at the end of the curve, details of the curve are mentioned on the board. Radius of any curve is obtained by dividing 1750 mtrs, by its degree. Versine is calculated as:
                       </p>
                       <div className="bg-white/5 rounded p-2 border border-violet-400/5 mb-2">
-                        <p className="text-violet-50/95 lg:text-sm text-xs font-mono text-center">
+                        <p className="text-violet-50/95 lg:text-base text-sm font-mono text-center">
                           V= 125.C2/R
                         </p>
-                        <p className="text-violet-50/95 lg:text-xs text-xs text-center mt-1">
+                        <p className="text-violet-50/95 lg:text-base text-sm text-center mt-1">
                           R - Radius in meters, C - Cord length in meters, V - Versine
                         </p>
                       </div>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         As per Para 421 (b)(i) of IRPWM, the station to station variation of versines of stations 10 Mts apart should not exceed 15 mm for more than 100 Kmph speed, whereas for speeds 100 Kmph or less than 100 Kmph it should not exceed 20 mm or 200/0 of the average versine of the circular portion whichever is more.
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         The super elevation is calculated as:
                       </p>
                       <div className="bg-white/5 rounded p-2 border border-violet-400/5 mb-2">
-                        <p className="text-violet-50/95 lg:text-sm text-xs font-mono text-center">
+                        <p className="text-violet-50/95 lg:text-base text-sm font-mono text-center">
                           C = GV2 /127R
                         </p>
-                        <p className="text-violet-50/95 lg:text-xs text-xs text-center mt-1">
+                        <p className="text-violet-50/95 lg:text-base text-sm text-center mt-1">
                           C = Cant/Super elevation in mm., G = Dynamic gauge in mm, V= Speed in Kmph
                         </p>
                       </div>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Para 406 ( d) of IRPWM specifies a maximum cant of 165 mm. on group A, Band C routes and 140 mm on group D and E routes. The maximum amount of cant deficiency is also specified in para 406(2) as given below :
                       </p>
-                      <ul className="ml-4 space-y-1 text-xs">
-                        <li className="text-violet-50/95">• For speeds in excess of 100 Kmph on group A and B routes for nominated rolling stock and routes with permission of Chief Engineer - 100 mm</li>
-                        <li className="text-violet-50/95">• For broad gauge routes not covered by above - 75</li>
-                      </ul>
+                      <div className="space-y-2">
+                        {[
+                          "For speeds in excess of 100 Kmph on group A and B routes for nominated rolling stock and routes with permission of Chief Engineer - 100 mm",
+                          "For broad gauge routes not covered by above - 75"
+                        ].map((item, idx) => (
+                          <div key={idx} className="flex items-center gap-3 bg-violet-900/20 rounded-lg px-3 py-1 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
+                            <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                            <span className="text-violet-50/95 text-sm">{item}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
 
                     {/* (5) Ballast */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(5) Ballast</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         It is a very important member in the track structure. It helps in maintaining track Geometry. The ballast resistance is affected by following factors -
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Ballast – Size, Material, Shape, State of consolidation, Type of sleeper, Cushion at Formation.
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Para 263(2) I RPWM recommends the Minimum depth of ballast below the bottom of the sleeper at rai I seat as under:
                       </p>
                       <div className="bg-white/5 rounded p-3 border border-violet-400/5">
-                        <div className="grid grid-cols-2 gap-2 text-xs">
+                        <div className="grid grid-cols-2 gap-2 text-sm">
                           <div className="font-semibold text-violet-200">Groups</div>
                           <div className="font-semibold text-violet-200">Recommended Depth</div>
                           <div>BG Group A</div>
@@ -562,31 +619,31 @@ const DerailmentInvestigation = () => {
                     {/* (6) Rail */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(6) Rail</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         The accident caused by rail fracture does not leave much room for investigation. The fractured rail is to be tested to find out the nature of the failure. The visual inspection can reveal whether the fracture was new or there was some old flow in the rail.
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         For other derailments, the rail is measured for its wear. The rail wears out mostly on the top surface and gauge face. Rail wear can be vertical, lateral or angular.
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Angular wear, Profile of new rail, Vertical Wear, Worn profile
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         The limits of wear of rail have been laid down in IRPWM Para 302 (b)
                       </p>
                       <div className="bg-white/5 rounded p-3 border border-violet-400/5 mb-2">
                         <p className="text-violet-200 font-semibold mb-1 text-xs">Gauge Rail section ertical wear</p>
-                        <div className="space-y-1 text-xs">
+                        <div className="space-y-1 text-sm">
                           <p className="text-violet-50/95">B.G. 60 kg/meter 13mm</p>
                           <p className="text-violet-50/95">52kg/mctcr 8mm</p>
                           <p className="text-violet-50/95">90R 5mm</p>
                         </div>
                       </div>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         Lateral wear limits have been given in para 302 (b)
                       </p>
                       <div className="bg-white/5 rounded p-3 border border-violet-400/5">
-                        <div className="grid grid-cols-3 gap-2 text-xs">
+                        <div className="grid grid-cols-3 gap-2 text-sm">
                           <div className="font-semibold text-violet-200">Section</div>
                           <div className="font-semibold text-violet-200">Gauge Category of work</div>
                           <div className="font-semibold text-violet-200">Lateral wear</div>
@@ -609,7 +666,7 @@ const DerailmentInvestigation = () => {
                     {/* (7) Sleepers */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(7) Sleepers</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs">
+                      <p className="text-violet-50/95 lg:text-base text-sm">
                         If sleeper suffer any damage or loss in property, it can cause derailment. While recording the gauge and level readings the condition of each sleeper must be carefully sleepers near point of mount.
                       </p>
                     </div>
@@ -617,10 +674,10 @@ const DerailmentInvestigation = () => {
                     {/* (8) Rail Fasteners */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(8) Rail Fasteners</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         For different - type of sleepers, the rail fasteners are different Wooden sleepers - Dog spikes, Round head spikes, Steel keys Steel trough sleeper - steel keys
                       </p>
-                      <p className="text-violet-50/95 lg:text-sm text-xs">
+                      <p className="text-violet-50/95 lg:text-base text-sm">
                         Prestressed concrete sleepers-- elastic clips with liners between the foot of rail and clip. Condition of all fasteners should be recorded while taking track reading
                       </p>
                     </div>
@@ -628,15 +685,22 @@ const DerailmentInvestigation = () => {
                     {/* (9) Creep */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10 mb-4">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(9) Creep</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs mb-2">
+                      <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                         This is a silent but very dangerous phenomenon of the track. Creep is a longitudinal displacement of track and is caused by
                       </p>
-                      <ul className="ml-4 space-y-1 text-xs mb-2">
-                        <li className="text-violet-50/95">• Temperature variation causing expansion and contraction of the rail.</li>
-                        <li className="text-violet-50/95">• The tractive forces of locomotive to push the rail backward.</li>
-                        <li className="text-violet-50/95">• Braking forces of train trying to push the rail forward. The effect of the above forces is accelerated if the rail fasteners are not able to hold the rails properly to the sleepers or rail seat on the sleepers is a damaged or bad joint in the track with out proper expansion gap.</li>
-                      </ul>
-                      <p className="text-violet-50/95 lg:text-sm text-xs">
+                      <div className="space-y-2 mb-2">
+                        {[
+                          "Temperature variation causing expansion and contraction of the rail.",
+                          "The tractive forces of locomotive to push the rail backward.",
+                          "Braking forces of train trying to push the rail forward. The effect of the above forces is accelerated if the rail fasteners are not able to hold the rails properly to the sleepers or rail seat on the sleepers is a damaged or bad joint in the track with out proper expansion gap."
+                        ].map((item, idx) => (
+                          <div key={idx} className="flex items-center gap-3 bg-violet-900/20 rounded-lg px-3 py-1 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
+                            <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                            <span className="text-violet-50/95 text-sm">{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <p className="text-violet-50/95 lg:text-base text-sm">
                         Para 242 (6) of IRPWM specifies maximum about of creep permitted as 150mm. In LWR and CWR creep indication point are provided at a distance of 50 meters and 100 meters SEJ(Switch Expansion Joint) on either end of LWR/CWR.
                       </p>
                     </div>
@@ -644,7 +708,7 @@ const DerailmentInvestigation = () => {
                     {/* (10) Buckling */}
                     <div className="bg-white/5 rounded-lg p-4 border border-violet-400/10">
                       <h4 className="text-violet-200 font-semibold mb-2 text-sm">(10) Buckling</h4>
-                      <p className="text-violet-50/95 lg:text-sm text-xs">
+                      <p className="text-violet-50/95 lg:text-base text-sm">
                         When a section of track buckles, about one or two rails length of the track leaves its place and moves side way. This also happens due to the rise in temperature and other reasons similar to the creep. The buckling may be horizontal or vertical. Buckling normally happens in the 2nd half of the day mostly, when the track has absorbed max. heat and also near the bridges, level crossings etc. where the track is firmly held in ground.
                       </p>
                     </div>
@@ -653,19 +717,26 @@ const DerailmentInvestigation = () => {
                   {/* (B) Defects of Rolling Stock */}
                   <div className="bg-white/5 rounded-xl p-5 border border-violet-400/20">
                     <h3 className="text-violet-200 font-bold lg:text-xl text-lg mb-4">(B) Defects of Rolling Stock</h3>
-                    <ul className="ml-4 space-y-2 text-xs">
-                      <li className="text-violet-50/95">• Defects in wheel and Axle Broken &amp; Hanging fittings</li>
-                      <li className="text-violet-50/95">• Defects in Bolster and Assemblies</li>
-                      <li className="text-violet-50/95">• Defects in spring gear, axle guard and trolley</li>
-                      <li className="text-violet-50/95">• Defects in Brake gear</li>
-                      <li className="text-violet-50/95">• Excessive Clearance in side bearer, pivot etc.</li>
-                      <li className="text-violet-50/95">• Hot box/Roller bearing failure</li>
-                      <li className="text-violet-50/95">• Under frame and under frame members out of alignment</li>
-                      <li className="text-violet-50/95">• Poor brake power</li>
-                      <li className="text-violet-50/95">• Broken or disengaged Baffle plates in the empty/unloaded tank wagons</li>
-                      <li className="text-violet-50/95">• Defective Draw gear, CBC gear and Buffing gear, Train parting &amp; subsequent-collision – &apos;alliance 2&apos; – couplets opening automatically.</li>
-                    </ul>
-                    <p className="text-violet-50/95 lg:text-sm text-xs mt-3">
+                    <div className="space-y-2">
+                      {[
+                        "Defects in wheel and Axle Broken & Hanging fittings",
+                        "Defects in Bolster and Assemblies",
+                        "Defects in spring gear, axle guard and trolley",
+                        "Defects in Brake gear",
+                        "Excessive Clearance in side bearer, pivot etc.",
+                        "Hot box/Roller bearing failure",
+                        "Under frame and under frame members out of alignment",
+                        "Poor brake power",
+                        "Broken or disengaged Baffle plates in the empty/unloaded tank wagons",
+                        "Defective Draw gear, CBC gear and Buffing gear, Train parting & subsequent-collision – 'alliance 2' – couplets opening automatically."
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-3 bg-violet-900/30 rounded-lg px-3 py-2 border border-violet-400/20 hover:bg-violet-800/40 transition-all duration-300 group">
+                          <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                          <span className="text-violet-50/95 text-sm">{item}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-violet-50/95 lg:text-base text-sm mt-3">
                       Defects of Locomotives are very similar to defects of Rolling Stock
                     </p>
                   </div>
