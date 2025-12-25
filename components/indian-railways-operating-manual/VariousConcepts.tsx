@@ -157,27 +157,20 @@ const VariousConcepts = () => {
                   <p className="text-purple-50/95 lg:text-base text-sm leading-relaxed mb-4">
                     Certain equipments are installed at various points to protect the lines, to monitor the availability of power supply and provide other facilities. These are generally as under:
                   </p>
-                  <div className="space-y-3">
-                    <div className="bg-white/5 rounded-lg p-3 border border-purple-400/10">
-                      <p className="text-purple-50/95 lg:text-sm text-xs">
-                        <span className="font-semibold text-purple-200">1.</span> Lightning arresters are provided to protect every sub-sector against voltage surges.
-                      </p>
-                    </div>
-                    <div className="bg-white/5 rounded-lg p-3 border border-purple-400/10">
-                      <p className="text-purple-50/95 lg:text-sm text-xs">
-                        <span className="font-semibold text-purple-200">2.</span> Auxiliary transformers are provided at all the posts and also at certain intermediate points to supply ac at 240 V, 50 Hz required for signalling and operationally essential lighting installations. To ensure a fairly steady voltage, automatic voltage regulators are also provided where required.
-                      </p>
-                    </div>
-                    <div className="bg-white/5 rounded-lg p-3 border border-purple-400/10">
-                      <p className="text-purple-50/95 lg:text-sm text-xs">
-                        <span className="font-semibold text-purple-200">3.</span> Potential transformers are provided at the various switching stations for monitoring supply to each sub-sector.
-                      </p>
-                    </div>
-                    <div className="bg-white/5 rounded-lg p-3 border border-purple-400/10">
-                      <p className="text-purple-50/95 lg:text-sm text-xs">
-                        <span className="font-semibold text-purple-200">4.</span> A small masonry cubicle is provided to accommodate remote control equipment, control panel, telephone and batteries and battery chargers required for the control of interruptors and other similar equipments.
-                      </p>
-                    </div>
+                  <div className="space-y-2">
+                    {[
+                      'Lightning arresters are provided to protect every sub-sector against voltage surges.',
+                      'Auxiliary transformers are provided at all the posts and also at certain intermediate points to supply ac at 240 V, 50 Hz required for signalling and operationally essential lighting installations. To ensure a fairly steady voltage, automatic voltage regulators are also provided where required.',
+                      'Potential transformers are provided at the various switching stations for monitoring supply to each sub-sector.',
+                      'A small masonry cubicle is provided to accommodate remote control equipment, control panel, telephone and batteries and battery chargers required for the control of interruptors and other similar equipments.'
+                    ].map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-purple-900/30 rounded-lg px-3 py-2 border border-purple-400/20 hover:bg-purple-800/40 transition-all duration-300 group">
+                        <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-purple-500/60 to-pink-500/60 border border-purple-300/30 text-purple-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                          {idx + 1}
+                        </span>
+                        <span className="text-purple-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -201,29 +194,43 @@ const VariousConcepts = () => {
                     <h3 className="text-cyan-200 font-bold lg:text-xl text-lg mb-4">Catenary and Contact Wires</h3>
                     <div className="space-y-4">
                       <div className="bg-white/5 rounded-lg p-4 border border-cyan-400/10">
-                        <p className="text-cyan-50/95 lg:text-base text-sm leading-relaxed mb-3">
-                          <span className="font-semibold text-cyan-200">1.</span> The overhead equipment above the tracks comprises of the following: -
-                        </p>
-                        <ul className="ml-6 space-y-2 text-cyan-50/95 lg:text-sm text-xs">
-                          <li className="flex items-start">
-                            <span className="font-semibold text-cyan-200 mr-2">a)</span>
-                            <span>A stranded cadmium copper wire of about 65 mm<sup>2</sup> section or stranded aluminium alloy wire of about 116 mm<sup>2</sup> section for catenary.</span>
-                          </li>
-                          <li className="flex items-start">
-                            <span className="font-semibold text-cyan-200 mr-2">b)</span>
-                            <span>A grooved hard drawn copper contact wire of 107 mm<sup>2</sup> cross-section (when new) supported from the catenary by means of droppers of 5 mm diameter spaced not more than 9 m apart.</span>
-                          </li>
-                        </ul>
+                        <div className="space-y-4">
+                          <div className="flex items-start gap-3 bg-cyan-900/30 rounded-lg px-3 py-2 border border-cyan-400/20 hover:bg-cyan-800/40 transition-all duration-300 group">
+                            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-cyan-500/60 to-blue-500/60 border border-cyan-300/30 text-cyan-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                              1
+                            </span>
+                            <span className="text-cyan-50/95 lg:text-base text-sm flex-1 leading-relaxed">The overhead equipment above the tracks comprises of the following: -</span>
+                          </div>
+                          <div className="ml-4 space-y-2">
+                            {[
+                              'A stranded cadmium copper wire of about 65 mm² section or stranded aluminium alloy wire of about 116 mm² section for catenary.',
+                              'A grooved hard drawn copper contact wire of 107 mm² cross-section (when new) supported from the catenary by means of droppers of 5 mm diameter spaced not more than 9 m apart.'
+                            ].map((item, idx) => (
+                              <div key={idx} className="flex items-start gap-3 bg-cyan-900/20 rounded-lg px-3 py-2 border border-cyan-400/15 hover:bg-cyan-800/30 transition-all duration-300 group">
+                                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-linear-to-br from-cyan-400/50 to-blue-400/50 border border-cyan-300/25 text-cyan-100 font-bold text-xs shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                                  {String.fromCharCode(97 + idx)}
+                                </span>
+                                <span className="text-cyan-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
                       </div>
                       <div className="bg-white/5 rounded-lg p-4 border border-cyan-400/10">
-                        <p className="text-cyan-50/95 lg:text-base text-sm leading-relaxed mb-2">
-                          <span className="font-semibold text-cyan-200">2.</span> The catenary and contact wire together have an equivalent copper section of 157 mm<sup>2</sup>. The current normally permissible on a single track is 600 A approximately, because of equivalent cross-sectional area of OHE. This current limit is based on the temperature limit of 85°C in contact wire. Certain sections in Waltair-Kirandul section have the catenary and contact wires together having an equivalent copper section of 200 mm<sup>2</sup>.
-                        </p>
+                        <div className="flex items-start gap-3 bg-cyan-900/30 rounded-lg px-3 py-2 border border-cyan-400/20 hover:bg-cyan-800/40 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-cyan-500/60 to-blue-500/60 border border-cyan-300/30 text-cyan-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                            2
+                          </span>
+                          <span className="text-cyan-50/95 lg:text-base text-sm flex-1 leading-relaxed">The catenary and contact wire together have an equivalent copper section of 157 mm². The current normally permissible on a single track is 600 A approximately, because of equivalent cross-sectional area of OHE. This current limit is based on the temperature limit of 85°C in contact wire. Certain sections in Waltair-Kirandul section have the catenary and contact wires together having an equivalent copper section of 200 mm².</span>
+                        </div>
                       </div>
                       <div className="bg-white/5 rounded-lg p-4 border border-cyan-400/10">
-                        <p className="text-cyan-50/95 lg:text-base text-sm leading-relaxed">
-                          <span className="font-semibold text-cyan-200">3.</span> For loop lines, sidings, yards and spur lines excluding the main running lines and first loop or lines taking off from main running line, tramway type OHE having only grooved hard drawn copper contact wire of 107 mm<sup>2</sup> section is provided.
-                        </p>
+                        <div className="flex items-start gap-3 bg-cyan-900/30 rounded-lg px-3 py-2 border border-cyan-400/20 hover:bg-cyan-800/40 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-cyan-500/60 to-blue-500/60 border border-cyan-300/30 text-cyan-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                            3
+                          </span>
+                          <span className="text-cyan-50/95 lg:text-base text-sm flex-1 leading-relaxed">For loop lines, sidings, yards and spur lines excluding the main running lines and first loop or lines taking off from main running line, tramway type OHE having only grooved hard drawn copper contact wire of 107 mm² section is provided.</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -261,16 +268,19 @@ const VariousConcepts = () => {
                     <p className="text-cyan-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       There are two types of overlap spans as under:-
                     </p>
-                    <ul className="ml-6 space-y-2 text-cyan-50/95 lg:text-sm text-xs">
-                      <li className="flex items-start">
-                        <span className="font-semibold text-cyan-200 mr-2">a)</span>
-                        <span>Uninsulated overlap spans where the distance of separation between two contact wires is 200 mm and the two conductors are permanently connected together electrically by suitable jumpers.</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="font-semibold text-cyan-200 mr-2">b)</span>
-                        <span>Insulated overlaps, where the two OHE systems are kept apart at a distance of 500 mm. Normally the electrical discontinuity at insulated overlaps is bridged by interrupters or isolator except at neutral sections.</span>
-                      </li>
-                    </ul>
+                    <div className="space-y-2">
+                      {[
+                        'Uninsulated overlap spans where the distance of separation between two contact wires is 200 mm and the two conductors are permanently connected together electrically by suitable jumpers.',
+                        'Insulated overlaps, where the two OHE systems are kept apart at a distance of 500 mm. Normally the electrical discontinuity at insulated overlaps is bridged by interrupters or isolator except at neutral sections.'
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-start gap-3 bg-cyan-900/20 rounded-lg px-3 py-2 border border-cyan-400/15 hover:bg-cyan-800/30 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-6 h-6 rounded-full bg-linear-to-br from-cyan-400/50 to-blue-400/50 border border-cyan-300/25 text-cyan-100 font-bold text-xs shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                            {String.fromCharCode(97 + idx)}
+                          </span>
+                          <span className="text-cyan-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
 
                   {/* Regulated and Unregulated OHE */}
@@ -306,11 +316,11 @@ const VariousConcepts = () => {
                   GENERAL DESCRIPTION OF ELECTRIC ROLLING STOCK
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-orange-500/20 via-amber-500/15 to-yellow-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+              <div className="bg-linear-to-br from-orange-500/20 via-amber-500/15 to-yellow-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-6">
                   
                   {/* Classification of Electric Rolling Stock */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-orange-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-orange-400/20">
                     <h3 className="text-orange-200 font-bold lg:text-xl text-lg mb-4">Classification of Electric Rolling Stock</h3>
                     <div className="space-y-4">
                       <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
@@ -320,41 +330,51 @@ const VariousConcepts = () => {
                         The code letters used for AC locos and EMUs are given below:
                       </p>
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10 space-y-2">
-                        <p className="text-orange-50/95 lg:text-sm text-xs">
+                        <p className="text-orange-50/95 lg:text-base text-sm">
                           The first letter denotes the Gauge: &apos;W&apos; for BG and &apos;Y&apos; for MG.
                         </p>
-                        <p className="text-orange-50/95 lg:text-sm text-xs">
+                        <p className="text-orange-50/95 lg:text-base text-sm">
                           The second (middle) letters &apos;A&apos; denotes the system of power supply for which it is suitable - A for AC &amp; C for DC, CA for DC &amp; AC.
                         </p>
-                        <p className="text-orange-50/95 lg:text-sm text-xs mb-2">
+                        <p className="text-orange-50/95 lg:text-base text-sm mb-2">
                           The third letter for locos indicates the class of service -
                         </p>
-                        <ul className="ml-4 space-y-1 text-orange-50/95 lg:text-sm text-xs">
-                          <li>&apos;M&apos; for mixed traffic locos suitable for both passenger and freight services,</li>
-                          <li>&apos;G&apos; for Freight (Goods) service locos,</li>
-                          <li>&apos;P&apos; for Passenger services locos, and</li>
-                          <li>&apos;S&apos; for Shunting locos.</li>
-                        </ul>
-                        <p className="text-orange-50/95 lg:text-sm text-xs mt-2">
+                        <div className="ml-0 space-y-2">
+                          {[
+                            "'M' for mixed traffic locos suitable for both passenger and freight services,",
+                            "'G' for Freight (Goods) service locos,",
+                            "'P' for Passenger services locos, and",
+                            "'S' for Shunting locos."
+                          ].map((item, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-orange-900/20 rounded-lg px-3 py-2 border border-orange-400/15 hover:bg-orange-800/30 transition-all duration-300 group">
+                              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-linear-to-br from-orange-400/50 to-amber-400/50 border border-orange-300/25 text-orange-100 font-bold text-xs shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                                {['M', 'G', 'P', 'S'][idx]}
+                              </span>
+                              <span className="text-orange-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                            </div>
+                          ))}
+                        </div>
+                        <p className="text-orange-50/95 lg:text-base text-sm mt-2">
                           Multiple Unit Stock is denoted by the letter &apos;U&apos;.
                         </p>
                       </div>
                       <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed mb-3">
                         The various classes of ac locos and EMUs at present in service on Indian Railway are as under:-
                       </p>
-                      <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10 space-y-2">
-                        <p className="text-orange-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-orange-200">(a)</span> AC Locos— WAG1, WAG2. WAG3, WAG4, WAG5, WAG6, WAG7, WAG9WAG9M
-                        </p>
-                        <p className="text-orange-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-orange-200">(b)</span> WAP1, WAP2, WAP3, WAM1, WAM2, WAM3, WAM4, WAP4, WAP 5, YAM1
-                        </p>
-                        <p className="text-orange-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-orange-200">(c)</span> AC/DC Locos— WCAM1,
-                        </p>
-                        <p className="text-orange-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-orange-200">(d)</span> AC EMUs— WAU1, WAU2, WAU3, WAU4, YAU.
-                        </p>
+                      <div className="space-y-2">
+                        {[
+                          'AC Locos— WAG1, WAG2. WAG3, WAG4, WAG5, WAG6, WAG7, WAG9WAG9M',
+                          'WAP1, WAP2, WAP3, WAM1, WAM2, WAM3, WAM4, WAP4, WAP 5, YAM1',
+                          'AC/DC Locos— WCAM1,',
+                          'AC EMUs— WAU1, WAU2, WAU3, WAU4, YAU.'
+                        ].map((item, idx) => (
+                          <div key={idx} className="flex items-start gap-3 bg-orange-900/30 rounded-lg px-3 py-2 border border-orange-400/20 hover:bg-orange-800/40 transition-all duration-300 group">
+                            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-orange-500/60 to-amber-500/60 border border-orange-300/30 text-orange-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                              {String.fromCharCode(97 + idx)}
+                            </span>
+                            <span className="text-orange-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                          </div>
+                        ))}
                       </div>
                       <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                         In addition two types of BG DC EMUs converted for AC working are in use on the Eastern Railway.
@@ -371,13 +391,13 @@ const VariousConcepts = () => {
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10">
                         <h4 className="text-orange-200 font-semibold lg:text-lg text-base mb-3">Pantograph</h4>
                         <div className="space-y-3">
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             For collecting power from 25 kV ac contact wire pantographs are mounted on the roof of the traction vehicles. AM 12 pantograph of Faively design has been adopted by Indian Railways for 25 kV ac electric locomotives and EMUs. These pantographs are provided with steel strips for current collection. The raising and lowering of the pantograph is by means of a pneumatically operated servo motor. This pantograph is a single pan design having two o-springs mounted on it. For keeping the pantograph in the lowered condition, main springs have been used. The suspension of pan is on plungers.
                           </p>
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             This pantograph is suitable for operation upto 140 km/h. For increasing the speed potential, improved pantograph with lower dynamic mass and independent pan heads have been used. Further, in order to improve the life of the contact wire, use of carbon strips has also been tried. Use of carbon strips for current collection has already been adopted in European countries.
                           </p>
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             Use of carbon strips necessitates change in the design of the pantograph; the pan head which is more or less rigid in case of steel strip pantograph needs to be made more flexible in the vertical, horizontal and transverse movement for carbon strip pantographs. This is achieved by improved suspension of the pan head. The speed potential of such a pantograph is of the order of 250 km/h.
                           </p>
                         </div>
@@ -387,16 +407,16 @@ const VariousConcepts = () => {
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10">
                         <h4 className="text-orange-200 font-semibold lg:text-lg text-base mb-3">2. Circuit Breaker</h4>
                         <div className="bg-white/5 rounded-lg p-3 border border-orange-400/5 mb-3">
-                          <ul className="ml-4 space-y-1 text-orange-50/95 lg:text-sm text-xs">
+                          <ul className="ml-0 space-y-1 text-orange-50/95 lg:text-base text-sm">
                             <li>-- Air Blast Circuit breaker</li>
                             <li>-- Vacuum Circuit breaker</li>
                           </ul>
                         </div>
                         <div className="space-y-3">
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             These breakers are designed for isolation of power to the traction vehicle in the event of faults. Vacuum Circuit Breakers were introduced on electric locomotives on Indian Rlys. in the year 1985.
                           </p>
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             The VCB is a simplified design with fewer number of parts (260 Nos.), have a simplified control block and self - contained interrupting medium that is vacuum. Due to these features, the life of the main contact achievable is as high as 1 lakh electrical operations as against 20,000 operations for air blast circuit breakers. As a result, the periodicity of replacement of main contact is second POH for VCB and IOH for Air Blast Circuit Breakers. Besides, these factors, VCB also offers the advantages of reduced size, reduced weight and reduced maintenance cost as compared to these for air blast circuit breakers. The total trip-time for VCB is less than 60 milli-seconds while the same is of the order of 100 milli-seconds for air blast circuit breakers. The air blast circuit breaker is only capable of breaking the fault current with breaking capacity of 250 MVA. The VCB, besides having breaking capacity is also designed for making capacity of the same rating, i.e. 250 MVA and can handle the same level of fault current during closing also.
                           </p>
                         </div>
@@ -406,16 +426,16 @@ const VariousConcepts = () => {
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10">
                         <h4 className="text-orange-200 font-semibold lg:text-lg text-base mb-3">3. Transformer</h4>
                         <div className="space-y-3">
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             Power to the traction vehicles is available at 25 kV ac single phase from the contact wire. In order to step down the voltage as well as to control the same for feeding to the traction motors, the traction power transformers are provided on the traction vehicles.
                           </p>
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             These transformers generally have a primary winding, a regulating winding, traction secondary windings and auxiliary windings. The regulating winding is designed for choosing appropriate voltage for the traction motors. The auxiliary winding is required for feeding the auxiliary motors on the locomotive.
                           </p>
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             In order to increase the h.p. of the locomotives, the traction transformers have been uprated from time to time keeping the overall dimensions unchanged on account of space constraint. The upratings have been achieved by using increased copper section of the conductor used, improved insulation scheme and in certain cases adoption of aluminium foil wound construction for minimizing the losses. With the introduction of thyristorised converters, the design of the traction transformer has undergone simplification with the deletion of regulating winding. The transformer for thyristorised converter becomes a two limb construction and traction secondary winding split into 4 windings for two step sequence control.
                           </p>
-                          <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                          <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                             The traction transformer necessarily has to have forced oil circulation and forced air cooling. For this purpose oil pump, oil cooler and blower form an integral part of the traction transformer.
                           </p>
                         </div>
@@ -424,7 +444,7 @@ const VariousConcepts = () => {
                       {/* Tap Changer */}
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10">
                         <h4 className="text-orange-200 font-semibold lg:text-lg text-base mb-3">Tap Changer</h4>
-                        <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                        <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                           Tap changer is provided on 25 kV (HT) regulating winding of locomotive transformer for controlling the voltage input to main transformer.
                         </p>
                       </div>
@@ -432,7 +452,7 @@ const VariousConcepts = () => {
                       {/* Traction Motor */}
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10">
                         <h4 className="text-orange-200 font-semibold lg:text-lg text-base mb-3">Traction Motor</h4>
-                        <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                        <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                           In case of traction motor great emphasis is being given on improving power to weight ratio, keeping in view the limited space available on locomotive for mounting the same. There is continuous effort to improve the performance of traction motor by making them lighter/compact, at the same time more reliable. Indian Railways have been adopting the latest technology available for design and manufacture of traction motor. Over a period of years the traction motors have become now 2.5 times lighter specially for EMU application.
                         </p>
                       </div>
@@ -440,7 +460,7 @@ const VariousConcepts = () => {
                       {/* Arno Converter */}
                       <div className="bg-white/5 rounded-lg p-4 border border-orange-400/10">
                         <h4 className="text-orange-200 font-semibold lg:text-lg text-base mb-3">Arno Converter</h4>
-                        <p className="text-orange-50/95 lg:text-sm text-xs leading-relaxed">
+                        <p className="text-orange-50/95 lg:text-base text-sm leading-relaxed">
                           Arno Converter is a special duty machine for conversion of single phase in-coming supply into 3 phase out- put supply. 3 phase supply is essentially required on most of the electrical locomotives for driving certain auxiliary equipment like blowers and compressors. The function of Amo Converter is to supply 3 phase power required for these auxiliaries.
                         </p>
                       </div>
@@ -462,249 +482,143 @@ const VariousConcepts = () => {
                   CREW LINKS, LOCO LINKS AND POWER PLAN
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-indigo-500/20 via-blue-500/15 to-purple-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+              <div className="bg-linear-to-br from-indigo-500/20 via-blue-500/15 to-purple-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-6">
                   
                   {/* Procedure for Calculating Crew Requirement of a Division */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-indigo-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-indigo-400/20">
                     <h3 className="text-indigo-200 font-bold lg:text-xl text-lg mb-4">PROCEDURE FOR CALCULATING CREW REQUIREMENT OF A DIVISION</h3>
-                    <div className="space-y-3">
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">1.</span> Running staff review should be carried out after every six months i.e. on 15<sup>th</sup> Jan. and 1<sup>st</sup> July by STA (Senior technical assistant) of the division.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">2.</span> Before preparing review, loco pilot&apos;s links of all the sheds should be got prepared and vetted by personnel branch.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">3.</span> Statement of avg. hours on road and no. of goods
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">4.</span> Trains ran during last six months for each section should be ready duly approved by Sr. DOM/DOM. A list of shunting points and DMTs running to be prepared and signed by Sr. DOM/DOM.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">5.</span> Mail/Express/Passenger Loco pilots requirement to be worked on the basis of loco pilots/crew links.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">6.</span> For goods crews, the requirement should be worked out as per power plan signed by Sr DME(P) and Sr. DOM. 7.67 Crews are to be demanded for one freight POL. Separate crews to be demanded for the activities which cannot been covered in power plan e.g., Light engine and Empty coaching rakes running etc.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">7.</span> 30% leave reserve and 10 % trainee reserve should be demanded for this additional requirement.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">8.</span> Shunters should be demanded @ 1 against 8 hrs. point. Also rest giver @ 1 for 6 shunters to be demanded. Leave reserve and trainee post to be demanded separately.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">9.</span> Requirement of DSL assistants should be same as that of loco pilots (Excluding motormen where no assistant loco pilot is required).
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">10.</span> Running staff review duly signed by Sr. DME/Sr DEE should be put up to Sr. DAO for vetting.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">11.</span> After accounts vetting sanction of DRM be taken and Sr. DPO will issue circulars of revised sanction.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">+</span> Running supervisors review should also be made with staff review @ 1 loco Inspector against 25 loco pilots or 50 shunters. No rest giver allowed. Leave reserve 12.5%.
-                        </p>
-                      </div>
+                    <div className="space-y-2">
+                      {[
+                        'Running staff review should be carried out after every six months i.e. on 15th Jan. and 1st July by STA (Senior technical assistant) of the division.',
+                        'Before preparing review, loco pilot\'s links of all the sheds should be got prepared and vetted by personnel branch.',
+                        'Statement of avg. hours on road and no. of goods',
+                        'Trains ran during last six months for each section should be ready duly approved by Sr. DOM/DOM. A list of shunting points and DMTs running to be prepared and signed by Sr. DOM/DOM.',
+                        'Mail/Express/Passenger Loco pilots requirement to be worked on the basis of loco pilots/crew links.',
+                        'For goods crews, the requirement should be worked out as per power plan signed by Sr DME(P) and Sr. DOM. 7.67 Crews are to be demanded for one freight POL. Separate crews to be demanded for the activities which cannot been covered in power plan e.g., Light engine and Empty coaching rakes running etc.',
+                        '30% leave reserve and 10 % trainee reserve should be demanded for this additional requirement.',
+                        'Shunters should be demanded @ 1 against 8 hrs. point. Also rest giver @ 1 for 6 shunters to be demanded. Leave reserve and trainee post to be demanded separately.',
+                        'Requirement of DSL assistants should be same as that of loco pilots (Excluding motormen where no assistant loco pilot is required).',
+                        'Running staff review duly signed by Sr. DME/Sr DEE should be put up to Sr. DAO for vetting.',
+                        'After accounts vetting sanction of DRM be taken and Sr. DPO will issue circulars of revised sanction.',
+                        'Running supervisors review should also be made with staff review @ 1 loco Inspector against 25 loco pilots or 50 shunters. No rest giver allowed. Leave reserve 12.5%.'
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-start gap-3 bg-indigo-900/30 rounded-lg px-3 py-2 border border-indigo-400/20 hover:bg-indigo-800/40 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-indigo-500/60 to-blue-500/60 border border-indigo-300/30 text-indigo-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                            {idx + 1}
+                          </span>
+                          <span className="text-indigo-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                        </div>
+                      ))}
                     </div>
                   </div>
 
                   {/* Points to be Kept in View While Preparing Loco Pilot's Links */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-indigo-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-indigo-400/20">
                     <h3 className="text-indigo-200 font-bold lg:text-xl text-lg mb-4">POINTS TO BE KEPT IN VIEW WHILE PREPARING LOCO PILOT&apos;S LINKS</h3>
-                    <div className="space-y-3">
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">1.</span> Loco pilot/Crew links are prepared by CPRC/CTLC and got verified from Personnel Branch. Objective of crew links is to ensure optimum utilization of crews.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">2.</span> Train timings to be checked from the latest timetable.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">3.</span> Links to be prepared before promulgation of new time table.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">4.</span> Max. duty hours in anyone trip should not exceed 10 hours.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">5.</span> Avg. duty hours in a fortnight should not exceed 104 hours.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">6.</span> Min. no. of rests in a month should be 5 of 22 hrs. or 4 of 30 hours including night in bed from 22 hrs. to 6 hrs. from sign off to sign on.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">7.</span> Efforts should be made to include all the sections in the link to avoid giving learning road again and again.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">8.</span> Min. out of station rest in case less than 8 hrs. duty in the previous trip should be 6 hrs from sign off to sign on. In case duty is 8 hrs or more than 8 hrs, then 8 hrs. rest to be given. In case of short trips of less than or equal to 5 hours then duty performed plus 1 hrs. will be sufficient.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs mb-2">
-                          <span className="font-semibold text-indigo-200">9.</span> Min. home station rest should be
-                        </p>
-                        <ul className="ml-6 space-y-1 text-indigo-50/95 lg:text-sm text-xs">
-                          <li className="flex items-start">
-                            <span className="font-semibold text-indigo-200 mr-2">(a)</span>
-                            <span>If duty performed in the last trip is less than 8 hrs., then 12 hrs.</span>
-                          </li>
-                          <li className="flex items-start">
-                            <span className="font-semibold text-indigo-200 mr-2">(b)</span>
-                            <span>If duty is 8 hrs. or more. then 16 hrs.</span>
-                          </li>
-                          <li className="flex items-start">
-                            <span className="font-semibold text-indigo-200 mr-2">(c)</span>
-                            <span>If staff is required to work train less then stipulated rest then breach of rest allowance is payable to running staff.</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">10.</span> Link having the maximum earning kilometerage should be worked by senior most loco pilots and so on.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">11.</span> Separate links should be prepared for superfast trains such as Rajdhani/Shatabdi Exp. Chronic late running trains should be kept in view to avoid link failures.
-                        </p>
-                      </div>
+                    <div className="space-y-2">
+                      {[
+                        'Loco pilot/Crew links are prepared by CPRC/CTLC and got verified from Personnel Branch. Objective of crew links is to ensure optimum utilization of crews.',
+                        'Train timings to be checked from the latest timetable.',
+                        'Links to be prepared before promulgation of new time table.',
+                        'Max. duty hours in anyone trip should not exceed 10 hours.',
+                        'Avg. duty hours in a fortnight should not exceed 104 hours.',
+                        'Min. no. of rests in a month should be 5 of 22 hrs. or 4 of 30 hours including night in bed from 22 hrs. to 6 hrs. from sign off to sign on.',
+                        'Efforts should be made to include all the sections in the link to avoid giving learning road again and again.',
+                        'Min. out of station rest in case less than 8 hrs. duty in the previous trip should be 6 hrs from sign off to sign on. In case duty is 8 hrs or more than 8 hrs, then 8 hrs. rest to be given. In case of short trips of less than or equal to 5 hours then duty performed plus 1 hrs. will be sufficient.',
+                        'Min. home station rest should be',
+                        'Link having the maximum earning kilometerage should be worked by senior most loco pilots and so on.',
+                        'Separate links should be prepared for superfast trains such as Rajdhani/Shatabdi Exp. Chronic late running trains should be kept in view to avoid link failures.'
+                      ].map((item, idx) => (
+                        <div key={idx} className="space-y-2">
+                          <div className="flex items-start gap-3 bg-indigo-900/30 rounded-lg px-3 py-2 border border-indigo-400/20 hover:bg-indigo-800/40 transition-all duration-300 group">
+                            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-indigo-500/60 to-blue-500/60 border border-indigo-300/30 text-indigo-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                              {idx + 1}
+                            </span>
+                            <span className="text-indigo-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                          </div>
+                          {idx === 8 && (
+                            <div className="ml-0 space-y-2">
+                              {[
+                                'If duty performed in the last trip is less than 8 hrs., then 12 hrs.',
+                                'If duty is 8 hrs. or more. then 16 hrs.',
+                                'If staff is required to work train less then stipulated rest then breach of rest allowance is payable to running staff.'
+                              ].map((subitem, subidx) => (
+                                <div key={subidx} className="flex items-start gap-3 bg-indigo-900/20 rounded-lg px-3 py-2 border border-indigo-400/15 hover:bg-indigo-800/30 transition-all duration-300 group">
+                                  <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-indigo-400/50 to-blue-400/50 border border-indigo-300/25 text-indigo-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                                    {String.fromCharCode(97 + subidx)}
+                                  </span>
+                                  <span className="text-indigo-50/95 lg:text-base text-sm flex-1 leading-relaxed">{subitem}</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
                     </div>
                   </div>
 
                   {/* Points to be Kept in View While Preparing Locomotive Links */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-indigo-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-indigo-400/20">
                     <h3 className="text-indigo-200 font-bold lg:text-xl text-lg mb-4">POINTS TO BE KEPT IN VIEW WHILE PREPARING LOCOMOTIVE LINKS</h3>
-                    <div className="space-y-3">
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">1.</span> Loco/Power links are prepared by HQ.&apos;s office and circulated to the divisions. The objective of power links is to ensure optimum utilization of powers.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">2.</span> Train timings should be checked from latest time table.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">3.</span> Links to be prepared before commencement of new time table.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">4.</span> Efforts should be made to send the loco to home shed for servicing within the stipulated schedule time
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">5.</span> Minimum possible out station halt should be provided.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">6.</span> Ensure loco is permitted to run on the sections at the max. permissible speed of the train.
-                        </p>
-                      </div>
+                    <div className="space-y-2">
+                      {[
+                        'Loco/Power links are prepared by HQ.\'s office and circulated to the divisions. The objective of power links is to ensure optimum utilization of powers.',
+                        'Train timings should be checked from latest time table.',
+                        'Links to be prepared before commencement of new time table.',
+                        'Efforts should be made to send the loco to home shed for servicing within the stipulated schedule time',
+                        'Minimum possible out station halt should be provided.',
+                        'Ensure loco is permitted to run on the sections at the max. permissible speed of the train.'
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-start gap-3 bg-indigo-900/30 rounded-lg px-3 py-2 border border-indigo-400/20 hover:bg-indigo-800/40 transition-all duration-300 group">
+                          <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-indigo-500/60 to-blue-500/60 border border-indigo-300/30 text-indigo-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                            {idx + 1}
+                          </span>
+                          <span className="text-indigo-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                        </div>
+                      ))}
                     </div>
                   </div>
 
                   {/* Power Requirement (Power Plan) */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-indigo-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-indigo-400/20">
                     <h3 className="text-indigo-200 font-bold lg:text-xl text-lg mb-4">POWER REQUIREMENT (POWER PLAN)</h3>
                     <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10 mb-4">
                       <p className="text-indigo-200 font-semibold lg:text-base text-sm mb-3">(A)</p>
                     </div>
-                    <div className="space-y-3">
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">1.</span> To be prepared once in six months.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">2.</span> Avg. No. of trains run on each section per day and Avg. hours on road for last six months duly signed by Sr.DME(P) and Sr.DOM to be prepared.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs mb-2">
-                          <span className="font-semibold text-indigo-200">3.</span> Formula: Section wise average freight POL for the last six months to be calculated as under:
-                        </p>
-                        <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/5 mb-2">
-                          <p className="text-indigo-50/95 lg:text-sm text-xs font-mono text-center">
-                            Bare POL = PDD + HOR + PAD
-                          </p>
+                    <div className="space-y-2">
+                      {[
+                        'To be prepared once in six months.',
+                        'Avg. No. of trains run on each section per day and Avg. hours on road for last six months duly signed by Sr.DME(P) and Sr.DOM to be prepared.',
+                        'Formula: Section wise average freight POL for the last six months to be calculated as under:',
+                        '3.5 % further growth and 10% Bunching allowance to be demanded on Bare POL',
+                        'Loco\'s requirement. for DMT. ART. and other loco\'s which remain in outage but not added in POL for the purpose of calculation of average kilometers to be added in the bare requirement.',
+                        'To arrive total POL. last six month average POL of shunting loco link WDS-4, WDS-5 pilots and Mail lie over to be added in the POL calculated above.',
+                        'Mail/Exp./Pass. Loco requirement to be worked out on the basis of loco link. Add 10% for major repair allowance.',
+                        'For shunting services, work out number of points for 8 hours shunting, demand 0.33 POL. Add 1 loco as overlap against 06 loco. Add 10% for major repairs.',
+                        'Kms formula: Total kms earned on the Avg. per day during last six months divided by average loco utilization.'
+                      ].map((item, idx) => (
+                        <div key={idx} className="space-y-2">
+                          <div className="flex items-start gap-3 bg-indigo-900/30 rounded-lg px-3 py-2 border border-indigo-400/20 hover:bg-indigo-800/40 transition-all duration-300 group">
+                            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-linear-to-br from-indigo-500/60 to-blue-500/60 border border-indigo-300/30 text-indigo-100 font-bold text-sm shadow group-hover:scale-110 transition-all duration-300 mt-0.5 shrink-0">
+                              {idx + 1}
+                            </span>
+                            <span className="text-indigo-50/95 lg:text-base text-sm flex-1 leading-relaxed">{item}</span>
+                          </div>
+                          {idx === 2 && (
+                            <div className="ml-0 space-y-2">
+                              <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/5">
+                                <p className="text-indigo-50/95 lg:text-base text-sm font-mono text-center">
+                                  Bare POL = PDD + HOR + PAD
+                                </p>
+                              </div>
+                              <p className="text-indigo-50/95 lg:text-base text-sm">
+                                (POL=Power on line ; PDD = Pre departure detention; HOR=Hours on road; PAD=Post arrival detention)
+                              </p>
+                            </div>
+                          )}
                         </div>
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          (POL=Power on line ; PDD = Pre departure detention; HOR=Hours on road; PAD=Post arrival detention)
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">4.</span> 3.5 % further growth and 10% Bunching allowance to be demanded on Bare POL
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">5.</span> Loco&apos;s requirement. for DMT. ART. and other loco&apos;s which remain in outage but not added in POL for the purpose of calculation of average kilometers to be added in the bare requirement.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">6.</span> To arrive total POL. last six month average POL of shunting loco link WDS-4, WDS-5 pilots and Mail lie over to be added in the POL calculated above.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">7.</span> Mail/Exp./Pass. Loco requirement to be worked out on the basis of loco link. Add 10% for major repair allowance.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">8.</span> For shunting services, work out number of points for 8 hours shunting, demand 0.33 POL. Add 1 loco as overlap against 06 loco. Add 10% for major repairs.
-                        </p>
-                      </div>
-                      <div className="bg-white/5 rounded-lg p-3 border border-indigo-400/10">
-                        <p className="text-indigo-50/95 lg:text-sm text-xs">
-                          <span className="font-semibold text-indigo-200">9.</span> Kms formula: Total kms earned on the Avg. per day during last six months divided by average loco utilization.
-                        </p>
-                      </div>
+                      ))}
                     </div>
                   </div>
 
@@ -722,20 +636,20 @@ const VariousConcepts = () => {
                   LOCO MAINTENANCE SCHEDULE
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-emerald-500/20 via-teal-500/15 to-cyan-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+              <div className="bg-linear-to-br from-emerald-500/20 via-teal-500/15 to-cyan-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-6">
                   
                   {/* (I) & (II) Conventional Locos */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-emerald-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-emerald-400/20">
                     <h3 className="text-emerald-200 font-bold lg:text-xl text-lg mb-4">(I) &amp; (II) Conventional Locos</h3>
                     
                     {/* Coaching Locos */}
                     <div className="bg-white/5 rounded-lg p-4 border border-emerald-400/10 mb-4">
-                      <p className="text-emerald-50/95 lg:text-sm text-xs mb-3">
+                      <p className="text-emerald-50/95 lg:text-base text-sm mb-3">
                         Coaching Locos (Railway Board Letter No.92/Elect (TRS)/138/5 Pt. I, dated 18.01.2001 &amp; Railway Board Letter No.9/Elect (TRS)/138/5 Pt.II, dated 21.12.001)
                       </p>
                       <div className="overflow-x-auto">
-                        <table className="w-full text-xs border-collapse">
+                        <table className="w-full text-base border-collapse">
                           <thead>
                             <tr className="bg-white/10">
                               <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold">Maintenance schedule</th>
@@ -745,39 +659,39 @@ const VariousConcepts = () => {
                           </thead>
                           <tbody>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">Trip Inspection(TI)</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">After 3000 kms or one trip, whichever is later</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">2 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">Trip Inspection(TI)</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">After 3000 kms or one trip, whichever is later</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">2 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IA</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">40 + 3days.</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">4hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IA</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">40 + 3days.</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">4hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IB</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">80 + 3days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IB</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">80 + 3days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IC</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">120 + 3days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">8 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IC</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">120 + 3days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">8 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">AOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">12 months + 15 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">AOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">12 months + 15 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">36 months + 1 month or 4(6 lakh for wAP-1/4 loco) lakh kms. whichever is earlier.</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">9 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">36 months + 1 month or 4(6 lakh for wAP-1/4 loco) lakh kms. whichever is earlier.</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">9 days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">POH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 years+ 3 months or 8 lakh kms. (12 lakh for WP-1/4 loco) whichever is earlier.</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">28 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">POH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 years+ 3 months or 8 lakh kms. (12 lakh for WP-1/4 loco) whichever is earlier.</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">28 days</td>
                             </tr>
                           </tbody>
                         </table>
@@ -786,11 +700,11 @@ const VariousConcepts = () => {
 
                     {/* Freight Locos */}
                     <div className="bg-white/5 rounded-lg p-4 border border-emerald-400/10">
-                      <p className="text-emerald-50/95 lg:text-sm text-xs mb-3">
+                      <p className="text-emerald-50/95 lg:text-base text-sm mb-3">
                         Freight Locos (Railway Board Letter No.92/Elect (TRS)/138/5 Pt. I, dated 18.01.2001)
                       </p>
                       <div className="overflow-x-auto">
-                        <table className="w-full text-xs border-collapse">
+                        <table className="w-full text-base border-collapse">
                           <thead>
                             <tr className="bg-white/10">
                               <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold">Maintenance schedule</th>
@@ -800,39 +714,39 @@ const VariousConcepts = () => {
                           </thead>
                           <tbody>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">Trip Inspection(TI)</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">15 days (Fitted with TAO TMs) (20 days (fitted with Hitachi TMs)</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">2 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">Trip Inspection(TI)</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">15 days (Fitted with TAO TMs) (20 days (fitted with Hitachi TMs)</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">2 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IA</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">45+ 3 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">4 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IA</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">45+ 3 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">4 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IB</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">90+ 3 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IB</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">90+ 3 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IC</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">135+ 3 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">8 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IC</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">135+ 3 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">8 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">AOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">18 months + 10 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">AOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">18 months + 10 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 working days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">54 months + 1 monthy or 6 lakh kms whichever is earlier</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">9 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">54 months + 1 monthy or 6 lakh kms whichever is earlier</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">9 working days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">POH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">9 years + 3 months or 12 lakh kms whichever earlier</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">28 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">POH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">9 years + 3 months or 12 lakh kms whichever earlier</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">28 working days</td>
                             </tr>
                           </tbody>
                         </table>
@@ -841,17 +755,17 @@ const VariousConcepts = () => {
                   </div>
 
                   {/* (iii) 3-Ph.ABB Locomotives */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-emerald-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 border border-emerald-400/20">
                     <h3 className="text-emerald-200 font-bold lg:text-xl text-lg mb-4">(iii) 3-Ph.ABB Locomotives</h3>
-                    <p className="text-emerald-50/95 lg:text-sm text-xs mb-4">
+                    <p className="text-emerald-50/95 lg:text-base text-sm mb-4">
                       (Railway Board Letter No.97/Elect (TRS)/440/18/44 (3Ph, dated 23.02.07)
                     </p>
                     
                     {/* Coaching Locos (WAP5/WAP7 Locos) */}
                     <div className="bg-white/5 rounded-lg p-4 border border-emerald-400/10 mb-4">
-                      <p className="text-emerald-50/95 lg:text-sm text-xs mb-3 font-semibold">Coaching Locos (WAP5/WAP7 Locos)</p>
+                      <p className="text-emerald-50/95 lg:text-base text-sm mb-3 font-semibold">Coaching Locos (WAP5/WAP7 Locos)</p>
                       <div className="overflow-x-auto">
-                        <table className="w-full text-xs border-collapse">
+                        <table className="w-full text-base border-collapse">
                           <thead>
                             <tr className="bg-white/10">
                               <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold">Maintenance schedule</th>
@@ -861,39 +775,39 @@ const VariousConcepts = () => {
                           </thead>
                           <tbody>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">Trip Inspection</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">3000 kms or one trip, whichever is later</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">2 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">Trip Inspection</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">3000 kms or one trip, whichever is later</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">2 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IA</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">90 days.</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IA</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">90 days.</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IB</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">180 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IB</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">180 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IC</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">270 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">8 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IC</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">270 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">8 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">MOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">18 months</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">MOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">18 months</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 working days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">4.5 years + 6 months or 12 lakh kms. whichever is earlier</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">11 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">4.5 years + 6 months or 12 lakh kms. whichever is earlier</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">11 working days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">POH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">9 years+ 6 months or 24 lakh kms. whichever is earlier.</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">28 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">POH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">9 years+ 6 months or 24 lakh kms. whichever is earlier.</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">28 working days</td>
                             </tr>
                           </tbody>
                         </table>
@@ -902,51 +816,51 @@ const VariousConcepts = () => {
 
                     {/* Freight Locos (WAG9/WAG9H Locos) */}
                     <div className="bg-white/5 rounded-lg p-4 border border-emerald-400/10">
-                      <p className="text-emerald-50/95 lg:text-sm text-xs mb-3 font-semibold">Freight Locos (WAG9/WAG9H Locos)</p>
+                      <p className="text-emerald-50/95 lg:text-base text-sm mb-3 font-semibold">Freight Locos (WAG9/WAG9H Locos)</p>
                       <div className="overflow-x-auto">
-                        <table className="w-full text-xs border-collapse">
+                        <table className="w-full text-base border-collapse">
                           <thead>
                             <tr className="bg-white/10">
-                              <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold">Maintenance Schedule</th>
-                              <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold">Periodicity</th>
-                              <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold">Duration</th>
+                              <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold lg:text-base text-sm">Maintenance Schedule</th>
+                              <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold lg:text-base text-sm">Periodicity</th>
+                              <th className="border border-emerald-400/30 px-3 py-2 text-left text-emerald-200 font-semibold lg:text-base text-sm">Duration</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">Trip Inspection</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">45 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">4 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">Trip Inspection</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">45 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">4 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IA</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">90 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IA</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">90 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IB</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">180 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IB</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">180 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IC</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">270 days</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">8 hrs</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IC</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">270 days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">8 hrs</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">MOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">18 months</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">2nd MOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">MOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">18 months</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">2nd MOH</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">IOH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">6 years + 6 months or 12 lakh kms. whichever is earlier.</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">11 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">IOH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">6 years + 6 months or 12 lakh kms. whichever is earlier.</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">11 working days</td>
                             </tr>
                             <tr className="bg-white/5">
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">POH</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">12 years + 6 months or 24 lakh kms. whichever is earlier</td>
-                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95">28 working days</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">POH</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">12 years + 6 months or 24 lakh kms. whichever is earlier</td>
+                              <td className="border border-emerald-400/30 px-3 py-2 text-emerald-50/95 lg:text-base text-sm">28 working days</td>
                             </tr>
                           </tbody>
                         </table>
@@ -968,125 +882,124 @@ const VariousConcepts = () => {
                   DIESEL LOCO SCHEDULE &amp; DURATION
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-yellow-500/20 via-amber-500/15 to-orange-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <div className="bg-white/5 rounded-xl p-5 border border-yellow-400/20">
+              <div className="bg-linear-to-br from-yellow-500/20 via-amber-500/15 to-orange-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                <div className="bg-white/5 rounded-xl p-3 border border-yellow-400/20">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-xs border-collapse">
+                    <table className="w-full text-base border-collapse">
                       <thead>
                         <tr className="bg-white/10">
-                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold">S.No.</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold">Description</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAM4</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP1</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP4</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP5</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP6</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold lg:text-base text-sm">S.No.</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold lg:text-base text-sm">Description</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAM4</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP1</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP4</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP5</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP6</th>
                           <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP7</th>
                           <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG5 A/B</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG5 HA/HB</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG6</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG7</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG9</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG9 H</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WAG5 HA/HB</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WAG6</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WAG7</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WAG9</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WAG9 H</th>
                           <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAM1</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAM2</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAM3</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAG1</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCM5</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCG2</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WCAM2</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WCAM3</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WCAG1</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WCM5</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm ">WCG2</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">1</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Supply System-AC(kV)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">1</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Supply System-AC(kV)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">1.5 DC</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">2</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Continuous HP</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3640</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">2</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Continuous HP</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">3640</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3800</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5440</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5060</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3850</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3850</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5000</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5440</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5060</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">6120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">3850</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">3850</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6000</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5000</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3640/2930</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4715/2916</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">6120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">3640/2930</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">4715/2916</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000/4600</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000/4600</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4600</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4200</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5000/4600</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">4600</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">4200</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">3</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Max. Speed (kmph)</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">3</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Max. Speed (kmph)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">120</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">130</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">140</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">160</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">160</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">130</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">140</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">160</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">160</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">130</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">80</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">80</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">80</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">100</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">100</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">90</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">105</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">100</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">105</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">80</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">100</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">100</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">90</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">105</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">100</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">105</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">80</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">4</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Starting Tractive Effort (Tonnes)</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">33.8</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">22.4</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">32.4</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">26.29</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">30.8</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">32.88</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">4</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Starting Tractive Effort (Tonnes)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">33.8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">22.4</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">32.4</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">26.29</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">30.8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">32.88</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">33.5</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">33.5</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">46</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">44</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">46.89</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">52</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">33.84/23.2</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">33.5/26.0</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">40.2/26.8</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">43.5/30.0</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">39.6</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">35.6</td>
-                        </tr>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">33.5</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">46</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">44</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">46.89</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">52</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">33.84/23.2</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">33.5/26.0</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">40.2/26.8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">43.5/30.0</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">39.6</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">35.6</td>
+                        </tr> 
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">5</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">5</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Continuous Tractive Effort (Tonnes)</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">56</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">13.8</td>
@@ -1108,7 +1021,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">30</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">6</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Total Weight</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">112.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">108.3</td>
@@ -1130,7 +1043,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">132</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">7</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">7</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Braking</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
@@ -1152,7 +1065,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Bogies Arrangment</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
@@ -1174,7 +1087,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">9</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">9</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Bogies Type</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
@@ -1196,7 +1109,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">10</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">10</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Gear Ratio</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">15.62</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">21.58</td>
@@ -1218,7 +1131,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.74</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">11</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">11</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">No. of Traction Motors</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
@@ -1240,7 +1153,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">12</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">12</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Traction Motor</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TAO659</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TAO659</td>
@@ -1262,7 +1175,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TM-4939 A2</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">13</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">13</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Axle Load</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.05</td>
@@ -1300,102 +1213,89 @@ const VariousConcepts = () => {
                   ELECTRIC LOCOMOTIVE FEATURES
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-pink-500/20 via-rose-500/15 to-red-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <div className="bg-white/5 rounded-xl p-5 border border-pink-400/20">
+              <div className="bg-linear-to-br from-pink-500/20 via-rose-500/15 to-red-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-pink-400/20">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-xs border-collapse">
+                    <table className="w-full text-base border-collapse">
                       <thead>
                         <tr className="bg-white/10">
-                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold">Schedule</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDM2</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold lg:text-base text-sm">Schedule</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm">WDM2</th>
                           <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDM3A/B/C/D</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDM3A/B/C/D (30 days)</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm">WDM3A/B/C/D (30 days)</th>
                           <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDG3A</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDG3A (30 days)</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm">WDG3A (30 days)</th>
                           <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDP1/3A</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold">Duration</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold lg:text-base text-sm">Duration</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">T-1</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">15 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">T-1</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">15 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">20 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">20 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">As per link</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">As per link</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">As per link</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">4 hrs.</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">4 hrs.</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">T-2</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">T-2</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">30 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">40 days Trip – 30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">40 days Trip–30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">6 hrs</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">40 days Trip–30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">6 hrs</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-2</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-2</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">8 hrs</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">2 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">8 hrs</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-4</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">16 hrs</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-4</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td> 
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">16 hrs</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-12</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-12</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">12 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">12 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">12 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">12 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">12 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">12 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">12 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">12 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">4 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">12 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">12 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">12 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">4 days</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-24 MOH)</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">24 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">24Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">24 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">24 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">24 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">24 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">16 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-24 MOH)</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">24 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">24 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">24 Months</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-48 (IOH)</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">21 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-48 (IOH)</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">48 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">48 Months</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-96 (POH)</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-96 (POH)</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">96 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">96 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">96 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">30 days</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1417,35 +1317,38 @@ const VariousConcepts = () => {
               <div className="bg-linear-to-br from-yellow-500/20 via-amber-500/15 to-orange-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="bg-white/5 rounded-xl p-5 border border-yellow-400/20">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-xs border-collapse">
+                    <table className="w-full text-base border-collapse">
                       <thead>
                         <tr className="bg-white/10">
-                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold">S.No.</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold">Description</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAM4</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP1</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP4</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP5</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP6</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAP7</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG5 A/B</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG5 HA/HB</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG6</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG7</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG9</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WAG9 H</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAM1</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAM2</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAM3</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCAG1</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCM5</th>
-                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold">WCG2</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold lg:text-base text-sm">S.No.</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-left text-yellow-200 font-semibold lg:text-base text-sm">Description</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAM4</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP1</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP4</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP5</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP6</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAP7</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAG5 A/B</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAG5 HA/HB</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAG6</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAG7</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAG9</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WAG9 H</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WCAM1</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WCAM2</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WCAM3</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WCAG1</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WCM5</th>
+                          <th className="border border-yellow-400/30 px-2 py-2 text-center text-yellow-200 font-semibold lg:text-base text-sm">WCG2</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">1</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Supply System-AC(kV)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">1</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Supply System-AC(kV)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
@@ -1455,20 +1358,14 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">25/1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">1.5 DC</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">25/1.5 DC</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">2</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Continuous HP</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3640</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">2</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Continuous HP</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">3640</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3800</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5440</td>
@@ -1480,16 +1377,16 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6120</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6120</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">3640/2930</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4715/2916</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000/4600</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">5000/4600</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4600</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4200</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">3640/2930</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">4715/2916</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5000/4600</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">5000/4600</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">4600</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">4200</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">3</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Max. Speed (kmph)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">3</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Max. Speed (kmph)</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">130</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">140</td>
@@ -1502,7 +1399,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">100</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">100</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">90</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">120</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">120</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">105</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">100</td>
@@ -1510,7 +1407,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">80</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">4</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">4</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Starting Tractive Effort (Tonnes)</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">33.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">22.4</td>
@@ -1532,8 +1429,8 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">35.6</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">5</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Continuous Tractive Effort (Tonnes)</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">5</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Continuous Tractive Effort (Tonnes)</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">56</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">13.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.8</td>
@@ -1548,7 +1445,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">46</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">16.8/22.6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">23.8/24.6</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">26.8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">26.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">31/30</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">27</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">30</td>
@@ -1576,33 +1473,30 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">132</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">7</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Braking</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">7</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Braking</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">D</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">D</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">A</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">A,R</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">A</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">A,R</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">D</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A,R</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A,R</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A,R</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">A,R</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">D</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">D</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">D</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">D</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">8</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Bogies Arrangment</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Bogies Arrangment</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">Co-Co</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">Co-Co</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Bo-Bo</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
@@ -1620,12 +1514,12 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Co-Co</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">9</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Bogies Type</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">9</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Bogies Type</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Flexi</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Fab.</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">Cast</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">Flexi</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">Fab.</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Flexi</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">Cast</td>
@@ -1645,33 +1539,32 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">10</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Gear Ratio</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">15.62</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">21.58</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">21.58</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">23.59</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">17:35:67</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">23.58</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">20.72</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">23.58</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">20.72</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">17.77/15.62</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.64</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">16.63/20.75</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">16.65</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">18.64</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">16.63/20.75</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">16.65</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">15.77/21.107</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">21.107</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">16.61/21.58</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">15.62/21.58</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.64</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">16.65</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.64</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.74</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">21.107</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">16.61/21.58</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">15.62/21.58</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">18.64</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">16.65</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">18.64</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">18.74</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">11</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">No. of Traction Motors</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">11</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">No. of Traction Motors</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">4</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6</td>
@@ -1692,7 +1585,7 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TAO659</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TAO659</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6FXA-7059</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">HS-15250A</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">HS-15250A</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">6FRA-6068</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TAO-659</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">HS-15250A</td>
@@ -1705,12 +1598,12 @@ const VariousConcepts = () => {
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TAO-659</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">HS-15250A</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">HS-15250A</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">TM-4939 A2</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">TM-4939 A2</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">13</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95">Axle Load</td>
-                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.8</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">13</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 lg:text-base text-sm ">Axle Load</td>
+                          <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center lg:text-base text-sm ">18.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.05</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">18.8</td>
                           <td className="border border-yellow-400/30 px-2 py-2 text-yellow-50/95 text-center">19.5</td>
@@ -1746,38 +1639,38 @@ const VariousConcepts = () => {
                   ELECTRIC LOCOMOTIVE FEATURES
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-pink-500/20 via-rose-500/15 to-red-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <div className="bg-white/5 rounded-xl p-5 border border-pink-400/20">
+              <div className="bg-linear-to-br from-pink-500/20 via-rose-500/15 to-red-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                <div className="bg-white/5 rounded-xl p-3 border border-pink-400/20">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-xs border-collapse">
+                    <table className="w-full text-base border-collapse">
                       <thead>
                         <tr className="bg-white/10">
-                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold">Schedule</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDM2</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDM3A/B/C/D</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDM3A/B/C/D (30 days)</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDG3A</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDG3A (30 days)</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold">WDP1/3A</th>
-                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold">Duration</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold lg:text-base text-sm ">Schedule</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm ">WDM2</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm ">WDM3A/B/C/D</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm ">WDM3A/B/C/D (30 days)</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm ">WDG3A</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm ">WDG3A (30 days)</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-center text-pink-200 font-semibold lg:text-base text-sm ">WDP1/3A</th>
+                          <th className="border border-pink-400/30 px-3 py-2 text-left text-pink-200 font-semibold lg:text-base text-sm ">Duration</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">T-1</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">15 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">T-1</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">15 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">20 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">20 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">As per link</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">As per link</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">As per link</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">4 hrs.</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">20 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">As per link</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">As per link</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">As per link</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">4 hrs.</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">T-2</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">40 days Trip – 30 days</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">40 days Trip–30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">T-2</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">40 days Trip – 30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">40 days Trip–30 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">30 days</td>
@@ -1785,17 +1678,16 @@ const VariousConcepts = () => {
                         </tr>
                         <tr className="bg-white/5">
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-2</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">2 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">8 hrs</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">8 hrs</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-4</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-4</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">4 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">4 Months</td>
@@ -1831,17 +1723,13 @@ const VariousConcepts = () => {
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
                           <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">48 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">21 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">21 days</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">M-96 (POH)</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center">96 Months</td>
-                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95">30 days</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 lg:text-base text-sm ">M-96 (POH)</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">96 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">96 Months</td>
+                          <td className="border border-pink-400/30 px-3 py-2 text-pink-50/95 text-center lg:text-base text-sm ">96 Months</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1860,29 +1748,29 @@ const VariousConcepts = () => {
                   DETAILS OF BRAKE POWER CERTIFICATE
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-violet-500/20 via-purple-500/15 to-fuchsia-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <div className="bg-white/5 rounded-xl p-5 border border-violet-400/20">
+              <div className="bg-linear-to-br from-violet-500/20 via-purple-500/15 to-fuchsia-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                <div className="bg-white/5 rounded-xl p-3 border border-violet-400/20">
                   <p className="text-violet-200 font-semibold lg:text-lg text-base mb-4">Brake Power%</p>
                   <div className="overflow-x-auto">
-                    <table className="w-full text-xs border-collapse">
+                    <table className="w-full text-base border-collapse">
                       <thead>
                         <tr className="bg-white/10">
-                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold">S.No</th>
-                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold">Type of train</th>
-                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold">Validity</th>
+                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold lg:text-base text-sm ">S.No</th>
+                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold lg:text-base text-sm ">Type of train</th>
+                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold lg:text-base text-sm ">Validity</th>
                           <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold">Originating station</th>
-                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold">En-route station</th>
-                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold">Conditions for invalid BPC &amp; Other instructions</th>
+                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold lg:text-base text-sm ">En-route station</th>
+                          <th className="border border-violet-400/30 px-2 py-2 text-left text-violet-200 font-semibold lg:text-base text-sm ">Conditions for invalid BPC &amp; Other instructions</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white/5">
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">1</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Ordinary End to End Rakes<br />Vacuum brake rake, Air brake rake other than Premium</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Examination-Loading-Unloading-Examination, ie., one time loading</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">85- Vacuum brake stock<br />90- Air brake stock</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">75</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">1</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Ordinary End to End Rakes<br />Vacuum brake rake, Air brake rake other than Premium</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Examination-Loading-Unloading-Examination, ie., one time loading</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">85- Vacuum brake stock<br />90- Air brake stock</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">75</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">
                             The BPC will become invalid, if –<br />
                             i) No destination mentioned on the BPC of Loaded train<br />
                             ii) Empty rake does not reach loading point within 04 days (for Vacuum brake stock)<br />
@@ -1891,12 +1779,12 @@ const VariousConcepts = () => {
                           </td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">2</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Premium Air brake Rakes<br />VOXN, BCN, BRN, BOBRN, etc.</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">12 days for multiple loading, i.e., loading to be done within 12 days +3 days grace period in loaded condition.</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Minimum 95</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Not mentioned</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">2</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Premium Air brake Rakes<br />VOXN, BCN, BRN, BOBRN, etc.</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">12 days for multiple loading, i.e., loading to be done within 12 days +3 days grace period in loaded condition.</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Minimum 95</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Not mentioned</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">
                             The BPC will become invalid, if –<br />
                             i) Rake integrity is disturbed by more than Four 8 – wheeled wagons<br />
                             ii) Train is stabled more than 24 hours in examination yard<br /><br />
@@ -1909,15 +1797,15 @@ const VariousConcepts = () => {
                           </td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">3</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Close circuit rakes only Air brake stock</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">3</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Close circuit rakes only Air brake stock</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">
                             Premium CC rake – 7500 kms/35 days whichever is earlier Or 6000 kms/30 days&apos; whichever is earlier<br />
                             (Some railways have CC rakes of 6000 kms/30 days whichever is earlier. C..Rly. does not have such rakes)
                           </td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">100</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">90</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">100</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">90</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">
                             The BPC will become invalid, if –<br />
                             i) Rake is not running in nominated circuit.<br />
                             ii) Rake is stabled more than 4 hrs at examination station.<br />
@@ -1932,12 +1820,12 @@ const VariousConcepts = () => {
                           </td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">4</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">Container rakes<br />BLCA+BLCB</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">6000 kms/0 days<br />Circuits – TKD – JNPTDADRI/TKDJNPT/TKD/AQ depot run on fre4e circuit basis</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">100</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">90</td>
-                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95">
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">4</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">Container rakes<br />BLCA+BLCB</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">6000 kms/0 days<br />Circuits – TKD – JNPTDADRI/TKDJNPT/TKD/AQ depot run on free circuit basis</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">100</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">90</td>
+                          <td className="border border-violet-400/30 px-2 py-2 text-violet-50/95 lg:text-base text-sm ">
                             The BPC will become invalid, if –<br />
                             j) Rake has completed either Stipulated Kms or days.<br />
                             ii) Rake is not running in nominated circuit<br /><br />
@@ -1965,152 +1853,152 @@ const VariousConcepts = () => {
                   Various Machines used for Track Maintenance
                 </span>
               </h2>
-              <div className="bg-linear-to-br from-slate-500/20 via-gray-500/15 to-zinc-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                <div className="bg-white/5 rounded-xl p-5 border border-slate-400/20">
+              <div className="bg-linear-to-br from-slate-500/20 via-gray-500/15 to-zinc-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-2 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                <div className="bg-white/5 rounded-xl p-3 border border-slate-400/20">
                   <p className="text-slate-200 font-semibold lg:text-sm text-xs mb-4">Minimum Stipulated Block Period Maximum Stipulated</p>
                   <div className="overflow-x-auto">
-                    <table className="w-full text-xs border-collapse">
+                    <table className="w-full text-base border-collapse">
                       <thead>
                         <tr className="bg-white/10">
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">S.No</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Type of Track Machines</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Purpose of Deployment</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Deliverables</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">S.No</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Type of Track Machines</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Purpose of Deployment</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Deliverables</th>
                           <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">To &amp; fro time (in*)</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Setting &amp; winding up time (in*)</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Working time</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Total</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Output/Effective hour (new m/c)</th>
-                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold">Minimum Ty. Speed Restriction, if any.</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Setting &amp; winding up time (in*)</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Working time</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Total</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Output/Effective hour (new m/c)</th>
+                          <th className="border border-slate-400/30 px-2 py-2 text-left text-slate-200 font-semibold lg:text-base text-sm ">Minimum Ty. Speed Restriction, if any.</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">1</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">09-3X<br />Plain Track Tamping</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">1</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">09-3X<br />Plain Track Tamping</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It corrects track geometry i.e. alignment, twist, cross level, longitudinal level and pack ballast under sleepers. This machine can pack three sleepers at a time.</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">1.6Km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">Nil, except in summer with 50 kmph, if not followed by DTS</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">15</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">1.6Km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">Nil, except in summer with 50 kmph, if not followed by DTS</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">2</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">CSM<br />Plain Track Tamping</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">DO. But can pack two sleepers at a time.</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">2</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">CSM<br />Plain Track Tamping</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">DO. But can pack two sleepers at a time.</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">1.2 Km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">do</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">1.2 Km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">do</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">UNO<br />Plain Track Tamping</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">DO. Generally deployed at work site. But can pack one sleeper at a time.</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">UNO<br />Plain Track Tamping</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">DO. Generally deployed at work site. But can pack one sleeper at a time.</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">0.5km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">do</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">15</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">0.5km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">do</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">DUO (0)<br />Plain Track Tamping</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">0.8km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">do</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">DUO (0)<br />Plain Track Tamping</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">15</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">0.8km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">do</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">5</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">WST<br />Plain Track Tamping</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">DO. Generally deployed at work site. But can pack two sleepers at a time</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">0.8 km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">do</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">5</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">WST<br />Plain Track Tamping</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">DO. Generally deployed at work site. But can pack two sleepers at a time</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">15</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">0.8 km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">do</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">6</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">BCM<br />Ballast screening of Plain &amp; Turnout Track</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">6</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">BCM<br />Ballast screening of Plain &amp; Turnout Track</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It screens track ballast by removing muck, thus, improve drainage &amp; elasticity of track for safe &amp; comfortable running</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">30 as 3 m/c go in block</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">40</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">2:50</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">0.2km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">20kmph or 40kmph if DTS+ TTM deployed behind it &amp; stipulated safety instructions followed.</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">30 as 3 m/c go in block</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">40</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">2:50</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">0.2km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">20kmph or 40kmph if DTS+ TTM deployed behind it &amp; stipulated safety instructions followed.</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">7</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">FRM<br />Shoulder Ballast Cleaning</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">7</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">FRM<br />Shoulder Ballast Cleaning</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It is used to carry out cleaning of shoulder ballast by removing muck, drainage of track and elasticity improving of ballast bed.</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">30</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">30</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">0.4km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">Nil, ecxept in summer with 50 kmph if not followed by DTS</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">30</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">30</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">0.4km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">Nil, ecxept in summer with 50 kmph if not followed by DTS</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">8</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">UNI<br />Turnout packing</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">8</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">UNI<br />Turnout packing</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It corrects turnout track geometry i.e. alignment, twist, cross level, 1ongitudinal level and pack ballast under sleepers</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">1 T/Out</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">Nil</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">15</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">1 T/Out</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">Nil</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">9</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">DGS<br />Consolidation of newly tamped track</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It build up lateral resistance &amp; consolidation of track faster and helps to relax speed restriction early</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">15</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:35</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">1 km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">Nil</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">9</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">DGS<br />Consolidation of newly tamped track</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">It build up lateral resistance &amp; consolidation of track faster and helps to relax speed restriction early</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">15</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">3:35</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">1 km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">Nil</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">10</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">10</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">TRT<br />Laying of Track</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It is a fully mechanized system of complete Track Renewal</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">40</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">50</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">2:30</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">O.36km</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">30kmph or 40 kmph if DGS deployed and ballasting, rail joints are done as per IRPWM</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">It is a fully mechanized system of complete Track Renewal</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">40</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">50</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">2:30</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">4:00</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">O.36km</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">30kmph or 40 kmph if DGS deployed and ballasting, rail joints are done as per IRPWM</td>
                         </tr>
                         <tr className="bg-white/5">
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">11</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">PQRS<br />Laying of Track</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">11</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">PQRS<br />Laying of Track</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">It is a semi mechanised system of track renewal wherein pre fabricated rail panels are laid and existing panels removed with minimum labour</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">-</td>
-                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">25</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">-</td>
+                          <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95 lg:text-base text-sm ">25</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">20</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">3:15</td>
                           <td className="border border-slate-400/30 px-2 py-2 text-slate-50/95">4:00</td>
@@ -2156,7 +2044,7 @@ const VariousConcepts = () => {
                       </tbody>
                     </table>
                   </div>
-                  <p className="text-slate-50/95 lg:text-xs text-xs mt-4 italic">*As per Board&apos;s Joint Circular</p>
+                  <p className="text-slate-50/95 lg:text-base text-sm mt-4 italic">*As per Board&apos;s Joint Circular</p>
                 </div>
               </div>
             </div>

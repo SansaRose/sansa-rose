@@ -136,7 +136,7 @@ const FreightOperationInformationSystem = () => {
                   {[
                     'Extension of the current business practice from bulk movement of freight traffic in train load formations to piecemeal traffic by clubbing and moving together similar type of stock in \'Hub & Spoke\' arrangement to increase its market share by re diverting high profit yielding piecemeal cargo from road to rail.',
                     'Global tracking of consignments in real time Rakes or individual wagons.',
-                    'The insight and pipeline of consignments thus captured on the entire BG network is made available for timely planning and just in time inventory management on a time span cargo movement which may extend to 2 to 5 days from origin to destination...',
+                    'The insight and pipeline of consignments thus captured on the entire BG network is made available for timely planning and just in time inventory management on a time span cargo movement which may extend to 2 to 5 days from origin to destination.',
                     'Facilitate acceptance (customer\'s Orders), billing and cash accountal of freight traffic from identified nodal customer centers which may not necessarily be the handling terminals.',
                     'Extension of such facilities to customer\'s premises and introduction of e-commerce, benefitting both IR and the trade & industry, by eliminating manual transactions which necessarily add to the burden of logistics management.',
                     'Providing requisite Foundation for a total logistics system furnishing real time information of the chain of physical distribution, an essential element in reducing inventory costs.'
@@ -180,13 +180,13 @@ const FreightOperationInformationSystem = () => {
                     </div>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4 border border-orange-400/20">
-                    <div className="flex items-start gap-3 mb-3">
+                    <div className="flex items-center flex-col gap-3 mb-3">
                       <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-br from-orange-500 via-amber-400 to-yellow-400 border-2 border-orange-300/30 text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-all duration-300 shrink-0">
                         a
                       </span>
                       <h3 className="text-orange-200 font-semibold lg:text-lg text-base pt-2">Rake Management Systems –RMS</h3>
                     </div>
-                    <div className="ml-14 space-y-1.5">
+                    <div className="ml-0 space-y-3">
                       {[
                         'Rake based consignment tracking and pipeline',
                         'Train/Rake operation',
@@ -203,20 +203,19 @@ const FreightOperationInformationSystem = () => {
                         'Statement of missing Wagons/wrongly delivered'
                       ].map((item, idx) => (
                         <div key={idx} className="flex items-center gap-2 bg-orange-900/20 rounded-lg px-2 py-1 border border-orange-400/10 hover:bg-orange-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
                           <span className="text-orange-50/95 text-sm">{item}</span>
                         </div>
                       ))}
                     </div>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4 border border-orange-400/20">
-                    <div className="flex items-start gap-3 mb-3">
+                    <div className="flex items-center flex-col lg:flex-row gap-3 mb-3">
                       <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-br from-orange-500 via-amber-400 to-yellow-400 border-2 border-orange-300/30 text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-all duration-300 shrink-0">
                         b
                       </span>
                       <h3 className="text-orange-200 font-semibold lg:text-lg text-base pt-2">Terminal Management Systems –TMS</h3>
                     </div>
-                    <div className="ml-14 space-y-1.5">
+                    <div className="ml-0 space-y-3">
                       {[
                         'Computerized booking and delivery of consignment',
                         'Station Accounting',
@@ -224,13 +223,12 @@ const FreightOperationInformationSystem = () => {
                         'Improved Customer Interface'
                       ].map((item, idx) => (
                         <div key={idx} className="flex items-center gap-2 bg-orange-900/20 rounded-lg px-2 py-1 border border-orange-400/10 hover:bg-orange-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
                           <span className="text-orange-50/95 text-sm">{item}</span>
                         </div>
                       ))}
                     </div>
                   </div>
-                  <div className="flex items-start gap-4 bg-white/5 rounded-xl p-4 border border-orange-400/20 hover:bg-white/10 transition-all duration-300 group">
+                  <div className="flex items-center flex-col lg:flex-row gap-4 bg-white/5 rounded-xl p-4 border border-orange-400/20 hover:bg-white/10 transition-all duration-300 group">
                     <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-br from-orange-500 via-amber-400 to-yellow-400 border-2 border-orange-300/30 text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-all duration-300 shrink-0">
                       4
                     </span>
@@ -353,13 +351,26 @@ const FreightOperationInformationSystem = () => {
               </h2>
               <div className="bg-linear-to-br from-rose-500/20 via-pink-500/15 to-purple-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-4">
-                  <div className="flex items-start gap-4 bg-white/5 rounded-xl p-4 border border-rose-400/20 hover:bg-white/10 transition-all duration-300 group">
+                  <div className="flex items-center flex-col lg:flex-row gap-4 bg-white/5 rounded-xl p-4 border border-rose-400/20 hover:bg-white/10 transition-all duration-300 group">
                     <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-br from-rose-500 via-pink-400 to-purple-400 border-2 border-rose-300/30 text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-all duration-300 shrink-0">
                       h
                     </span>
-                    <p className="text-rose-50/95 lg:text-base text-sm leading-relaxed flex-1">In case implementation is attempted for events of all the functions to be reported in real time, concurrently from day one, then the reporting sites to be readied, the associated communication requirements and the number of staff to be trained assume enormous proportions. To ensure that the implementation effort is within manageable limits, one way is to take up, one by one, only limited portions of geographical territory for computerization at any given time. On the other hand, if the territory is small, instances of repetitive data entry increase; resulting in redundant expenditure on reporting infrastructure that will have no use as the territory expands. At the same time, if the MIS requirements are to be met in totality, the territorial expansion must ensure that a function is implemented on end to end basis as quickly as possible, otherwise only a truncated picture will be available to various levels of users and the benefits of computerization remain postponed till the entire Indian Railways have been covered.</p>
+                    <ul className="list-decimal list-inside space-y-3 text-rose-50/95 lg:text-base text-sm leading-relaxed flex-1 pl-2">
+                      <li className="bg-rose-950/30 rounded-lg px-3 py-2 border border-rose-400/20 hover:bg-rose-900/40 transition-all duration-300">
+                        In case implementation is attempted for events of all the functions to be reported in real time, concurrently from day one, then the reporting sites to be readied, the associated communication requirements and the number of staff to be trained assume enormous proportions.
+                      </li>
+                      <li className="bg-rose-950/30 rounded-lg px-3 py-2 border border-rose-400/20 hover:bg-rose-900/40 transition-all duration-300">
+                        To ensure that the implementation effort is within manageable limits, one way is to take up, one by one, only limited portions of geographical territory for computerization at any given time.
+                      </li>
+                      <li className="bg-rose-950/30 rounded-lg px-3 py-2 border border-rose-400/20 hover:bg-rose-900/40 transition-all duration-300">
+                        On the other hand, if the territory is small, instances of repetitive data entry increase; resulting in redundant expenditure on reporting infrastructure that will have no use as the territory expands.
+                      </li>
+                      <li className="bg-rose-950/30 rounded-lg px-3 py-2 border border-rose-400/20 hover:bg-rose-900/40 transition-all duration-300">
+                        At the same time, if the MIS requirements are to be met in totality, the territorial expansion must ensure that a function is implemented on an end-to-end basis as quickly as possible, otherwise only a truncated picture will be available to various levels of users and the benefits of computerization remain postponed till the entire Indian Railways have been covered.
+                      </li>
+                    </ul>
                   </div>
-                  <div className="flex items-start gap-4 bg-white/5 rounded-xl p-4 border border-rose-400/20 hover:bg-white/10 transition-all duration-300 group">
+                  <div className="flex items-center flex-col lg:flex-row gap-4 bg-white/5 rounded-xl p-4 border border-rose-400/20 hover:bg-white/10 transition-all duration-300 group">
                     <span className="flex items-center justify-center w-10 h-10 rounded-full bg-linear-to-br from-rose-500 via-pink-400 to-purple-400 border-2 border-rose-300/30 text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-all duration-300 shrink-0">
                       ii
                     </span>
@@ -409,15 +420,14 @@ const FreightOperationInformationSystem = () => {
                     <p className="text-yellow-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       For timely completion of field implementation, the total involvement and commitment of Railways is very essential from day one. Therefore, COM&apos;s of Railways have been given the total responsibility and charge of implementation of FOIS, to provide for the following:-
                     </p>
-                    <div className="space-y-1.5">
+                    <div className="space-y-3">
                       {[
                         'Railways to get staff identified and train them to work on PCs',
                         'Railways to prepare the sites for installation of hardware including provision of electrical and civil facilities.',
                         'Maintenance of channels & data com equipment has been given to CSR of the zones.',
                         'CRIS would provide specifications for the same.'
                       ].map((item, idx) => (
-                        <div key={idx} className="flex items-center gap-2 bg-yellow-900/20 rounded-lg px-2 py-1 border border-yellow-400/10 hover:bg-yellow-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-yellow-400"></span>
+                        <div key={idx} className="flex items-center gap-2 bg-yellow-900/20 rounded-lg px-2 py-2 border border-yellow-400/10 hover:bg-yellow-800/30 transition-all duration-300">
                           <span className="text-yellow-50/95 text-sm">{item}</span>
                         </div>
                       ))}
@@ -619,7 +629,7 @@ const FreightOperationInformationSystem = () => {
                         <p className="text-pink-50/95 lg:text-base text-sm mb-2">
                           It starts the moment a load is identified as a train and the following tasks are used for online reporting: -
                         </p>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Train Ordering: TO/Call between two crew-changing points.',
                             'Train Departure: reports departure.',
@@ -627,8 +637,7 @@ const FreightOperationInformationSystem = () => {
                             'Train Run-through: reports through runs',
                             'Train rerouting'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -642,7 +651,7 @@ const FreightOperationInformationSystem = () => {
                         <div className="space-y-3">
                           <div className="bg-white/5 rounded p-2 border border-pink-400/5">
                             <h5 className="text-pink-200 font-semibold mb-1 text-sm">Load Related Tasks</h5>
-                            <div className="space-y-1.5">
+                            <div className="space-y-3">
                               {[
                                 'Inward Number Taking: destination validates consist.',
                                 'Load Planning: initial activity, following rake assignment.',
@@ -650,8 +659,7 @@ const FreightOperationInformationSystem = () => {
                                 'Load Diversion/Termination/Extension: reports changes in planned load destinations',
                                 'Load Yarding: takes a load-to-load planning screen, but will not reflect in stabled position.'
                               ].map((item, idx) => (
-                                <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                                  <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                                <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                                   <span className="text-pink-50/95 text-sm">{item}</span>
                                 </div>
                               ))}
@@ -659,24 +667,22 @@ const FreightOperationInformationSystem = () => {
                           </div>
                           <div className="bg-white/5 rounded p-2 border border-pink-400/5">
                             <h5 className="text-pink-200 font-semibold mb-1 text-sm">Vehicle Guidance Related Tasks</h5>
-                            <div className="space-y-1.5">
-                              <div className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                                <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div className="space-y-3">
+                              <div className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                                 <span className="text-pink-50/95 text-sm">Consist Reporting: originating station reports summary details. (Guidance is also called as Consist).</span>
                               </div>
                             </div>
                           </div>
                           <div className="bg-white/5 rounded p-2 border border-pink-400/5">
                             <h5 className="text-pink-200 font-semibold mb-1 text-sm">Rake Related Tasks</h5>
-                            <div className="space-y-1.5">
+                            <div className="space-y-3">
                               {[
                                 'Rake Formation Details: form/modify rake consist.',
                                 'Movement order: facility to give advance assignments to rake',
                                 'Rake Placement/Release: reporting Load/Empty cycle.',
                                 'Rake Dissipation: for generating piecemeal out of rake or for doing away with a rake which has no wagons left.'
                               ].map((item, idx) => (
-                                <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                                  <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                                <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                                   <span className="text-pink-50/95 text-sm">{item}</span>
                                 </div>
                               ))}
@@ -689,14 +695,13 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2">Loco Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Attachment/Detachment of Locos.',
                             'Loco Reporting: reporting shed activities of loco.',
                             'Light Engine: reports light engine movements'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -712,7 +717,7 @@ const FreightOperationInformationSystem = () => {
                     <p className="text-pink-50/95 lg:text-base text-sm leading-relaxed mb-2">
                       This function is to be reported at station where the party/consignor registers his Demand for supply of Rake/Piecemeal wagon for loading of goods. The following tasks are used for reporting this activity:-
                     </p>
-                    <div className="space-y-1.5">
+                    <div className="space-y-3">
                       {[
                         'New demand',
                         'Modify demand',
@@ -720,8 +725,7 @@ const FreightOperationInformationSystem = () => {
                         'Fulfilling demand',
                         'Forefeiture/Withdrawl of demand'
                       ].map((item, idx) => (
-                        <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                        <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                           <span className="text-pink-50/95 text-sm">{item}</span>
                         </div>
                       ))}
@@ -738,7 +742,7 @@ const FreightOperationInformationSystem = () => {
                     <div className="space-y-4">
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Rake Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Rake Formation Details: form/modify rake consist.',
                             'Movement order : facility to give advance assignments to rake',
@@ -746,8 +750,7 @@ const FreightOperationInformationSystem = () => {
                             'Rake Merging: moving wagons from one to another rake.',
                             'Rake Dissipation: for generating piecemeal out of rake or for doing away with a rake which has no wagons left.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -755,7 +758,7 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Load Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Load Planning: initial activity, following rake assignment.',
                             'Load Stabling: run/ordering termination is reported through this.',
@@ -764,8 +767,7 @@ const FreightOperationInformationSystem = () => {
                             'Load Yarding: similar to stabling, but will not reflect in stabled position.',
                             'Cut-in by Arrival/Departure: was useful when there were non-computerized territories also.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -773,15 +775,14 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Train Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Train Ordering: TO/Call between two crew-changing points.',
                             'Train Departure: reports departure.',
                             'Train Arrival: reports arrival.',
                             'Train Run-through: reports through runs.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -789,14 +790,13 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Loco Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Attachment/Detachment of Loco: reporting loco failure on run.',
                             'Loco Reporting: reporting shed activities of loco.',
                             'Light Engine: reports light engine movements.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -804,7 +804,7 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Roadside/Piecemeal Wagons Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Attachment/Detachment of Wagons en route: load & consist are automatically modified in this task.',
                             'Piecemeal Placement/Release: reports piecemeal activities.',
@@ -812,8 +812,7 @@ const FreightOperationInformationSystem = () => {
                             'Clearance of Detached Wagons: clears detached wagons.',
                             'Demand: reports indents for a good shed type of loading.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -821,22 +820,20 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Vehicle Guidance Related Tasks</h4>
-                        <div className="space-y-1.5">
-                          <div className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                            <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                             <span className="text-pink-50/95 text-sm">Consist Reporting: originating station reports summary details. (Guidance is also called as Consist)</span>
                           </div>
                         </div>
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Detentions Related Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Train Detention en route: reports unscheduled stoppages.',
                             'Pre departure Detentions: reports detentions suffered by loads/trains at yards/stations.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -844,15 +841,14 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-pink-400/10">
                         <h4 className="text-pink-200 font-semibold mb-2 text-sm">Other Tasks</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Interchange Forecast: reports daily targets, which should be frozen by noon.',
                             'BPC & Crew Details: reports these details.',
                             'Modify ETA: changes ETA for a train.',
                             'Re-routing: changes path of a train while on run.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-1 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-pink-900/20 rounded-lg px-2 py-2 border border-pink-400/10 hover:bg-pink-800/30 transition-all duration-300">
                               <span className="text-pink-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -961,7 +957,7 @@ const FreightOperationInformationSystem = () => {
                       </div>
                       <div className="bg-white/5 rounded-lg p-3 border border-sky-400/10">
                         <p className="text-sky-200 font-semibold mb-2 text-sm">There are tell tale signs of virus on your PC. Please be on lookout for these signs, which are listed below:</p>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Unexplained disk drive activity light or floppy drive light',
                             'Reduction in RAM Availability',
@@ -975,8 +971,7 @@ const FreightOperationInformationSystem = () => {
                             'Program running slower; taking more time',
                             'Program/Data file corruption/disappearance'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-sky-900/20 rounded-lg px-2 py-1 border border-sky-400/10 hover:bg-sky-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-sky-900/20 rounded-lg px-2 py-2 border border-sky-400/10 hover:bg-sky-800/30 transition-all duration-300">
                               <span className="text-sky-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -1102,7 +1097,7 @@ const FreightOperationInformationSystem = () => {
                     </div>
                     <div className="bg-white/5 rounded-lg p-3 border border-amber-400/10">
                       <p className="text-amber-200 font-semibold mb-2 text-sm">Since one end of a channel always resides at the channel provider&apos;s premises, therefore you must also know some simple checks to analyse the channel position. Some of these steps you take in tandem with the operator at other end, who is observing his Modem. These steps, which are invoked when the channel is down (i.e. &quot;line protocol&quot; is down), are:</p>
-                      <div className="space-y-1.5 mt-2">
+                      <div className="space-y-3 mt-2">
                         {[
                           'Make "LL" (Local Loop) switch "ON". This gives the status of the Modem & Router. If "TD", "RD" blinks, then local equipment is OK. If it doesn\'t, then the problem is with Modem/Router.',
                           'In the next step, we make "RL" (Remote Loop) switch "ON". This checks the local lead condition between Modems. However, to get the response of this action, there should be an observer at the other end. If everything is OK, then at the remote end, "RD" & "TD" will blink. Similarly, remote end can also give a "RL", in which you will get blinking "RD" & "TD" on your Modem, if everything is OK between two Modems.',
@@ -1112,8 +1107,7 @@ const FreightOperationInformationSystem = () => {
                           'If everything gives OK & data is still not able to pass through then there may be problem with Router. Inform Divisional Control.',
                           'Always ensure that all leads are firmly connected. However, no lead should be checked with power at "ON" position.'
                         ].map((item, idx) => (
-                          <div key={idx} className="flex items-center gap-2 bg-amber-900/20 rounded-lg px-2 py-1 border border-amber-400/10 hover:bg-amber-800/30 transition-all duration-300">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                          <div key={idx} className="flex items-center gap-2 bg-amber-900/20 rounded-lg px-2 py-2 border border-amber-400/10 hover:bg-amber-800/30 transition-all duration-300">
                             <span className="text-amber-50/95 text-sm">{item}</span>
                           </div>
                         ))}
@@ -1140,7 +1134,7 @@ const FreightOperationInformationSystem = () => {
                     </p>
                     <div className="bg-white/5 rounded-lg p-3 border border-amber-400/10 mb-3">
                       <p className="text-amber-200 font-semibold mb-2 text-sm">VSAT connections can also be pinged. Some other important points for VSATs are as follows:</p>
-                      <div className="space-y-1.5">
+                      <div className="space-y-3">
                         {[
                           'The data is transferred directly to CRIS SERVER . This is a sturdy system, which once stabilized, works trouble-freely.',
                           'The earthing resistance should be less than 1 ohm.',
@@ -1151,8 +1145,7 @@ const FreightOperationInformationSystem = () => {
                           'There should be one ladder for antennae access.',
                           'There should be a routine of checking the equipments. It should be ensured that rubber cap of RF unit is in place and the cord going to indoor unit is firmly in place.'
                         ].map((item, idx) => (
-                          <div key={idx} className="flex items-center gap-2 bg-amber-900/20 rounded-lg px-2 py-1 border border-amber-400/10 hover:bg-amber-800/30 transition-all duration-300">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                          <div key={idx} className="flex items-center gap-2 bg-amber-900/20 rounded-lg px-2 py-2 border border-amber-400/10 hover:bg-amber-800/30 transition-all duration-300">
                             <span className="text-amber-50/95 text-sm">{item}</span>
                           </div>
                         ))}
@@ -1193,14 +1186,13 @@ const FreightOperationInformationSystem = () => {
                     <p className="text-amber-50/95 lg:text-base text-sm mb-3">
                       LAN wiring consists of two parts – first, a CAT5 structured cabling from Router/Hub to I/O box (a 3&quot; x 3&quot; x 2&quot; white box) &amp; second a flexible cable from I/O box to your PC. Please ensure that all PCs at a location are connected on LAN.
                     </p>
-                    <div className="space-y-1.5">
+                    <div className="space-y-3">
                       {[
                         'Ensure that CAT5 cable is mounted on wall properly & is not hanging loosely.',
                         'Ensure that flexible chord is not stretched. Also ensure that I/O box is located close to your PC.',
                         'Hubs/Switches are devices for connecting additional PCs to Router\'s LAN port. Please ensure that these are properly mounted on wall.'
                       ].map((item, idx) => (
-                        <div key={idx} className="flex items-center gap-2 bg-amber-900/20 rounded-lg px-2 py-1 border border-amber-400/10 hover:bg-amber-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                        <div key={idx} className="flex items-center gap-2 bg-amber-900/20 rounded-lg px-2 py-2 border border-amber-400/10 hover:bg-amber-800/30 transition-all duration-300">
                           <span className="text-amber-50/95 text-sm">{item}</span>
                         </div>
                       ))}
@@ -1283,7 +1275,7 @@ const FreightOperationInformationSystem = () => {
                     <p className="text-lime-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       For successful implementation of FOIS over Indian Railways each zone shall have to undertake following responsibilities towards FOIS.
                     </p>
-                    <div className="space-y-1.5 mb-4">
+                    <div className="space-y-3 mb-4">
                       {[
                         'Real time updating of system data',
                         'Management of Network',
@@ -1291,8 +1283,7 @@ const FreightOperationInformationSystem = () => {
                         'Replacement of manual information system',
                         'In service training'
                       ].map((item, idx) => (
-                        <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-1 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-lime-400"></span>
+                        <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-2 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
                           <span className="text-lime-50/95 text-sm">{item}</span>
                         </div>
                       ))}
@@ -1407,14 +1398,13 @@ const FreightOperationInformationSystem = () => {
                     </p>
                     <div className="bg-white/5 rounded-lg p-3 border border-lime-400/10 mb-3">
                       <p className="text-lime-200 font-semibold mb-2 text-sm">The following points should be kept in mind before prescribing any spare maintenance practice: -</p>
-                      <div className="space-y-1.5">
+                      <div className="space-y-3">
                         {[
                           'Uptime requirement of location',
                           'Accessibility of vendor from a location',
                           'Sourcing of spares may be done from a central point ideally a big city were vendor services are available readily.'
                         ].map((item, idx) => (
-                          <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-1 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
-                            <span className="w-1.5 h-1.5 rounded-full bg-lime-400"></span>
+                          <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-2 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
                             <span className="text-lime-50/95 text-sm">{item}</span>
                           </div>
                         ))}
@@ -1434,14 +1424,13 @@ const FreightOperationInformationSystem = () => {
                     <p className="text-lime-50/95 lg:text-base text-sm leading-relaxed mb-3">
                       It would be prudent to prioritize this effort in the following order.
                     </p>
-                    <div className="space-y-1.5 mb-3">
+                    <div className="space-y-3 mb-3">
                       {[
                         'Interchange',
                         'Stock and Demand',
                         'Loco inventory'
                       ].map((item, idx) => (
-                        <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-1 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-lime-400"></span>
+                        <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-2 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
                           <span className="text-lime-50/95 text-sm">{item}</span>
                         </div>
                       ))}
@@ -1484,15 +1473,14 @@ const FreightOperationInformationSystem = () => {
                       {/* Printing Reports */}
                       <div className="bg-white/5 rounded-lg p-3 border border-lime-400/10">
                         <h4 className="text-lime-200 font-semibold mb-2 text-sm">Printing Reports:</h4>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'All reports, which are available on display, can also be printed. You should decide as to which reports are most useful & which require printing.',
                             'You can print either the view shown (through F7) or you can choose which columns & rows you want (by clicking them) & then print your selection by pressing F11.',
                             'For printing, you should have a Dot Matrix Printer attached either to Network or attached to a PC & "Shared".',
                             'You must plan in advance for your requirement of paper & ribbons.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-1 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-lime-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-lime-900/20 rounded-lg px-2 py-2 border border-lime-400/10 hover:bg-lime-800/30 transition-all duration-300">
                               <span className="text-lime-50/95 text-sm">{item}</span>
                             </div>
                           ))}
@@ -2220,7 +2208,7 @@ const FreightOperationInformationSystem = () => {
               <div className="bg-linear-to-br from-violet-500/20 via-purple-500/15 to-fuchsia-500/10 backdrop-blur-lg rounded-2xl py-8 lg:px-10 px-4 shadow-xl border border-white/10 hover:border-white/20 transition-all duration-300">
                 <div className="space-y-6">
                   {/* 1. MODULES IN ICMS */}
-                  <div className="bg-white/5 rounded-xl p-5 border border-violet-400/20">
+                  <div className="bg-white/5 rounded-xl p-3 lg:p-5 border border-violet-400/20">
                     <h3 className="text-violet-200 font-bold lg:text-xl text-lg mb-4">1. MODULES IN ICMS</h3>
                     <div className="space-y-5">
                       {[
@@ -2262,7 +2250,7 @@ const FreightOperationInformationSystem = () => {
                       ].map((item, idx) => (
                         <div
                           key={idx}
-                          className="flex gap-4 items-start bg-violet-900/20 hover:bg-violet-900/35 transition-colors border border-violet-400/15 rounded-2xl px-4 py-3 shadow-lg group"
+                          className="flex gap-4 items-center flex-col bg-violet-900/20 hover:bg-violet-900/35 transition-colors border border-violet-400/15 rounded-2xl px-3 lg:px-4 py-2 lg:py-3 shadow-lg group"
                         >
                           <div className="flex flex-col items-center justify-start">
                             <span
@@ -2334,15 +2322,14 @@ const FreightOperationInformationSystem = () => {
                                 </span>
                                 <div className="flex-1">
                                   <span className="text-violet-50/95 lg:text-base text-sm">Activities include:</span>
-                                  <div className="ml-0 mt-1.5 space-y-1">
+                                  <div className="ml-0 mt-1.5 space-y-3">
                                     {[
                                       'Originating terminating, interchange timings',
                                       'Detention Reports,',
                                       'Cause wise logging,',
                                       'Fixing Responsibility'
                                     ].map((item, idx) => (
-                                      <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-1 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                                      <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-2 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
                                         <span className="text-violet-50/95 lg:text-base text-sm">{item}</span>
                                       </div>
                                     ))}
@@ -2413,7 +2400,7 @@ const FreightOperationInformationSystem = () => {
                         <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                           Reports for Management at Divisional Level, HQ level, Board level like:
                         </p>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Railway Punctuality Performance for a date for a Division',
                             'Movement of Trains (Division wise) in a Zone',
@@ -2426,8 +2413,7 @@ const FreightOperationInformationSystem = () => {
                             'Section wise/Cause wise analysis for all trains on a date',
                             'Zone wise/Cause wise analysis for all trains on a date, etc'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-1 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-2 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
                               <span className="text-violet-50/95 lg:text-base text-sm">{item}</span>
                             </div>
                           ))}
@@ -2438,7 +2424,7 @@ const FreightOperationInformationSystem = () => {
                         <p className="text-violet-50/95 lg:text-base text-sm mb-2">
                           Reports for Management at Station Level, Divisional Level, HQ, RB level like:
                         </p>
-                        <div className="space-y-1.5">
+                        <div className="space-y-3">
                           {[
                             'Yard Stock Position (Line position)',
                             'Vehicle Guidance',
@@ -2449,8 +2435,7 @@ const FreightOperationInformationSystem = () => {
                             'Coach History',
                             'Rake Link Information Zonal/Divisional Coaching Stock allotment/availability, etc.'
                           ].map((item, idx) => (
-                            <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-1 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
-                              <span className="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                            <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-2 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
                               <span className="text-violet-50/95 lg:text-base text-sm">{item}</span>
                             </div>
                           ))}
