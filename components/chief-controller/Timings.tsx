@@ -40,13 +40,18 @@ const Timings = () => {
     { question: 'In the case of train is booked to run through a station, is line clear shall be asked how many minutes before the train is due to pass', answer: '7 minutes', timing: '7 minutes' },
     
     { question: 'Before the arrival of the train, to avoid complaints from road user, taking off the approach signals can be delayed to ensure that gate is closed only for', answer: '10 minutes', timing: '10 minutes' },
+
     { question: 'During TIC on Double line, if train held up at FSS, if no one from the station turns up Guard shall protect the train in rear and ALP may be sent to station after', answer: '10 minutes', timing: '10 minutes' },
+
     { question: 'EMU/MEMU shall be protected as per Rule 6.03/9.10, If the detention exceeds or it is likely to exceed', answer: '10 minutes', timing: '10 minutes' },
+
+    { question: 'During Tottal Interruption of Communication (TIC) on Double line, if train held up at FSS, if no one from the station turns up Guard shall protect the train in rear and ALP may be sent to station after______ minutes', answer: '10 minutes', timing: '10 minutes' },
     
     { question: 'If a passenger train/goods train does not turn up, S M shall arrange to send competent railway servant even after normal running time and', answer: '10/20 minutes', timing: '10/20 minutes' },
     { question: 'The Gds/LPs of all trains who are provided with VHF sets and Portable Field telephone shall inform the Station Master/controller when delayed in the block section for over', answer: '10 / 20 min for passenger carrying/goods trains', timing: '10/20 minutes' },
     
     { question: 'In Following train, Pilot Guard, Train staff & ticket systems, a train shall follow another from a station unless there has elapsed, an interval of not less than_______, or such shorter interval as may be fixed by special instructions', answer: '15 minutes', timing: '15 minutes' },
+
     { question: 'The Guard shall protect in rear when a train is held up at First Stop Signal for more than', answer: '15 minutes', timing: '15 minutes' },
 
     { question: 'If for any reason, a train is brought to a stand, the hand brakes of Locomotive and formation brakes shall be applied for more than if stoppage is more than', answer: '15 minutes', timing: '15 minutes' },
@@ -57,7 +62,10 @@ const Timings = () => {
 
     { question: 'If, for any reason, a train is brought to a stand for a period longer than ______ minutes, the hand brakes of the locomotive shall be applied in addition to the application of air brake etc.', answer: '15 minutes', timing: '15 minutes' },
 
-    { question: 'Guards of Suburban trains shall report for duty at least 15 minutes before the scheduled departure of the train.', answer: '15 minutes', timing: '15 minutes' },
+    { question: 'Guards of Suburban trains shall report for duty at least ______ minutes before the scheduled departure of the train.', answer: '15 minutes', timing: '15 minutes' },
+
+    { question: 'In Following train, Pilot Guard, Train staff & ticket systems, a train shall be allowed to follow another from a station unless there has elapsed, an interval of not less than_____, or such shorter interval as may be fixed by special instructions.', answer: '15 minutes', timing: '15 minutes' },
+
     { question: 'The target time for turning out Medical Relief Train (MRT) for direct/indirect dispatch, is ________', answer: '15/20 minutes', timing: '15/20 minutes' },
     
     { question: 'The time interval between two trains during signal and communication failure on Double line Automatic Block System shall be______', answer: '25 minutes', timing: '25 minutes' },
@@ -93,17 +101,24 @@ const Timings = () => {
     
     { question: 'If a BPC Rake (CC, Premium, or End-to-End) is stabled for more than _______ hours at a TXR yard, BPC becomes invalid.', answer: '24 hours', timing: '24 hours' },
 
-    { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
+    { question: 'Rusty” rail caps are to be placed when any line is not used for more than ______ hours.', answer: '24 hours', timing: '24 hours' },
 
     { question: 'Temporary Instructions shall be issued for Disconnections / maintenance likely to last for more than', answer: 'one day', timing: '1 day' },
-    
-    { question: 'BPC of a material train is valid for 30days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
+
+    { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'A person will be considered to have incurred simple injuries, if these injuries incapacitate the injured person from pursuing his customary vocation for ___after the occurrence of the accident.', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'A railway employee is considered to have been injured if he/she is prevented from returning to work as a result of injuries for a period of ____ after the occurrence of the accident.', answer: '48 hours', timing: '48 hours' },
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
 
     { question: 'When must an Empty End-to-End Rake reach the loading point from the time of BPC issue, otherwise a fresh BPC is required?', answer: 'Within 4 days', timing: '4 days' },
+
+    { question: 'BPC of a material train is valid for 30 days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
+
     { question: 'Engineering and S&T officials shall send a circular notice before the work is due to commence to the Sr. DOM/DOM at least', answer: '15 days in advance', timing: '15 days' },
     
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '20 days', timing: '20 days' },
@@ -146,9 +161,11 @@ const Timings = () => {
 
     { question: 'The competency certificate issued by DEE (TRD) to SM for operating the isolators (in emergency) is valid for', answer: '3 years', timing: '3 years' },
     
+    { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
+    
     { question: 'Certificate of competency issued to Gateman will be valid for a period of', answer: '5 years', timing: '5 years' },
 
-    { question: 'SWR should be issued afresh once in', answer: '5 years', timing: '5 years' },
+    { question: 'Station Working Rules (SWR) should be issued afresh once in', answer: '5 years', timing: '5 years' },
 
     { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
     

@@ -144,6 +144,8 @@ const Authorities = () => {
 
     { question: 'In class "C" station, Home signal is the First Stop Signal (FSS and Last Stop Signal (LSS), then Home Signal is defective, the authority to pass the signal at "ON" is', answer: 'PLCT', form: 'Other' },
 
+    { question: 'On double line sections when a train is pushed back after entering the block section on       normal ATP, the next train shall be dispatched on_________', answer: 'PLCT', form: 'Other' },
+
     { question: 'When Loco pilot enters block section without an ATP and report is sent to station in advance, the SM gives', answer: 'Caution Order', form: 'Other' },
 
     { question: 'If Permissive signal is stuck in "OFF" postion, the rear Station master shall give ________ to the Loco Pilot to stop and observe the PHS at the foot of the signal stuck in "OFF" position', answer: 'Caution Order', form: 'Other' },

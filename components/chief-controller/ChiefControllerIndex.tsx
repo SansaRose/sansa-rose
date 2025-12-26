@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { Gauge, Clock, Ruler, FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Volume2, Bell, BellRing, BookOpen, Layers, FolderOpen, Percent } from 'lucide-react'
+import { Gauge, Clock, Ruler, FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Volume2, Bell, BellRing, BookOpen, Layers, FolderOpen, Percent, Hash } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const ChiefControllerIndex = () => {
@@ -92,6 +92,13 @@ const ChiefControllerIndex = () => {
       description: 'Essential percentage requirements for brake power and spare coaches in railway operations'
     },
     {
+      id: 'numbers',
+      title: 'Numbers',
+      icon: <Hash className="w-6 h-6" />,
+      color: 'from-pink-500 to-pink-600',
+      description: 'Important numerical values and counts for railway operations and zones'
+    },
+    {
       id: 'authorities',
       title: 'Authorities',
       icon: <FileText className="w-6 h-6" />,
@@ -145,7 +152,7 @@ const ChiefControllerIndex = () => {
             <h2 className="lg:text-4xl text-xl font-bold text-purple-300 mb-4">IMPORTANT TOPICS INDEX</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
-              Comprehensive guide covering Speed Restrictions, Timings, Distances, Authorities, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix - 
+              Comprehensive guide covering Speed Restrictions, Timings, Distances, Percentages, Numbers, Authorities, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix -
               Essential reference material for AOM aspirants in Indian Railways.
             </p>
             <div className="mt-6 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-lg p-4 backdrop-blur-sm border border-blue-400/30">
@@ -235,8 +242,8 @@ const ChiefControllerIndex = () => {
                   </h3>
                 </div>
                 <p className="text-gray-300 max-w-2xl mx-auto">
-                  This comprehensive guide covers all essential topics for Chief Controller examination, 
-                  providing complete reference material for Speed Restrictions, Timings, Distances, Authorities, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix 
+                  This comprehensive guide covers all essential topics for Chief Controller examination,
+                  providing complete reference material for Speed Restrictions, Timings, Distances, Percentages, Numbers, Authorities, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix
                   required for AOM aspirants in Indian Railways.
                 </p>
               </div>

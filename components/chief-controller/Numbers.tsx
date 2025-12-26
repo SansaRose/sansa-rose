@@ -2,105 +2,48 @@
 
 import React from 'react'
 
-interface Percentage {
+interface NumberItem {
   question: string
   answer: string
   category?: string
 }
 
-const Percentages = () => {
-  const percentages: Percentage[] = [
-    { 
-      question: 'Percentage of spare coaches for Traffic requirements that must be kept at the depots for Non AC coaches is', 
-      answer: '4%', 
-      category: '4%' 
+const Numbers = () => {
+  const numbers: NumberItem[] = [
+    {
+      question: 'Continuous night duty for running staff should be limited to ______ nights',
+      answer: '4',
+      category: '4'
     },
-    { 
-      question: 'Percentage of spare coaches for Traffic requirements that must be kept at the depots for Rajdhani/Shatabdi trains is', 
-      answer: '5%', 
-      category: '5%' 
-    },
-    { 
-      question: 'Percentage of spare coaches for Traffic requirements that must be kept at the depots for AC coaches is', 
-      answer: '5%', 
-      category: '5%' 
-    },
-    { 
-      question: 'Percentage of spare coaches for Mechanical requirements that must be kept at the depots for Non AC coaches is', 
-      answer: '5%', 
-      category: '5%' 
-    },
-    { 
-      question: 'Percentage of spare coaches for Mechanical requirements that must be kept at the depots for AC coaches is', 
-      answer: '6%', 
-      category: '6%' 
-    },
-    { 
-      question: 'Percentage of spare coaches for Mechanical requirements that must be kept at the depots for RAJDHANI/SHATABDI coaches is', 
-      answer: '6%', 
-      category: '6%' 
-    },
-    { 
-      question: '_______ Trainee Reserve is added to support ongoing training and development of new crew members.', 
-      answer: '10%', 
-      category: '10%' 
-    },
-    { 
-      question: '_______ Leave Reserve is usually added to the bare requirement to ensure adequate coverage during leave periods.', 
-      answer: '30%', 
-      category: '30%' 
-    },
-    { 
-      question: 'The effective brake power in case of Mail/Express enroute should be not less than', 
-      answer: '90%', 
-      category: '90%' 
-    },
-    { 
-      question: 'The effective brake power in case of passenger and CC rakes enroute shall be', 
-      answer: '90%', 
-      category: '90%' 
-    },
-    { 
-      question: 'The effective brake power of material train shall not be less than _______%', 
-      answer: '90%', 
-      category: '90%' 
-    },
-    { 
-      question: 'At the starting station, for all passenger carrying trains of all description brake power must be', 
-      answer: '100%', 
-      category: '100%' 
-    },
-    { 
-      question: 'The effective brake power in case of Mail/Express at the originating station shall be', 
-      answer: '100%', 
-      category: '100%' 
-    },
-    
-    { 
-      question: 'The effective brake power in case of passenger and CC rakes at the originating station should not be less than', 
-      answer: '100%', 
-      category: '100%' 
-    },
-    
+    {
+        question: 'Number of States covering South Central Railway is',
+        answer: '6',
+        category: '6'
+      },
+    {
+        question: 'Total Number of zones on Indian Railways',
+        answer: '18',
+        category: '18'
+      },
   ]
 
-  // Group percentages by category for better organization
-  const groupedByCategory = percentages.reduce((acc, percentage) => {
-    const categoryKey = percentage.category || 'Other'
+  // Group numbers by category for better organization
+  const groupedByCategory = numbers.reduce((acc, number) => {
+    const categoryKey = number.category || 'Other'
     if (!acc[categoryKey]) {
       acc[categoryKey] = []
     }
-    acc[categoryKey].push(percentage)
+    acc[categoryKey].push(number)
     return acc
-  }, {} as Record<string, Percentage[]>)
+  }, {} as Record<string, NumberItem[]>)
 
   const getCategoryColor = (category: string) => {
     switch (category) {
-      case 'Brake Power':
+      case 'Railway Zones':
         return 'bg-gradient-to-r from-red-600 to-red-700'
-      case 'Traffic Requirements':
+      case 'States':
         return 'bg-gradient-to-r from-green-600 to-green-700'
-      case 'Mechanical Requirements':
+      case 'Duty Hours':
         return 'bg-gradient-to-r from-blue-600 to-blue-700'
       default:
         return 'bg-gradient-to-r from-purple-600 to-purple-700'
@@ -113,10 +56,10 @@ const Percentages = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-            Percentages
+            Numbers
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
-            Comprehensive guide to percentages for AOM aspirants
+            Comprehensive guide to important numbers for AOM aspirants
           </p>
         </div>
 
@@ -171,9 +114,9 @@ const Percentages = () => {
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div className="bg-slate-800 rounded-xl p-6 shadow-md border border-slate-700 text-center">
             <div className="text-3xl font-bold text-blue-400 mb-2">
-              {percentages.length}
+              {numbers.length}
             </div>
-            <div className="text-gray-300">Total Percentages</div>
+            <div className="text-gray-300">Total Numbers</div>
           </div>
           <div className="bg-slate-800 rounded-xl p-6 shadow-md border border-slate-700 text-center">
             <div className="text-3xl font-bold text-indigo-400 mb-2">
@@ -183,9 +126,9 @@ const Percentages = () => {
           </div>
           <div className="bg-slate-800 rounded-xl p-6 shadow-md border border-slate-700 text-center">
             <div className="text-3xl font-bold text-green-400 mb-2">
-              4%-100%
+              4-18
             </div>
-            <div className="text-gray-300">Percentage Range</div>
+            <div className="text-gray-300">Number Range</div>
           </div>
         </div>
       </div>
@@ -193,4 +136,4 @@ const Percentages = () => {
   )
 }
 
-export default Percentages
+export default Numbers

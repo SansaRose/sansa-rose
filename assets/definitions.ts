@@ -757,5 +757,17 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       definition: "The data and indices that are related to train operations and used by operating department in its management and working are called Operating Statistics.",
       reference: "--"
     },
+    {
+      number: 125,
+      term: "Train Notice",
+      definition: "The message from Divisional Control that a train is scheduled to leave from a Station or Yard at a certain time. is known as the Train Notice",
+      reference: "--"
+    },
+    {
+      number: 126,
+      term: "Over Dimensional Consignment (ODC)",
+      definition: "Consignments, which when loaded upon a wagon, would infringe the maximum standard moving dimension, at any point, on the entire route, from the booking station to the destination, including via break of gauge is called an Over Dimensional Consignment (ODC).",
+      reference: "--"
+    },
     
   ];

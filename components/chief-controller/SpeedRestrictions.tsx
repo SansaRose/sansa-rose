@@ -15,6 +15,8 @@ const SpeedRestrictions = () => {
     { question: 'The maximum shunting speed of wagons containing Explosives shall not exceed', answer: '8 kmph', speed: '8 kmph' },
     { question: 'The maximum shunting speed of wagons containing POL products shall be', answer: '8 kmph', speed: '8 kmph' },
     { question: 'When engine is pushing a train and Guard is not travelling in leading vehicle, the speed shall not exceed', answer: '8 kmph', speed: '8 kmph' },
+
+    { question: 'After stopping at the stop indicator, Loco Pilot shall sign in this book and proceed with restricted speed of ______ kmph.', answer: 'ER-7, 8 kmph', speed: '8 kmph' },
     
     { question: 'Testing of detonator shall be done by moving an empty wagon hauled by a locomotive at a speed of', answer: '8 to 11 kmph', speed: '8-11 kmph' },
     
@@ -78,6 +80,8 @@ const SpeedRestrictions = () => {
     { question: 'During T I C on double line, the Loco Pilot to proceed with a restricted speed of', answer: '25/10 kmph', speed: '25/10 kmph' },
     { question: 'If enquiry is made for more than one train and reply is also received, after a clear interval of 30 minutes the second train can be allowed to go with a restricted speed of', answer: '25/10 KMPH', speed: '25/10 kmph' },
     { question: 'In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ___________except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
+
+    { question: 'In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ______ kmph except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
     
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing two yellow lights shall be restricted to', answer: '30 kmph', speed: '30 kmph' },
     { question: 'Unless permitted under approved special instructions the maximum speed permitted on turn out/cross over is', answer: '30 kmph', speed: '30 kmph' },

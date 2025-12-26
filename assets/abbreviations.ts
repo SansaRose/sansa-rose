@@ -2150,13 +2150,17 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "OCS", fullForm: "Officer-in-Charge Site",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "OCV", 
         fullForm: "Other Coaching Vehicle",
         explanation: "These vehicles do not have a passenger carrying portion but are planned to be attached to coaching trains for providing other facilities. Saloons, inspection cars, medical cars, tourist cars, parcels & horse van, composite luggage Power Cars, Pantry Cars & brake van are some of the OCVs.",
         reference: "--"
       },
       { acronym: "ODC", fullForm: "Over Dimensional Consignment",
-        explanation: "A load that exceeds standard dimensions and requires special handling and movement planning",
+        explanation: "Consignments, which when loaded upon a wagon, would infringe the maximum standard moving dimension, at any point, on the entire route, from the booking station to the destination, including via break of gauge is called an Over Dimensional Consignment (ODC).",
         reference: "--"
       },
       { acronym: "ODR", fullForm: "Oldest Date of Registration",
@@ -2218,6 +2222,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PAM", fullForm: "Punctuality Analysis & Monitoring",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PAS", fullForm: "Public Announcement System",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2932,12 +2940,6 @@ type AbbreviationItem = {
       },
       { acronym: "SOS", fullForm: "Save Our Souls",
         explanation: "Kavach",
-        reference: "--"
-      },
-      {
-        acronym: "SP",
-        fullForm: "Sub Sectioning Post",
-        explanation: "Electrical switching post used to isolate or connect OHE sections for traction continuity.",
         reference: "--"
       },
       { acronym: "SPAD", fullForm: "Signal Passing At Danger",

@@ -2436,7 +2436,7 @@ const FreightOperationInformationSystem = () => {
                             'Rake Link Information Zonal/Divisional Coaching Stock allotment/availability, etc.'
                           ].map((item, idx) => (
                             <div key={idx} className="flex items-center gap-2 bg-violet-900/20 rounded-lg px-2 py-2 border border-violet-400/10 hover:bg-violet-800/30 transition-all duration-300">
-                              <span className="text-violet-50/95 lg:text-base text-sm">{item}</span>
+                              <p className="text-violet-50/95 lg:text-base text-sm">{item}</p>
                             </div>
                           ))}
                         </div>
