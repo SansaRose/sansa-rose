@@ -5,11 +5,11 @@ import React from "react"
 
 const GSRChapterPage17 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-blue-900 relative overflow-hidden text-white">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-950 to-blue-900 relative overflow-hidden text-white">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-32 -right-32 w-80 h-80 bg-gradient-to-br from-cyan-400/20 to-indigo-500/20 rounded-full blur-3xl animate-[pulse-slow_6s_ease-in-out_infinite]"></div>
-        <div className="absolute -bottom-32 -left-32 w-72 h-72 bg-gradient-to-tr from-purple-500/20 to-blue-400/20 rounded-full blur-3xl animate-[pulse-slow_7s_ease-in-out_infinite]"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[28rem] h-[28rem] bg-gradient-to-r from-sky-400/10 to-blue-500/10 rounded-full blur-3xl animate-[pulse-slow_5.5s_ease-in-out_infinite]"></div>
+        <div className="absolute -top-32 -right-32 w-80 h-80 bg-linear-to-br from-cyan-400/20 to-indigo-500/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-32 -left-32 w-72 h-72 bg-linear-to-tr from-purple-500/20 to-blue-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-md h-112 bg-linear-to-r from-sky-400/10 to-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute inset-0 bg-grid-white/10 opacity-20 mix-blend-overlay"></div>
       </div>
 
@@ -18,9 +18,9 @@ const GSRChapterPage17 = () => {
           <div className="text-center space-y-6">
             <div className="inline-flex items-center justify-center">
               <div className="relative">
-                <div className="lg:w-24 lg:h-24 w-16 h-16 bg-gradient-to-br from-blue-500/70 via-indigo-500/70 to-purple-500/70 rounded-full blur-xl"></div>
+                <div className="lg:w-24 lg:h-24 w-16 h-16 bg-linear-to-br from-blue-500/70 via-indigo-500/70 to-purple-500/70 rounded-full blur-xl"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full border border-white/10 bg-gradient-to-br from-blue-700/60 to-indigo-800/60 backdrop-blur">
+                  <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full border border-white/10 bg-linear-to-br from-blue-700/60 to-indigo-800/60 backdrop-blur">
                     <div className="w-full h-full rounded-full border border-white/20 flex items-center justify-center">
                       <span className="lg:text-2xl text-xl font-bold tracking-wide text-white/85">
                         3.07
@@ -31,21 +31,21 @@ const GSRChapterPage17 = () => {
               </div>
             </div>
 
-            <h1 className="text-xl lg:text-5xl font-bold tracking-wide bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent animate-[fade-in_1s_ease-out_forwards]">
+            <h1 className="text-xl lg:text-5xl font-bold tracking-wide bg-linear-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent">
               Description of Distant signals and their indications
             </h1>
           </div>
 
           <div className="bg-white/5 backdrop-blur-xl rounded-xl border border-white/10 shadow-2xl overflow-hidden">
             <div className="relative">
-              <div className="absolute -top-12 -left-12 w-40 h-40 bg-gradient-to-br from-blue-400/30 to-purple-500/30 rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-16 -right-16 w-48 h-48 bg-gradient-to-br from-blue-500/20 to-indigo-600/20 rounded-full blur-3xl"></div>
+              <div className="absolute -top-12 -left-12 w-40 h-40 bg-linear-to-br from-blue-400/30 to-purple-500/30 rounded-full blur-3xl"></div>
+              <div className="absolute -bottom-16 -right-16 w-48 h-48 bg-linear-to-br from-blue-500/20 to-indigo-600/20 rounded-full blur-3xl"></div>
 
               <div className="relative p-2 lg:p-10 space-y-6">
                 {/* Item (1) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-2 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-2 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">1</span>
                     </div>
                     <p className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -55,10 +55,10 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Item (2) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                   <div className="space-y-4">
                     <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                      <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                         <span className="text-sm lg:text-base font-bold text-white">2</span>
                       </div>
                       <p className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -67,8 +67,8 @@ const GSRChapterPage17 = () => {
                     </div>
                     
                     <div className="mt-8 flex flex-col items-center">
-                      <div className="relative w-full max-w-xl overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/60 via-slate-950/70 to-blue-900/60 p-4 shadow-xl transition-all duration-300 hover:border-amber-300/30 hover:shadow-amber-500/20">
-                        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(251,191,36,0.18),_transparent_60%)] opacity-80" />
+                      <div className="relative w-full max-w-xl overflow-hidden rounded-2xl border border-white/10 bg-linear-to-br from-slate-900/60 via-slate-950/70 to-blue-900/60 p-4 shadow-xl transition-all duration-300 hover:border-amber-300/30 hover:shadow-amber-500/20">
+                        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(251,191,36,0.18),transparent_60%)] opacity-80" />
                         <div className="relative">
                           <Image
                             src="/gsr-images/GSRPAGE18.png"
@@ -98,10 +98,10 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Item (3) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                   <div className="space-y-4">
                     <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                      <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                         <span className="text-sm lg:text-base font-bold text-white">3</span>
                       </div>
                       <p className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -110,8 +110,8 @@ const GSRChapterPage17 = () => {
                     </div>
                     
                     <div className="mt-8 flex flex-col items-center">
-                      <div className="relative w-full max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/60 via-slate-950/70 to-blue-900/60 p-4 shadow-xl transition-all duration-300 hover:border-amber-300/30 hover:shadow-amber-500/20">
-                        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(251,191,36,0.18),_transparent_60%)] opacity-80" />
+                      <div className="relative w-full max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-linear-to-br from-slate-900/60 via-slate-950/70 to-blue-900/60 p-4 shadow-xl transition-all duration-300 hover:border-amber-300/30 hover:shadow-amber-500/20">
+                        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(251,191,36,0.18),transparent_60%)] opacity-80" />
                         <div className="relative">
                           <Image
                             src="/gsr-images/GSRPAGE19.png"
@@ -141,10 +141,10 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Item (4) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                   <div className="space-y-4">
                     <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                      <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                         <span className="text-sm lg:text-base font-bold text-white">4</span>
                       </div>
                       <p className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -153,8 +153,8 @@ const GSRChapterPage17 = () => {
                     </div>
                     
                     <div className="mt-8 flex flex-col items-center">
-                      <div className="relative w-full max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/60 via-slate-950/70 to-blue-900/60 p-4 shadow-xl transition-all duration-300 hover:border-yellow-300/30 hover:shadow-yellow-500/20">
-                        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(253,224,71,0.18),_transparent_60%)] opacity-80" />
+                      <div className="relative w-full max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-linear-to-br from-slate-900/60 via-slate-950/70 to-blue-900/60 p-4 shadow-xl transition-all duration-300 hover:border-yellow-300/30 hover:shadow-yellow-500/20">
+                        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(253,224,71,0.18),transparent_60%)] opacity-80" />
                         <div className="relative">
                           <Image
                             src="/gsr-images/GSRPAGE20.png"
@@ -184,9 +184,9 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Item (5) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">5</span>
                     </div>
                     <p className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -196,9 +196,9 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Item (6) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">6</span>
                     </div>
                     <p className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -209,9 +209,9 @@ const GSRChapterPage17 = () => {
 
                 {/* Item (7) Section */}
                 <div className="space-y-4">
-                  <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
+                  <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-orange-400/30 hover:shadow-lg hover:shadow-orange-500/10">
                     <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                      <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-orange-500/80 to-red-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                         <span className="text-sm lg:text-base font-bold text-white">7</span>
                       </div>
                       <div className="flex-1 text-base lg:text-lg leading-relaxed text-blue-100/90 tracking-wide pt-1">
@@ -222,9 +222,9 @@ const GSRChapterPage17 = () => {
 
                   {/* Provided that section */}
                   <div className="pl-0 lg:pl-14 space-y-3">
-                    <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-yellow-400/30 hover:shadow-lg hover:shadow-yellow-500/10">
+                    <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-yellow-400/30 hover:shadow-lg hover:shadow-yellow-500/10">
                       <div className="flex items-start gap-4">
-                        <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-yellow-500/80 to-amber-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                        <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-yellow-500/80 to-amber-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                           <span className="text-xs lg:text-sm font-bold text-white">P</span>
                         </div>
                         <p className="flex-1 text-sm lg:text-base leading-relaxed text-blue-100/70 tracking-wide pt-1 italic">
@@ -236,9 +236,9 @@ const GSRChapterPage17 = () => {
                     {/* Items (a), (b), (c), (d) */}
                     <div className="pl-0 lg:pl-14 space-y-3">
                       {/* Item (a) */}
-                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
+                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
                         <div className="flex items-start gap-4">
-                          <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                          <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                             <span className="text-sm lg:text-base font-bold text-white">a</span>
                           </div>
                           <p className="flex-1 text-sm lg:text-base leading-relaxed text-blue-100/70 tracking-wide pt-1">
@@ -248,9 +248,9 @@ const GSRChapterPage17 = () => {
                       </div>
 
                       {/* Item (b) */}
-                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
+                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
                         <div className="flex items-start gap-4">
-                          <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                          <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                             <span className="text-sm lg:text-base font-bold text-white">b</span>
                           </div>
                           <p className="flex-1 text-sm lg:text-base leading-relaxed text-blue-100/70 tracking-wide pt-1">
@@ -260,9 +260,9 @@ const GSRChapterPage17 = () => {
                       </div>
 
                       {/* Item (c) */}
-                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
+                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
                         <div className="flex items-start gap-4">
-                          <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                          <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                             <span className="text-sm lg:text-base font-bold text-white">c</span>
                           </div>
                           <p className="flex-1 text-sm lg:text-base leading-relaxed text-blue-100/70 tracking-wide pt-1">
@@ -272,9 +272,9 @@ const GSRChapterPage17 = () => {
                       </div>
 
                       {/* Item (d) */}
-                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
+                      <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-blue-400/30 hover:shadow-lg hover:shadow-blue-500/10">
                         <div className="flex items-start gap-4">
-                          <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                          <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-blue-500/80 to-indigo-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                             <span className="text-sm lg:text-base font-bold text-white">d</span>
                           </div>
                           <p className="flex-1 text-sm lg:text-base leading-relaxed text-blue-100/70 tracking-wide pt-1">
@@ -288,13 +288,12 @@ const GSRChapterPage17 = () => {
               </div>
 
               {/* S.R.3.07.1 Section */}
-              <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-6 lg:p-10 transition-all duration-500 hover:border-white/20 hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80 space-y-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="flex-shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-gradient-to-br from-cyan-500/80 to-blue-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+              <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-6 lg:p-10 transition-all duration-500 hover:border-white/20 hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80 space-y-6">
+                <div className="flex items-center flex-col gap-3 mb-4">
+                  <div className="shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-linear-to-br from-cyan-500/80 to-blue-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                     <span className="text-sm lg:text-base font-bold text-white">S.R.</span>
                   </div>
-                  <h3 className="text-lg lg:text-2xl font-bold bg-gradient-to-r from-cyan-200 to-blue-200 bg-clip-text text-transparent flex items-center gap-2">
-                    <span className="inline-block align-middle">🔎</span>
+                  <h3 className="text-lg lg:text-2xl font-bold bg-linear-to-r from-cyan-200 to-blue-200 bg-clip-text text-transparent flex items-center gap-2">
                     3.07.1 – Signal Aspects and Their Indications (Single Distant Territory)
                   </h3>
                 </div>
@@ -361,19 +360,17 @@ const GSRChapterPage17 = () => {
                   </table>
                 </div>
                 <p className="mt-4 text-sm lg:text-base text-blue-100/80 flex items-center gap-2">
-                  <span className="inline-block align-middle">ℹ️</span>
                   Each combination gives a clear indication to the Loco Pilot about the stop or run-through at various signals in Single Distant Territory.
                 </p>
               </div>
 
               {/* S.R.3.07.2 Section */}
-              <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-6 lg:p-10 transition-all duration-500 hover:border-white/20 hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80 space-y-4 mt-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="flex-shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-gradient-to-br from-emerald-500/80 to-teal-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+              <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-6 lg:p-10 transition-all duration-500 hover:border-white/20 hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80 space-y-4 mt-6">
+                <div className="flex items-center flex-col gap-3 mb-4">
+                  <div className="shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-linear-to-br from-emerald-500/80 to-teal-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                     <span className="text-sm lg:text-base font-bold text-white">S.R.</span>
                   </div>
-                  <h3 className="text-lg lg:text-2xl font-bold bg-gradient-to-r from-emerald-200 to-teal-200 bg-clip-text text-transparent flex items-center gap-2">
-                    <span className="inline-block align-middle">🚦</span>
+                  <h3 className="text-lg lg:text-2xl font-bold bg-linear-to-r from-emerald-200 to-teal-200 bg-clip-text text-transparent flex items-center gap-2 text-center">
                     3.07.2 – Distant &amp; Inner Distant Signals (Multiple Aspect Signalling Sections)
                   </h3>
                 </div>
@@ -386,13 +383,12 @@ const GSRChapterPage17 = () => {
             </div>
 
             {/* S.R.3.07.3 Section */}
-            <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-6 lg:p-10 transition-all duration-500 hover:border-white/20 hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80 space-y-6 mt-8">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="flex-shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+            <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-6 lg:p-10 transition-all duration-500 hover:border-white/20 hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80 space-y-6 mt-8">
+              <div className="flex items-center flex-col gap-3 mb-4">
+                <div className="shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                   <span className="text-sm lg:text-base font-bold text-white">S.R.</span>
                 </div>
-                <h3 className="text-lg lg:text-2xl font-bold bg-gradient-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent flex items-center gap-2">
-                  <span className="inline-block align-middle">🔎</span>
+                <h3 className="text-lg lg:text-2xl font-bold bg-linear-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent flex items-center gap-2 text-center">
                   3.07.3 – Indications of Aspects – Distant &amp; Inner Distant Signals
                 </h3>
               </div>
@@ -465,7 +461,6 @@ const GSRChapterPage17 = () => {
                 </table>
               </div>
               <p className="mt-4 text-sm lg:text-base text-blue-100/80 flex items-center gap-2">
-                <span className="inline-block align-middle">ℹ️</span>
                 <span>
                   <strong>Note:</strong> The two yellow lights of a Distant signal constitute the <span className="font-semibold text-yellow-200">&apos;Attention&apos;</span> aspect, signifying <span className="font-semibold text-blue-100/90">proceed, preparing to pass the next signal at restricted speed</span>.<br/>
                   <span className="ml-5">Restricted speed means the Loco Pilot/Motorman must control the train considering local conditions and brake power, so the train can be stopped at the next stop signal if required. The exact speed is to be adjusted by the Loco Pilot/Motorman based on these factors.</span>
@@ -475,13 +470,13 @@ const GSRChapterPage17 = () => {
           </div>
 
           <div className="mt-8">
-            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/80 via-blue-950/80 to-indigo-900/70 shadow-lg p-6 lg:p-10 space-y-8">
+            <div className="rounded-2xl border border-white/10 bg-linear-to-br from-slate-900/80 via-blue-950/80 to-indigo-900/70 shadow-lg p-6 lg:p-10 space-y-8">
 
-              <div className="flex items-center justify-center gap-3 mb-6">
-                <div className="flex-shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+              <div className="flex items-center flex-col justify-center gap-3 mb-6">
+                <div className="shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                   <span className="text-sm lg:text-base font-bold text-white">S.R.</span>
                 </div>
-                <h2 className="text-2xl lg:text-3xl font-bold text-center bg-gradient-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent">
+                <h2 className="text-xl lg:text-2xl font-bold text-center bg-linear-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent">
                   3.07.3 — Aspects and Indications of Distant Signals in Approach to Gate Stop Signal and IB Signal
                 </h2>
               </div>
@@ -517,20 +512,20 @@ const GSRChapterPage17 = () => {
                 </table>
               </div>
 
-              <div className="flex items-center gap-3 mt-8 mb-4">
-                <div className="flex-shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+              <div className="flex items-center flex-col gap-3 mt-8 mb-4">
+                <div className="shrink-0 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                   <span className="text-sm lg:text-base font-bold text-white">S.R.</span>
                 </div>
-                <h3 className="text-xl lg:text-2xl font-semibold bg-gradient-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent">
+                <h3 className="text-xl lg:text-2xl font-semibold bg-linear-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent text-center">
                   3.07.4 — Indications for Combined Signal Arrangements
                 </h3>
               </div>
               
               <div className="space-y-6 text-base lg:text-lg">
                 {/* Gate-cum Distant Signal */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">1</span>
                     </div>
                     <div className="flex-1">
@@ -554,9 +549,9 @@ const GSRChapterPage17 = () => {
                 </div>
                 
                 {/* IBS-cum Distant Signal */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">2</span>
                     </div>
                     <div className="flex-1">
@@ -580,9 +575,9 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Last Stop Signal–cum–Distant (LC Gate) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">3</span>
                     </div>
                     <div className="flex-1">
@@ -603,9 +598,9 @@ const GSRChapterPage17 = () => {
                 </div>
 
                 {/* Last Stop Signal–cum–Distant (IB Signal) */}
-                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
+                <div className="group/item relative overflow-hidden rounded-lg border border-white/10 bg-linear-to-br from-slate-800/50 via-slate-900/50 to-blue-900/50 p-4 lg:p-6 transition-all duration-300 hover:border-purple-400/30 hover:shadow-lg hover:shadow-purple-500/10">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
+                    <div className="shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-linear-to-br from-purple-500/80 to-pink-600/80 border border-white/20 flex items-center justify-center shadow-lg">
                       <span className="text-sm lg:text-base font-bold text-white">4</span>
                     </div>
                     <div className="flex-1">
@@ -630,29 +625,6 @@ const GSRChapterPage17 = () => {
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes pulse-slow {
-          0%,
-          100% {
-            opacity: 0.6;
-            transform: scale(1);
-          }
-          50% {
-            opacity: 0.9;
-            transform: scale(1.05);
-          }
-        }
-        @keyframes fade-in {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      `}</style>
     </div>
   )
 }
