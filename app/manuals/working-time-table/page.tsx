@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react'
-import { Download, FileText, Clock, DollarSign, Train, Route, Search, AlertTriangle, Weight, Calendar, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink } from 'lucide-react'
+import { Download, FileText, Clock, DollarSign, Train, Route, Search, AlertTriangle, Weight, Calendar, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Zap, Wrench, Shield, Power, Gauge, Box, Package, Signal, ArrowRightLeft, Battery, CircleStop, DoorOpen, Truck, CircleDot, Rocket, Bolt, Lock, Cog } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const WTT = () => {
@@ -113,6 +113,202 @@ const WTT = () => {
       icon: <Calendar className="w-6 h-6" />,
       color: 'from-cyan-500 to-cyan-600',
       description: 'Comprehensive guide to train scheduling and time table management'
+    },
+    {
+      id: 'spad',
+      title: 'SPAD (Signal Passing At Danger)',
+      icon: <AlertTriangle className="w-6 h-6" />,
+      color: 'from-red-600 to-red-700',
+      description: 'Signal Passing At Danger procedures and safety protocols'
+    },
+    {
+      id: 'cranes',
+      title: 'Cranes Status',
+      icon: <Wrench className="w-6 h-6" />,
+      color: 'from-amber-500 to-amber-600',
+      description: 'Status of 140T BD Cranes, ARTs, ARMVs & RMARVs over SCR'
+    },
+    {
+      id: 'beat-of-art',
+      title: 'Beat of ART, ARME, 140-T BD Crane',
+      icon: <Route className="w-6 h-6" />,
+      color: 'from-emerald-500 to-emerald-600',
+      description: 'Beat of ART, ARME, 140-T BD crane along with jurisdictions'
+    },
+    {
+      id: 'glp-check',
+      title: 'GLP Check Procedure',
+      icon: <Search className="w-6 h-6" />,
+      color: 'from-violet-500 to-violet-600',
+      description: 'Procedure to conduct "GLP check" in a sequential manner'
+    },
+    {
+      id: 'automatic-closing-opening',
+      title: 'Automatic Closing/Opening of Hinged Doors',
+      icon: <DoorOpen className="w-6 h-6" />,
+      color: 'from-pink-500 to-pink-600',
+      description: 'Automatic Closing/Opening of Hinged Door System (Humsafar Rake)'
+    },
+    {
+      id: 'locomotive-axle-loads',
+      title: 'Electric Locomotive Axle Loads',
+      icon: <Weight className="w-6 h-6" />,
+      color: 'from-slate-500 to-slate-600',
+      description: 'Electric Locomotive Axle Loads specifications and guidelines'
+    },
+    {
+      id: 'coil-spring-breakage',
+      title: 'Coil Spring Breakage Speed Restrictions',
+      icon: <Gauge className="w-6 h-6" />,
+      color: 'from-yellow-500 to-yellow-600',
+      description: 'Speed restrictions for breakage of Coil Spring or deflated Air Spring enroute'
+    },
+    {
+      id: 'icf-coaches',
+      title: 'ICF Coaches Dimensions',
+      icon: <Train className="w-6 h-6" />,
+      color: 'from-blue-400 to-blue-500',
+      description: 'Leading dimensions of conventional ICF coaches'
+    },
+    {
+      id: 'lhb-coaches',
+      title: 'LHB Coaches Dimensions',
+      icon: <Train className="w-6 h-6" />,
+      color: 'from-indigo-400 to-indigo-500',
+      description: 'Leading dimensions of Hybrid SG Variant Coaches (LHB Shell with ICF Bogie) with air spring suspension'
+    },
+    {
+      id: 'memu-trains',
+      title: 'MEMU & EMU Technical Details',
+      icon: <Zap className="w-6 h-6" />,
+      color: 'from-cyan-400 to-cyan-500',
+      description: 'MEMU & EMU Technical Details and specifications'
+    },
+    {
+      id: 'diesel-locomotive-parameters',
+      title: 'Diesel Locomotive Parameters',
+      icon: <Cog className="w-6 h-6" />,
+      color: 'from-orange-400 to-orange-500',
+      description: 'Diesel Locomotive Parameters and technical specifications'
+    },
+    {
+      id: 'wagon-data',
+      title: 'Wagon Data',
+      icon: <Box className="w-6 h-6" />,
+      color: 'from-gray-500 to-gray-600',
+      description: 'Wagon Data (all types of wagons)'
+    },
+    {
+      id: 'kavach',
+      title: 'Kavach Operations',
+      icon: <Shield className="w-6 h-6" />,
+      color: 'from-green-600 to-green-700',
+      description: 'Joint Procedural Order for Kavach Version 3.2 Operations in SCR'
+    },
+    {
+      id: 'placement-and-removal',
+      title: 'Container Rake Placement & Removal',
+      icon: <Package className="w-6 h-6" />,
+      color: 'from-teal-400 to-teal-500',
+      description: 'JPO for placement and removal of Container rakes into & out of Goods sheds/Sidings/Private Freight Terminals'
+    },
+    {
+      id: 'msdac',
+      title: 'MSDAC/Axle Counters',
+      icon: <Signal className="w-6 h-6" />,
+      color: 'from-purple-400 to-purple-500',
+      description: 'JPO for rectification of failures in Automatic Signals with MSDAC/Axle Counters'
+    },
+    {
+      id: 'head-on-generation',
+      title: 'Head on Generation (HOG) Trains',
+      icon: <Power className="w-6 h-6" />,
+      color: 'from-yellow-600 to-yellow-700',
+      description: 'JPO for running Head on Generation (HOG) trains'
+    },
+    {
+      id: 'inspection-carriages',
+      title: 'Attachment of Inspection Carriages',
+      icon: <Train className="w-6 h-6" />,
+      color: 'from-blue-300 to-blue-400',
+      description: 'Attachment of Inspection Carriages procedures'
+    },
+    {
+      id: 'power-interception',
+      title: 'Power Interception/Loco Reversal',
+      icon: <ArrowRightLeft className="w-6 h-6" />,
+      color: 'from-red-400 to-red-500',
+      description: 'JPO for power interception/loco reversal of passenger carrying trains'
+    },
+    {
+      id: 'dead-locomotives',
+      title: 'Haulage of Dead Locomotives',
+      icon: <Battery className="w-6 h-6" />,
+      color: 'from-gray-600 to-gray-700',
+      description: 'JPO on haulage of diesel/electrical dead locomotives'
+    },
+    {
+      id: 'brake-continuity-test',
+      title: 'Brake Continuity Test',
+      icon: <CircleStop className="w-6 h-6" />,
+      color: 'from-red-500 to-red-600',
+      description: 'Procedure for Brake Continuity Test on Air Brake Passenger Carrying Trains'
+    },
+    {
+      id: 'open-door-prevention',
+      title: 'Open Door Prevention',
+      icon: <DoorOpen className="w-6 h-6" />,
+      color: 'from-rose-400 to-rose-500',
+      description: 'JPO for preventing open doors of wagons hitting Railway structures'
+    },
+    {
+      id: 'departmental-material-trains',
+      title: 'Departmental Material Trains (DMTs)',
+      icon: <Truck className="w-6 h-6" />,
+      color: 'from-amber-400 to-amber-500',
+      description: 'JPO for loading, unloading and transportation of Ballast Departmental Material trains (DMTs)'
+    },
+    {
+      id: 'flat-tyre',
+      title: 'JPO on Flat Tyre',
+      icon: <CircleDot className="w-6 h-6" />,
+      color: 'from-slate-400 to-slate-500',
+      description: 'JPO on Flat Tyre procedures and guidelines'
+    },
+    {
+      id: 'vande-bharat-trains',
+      title: 'Vande Bharat Trains',
+      icon: <Rocket className="w-6 h-6" />,
+      color: 'from-indigo-600 to-indigo-700',
+      description: 'Vande Bharat trains – various loops Trouble shooting and isolation procedure'
+    },
+    {
+      id: 'panto-entanglement',
+      title: 'Panto Entanglement/OHE Defect',
+      icon: <Bolt className="w-6 h-6" />,
+      color: 'from-yellow-500 to-yellow-600',
+      description: 'Joint Order for Panto Entanglement/ OHE defect'
+    },
+    {
+      id: 'electrified-section',
+      title: 'Safety Instructions In Electrified Section',
+      icon: <Zap className="w-6 h-6" />,
+      color: 'from-blue-600 to-blue-700',
+      description: 'Safety Instructions In Electrified Section'
+    },
+    {
+      id: 'twin-pipe-brake-system',
+      title: 'Twin Pipe Brake System',
+      icon: <CircleStop className="w-6 h-6" />,
+      color: 'from-purple-600 to-purple-700',
+      description: 'JPO for running freight trains with twin pipe brake system'
+    },
+    {
+      id: 'trains-stabling',
+      title: 'Stabling of Trains',
+      icon: <Lock className="w-6 h-6" />,
+      color: 'from-green-400 to-green-500',
+      description: 'Stabling of trains to avoid roll-down'
     },
   ]
 

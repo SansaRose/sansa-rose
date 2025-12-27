@@ -10,6 +10,34 @@ import FreightTrainExamination from '@/components/working-time-table/FreightTrai
 import InvalidBPC from '@/components/working-time-table/InvalidBPC'
 import Weighbridges from '@/components/working-time-table/Weighbridges'
 import TimeTabling from '@/components/working-time-table/TimeTabling'
+import SPAD from '@/components/working-time-table/SPAD'
+import Cranes from '@/components/working-time-table/Cranes'
+import BeatOfART from '@/components/working-time-table/BeatOfART'
+import GLPCheck from '@/components/working-time-table/GLPCheck'
+import AutomaticClosingOpening from '@/components/working-time-table/AutomaticClosingOpening'
+import LocomotiveAxleLoads from '@/components/working-time-table/LocomotiveAxleLoads'
+import CoilSpringBreakage from '@/components/working-time-table/CoilSpringBreakage'
+import ICFCoaches from '@/components/working-time-table/ICFCoaches'
+import LHBCoaches from '@/components/working-time-table/LHBCoaches'
+import MEMUTrains from '@/components/working-time-table/MEMUTrains'
+import DieselLocomotiveParameters from '@/components/working-time-table/DieselLocomotiveParameters'
+import WagonData from '@/components/working-time-table/WagonData'
+import Kavach from '@/components/working-time-table/Kavach'
+import PlacementAndRemoval from '@/components/working-time-table/PlacementAndRemoval'
+import MSDAC from '@/components/working-time-table/MSDAC'
+import HeadOnGeneration from '@/components/working-time-table/HeadOnGeneration'
+import InspectionCarriages from '@/components/working-time-table/InspectionCarriages'
+import PowerInterception from '@/components/working-time-table/PowerInterception'
+import DeadLocomotives from '@/components/working-time-table/DeadLocomotives'
+import BrakeContinuityTest from '@/components/working-time-table/BrakeContinuityTest'
+import OpenDoorPrevention from '@/components/working-time-table/OpenDoorPrevention'
+import DepartmentalMaterialTrains from '@/components/working-time-table/DepartmentalMaterialTrains'
+import FlatTyre from '@/components/working-time-table/FlatTyre'
+import VandheBharathTrains from '@/components/working-time-table/VandheBharathTrains'
+import PantoEntaglement from '@/components/working-time-table/PantoEntaglement'
+import ElectrifiedSection from '@/components/working-time-table/ElectrifiedSection'
+import TwinPipeBrakeSystem from '@/components/working-time-table/TwinPipeBrakeSystem'
+import TrainsStabling from '@/components/working-time-table/TrainsStabling'
 
 const TopicContentPage = () => {
   const params = useParams()
@@ -43,7 +71,35 @@ const TopicContentPage = () => {
     'freight-train-examination': FreightTrainExamination,
     'invalid-bpc': InvalidBPC,
     'weighbridges': Weighbridges,
-    'time-tabling': TimeTabling
+    'time-tabling': TimeTabling,
+    'spad': SPAD,
+    'cranes': Cranes,
+    'beat-of-art': BeatOfART,
+    'glp-check': GLPCheck,
+    'automatic-closing-opening': AutomaticClosingOpening,
+    'locomotive-axle-loads': LocomotiveAxleLoads,
+    'coil-spring-breakage': CoilSpringBreakage,
+    'icf-coaches': ICFCoaches,
+    'lhb-coaches': LHBCoaches,
+    'memu-trains': MEMUTrains,
+    'diesel-locomotive-parameters': DieselLocomotiveParameters,
+    'wagon-data': WagonData,
+    'kavach': Kavach,
+    'placement-and-removal': PlacementAndRemoval,
+    'msdac': MSDAC,
+    'head-on-generation': HeadOnGeneration,
+    'inspection-carriages': InspectionCarriages,
+    'power-interception': PowerInterception,
+    'dead-locomotives': DeadLocomotives,
+    'brake-continuity-test': BrakeContinuityTest,
+    'open-door-prevention': OpenDoorPrevention,
+    'departmental-material-trains': DepartmentalMaterialTrains,
+    'flat-tyre': FlatTyre,
+    'vande-bharat-trains': VandheBharathTrains,
+    'panto-entanglement': PantoEntaglement,
+    'electrified-section': ElectrifiedSection,
+    'twin-pipe-brake-system': TwinPipeBrakeSystem,
+    'trains-stabling': TrainsStabling
   }
 
   const topicNames: { [key: string]: string } = {
@@ -55,12 +111,40 @@ const TopicContentPage = () => {
     'freight-train-examination': 'Freight Train Examination',
     'invalid-bpc': 'Invalid BPC',
     'weighbridges': 'Weighbridges',
-    'time-tabling': 'Time Tabling'
+    'time-tabling': 'Time Tabling',
+    'spad': 'SPAD (Signal Passing At Danger)',
+    'cranes': 'Cranes Status',
+    'beat-of-art': 'Beat of ART, ARME, 140-T BD Crane',
+    'glp-check': 'GLP Check Procedure',
+    'automatic-closing-opening': 'Automatic Closing/Opening of Hinged Doors',
+    'locomotive-axle-loads': 'Electric Locomotive Axle Loads',
+    'coil-spring-breakage': 'Coil Spring Breakage Speed Restrictions',
+    'icf-coaches': 'ICF Coaches Dimensions',
+    'lhb-coaches': 'LHB Coaches Dimensions',
+    'memu-trains': 'MEMU & EMU Technical Details',
+    'diesel-locomotive-parameters': 'Diesel Locomotive Parameters',
+    'wagon-data': 'Wagon Data',
+    'kavach': 'Kavach Operations',
+    'placement-and-removal': 'Container Rake Placement & Removal',
+    'msdac': 'MSDAC/Axle Counters',
+    'head-on-generation': 'Head on Generation (HOG) Trains',
+    'inspection-carriages': 'Attachment of Inspection Carriages',
+    'power-interception': 'Power Interception/Loco Reversal',
+    'dead-locomotives': 'Haulage of Dead Locomotives',
+    'brake-continuity-test': 'Brake Continuity Test',
+    'open-door-prevention': 'Open Door Prevention',
+    'departmental-material-trains': 'Departmental Material Trains (DMTs)',
+    'flat-tyre': 'JPO on Flat Tyre',
+    'vande-bharat-trains': 'Vande Bharat Trains',
+    'panto-entanglement': 'Panto Entanglement/OHE Defect',
+    'electrified-section': 'Safety Instructions In Electrified Section',
+    'twin-pipe-brake-system': 'Twin Pipe Brake System',
+    'trains-stabling': 'Stabling of Trains'
   }
 
   const TopicComponent = topicComponents[topicId]
 
-  const topics = ['detention-cost', 'stoppage-cost', 'relief-trains', 'odc', 'cc-routes', 'freight-train-examination', 'invalid-bpc', 'weighbridges', 'time-tabling']
+  const topics = ['detention-cost', 'stoppage-cost', 'relief-trains', 'odc', 'cc-routes', 'freight-train-examination', 'invalid-bpc', 'weighbridges', 'time-tabling', 'spad', 'cranes', 'beat-of-art', 'glp-check', 'automatic-closing-opening', 'locomotive-axle-loads', 'coil-spring-breakage', 'icf-coaches', 'lhb-coaches', 'memu-trains', 'diesel-locomotive-parameters', 'wagon-data', 'kavach', 'placement-and-removal', 'msdac', 'head-on-generation', 'inspection-carriages', 'power-interception', 'dead-locomotives', 'brake-continuity-test', 'open-door-prevention', 'departmental-material-trains', 'flat-tyre', 'vande-bharat-trains', 'panto-entanglement', 'electrified-section', 'twin-pipe-brake-system', 'trains-stabling']
   const currentIndex = topics.indexOf(topicId)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
   const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null
