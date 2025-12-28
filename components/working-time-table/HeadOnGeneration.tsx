@@ -2,6 +2,22 @@
 import React from 'react'
 
 const HeadOnGeneration = () => {
+  const operatingProcedureSteps = [
+    'At originating station after attachment of locomotive to the train the HOG power & Control couplers between train & loco shall be coupled & locked by power car manning staff. The HOG couplers shall be coupled/uncoupled, only after ensuring that both pantos are in lowered condition. Permission shall be obtained from Shunter/LP before coupling/uncoupling.',
+    'After coupling LP shall be informed by power car manning staff in writing that "HOG couplers have been fixed and locked and that the HOG can be switched ON"',
+    'Only after ensuring that HOG couplers are connected & locked and on getting written confirmation from power car manning staff, Loco Pilot/Shunter shall raise the panto, close VCB and switch ON BLHO switch (spring loaded). LSHO lamp shall glow.',
+    'Till the time the loco is connected and HOG is switched "ON", power car manning staff should ensure the power supply to coaches for pre-cooling etc is available through DG set.',
+    'On availability of HOTEL load supply and after ensuring that the supply is stable, changeover to HOTEL load shall be affected by Power car manning staff.',
+    'Power car manning staff shall continuously monitor the power supply from loco and ensure proper voltage is displayed in each phase in the control panel of power car.',
+    'The power car manning staff to ensure availability of power supply to rake either from HOG or Generator. In case of any trouble in coupling or difficulty in extending HOG supply from loco, the train shall not be detained. The train shall be worked with power car.',
+    'In case of loco/OHE failure, Loco Pilot shall inform to Guard, Guard in turn shall inform power car manning staff to switch over the supply from HOG to power car. Loco Pilot shall inform TLC within 05 minutes of such failure and TLC in turn will inform Electrical Control. Electric controller shall verify availability of power supply to the coaches.',
+    'At destination or en-route station before disconnection of the HOG couplers, Loco Pilot shall switch OFF the BLHO switch and ensure that the LSHO lamp is not glowing. Loco Pilots shall also ensure that both panto are lowered.',
+    'Power car manning staff shall disconnect the HOG couplers from locomotive, before detachment of loco at destination/en-route. Before disconnecting of HOG couplers power car manning staff shall take permission from Shunter/LP and ensure that both panto of the loco are lowered.',
+    'Loco Pilot/Shunter shall ensure that all three HOG couplers are disconnected, before detaching the locomotive.',
+    'Maintenance of power couplers and replacement in case of necessity and availability of adequate spare couplers should be ensured by respective SSE of coaching depot or SSE of ELS/Trip shed.',
+    'Utilization of Hotel load (HOG) facility in nominated trains shall be ensured by both SSE/Coaching and SSE/Loco shed/trip shed by ensuring smooth functioning of associated circuit and components.',
+  ]
+
   return (
     <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
@@ -22,7 +38,7 @@ const HeadOnGeneration = () => {
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-5xl text-3xl font-bold bg-linear-to-r from-white via-yellow-100 to-orange-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+            <h1 className="lg:text-5xl text-2xl font-bold bg-linear-to-r from-white via-yellow-100 to-orange-100 bg-clip-text text-transparent mb-4 animate-fade-in">
               JPO - For Running Head on Generation (HOG) trains
             </h1>
             <div className="w-24 h-1 bg-linear-to-r from-yellow-500 to-orange-600 mx-auto mb-6 rounded-full"></div>
@@ -61,79 +77,38 @@ const HeadOnGeneration = () => {
           </div>
 
           {/* Section 2: Operating Procedure */}
-          <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-              <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+          <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-3 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+            <div className="flex items-center justify-center flex-col text-center gap-3 mb-8">
+              <span className="bg-linear-to-r from-green-500 to-emerald-500 lg:p-4 p-2 rounded-full shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
               </span>
-              Operating Procedure
-            </h2>
+              <h2 className="lg:text-3xl text-2xl font-bold text-white text-center">
+                Operating Procedure
+              </h2>
+            </div>
 
             <div className="space-y-4">
-              <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl p-6 shadow-lg border border-green-400/30">
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">1.</span>
-                    <span className="text-gray-200">At originating station after attachment of locomotive to the train the HOG power & Control couplers between train & loco shall be coupled & locked by power car manning staff. The HOG couplers shall be coupled/uncoupled, only after ensuring that both pantos are in lowered condition. Permission shall be obtained from Shunter/LP before coupling/uncoupling.</span>
+              {operatingProcedureSteps.map((step, index) => (
+                <div
+                  key={index}
+                  className="flex items-center justify-center flex-col gap-3 bg-linear-to-br from-green-500/20 to-emerald-500/20 rounded-lg px-4 py-3 border border-green-400/30 hover:border-green-400/50 transition-all backdrop-blur-lg"
+                >
+                  <div className="mt-1 h-10 w-10 rounded-full bg-linear-to-br from-green-400 via-emerald-500 to-teal-500 text-white font-bold flex items-center justify-center shadow-md">
+                    {index + 1}
                   </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">2.</span>
-                    <span className="text-gray-200">After coupling LP shall be informed by power car manning staff in writing that &quot;HOG couplers have been fixed and locked and that the HOG can be switched ON&quot;</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">3.</span>
-                    <span className="text-gray-200">Only after ensuring that HOG couplers are connected & locked and on getting written confirmation from power car manning staff, Loco Pilot/Shunter shall raise the panto, close VCB and switch ON BLHO switch (spring loaded). LSHO lamp shall glow.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">4.</span>
-                    <span className="text-gray-200">Till the time the loco is connected and HOG is switched &quot;ON&quot;, power car manning staff should ensure the power supply to coaches for pre-cooling etc is available through DG set.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">5.</span>
-                    <span className="text-gray-200">On availability of HOTEL load supply and after ensuring that the supply is stable, changeover to HOTEL load shall be affected by Power car manning staff.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">6.</span>
-                    <span className="text-gray-200">Power car manning staff shall continuously monitor the power supply from loco and ensure proper voltage is displayed in each phase in the control panel of power car.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">7.</span>
-                    <span className="text-gray-200">The power car manning staff to ensure availability of power supply to rake either from HOG or Generator. In case of any trouble in coupling or difficulty in extending HOG supply from loco, the train shall not be detained. The train shall be worked with power car.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">8.</span>
-                    <span className="text-gray-200">In case of loco/OHE failure, Loco Pilot shall inform to Guard, Guard in turn shall inform power car manning staff to switch over the supply from HOG to power car. Loco Pilot shall inform TLC within 05 minutes of such failure and TLC in turn will inform Electrical Control. Electric controller shall verify availability of power supply to the coaches.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">9.</span>
-                    <span className="text-gray-200">At destination or en-route station before disconnection of the HOG couplers, Loco Pilot shall switch OFF the BLHO switch and ensure that the LSHO lamp is not glowing. Loco Pilots shall also ensure that both panto are lowered.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">10.</span>
-                    <span className="text-gray-200">Power car manning staff shall disconnect the HOG couplers from locomotive, before detachment of loco at destination/en-route. Before disconnecting of HOG couplers power car manning staff shall take permission from Shunter/LP and ensure that both panto of the loco are lowered.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">11.</span>
-                    <span className="text-gray-200">Loco Pilot/Shunter shall ensure that all three HOG couplers are disconnected, before detaching the locomotive.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">12.</span>
-                    <span className="text-gray-200">Maintenance of power couplers and replacement in case of necessity and availability of adequate spare couplers should be ensured by respective SSE of coaching depot or SSE of ELS/Trip shed.</span>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-green-400 mr-3 mt-1 font-bold">13.</span>
-                    <span className="text-gray-200">Utilization of Hotel load (HOG) facility in nominated trains shall be ensured by both SSE/Coaching and SSE/Loco shed/trip shed by ensuring smooth functioning of associated circuit and components.</span>
-                  </div>
+                  <p className="text-gray-200 leading-relaxed">
+                    {step}
+                  </p>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Section 3: Monitoring and Reporting */}
           <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
+            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
               <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -212,7 +187,7 @@ const HeadOnGeneration = () => {
 
           {/* Section 4: Important Notes */}
           <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
+            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
               <span className="bg-linear-to-r from-red-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
@@ -236,77 +211,172 @@ const HeadOnGeneration = () => {
             </div>
 
             {/* Leading dimensions of PUSH–PULL Train */}
-            <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
+            <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-3 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center justify-center flex-col text-center gap-3 mb-8">
+                <span className="bg-linear-to-r from-yellow-500 to-orange-500 lg:p-4 p-2 rounded-full shadow-lg">
                   <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </span>
-                Leading dimensions of PUSH–PULL Train (Non AC LHB train with a rake comprising of maximum 22 (HOG/EOG) variant coaches with single WAP5/WAP7 Locomotive at front of rake and same Locomotive at rear of rake)
-              </h2>
-              <div className="bg-white/5 rounded-xl p-4 border border-white/10">
-                <p className="text-gray-200 whitespace-pre-line leading-relaxed">
-                  {`Sl.
-no.
-Description Code
-Length
-over
-Buffers
-(mm)
-Length
-Over
-Body
-(mm)
-Overall
-Width
-(mm)
-Height of
-floor
-from RL
-(mm)
-Tare
-Weight
-(T)
-Carrying
-Capacity
-(T)
-Bogie
-Centres
-(mm)
-Wheel
-Base
-(mm)
-Max.
-Axle
-Load
-(T)
-Accommodation
-(Seating/Sleeping)
-1
-LHB Non-AC Second
-class sleeper coach
-(Push Pull rake)
-LWSCNPP 24000 23540 3240 1320 44.0 --- 14900 2560 16.25 80 to seat /sleep
-2
-LHB Non-AC Second
-class GS coach (Push Pull
-rake)
-LWSPP 24000 23540 3240 1320 43.4 --- 14900 2560 16.25 100 to seat
-3
-LHB Non-AC Second
-class cum luggage &
-Brake van with
-compartment for
-Divyangjan passengers
-(Push Pull rake)
-LSLRDPP 24000 23540 3240 1320 --- --- 14900 2560 16.25
-other passengers to seat -31
-Divyangjan passengers/
-attendant to seat – 6 Divyangjan
-passengers/ attendant to sleep
-– 2+2`}
+                <h2 className="lg:text-3xl text-2xl font-bold text-white text-center">
+                  Leading dimensions of PUSH–PULL Train
+                </h2>
+                <p className="text-gray-300 text-sm lg:text-base">
+                  (Non AC LHB train with a rake comprising of maximum 22 (HOG/EOG) variant coaches with single WAP5/WAP7 Locomotive at front of rake and same Locomotive at rear of rake)
                 </p>
+              </div>
+
+              <div className="space-y-6">
+                {/* Coach 1 */}
+                <div className="bg-linear-to-br from-yellow-500/20 to-orange-500/20 rounded-lg px-4 py-4 border border-yellow-400/30 hover:border-yellow-400/50 transition-all backdrop-blur-lg">
+                  <div className="flex items-center justify-center flex-col gap-3 mb-4">
+                    <div className="mt-1 h-10 w-10 rounded-full bg-linear-to-br from-yellow-400 via-orange-500 to-amber-500 text-white font-bold flex items-center justify-center shadow-md text-lg">
+                      1
+                    </div>
+                    <h3 className="text-white font-semibold text-lg text-center">LHB Non-AC Second class sleeper coach (Push Pull rake)</h3>
+                    <p className="text-yellow-200 font-mono text-sm">Code: LWSCNPP</p>
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Length over Buffers</p>
+                      <p className="text-white font-semibold">24000 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Length Over Body</p>
+                      <p className="text-white font-semibold">23540 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Overall Width</p>
+                      <p className="text-white font-semibold">3240 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Height from RL</p>
+                      <p className="text-white font-semibold">1320 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Tare Weight</p>
+                      <p className="text-white font-semibold">44.0 T</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Bogie Centres</p>
+                      <p className="text-white font-semibold">14900 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Wheel Base</p>
+                      <p className="text-white font-semibold">2560 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20">
+                      <p className="text-yellow-300 text-xs mb-1">Max. Axle Load</p>
+                      <p className="text-white font-semibold">16.25 T</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-yellow-400/20 col-span-2">
+                      <p className="text-yellow-300 text-xs mb-1">Accommodation</p>
+                      <p className="text-white font-semibold">80 to seat/sleep</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Coach 2 */}
+                <div className="bg-linear-to-br from-orange-500/20 to-red-500/20 rounded-lg px-4 py-4 border border-orange-400/30 hover:border-orange-400/50 transition-all backdrop-blur-lg">
+                  <div className="flex items-center justify-center flex-col gap-3 mb-4">
+                    <div className="mt-1 h-10 w-10 rounded-full bg-linear-to-br from-orange-400 via-red-500 to-rose-500 text-white font-bold flex items-center justify-center shadow-md text-lg">
+                      2
+                    </div>
+                    <h3 className="text-white font-semibold text-lg text-center">LHB Non-AC Second class GS coach (Push Pull rake)</h3>
+                    <p className="text-orange-200 font-mono text-sm">Code: LWSPP</p>
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Length over Buffers</p>
+                      <p className="text-white font-semibold">24000 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Length Over Body</p>
+                      <p className="text-white font-semibold">23540 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Overall Width</p>
+                      <p className="text-white font-semibold">3240 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Height from RL</p>
+                      <p className="text-white font-semibold">1320 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Tare Weight</p>
+                      <p className="text-white font-semibold">43.4 T</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Bogie Centres</p>
+                      <p className="text-white font-semibold">14900 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Wheel Base</p>
+                      <p className="text-white font-semibold">2560 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20">
+                      <p className="text-orange-300 text-xs mb-1">Max. Axle Load</p>
+                      <p className="text-white font-semibold">16.25 T</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-orange-400/20 col-span-2">
+                      <p className="text-orange-300 text-xs mb-1">Accommodation</p>
+                      <p className="text-white font-semibold">100 to seat</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Coach 3 */}
+                <div className="bg-linear-to-br from-red-500/20 to-pink-500/20 rounded-lg px-4 py-4 border border-red-400/30 hover:border-red-400/50 transition-all backdrop-blur-lg">
+                  <div className="flex items-center justify-center flex-col gap-3 mb-4">
+                    <div className="mt-1 h-10 w-10 rounded-full bg-linear-to-br from-red-400 via-pink-500 to-rose-500 text-white font-bold flex items-center justify-center shadow-md text-lg">
+                      3
+                    </div>
+                    <h3 className="text-white font-semibold text-lg text-center">LHB Non-AC Second class cum luggage & Brake van with compartment for Divyangjan passengers (Push Pull rake)</h3>
+                    <p className="text-red-200 font-mono text-sm">Code: LSLRDPP</p>
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Length over Buffers</p>
+                      <p className="text-white font-semibold">24000 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Length Over Body</p>
+                      <p className="text-white font-semibold">23540 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Overall Width</p>
+                      <p className="text-white font-semibold">3240 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Height from RL</p>
+                      <p className="text-white font-semibold">1320 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Tare Weight</p>
+                      <p className="text-white font-semibold">---</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Bogie Centres</p>
+                      <p className="text-white font-semibold">14900 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Wheel Base</p>
+                      <p className="text-white font-semibold">2560 mm</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20">
+                      <p className="text-red-300 text-xs mb-1">Max. Axle Load</p>
+                      <p className="text-white font-semibold">16.25 T</p>
+                    </div>
+                    <div className="bg-black/20 rounded-lg p-3 border border-red-400/20 col-span-2 lg:col-span-5">
+                      <p className="text-red-300 text-xs mb-2">Accommodation</p>
+                      <div className="space-y-1 text-sm">
+                        <p className="text-white">• Other passengers to seat - 31</p>
+                        <p className="text-white">• Divyangjan passengers/attendant to seat – 6</p>
+                        <p className="text-white">• Divyangjan passengers/attendant to sleep – 2+2</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

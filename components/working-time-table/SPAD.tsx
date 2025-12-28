@@ -22,7 +22,7 @@ const SPAD = () => {
                 </svg>
               </div>
             </div>
-            <h1 className="lg:text-6xl text-3xl font-bold bg-linear-to-r from-white via-red-100 to-orange-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-red-100 to-orange-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               Measures to prevent SPAD (Do&apos;s & Don&apos;ts for Crew)
             </h1>
             <div className="w-24 h-1 bg-linear-to-r from-red-500 to-orange-600 mx-auto mb-6 rounded-full"></div>
@@ -33,7 +33,7 @@ const SPAD = () => {
 
           {/* Section A */}
           <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
+            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
               <span className="bg-linear-to-r from-yellow-500 to-amber-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
@@ -54,14 +54,37 @@ const SPAD = () => {
                   1. Do&apos;s
                 </h3>
                 <div className="space-y-4">
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-green-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✓</span>
-                    <span className="text-gray-200">LP & ALP should call out signals aspects loudly and clearly along with hand gestures, station name, signal name, speed & distance and specifically right side signals.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-green-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✓</span>
-                    <span className="text-gray-200">ALP should apply emergency brakes and stop the train before Danger Signal (Red), when LP is unable to control (or) the train is over speeding on approach of Danger signal.</span>
-                  </div>
+                  {[
+                    { text: 'LP & ALP should call out signals aspects loudly and clearly along with hand gestures, station name, signal name, speed & distance and specifically right side signals.' },
+                    { text: 'ALP should apply emergency brakes and stop the train before Danger Signal (Red), when LP is unable to control (or) the train is over speeding on approach of Danger signal.' },
+                  ].map((item, index) => {
+                    const getBadgeGradient = () => {
+                      return 'from-green-400 via-emerald-500 to-teal-500'
+                    }
+
+                    const getGradientColor = () => {
+                      return 'from-green-500/20 to-emerald-500/20'
+                    }
+
+                    const getBorderColor = () => {
+                      return 'border-green-400/30'
+                    }
+
+                    return (
+                      <div key={index} className={`bg-linear-to-br ${getGradientColor()} backdrop-blur-lg rounded-xl lg:p-6 p-3 shadow-lg border ${getBorderColor()} hover:border-opacity-50 transition-all duration-300`}>
+                        <div className="flex items-center justify-center flex-col gap-4">
+                          <div className={`lg:h-14 lg:w-14 h-10 w-10 rounded-full bg-linear-to-br ${getBadgeGradient()} text-white font-bold flex items-center justify-center shadow-md shrink-0 text-2xl`}>
+                            ✓
+                          </div>
+                          <div className="flex-1 w-full pt-1">
+                            <p className="text-gray-200 leading-relaxed text-center">
+                              {item.text}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
 
@@ -71,34 +94,42 @@ const SPAD = () => {
                   2. Don&apos;t
                 </h3>
                 <div className="space-y-4">
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Don&apos;t notch up the train in case of signal is late taken off from Danger to Caution, Calling out of that signal should be Caution only instead of Signal late taken off.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Don&apos;t presume the aspect of the next signal.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Don&apos;t use walkie-talkie regarding aspect of signals.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Don&apos;t grossly indulge in exchange of signals with Station, Cabin, adjacent train etc</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Don&apos;t fill up log book, Registers, etc.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Don&apos;t discuss Caution orders. Control train first if there is any confusion.</span>
-                  </div>
-                  <div className="flex items-start group hover:bg-white/10 rounded-lg p-3 transition-all duration-300">
-                    <span className="text-red-400 mr-3 mt-1 text-lg group-hover:scale-110 transition-transform">✗</span>
-                    <span className="text-gray-200">Assistant Loco Pilot not to hesitate in applying emergency brake to stop over-speeding of train before Danger signal.</span>
-                  </div>
+                  {[
+                    { text: "Don't notch up the train in case of signal is late taken off from Danger to Caution, Calling out of that signal should be Caution only instead of Signal late taken off." },
+                    { text: "Don't presume the aspect of the next signal." },
+                    { text: "Don't use walkie-talkie regarding aspect of signals." },
+                    { text: "Don't grossly indulge in exchange of signals with Station, Cabin, adjacent train etc" },
+                    { text: "Don't fill up log book, Registers, etc." },
+                    { text: "Don't discuss Caution orders. Control train first if there is any confusion." },
+                    { text: "Assistant Loco Pilot not to hesitate in applying emergency brake to stop over-speeding of train before Danger signal." },
+                  ].map((item, index) => {
+                    const getBadgeGradient = () => {
+                      return 'from-red-400 via-rose-500 to-pink-500'
+                    }
+
+                    const getGradientColor = () => {
+                      return 'from-red-500/20 to-rose-500/20'
+                    }
+
+                    const getBorderColor = () => {
+                      return 'border-red-400/30'
+                    }
+
+                    return (
+                      <div key={index} className={`bg-linear-to-br ${getGradientColor()} backdrop-blur-lg rounded-xl lg:p-6 p-3 shadow-lg border ${getBorderColor()} hover:border-opacity-50 transition-all duration-300`}>
+                        <div className="flex items-center justify-center flex-col gap-4">
+                          <div className={`lg:h-14 lg:w-14 h-10 w-10 rounded-full bg-linear-to-br ${getBadgeGradient()} text-white font-bold flex items-center justify-center shadow-md shrink-0 text-2xl`}>
+                            ✗
+                          </div>
+                          <div className="flex-1 w-full pt-1">
+                            <p className="text-gray-200 leading-relaxed text-center">
+                              {item.text}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             </div>
@@ -106,7 +137,7 @@ const SPAD = () => {
 
           {/* Section B */}
           <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
+            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
               <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -123,7 +154,7 @@ const SPAD = () => {
 
           {/* Section C */}
           <div className="bg-white/10 backdrop-blur-lg rounded-lg shadow-2xl py-6 px-2 mb-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
+            <h2 className="lg:text-3xl text-2xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center text-center">
               <span className="bg-linear-to-r from-purple-500 to-pink-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg">
                 <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />

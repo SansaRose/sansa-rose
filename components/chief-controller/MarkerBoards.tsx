@@ -61,24 +61,24 @@ const MarkerBoards = () => {
 
   const getMarkerColor = (index: number) => {
     const colors = [
-      'bg-gradient-to-r from-red-600 to-red-700',
+      'bg-linear-to-r from-red-600 to-red-700',
       'bg-gradient-to-r from-orange-600 to-orange-700',
-      'bg-gradient-to-r from-yellow-600 to-yellow-700',
-      'bg-gradient-to-r from-green-600 to-green-700',
-      'bg-gradient-to-r from-blue-600 to-blue-700',
-      'bg-gradient-to-r from-indigo-600 to-indigo-700',
-      'bg-gradient-to-r from-purple-600 to-purple-700',
-      'bg-gradient-to-r from-pink-600 to-pink-700'
+      'bg-linear-to-r from-yellow-600 to-yellow-700',
+      'bg-linear-to-r from-green-600 to-green-700',
+      'bg-linear-to-r from-blue-600 to-blue-700',
+      'bg-linear-to-r from-indigo-600 to-indigo-700',
+      'bg-linear-to-r from-purple-600 to-purple-700',
+      'bg-linear-to-r from-pink-600 to-pink-700'
     ]
     return colors[index % colors.length]
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             Marker Boards
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
@@ -95,7 +95,7 @@ const MarkerBoards = () => {
             >
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 p-4 sm:p-6">
                 {/* Marker Badge */}
-                <div className={`${getMarkerColor(index)} text-white px-6 py-4 rounded-lg flex-shrink-0 min-w-[120px] flex items-center justify-center`}>
+                <div className={`${getMarkerColor(index)} text-white px-6 py-4 rounded-lg shrink-0 min-w-[120px] flex items-center justify-center`}>
                   <span className="text-3xl font-bold font-mono">
                     {board.marker}
                   </span>
@@ -104,7 +104,7 @@ const MarkerBoards = () => {
                 {/* Description */}
                 <div className="flex-1">
                   <div className="flex items-start gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
+                    <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500 text-white font-semibold text-sm flex items-center justify-center mt-0.5">
                       {index + 1}
                     </span>
                     <p className="text-gray-200 leading-relaxed font-medium text-base sm:text-lg">
@@ -114,7 +114,7 @@ const MarkerBoards = () => {
                 </div>
 
                 {/* Marker Display */}
-                <div className="flex-shrink-0 sm:w-48 ml-8">
+                <div className="shrink-0 sm:w-48 ml-8">
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-900/50 border border-blue-700">
                     <span className="text-blue-300 font-semibold text-lg font-mono">
                       ({board.marker})

@@ -150,9 +150,12 @@ const Authorities = () => {
 
     { question: 'If Permissive signal is stuck in "OFF" postion, the rear Station master shall give ________ to the Loco Pilot to stop and observe the PHS at the foot of the signal stuck in "OFF" position', answer: 'Caution Order', form: 'Other' },
 
+    { question: 'When Station Masters of both ends received Trolly/Lorry Notice, they shall stop all the trains entering into the section and issue ________', answer: 'Caution Order', form: 'Other' },
+
     { question: 'When goods Train run without Guard has to be divided, the Loco Pilot shall bring first portion by preparing', answer: 'Written Memo', form: 'Other' },
 
     { question: 'Authority to go beyond opposite FSS for shunting purpose on Single line', answer: 'ATP + Written Memo to Push back + Taking off signals', form: 'Other' },
+
     { question: 'Brake Power Certificate', answer: 'RS-6', form: 'Other' },
     { question: 'After stopping at Engineering Stop Indicator Loco pilot has to sign in', answer: 'ER-7', form: 'Other' },
   ]

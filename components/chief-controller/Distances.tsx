@@ -130,12 +130,19 @@ const Distances = () => {
     { question: 'What is the enhanced (under trial) validity for a BOXN/BOXNHL CC Rake?', answer: '10000 km or 35+5 days', distance: '1000KM' },
     
     { question: 'The provision of Catch siding is compulsory, where the falling gradient towards Station section is steeper than', answer: '1 in 80', distance: 'Gradients' },
+
     { question: 'The provision of slip siding is compulsory, where the falling gradient towards block section is steeper than', answer: '1 in 100', distance: 'Gradients' },
+
     { question: 'Dividing of Material train in the block section where the gradient is steeper than ________ is prohibited.', answer: '1 in 100', distance: 'Gradients' },
+
     { question: 'If the stoppage happened (more than 15 minutes) on a grade steeper than ________ for roller bearing stock(goods train), the number of hand brakes (10 inside engine+5 inside B/V or one third whichever is more) to be applied in addition to the application of brake van hand brake. ', answer: '1 in 150', distance: 'Gradients' },
+
     { question: 'Rail dollies shall not be worked on sections having gradients steeper than', answer: '1 in 200', distance: 'Gradients' },
+    
     { question: 'For shunting purpose, the gradient considered as steep gradient for non roller bearing wagons', answer: '1 in 260', distance: 'Gradients' },
+
     { question: 'The gradient that is considered as steep gradient for the purpose shunting of roller bearing wagons', answer: '1 in 400', distance: 'Gradients' },
+
     { question: 'The number of hand brakes of vehicles (Brake Van + 18 vehicles on train) that must be applied whenever the engine is to be detached out side station limits when the gradient is not steeper than ________', answer: '1 in 600', distance: 'Gradients' },
 
     { question: 'The number of hand brakes of vehicles (Brake Van + All vehicles on train) that must be applied whenever the engine is to be detached out side station limits when the gradient is steeper than ________', answer: '1 in 600', distance: 'Gradients' },

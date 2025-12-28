@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { Gauge, Clock, Ruler, FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Volume2, Bell, BellRing, BookOpen, Layers, FolderOpen, Percent, Hash } from 'lucide-react'
+import { Gauge, Clock, Ruler, FileText, ChevronDown, ChevronUp, BookOpenCheck, ExternalLink, Volume2, Bell, BellRing, BookOpen, Layers, FolderOpen, Percent, Hash, Shield, Calendar } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const ChiefControllerIndex = () => {
@@ -92,6 +92,20 @@ const ChiefControllerIndex = () => {
       description: 'Essential percentage requirements for brake power and spare coaches in railway operations'
     },
     {
+      id: 'authorities',
+      title: 'Authorities',
+      icon: <FileText className="w-6 h-6" />,
+      color: 'from-purple-500 to-purple-600',
+      description: 'Complete list of authorities, forms, and permissions required for railway operations'
+    },
+    {
+      id: 'permissions',
+      title: 'Permissions/Sanctions/Authorised',
+      icon: <Shield className="w-6 h-6" />,
+      color: 'from-emerald-500 to-emerald-600',
+      description: 'Complete guide to permissions, sanctions, and authorized procedures for railway operations'
+    },
+    {
       id: 'numbers',
       title: 'Numbers',
       icon: <Hash className="w-6 h-6" />,
@@ -99,11 +113,18 @@ const ChiefControllerIndex = () => {
       description: 'Important numerical values and counts for railway operations and zones'
     },
     {
-      id: 'authorities',
-      title: 'Authorities',
-      icon: <FileText className="w-6 h-6" />,
-      color: 'from-purple-500 to-purple-600',
-      description: 'Complete list of authorities, forms, and permissions required for railway operations'
+      id: 'years',
+      title: 'Years',
+      icon: <Calendar className="w-6 h-6" />,
+      color: 'from-amber-500 to-amber-600',
+      description: 'Important years and time periods for railway operations and regulations'
+    },
+    {
+      id: 'marker-boards',
+      title: 'Marker Boards',
+      icon: <Bell className="w-6 h-6" />,
+      color: 'from-green-500 to-green-600',
+      description: 'Important marker boards for railway operations and zones'
     },
     {
       id: 'whistle-codes',
@@ -129,33 +150,33 @@ const ChiefControllerIndex = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-4 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-8">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-indigo-600 lg:p-3 p-2 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-indigo-600 lg:p-3 p-2 rounded-full">
                 <FileText className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-indigo-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               CHIEF CONTROLLER
             </h1>
             <h2 className="lg:text-4xl text-xl font-bold text-purple-300 mb-4">IMPORTANT TOPICS INDEX</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
-              Comprehensive guide covering Speed Restrictions, Timings, Distances, Percentages, Numbers, Authorities, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix -
+              Comprehensive guide covering Speed Restrictions, Timings, Distances, Percentages, Authorities, Permissions, Numbers, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix -
               Essential reference material for AOM aspirants in Indian Railways.
             </p>
-            <div className="mt-6 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-lg p-4 backdrop-blur-sm border border-blue-400/30">
+            <div className="mt-6 bg-linear-to-r from-blue-500/20 to-indigo-500/20 rounded-lg p-4 backdrop-blur-sm border border-blue-400/30">
               <p className="text-blue-200 font-medium">Chief Controller - Complete Study Material Reference</p>
             </div>
           </div>
@@ -170,7 +191,7 @@ const ChiefControllerIndex = () => {
                 >
                   {/* Topic Header */}
                   <div 
-                    className={`bg-gradient-to-r ${topic.color} text-white p-6 cursor-pointer hover:brightness-110 transition-all duration-300`}
+                    className={`bg-linear-to-r ${topic.color} text-white p-6 cursor-pointer hover:brightness-110 transition-all duration-300`}
                     onClick={() => toggleTopic(topic.id)}
                   >
                     <div className="flex flex-col items-center text-center">
@@ -214,7 +235,7 @@ const ChiefControllerIndex = () => {
                           className={`flex items-center space-x-2 px-6 py-3 text-white text-sm font-medium rounded-md transition-all duration-300 ${
                             openingContent === topic.id
                               ? 'bg-gray-500 cursor-not-allowed'
-                              : 'bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:shadow-lg hover:scale-105'
+                              : 'bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:shadow-lg hover:scale-105'
                           }`}
                         >
                           {openingContent === topic.id ? (
@@ -243,7 +264,7 @@ const ChiefControllerIndex = () => {
                 </div>
                 <p className="text-gray-300 max-w-2xl mx-auto">
                   This comprehensive guide covers all essential topics for Chief Controller examination,
-                  providing complete reference material for Speed Restrictions, Timings, Distances, Percentages, Numbers, Authorities, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix
+                  providing complete reference material for Speed Restrictions, Timings, Distances, Percentages, Authorities, Permissions, Numbers, Whistle Codes, Bell Codes, Bell Signals, G&SR Chapters, General Rules, G&SR Appendix, and SWR Appendix
                   required for AOM aspirants in Indian Railways.
                 </p>
               </div>

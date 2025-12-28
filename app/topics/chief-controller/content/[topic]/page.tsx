@@ -6,7 +6,10 @@ import Timings from '@/components/chief-controller/Timings'
 import Distances from '@/components/chief-controller/Distances'
 import Percentages from '@/components/chief-controller/Percentages'
 import Numbers from '@/components/chief-controller/Numbers'
+import Years from '@/components/chief-controller/Years'
 import Authorities from '@/components/chief-controller/Authorities'
+import Permissions from '@/components/chief-controller/Perminssions'
+import MarkerBoards from '@/components/chief-controller/MarkerBoards'
 import WhistleCodes from '@/components/chief-controller/WhistleCodes'
 import BellCodes from '@/components/chief-controller/BellCodes'
 import BellSignals from '@/components/chief-controller/BellSignals'
@@ -44,7 +47,10 @@ const TopicContentPage = () => {
     'distances': Distances,
     'percentages': Percentages,
     'numbers': Numbers,
+    'years': Years,
     'authorities': Authorities,
+    'permissions': Permissions,
+    'marker-boards': MarkerBoards,
     'whistle-codes': WhistleCodes,
     'bell-codes': BellCodes,
     'bell-signals': BellSignals,
@@ -60,7 +66,10 @@ const TopicContentPage = () => {
     'distances': 'Distances',
     'percentages': 'Percentages',
     'numbers': 'Numbers',
+    'years': 'Years',
     'authorities': 'Authorities',
+    'permissions': 'Permissions/Sanctions/Authorised',
+    'marker-boards': 'Marker Boards',
     'whistle-codes': 'Whistle Codes',
     'bell-codes': 'Bell Codes',
     'bell-signals': 'Bell Signals',
@@ -72,7 +81,7 @@ const TopicContentPage = () => {
 
   const TopicComponent = topicComponents[topicId]
 
-  const topics = ['gsr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'numbers', 'authorities', 'whistle-codes', 'bell-codes', 'bell-signals']
+  const topics = ['gsr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'bell-codes', 'bell-signals']
   const currentIndex = topics.indexOf(topicId)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
   const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null

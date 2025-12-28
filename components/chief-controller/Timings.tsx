@@ -28,9 +28,13 @@ const Timings = () => {
     { question: 'For Originating and passing through trains, Handing over by more than ______ minutes at interchange point.', answer: '3 minutes', timing: '3 minutes' },
     
     { question: 'When a train is held up at F S S, the Loco Pilot shall depute Assistant Loco Pilot to go to Station. After', answer: '5 minutes', timing: '5 minutes' },
+
     { question: 'When IBS is at "ON" and the telephone is out of order, Loco Pilot shall wait for', answer: '5 minutes', timing: '5 minutes' },
+
     { question: 'When engine disabled, LP will request the Guard to arrange for a relief engine if the LP expects that putting the engine in working order will take more than', answer: '5 minutes', timing: '5 minutes' },
+
     { question: 'LP shall depute his ALP to check the train and inform Guard of no tension in OHE when it is held up for more than', answer: '5 Minutes', timing: '5 minutes' },
+
     { question: 'At train starting station \'is line clear\' shall be asked, how many minutes before the booked departure of the passenger carrying trains', answer: 'before 5 min', timing: '5 minutes' },
 
     { question: 'In Modified Semi-automatic stop signal, when Loco Pilot finds mid-section modified semi-automatic stop signal with "A" marker extinguished in "ON" position, when Loco Pilot is unable to contact the Station Master of station ahead, he shall pass the signal at "ON" ______________ and proceed cautiously and be prepared to stop short of any obstruction, at a speed not exceeding 10 kmph upto next Signal.', answer: 'After waiting for 5 minutes at the signal', timing: '5 minutes' },
@@ -101,6 +105,8 @@ const Timings = () => {
     
     { question: 'If a BPC Rake (CC, Premium, or End-to-End) is stabled for more than _______ hours at a TXR yard, BPC becomes invalid.', answer: '24 hours', timing: '24 hours' },
 
+    { question: 'Fresh B P C is required when train is stabled at station other than loading and unloading station for more than _____ hours', answer: '24 hours', timing: '24 hours' },
+
     { question: 'Rusty” rail caps are to be placed when any line is not used for more than ______ hours.', answer: '24 hours', timing: '24 hours' },
 
     { question: 'Temporary Instructions shall be issued for Disconnections / maintenance likely to last for more than', answer: 'one day', timing: '1 day' },
@@ -115,6 +121,8 @@ const Timings = () => {
 
     { question: 'When must an Empty End-to-End Rake reach the loading point from the time of BPC issue, otherwise a fresh BPC is required?', answer: 'Within 4 days', timing: '4 days' },
 
+    { question: 'The validity of Premium rake BPC is ______', answer: '12 days', timing: '12 days' },
+
     { question: 'BPC of a material train is valid for 30 days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
@@ -127,6 +135,8 @@ const Timings = () => {
     { question: 'If the distance (km) data is missing and not retrievable for a CC Rake, for how many days is the BPC valid?', answer: '20 days', timing: '20 days' },
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
+
+    { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days' },
 
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
 
@@ -142,11 +152,13 @@ const Timings = () => {
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
     { question: 'All Gds, LPs, ALP, Motor men who are required to work in automatic block system shall undergo one day intensive training and a certificate shall be renewed once in', answer: '6 months', timing: '6 months' },
+
     { question: 'Loco Pilot shall be re-examined after a refresher course and his certificate endorsed if he has not driven an electric engine or multiple units for more than', answer: '6 months', timing: '6 months' },
 
     { question: 'Record foils of the caution orders shall be preserved for a period of', answer: '6 months', timing: '6 months' },
 
     { question: 'Crew requirement is reviewed once in _______ months by the division based on the crew required for working coaching links and average working hours of goods crew.', answer: '6 months', timing: '6 months' },
+    
     { question: 'Medical Relief Van and Auxiliary Van shall be inspected at least once in _______ months jointly by Divisional Officers of Medical, Safety, Civil Engineering, Mechanical, Electrical and S&T.', answer: '6 months', timing: '6 months' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
