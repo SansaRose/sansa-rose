@@ -12,6 +12,8 @@ const Distances = () => {
   const distances: Distance[] = [
     { question: '“Danger Zone” means the zone lying around any live equipment with in a radius of________', answer: '2M', distance: '2M' },
 
+    { question: 'The distance between the two tracks on Broad Gauge', answer: '1676M', distance: '1676M' },
+
     { question: 'At non interlocked gates, the gateman, before opening the gate for road traffic shall fix a banner flag by day and red light by night at a distance of', answer: '5 Meters from Gate', distance: '5M' },
     
     { question: 'In thick, foggy or tempestuous weather impairing visibility and his engine explodes two detonators within a distance of 10 metres apart, the Loco Pilot will control his train immediately and will follow the aspect of', answer: 'stop signal ahead', distance: '10M' },
@@ -82,6 +84,8 @@ const Distances = () => {
 
     { question: 'The Outer signal is located on a Double line section at a distance of Not less than 400M from Home signal.', answer: '400M', distance: '400M' },
 
+    { question: 'To treat any accident as averted collision, outside station limits, the distance between two trains shall be ______', answer: 'Less than 400 meters', distance: '400M' },
+
     { question: 'The Outer signal is located on a Single line section at a distance of Not less than 580M from Outermost points.', answer: '580M', distance: '580M' },
     
     { question: 'Whistle Board in case of approach to manned level crossing gates is at a distance of', answer: '600M', distance: '600M' },
@@ -111,7 +115,7 @@ const Distances = () => {
     { question: 'The beat of the Patrolman shall no case exceed', answer: '5KM', distance: '5KM' },
     
     { question: 'Under no circumstances a patrolman should be rostered to walk more than', answer: '20KM', distance: '20KM' },
-    { question: 'Maximum Station spacing distance on DFCwillbe km', answer: '40KM', distance: '40KM' },
+    { question: 'Maximum Station spacing distance on DFC will be ______ km', answer: '40KM', distance: '40KM' },
 
     { question: 'In FTR booking, Empty Haulage Charge is applied on a minimum chargeable distance of how many kilometres?', answer: '200KM', distance: '200KM' },
 
@@ -122,9 +126,19 @@ const Distances = () => {
 
     { question: 'What is the validity period for BPC of an ICF Mail/Express Train?', answer: '3500 km or 96 hours (4 days)', distance: '3500KM' },
 
+    { question: 'BPC for “Military/Election Special trains” in case of ICF coaches is valid for', answer: '3500 km or 7 days', distance: '3500KM' },
+
     { question: 'Passenger Trains (ICF Stock) Without Toilets have a BPC validity of 3500 km OR 7 days, whichever is earlier.', answer: '3500 km OR 7 days, whichever is earlier', distance: '3500KM' },
+
+    { question: 'BPC for “Passenger trains with toilets” in case of ICF coaches is valid for', answer: '3500 kms or 96 hours', distance: '3500KM' },
+
+    { question: 'Validity for “Mail/Express” in case of ICF coaches checked on pit line is', answer: '3500 kms or 96 hours', distance: '3500KM' },
     
     { question: 'What is the validity of BPC for LHB Coaching Stock running as a Mail/Express train?', answer: '4000KM or 96 hours (4 days)', distance: '4000KM' },
+
+    { question: 'BPC for “Military/Election Special trains” in case of LHB coaches is valid for ______', answer: '4000 kms or 7 days', distance: '4000KM' },
+
+    { question: 'Validity for “Mail/Express” in case of LHB coaches checked on pit line', answer: '4000 kms or 96 hours', distance: '4000KM' },
 
     { question: 'What is the validity of BPC for a Dedicated Parcel Express Train?', answer: '4500 km or 10 days', distance: '4500KM' },
     { question: 'What is the enhanced (under trial) validity for a BOXN/BOXNHL CC Rake?', answer: '10000 km or 35+5 days', distance: '1000KM' },

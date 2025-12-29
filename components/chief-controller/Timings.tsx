@@ -70,6 +70,8 @@ const Timings = () => {
 
     { question: 'In Following train, Pilot Guard, Train staff & ticket systems, a train shall be allowed to follow another from a station unless there has elapsed, an interval of not less than_____, or such shorter interval as may be fixed by special instructions.', answer: '15 minutes', timing: '15 minutes' },
 
+    { question: 'To treat as equipment failure, a gate telephone shall fail for more than ______ minutes.', answer: '15 minutes', timing: '15 minutes' },
+
     { question: 'The target time for turning out Medical Relief Train (MRT) for direct/indirect dispatch, is ________', answer: '15/20 minutes', timing: '15/20 minutes' },
     
     { question: 'The time interval between two trains during signal and communication failure on Double line Automatic Block System shall be______', answer: '25 minutes', timing: '25 minutes' },
@@ -95,10 +97,18 @@ const Timings = () => {
 
     { question: 'When power supply fails in Non-electrified area, one generator can be used at a time for a maximum of________', answer: '4 hours', timing: '4 hours' },
 
+    { question: 'On trunk routes when traffic is disrupted for following hours or more, it is treated as serious dislocation of traffic.', answer: '6 hours', timing: '6 hours' },
+
+    { question: 'The maximum time slot allotted for Primary maintenance of coaching rake', answer: '6 hours', timing: '6 hours' },
+
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
+    { question: 'Control chart is prepared normally for ______ hours', answer: '8 hours', timing: '8 hours' },
+
     { question: 'Running duty at a stretch should not ordinarily exceed _____ hours from the departure of the train.', answer: '9 hours', timing: '9 hours' },
+
     { question: 'The maximum duty hours in any one trip should not exceed.', answer: '10 hours', timing: '10 hours' },
+
     { question: 'Overall duty of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
 
     { question: 'Minimum home station rest for duty more than 8 hours is:', answer: '16 hours', timing: '16 hours' },
@@ -109,7 +119,15 @@ const Timings = () => {
 
     { question: 'Rusty” rail caps are to be placed when any line is not used for more than ______ hours.', answer: '24 hours', timing: '24 hours' },
 
+    { question: 'Master chart is prepared normally for ______ hours', answer: '24 hours', timing: '24 hours' },
+
+    { question: 'Loco outage means the average number of locos available to traffic use in ______ hours', answer: '24 hours', timing: '24 hours' },
+
+    { question: 'Throughput of a section is given as the volume of traffic carried over a section in ______ hours', answer: '24 hours', timing: '24 hours' },
+
     { question: 'Temporary Instructions shall be issued for Disconnections / maintenance likely to last for more than', answer: 'one day', timing: '1 day' },
+
+    { question: 'Minimum number of days from the date of accident ‘D’, DRM/GM to order enquiry to be done within is _____', answer: 'D + 1 day', timing: '1 day' },
 
     { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
 
@@ -119,7 +137,17 @@ const Timings = () => {
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
 
+    { question: 'Minimum number of days from the date of accident ‘D’, commencement of enquiry to be done within is ______', answer: 'D + 3 days', timing: '3 days' },
+
     { question: 'When must an Empty End-to-End Rake reach the loading point from the time of BPC issue, otherwise a fresh BPC is required?', answer: 'Within 4 days', timing: '4 days' },
+
+    { question: 'The BPC of DEMU 700 HP trains is valid for ______', answer: '7 days', timing: '7 days' },
+
+    { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to be done within is _____', answer: 'D + 7 days', timing: '7 days' },
+
+    { question: 'The BPC of DEMU other than 700 HP trains is valid for ______', answer: '10 days', timing: '10 days' },
+
+    { question: 'Minimum number of days from the date of accident ‘D’, acceptance of enquiry report to be done within is _____', answer: 'D + 10 days', timing: '10 days' },
 
     { question: 'The validity of Premium rake BPC is ______', answer: '12 days', timing: '12 days' },
 
@@ -128,11 +156,15 @@ const Timings = () => {
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
 
     { question: 'Engineering and S&T officials shall send a circular notice before the work is due to commence to the Sr. DOM/DOM at least', answer: '15 days in advance', timing: '15 days' },
+
+    { question: 'Minimum number of days from the date of accident ‘D’, finalization of enquiry report by CSO/AGM to be done within is _____', answer: 'D + 15 days', timing: '15 days' },
     
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '20 days', timing: '20 days' },
 
 
     { question: 'If the distance (km) data is missing and not retrievable for a CC Rake, for how many days is the BPC valid?', answer: '20 days', timing: '20 days' },
+
+    { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to CRS/Rly Board to be done within is _____', answer: 'D + 20 days', timing: '20 days' },
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
@@ -143,11 +175,14 @@ const Timings = () => {
     { question: 'First Aid boxes available with Station Masters and Guards of passenger carrying trains are to be inspected by DMO ____________', answer: 'Once in a month', timing: '1 month' },
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
+
     { question: 'All Signals on a section shall be jointly inspected by the Signal, Transportation and Loco Inspectors (SI, TI & LI) at least once in 3 months.', answer: '3 months', timing: '3 months' },
 
     { question: 'Mock drills for Accident Relief Train (ART) and Medical Relief Train (MRT) shall be conducted once in________', answer: '3 months', timing: '3 months' },
 
     { question: 'The knowledge of staff that are required to use detonators shall be tested once in_______', answer: '3 months', timing: '3 months' },
+
+    { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
@@ -166,6 +201,10 @@ const Timings = () => {
     { question: 'Testing of detonators shall be done once in 12 months.', answer: '12 months', timing: '12 months' },
 
     { question: 'The claim for compensation shall be made within the following time from the date of accident', answer: '12 months', timing: '12 months' },
+
+    { question: 'Wagon census is conducted once in ______', answer: 'a year', timing: '1 year' },
+
+    { question: 'POH interval of passenger coaches run on Mail Exp/Passenger trains is ______', answer: '18 months', timing: '18 months' },
     
     { question: 'Periodical census of traffic at all level crossings shall be carried out for every', answer: '3 years for 7 days', timing: '3 years' },
 

@@ -16,6 +16,11 @@ const Perminssions = () => {
       category: 'Government'
     },
     {
+      description: 'All India Trains at a glance is prepared by ______',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+    {
       description: 'Approved special instructions are issued or approved by',
       authority: 'Commissioner of Railway Safety (CRS)',
       category: 'CRS'
@@ -46,6 +51,16 @@ const Perminssions = () => {
         category: 'PCOM'
       },
       {
+        description: 'For booking against a restriction, thepermission of ______ is required',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'Sanction for ‘C’ class ODC special trains has to be given by ______',
+        authority: 'PCSO',
+        category: 'PCSO & CRS & PCE'
+      },
+      {
         description: 'The Officer authorized to certify Officers of HQ for working of motor trolleys ______',
         authority: 'PCSO',
         category: 'PCSO'
@@ -54,6 +69,31 @@ const Perminssions = () => {
         description: 'Maximum Permissible speed for each section of the railway is given by ______',
         authority: 'PCOM',
         category: 'PCOM'
+      },
+      {
+        description: 'At Zonal level the management of Passenger Traffic is looked after by ______',
+        authority: 'CPTM',
+        category: 'CPTM'
+      },
+      {
+        description: 'In the month of October minutes of Divisional time table meeting sent to ______',
+        authority: 'CPTM',
+        category: 'CPTM'
+      },
+      {
+        description: 'Nodal officer of the construction of Private freight terminal is ______',
+        authority: 'CTPM',
+        category: 'CTPM'
+      },
+      {
+        description: 'Coordinating officer for approval of plans and sanctioning of estimates for PFT is ______',
+        authority: 'CGE',
+        category: 'CGE'
+      },
+      {
+        description: 'Who is the head of Transformation Cell at Railway Board? ______',
+        authority: 'PED',
+        category: 'PED'
       },
     {
       description: 'No. of detonators which shall be kept in stock at a station is prescribed by',
@@ -121,6 +161,11 @@ const Perminssions = () => {
       category: 'DOM'
     },
     {
+      description: 'Specific Loading Order (S.L.O) is givenby  ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
       description: 'The officials to sign and issue the SWR are ______',
       authority: 'DOM & DSTE',
       category: 'DOM'
@@ -154,6 +199,21 @@ const Perminssions = () => {
       description: 'The Officer authorized to certify Group ‘C’ staff of the division for working of motor trolleys ______',
       authority: 'Sr.DSO',
       category: 'DSO'
+    },
+    {
+      description: 'The level of enquiry to be conducted in case of other consequential accidents to be done by ______',
+      authority: 'Dy.CSO',
+      category: 'CSO'
+    },
+    {
+      description: 'Accident Inquiry Reports with staff of foreign railway responsibility should be put to __________directly being the Accepting Authority in such cases.',
+      authority: 'AGM',
+      category: 'AGM'
+    },
+    {
+      description: 'The level of enquiry to be conducted in case of A1 to A4(collision) in case CRS is not conducting to be done by minimum grade officers of ______',
+      authority: 'SAG',
+      category: 'SAG'
     },
   ]
 

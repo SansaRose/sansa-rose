@@ -61,6 +61,21 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'No. of Private Number sheets supplied to each on duty Station Master.',
+      answer: '2',
+      category: '2'
+    },
+    {
+      question: 'Maximum commodities ______ can be clubbed in a wagon.',
+      answer: '2',
+      category: '2'
+    },
+    {
+      question: 'First class privilege pass holders areentitled for ______ number of berths in 2AC byRajdhani/Durontotrains',
+      answer: '2',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
@@ -111,6 +126,11 @@ const Numbers = () => {
       category: '5'
     },
     {
+      question: 'Accidents are classified into how many categories',
+      answer: '5',
+      category: '5'
+    },
+    {
         question: 'Number of States covering South Central Railway is',
         answer: '6',
         category: '6'
@@ -119,6 +139,16 @@ const Numbers = () => {
         question: 'Max. no. of rail dollies can be worked in a group in any one block section.',
         answer: '6',
         category: '6'
+      },
+      {
+        question: 'Group A and B officers are entitled to ______ sets of First Class A Privilege passes',
+        answer: '6',
+        category: '6'
+      },
+      {
+        question: 'For the purpose of Weather Warning, South Central Railway is divided into ______ zones',
+        answer: '7',
+        category: '7'
       },
       {
         question: 'Under exceptional circumstances short formation trains not carrying passengers, not exceeding how many eight wheeler units may be run without guard and brakevan',
@@ -159,6 +189,11 @@ const Numbers = () => {
         question: 'With regard to marshalling of explosives and other dangerous goods, The rules are laid down in the I. R. C. A. Red Tariff No. for strict compliance in ______',
         answer: '20',
         category: '20'
+      },
+      {
+        question: 'An indent for a standard rake of BOXN should be for ______ wagons',
+        answer: '59',
+        category: '59'
       }
   ]
 

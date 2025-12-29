@@ -123,6 +123,8 @@ const SpeedRestrictions = () => {
 
     { question: 'What is the maximum permitted speed for loaded long haul trains?', answer: '55 KMPH', speed: '55 kmph' },
 
+    { question: 'Super fast train means ,The average speed is ______ & above', answer: '55 kmph', speed: '55 kmph' },
+
     { question: 'Mail Express trains are faster than passenger trains. Superfast trains have a higher average speed of greater than or equal to ______ kmph.', answer: '55 kmph', speed: '55 kmph' },
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing green light shall be restricted to', answer: '60kmph', speed: '60 kmph' },
     
@@ -135,6 +137,15 @@ const SpeedRestrictions = () => {
     { question: 'During dense fog and fog safety device is provided maximum speed of a train on Absolute block system shall be restricted to', answer: '75 kmph', speed: '75 kmph' },
 
     { question: 'On completion of USFD testing, speed of passenger trains and that of empty goods trains shall be raised to 75 KMPH and after observing for 24 hours, normal sectional speed shall be restored for these trains (In case of Flat Tyre).', answer: '75 kmph', speed: '75 kmph' },
+
+    { question: 'What is Maximum speed of BOXNR Empty Rake ______ kmph', answer: '80 kmph', speed: '80 kmph' },
+
+    { question: 'Maximum speed of 140 T Hydraulic Crane (BG) is ______ kmph', answer: '100 kmph', speed: '100 kmph' },
+
+    { question: 'What is Maximum speed of WAG 9 Locomotive over SC Rly ______ kmph', answer: '100 kmph', speed: '100 kmph' },
+
+
+    { question: 'Maximum speed of the trains over DFC willbe ______ kmph', answer: '100 kmph', speed: '100 kmph' },
     
     { question: 'At standard – II R interlocked station the maximum speed permitted for the train over main line points is', answer: '110 KMPH', speed: '110 kmph' },
 
