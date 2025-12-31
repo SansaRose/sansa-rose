@@ -490,6 +490,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CAO/C", fullForm: "Chief Administrative Officer/Construction",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CAT", fullForm: "Central Administrative Tribunal",
         explanation: "Will be added later",
         reference: "--"
@@ -572,6 +576,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CFS", fullForm: "Container Freight Station",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CFTM", fullForm: "Chief Freight Transportation Manager",
         explanation: "Will be added later",
         reference: "--"
@@ -608,6 +616,10 @@ type AbbreviationItem = {
       },
       { acronym: "CLW", fullForm: "Chittaranjan Locomotive Works",
         explanation: "Manufacturing unit producing electric locomotives",
+        reference: "--"
+      },
+      { acronym: "CMD", fullForm: "Chief Medical Director",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "CME", fullForm: "Chief Mechanical Engineer",
@@ -695,6 +707,12 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      {
+        acronym: "COS",
+        fullForm: "Controller of Stores",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "COTVM", fullForm: "Currency Operated Ticket Vending Machine",
         explanation: "Will be added later",
         reference: "--"
@@ -718,6 +736,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CPM", fullForm: "Chief Project Manager",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CPO", fullForm: "Chief Personnel Officer",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -760,6 +782,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CRT", fullForm: "Container Rail Terminal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CSC", fullForm: "Central Security Commissioner",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -928,6 +954,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "DEN", fullForm: "Divisional Engineer",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "DF", fullForm: "Depreciation Fund",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1233,6 +1263,10 @@ type AbbreviationItem = {
       },
     ],
     F: [
+      { acronym: "FA&CAO", fullForm: "Financial Advisor & Chief Accounts Officer",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "FEMA", fullForm: "Failure Mode & Effects Analysis",
         explanation: "Will be added later",
         reference: "--"
@@ -2273,6 +2307,14 @@ type AbbreviationItem = {
         explanation: "The head of operations at zonal level responsible for overall train movement planning and control",
         reference: "--"
       },
+      { acronym: "PCO", fullForm: "Private Container Operator",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PCOR", fullForm: "Power Controller",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PCPO", fullForm: "Principal Chief Personnel Officer",
         explanation: "Will be added later",
         reference: "--"
@@ -2364,6 +2406,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PIA", fullForm: "Project Influence Area",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PKM", fullForm: "Passenger Kilometers",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2516,6 +2562,10 @@ type AbbreviationItem = {
     ],
     Q: [
       { acronym: "QCBS", fullForm: "Quality and Cost Based Selection",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "QRT", fullForm: "Quick Response Team",
         explanation: "Will be added later",
         reference: "--"
       },

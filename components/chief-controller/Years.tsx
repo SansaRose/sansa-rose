@@ -9,12 +9,37 @@ interface YearItem {
 }
 
 const Years = () => {
-  const years: YearItem[] = [
+    const years: YearItem[] = [
+      {
+        question: 'The General Rules framed in 1929, the revision for which was advocated by Railway accident committee in the year',
+        answer: '1962',
+        category: '1962'
+      },
+      {
+        question: 'The general Rules framed in 1929, the revision for which was advocated by Railway accident inquiry committee in the year',
+        answer: '1968',
+        category: '1968'
+      },
+      {
+        question: 'Based on recommendations of Railway accident committee and Railway accident inquiry committee a Committee formed composed of officers of Traffic and S&T department was appointed by Railway board in ........ and they submitted draft rules in ........',
+        answer: '1968, 1970',
+        category: '1968'
+      },
+      {
+        question: 'Revised GR submitted by committee was circulated to RDSO, Commission of Railway Safety, Rly staff college Baroda, IRISET, IRMEE Jamalpur for suggestions vide Rly Board lr no 68-RR/2 Vol V in the month of........',
+        answer: 'July 1974',
+        category: '1974'
+      },
     {
-      question: 'GR for IR (open lines) is first administered by Govt in the year ______ for the time being used for the public carriage of passenger, animals or Goods',
+      question: 'General Rules for Indian Railways (open lines) is first administered by Government in the year ______ for the time being used for the public carriage of passenger, animals or Goods',
       answer: '1976',
-      category: 'General Rules'
-    }
+      category: '1976'
+    },
+    {
+      question: 'Ministry of Railways (Railway Board) constituted a Committee for the revision of General Rules, 1976, who have submitted the final report in the year.',
+      answer: '2009',
+      category: '2009'
+    },
   ]
 
   // Group years by category for better organization
