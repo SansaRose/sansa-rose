@@ -3,11 +3,11 @@ import React from 'react'
 
 const GSRChapterPage165 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-blue-900 relative overflow-hidden text-white">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-950 to-blue-900 relative overflow-hidden text-white">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-32 -right-32 w-80 h-80 bg-gradient-to-br from-cyan-400/20 to-indigo-500/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-32 -left-32 w-72 h-72 bg-gradient-to-tr from-purple-500/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[28rem] h-[28rem] bg-gradient-to-r from-sky-400/10 to-blue-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-32 -right-32 w-80 h-80 bg-linear-to-br from-cyan-400/20 to-indigo-500/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-32 -left-32 w-72 h-72 bg-linear-to-tr from-purple-500/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-md h-112 bg-linear-to-r from-sky-400/10 to-blue-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
         <div className="absolute inset-0 bg-grid-white/10 opacity-20 mix-blend-overlay"></div>
       </div>
 
@@ -16,9 +16,9 @@ const GSRChapterPage165 = () => {
           <div className="text-center mb-14">
             <div className="inline-flex items-center justify-center mb-6">
               <div className="relative">
-                <div className="lg:w-24 lg:h-24 w-16 h-16 bg-gradient-to-br from-blue-500/70 via-indigo-500/70 to-purple-500/70 rounded-full blur-xl"></div>
+                <div className="lg:w-24 lg:h-24 w-16 h-16 bg-linear-to-br from-blue-500/70 via-indigo-500/70 to-purple-500/70 rounded-full blur-xl"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full border border-white/10 bg-gradient-to-br from-blue-700/60 to-indigo-800/60 backdrop-blur">
+                  <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full border border-white/10 bg-linear-to-br from-blue-700/60 to-indigo-800/60 backdrop-blur">
                     <div className="w-full h-full rounded-full border border-white/20 flex items-center justify-center">
                       <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white/80" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -29,28 +29,28 @@ const GSRChapterPage165 = () => {
               </div>
             </div>
 
-            <h1 className="text-2xl lg:text-6xl font-bold tracking-wide bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent animate-fade-in">
+            <h1 className="text-2xl lg:text-6xl font-bold tracking-wide bg-linear-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent animate-fade-in">
               CHAPTER – VI
             </h1>
             <div className="mt-4 inline-flex items-center justify-center gap-3">
-              <span className="h-[1px] w-16 bg-gradient-to-r from-transparent via-blue-400/50 to-white/70"></span>
+              <span className="h-px w-16 bg-linear-to-r from-transparent via-blue-400/50 to-white/70"></span>
               <span className="text-lg lg:text-2xl font-semibold text-indigo-200 tracking-[0.35em]">
                 ACCIDENTS AND UNUSUAL OCCURRENCES
               </span>
-              <span className="h-[1px] w-16 bg-gradient-to-l from-transparent via-blue-400/50 to-white/70"></span>
+              <span className="h-px w-16 bg-linear-to-l from-transparent via-blue-400/50 to-white/70"></span>
             </div>
           </div>
 
           <div className="bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl overflow-hidden">
             <div className="relative">
-              <div className="absolute -top-12 -left-12 w-40 h-40 bg-gradient-to-br from-blue-400/30 to-purple-500/30 rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-16 -right-16 w-48 h-48 bg-gradient-to-br from-blue-500/20 to-indigo-600/20 rounded-full blur-3xl"></div>
+              <div className="absolute -top-12 -left-12 w-40 h-40 bg-linear-to-br from-blue-400/30 to-purple-500/30 rounded-full blur-3xl"></div>
+              <div className="absolute -bottom-16 -right-16 w-48 h-48 bg-linear-to-br from-blue-500/20 to-indigo-600/20 rounded-full blur-3xl"></div>
 
               <div className="relative p-3 lg:p-10 space-y-6">
-                <div className="group relative flex flex-col gap-6 rounded-xl border border-white/10 bg-gradient-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-3 lg:p-10 transition-all duration-500 hover:border-white/20 hover:bg-gradient-to-br hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80">
+                <div className="group relative flex flex-col gap-6 rounded-xl border border-white/10 bg-linear-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-3 lg:p-10 transition-all duration-500 hover:border-white/20 hover:bg-linear-to-br hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80">
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 flex justify-center">
                     <div className="relative flex items-center justify-center">
-                      <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 shadow-xl shadow-indigo-900/40 flex items-center justify-center">
+                      <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full bg-linear-to-br from-blue-500 to-indigo-600 shadow-xl shadow-indigo-900/40 flex items-center justify-center">
                         <span className="lg:text-2xl text-lg font-bold text-white/90">6.03</span>
                       </div>
                       <div className="absolute -inset-2 rounded-full border border-white/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none"></div>
@@ -64,13 +64,13 @@ const GSRChapterPage165 = () => {
                     <div className="space-y-6 lg:space-y-8">
                       {/* Clause (1) */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
-                              (1)
+                              1
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -79,80 +79,150 @@ const GSRChapterPage165 = () => {
                             
                             {/* Sub-clause (i) */}
                             <div className="mt-6 space-y-4 pl-4 border-l-2 border-cyan-400/30">
-                              <div className="flex items-center gap-3">
-                                <span className="flex h-8 w-8 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold text-indigo-100">
-                                  (i)
+                              <div className="flex items-center gap-3 group/subitem">
+                                <span className="shrink-0 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/subitem:scale-110 group-hover/subitem:bg-indigo-500">
+                                  i
                                 </span>
-                                <p className="font-semibold text-indigo-200">On a single line section or a section of double or multiple lines when temporarily worked as a single line section. –</p>
+                                <p className="font-semibold text-indigo-200 flex-1">On a single line section or a section of double or multiple lines when temporarily worked as a single line section. –</p>
                               </div>
-                              <div className="space-y-4 pl-8">
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(a)</span> The Guard shall either himself go back or send a competent person to protect the train. If the Guard has deputed a competent person to protect the train, he shall go to the Loco Pilot for consultation.
+                              <div className="space-y-4 mt-4 ml-1">
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    a
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    The Guard shall either himself go back or send a competent person to protect the train. If the Guard has deputed a competent person to protect the train, he shall go to the Loco Pilot for consultation.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(b)</span> The person going back to protect the train shall continuously show his hand danger signal to stop any approaching train and in addition to his hand signal shall take detonators and place them upon the line on which the stoppage has occurred, as follows:-<br/>
-                                  One detonator at 600 metres from his train, to be placed on the way out and three detonators, 10 metres apart, not less than 1200 metres from his train or at such distance as has been fixed by special instructions.<br/>
-                                  Provided that on the Metre gauge and Narrow Gauge, the first detonator shall be placed at 400 metres and the three detonators 10 metres apart not less than 800 metres or at such distance as has been fixed by special instructions, from the place where the train has stopped.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    b
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    The person going back to protect the train shall continuously show his hand danger signal to stop any approaching train and in addition to his hand signal shall take detonators and place them upon the line on which the stoppage has occurred, as follows:-<br/>
+                                    One detonator at 600 metres from his train, to be placed on the way out and three detonators, 10 metres apart, not less than 1200 metres from his train or at such distance as has been fixed by special instructions.<br/>
+                                    Provided that on the Metre gauge and Narrow Gauge, the first detonator shall be placed at 400 metres and the three detonators 10 metres apart not less than 800 metres or at such distance as has been fixed by special instructions, from the place where the train has stopped.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(c)</span> If a person other than the Guard has gone back to protect the train, he shall after taking action as per sub-clause (b), continue to show his hand signal to stop any approaching train, until he is recalled.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    c
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    If a person other than the Guard has gone back to protect the train, he shall after taking action as per sub-clause (b), continue to show his hand signal to stop any approaching train, until he is recalled.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(d)</span> When the Guard has himself gone back to protect the train, he shall, after taking action as in sub-clause (b), depute a competent person, if available to show a hand danger signal to stop any approaching train until he is recalled and shall himself return to his train to ascertain the cause.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    d
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    When the Guard has himself gone back to protect the train, he shall, after taking action as in sub-clause (b), depute a competent person, if available to show a hand danger signal to stop any approaching train until he is recalled and shall himself return to his train to ascertain the cause.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(e)</span> Unless the Guard has succeeded in getting another competent person to show a hand danger signal, as in sub-clause (b) he shall after consultation with the Loco Pilot once again return to the place at which he placed three detonators, showing his hand danger signal to any approaching train and continue to do so until he is recalled.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    e
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    Unless the Guard has succeeded in getting another competent person to show a hand danger signal, as in sub-clause (b) he shall after consultation with the Loco Pilot once again return to the place at which he placed three detonators, showing his hand danger signal to any approaching train and continue to do so until he is recalled.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(f)</span> When the Guard or the person deputed by him is recalled, he shall leave down the three detonators and on his way back pick up the intermediate detonator.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    f
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    When the Guard or the person deputed by him is recalled, he shall leave down the three detonators and on his way back pick up the intermediate detonator.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(g)</span> On a section of double or multiple lines, if assistance has been asked for or on a single line section or during temporary single line working on a section of double line or multiple lines, the Loco Pilot shall at once show a danger signal to the front and proceed to protect the train in front in the manner prescribed in clauses (b) and (f) either by going himself or by sending his Assistant Loco Pilot or some other competent person; and
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    g
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    On a section of double or multiple lines, if assistance has been asked for or on a single line section or during temporary single line working on a section of double line or multiple lines, the Loco Pilot shall at once show a danger signal to the front and proceed to protect the train in front in the manner prescribed in clauses (b) and (f) either by going himself or by sending his Assistant Loco Pilot or some other competent person; and
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(h)</span> Should any train be seen approaching, the person going to protect the train shall immediately place one detonator on the line, as far away from the disabled train as possible and will continue to show his hand danger signal to stop any approaching train. If the person has already placed one detonator on 600 or 400 metres in BG or MG/NG respectively and he is not in a position to reach at a distance of 1200 metres or 800 metres in BG or MG/NG respectively, he will again place one detonator as far away from the train which has met the accident.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                    h
+                                  </span>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    Should any train be seen approaching, the person going to protect the train shall immediately place one detonator on the line, as far away from the disabled train as possible and will continue to show his hand danger signal to stop any approaching train. If the person has already placed one detonator on 600 or 400 metres in BG or MG/NG respectively and he is not in a position to reach at a distance of 1200 metres or 800 metres in BG or MG/NG respectively, he will again place one detonator as far away from the train which has met the accident.
+                                  </span>
                                 </div>
                               </div>
                             </div>
 
                             {/* Sub-clause (ii) */}
                             <div className="mt-6 space-y-4 pl-4 border-l-2 border-indigo-400/30">
-                              <div className="flex items-center gap-3">
-                                <span className="flex h-8 w-8 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold text-indigo-100">
-                                  (ii)
+                              <div className="flex items-center gap-3 group/subitem">
+                                <span className="shrink-0 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/subitem:scale-110 group-hover/subitem:bg-indigo-500">
+                                  ii
                                 </span>
-                                <p className="font-semibold text-indigo-200">On a double line section where trains on the two lines run in the opposite direction. –</p>
+                                <p className="font-semibold text-indigo-200 flex-1">On a double line section where trains on the two lines run in the opposite direction. –</p>
                               </div>
-                              <div className="space-y-4 pl-8">
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(a)</span> As soon as the Loco Pilot comes to know that his train has met with an accident he shall at once switch on the flasher light and switch off the head light and thereafter either go himself and send his Assistant Loco Pilot or some other competent person to protect the adjacent line in front in the manner prescribed in clause (i) above.
+                              <div className="space-y-4 mt-4 ml-1">
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                    a
+                                  </span>
+                                  <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    As soon as the Loco Pilot comes to know that his train has met with an accident he shall at once switch on the flasher light and switch off the head light and thereafter either go himself and send his Assistant Loco Pilot or some other competent person to protect the adjacent line in front in the manner prescribed in clause (i) above.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(b)</span> The Guard shall himself first immediately proceed ahead to assist and ensure protection of the adjacent line in front in the manner prescribed in clause (i) above and if a competent person is available send him to protect the train in the rear in the manner prescribed in clause (i) above.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                    b
+                                  </span>
+                                  <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    The Guard shall himself first immediately proceed ahead to assist and ensure protection of the adjacent line in front in the manner prescribed in clause (i) above and if a competent person is available send him to protect the train in the rear in the manner prescribed in clause (i) above.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(c)</span> In case it is not known whether the adjacent line is obstructed or not –
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                    c
+                                  </span>
+                                  <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    In case it is not known whether the adjacent line is obstructed or not –
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(d)</span> The Loco Pilot shall take action to protect the adjacent line as mentioned above. The Guard shall proceed towards the engine watching the train carefully. If the Guard finds that the adjacent line is obstructed, he shall proceed ahead to assist and ensure protection of the adjacent line as mentioned above. In case he finds that the adjacent line is not obstructed, he shall, after consultation with the Loco Pilot, go back to protect the train in the rear in the manner prescribed in clause (i) above, if he has not already sent another competent person for the purpose.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                    d
+                                  </span>
+                                  <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    The Loco Pilot shall take action to protect the adjacent line as mentioned above. The Guard shall proceed towards the engine watching the train carefully. If the Guard finds that the adjacent line is obstructed, he shall proceed ahead to assist and ensure protection of the adjacent line as mentioned above. In case he finds that the adjacent line is not obstructed, he shall, after consultation with the Loco Pilot, go back to protect the train in the rear in the manner prescribed in clause (i) above, if he has not already sent another competent person for the purpose.
+                                  </span>
                                 </div>
                               </div>
                             </div>
 
                             {/* Sub-clause (iii) */}
                             <div className="mt-6 space-y-4 pl-4 border-l-2 border-purple-400/30">
-                              <div className="flex items-center gap-3">
-                                <span className="flex h-8 w-8 items-center justify-center rounded-full border border-purple-400/40 bg-purple-500/10 text-sm font-semibold text-purple-100">
-                                  (iii)
+                              <div className="flex items-center gap-3 group/subitem">
+                                <span className="shrink-0 h-8 w-8 rounded-full bg-purple-500/80 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-purple-800/30 ring-2 ring-purple-300/30 transition-all duration-300 group-hover/subitem:scale-110 group-hover/subitem:bg-purple-500">
+                                  iii
                                 </span>
-                                <p className="font-semibold text-purple-200">On a multiple line section with uni-directional traffic on the nominated lines. –</p>
+                                <p className="font-semibold text-purple-200 flex-1">On a multiple line section with uni-directional traffic on the nominated lines. –</p>
                               </div>
-                              <div className="space-y-4 pl-8">
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(a)</span> As soon as the Loco Pilot comes to know that his train has met with an accident, he shall at once take action to protect the adjacent line/lines in the manner prescribed in clause (ii) above.
+                              <div className="space-y-4 mt-4 ml-1">
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-purple-300/40 bg-linear-to-br from-purple-400/15 to-pink-400/15 text-xs font-semibold tracking-wide text-purple-100 text-center lg:text-sm shadow-md shadow-purple-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-purple-300/60">
+                                    a
+                                  </span>
+                                  <span className="text-purple-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    As soon as the Loco Pilot comes to know that his train has met with an accident, he shall at once take action to protect the adjacent line/lines in the manner prescribed in clause (ii) above.
+                                  </span>
                                 </div>
-                                <div>
-                                  <span className="font-semibold text-cyan-200">(b)</span> As soon as the Guard comes to know that his train has met with an accident, he shall at once protect such adjacent line/lines in the manner prescribed in clause (i) above.
+                                <div className="flex items-start gap-3 group/item">
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-purple-300/40 bg-linear-to-br from-purple-400/15 to-pink-400/15 text-xs font-semibold tracking-wide text-purple-100 text-center lg:text-sm shadow-md shadow-purple-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-purple-300/60">
+                                    b
+                                  </span>
+                                  <span className="text-purple-100 text-base lg:text-lg leading-relaxed flex-1">
+                                    As soon as the Guard comes to know that his train has met with an accident, he shall at once protect such adjacent line/lines in the manner prescribed in clause (i) above.
+                                  </span>
                                 </div>
                               </div>
                             </div>
@@ -162,28 +232,30 @@ const GSRChapterPage165 = () => {
 
                       {/* Clause (2) */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
-                              (2)
+                              2
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
-                          <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
-                            <div className="space-y-4 pl-4 border-l-2 border-indigo-400/30">
-                              <div className="flex items-center gap-3">
-                                <span className="flex h-8 w-8 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold text-cyan-100">
-                                  (i)
-                                </span>
-                                <p>In the case of a train without a Guard, the duties of Guard, as laid down in this rule shall devolve on the Loco Pilot or on a railway servant deputed by him.</p>
-                              </div>
-                              <div className="flex items-center gap-3">
-                                <span className="flex h-8 w-8 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold text-cyan-100">
-                                  (ii)
-                                </span>
-                                <p>In the event of any disability of the Loco Pilot, the duties devolving on the Loco Pilot, as laid down in these rules shall devolve on the Guard or on a railway servant deputed by him.</p>
-                              </div>
+                          <div className="space-y-4 mt-4 ml-1">
+                            <div className="flex items-start gap-3 group/item">
+                              <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                i
+                              </span>
+                              <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                In the case of a train without a Guard, the duties of Guard, as laid down in this rule shall devolve on the Loco Pilot or on a railway servant deputed by him.
+                              </span>
+                            </div>
+                            <div className="flex items-start gap-3 group/item">
+                              <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                ii
+                              </span>
+                              <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                In the event of any disability of the Loco Pilot, the duties devolving on the Loco Pilot, as laid down in these rules shall devolve on the Guard or on a railway servant deputed by him.
+                              </span>
                             </div>
                           </div>
                         </div>
@@ -191,13 +263,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.1 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold tracking-wide text-cyan-100 text-center lg:text-base">
                               S.R. 6.03.1
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -209,13 +281,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.2 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.03.2
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -227,13 +299,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.3 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold tracking-wide text-cyan-100 text-center lg:text-base">
                               S.R. 6.03.3
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -245,13 +317,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.4 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.03.4
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -263,13 +335,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.5 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold tracking-wide text-cyan-100 text-center lg:text-base">
                               S.R. 6.03.5
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -281,13 +353,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.6 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.03.6
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -299,13 +371,13 @@ const GSRChapterPage165 = () => {
 
                       {/* S.R. 6.03.7 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold tracking-wide text-cyan-100 text-center lg:text-base">
                               S.R. 6.03.7
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>

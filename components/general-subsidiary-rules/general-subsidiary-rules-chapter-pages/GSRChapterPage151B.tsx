@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const GSRChapterPage151B = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-blue-900 relative overflow-hidden text-white">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-950 to-blue-900 relative overflow-hidden text-white">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-32 -right-32 w-80 h-80 bg-gradient-to-br from-cyan-400/20 to-indigo-500/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-32 -left-32 w-72 h-72 bg-gradient-to-tr from-purple-500/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[28rem] h-[28rem] bg-gradient-to-r from-sky-400/10 to-blue-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-32 -right-32 w-80 h-80 bg-linear-to-br from-cyan-400/20 to-indigo-500/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-32 -left-32 w-72 h-72 bg-linear-to-tr from-purple-500/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-md h-112 bg-linear-to-r from-sky-400/10 to-blue-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
         <div className="absolute inset-0 bg-grid-white/10 opacity-20 mix-blend-overlay"></div>
       </div>
 
@@ -17,9 +17,9 @@ const GSRChapterPage151B = () => {
           <div className="text-center mb-14">
             <div className="inline-flex items-center justify-center mb-6">
               <div className="relative">
-                <div className="lg:w-24 lg:h-24 w-16 h-16 bg-gradient-to-br from-blue-500/70 via-indigo-500/70 to-purple-500/70 rounded-full blur-xl"></div>
+                <div className="lg:w-24 lg:h-24 w-16 h-16 bg-linear-to-br from-blue-500/70 via-indigo-500/70 to-purple-500/70 rounded-full blur-xl"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full border border-white/10 bg-gradient-to-br from-blue-700/60 to-indigo-800/60 backdrop-blur">
+                  <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full border border-white/10 bg-linear-to-br from-blue-700/60 to-indigo-800/60 backdrop-blur">
                     <div className="w-full h-full rounded-full border border-white/20 flex items-center justify-center">
                       <svg className="lg:w-8 lg:h-8 w-6 h-6 text-white/80" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -30,28 +30,28 @@ const GSRChapterPage151B = () => {
               </div>
             </div>
 
-            <h1 className="text-2xl lg:text-6xl font-bold tracking-wide bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent animate-fade-in">
+            <h1 className="text-2xl lg:text-6xl font-bold tracking-wide bg-linear-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent animate-fade-in">
               CHAPTER – VI
             </h1>
             <div className="mt-4 inline-flex items-center justify-center gap-3">
-              <span className="h-[1px] w-16 bg-gradient-to-r from-transparent via-blue-400/50 to-white/70"></span>
+              <span className="h-px w-16 bg-linear-to-r from-transparent via-blue-400/50 to-white/70"></span>
               <span className="text-lg lg:text-2xl font-semibold text-indigo-200 tracking-[0.35em]">
                 ACCIDENTS AND UNUSUAL OCCURRENCES
               </span>
-              <span className="h-[1px] w-16 bg-gradient-to-l from-transparent via-blue-400/50 to-white/70"></span>
+              <span className="h-px w-16 bg-linear-to-l from-transparent via-blue-400/50 to-white/70"></span>
             </div>
           </div>
 
           <div className="bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl overflow-hidden">
             <div className="relative">
-              <div className="absolute -top-12 -left-12 w-40 h-40 bg-gradient-to-br from-blue-400/30 to-purple-500/30 rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-16 -right-16 w-48 h-48 bg-gradient-to-br from-blue-500/20 to-indigo-600/20 rounded-full blur-3xl"></div>
+              <div className="absolute -top-12 -left-12 w-40 h-40 bg-linear-to-br from-blue-400/30 to-purple-500/30 rounded-full blur-3xl"></div>
+              <div className="absolute -bottom-16 -right-16 w-48 h-48 bg-linear-to-br from-blue-500/20 to-indigo-600/20 rounded-full blur-3xl"></div>
 
               <div className="relative p-3 lg:p-10 space-y-6">
-                <div className="group relative flex flex-col gap-6 rounded-xl border border-white/10 bg-gradient-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-3 lg:p-10 transition-all duration-500 hover:border-white/20 hover:bg-gradient-to-br hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80">
+                <div className="group relative flex flex-col gap-6 rounded-xl border border-white/10 bg-linear-to-br from-slate-900/70 via-slate-950/70 to-blue-950/70 p-3 lg:p-10 transition-all duration-500 hover:border-white/20 hover:bg-linear-to-br hover:from-slate-900/80 hover:via-indigo-950/80 hover:to-blue-950/80">
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 flex justify-center">
                     <div className="relative flex items-center justify-center">
-                      <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 shadow-xl shadow-indigo-900/40 flex items-center justify-center">
+                      <div className="lg:w-20 lg:h-20 w-12 h-12 rounded-full bg-linear-to-br from-blue-500 to-indigo-600 shadow-xl shadow-indigo-900/40 flex items-center justify-center">
                         <span className="lg:text-2xl text-lg font-bold text-white/90">6.02</span>
                       </div>
                       <div className="absolute -inset-2 rounded-full border border-white/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none"></div>
@@ -64,7 +64,7 @@ const GSRChapterPage151B = () => {
                     </p>
                     <div className="space-y-6 lg:space-y-8">
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -75,13 +75,13 @@ const GSRChapterPage151B = () => {
                       </div>
 
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.02.1
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-2">
@@ -93,13 +93,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 1 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               1
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -111,13 +111,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 2 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               2
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -129,13 +129,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 3 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               3
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -147,13 +147,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 4 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               4
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -165,25 +165,67 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 5 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               5
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="mb-3">
                               All trains running in the wrong line shall be worked in accordance with the rules for the use of electric communication instruments on single line. Line clear shall be obtained using the forms T/A 1425 and T/B 1425 on the following:
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>a) Telephone attached to Block Instrument</p>
-                              <p>b) Station to Station fixed telephones wherever available.</p>
-                              <p>c) Fixed telephone such as Railway auto phone &amp; BSNL/MTNL phone with caller ID.</p>
-                              <p>d) Control Telephone.</p>
-                              <p>e) VHF set under special instructions, but not as the sole means of communication on sections where passenger trains run</p>
-                              <p>f) Fixed Telephone with CUG sim which have been provided to the station only for official use to the on- duty Station Master.</p>
+                            <div className="space-y-3 mt-4 ml-0">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-1 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  a
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Telephone attached to Block Instrument
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  b
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Station to Station fixed telephones wherever available.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  c
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Fixed telephone such as Railway auto phone &amp; BSNL/MTNL phone with caller ID.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  d
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Control Telephone.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  e
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  VHF set under special instructions, but not as the sole means of communication on sections where passenger trains run
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  f
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Fixed Telephone with CUG sim which have been provided to the station only for official use to the on- duty Station Master.
+                                </span>
+                              </div>
                             </div>
                             <div className="mt-4 p-4 rounded-xl bg-yellow-500/10 border border-yellow-500/30">
                               <p className="font-semibold text-yellow-200 mb-2">NOTE:-</p>
@@ -197,13 +239,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 6 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               6
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -215,25 +257,67 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 7 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               7
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="mb-3">
                               After ascertaining that one of the lines is clear for the passage of traffic, the Station Master proposing single line working shall issue a message under exchange of private Number, containing the following information, to the Station Master at the other end of the block section:-
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>(a) Cause of introduction of single line working;</p>
-                              <p>(b) Place of obstruction;</p>
-                              <p>(c) The line by which single line working is proposed;</p>
-                              <p>(d) The source of information that the said line is clear;</p>
-                              <p>(e) Restriction of speed, if any, on the line;</p>
-                              <p>(f) The number and timings of the last train which arrived/left the station nominated.</p>
+                            <div className="space-y-3 mt-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  a
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Cause of introduction of single line working;
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  b
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Place of obstruction;
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  c
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The line by which single line working is proposed;
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  d
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The source of information that the said line is clear;
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  e
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Restriction of speed, if any, on the line;
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-cyan-300/40 bg-linear-to-br from-cyan-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-cyan-100 text-center lg:text-sm shadow-md shadow-cyan-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-cyan-300/60">
+                                  f
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The number and timings of the last train which arrived/left the station nominated.
+                                </span>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -241,13 +325,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 8 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               8
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -259,24 +343,59 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 9 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               9
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
                               Introduction of Wrong Line Working
                             </p>
-                            <div className="space-y-3 ml-4">
-                              <p>(a) Station Masters on either side of the proposed line for TSL working shall ensure that the whole of the last train in the right direction has cleared the section and the proposed line between the two stations is clear. Only after ensuring this, steps shall be taken for introducing wrong line working.</p>
-                              <p>(b) Station Master at the receiving end of the wrong line train shall ensure that there is no train in the Main line corresponding to the line on which TSL working is being planned. If in exceptional case, the main line is blocked by a train before introduction of TSL working, the loco pilot shall be served with a written memo stating that Wrong line working is in force, do not start until issued with T/D 602.</p>
-                              <p>(c) The block instrument pertaining to the unobstructed line on which wrong line working is planned shall be kept in TOL position and locked throughout the period of wrong line working. In case of UFSBI, the LCB key shall be kept in OUT position</p>
-                              <p>(d) Station Master at the receiving end of the wrong line train shall ensure that all the departure signals of the station towards the proposed line for TSL working are kept at „ON‟ and blocked in the VDU panel / in case of other control panels, „line blocked caps‟ shall be kept on the concerned signal knobs throughout the period of wrong line working.</p>
-                              <p>(e) All the gate man shall be informed under exchange of PN that wrong line working is being commenced on the proposed line. The gateman of interlocked gates shall be advised that after closing and locking of the gate against road traffic, the signal knob under his control shall not be reversed, so as to keep the gate signals in danger. After closing the gate, all the gateman shall exhibit Proceed Hand Signals to the loco pilots working the wrong line train, standing at a place, where PHS is clearly visible.</p>
+                            <div className="space-y-4 mt-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                  a
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Station Masters on either side of the proposed line for TSL working shall ensure that the whole of the last train in the right direction has cleared the section and the proposed line between the two stations is clear. Only after ensuring this, steps shall be taken for introducing wrong line working.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                  b
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Station Master at the receiving end of the wrong line train shall ensure that there is no train in the Main line corresponding to the line on which TSL working is being planned. If in exceptional case, the main line is blocked by a train before introduction of TSL working, the loco pilot shall be served with a written memo stating that Wrong line working is in force, do not start until issued with T/D 602.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                  c
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The block instrument pertaining to the unobstructed line on which wrong line working is planned shall be kept in TOL position and locked throughout the period of wrong line working. In case of UFSBI, the LCB key shall be kept in OUT position
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                  d
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  Station Master at the receiving end of the wrong line train shall ensure that all the departure signals of the station towards the proposed line for TSL working are kept at „ON‟ and blocked in the VDU panel / in case of other control panels, „line blocked caps‟ shall be kept on the concerned signal knobs throughout the period of wrong line working.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-indigo-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-800/30 ring-2 ring-indigo-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-indigo-500">
+                                  e
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  All the gate man shall be informed under exchange of PN that wrong line working is being commenced on the proposed line. The gateman of interlocked gates shall be advised that after closing and locking of the gate against road traffic, the signal knob under his control shall not be reversed, so as to keep the gate signals in danger. After closing the gate, all the gateman shall exhibit Proceed Hand Signals to the loco pilots working the wrong line train, standing at a place, where PHS is clearly visible.
+                                </span>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -284,25 +403,67 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 10 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               10
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="mb-3">
                               Conditions for Granting Line Clear For Wrong Line Trains The Station Master on duty at the station receiving wrong line train shall not give such &quot;Line Clear&quot; unless:-
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>(a) The whole of the last preceding train has arrived complete.</p>
-                              <p>(b) The line is free not only up to the LSS, but also clear on the line of reception up to trailing points or up to the place at which the train is required to come to a stand.</p>
-                              <p>(c) All the points including crossover points leading to the line for admission of the train are correctly set, clamped and padlocked.</p>
-                              <p>(d) All the movements which are likely to infringe the path of wrong direction trains are brought to a stop.</p>
-                              <p>(e) The points of outlying sidings/ turnouts under his control are correctly set and locked.</p>
-                              <p>(f) All the gateman are advised with the particulars of the train and ensured gate closure duly exchanging PN.</p>
+                            <div className="space-y-3 mt-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                  a
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The whole of the last preceding train has arrived complete.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                  b
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The line is free not only up to the LSS, but also clear on the line of reception up to trailing points or up to the place at which the train is required to come to a stand.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                  c
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  All the points including crossover points leading to the line for admission of the train are correctly set, clamped and padlocked.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                  d
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  All the movements which are likely to infringe the path of wrong direction trains are brought to a stop.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                  e
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The points of outlying sidings/ turnouts under his control are correctly set and locked.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-7 w-7 rounded-md border border-indigo-300/40 bg-linear-to-br from-indigo-400/15 to-blue-400/15 text-xs font-semibold tracking-wide text-indigo-100 text-center lg:text-sm shadow-md shadow-indigo-800/20 transition-all duration-300 group-hover/item:scale-105 group-hover/item:border-indigo-300/60">
+                                  f
+                                </span>
+                                <span className="text-indigo-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  All the gateman are advised with the particulars of the train and ensured gate closure duly exchanging PN.
+                                </span>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -310,21 +471,28 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 11 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               11
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
                               Cancellation of Wrong line working and commencing Right line working with TSL in force.
                             </p>
-                            <p>
-                              (a) In order to commence Right line working, the Station Masters at both ends of the block section shall ensure through Line clear enquiry (T/A 1425) and reply message (T/B 1425) books and TSR, that the last train despatched on wrong line has arrived complete at the station in advance and exchange messages in the following format, supported by PN for cancellation of wrong line working of trains and introduction of right line working of trains with TSL in force.
-                            </p>
+                            <div className="space-y-4 mt-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  a
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  In order to commence Right line working, the Station Masters at both ends of the block section shall ensure through Line clear enquiry (T/A 1425) and reply message (T/B 1425) books and TSR, that the last train despatched on wrong line has arrived complete at the station in advance and exchange messages in the following format, supported by PN for cancellation of wrong line working of trains and introduction of right line working of trains with TSL in force.
+                                </span>
+                              </div>
+                            </div>
                             <div className="mt-6 flex justify-center">
                               <Image
                                 src="/gsr-images/GSRPAGE154.png"
@@ -334,24 +502,30 @@ const GSRChapterPage151B = () => {
                                 className="w-full max-w-4xl rounded-xl border border-white/10 shadow-lg shadow-blue-900/40"
                               />
                             </div>
-                            <div className="mt-7 space-y-5">
-                              <div className="flex items-start gap-3">
-                                
-                                <p className="leading-relaxed">
-                                  <span className="font-semibold text-base">b)</span> After exchanging the above messages, the Station Masters must advise all gatemen under their control (with proper PN exchange) that right line working of trains is introduced with TSL in force on the nominated line. For right line trains, after gates are closed and locked against road traffic, the signals of interlocked gates should be taken off by reversing the knob.
-                                </p>
+                            <div className="mt-7 space-y-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  b
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  After exchanging the above messages, the Station Masters must advise all gatemen under their control (with proper PN exchange) that right line working of trains is introduced with TSL in force on the nominated line. For right line trains, after gates are closed and locked against road traffic, the signals of interlocked gates should be taken off by reversing the knob.
+                                </span>
                               </div>
-                              <div className="flex items-start gap-3">
-                                
-                                <p className="leading-relaxed">
-                                  <span className="font-semibold text-base">c)</span> All points, including any crossover points previously set for wrong line trains, shall now be set in favour of right line trains.
-                                </p>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  c
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  All points, including any crossover points previously set for wrong line trains, shall now be set in favour of right line trains.
+                                </span>
                               </div>
-                              <div className="flex items-start gap-3">
-                                
-                                <p className="leading-relaxed">
-                                  <span className="font-semibold text-base">d)</span> The block instrument for the unobstructed line—on which wrong line working has been cancelled and right line working is planned—shall be brought back into use (previously kept in TOL position). For UFSBI systems, the LCB key should be placed in the IN position.
-                                </p>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  d
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The block instrument for the unobstructed line—on which wrong line working has been cancelled and right line working is planned—shall be brought back into use (previously kept in TOL position). For UFSBI systems, the LCB key should be placed in the IN position.
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -359,32 +533,75 @@ const GSRChapterPage151B = () => {
                       </div>
                       {/* Point 12 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               12
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
                               Rules for Running Right Line Trains
                             </p>
-                            <ul className="space-y-2 list-disc list-inside pl-3">
-                              <li>
-                                Right line trains must be dispatched by signals only after duly obtaining line clear through the block instruments.
-                              </li>
-                              <li>
-                                Where Intermediate Block Signaling (IBS) is provided, once the first right line train has cleared the IBS, subsequent right line trains may be dispatched, provided that the station in rear has informed the station in advance about permitting a particular train up to the IBS and has confirmed that the advance station is ready to receive it.
-                              </li>
-                              <li>
-                                For every such movement, private numbers (PN) must be exchanged.
-                              </li>
-                              <li>
-                                Before dispatching right line trains, ensure that all non-interlocked level crossing gates are closed and locked against road traffic, with appropriate exchange of private numbers for gate closure.
-                              </li>
-                            </ul>
+                            <div className="grid gap-4">
+                              <div className="flex items-start gap-4 group/item">
+                                <span className="shrink-0 flex items-center justify-center rounded-lg bg-linear-to-br from-cyan-400 via-blue-500 to-indigo-400 shadow-lg shadow-cyan-800/20 ring-2 ring-cyan-300/30 w-11 h-11 text-2xl font-extrabold text-white group-hover/item:scale-110 transition-transform duration-300">
+                                  1
+                                </span>
+                                <div className="flex-1">
+                                  <span className="block text-lg lg:text-xl font-semibold text-cyan-100">
+                                    Dispatch Only After Line Clear
+                                  </span>
+                                  <span className="block mt-1 text-blue-100/90 text-base lg:text-lg leading-relaxed">
+                                    Right line trains must be dispatched by signals <span className="font-semibold text-cyan-200">only after</span> duly obtaining line clear through the block instruments.
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="flex items-start gap-4 group/item">
+                                <span className="shrink-0 flex items-center justify-center rounded-lg bg-linear-to-br from-blue-400 via-cyan-500 to-indigo-400 shadow-lg shadow-blue-800/20 ring-2 ring-blue-300/30 w-11 h-11 text-2xl font-extrabold text-white group-hover/item:scale-110 transition-transform duration-300">
+                                  2
+                                </span>
+                                <div className="flex-1">
+                                  <span className="block text-lg lg:text-xl font-semibold text-cyan-100">
+                                    Special Provision for IBS Sections
+                                  </span>
+                                  <span className="block mt-1 text-blue-100/90 text-base lg:text-lg leading-relaxed">
+                                    Where <span className="font-semibold text-cyan-200">Intermediate Block Signaling (IBS)</span> is provided, after the first right line train has cleared the IBS, further right line trains may be dispatched, <span className="font-semibold text-cyan-200">provided</span> the rear station has informed in advance, and the forwarding station is ready to receive.
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="flex items-start gap-4 group/item">
+                                <span className="shrink-0 flex items-center justify-center rounded-lg bg-linear-to-br from-indigo-400 via-blue-500 to-cyan-400 shadow-lg shadow-indigo-800/20 ring-2 ring-indigo-300/30 w-11 h-11 text-2xl font-extrabold text-white group-hover/item:scale-110 transition-transform duration-300">
+                                  3
+                                </span>
+                                <div className="flex-1">
+                                  <span className="block text-lg lg:text-xl font-semibold text-cyan-100">
+                                    Exchange of Private Numbers
+                                  </span>
+                                  <span className="block mt-1 text-blue-100/90 text-base lg:text-lg leading-relaxed">
+                                    <span className="font-semibold text-cyan-200">Private Numbers (PN)</span> must be <span className="font-semibold">exchanged for every such movement</span> between concerned stations as a mark of positive assurance.
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="flex items-start gap-4 group/item">
+                                <span className="shrink-0 flex items-center justify-center rounded-lg bg-linear-to-br from-cyan-500 via-blue-400 to-indigo-500 shadow-lg shadow-cyan-800/30 ring-2 ring-cyan-400/20 w-11 h-11 text-2xl font-extrabold text-white group-hover/item:scale-110 transition-transform duration-300">
+                                  4
+                                </span>
+                                <div className="flex-1">
+                                  <span className="block text-lg lg:text-xl font-semibold text-cyan-100">
+                                    Ensure Safety at Level Crossings
+                                  </span>
+                                  <span className="block mt-1 text-blue-100/90 text-base lg:text-lg leading-relaxed">
+                                    Prior to dispatching right line trains, <span className="font-semibold text-cyan-200">ensure all non-interlocked level crossing gates</span> are closed and locked against road traffic, with exchange of private numbers for completion of gate closure.
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
                             <div className="mt-3 bg-white/5 border border-cyan-400/10 rounded-lg px-4 py-3 text-cyan-100/90">
                               <span className="font-semibold text-cyan-200">Note:</span>{" "}
                               After completion of all right line train operations, if it is proposed to reintroduce wrong line working, the procedure outlined from Rule 9 onwards must be followed afresh.
@@ -395,13 +612,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 13 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               13
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
@@ -410,67 +627,94 @@ const GSRChapterPage151B = () => {
                             <p>
                               A written authority (Form T/D 602) must be issued to the Loco Pilot/Motorman and Train Manager for all trains, whether running on the right line or wrong line, containing the following details:
                             </p>
-                            <ul className="space-y-2 list-disc list-inside pl-3">
-                              <li>
-                                <span className="font-semibold text-base">a)</span>{" "}
-                                A &quot;Line Clear Ticket&quot; must be issued on the absolute block system during temporary single line working on double line sections for all wrong line trains.
-                              </li>
-                              <li>
-                                <span className="font-semibold text-base">b)</span>{" "}
-                                Instructions for the Loco Pilot/Motorman of right line trains:
-                                <ul className="ml-5 mt-1 list-[circle] pl-4">
-                                  <li>
-                                    Follow Rule 3.75 to pass Intermediate Block (IB) Signal when at &apos;ON&apos;.
-                                  </li>
-                                  <li>
-                                    Follow Rule 3.73 to pass Gate Signals interlocked to Level Crossing gates in the midsection when at &apos;ON&apos;.
-                                  </li>
-                                </ul>
-                                Instructions for the Loco Pilot/Motorman of wrong line trains:
-                                <ul className="ml-5 mt-1 list-[circle] pl-4">
-                                  <li>
-                                    Pass level crossing gates only upon receiving a proceed hand signal from a railway servant in uniform.
-                                  </li>
-                                  <li>
-                                    Authorized to pass Departure Stop Signals at &apos;ON&apos; (danger) for wrong line trains.
-                                  </li>
-                                </ul>
-                              </li>
-                              <li>
-                                <span className="font-semibold text-base">c)</span>{" "}
-                                The Authority T/D 602 shall also specify:
-                                <ul className="ml-5 mt-1 list-[circle] pl-4">
-                                  <li>
-                                    (i) The line on which the train or light engine is to run.
-                                  </li>
-                                  <li>
-                                    (ii) The kilometers between which the obstruction exists on the adjacent line.
-                                  </li>
-                                  <li>
-                                    (iii) Any speed restrictions imposed.
-                                  </li>
-                                  <li>
-                                    (iv) Authorisation to pilot out the train starting towards the wrong line after all relevant points have been properly set and locked.
-                                  </li>
-                                  <li>
-                                    (v) Location of the neutral section, if any.
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
+                            <div className="space-y-4 mt-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  a
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  A &quot;Line Clear Ticket&quot; must be issued on the absolute block system during temporary single line working on double line sections for all wrong line trains.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  b
+                                </span>
+                                <div className="flex-1 space-y-3">
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed block">
+                                    Instructions for the Loco Pilot/Motorman of right line trains:
+                                  </span>
+                                  <div className="ml-0 space-y-2">
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-full bg-blue-500/60 text-white flex items-center justify-center text-xs font-semibold">•</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Follow Rule 3.75 to pass Intermediate Block (IB) Signal when at &apos;ON&apos;.</span>
+                                    </div>
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-full bg-blue-500/60 text-white flex items-center justify-center text-xs font-semibold">•</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Follow Rule 3.73 to pass Gate Signals interlocked to Level Crossing gates in the midsection when at &apos;ON&apos;.</span>
+                                    </div>
+                                  </div>
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed block mt-3">
+                                    Instructions for the Loco Pilot/Motorman of wrong line trains:
+                                  </span>
+                                  <div className="ml-0 space-y-2">
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-full bg-blue-500/60 text-white flex items-center justify-center text-xs font-semibold">•</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Pass level crossing gates only upon receiving a proceed hand signal from a railway servant in uniform.</span>
+                                    </div>
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-full bg-blue-500/60 text-white flex items-center justify-center text-xs font-semibold">•</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Authorized to pass Departure Stop Signals at &apos;ON&apos; (danger) for wrong line trains.</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  c
+                                </span>
+                                <div className="flex-1 space-y-3">
+                                  <span className="text-cyan-100 text-base lg:text-lg leading-relaxed block">
+                                    The Authority T/D 602 shall also specify:
+                                  </span>
+                                  <div className="ml-0 space-y-2">
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-md border border-blue-300/40 bg-linear-to-br from-blue-400/15 to-indigo-400/15 text-xs font-semibold text-blue-100 flex items-center justify-center">i</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">The line on which the train or light engine is to run.</span>
+                                    </div>
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-md border border-blue-300/40 bg-linear-to-br from-blue-400/15 to-indigo-400/15 text-xs font-semibold text-blue-100 flex items-center justify-center">ii</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">The kilometers between which the obstruction exists on the adjacent line.</span>
+                                    </div>
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-md border border-blue-300/40 bg-linear-to-br from-blue-400/15 to-indigo-400/15 text-xs font-semibold text-blue-100 flex items-center justify-center">iii</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Any speed restrictions imposed.</span>
+                                    </div>
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-md border border-blue-300/40 bg-linear-to-br from-blue-400/15 to-indigo-400/15 text-xs font-semibold text-blue-100 flex items-center justify-center">iv</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Authorisation to pilot out the train starting towards the wrong line after all relevant points have been properly set and locked.</span>
+                                    </div>
+                                    <div className="flex items-start gap-2">
+                                      <span className="shrink-0 mt-0.5 h-6 w-6 rounded-md border border-blue-300/40 bg-linear-to-br from-blue-400/15 to-indigo-400/15 text-xs font-semibold text-blue-100 flex items-center justify-center">v</span>
+                                      <span className="text-blue-100 text-sm lg:text-base">Location of the neutral section, if any.</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
 
                       {/* Point 14 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               14
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -482,76 +726,106 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 15 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               15
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
-                          <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
-                            <p>
-                              <span className="font-semibold text-base">(a)</span>{" "}
-                              The speed of every first train running in the wrong line shall not exceed 25 kmph subject to other speed restrictions. The subsequent trains in the wrong line, which would be dispatched on line clear, may be permitted to run on sectional speed subject to other speed restrictions.
-                            </p>
-                            <p>
-                              <span className="font-semibold text-base">(b)</span>{" "}
-                              The speed of every first train running in the right line shall not exceed 25 kmph subject to other speed restrictions. The subsequent trains in the right line, which would be dispatched on line clear, may be permitted to run on sectional speed subject to other speed restrictions in force.
-                            </p>
+                          <div className="space-y-4 mt-4 ml-1">
+                            <div className="flex items-start gap-3 group/item">
+                              <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                a
+                              </span>
+                              <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                The speed of every first train running in the wrong line shall not exceed 25 kmph subject to other speed restrictions. The subsequent trains in the wrong line, which would be dispatched on line clear, may be permitted to run on sectional speed subject to other speed restrictions.
+                              </span>
+                            </div>
+                            <div className="flex items-start gap-3 group/item">
+                              <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                b
+                              </span>
+                              <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                The speed of every first train running in the right line shall not exceed 25 kmph subject to other speed restrictions. The subsequent trains in the right line, which would be dispatched on line clear, may be permitted to run on sectional speed subject to other speed restrictions in force.
+                              </span>
+                            </div>
                           </div>
                         </div>
                       </div>
 
                       {/* Point 16 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               16
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
-                          <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
-                            <p>
-                              <span className="font-semibold text-base">(a)</span>{" "}
-                              When approaching the next block station the Loco Pilot/Motorman of the train running in the wrong line shall bring his train to a stand before the Last Stop Signal pertaining to the wrong line on which he is running and sound one long whistle. The Station Master after satisfying himself that all points have been correctly set, clamped and padlocked, shall arrange to issue a written authority T/510 through a competent railway servant in uniform; who shall then pilot the train from this signal and shall obey hand signals, if any, relayed from the station platform. The intervening signals authorised to be passed at ON, if any, shall be written on the Authority issued.
-                            </p>
-                            <p>
-                              <span className="font-semibold text-base">(b)</span>{" "}
-                              When approaching the next block station the Loco Pilot/Motorman of all the trains running in the right line shall be guided by the aspect of the Home Signal of the receiving station. In case the Home signal/Calling-On is not in working condition then the Station Master after ensuring that all the conditions for taking OFF such a Reception Stop Signal has been fulfilled; shall issue authority on Form No. T/369 (3b) and depute a competent railway servant in proper uniform who shall then pilot the train by duly showing PHS for receiving the train.
-                            </p>
+                          <div className="space-y-4 mt-4 ml-1">
+                            <div className="flex items-start gap-3 group/item">
+                              <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                a
+                              </span>
+                              <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                When approaching the next block station the Loco Pilot/Motorman of the train running in the wrong line shall bring his train to a stand before the Last Stop Signal pertaining to the wrong line on which he is running and sound one long whistle. The Station Master after satisfying himself that all points have been correctly set, clamped and padlocked, shall arrange to issue a written authority T/510 through a competent railway servant in uniform; who shall then pilot the train from this signal and shall obey hand signals, if any, relayed from the station platform. The intervening signals authorised to be passed at ON, if any, shall be written on the Authority issued.
+                              </span>
+                            </div>
+                            <div className="flex items-start gap-3 group/item">
+                              <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                b
+                              </span>
+                              <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                When approaching the next block station the Loco Pilot/Motorman of all the trains running in the right line shall be guided by the aspect of the Home Signal of the receiving station. In case the Home signal/Calling-On is not in working condition then the Station Master after ensuring that all the conditions for taking OFF such a Reception Stop Signal has been fulfilled; shall issue authority on Form No. T/369 (3b) and depute a competent railway servant in proper uniform who shall then pilot the train by duly showing PHS for receiving the train.
+                              </span>
+                            </div>
                           </div>
                         </div>
                       </div>
 
                       {/* Point 17 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               17
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
                               Resumption of normal working.
                             </p>
-                            <p>
-                              <span className="font-semibold text-base">(a)</span>{" "}
-                              On receipt of written certificate from a responsible engineering official that the obstruction on affected line is removed and the obstructed line is free for passage of trains, the Station Master will issue a message to the other station and inform all the gateman under his control, under exchange of private numbers and decide, in consultation with Section Controller the train after the passage of which the normal working has to be introduced.
-                            </p>
-                            <p>
-                              <span className="font-semibold text-base">(b)</span>{" "}
-                              An entry must be made in the Train Signal Register of all concerned stations, indicating the time at which double line working was suspended, single line working was introduced, and the time at which normal working was resumed.
-                            </p>
-                            <p>
-                              <span className="font-semibold text-base">(c)</span>{" "}
-                              The Loco Pilot of the first train entering the section where the obstruction has been removed and normal working is resumed shall not exceed 25 kmph, subject to other speed restrictions. The Loco Pilot must inform all Gatemen and Gangmen en route about the resumption of normal working. The Station Master shall issue a caution order accordingly.
-                            </p>
+                            <div className="space-y-4 mt-4 ml-1">
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  a
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  On receipt of written certificate from a responsible engineering official that the obstruction on affected line is removed and the obstructed line is free for passage of trains, the Station Master will issue a message to the other station and inform all the gateman under his control, under exchange of private numbers and decide, in consultation with Section Controller the train after the passage of which the normal working has to be introduced.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  b
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  An entry must be made in the Train Signal Register of all concerned stations, indicating the time at which double line working was suspended, single line working was introduced, and the time at which normal working was resumed.
+                                </span>
+                              </div>
+                              <div className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-full bg-cyan-500/80 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-cyan-800/30 ring-2 ring-cyan-300/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-cyan-500">
+                                  c
+                                </span>
+                                <span className="text-cyan-100 text-base lg:text-lg leading-relaxed flex-1">
+                                  The Loco Pilot of the first train entering the section where the obstruction has been removed and normal working is resumed shall not exceed 25 kmph, subject to other speed restrictions. The Loco Pilot must inform all Gatemen and Gangmen en route about the resumption of normal working. The Station Master shall issue a caution order accordingly.
+                                </span>
+                              </div>
+                            </div>
                             <div className="mt-6 space-y-6">
                               <div className="flex justify-center">
                                 <Image
@@ -577,13 +851,13 @@ const GSRChapterPage151B = () => {
                       </div>
 
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               18
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
@@ -597,117 +871,211 @@ const GSRChapterPage151B = () => {
                       </div>
 
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               S.R. 6.02.2
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
-                          <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
-                            <p className="font-semibold text-lg lg:text-xl text-white/90 mb-3">
-                              6.02.2. Rules and regulations for temporary single line working on double line section during total interruption of communications.
-                            </p>
-                            <p>
-                              The following rules must, in addition to the prescribed rules and regulations for working of trains during total interruption of communications on single line, be observed by the staff:
-                            </p>
-                            <ol className="list-decimal pl-6 space-y-2">
-                              <li>
-                                Whenever an accident to a train or track or other obstruction precludes the use of one line on a double line section during total interruption of communications, TSL working shall be introduced only after a responsible official of the Engineering department, not less than an Inspector in rank, has certified that the other line on which TSL working is to be introduced is free and safe for passage of trains. Such an Engineering official shall give the certificate only to the Station Master of the station at the end of the affected section for which the unobstructed line shall be the right line for despatching train. On receipt of this certificate, the Station Master will follow the rules prescribed for opening of communications.
-                              </li>
-                              <li>
-                                Loco Pilots of trains, including light engines, shall be given T/B602 (Authority for opening communication during total interruption of communication on Single Line Section) on which shall be stated clearly:
-                                <ol className="list-decimal pl-6 mt-1 space-y-1">
-                                  <li>the line on which the train is to run;</li>
-                                  <li>kilometreage where the obstruction exists;</li>
-                                  <li>any restriction of speed which may have been imposed by Way and Works staff,</li>
-                                  <li>an assurance to the effect that any trap points on the line in question have been spiked or clamped and pad locked.</li>
-                                </ol>
-                              </li>
-                              <li>
-                                All the cross-over points in the facing direction over which the train shall proceed, while TSL working is in force, shall be clamped and padlocked.
-                              </li>
-                              <li>
-                                In the case of train proceeding on the right line:
-                                <ol className="list-decimal pl-6 mt-1 space-y-1">
-                                  <li>
-                                    The LSS of the station in rear of the affected section may be passed in the ‘on’ position on the basis of T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section).
-                                  </li>
-                                  <li>
-                                    The approach Stop signals, if any of the station in advance of the affected section, may be taken ‘off’.
-                                  </li>
-                                </ol>
-                              </li>
-                              <li>
-                                In the case of a train proceeding, on the wrong line:
-                                <ol className="list-decimal pl-6 mt-1 space-y-1">
-                                  <li>
-                                    The train shall be piloted out of the station on a written authority issued by the Station Master after all the facing points have been correctly set and locked and trailing points correctly set over which the train will pass.
-                                    <ol className="list-decimal pl-6 mt-1 space-y-1">
-                                      <li>
-                                        The endorsement shall also be made in the T/B 602 given to the Loco Pilot of the first train to stop and inform all Gatemen, Gangmen, patrolmen, OHE staff, Telecom staff and any other staff on the way about the introduction of temporary single line working and specifying the road on which the trains will run. This information shall be conveyed through the Loco Pilot of a subsequent train also if necessary.
+                          <div className="space-y-6 text-base leading-relaxed text-blue-100/90 lg:text-lg">
+                            <h3 className="inline-block bg-linear-to-r from-cyan-400/70 via-indigo-400/60 to-purple-300/80 bg-clip-text text-transparent font-bold text-2xl lg:text-3xl mb-4">
+                              6.02.2. <span className="font-bold">Temporary Single Line Working on Double Line during Total Communication Failure</span>
+                            </h3>
+                            <div className="bg-blue-900/50 border border-cyan-400/20 rounded-xl p-4 shadow-md">
+                              <span className="block font-semibold tracking-wide text-white/80 mb-4">
+                                Staff must observe these special rules, <span className="text-cyan-200">in addition</span> to those for single line working during a total interruption of communications:
+                              </span>
+                              <ol className="space-y-8 list-none pl-0">
+                                {/* 1 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">1</span>
+                                  <div className="font-semibold mb-1 text-cyan-200 text-lg">Certification of Track Safety</div>
+                                  <div className="pl-1 text-blue-50">
+                                    TSL working may begin only after a responsible Engineering official (not less than Inspector) certifies the other line is <span className="font-semibold text-cyan-100">free & safe for trains</span>. 
+                                    <span className="block mt-1">This certificate is delivered to the Station Master at the affected section&apos;s end, and subsequently, the prescribed communication-opening rules are followed.</span>
+                                  </div>
+                                </li>
+                                {/* 2 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">2</span>
+                                  <div className="font-semibold mb-1 text-cyan-200 text-lg">Instructions to Loco Pilots</div>
+                                  <div className="pl-1 text-blue-50">
+                                    Loco Pilots (incl. light engines) receive <span className="bg-slate-800/70 text-cyan-100 px-2 py-0.5 rounded font-semibold border border-cyan-400/30">T/B 602</span> stating:
+                                    <ul className="mt-2 grid gap-1.5 pl-0">
+                                      <li className="flex items-start gap-2">
+                                        <span className="mt-1 text-cyan-300">
+                                          <svg width="14" height="14" viewBox="0 0 20 20" className="inline" fill="none"><circle cx="10" cy="10" r="8" fill="#22d3ee" /><path d="M6.5 10l2.5 2.5L13.5 8" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                                        </span>
+                                        <span>The line on which the train will run</span>
+                                      </li>
+                                      <li className="flex items-start gap-2">
+                                        <span className="mt-1 text-cyan-300">
+                                          <svg width="14" height="14" viewBox="0 0 20 20" className="inline" fill="none"><circle cx="10" cy="10" r="8" fill="#22d3ee" /><path d="M6.5 10l2.5 2.5L13.5 8" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                                        </span>
+                                        <span>Kilometreage of the obstruction</span>
+                                      </li>
+                                      <li className="flex items-start gap-2">
+                                        <span className="mt-1 text-cyan-300">
+                                          <svg width="14" height="14" viewBox="0 0 20 20" className="inline" fill="none"><circle cx="10" cy="10" r="8" fill="#22d3ee" /><path d="M6.5 10l2.5 2.5L13.5 8" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                                        </span>
+                                        <span>Any speed restrictions imposed by Way and Works staff</span>
+                                      </li>
+                                      <li className="flex items-start gap-2">
+                                        <span className="mt-1 text-cyan-300">
+                                          <svg width="14" height="14" viewBox="0 0 20 20" className="inline" fill="none"><circle cx="10" cy="10" r="8" fill="#22d3ee" /><path d="M6.5 10l2.5 2.5L13.5 8" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                                        </span>
+                                        <span>
+                                          An assurance regarding <span className="font-semibold text-cyan-100">trap points being spiked/clamped & padlocked</span>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                {/* 3 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">3</span>
+                                  <div className="font-semibold mb-1 text-cyan-200 text-lg">Clamping of Facing Cross-overs</div>
+                                  <div className="pl-1 text-blue-50">
+                                    All facing direction cross-over points to be traversed during TSL working must be <span className="font-semibold text-cyan-100">clamped and padlocked</span>.
+                                  </div>
+                                </li>
+                                {/* 4 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">4</span>
+                                  <details className="rounded-md bg-blue-950/50 border border-blue-400/20 group open:border-cyan-400 px-3 py-2 mt-0">
+                                    <summary className="cursor-pointer font-semibold text-indigo-200 focus:outline-none select-none">For trains proceeding <span className="text-cyan-100">on the right line</span>:</summary>
+                                    <ol className="mt-3 space-y-2 list-none pl-0">
+                                      {/* Bullet Design */}
+                                      <li className="flex items-start gap-3">
+                                        <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">a</span>
+                                        <span>The LSS at station in rear may be passed at &apos;on&apos; using T/B 602 as authority.</span>
+                                      </li>
+                                      <li className="flex items-start gap-3">
+                                        <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">b</span>
+                                        <span>Approach Stop signals at the advance station may be taken &apos;off&apos; as required.</span>
                                       </li>
                                     </ol>
-                                  </li>
-                                  <li>
-                                    On reaching the next station, the Loco Pilot shall bring his train to a stop opposite the FSS pertaining to the right line or at the LSS pertaining to the wrong line (on which his train is running), whichever he comes across first.
-                                  </li>
-                                  <li>
-                                    The Station Master of the station in advance shall depute a railway servant in uniform at the foot of the signal (whichever the train would encounter first) who shall stop the train on stop hand signal and thereafter ‘pilot in’ into the station on a written authority issued by the Station Master.
-                                  </li>
-                                </ol>
-                              </li>
-                              <li className="list-none">
-                                <div className="mt-6 space-y-6">
-                                  <div className="flex justify-center">
-                                    <Image
-                                      src="/gsr-images/GSRPAGE156A.png"
-                                      alt="PILOT-OUT memo - Authority for Loco Pilot to start train from line to wrong line"
-                                      width={800}
-                                      height={600}
-                                      className="w-full max-w-4xl rounded-xl border border-white/10 shadow-lg shadow-blue-900/40"
-                                    />
+                                  </details>
+                                </li>
+                                {/* 5 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">5</span>
+                                  <details className="rounded-md bg-blue-950/50 border border-blue-400/20 group open:border-cyan-400 px-3 py-2 mt-0">
+                                    <summary className="cursor-pointer font-semibold text-indigo-200 focus:outline-none select-none">For trains proceeding <span className="text-cyan-100">on the wrong line</span>:</summary>
+                                    <ol className="mt-3 space-y-4 list-none pl-0">
+                                      {/* a */}
+                                      <li className="flex flex-col gap-2">
+                                        <div className="flex items-start gap-3">
+                                          <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">a</span>
+                                          <span>
+                                            <span className="font-semibold">Pilot-Out Procedure:</span> The train is piloted out on a written authority from the Station Master after all facing points are set &amp; locked and trailing points set for the route.
+                                          </span>
+                                        </div>
+                                        {/* Lettered sub-list */}
+                                        <ol className="mt-2 grid gap-2 pl-0">
+                                          <li className="flex items-start gap-2">
+                                            <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-cyan-900 text-cyan-100 font-extrabold shadow shadow-blue-900/20 text-sm ml-10">i</span>
+                                            <span>
+                                              The T/B 602 for the <span className="font-semibold">first train</span> must be endorsed, ensuring the Loco Pilot is to stop and inform all <span className="text-cyan-100">Gatemen, Gangmen, Patrolmen, OHE, Telecom &amp; other staff</span> about TSL working and the running road.
+                                              <span className="block">If needed, subsequent Loco Pilots must also convey this information.</span>
+                                            </span>
+                                          </li>
+                                        </ol>
+                                      </li>
+                                      {/* b */}
+                                      <li className="flex items-start gap-3">
+                                        <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">b</span>
+                                        <span>On arrival at the next station, the Loco Pilot stops opposite the FSS of the right line or the LSS of the wrong line (whichever comes first).</span>
+                                      </li>
+                                      {/* c */}
+                                      <li className="flex items-start gap-3">
+                                        <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">c</span>
+                                        <span>The Station Master in advance deputes a uniformed railway servant at the relevant signal to stop the train by hand signal and pilots it into the station using a Station Master&apos;s written authority.</span>
+                                      </li>
+                                    </ol>
+                                  </details>
+                                  {/* Beautiful arrangement of memos */}
+                                  <div className="flex flex-col lg:flex-row justify-center gap-6 items-center mt-6">
+                                    <div className="flex-1 flex flex-col items-center">
+                                      <span className="rounded-xl bg-linear-to-br from-cyan-800/70 via-cyan-900/70 to-blue-950/80 text-cyan-100 px-4 py-1 mb-2 font-semibold shadow-md shadow-blue-800/10 tracking-wide drop-shadow-lg border border-cyan-400/30">
+                                        PILOT-OUT Memo
+                                      </span>
+                                      <Image
+                                        src="/gsr-images/GSRPAGE156A.png"
+                                        alt="PILOT-OUT memo - Authority for Loco Pilot to start train from line to wrong line"
+                                        width={420}
+                                        height={300}
+                                        className="rounded-xl border border-cyan-200/20 shadow-lg shadow-cyan-900/20 max-w-xs w-full"
+                                      />
+                                    </div>
+                                    <div className="flex-1 flex flex-col items-center">
+                                      <span className="rounded-xl bg-linear-to-br from-indigo-800/70 via-indigo-900/70 to-purple-950/80 text-indigo-100 px-4 py-1 mb-2 font-semibold shadow-md shadow-blue-800/10 tracking-wide drop-shadow-lg border border-indigo-400/30">
+                                        PILOT-IN Memo
+                                      </span>
+                                      <Image
+                                        src="/gsr-images/GSRPAGE156B.png"
+                                        alt="PILOT-IN memo - Authority for Loco Pilot to bring train onto specific line"
+                                        width={420}
+                                        height={300}
+                                        className="rounded-xl border border-indigo-200/20 shadow-lg shadow-indigo-900/20 max-w-xs w-full"
+                                      />
+                                    </div>
                                   </div>
-                                  <div className="flex justify-center">
-                                    <Image
-                                      src="/gsr-images/GSRPAGE156B.png"
-                                      alt="PILOT-IN memo - Authority for Loco Pilot to bring train onto specific line"
-                                      width={800}
-                                      height={600}
-                                      className="w-full max-w-4xl rounded-xl border border-white/10 shadow-lg shadow-blue-900/40"
-                                    />
+                                </li>
+                                {/* 6 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">6</span>
+                                  <div>
+                                    <span className="font-semibold text-cyan-200 text-lg">Responsibility to Inform Staff</span>
+                                    <span className="block pl-1 text-blue-50">
+                                      It is <span className="font-semibold">mandatory</span> for the person in charge of the first engine/self-propelled vehicle under T/B 602 to inform all <span className="text-cyan-100">Gatemen, Gangmen, Patrolmen, OHE, Telecom and enroute staff</span> of TSL working and the assigned running line.
+                                    </span>
                                   </div>
-                                </div>
-                              </li>
-                              <li>
-                                It will be the responsibility of the person in charge of the first engine or self propelled vehicle or other vehicle, sent under T/B 602 to inform all the Gatemen, Gangmen, Patrolmen, OHE staff, Telecom staff and any other staff enroute about the introduction of TSL working as also the line on which it is proposed to run the train.
-                              </li>
-                              <li>
-                                <span className="font-semibold">Resumption of normal working.</span>
-                                <ol className="list-decimal pl-6 mt-1 space-y-1">
-                                  <li>
-                                    If after the introduction of TSL working, communications are restored between the two affected stations, the trains will continue to run under special rules until action is taken in accordance with the instructions contained in these rules for the cancellation of the procedure. Thereafter, trains will be run in accordance with the instructions for the movement of traffic during TSL working on double line.
-                                  </li>
-                                  <li>
-                                    If however before communications are restored the other line is released for the passage of traffic, trains shall be worked in accordance with the instructions for running of trains on double line section during total interruption of communications.
-                                  </li>
-                                </ol>
-                              </li>
-                            </ol>
+                                </li>
+                                {/* 7 */}
+                                <li className="relative pl-14">
+                                  <span className="absolute left-0 top-0 flex items-center justify-center h-8 w-8 rounded-full bg-cyan-600 text-white font-bold shadow-md shadow-cyan-900/20 border-2 border-cyan-100 text-lg">7</span>
+                                  <div>
+                                    <span className="font-semibold text-cyan-200 text-lg">Resumption of Normal Working</span>
+                                    <ol className="mt-3 space-y-3 list-none pl-0">
+                                      <li className="flex items-start gap-3">
+                                        <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">a</span>
+                                        <span>
+                                          <span className="font-medium text-cyan-100">
+                                            After TSL working starts:
+                                          </span>{" "}
+                                          If communications are restored, trains <span className="font-semibold">continue under special rules</span> till the prescribed procedure is formally cancelled. Only then will normal double line TSL working recommence.
+                                        </span>
+                                      </li>
+                                      <li className="flex items-start gap-3">
+                                        <span className="shrink-0 mt-1 h-6 w-6 rounded-full bg-linear-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-white text-base font-bold shadow-sm shadow-cyan-900/10">b</span>
+                                        <span>
+                                          <span className="font-medium text-cyan-100">
+                                            If the obstructed line is released for use <span className="italic">(before communication is restored)</span>:
+                                          </span>{" "}
+                                          Trains revert to the regulations for double line running during total interruption as specified elsewhere in these rules.
+                                        </span>
+                                      </li>
+                                    </ol>
+                                  </div>
+                                </li>
+                              </ol>
+                            </div>
                           </div>
                         </div>
                       </div>
 
                       {/* S.R. 6.02.3 Header */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.02.3
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-2">
@@ -719,26 +1087,38 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 1 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               1
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
                               In the event of total interruption of communications occurring between two block stations on a double line section, i. e., when Line Clear cannot be obtained by any one of the following means stated in the order of preference viz.,
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>1. Block Instruments, Track Circuits or Axle Counters,</p>
-                              <p>2. Telephone attached to the Block Instrument,</p>
-                              <p>3. Station to Station fixed telephones wherever available,</p>
-                              <p>4. Fixed telephone such as Railway auto phones and BSNL telephones,</p>
-                              <p>5. Control telephone and</p>
-                              <p>6. VHF set.</p>
-                            </div>
+                            <ol className="pl-0 space-y-2">
+                              {[
+                                "Block Instruments, Track Circuits or Axle Counters,",
+                                "Telephone attached to the Block Instrument,",
+                                "Station to Station fixed telephones wherever available,",
+                                "Fixed telephone such as Railway auto phones and BSNL telephones,",
+                                "Control telephone and",
+                                "VHF set."
+                              ].map((item, idx) => (
+                                <li
+                                  key={idx}
+                                  className="flex items-start gap-3"
+                                >
+                                  <span className="shrink-0 mt-0.5 h-7 w-7 rounded-full border-2 border-cyan-400 bg-linear-to-br from-cyan-500/60 to-indigo-800/80 text-white flex items-center justify-center text-base font-bold shadow-md shadow-cyan-900/20 transition-all duration-200">
+                                    {idx + 1}
+                                  </span>
+                                  <span className="text-cyan-100/90 text-base lg:text-lg font-medium leading-snug">{item}</span>
+                                </li>
+                              ))}
+                            </ol>
                             <p>
                               The following procedure shall be adopted for train passing.
                             </p>
@@ -748,13 +1128,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 2 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               2
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -766,36 +1146,57 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 3 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               3
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="mb-3">
                               The Station Master shall give T/C 602 (Authority for working of trains during total interruption of communication on double line section) to the Loco Pilot of each train which includes:
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>1. An authority to proceed without line clear,</p>
-                              <p>2. A caution order restricting the speed to 25 KMPH over the straight and 10 KMPH when approaching or passing any portion of the line where the view ahead is not clear due to curve, obstruction, rain, fog or any other cause,</p>
-                              <p>3. An authority to pass LSS in the `on` position.</p>
-                            </div>
+                            <ol className="space-y-3 ml-0 pl-1">
+                              <li className="flex items-start gap-3">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-lg bg-linear-to-br from-cyan-400/70 to-blue-800/80 border-2 border-cyan-200 flex items-center justify-center text-lg font-bold text-white shadow-lg shadow-cyan-900/25">
+                                  1
+                                </span>
+                                <span className="text-cyan-100/90 text-base lg:text-lg leading-relaxed">
+                                  An authority to proceed without line clear,
+                                </span>
+                              </li>
+                              <li className="flex items-start gap-3">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-lg bg-linear-to-br from-cyan-400/70 to-blue-800/80 border-2 border-cyan-200 flex items-center justify-center text-lg font-bold text-white shadow-lg shadow-cyan-900/25">
+                                  2
+                                </span>
+                                <span className="text-cyan-100/90 text-base lg:text-lg leading-relaxed">
+                                  A caution order restricting the speed to <span className="font-semibold text-cyan-200">25 KMPH</span> over the straight and <span className="font-semibold text-cyan-200">10 KMPH</span> when approaching or passing any portion of the line where the view ahead is not clear due to curve, obstruction, rain, fog or any other cause,
+                                </span>
+                              </li>
+                              <li className="flex items-start gap-3">
+                                <span className="shrink-0 mt-0.5 h-8 w-8 rounded-lg bg-linear-to-br from-cyan-400/70 to-blue-800/80 border-2 border-cyan-200 flex items-center justify-center text-lg font-bold text-white shadow-lg shadow-cyan-900/25">
+                                  3
+                                </span>
+                                <span className="text-cyan-100/90 text-base lg:text-lg leading-relaxed">
+                                  An authority to pass LSS in the <span className="font-mono bg-slate-800/70 rounded px-2 py-0.5 text-cyan-200 border border-cyan-300/30">on</span> position.
+                                </span>
+                              </li>
+                            </ol>
                           </div>
                         </div>
                       </div>
 
                       {/* Point 4 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               4
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -807,13 +1208,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 5 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               5
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -825,13 +1226,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 6 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               6
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -843,13 +1244,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 7 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               7
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -861,13 +1262,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 8 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               8
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -879,13 +1280,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 9 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               9
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -897,13 +1298,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 10 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               10
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -915,13 +1316,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 11 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               11
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -933,13 +1334,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 12 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               12
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -951,13 +1352,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 13 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               13
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -969,13 +1370,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 14 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               14
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -987,13 +1388,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 15 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               15
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1005,13 +1406,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 16 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               16
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1023,13 +1424,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 17 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               17
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1042,13 +1443,13 @@ const GSRChapterPage151B = () => {
 
                       {/* S.R. 6.02.4 Header */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.02.4
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-2">
@@ -1060,26 +1461,44 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 1 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               1
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
                               In the event of total interruption of communications occurring between two block stations on a single line section i. e., when Line Clear cannot be obtained by any one of the following means stated in order of preference viz.,
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>1. Block instruments, Track circuits or Axle counters,</p>
-                              <p>2. Telephone attached to the Block Instrument,</p>
-                              <p>3. Station to Station fixed telephones wherever available,</p>
-                              <p>4. Fixed telephone such as Railway auto phones and BSNL telephones,</p>
-                              <p>5. Control telephone and</p>
-                              <p>6. VHF set.</p>
-                            </div>
+                            <ol className="ml-0 space-y-2">
+                              <li className="flex items-start gap-2">
+                                <span className="inline-flex items-center justify-center h-7 w-7 rounded-md border border-cyan-400/50 bg-cyan-400/10 font-semibold text-cyan-200 text-base shadow shadow-cyan-900/10">1</span>
+                                <span className="text-blue-100/90">Block instruments, Track circuits or Axle counters,</span>
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="inline-flex items-center justify-center h-7 w-7 rounded-md border border-cyan-400/50 bg-cyan-400/10 font-semibold text-cyan-200 text-base shadow shadow-cyan-900/10">2</span>
+                                <span className="text-blue-100/90">Telephone attached to the Block Instrument,</span>
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="inline-flex items-center justify-center h-7 w-7 rounded-md border border-cyan-400/50 bg-cyan-400/10 font-semibold text-cyan-200 text-base shadow shadow-cyan-900/10">3</span>
+                                <span className="text-blue-100/90">Station to Station fixed telephones wherever available,</span>
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="inline-flex items-center justify-center h-7 w-7 rounded-md border border-cyan-400/50 bg-cyan-400/10 font-semibold text-cyan-200 text-base shadow shadow-cyan-900/10">4</span>
+                                <span className="text-blue-100/90">Fixed telephone such as Railway auto phones and BSNL telephones,</span>
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="inline-flex items-center justify-center h-7 w-7 rounded-md border border-cyan-400/50 bg-cyan-400/10 font-semibold text-cyan-200 text-base shadow shadow-cyan-900/10">5</span>
+                                <span className="text-blue-100/90">Control telephone and</span>
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="inline-flex items-center justify-center h-7 w-7 rounded-md border border-cyan-400/50 bg-cyan-400/10 font-semibold text-cyan-200 text-base shadow shadow-cyan-900/10">6</span>
+                                <span className="text-blue-100/90">VHF set.</span>
+                              </li>
+                            </ol>
                             <p>
                               The instructions laid down in succeeding paragraphs shall be followed for working trains between block stations.
                             </p>
@@ -1095,38 +1514,73 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 2 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               2
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="mb-3">
                               The Station Master who has a train to despatch through the affected block section shall open communication by establishing contact with the Station Master of the block station at the other end of the affected block section by sending an engine or self- propelled vehicle or any other vehicle enumerated below, in the order of preference laid down.
                             </p>
-                            <div className="space-y-2 ml-4">
-                              <p>1. Light engine.</p>
-                              <p>2. Train engine, after it is detached from the train by the Loco Pilot on instructions from the Station Master on duty.</p>
-                              <p>3. Motor trolley/Tower wagon duly accompanied by a Guard or by a Station Master other than the Station Master on duty.</p>
-                              <p>4. Trolley/Cycle trolley /Moped trolley duly accompanied by a Guard or by a Station Master other than the Station Master on duty.</p>
-                              <p>5. Diesel Car/Rail Motor Car/EMU Rake etc., after ensuring that all passengers have detrained.</p>
-                            </div>
+                            <ol className="space-y-2 ml-1">
+                              <li className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-cyan-400/60 bg-cyan-400/10 text-cyan-200 text-lg font-bold shadow shadow-cyan-900/10 group-hover/item:scale-110 transition-all duration-300">
+                                  1
+                                </span>
+                                <span className="text-blue-100/90 text-base lg:text-lg leading-relaxed flex-1">
+                                  Light engine.
+                                </span>
+                              </li>
+                              <li className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-indigo-400/60 bg-indigo-400/10 text-indigo-200 text-lg font-bold shadow shadow-indigo-900/10 group-hover/item:scale-110 transition-all duration-300">
+                                  2
+                                </span>
+                                <span className="text-blue-100/90 text-base lg:text-lg leading-relaxed flex-1">
+                                  Train engine, after it is detached from the train by the Loco Pilot on instructions from the Station Master on duty.
+                                </span>
+                              </li>
+                              <li className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-purple-400/60 bg-purple-400/10 text-purple-200 text-lg font-bold shadow shadow-purple-900/10 group-hover/item:scale-110 transition-all duration-300">
+                                  3
+                                </span>
+                                <span className="text-blue-100/90 text-base lg:text-lg leading-relaxed flex-1">
+                                  Motor trolley/Tower wagon duly accompanied by a Guard or by a Station Master other than the Station Master on duty.
+                                </span>
+                              </li>
+                              <li className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-blue-400/60 bg-blue-400/10 text-blue-200 text-lg font-bold shadow shadow-blue-900/10 group-hover/item:scale-110 transition-all duration-300">
+                                  4
+                                </span>
+                                <span className="text-blue-100/90 text-base lg:text-lg leading-relaxed flex-1">
+                                  Trolley/Cycle trolley /Moped trolley duly accompanied by a Guard or by a Station Master other than the Station Master on duty.
+                                </span>
+                              </li>
+                              <li className="flex items-start gap-3 group/item">
+                                <span className="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-yellow-400/60 bg-yellow-400/10 text-yellow-200 text-lg font-bold shadow shadow-yellow-900/10 group-hover/item:scale-110 transition-all duration-300">
+                                  5
+                                </span>
+                                <span className="text-blue-100/90 text-base lg:text-lg leading-relaxed flex-1">
+                                  Diesel Car/Rail Motor Car/EMU Rake etc., after ensuring that all passengers have detrained.
+                                </span>
+                              </li>
+                            </ol>
                           </div>
                         </div>
                       </div>
 
                       {/* Point 3 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               3
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1138,53 +1592,111 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 4 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               4
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-4 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <div>
-                              <p className="font-semibold text-base mb-2">4.1.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">4.1.</p>
                               <p className="mb-3">
                                 Before despatching the Light engine/Train engine/Motor Trolley/Tower wagon/Trolley/Cycle trolley /Moped trolley/Diesel Car/Rail Motor Car/EMU rake, the Station Master on duty shall hand over T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section) to the Loco Pilot/Motorman /Guard/Station Master who is being sent to open communications, which includes:-
                               </p>
-                              <div className="space-y-2 ml-4">
-                                <p>1. Authority to proceed without Line Clear.</p>
-                                <p>2. Authority to pass signals in &apos;on&apos; position i.e., the authority to pass the departure signal/signals in the `on` position.</p>
-                                <p>3. A caution order, specifying the speed up to which the engine or self propelled vehicle or other vehicle referred to in para 2 may run through the affected block section.</p>
-                                <p>4. A line clear enquiry message addressed to the Station Master of the block station at the other end of the affected block section asking for Line Clear for the train waiting to be despatched to his station.</p>
-                                <p>5. A conditional line clear (CLC) message to the Station Master of the block station at the other end of the affected block section permitting him:</p>
-                                <div className="space-y-1 ml-4">
-                                  <p>1. to return the Light engine/train engine, either light or attached to a train waiting to be despatched from his station or attached with another engine; or</p>
-                                  <p>2. to return Tower wagon/Diesel car/Rail motor car/EMU rake running by itself; or</p>
-                                  <p>3. to return motor trolley/trolley/cycle trolley /moped trolley either running by itself or loaded in a train waiting to be despatched from his station.</p>
-                                </div>
-                              </div>
+                              <ol className="space-y-3 ml-0">
+                                <li className="flex items-start gap-3">
+                                  <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-lg bg-cyan-500/10 border border-cyan-300/20 text-cyan-100 font-bold text-lg shadow shadow-cyan-900/10">
+                                    1
+                                  </span>
+                                  <span className="text-blue-100/90 text-base lg:text-lg flex-1 leading-relaxed">
+                                    Authority to proceed without Line Clear.
+                                  </span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                  <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-lg bg-cyan-500/10 border border-cyan-300/20 text-cyan-100 font-bold text-lg shadow shadow-cyan-900/10">
+                                    2
+                                  </span>
+                                  <span className="text-blue-100/90 text-base lg:text-lg flex-1 leading-relaxed">
+                                    Authority to pass signals in &apos;on&apos; position i.e., the authority to pass the departure signal/signals in the <code className="px-1 rounded-md bg-slate-800/60 text-cyan-300">on</code> position.
+                                  </span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                  <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-lg bg-cyan-500/10 border border-cyan-300/20 text-cyan-100 font-bold text-lg shadow shadow-cyan-900/10">
+                                    3
+                                  </span>
+                                  <span className="text-blue-100/90 text-base lg:text-lg flex-1 leading-relaxed">
+                                    A caution order, specifying the speed up to which the engine or self propelled vehicle or other vehicle referred to in para 2 may run through the affected block section.
+                                  </span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                  <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-lg bg-cyan-500/10 border border-cyan-300/20 text-cyan-100 font-bold text-lg shadow shadow-cyan-900/10">
+                                    4
+                                  </span>
+                                  <span className="text-blue-100/90 text-base lg:text-lg flex-1 leading-relaxed">
+                                    A line clear enquiry message addressed to the Station Master of the block station at the other end of the affected block section asking for Line Clear for the train waiting to be despatched to his station.
+                                  </span>
+                                </li>
+                                <li className="flex flex-col gap-1">
+                                  <div className="flex items-start gap-3">
+                                    <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-lg bg-cyan-500/10 border border-cyan-300/20 text-cyan-100 font-bold text-lg shadow shadow-cyan-900/10">
+                                      5
+                                    </span>
+                                    <span className="text-blue-100/90 text-base lg:text-lg flex-1 leading-relaxed">
+                                      A conditional line clear (CLC) message to the Station Master of the block station at the other end of the affected block section permitting him:
+                                    </span>
+                                  </div>
+                                  <ol className="space-y-3 ml-0 list-none">
+                                    <li className="flex items-start gap-3 group/item">
+                                      <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-full border-2 border-cyan-300/40 bg-cyan-800/40 text-cyan-200 font-bold text-lg shadow-md shadow-cyan-900/10 group-hover/item:bg-cyan-500/30 transition-all duration-300">
+                                        a
+                                      </span>
+                                      <span className="text-blue-100/90 flex-1 leading-relaxed">
+                                        to return the Light engine/train engine, either light or attached to a train waiting to be despatched from his station or attached with another engine; or
+                                      </span>
+                                    </li>
+                                    <li className="flex items-start gap-3 group/item">
+                                      <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-full border-2 border-cyan-300/40 bg-cyan-800/40 text-cyan-200 font-bold text-lg shadow-md shadow-cyan-900/10 group-hover/item:bg-cyan-500/30 transition-all duration-300">
+                                        b
+                                      </span>
+                                      <span className="text-blue-100/90 flex-1 leading-relaxed">
+                                        to return Tower wagon/Diesel car/Rail motor car/EMU rake running by itself; or
+                                      </span>
+                                    </li>
+                                    <li className="flex items-start gap-3 group/item">
+                                      <span className="shrink-0 flex items-center justify-center mt-0.5 h-8 w-8 rounded-full border-2 border-cyan-300/40 bg-cyan-800/40 text-cyan-200 font-bold text-lg shadow-md shadow-cyan-900/10 group-hover/item:bg-cyan-500/30 transition-all duration-300">
+                                        c
+                                      </span>
+                                      <span className="text-blue-100/90 flex-1 leading-relaxed">
+                                        to return motor trolley/trolley/cycle trolley /moped trolley either running by itself or loaded in a train waiting to be despatched from his station.
+                                      </span>
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ol>
                             </div>
                             <div>
-                              <p className="font-semibold text-base mb-2">4.2.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">4.2.</p>
                               <p>
                                 Line clear enquiry message: T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section).--- for only one train, if to be despatched; or T/E 602 (Line clear enquiry message asking Line Clear for despatch trains during total failure of communication on single line section) --- for more than one train, if to be despatched, along with T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section) shall be sent through the Loco pilot/Motorman/Guard/Station Master going to open communications.
                               </p>
                             </div>
                             <div>
-                              <p className="font-semibold text-base mb-2">4.3.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">4.3.</p>
                               <p>
                                 The Loco Pilot/Motorman/Guard/Station Master going to open communications shall, on receipt of &apos;Authority for opening communication during total interruption of communication on single line section&apos; (T/B.602) and sign on its original and carbon copy in token of his having understood its contents.
                               </p>
                             </div>
                             <div>
-                              <p className="font-semibold text-base mb-2">4.4.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">4.4.</p>
                               <p>
                                 In case a light engine or an engine and brake-van is to be dispatched to proceed to the next block station and then continue its journey onward after arrival at the next block station and is not meant for opening communication, the Loco Pilot of engine or the engine and the brake-van shall be given T/B602 (Authority for opening communication during total interruption of communication on Single Line Section).and the items &apos;line clear enquiry message&apos; and &apos;conditional line clear message&apos; shall be struck out in the form T/B602 (Authority for opening communication during total interruption of communication on Single Line Section). Should it be necessary to despatch another light engine or another engine and brake- van in the same direction, an interval of at least 30 minutes shall be allowed to lapse before it is despatched.
                               </p>
                             </div>
                             <div>
-                              <p className="font-semibold text-base mb-2">4.5.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">4.5.</p>
                               <p>
                                 The LSS shall not be taken &apos;off&apos; while permitting an engine or self-propelled vehicle or other vehicle to proceed to the next station on T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section).
                               </p>
@@ -1195,13 +1707,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 5 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               5
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1213,29 +1725,29 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 6 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               6
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-4 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <div>
-                              <p className="font-semibold text-base mb-2">6.1.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">6.1.</p>
                               <p>
                                 The engine or self propelled vehicle or other vehicle proceeding on T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section) shall switch on the flasher light and dim the head light and shall proceed at a speed not exceeding 15 KMPH by day when the view is clear and 10 KMPH during night or when the view is obstructed, making free use of the engine whistle or horn of the self propelled vehicle, where provided. In thick, foggy or tempestuous weather or in dust storm etc, when visibility is impaired, the engine or self propelled vehicle or other vehicle proceeding on T/B 602 (Authority for opening communication during total interruption of communication on Single Line Section) shall proceed at walking pace only making repeated use of the engine whistle or horn of self propelled vehicle, preceded at an adequate distance by two men on foot, one displaying a red light and the other carrying fog signal ready for immediate use. Normally one of these men will be provided by the Station Master from his group &apos;D&apos; staff and the other from the crew of the engine or the person whose motor trolley/trolley/cycle trolley/moped trolley is being used. In case of single manned self-propelled vehicle, both these men shall be provided by the Station Master. The Station Master on duty shall explain to both of them their duties, in the presence of the Loco Pilot/Motorman/Guard/Station Master in charge of the self-propelled vehicle or other vehicle being sent to the next station and satisfy himself that they understand the same.
                               </p>
                             </div>
                             <div>
-                              <p className="font-semibold text-base mb-2">6.2.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">6.2.</p>
                               <p>
                                 Both by day and night, a tunnel must not be entered until the Loco Pilot/Motorman/Guard/Station Master has ascertained that it is clear. Should there be any doubt on this point the engine or other vehicle etc, should be piloted by a railway servant equipped with hand signal and detonators. Before entering the tunnel the head lights, side and tail lights and other lights (where provided) shall also be lit.
                               </p>
                             </div>
                             <div>
-                              <p className="font-semibold text-base mb-2">6.3.</p>
+                              <p className="font-semibold text-base mb-2 text-cyan-200 text-center">6.3.</p>
                               <p>
                                 No obstruction of the line beyond the outermost facing points shall be allowed until the return of the engine/tower wagon/diesel car/rail motor car/EMU rake/motor trolley/trolley/cycle trolley/moped trolley.
                               </p>
@@ -1246,13 +1758,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 7 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               7
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1264,13 +1776,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 8 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               8
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1282,13 +1794,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 9 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               9
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1300,13 +1812,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 10 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               10
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1318,13 +1830,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 11 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               11
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1336,13 +1848,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 12 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               12
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1354,13 +1866,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 13 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               13
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1372,13 +1884,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 14 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               14
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1390,13 +1902,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 15 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               15
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1408,13 +1920,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 16 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               16
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1426,13 +1938,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 17 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               17
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1444,13 +1956,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 18 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               18
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="mb-3">
@@ -1468,13 +1980,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 19 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               19
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1486,13 +1998,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 20 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               20
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1504,13 +2016,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 21 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               21
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1522,13 +2034,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 22 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               22
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1540,13 +2052,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 23 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-base font-semibold tracking-wide text-cyan-100 text-center lg:text-lg">
                               23
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1558,13 +2070,13 @@ const GSRChapterPage151B = () => {
 
                       {/* Point 24 */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-12 h-10 w-10 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-base font-semibold tracking-wide text-indigo-100 text-center lg:text-lg">
                               24
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p>
@@ -1576,13 +2088,13 @@ const GSRChapterPage151B = () => {
                       
                       {/* S.R. 6.02.5 Header */}
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/10 mt-8">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 via-blue-500/5 to-cyan-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-32 h-10 w-32 items-center justify-center rounded-full border border-indigo-400/40 bg-indigo-500/10 text-sm font-semibold tracking-wide text-indigo-100 text-center lg:text-base">
                               S.R. 6.02.5
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-indigo-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-2">
@@ -1591,13 +2103,13 @@ const GSRChapterPage151B = () => {
                             <p>
                               On a double line section, if for any reason other than the introduction of temporary single line working it becomes necessary to run a train against the established direction of traffic, the following procedure must be observed:
                             </p>
-                            <ol className="list-decimal ml-6 space-y-2">
+                            <ol className="list-decimal ml-0 space-y-2">
                               <li>
                                 The line concerned shall be blocked as per GR 1.02(8), indicating the station to which the train is to proceed, after obtaining acknowledgement from the Station Master at the other end.
                               </li>
                               <li>
                                 The Station Master intending to despatch the train shall then issue a block ticket (<span className="font-semibold">T/J 602</span>) indicating:
-                                <ul className="list-disc ml-6 mt-2 space-y-1">
+                                <ul className="list-disc ml-0 mt-2 space-y-1">
                                   <li>Speed at which the train is to run</li>
                                   <li>The precautions to be observed</li>
                                   <li>To ascertain the condition of the train/obstruction over the adjacent line</li>
@@ -1626,60 +2138,81 @@ const GSRChapterPage151B = () => {
                       </div>
 
                       <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-blue-900/20 transition-all duration-500 hover:border-cyan-400/30 hover:bg-white/10 mt-8">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+                        <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-blue-500/5 to-indigo-600/10 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
                         <div className="relative flex flex-col gap-5 rounded-2xl bg-slate-900/50 px-5 py-6 lg:px-8 lg:py-8">
                           <div className="flex items-center gap-4">
                             <span className="flex lg:h-12 lg:w-40 h-10 w-40 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/10 text-sm font-semibold tracking-wide text-cyan-100 text-center lg:text-base">
                               S.R. 6.02.6
                             </span>
-                            <div className="h-[1px] flex-1 bg-gradient-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
+                            <div className="h-px flex-1 bg-linear-to-r from-cyan-400/40 via-blue-400/30 to-transparent"></div>
                           </div>
                           <div className="space-y-3 text-base leading-relaxed text-blue-100/90 lg:text-lg">
                             <p className="font-semibold text-lg lg:text-xl text-white/90 mb-2">
                               Despatch of Relief Engine / Relief Train into an Occupied/Obstructed Block Section to Assist the Crippled or Disabled Engine / Train
                             </p>
-                            <ol className="list-decimal ml-6 space-y-2">
-                              <li>
-                                When a block section between two block stations is occupied/obstructed due to accident or disabled train, and a relief engine/train must be despatched, it may be done by issuing the <span className="font-semibold">“Authority for Relief engine/train to enter into an occupied block section” (T/A.602)</span>, which contains:
-                                <ul className="list-disc ml-7 mt-2 space-y-2">
-                                  <li>
-                                    <span className="font-semibold">Authority to proceed without Line Clear:</span> Authorizes the relief engine/train to proceed cautiously without Line Clear up to the point of obstruction at KM (on up/down line) and clear back to the station from which it started, or to the station at the other end of the affected block section.
-                                  </li>
-                                  <li>
-                                    <span className="font-semibold">Authority to pass signals in ‘on’ position:</span> Authorizes passing the signal(s) in ‘on’ position at a speed not exceeding 15 KMPH, observing hand signals at the foot of the signal posts if they protect the points.
-                                  </li>
-                                  <li>
-                                    <span className="font-semibold">Caution Order:</span> To observe a speed of 15 KMPH during day when the view is clear, or 10 KMPH during night or when visibility is poor, or to proceed at walking speed preceded by two men on foot with red light and fog signals on Single Line/one man on Double Line, especially in foggy/tempestuous weather or when the electric light of the loco is not working.
-                                  </li>
-                                </ul>
-                              </li>
-                              <li>
-                                If control is working, all operations must be carried out in consultation with the Section Controller.
-                              </li>
-                              <li>
-                                The Station Master on duty at the other end of the affected section must be advised of the relief engine/train entering the section and the station into which they will clear, under exchange of Private Numbers.
-                              </li>
-                              <li>
-                                When a relief engine is sent, clear instructions regarding the nature of the obstruction (as far as known), the station to which the crippled train/engine could be moved, and the location of the engine and brake van of the crippled/disabled train should be given to the Loco Pilot in the caution order.
-                              </li>
-                              <li>
-                                The Loco Pilot must keep a sharp lookout at all times, be prepared to stop short of any obstruction, and use the engine whistle frequently.
-                              </li>
-                              <li>
-                                The Loco Pilot shall bring the train/engine to a stop short of the obstruction and thereafter obey the hand signals at the site.
-                              </li>
-                              <li>
-                                While returning to the station (from which started or the next station ahead), the Loco Pilot must act according to the aspect of signals (on Single Line/right line on Double Line), stop at LSS on wrong line, and sound the whistle continuously. Thereafter, the train shall be piloted by station staff.
-                              </li>
-                              <li>
-                                On arrival at the station, the authority (T/A.602) must be handed over to the Station Master on duty, who will retain it in the station records.
-                              </li>
-                              <li>
-                                A record of timings for the relief engine/train entering and clearing the obstructed section shall be made in the TSR in red ink. In case of an accident, a ‘track fit’ certificate shall be obtained before resuming normal working. Before resuming normal working, Station Masters at both ends must ensure that the block section is clear under exchange of Private Numbers, and make entries in the TSR and station diary in red ink.
-                              </li>
-                              <li>
-                                When it is required to push the train, follow guidelines given in SR 4.12.
-                              </li>
+                            <ol className="counter-list space-y-6 lg:space-y-8 ml-0">
+                              {[
+                                {
+                                  title: (
+                                    <>
+                                      When a block section between two block stations is occupied/obstructed due to accident or disabled train, and a relief engine/train must be despatched, it may be done by issuing the{' '}
+                                      <span className="font-semibold text-cyan-200">“Authority for Relief engine/train to enter into an occupied block section” (T/A.602)</span>, which contains:
+                                    </>
+                                  ),
+                                  subitems: [
+                                    <>
+                                      <span className="font-semibold text-indigo-200">Authority to proceed without Line Clear:</span>{' '}
+                                      <span>
+                                        Authorizes the relief engine/train to proceed cautiously without Line Clear up to the point of obstruction at KM (on up/down line) and clear back to the station from which it started, or to the station at the other end of the affected block section.
+                                      </span>
+                                    </>,
+                                    <>
+                                      <span className="font-semibold text-indigo-200">Authority to pass signals in ‘on’ position:</span>{' '}
+                                      <span>
+                                        Authorizes passing the signal(s) in ‘on’ position at a speed not exceeding 15 KMPH, observing hand signals at the foot of the signal posts if they protect the points.
+                                      </span>
+                                    </>,
+                                    <>
+                                      <span className="font-semibold text-indigo-200">Caution Order:</span>{' '}
+                                      <span>
+                                        To observe a speed of 15 KMPH during day when the view is clear, or 10 KMPH during night or when visibility is poor, or to proceed at walking speed preceded by two men on foot with red light and fog signals on Single Line/one man on Double Line, especially in foggy/tempestuous weather or when the electric light of the loco is not working.
+                                      </span>
+                                    </>,
+                                  ],
+                                },
+                                { title: "If control is working, all operations must be carried out in consultation with the Section Controller." },
+                                { title: "The Station Master on duty at the other end of the affected section must be advised of the relief engine/train entering the section and the station into which they will clear, under exchange of Private Numbers." },
+                                { title: "When a relief engine is sent, clear instructions regarding the nature of the obstruction (as far as known), the station to which the crippled train/engine could be moved, and the location of the engine and brake van of the crippled/disabled train should be given to the Loco Pilot in the caution order." },
+                                { title: "The Loco Pilot must keep a sharp lookout at all times, be prepared to stop short of any obstruction, and use the engine whistle frequently." },
+                                { title: "The Loco Pilot shall bring the train/engine to a stop short of the obstruction and thereafter obey the hand signals at the site." },
+                                { title: "While returning to the station (from which started or the next station ahead), the Loco Pilot must act according to the aspect of signals (on Single Line/right line on Double Line), stop at LSS on wrong line, and sound the whistle continuously. Thereafter, the train shall be piloted by station staff." },
+                                { title: "On arrival at the station, the authority (T/A.602) must be handed over to the Station Master on duty, who will retain it in the station records." },
+                                { title: "A record of timings for the relief engine/train entering and clearing the obstructed section shall be made in the TSR in red ink. In case of an accident, a ‘track fit’ certificate shall be obtained before resuming normal working. Before resuming normal working, Station Masters at both ends must ensure that the block section is clear under exchange of Private Numbers, and make entries in the TSR and station diary in red ink." },
+                                { title: "When it is required to push the train, follow guidelines given in SR 4.12." },
+                              ].map((item, idx) => (
+                                <li key={idx} className="flex items-start gap-4 group/item relative">
+                                  <span className="shrink-0 flex items-center justify-center rounded-full border-2 border-cyan-400/40 bg-linear-to-br from-cyan-800/60 to-blue-800/60 text-xl lg:text-2xl font-bold text-cyan-100 shadow-md shadow-cyan-800/10 w-7 h-7 lg:w-9 lg:h-9 mt-1 group-hover/item:scale-105 group-hover/item:border-cyan-300/80 transition-all duration-300">
+                                    {idx + 1}
+                                  </span>
+                                  <div className="flex-1 space-y-2">
+                                    <div className="text-base lg:text-lg leading-relaxed text-blue-100/90">
+                                      {item.title}
+                                    </div>
+                                    {item.subitems && (
+                                      <ul className="custom-sub-list mt-3 space-y-2">
+                                        {item.subitems.map((sub, subidx) => (
+                                          <li key={subidx} className="flex items-start gap-3">
+                                            <span className="shrink-0 mt-0.5 rounded-md border border-indigo-400/40 bg-linear-to-br from-indigo-500/10 to-cyan-500/10 text-xs font-semibold text-indigo-100 text-center lg:text-sm h-6 w-6 lg:h-7 lg:w-7 flex items-center justify-center shadow-md shadow-indigo-900/20 group-hover/item:scale-105 group-hover/item:border-cyan-300/60 transition-all duration-300">
+                                              {String.fromCharCode(97 + subidx)}
+                                            </span>
+                                            <span className="flex-1 text-blue-100/90 text-base lg:text-lg leading-relaxed">{sub}</span>
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    )}
+                                  </div>
+                                </li>
+                              ))}
                             </ol>
                             <div className="mt-4 p-4 rounded-xl bg-yellow-600/10 border border-yellow-600/30">
                               <p className="font-semibold text-yellow-200 mb-2">Note:</p>
@@ -1724,6 +2257,16 @@ const GSRChapterPage151B = () => {
         }
         .animate-fade-in {
           animation: fade-in 1s ease-out forwards;
+        }
+        .counter-list {
+          counter-reset: custom-counter;
+        }
+        .counter-list > li {
+          position: relative;
+          padding-left: 0;
+        }
+        .custom-sub-list {
+          margin-left: 0.5rem;
         }
       `}</style>
     </div>
