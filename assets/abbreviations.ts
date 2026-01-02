@@ -494,6 +494,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CASM", fullForm: "Cabin Assistant Station Master",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CAT", fullForm: "Central Administrative Tribunal",
         explanation: "Will be added later",
         reference: "--"

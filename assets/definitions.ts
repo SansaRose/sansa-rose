@@ -769,5 +769,17 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       definition: "Consignments, which when loaded upon a wagon, would infringe the maximum standard moving dimension, at any point, on the entire route, from the booking station to the destination, including via break of gauge is called an Over Dimensional Consignment (ODC).",
       reference: "--"
     },
+    {
+      number: 127,
+      term: "Fly Shunting",
+      definition: "Fly Shunting is a shunting movement where vehicles are seperated by reversing the points quickly.",
+      reference: "--"
+    },
+    {
+      number: 128,
+      term: "Loose Shunting",
+      definition: "Loose Shunting is a shunting movement where vehicles being pushed by an engine and running forward unattached.",
+      reference: "--"
+    },
     
   ];

@@ -182,6 +182,8 @@ const Timings = () => {
 
     { question: 'The knowledge of staff that are required to use detonators shall be tested once in_______', answer: '3 months', timing: '3 months' },
 
+    { question: 'How often should a Kavach-fitted loco be used for conducting a Signal Sighting Committee inspection IR-ATP (Kavach) territory?', answer: 'once in a 3 months', timing: '3 months' },
+
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },

@@ -213,6 +213,9 @@ export const ruleToPageMapping: { [key: string]: string } = {
   '6.10': '178',
   '6.11': '181',
   
+  // Chapter VII - Systems of Working
+  '7.01': '182A',
+  
   // Add more mappings as needed...
   // This is a partial mapping - you'll need to complete it based on your actual data
 }

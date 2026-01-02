@@ -76,6 +76,11 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'How many copies of the Station Working Rules (SWR) must be sent to the Chief Operations Manager (COM)?',
+      answer: '2',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
@@ -112,6 +117,11 @@ const Numbers = () => {
     },
     {
       question: 'Station Detonator Register contains ______ parts',
+      answer: '4',
+      category: '4'
+    },
+    {
+      question: 'Signals are classified into how many types',
       answer: '4',
       category: '4'
     },

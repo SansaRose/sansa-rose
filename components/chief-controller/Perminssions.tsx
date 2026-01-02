@@ -13,7 +13,7 @@ const Perminssions = () => {
     {
       description: 'General Rules can be framed by',
       authority: 'Government of India',
-      category: 'Government'
+      category: 'Governmen of India'
     },
     {
       description: 'All India Trains at a glance is prepared by ______',
@@ -204,6 +204,21 @@ const Perminssions = () => {
       description: 'The level of enquiry to be conducted in case of other consequential accidents to be done by ______',
       authority: 'Dy.CSO',
       category: 'CSO'
+    },
+    {
+      description: 'Color light Distant signal may be permitted to be combined with the last Stop signal of a station in rear with an Intermediate Block signal by the Sanctioning Authority is _______',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Double Distant signalling along with corresponding changes at adjacent stations without yard remodelling shall be brought into use if they have been passed by the Sanctioning Authority of ________ of the concerned Railway.',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Intermediate Block signalling and Automatic Block signalling except in section with Slip siding and Catch siding, along with corresponding changes at adjacent stations without yard remodelling shall brought into use if they have been passed by the Sanctioning Authority of ________ of the concerned Railway.',
+      authority: 'GM',
+      category: 'GM'
     },
     {
       description: 'Accident Inquiry Reports with staff of foreign railway responsibility should be put to __________directly being the Accepting Authority in such cases.',

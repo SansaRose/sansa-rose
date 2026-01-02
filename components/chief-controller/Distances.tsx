@@ -157,6 +157,10 @@ const Distances = () => {
 
     { question: 'The gradient that is considered as steep gradient for the purpose shunting of roller bearing wagons', answer: '1 in 400', distance: 'Gradients' },
 
+    { question: 'Hand shunting of roller bearing fitted vehicles strictly prohibited at a station yard where the outermost points are on a grade steeper than ________ or within 100 meters of such a gradient.', answer: '1 in 400', distance: 'Gradients' },
+
+    { question: 'On a line isolated from other lines, particularly running lines, a stabled load/train should ideally be placed at a station with a gradient steeper than ________', answer: '1 in 400', distance: 'Gradients' },
+
     { question: 'The number of hand brakes of vehicles (Brake Van + 18 vehicles on train) that must be applied whenever the engine is to be detached out side station limits when the gradient is not steeper than ________', answer: '1 in 600', distance: 'Gradients' },
 
     { question: 'The number of hand brakes of vehicles (Brake Van + All vehicles on train) that must be applied whenever the engine is to be detached out side station limits when the gradient is steeper than ________', answer: '1 in 600', distance: 'Gradients' },

@@ -79,12 +79,15 @@ const SpeedRestrictions = () => {
     
     { question: 'During T I C on double line, the Loco Pilot to proceed with a restricted speed of', answer: '25/10 kmph', speed: '25/10 kmph' },
     { question: 'If enquiry is made for more than one train and reply is also received, after a clear interval of 30 minutes the second train can be allowed to go with a restricted speed of', answer: '25/10 KMPH', speed: '25/10 kmph' },
+    
     { question: 'In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ___________except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
 
     { question: 'In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ______ kmph except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
     
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing two yellow lights shall be restricted to', answer: '30 kmph', speed: '30 kmph' },
+
     { question: 'Unless permitted under approved special instructions the maximum speed permitted on turn out/cross over is', answer: '30 kmph', speed: '30 kmph' },
+
     { question: 'The speed of trains over Non-Interlocked points, turnouts and crossover shall not exceed', answer: '30 kmph', speed: '30 kmph' },
 
     { question: 'Maximum speed of motor trolley during night is', answer: '30 kmph', speed: '30 kmph' },

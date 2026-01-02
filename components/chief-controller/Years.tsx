@@ -11,6 +11,11 @@ interface YearItem {
 const Years = () => {
     const years: YearItem[] = [
       {
+        question: 'The General Rules issued under the notification of the Government of India in the late Railway Department (Railway Board) No. 1078-T, dated the ______ are hereby repealed except as respects things done or action taken or omitted to be done or taken before such repeal.',
+        answer: '9th March 1929',
+        category: '1929'
+      },
+      {
         question: 'The General Rules framed in 1929, the revision for which was advocated by Railway accident committee in the year',
         answer: '1962',
         category: '1962'
