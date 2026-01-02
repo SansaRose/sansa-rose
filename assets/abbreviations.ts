@@ -1271,6 +1271,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "FATO", fullForm: "Factors Affecting Train Operations",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "FEMA", fullForm: "Failure Mode & Effects Analysis",
         explanation: "Will be added later",
         reference: "--"

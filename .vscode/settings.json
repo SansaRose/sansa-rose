@@ -1,6 +1,6 @@
 {
   "tailwindCSS.experimental.classRegex": [
-    ["className\\s*[:=]\\s*['\"`]([^'\"`]*)['\"`]", "([^\\s'\"`]+)"]
+    ["class[Nn]ame[s]?\\s*[:=]\\s*['\"`]([^'\"`]*)['\"`]", "([^'\"`]*)"]
   ],
   "tailwindCSS.lint.cssConflict": "ignore",
   "tailwindCSS.lint.invalidApply": "ignore",
@@ -8,27 +8,5 @@
   "tailwindCSS.lint.invalidScreen": "ignore",
   "tailwindCSS.lint.invalidTailwindDirective": "ignore",
   "tailwindCSS.lint.invalidVariant": "ignore",
-  "tailwindCSS.lint.recommendedVariantOrder": "ignore",
-  "tailwindCSS.suggestions": true,
-  "css.lint.unknownAtRules": "ignore",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "tailwindCSS.classAttributes": [
-    "class",
-    "className",
-    "ngClass"
-  ],
-  "editor.quickSuggestions": {
-    "strings": "off"
-  },
-  "tailwindCSS.validate": true,
-  "tailwindCSS.experimental.configFile": null,
-  "css.validate": false
+  "tailwindCSS.lint.recommendedVariantOrder": "ignore"
 }

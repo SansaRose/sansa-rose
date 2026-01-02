@@ -23,6 +23,8 @@ const Distances = () => {
     { question: 'While performing shunting on passenger carrying trains, the shunting engine or train engine, before coming on to the formation should be stopped before the formation at a distance of', answer: '20 M', distance: '20M' },
     
     { question: 'From the obstruction (work spot), Engineering Stop indicator is located at', answer: '30M', distance: '30M' },
+
+    { question: 'Termination Indicator is a square board of side 610 mm with black letter "T" on white background and located at 30 metres beyond danger zone', answer: '30M', distance: '30M' },
     
     { question: 'While receiving a train on an obstructed line, STOP hand signal shall be exhibited from the point of obstruction at a distance of not less than', answer: '45M', distance: '45M' },
 

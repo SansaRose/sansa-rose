@@ -134,6 +134,10 @@ const Timings = () => {
     { question: 'A person will be considered to have incurred simple injuries, if these injuries incapacitate the injured person from pursuing his customary vocation for ___after the occurrence of the accident.', answer: '48 hours', timing: '48 hours' },
 
     { question: 'A railway employee is considered to have been injured if he/she is prevented from returning to work as a result of injuries for a period of ____ after the occurrence of the accident.', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - With effect from the date of his detention, if he is detained in custody, whether on a criminal charge or otherwise, for a period exceeding ______ hours', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - with effect from the date of his conviction, if in the event of a conviction for an offence, he is sentenced to a term of imprisonment exceeding ______ hours and is not forthwith dismissed or removed or compulsorily retired consequent to such conviction.', answer: '48 hours', timing: '48 hours' },
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
 
@@ -166,6 +170,8 @@ const Timings = () => {
 
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to CRS/Rly Board to be done within is _____', answer: 'D + 20 days', timing: '20 days' },
 
+    { question: 'Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of ______ days after the accident.', answer: '20 days', timing: '20 days' },
+
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
     { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days' },
@@ -185,6 +191,8 @@ const Timings = () => {
     { question: 'How often should a Kavach-fitted loco be used for conducting a Signal Sighting Committee inspection IR-ATP (Kavach) territory?', answer: 'once in a 3 months', timing: '3 months' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
+
+    { question: 'The review of an order of suspension shall be done by the authority which is competent to modify or revoke the suspension, on the recommendation of the review committee constituted for the purpose, and such competent authority shall pass orders either extending or revoking the suspension before expiry of ninety days from the date of order of suspension.', answer: '90 days', timing: '90 days' },
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
@@ -197,6 +205,8 @@ const Timings = () => {
     { question: 'Crew requirement is reviewed once in _______ months by the division based on the crew required for working coaching links and average working hours of goods crew.', answer: '6 months', timing: '6 months' },
     
     { question: 'Medical Relief Van and Auxiliary Van shall be inspected at least once in _______ months jointly by Divisional Officers of Medical, Safety, Civil Engineering, Mechanical, Electrical and S&T.', answer: '6 months', timing: '6 months' },
+
+    { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
 
