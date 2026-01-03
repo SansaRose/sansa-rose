@@ -108,16 +108,35 @@ const DutyPass = () => {
                   {/* CRB & Board Members */}
                   <div className="bg-linear-to-br from-yellow-500/20 to-amber-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-yellow-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start lg:text-left">
-                      
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-yellow-500 to-amber-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-yellow-400/50 shrink-0">
+                          a
+                        </span>
+                      </div>
                       <div className="flex-1 text-center lg:text-left">
-                        <h4 className="lg:text-lg text-base font-bold text-white mb-2">
-                          (a) (i) CRB & Board Members including FC
-                        </h4>
-                        <div className="text-gray-200 lg:text-base text-sm mb-2">
-                          (ii) DGs & GMs granted Apex Scale
+                        <div className="flex items-start gap-2 mb-2">
+                          <span className="bg-linear-to-br from-yellow-400/30 to-amber-500/30 text-yellow-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
+                            i
+                          </span>
+                          <h4 className="lg:text-lg text-base font-bold text-white">
+                            CRB & Board Members including FC
+                          </h4>
                         </div>
-                        <div className="text-gray-200 lg:text-base text-sm mb-3">
-                          (iii) Chief Commissioner for Railway Safety
+                        <div className="flex items-start gap-2 mb-2">
+                          <span className="bg-linear-to-br from-yellow-400/30 to-amber-500/30 text-yellow-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
+                            ii
+                          </span>
+                          <div className="text-gray-200 lg:text-base text-sm">
+                            DGs & GMs granted Apex Scale
+                          </div>
+                        </div>
+                        <div className="flex items-start gap-2 mb-3">
+                          <span className="bg-linear-to-br from-yellow-400/30 to-amber-500/30 text-yellow-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
+                            iii
+                          </span>
+                          <div className="text-gray-200 lg:text-base text-sm">
+                            Chief Commissioner for Railway Safety
+                          </div>
                         </div>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 17
@@ -134,14 +153,14 @@ const DutyPass = () => {
                   {/* GMs & Equivalent Officers */}
                   <div className="bg-linear-to-br from-gray-500/20 to-slate-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-gray-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start lg:text-left">
-                      <div className="bg-linear-to-r from-gray-500 to-slate-600 p-3 rounded-full lg:mr-4 mb-4 lg:mb-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-gray-500 to-slate-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-gray-400/50 shrink-0">
+                          b
+                        </span>
                       </div>
                       <div className="flex-1 text-center lg:text-left">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          (b) GMs & other equivalent Officers
+                          GMs & other equivalent Officers
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 16
@@ -158,14 +177,14 @@ const DutyPass = () => {
                   {/* HAG Officers */}
                   <div className="bg-linear-to-br from-gray-500/20 to-slate-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-gray-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start lg:text-left">
-                      <div className="bg-linear-to-r from-gray-500 to-slate-600 p-3 rounded-full lg:mr-4 mb-4 lg:mb-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                        </svg>
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-gray-500 to-slate-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-gray-400/50 shrink-0">
+                          c
+                        </span>
                       </div>
                       <div className="flex-1 text-center lg:text-left">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          (c) HAG Officers (Including NF-HAG)
+                          HAG Officers (Including NF-HAG)
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 15
@@ -182,9 +201,14 @@ const DutyPass = () => {
                   {/* SAG Officers */}
                   <div className="bg-linear-to-br from-yellow-600/20 to-amber-600/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-yellow-600/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start lg:text-left">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-yellow-600 to-amber-700 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-yellow-500/50 shrink-0">
+                          d
+                        </span>
+                      </div>
                       <div className="flex-1">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          (d) SAG Officers (Including NF-SAG)
+                          SAG Officers (Including NF-SAG)
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 14
@@ -201,9 +225,14 @@ const DutyPass = () => {
                   {/* Selection Grade Officers */}
                   <div className="bg-linear-to-br from-yellow-600/20 to-amber-600/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-yellow-600/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-yellow-600 to-amber-700 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-yellow-500/50 shrink-0">
+                          e
+                        </span>
+                      </div>
                       <div className="flex-1">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          (e) Selection Grade Officers
+                          Selection Grade Officers
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 13
@@ -220,9 +249,14 @@ const DutyPass = () => {
                   {/* JAG Officers */}
                   <div className="bg-linear-to-br from-yellow-600/20 to-amber-600/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-yellow-600/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-yellow-600 to-amber-700 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-yellow-500/50 shrink-0">
+                          f
+                        </span>
+                      </div>
                       <div className="flex-1">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          (f) JAG Officers
+                          JAG Officers
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 12
@@ -239,9 +273,14 @@ const DutyPass = () => {
                   {/* Other Group A & B Officers */}
                   <div className="bg-linear-to-br from-yellow-600/20 to-amber-600/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-yellow-600/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-yellow-600 to-amber-700 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-yellow-500/50 shrink-0">
+                          g
+                        </span>
+                      </div>
                       <div className="flex-1">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          (g) Other Group &apos;A&apos; & &apos;B&apos; Gazetted Officers
+                          Other Group &apos;A&apos; & &apos;B&apos; Gazetted Officers
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 11, 10, 9, 8
@@ -271,9 +310,14 @@ const DutyPass = () => {
                   {/* Level 6 & above */}
                   <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-green-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-green-500 to-emerald-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-green-400/50 shrink-0">
+                          6+
+                        </span>
+                      </div>
                       <div className="flex-1">
                         <h4 className="lg:text-lg text-base font-bold text-white mb-3">
-                          6 & above
+                          Level 6 & above
                         </h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 6 & above
@@ -290,8 +334,13 @@ const DutyPass = () => {
                   {/* Level 5 */}
                   <div className="bg-linear-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-green-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-green-500 to-emerald-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-green-400/50 shrink-0">
+                          5
+                        </span>
+                      </div>
                       <div className="flex-1">
-                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">5</h4>
+                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">Level 5</h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 5
                         </div>
@@ -307,8 +356,13 @@ const DutyPass = () => {
                   {/* Level 4 */}
                   <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-blue-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-blue-500 to-cyan-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-blue-400/50 shrink-0">
+                          4
+                        </span>
+                      </div>
                       <div className="flex-1">
-                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">4</h4>
+                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">Level 4</h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 4
                         </div>
@@ -324,8 +378,13 @@ const DutyPass = () => {
                   {/* Level 3 */}
                   <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-blue-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-blue-500 to-cyan-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-blue-400/50 shrink-0">
+                          3
+                        </span>
+                      </div>
                       <div className="flex-1">
-                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">3</h4>
+                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">Level 3</h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 3
                         </div>
@@ -341,8 +400,13 @@ const DutyPass = () => {
                   {/* Level 2 */}
                   <div className="bg-linear-to-br from-indigo-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-indigo-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-indigo-500 to-purple-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-indigo-400/50 shrink-0">
+                          2
+                        </span>
+                      </div>
                       <div className="flex-1">
-                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">2</h4>
+                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">Level 2</h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 2
                         </div>
@@ -358,8 +422,13 @@ const DutyPass = () => {
                   {/* Level 1 */}
                   <div className="bg-linear-to-br from-indigo-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-indigo-400/30 hover:shadow-xl transition-all duration-300 group">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+                      <div className="flex items-start gap-3 mb-4 lg:mb-0 lg:mr-4">
+                        <span className="bg-linear-to-br from-indigo-500 to-purple-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-indigo-400/50 shrink-0">
+                          1
+                        </span>
+                      </div>
                       <div className="flex-1">
-                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">1</h4>
+                        <h4 className="lg:text-lg text-base font-bold text-white mb-3">Level 1</h4>
                         <div className="text-orange-300 font-medium lg:text-base text-sm">
                           PLPM: 1
                         </div>

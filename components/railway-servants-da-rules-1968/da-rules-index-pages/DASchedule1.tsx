@@ -8,28 +8,28 @@ import {
 
 const DASchedule1 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Scale className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               DISCIPLINARY & APPEAL RULES
             </h1>
             <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">SCHEDULE – I</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="text-gray-300 italic mb-8">
               [ See rule 4 and sub-rule (2) of rule 7 ]
             </p>
@@ -41,14 +41,14 @@ const DASchedule1 = () => {
             {/* Main Title */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
+                <span className="bg-linear-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
                   <Table className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
                 </span>
                 Schedule Table
               </h2>
 
               {/* Table Content */}
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                 <div className="text-gray-200 lg:text-base text-sm leading-relaxed space-y-4">
                   <div className="grid grid-cols-5 gap-4 font-semibold text-cyan-200 border-b border-cyan-400/30 pb-3">
                     <div>1</div>
@@ -169,11 +169,11 @@ const DASchedule1 = () => {
                   <table className="min-w-full">
                     <thead>
                       <tr>
-                        <th className="py-4 px-2 text-center bg-gradient-to-r from-blue-700 to-purple-700 text-white font-semibold rounded-tl-xl">S. No.</th>
-                        <th className="py-4 px-2 text-center bg-gradient-to-r from-blue-700 to-purple-700 text-white font-semibold">Appointing/Disciplinary Authority</th>
-                        <th className="py-4 px-2 text-center bg-gradient-to-r from-blue-700 to-purple-700 text-white font-semibold">Category of Employees</th>
-                        <th className="py-4 px-2 text-center bg-gradient-to-r from-blue-700 to-purple-700 text-white font-semibold">Nature of Penalties & Suspension</th>
-                        <th className="py-4 px-2 text-center bg-gradient-to-r from-blue-700 to-purple-700 text-white font-semibold rounded-tr-xl">Appellate Authority</th>
+                        <th className="py-4 px-2 text-center bg-linear-to-r from-blue-700 to-purple-700 text-white font-semibold rounded-tl-xl">S. No.</th>
+                        <th className="py-4 px-2 text-center bg-linear-to-r from-blue-700 to-purple-700 text-white font-semibold">Appointing/Disciplinary Authority</th>
+                        <th className="py-4 px-2 text-center bg-linear-to-r from-blue-700 to-purple-700 text-white font-semibold">Category of Employees</th>
+                        <th className="py-4 px-2 text-center bg-linear-to-r from-blue-700 to-purple-700 text-white font-semibold">Nature of Penalties & Suspension</th>
+                        <th className="py-4 px-2 text-center bg-linear-to-r from-blue-700 to-purple-700 text-white font-semibold rounded-tr-xl">Appellate Authority</th>
                       </tr>
                     </thead>
                     <tbody className="text-gray-200 lg:text-lg text-base font-normal">
@@ -267,9 +267,9 @@ const DASchedule1 = () => {
                   Railway Staff College, Vadodara
                 </h2>
                 <div className="overflow-x-auto">
-                  <table className="min-w-full bg-gradient-to-tr from-purple-900/60 to-blue-900/60 rounded-xl shadow-xl border border-white/10">
+                  <table className="min-w-full bg-linear-to-tr from-purple-900/60 to-blue-900/60 rounded-xl shadow-xl border border-white/10">
                     <thead>
-                      <tr className="text-gray-100 text-base font-semibold bg-gradient-to-r from-blue-500/30 to-purple-500/30">
+                      <tr className="text-gray-100 text-base font-semibold bg-linear-to-r from-blue-500/30 to-purple-500/30">
                         <th className="py-3 px-4 border-b border-white/10">S. No.</th>
                         <th className="py-3 px-4 border-b border-white/10">Authority</th>
                         <th className="py-3 px-4 border-b border-white/10">Categories of Railway Servants</th>
@@ -359,10 +359,10 @@ const DASchedule1 = () => {
                     Indian Railways’ Institute of Signal Engineering and Telecommunication, Secunderabad
                   </li>
                 </ul>
-                <div className="overflow-x-auto rounded-xl border border-white/20 shadow-lg bg-gradient-to-br from-white/10 to-blue-100/5 backdrop-blur-md animate-fade-in">
+                <div className="overflow-x-auto rounded-xl border border-white/20 shadow-lg bg-linear-to-br from-white/10 to-blue-100/5 backdrop-blur-md animate-fade-in">
                   <table className="min-w-full text-sm lg:text-base text-white">
                     <thead>
-                      <tr className="bg-gradient-to-r from-blue-600/80 to-cyan-600/80 text-white">
+                      <tr className="bg-linear-to-r from-blue-600/80 to-cyan-600/80 text-white">
                         <th className="py-3 px-2 font-bold text-center border-b border-white/15">S.No.</th>
                         <th className="py-3 px-2 font-bold text-center border-b border-white/15">Disciplinary Authority</th>
                         <th className="py-3 px-2 font-bold text-center border-b border-white/15">Category of Employee</th>
@@ -608,7 +608,7 @@ const DASchedule1 = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="bg-gradient-to-br from-pink-500/10 to-cyan-500/10 p-6 rounded-xl mb-4 shadow-lg border border-pink-400/20">
+              <div className="bg-linear-to-br from-pink-500/10 to-cyan-500/10 p-6 rounded-xl mb-4 shadow-lg border border-pink-400/20">
                 <h3 className="text-cyan-200 font-bold text-lg mb-3 flex items-center gap-2">
                   <svg className="w-6 h-6 text-cyan-200" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path d="M15 13l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round"/>

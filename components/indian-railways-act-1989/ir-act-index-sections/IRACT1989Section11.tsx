@@ -2,7 +2,6 @@
 import React from 'react'
 import { 
   Scale,
-  Construction,
   FileText
 } from 'lucide-react'
 
@@ -14,7 +13,7 @@ const IRACT1989Section11 = () => {
     },
     {
       label: "(b)",
-      content: "alter the course of nay river, brooks, streams or other water courses, for the purpose of constructing and maintenance tunnels, bridges, passages, or other works over or under them and divert or alter either temporarily or permanently, the course of any river, brooks, streams, or other water courses or any roads, streets or ways, or raise or sink the level thereof, in order to carry them more conveniently over or under or by the side of the railway;"
+      content: "alter the course of any river, brooks, streams or other water courses, for the purpose of constructing and maintenance tunnels, bridges, passages, or other works over or under them and divert or alter either temporarily or permanently, the course of any river, brooks, streams, or other water courses or any roads, streets or ways, or raise or sink the level thereof, in order to carry them more conveniently over or under or by the side of the railway;"
     },
     {
       label: "(c)",
@@ -43,28 +42,30 @@ const IRACT1989Section11 = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Scale className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               INDIAN RAILWAYS ACT 1989
             </h1>
-            <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">CHAPTER IV - CONSTRUCTION AND MAINTENANCE OF WORKS</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4 flex items-center justify-center gap-4">
+              <span>CHAPTER IV - CONSTRUCTION AND MAINTENANCE OF WORKS</span>
+            </h2>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
           </div>
 
           {/* Content Sections */}
@@ -73,28 +74,31 @@ const IRACT1989Section11 = () => {
             {/* Power of railway administration Section */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-violet-500 to-purple-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
-                  <Construction className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
-                </span>
-                11. Power of railway administration to execute all necessary works
+                <div className="flex items-center justify-center flex-col gap-3">
+                  <span className="bg-linear-to-br from-violet-500 to-purple-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-violet-400/50 shrink-0">
+                    11
+                  </span>
+                  <span className="text-center">Power of railway administration to execute all necessary works</span>
+                </div>
               </h2>
-              <div className="bg-gradient-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-violet-400/30">
-                <p className="text-gray-200 lg:text-lg text-base font-semibold mb-4 text-center leading-relaxed">
-                  Notwithstanding anything contained in any other law for the time being in force, but subject to the provisions of this Act and the provisions of nay law for the acquisition of land for a public purpose or for the companies, and subject also, in the case of a non-government railway, to the provisions of any contract between the Non-Government railway and the Central Government, a railway administration may, for the purpose of constructing or maintaining a railway -
+              <div className="bg-linear-to-br from-violet-500/20 to-purple-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-violet-400/30">
+                <p className="text-gray-200 lg:text-lg text-base font-semibold mb-6 text-center leading-relaxed">
+                  Notwithstanding anything contained in any other law for the time being in force, but subject to the provisions of this Act and the provisions of any law for the acquisition of land for a public purpose or for the companies, and subject also, in the case of a non-government railway, to the provisions of any contract between the Non-Government railway and the Central Government, a railway administration may, for the purpose of constructing or maintaining a railway -
                 </p>
                 <div className="space-y-4">
-                  {powers.map((power, index) => (
-                    <div key={index} className="bg-white/5 backdrop-blur-sm rounded-lg p-4 hover:bg-white/10 transition-all duration-300 border border-white/10">
-                      <div className="flex items-start gap-3">
-                        <span className="bg-gradient-to-r from-violet-500 to-purple-500 px-3 py-1 rounded-md text-white font-semibold text-sm flex-shrink-0 mt-1">
-                          {power.label}
+                  {powers.map((power, index) => {
+                    const label = power.label.replace(/[()]/g, '').toLowerCase();
+                    return (
+                      <div key={index} className="flex items-center justify-center flex-col gap-4 group hover:bg-white/5 p-3 rounded-lg transition-all duration-300">
+                        <span className="bg-linear-to-br from-violet-500 to-purple-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-violet-400/50 shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
+                          {label}
                         </span>
-                        <div className="flex-1">
-                          <span className="text-gray-200 lg:text-base text-sm leading-relaxed">{power.content}</span>
-                        </div>
+                        <span className="text-gray-200 lg:text-lg text-base leading-relaxed pt-1">
+                          {power.content}
+                        </span>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>

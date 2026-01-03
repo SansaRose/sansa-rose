@@ -31,6 +31,11 @@ const Numbers = () => {
       category: '1'
     },
     {
+      question: 'When a Railway servant has availed all passes due to him in a current calendar year, ______ number of set of passes/PTO may be issued for journeys commencing in the next year',
+      answer: '1',
+      category: '1'
+    },
+    {
       question: 'Maximum number of coaches in addition to the officers inspection coach attached in rear of SLR of Passenger or Mail & Express trains is ______',
       answer: '2',
       category: '2'
@@ -81,6 +86,26 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'Maximum number of dependents allowed on a Privilege pass is ______',
+      answer: '2',
+      category: '2'
+    },
+    {
+      question: "Children's Education Allowance is permissible for how many number of surviving children",
+      answer: '2',
+      category: '2'
+    },
+    {
+      question: 'The successive Leave encashment cannot be made before a minimum period of ______ (block period)',
+      answer: '2',
+      category: '2'
+    },
+    {
+      question: 'How many sets of PTOs is/are a license Holder coolie is entitled in a calendar year?',
+      answer: '2 (IInd/Sleeper)',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
@@ -106,6 +131,11 @@ const Numbers = () => {
       category: '3'
     },
     {
+      question: 'How many sets of School Pass issued to Railway employee?',
+      answer: '3 sets or 6 half sets per year',
+      category: '3'
+    },
+    {
       question: 'Continuous night duty for running staff should be limited to ______ nights',
       answer: '4',
       category: '4'
@@ -126,6 +156,11 @@ const Numbers = () => {
       category: '4'
     },
     {
+      question: 'As per Hours of Employment Rules, employees are classified into how many categories',
+      answer: '4',
+      category: '4'
+    },
+    {
       question: 'Maximum No. of officials/staff including engine crew at any time on the engine except in emergencies',
       answer: '5',
       category: '5'
@@ -137,6 +172,11 @@ const Numbers = () => {
     },
     {
       question: 'Accidents are classified into how many categories',
+      answer: '5',
+      category: '5'
+    },
+    {
+      question: 'Maximum number of persons allowed on a Privilege pass/PTO when dependents are included is ______',
       answer: '5',
       category: '5'
     },
@@ -204,6 +244,11 @@ const Numbers = () => {
         question: 'An indent for a standard rake of BOXN should be for ______ wagons',
         answer: '59',
         category: '59'
+      },
+      {
+        question: 'How many days of Leave on Half Average Pay (LHAP) can be accumulated to an employee in his service life?',
+        answer: 'Unlimited',
+        category: 'Unlimited'
       }
   ]
 

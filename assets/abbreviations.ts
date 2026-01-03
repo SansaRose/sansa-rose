@@ -821,6 +821,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CTG", fullForm: "Composite Transfer Grant",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CTI", fullForm: "Centralised Training Institutes",
         explanation: "Will be added later",
         reference: "--"

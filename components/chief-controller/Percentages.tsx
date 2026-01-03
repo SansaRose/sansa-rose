@@ -50,6 +50,26 @@ const Percentages = () => {
       answer: '30%', 
       category: '30%' 
     },
+    {
+      question: 'Absence from Head quarter for less than 6 hours the percentage of Travelling allowance granted is ______',
+      answer: '30%',
+      category: '30%'
+    },
+    {
+      question: 'Maximum Composite transfer grant as per VII Pay Commission is equivalent to ______ pay',
+      answer: '65%',
+      category: '65%'
+    },
+    {
+      question: 'Absence from Head quarter for less than 12 hours but more than 6 hours the percentage of Travelling allowance granted is ______',
+      answer: '70%',
+      category: '70%'
+    },
+    {
+      question: 'The Composite transfer grant (CTG) is admissible at the rate of _______ of last month\'s Basic pay in case of transfer involving a change of station',  
+      answer: '80%',
+      category: '80%'
+    },
     { 
       question: 'The effective brake power in case of Mail/Express enroute should be not less than', 
       answer: '90%', 
@@ -81,7 +101,12 @@ const Percentages = () => {
       answer: '100%', 
       category: '100%' 
     },
-    
+
+    {
+      question: 'Absence from Head quarter when exceeds 12 hours the percentage of Travelling allowance granted is _______%',
+      answer: '100%',
+      category: '100%'
+    },
   ]
 
   // Group percentages by category for better organization

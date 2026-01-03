@@ -464,7 +464,7 @@ const RetirementPass = () => {
                 </ul>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-2 border-l-4 border-blue-500 hover:bg-white/15 transition-all duration-300">
+              <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-lg p-2 hover:bg-white/15 transition-all duration-300">
                 <div className="text-center mb-4">
                   <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -475,22 +475,30 @@ const RetirementPass = () => {
                   <h4 className="font-semibold text-white">Children Above 21 Years</h4>
                 </div>
                 <p className="text-sm text-gray-200 mb-3">Must be:</p>
-                <ul className="space-y-2 text-sm text-gray-200">
+                <ul className="space-y-3 text-sm text-gray-200">
                   <li className="flex items-start group hover:bg-white/5 p-2 rounded transition-all duration-300">
-                    <span className="text-blue-400 mr-2 mt-1">🎓</span>
-                    [a] Bonafide students of any recognized educational institution
+                    <span className="shrink-0 bg-blue-600/80 text-white font-bold rounded-full w-6 h-6 flex items-center justify-center mr-2 shadow-lg border-2 border-blue-400 group-hover:bg-blue-700">a</span>
+                    <span className="flex items-center gap-1">
+                      Bonafide students of any recognized educational institution
+                    </span>
                   </li>
                   <li className="flex items-start group hover:bg-white/5 p-2 rounded transition-all duration-300">
-                    <span className="text-blue-400 mr-2 mt-1">🔬</span>
-                    [b] engaged in any research work
+                    <span className="shrink-0 bg-blue-600/80 text-white font-bold rounded-full w-6 h-6 flex items-center justify-center mr-2 shadow-lg border-2 border-blue-400 group-hover:bg-blue-700">b</span>
+                    <span className="flex items-center gap-1">
+                      engaged in any research work
+                    </span>
                   </li>
                   <li className="flex items-start group hover:bg-white/5 p-2 rounded transition-all duration-300">
-                    <span className="text-blue-400 mr-2 mt-1">📋</span>
-                    [c] working as an articled clerk
+                    <span className="shrink-0 bg-blue-600/80 text-white font-bold rounded-full w-6 h-6 flex items-center justify-center mr-2 shadow-lg border-2 border-blue-400 group-hover:bg-blue-700">c</span>
+                    <span className="flex items-center gap-1">
+                      working as an articled clerk
+                    </span>
                   </li>
                   <li className="flex items-start group hover:bg-white/5 p-2 rounded transition-all duration-300">
-                    <span className="text-blue-400 mr-2 mt-1">🏥</span>
-                    [d] Invalid, on appropriate certificate from Railway Doctor
+                    <span className="shrink-0 bg-blue-600/80 text-white font-bold rounded-full w-6 h-6 flex items-center justify-center mr-2 shadow-lg border-2 border-blue-400 group-hover:bg-blue-700">d</span>
+                    <span className="flex items-center gap-1">
+                      Invalid, on appropriate certificate from Railway Doctor
+                    </span>
                   </li>
                 </ul>
               </div>

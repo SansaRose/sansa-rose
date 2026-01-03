@@ -125,9 +125,15 @@ const Timings = () => {
 
     { question: 'Throughput of a section is given as the volume of traffic carried over a section in ______ hours', answer: '24 hours', timing: '24 hours' },
 
+    { question: 'Rough Assessment method of Job Analysis is conducted for -------- hours?', answer: '24 hours', timing: '24 hours' },
+
+    { question: 'Weekly rest for Essentially Intermittent workers is _____ hrs including a full night in bed', answer: '24 hours', timing: '24 hours' },
+
     { question: 'Temporary Instructions shall be issued for Disconnections / maintenance likely to last for more than', answer: 'one day', timing: '1 day' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, DRM/GM to order enquiry to be done within is _____', answer: 'D + 1 day', timing: '1 day' },
+
+    { question: 'What is the statutory limit of hours of employment of Intensive Category employee in a week?', answer: '45 hours', timing: '45 hours' },
 
     { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
 
@@ -138,6 +144,8 @@ const Timings = () => {
     { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - With effect from the date of his detention, if he is detained in custody, whether on a criminal charge or otherwise, for a period exceeding ______ hours', answer: '48 hours', timing: '48 hours' },
 
     { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - with effect from the date of his conviction, if in the event of a conviction for an offence, he is sentenced to a term of imprisonment exceeding ______ hours and is not forthwith dismissed or removed or compulsorily retired consequent to such conviction.', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'Weekly Hours of duty including P&C of Continuous category of employees is------- Hours', answer: '54 hours', timing: '54 hours' },
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
 
@@ -172,13 +180,27 @@ const Timings = () => {
 
     { question: 'Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of ______ days after the accident.', answer: '20 days', timing: '20 days' },
 
-    { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
+    { question: 'How many days of Leave on Half Average Pay (LHAP) in a calendar year, can be credited to an employee?', answer: '20 days', timing: '20 days' },
 
-    { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days' },
+    { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
 
     { question: 'First Aid boxes available with Station Masters and Guards of passenger carrying trains are to be inspected by DMO ____________', answer: 'Once in a month', timing: '1 month' },
+
+    { question: 'How many days of Leave on Average Pay (LAP) can be granted to a Permanent/Temporary Railway servant for a period of one year?', answer: '30 days', timing: '30 days' },
+
+    { question: 'A balance of atleast ________ days of leave on Average Pay should be available to the credit in leave account after taking into account the period of encashment', answer: '30 days', timing: '30 days' },
+
+    { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days' },
+
+    { question: 'For miscarriage including abortion, what period of Maternity leave may be granted', answer: '45 days', timing: '45 days' },
+
+    { question: 'Appeal shall be entertained unless preferred within ________ days', answer: '45 days', timing: '45 days' },
+
+    { question: 'Maximum encashment of Leave on Average Pay (LAP) is ______ days', answer: '60 days', timing: '60 days' },
+
+    { question: 'The time-limit for submitting of claims for Travelling Allowance is within ___ days succeeding the date of completion of journey', answer: '60 days', timing: '60 days' },
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
 
@@ -193,6 +215,12 @@ const Timings = () => {
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
 
     { question: 'The review of an order of suspension shall be done by the authority which is competent to modify or revoke the suspension, on the recommendation of the review committee constituted for the purpose, and such competent authority shall pass orders either extending or revoking the suspension before expiry of ninety days from the date of order of suspension.', answer: '90 days', timing: '90 days' },
+
+    { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
+
+    { question: 'Maximum days of Leave on Average Pay (LAP) that can be accumulated to an employee in his service life (upto retirement) is ______ days', answer: '300 days', timing: '300 days' },
+
+    { question: 'Maternity leave for a female Railway servant shall be granted for a period of ______ days', answer: '180 days', timing: '180 days' },
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
@@ -206,7 +234,11 @@ const Timings = () => {
     
     { question: 'Medical Relief Van and Auxiliary Van shall be inspected at least once in _______ months jointly by Divisional Officers of Medical, Safety, Civil Engineering, Mechanical, Electrical and S&T.', answer: '6 months', timing: '6 months' },
 
+    { question: 'From the date of confinement, Paternity leave to be availed within.', answer: '6 months', timing: '6 months' },
+
     { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
+
+    { question: 'Maximum period of Leave on Average Pay (LAP) at a time that a Railway servant may be granted is ______ days', answer: '180 days', timing: '180 days' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
 
@@ -229,6 +261,8 @@ const Timings = () => {
     { question: 'Certificate of competency issued to Gateman will be valid for a period of', answer: '5 years', timing: '5 years' },
 
     { question: 'Station Working Rules (SWR) should be issued afresh once in', answer: '5 years', timing: '5 years' },
+
+    { question: 'Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in ______ years of service', answer: '20 years', timing: '20 years' },
 
     { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
     

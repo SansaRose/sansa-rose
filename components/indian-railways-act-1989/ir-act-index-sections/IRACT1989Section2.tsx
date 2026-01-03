@@ -2,7 +2,6 @@
 import React from 'react'
 import { 
   Scale,
-  BookOpen,
   FileText
 } from 'lucide-react'
 
@@ -85,28 +84,33 @@ const IRACT1989Section2 = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-cyan-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-10">
-            <div className="inline-block p-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-full">
+            <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+              <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
                 <Scale className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="lg:text-6xl text-2xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
+            <h1 className="lg:text-6xl text-2xl font-bold bg-linear-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-6 animate-fade-in">
               INDIAN RAILWAYS ACT 1989
             </h1>
-            <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4">2. Definition</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
+            <h2 className="lg:text-4xl text-2xl font-bold text-cyan-300 mb-4 flex items-center justify-center gap-4">
+              <span className="bg-linear-to-br from-blue-500 to-cyan-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-xl text-lg shadow-lg ring-2 ring-blue-400/50 shrink-0">
+                2
+              </span>
+              Definition
+            </h2>
+            <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
             <p className="lg:text-xl text-base text-gray-200 max-w-4xl mx-auto leading-relaxed">
               In this Act, unless the context otherwise requires,-
             </p>
@@ -118,35 +122,60 @@ const IRACT1989Section2 = () => {
             {/* Definitions List */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <h2 className="lg:text-3xl text-xl font-bold text-white mb-8 flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 lg:p-4 p-2 rounded-full mr-4 shadow-lg flex items-center justify-center">
-                  <BookOpen className="lg:w-8 lg:h-8 w-6 h-6 text-white" />
-                </span>
-                Key Definitions
+                <span className="text-center">Key Definitions</span>
               </h2>
-              <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
+              <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
                 <div className="space-y-4">
-                  {definitions.map((item, index) => (
-                    <div key={index} className="bg-white/5 backdrop-blur-sm rounded-lg p-4 hover:bg-white/10 transition-all duration-300 border border-white/10">
-                      <div className="flex items-start gap-3">
-                        <span className="bg-gradient-to-r from-blue-500 to-cyan-500 px-3 py-1 rounded-md text-white font-semibold text-sm flex-shrink-0 mt-1">
-                          {item.num}
-                        </span>
-                        <div className="flex-1">
-                          <span className="text-cyan-200 font-bold lg:text-lg text-base">&quot;{item.term}&quot;</span>
-                          <span className="text-gray-200 lg:text-base text-sm ml-2">{item.definition}</span>
-                          {item.subItems && (
-                            <div className="mt-3 ml-4 space-y-2">
-                              {item.subItems.map((subItem, subIndex) => (
-                                <div key={subIndex} className="text-gray-300 lg:text-base text-sm leading-relaxed">
-                                  {subItem}
-                                </div>
-                              ))}
-                            </div>
-                          )}
+                  {definitions.map((item, index) => {
+                    const numMatch = item.num.match(/\((\d+)(?:-([A-Z]))?\)/);
+                    const num = numMatch ? (numMatch[2] ? `${numMatch[1]}${numMatch[2]}` : numMatch[1]) : item.num.replace(/[()]/g, '');
+                    
+                    return (
+                      <div key={index} className="bg-white/5 backdrop-blur-sm rounded-lg p-4 hover:bg-white/10 transition-all duration-300 border border-white/10 group">
+                        <div className="flex items-start gap-4">
+                          <span className="bg-linear-to-br from-blue-500 to-cyan-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-base text-sm shadow-lg ring-2 ring-blue-400/50 shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
+                            {num}
+                          </span>
+                          <div className="flex-1">
+                            <span className="text-cyan-200 font-bold lg:text-lg text-base">&quot;{item.term}&quot;</span>
+                            <span className="text-gray-200 lg:text-base text-sm ml-2">{item.definition}</span>
+                            {item.subItems && (
+                              <div className="mt-4 space-y-3">
+                                {item.subItems.map((subItem, subIndex) => {
+                                  // Check if subItem starts with (i), (ii), (a), (b), i), ii), etc.
+                                  const subMatch = subItem.match(/^\(([a-z]+)\)|^\(([ivx]+)\)|^([a-z]+)\)|^([ivx]+)\)/i);
+                                  let subLabel = '';
+                                  let subText = subItem;
+                                  
+                                  if (subMatch) {
+                                    subLabel = (subMatch[1] || subMatch[2] || subMatch[3] || subMatch[4] || '').toLowerCase();
+                                    subText = subItem.replace(/^\(?[a-zivx]+\)?\s*/i, '').trim();
+                                  }
+                                  
+                                  // Special handling for "but does not include" text
+                                  const isSpecialText = subItem.toLowerCase().includes('but does not include') || 
+                                                       subItem.toLowerCase().includes('and includes');
+                                  
+                                  return (
+                                    <div key={subIndex} className={`flex items-start gap-3 ${!isSpecialText ? 'group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300' : ''}`}>
+                                      {subLabel && !isSpecialText && (
+                                        <span className="bg-linear-to-br from-blue-400/30 to-cyan-500/30 text-cyan-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                          {subLabel}
+                                        </span>
+                                      )}
+                                      <span className={`text-gray-200 lg:text-base text-sm leading-relaxed ${subLabel ? 'flex-1' : ''} ${isSpecialText ? 'font-semibold text-purple-300 italic' : ''}`}>
+                                        {subText || subItem}
+                                      </span>
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            )}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
