@@ -16,9 +16,49 @@ const Years = () => {
         category: '1929'
       },
       {
+        question: 'When did the Constituent Assembly accepted Hindi as the official language of the Union?',
+        answer: '14.09.1949',
+        category: '1949'
+      },
+      {
+        question: 'In compliance of article 344 when was the official language commission formed in the year?',
+        answer: '07.06.1955',
+        category: '1955'
+      },
+      {
+        question: 'In which year the Hindi translation of Railway Budget was prepared and who was the Railway Minister?',
+        answer: '1956 and Lal Bahadur Shastri',
+        category: '1956'
+      },
+      {
+        question: 'In which year Hindi (Parliament) section was established in Railway Board?',
+        answer: '1960',
+        category: '1960'
+      },
+      {
+        question: "In which year were the President's orders regarding the Official Language issued on 27 April?",
+        answer: '1960',
+        category: '1960'
+      },
+      {
         question: 'The General Rules framed in 1929, the revision for which was advocated by Railway accident committee in the year',
         answer: '1962',
         category: '1962'
+      },
+      {
+        question: 'When was the Official Languages Act 1963 passed?',
+        answer: '10.05.1963',
+        category: '1963'
+      },
+      {
+        question: 'From when did the Section 3(3) of the Official Languages Act take effect?',
+        answer: '26.01.1965',
+        category: '1965'
+      },
+      {
+        question: 'When was official language Act 1963 ammended?',
+        answer: '1967',
+        category: '1967'
       },
       {
         question: 'The general Rules framed in 1929, the revision for which was advocated by Railway accident inquiry committee in the year',
@@ -36,6 +76,11 @@ const Years = () => {
         category: '1968'
       },
       {
+        question: 'During which year the Official Language Resolution was passed?',
+        answer: '1968',
+        category: '1968'
+      },
+      {
         question: 'Revised GR submitted by committee was circulated to RDSO, Commission of Railway Safety, Rly staff college Baroda, IRISET, IRMEE Jamalpur for suggestions vide Rly Board lr no 68-RR/2 Vol V in the month of........',
         answer: 'July 1974',
         category: '1974'
@@ -44,6 +89,16 @@ const Years = () => {
       question: 'General Rules for Indian Railways (open lines) is first administered by Government in the year ______ for the time being used for the public carriage of passenger, animals or Goods',
       answer: '1976',
       category: '1976'
+    },
+    {
+      question: 'When was the Official Language Rules passed?',
+      answer: '1976',
+      category: '1976'
+    },
+    {
+      question: 'When the Official Language Rules were amended first?',
+      answer: '1987',
+      category: '1987'
     },
     {
       question: 'Ministry of Railways (Railway Board) constituted a Committee for the revision of General Rules, 1976, who have submitted the final report in the year.',

@@ -133,6 +133,8 @@ const Timings = () => {
 
     { question: 'Minimum number of days from the date of accident ‘D’, DRM/GM to order enquiry to be done within is _____', answer: 'D + 1 day', timing: '1 day' },
 
+    { question: 'What is the duration for Hindi conversation course?', answer: '30 hours', timing: '30 hours' },
+
     { question: 'What is the statutory limit of hours of employment of Intensive Category employee in a week?', answer: '45 hours', timing: '45 hours' },
 
     { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
@@ -212,6 +214,10 @@ const Timings = () => {
 
     { question: 'How often should a Kavach-fitted loco be used for conducting a Signal Sighting Committee inspection IR-ATP (Kavach) territory?', answer: 'once in a 3 months', timing: '3 months' },
 
+    { question: 'What is the periodicity of the meetings of Official Language Implementation Committee?', answer: 'Once in 3 months', timing: '3 months' },
+
+    { question: 'Review meetings of progress of Official Language at Zonal level is conducted in every', answer: 'Once in 6 months', timing: '3 months' },
+
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
 
     { question: 'The review of an order of suspension shall be done by the authority which is competent to modify or revoke the suspension, on the recommendation of the review committee constituted for the purpose, and such competent authority shall pass orders either extending or revoking the suspension before expiry of ninety days from the date of order of suspension.', answer: '90 days', timing: '90 days' },
@@ -236,6 +242,8 @@ const Timings = () => {
 
     { question: 'From the date of confinement, Paternity leave to be availed within.', answer: '6 months', timing: '6 months' },
 
+    { question: 'What is the periodicity meeting of Town Officials Language Implementation Committee?', answer: 'Once in 6 months', timing: '6 months' },
+
     { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
 
     { question: 'Maximum period of Leave on Average Pay (LAP) at a time that a Railway servant may be granted is ______ days', answer: '180 days', timing: '180 days' },
@@ -246,9 +254,13 @@ const Timings = () => {
 
     { question: 'The claim for compensation shall be made within the following time from the date of accident', answer: '12 months', timing: '12 months' },
 
+    { question: 'On passing Hindi typing examination, for how many months personal pay equal in amount to one increment is given?', answer: '12 months', timing: '12 months' },
+
     { question: 'Wagon census is conducted once in ______', answer: 'a year', timing: '1 year' },
 
     { question: 'POH interval of passenger coaches run on Mail Exp/Passenger trains is ______', answer: '18 months', timing: '18 months' },
+
+    { question: 'On passing Hindi Stenography examination, for how many months personal pay equal in amount to one increment is given?', answer: '24 months', timing: '24 months' },
     
     { question: 'Periodical census of traffic at all level crossings shall be carried out for every', answer: '3 years for 7 days', timing: '3 years' },
 

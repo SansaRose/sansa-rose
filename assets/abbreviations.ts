@@ -2984,6 +2984,10 @@ type AbbreviationItem = {
         explanation: "SMOCIP is a part of Station Kavach. It is a display unit provided to the Station Master. It is placed in SM Office. It is operated by Station Master as and when necessary, like manual SOS generation etc.",
         reference: "--"
       },
+      { acronym: "SNR", fullForm: "Signanl Normal Relay",
+        explanation: "In the Podanur push button block instrument, the indicator which is an aid to the Station Master to verify if all relevant controls, levers/knobs, signals etc., are normal is called SNR.",
+        reference: "--"
+      },
       { acronym: "SOB", fullForm: "Standing Order Book",
         explanation: "Will be added later",
         reference: "--"
@@ -3283,6 +3287,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "TMS", fullForm: "Terminal Management System",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "TOLIC", fullForm: "Town Official Language Implementation Committee",
         explanation: "Will be added later",
         reference: "--"
       },

@@ -16,6 +16,11 @@ const Perminssions = () => {
       category: 'Governmen of India'
     },
     {
+      description: 'Who is empowered to make rules to implement the Official Language Act?',
+      authority: 'Government of India',
+      category: 'Government of India'
+    },
+    {
       description: 'All India Trains at a glance is prepared by ______',
       authority: 'Railway Board',
       category: 'Railway Board'
@@ -136,6 +141,11 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
+      description: 'Who is the Chairman of the Official Language Implementation Committee of the Divisional Railway Office?',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
       description: 'Whenever Officers and Inspectors & Guards shall check speed of trains and if it is found that speed has been exceeded, they should inform LP at next stop and submit a report to ______',
       authority: 'DOM/DME/DEE',
       category: 'DOM'
@@ -222,6 +232,11 @@ const Perminssions = () => {
     },
     {
       description: 'Irregularities for use of Passes may be condoned by ______',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Who is the Chairman of Zonal Railways Official Language Implementation Committee?',
       authority: 'GM',
       category: 'GM'
     },

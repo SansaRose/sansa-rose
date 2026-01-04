@@ -45,6 +45,11 @@ const Percentages = () => {
       answer: '10%', 
       category: '10%' 
     },
+    {
+      question: 'According to the annual programme issued by the Department of Official Language, Ministry of Home Affairs, it is mandatory for officers of the Official Language Department to inspect the minimum percentage of their subordinate offices.',  
+      answer: '20%',
+      category: '20%'
+    },
     { 
       question: '_______ Leave Reserve is usually added to the bare requirement to ensure adequate coverage during leave periods.', 
       answer: '30%', 
@@ -54,6 +59,11 @@ const Percentages = () => {
       question: 'Absence from Head quarter for less than 6 hours the percentage of Travelling allowance granted is ______',
       answer: '30%',
       category: '30%'
+    },
+    {
+      question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the grant of libraries is required to be spent on Hindi books, Hindi e-books',  
+      answer: '50%',
+      category: '50%'
     },
     {
       question: 'Maximum Composite transfer grant as per VII Pay Commission is equivalent to ______ pay',
@@ -67,6 +77,11 @@ const Percentages = () => {
     },
     {
       question: 'The Composite transfer grant (CTG) is admissible at the rate of _______ of last month\'s Basic pay in case of transfer involving a change of station',  
+      answer: '80%',
+      category: '80%'
+    },
+    {
+      question: 'Upon what percentage of acquiring Working Knowledge of Hindi by the employees of Central Government offices, that office is required to be notified in the Gazette of Govt. of India.',  
       answer: '80%',
       category: '80%'
     },
@@ -104,6 +119,21 @@ const Percentages = () => {
 
     {
       question: 'Absence from Head quarter when exceeds 12 hours the percentage of Travelling allowance granted is _______%',
+      answer: '100%',
+      category: '100%'
+    },
+    {
+      question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the training material of training institutes should be in bilingual form',  
+      answer: '100%',
+      category: '100%'
+    },
+    {
+      question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the code, manual, procedure, translation of literature, etc. used in government offices should be bilingual.',  
+      answer: '100%',
+      category: '100%'
+    },
+    {
+      question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the training material of training institutes should be in bilingual form',  
       answer: '100%',
       category: '100%'
     },

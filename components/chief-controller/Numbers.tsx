@@ -106,6 +106,11 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'How many times the regular Hindi exams are conducted in a year?',
+      answer: '2 times (May & November)',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
@@ -133,6 +138,21 @@ const Numbers = () => {
     {
       question: 'How many sets of School Pass issued to Railway employee?',
       answer: '3 sets or 6 half sets per year',
+      category: '3'
+    },
+    {
+      question: 'How many Hindi courses are prescribed for central government employees?',
+      answer: '3 courses',
+      category: '3'
+    },
+    {
+      question: 'With a view of implementation of Official Language, how many regions have been classified in India under Official Language Rules 1976?',
+      answer: '3 regions (A, B & C)',
+      category: '3'
+    },
+    {
+      question: 'How many Sub-Committees are there in the Committee of Parliament on Official Language?',
+      answer: '3 sub-committees',
       category: '3'
     },
     {
@@ -201,6 +221,16 @@ const Numbers = () => {
         category: '7'
       },
       {
+        question: 'How many articles are there in part XVII of the Constitution of India?',
+        answer: '9 articles (Article 343 to Article 351)',
+        category: '9'
+      },
+      {
+        question: 'How many Sections are there in the Official Language Act 1963?',
+        answer: '9 sections',
+        category: '9'
+      },
+      {
         question: 'Under exceptional circumstances short formation trains not carrying passengers, not exceeding how many eight wheeler units may be run without guard and brakevan',
         answer: '10',
         category: '10'
@@ -214,6 +244,26 @@ const Numbers = () => {
         question: 'Maximum number of wagons containing explosives permitted by goods trains is ______',
         answer: '10',
         category: '10'
+      },
+      {
+        question: 'How many Rajya Sabha members will be there in the committee of parliamentary on official language?',
+        answer: '10',
+        category: '10'
+      },
+      {
+        question: 'How many rules are there in the Official Language Rules 1976?',
+        answer: '12',
+        category: '12'
+      },
+      {
+        question: 'According to Section 3(3) of the Official Language Act, 1963 how many documents are mandatory to be issued in the bilingual form?',
+        answer: '13',
+        category: '13'
+      },
+      {
+        question: 'Maximum how many Artists can participate in Hindi drama competitions?',
+        answer: 'Maximum 15 artists',
+        category: '15'
       },
     {
         question: 'Total Number of zones on Indian Railways',
@@ -236,14 +286,34 @@ const Numbers = () => {
         category: '20'
       },
       {
+        question: 'How many members of Lok Sabha are there in the Parliamentary Committee on Official Language constituted under section 4 of the Official Language Act?)',
+        answer: '20',
+        category: '20'
+      },
+      {
         question: 'With regard to marshalling of explosives and other dangerous goods, The rules are laid down in the I. R. C. A. Red Tariff No. for strict compliance in ______',
         answer: '20',
         category: '20'
       },
       {
+        question: 'How many members are there in the committee of parliamentary on official Language?',
+        answer: '30',
+        category: '30'
+      },
+      {
         question: 'An indent for a standard rake of BOXN should be for ______ wagons',
         answer: '59',
         category: '59'
+      },
+      {
+        question: 'Eligibility for Home Ministry’s award scheme in region ‘C’ for Officer/employees for writing minimum of _______ words in Hindi?',
+        answer: '10000',
+        category: '10000'
+      },
+      {
+        question: 'Eligibility for Home Ministry’s award scheme in region ‘A’ & ‘B’ for Officer/employees for writing minimum of _______ words in Hindi?',
+        answer: '20000',
+        category: '20000'
       },
       {
         question: 'How many days of Leave on Half Average Pay (LHAP) can be accumulated to an employee in his service life?',
