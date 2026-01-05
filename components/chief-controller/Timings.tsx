@@ -101,17 +101,23 @@ const Timings = () => {
 
     { question: 'The maximum time slot allotted for Primary maintenance of coaching rake', answer: '6 hours', timing: '6 hours' },
 
+    { question: 'Out station rest for a Running staff performing less than 8 hours duty is ______ hours', answer: '6 hours', timing: '6 hours' },
+
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
     { question: 'Control chart is prepared normally for ______ hours', answer: '8 hours', timing: '8 hours' },
 
+    { question: 'For Loco pilots of all Mail/Express trains, the runnung duty (for the purpose of preparation links only) should not exceed ______ hours.', answer: '8 hours', timing: '8 hours' },
+
+    { question: 'Out station rest for Guard performing more than 10 hours duty is ______ hours', answer: '8 hours', timing: '8 hours' },
+
     { question: 'Running duty at a stretch should not ordinarily exceed _____ hours from the departure of the train.', answer: '9 hours', timing: '9 hours' },
 
-    { question: 'The maximum duty hours in any one trip should not exceed.', answer: '10 hours', timing: '10 hours' },
+    { question: 'The maximum duty hours in any one trip should not exceed ______ hours.', answer: '10 hours', timing: '10 hours' },
 
-    { question: 'Overall duty of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
+    { question: 'Total duty at a stretch of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
 
-    { question: 'Minimum home station rest for duty more than 8 hours is:', answer: '16 hours', timing: '16 hours' },
+    { question: 'Subject to exigencies of service, Headquarters rest of all Running staff will be ______ hours irrespective of the duration of their incoming trip.', answer: '16 hours', timing: '16 hours' },
     
     { question: 'If a BPC Rake (CC, Premium, or End-to-End) is stabled for more than _______ hours at a TXR yard, BPC becomes invalid.', answer: '24 hours', timing: '24 hours' },
 
@@ -135,6 +141,8 @@ const Timings = () => {
 
     { question: 'What is the duration for Hindi conversation course?', answer: '30 hours', timing: '30 hours' },
 
+    { question: 'There will be no change in the existing provisition for Periodical Rest (PR). However, preference should be given to Periodical Rest for 4 periods of 30 hours or 5 periods of 22 hours.', answer: '4 periods of 30 hours or 5 periods of 22 hours', timing: '30 hours' },
+
     { question: 'What is the statutory limit of hours of employment of Intensive Category employee in a week?', answer: '45 hours', timing: '45 hours' },
 
     { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
@@ -151,9 +159,13 @@ const Timings = () => {
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
 
+    { question: 'The limit of stay away from Headquarters for Running staff should be fixed at ______ hours.', answer: '72 hours', timing: '72 hours' },
+
     { question: 'Minimum number of days from the date of accident ‘D’, commencement of enquiry to be done within is ______', answer: 'D + 3 days', timing: '3 days' },
 
     { question: 'When must an Empty End-to-End Rake reach the loading point from the time of BPC issue, otherwise a fresh BPC is required?', answer: 'Within 4 days', timing: '4 days' },
+
+    { question: 'Subject to exigencies of services, a maximum limit of ______ duty hours per fortnight should be laid down for all Running staff.', answer: '125 hours', timing: '125 hours' },
 
     { question: 'The BPC of DEMU 700 HP trains is valid for ______', answer: '7 days', timing: '7 days' },
 

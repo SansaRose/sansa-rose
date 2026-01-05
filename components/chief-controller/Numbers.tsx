@@ -156,7 +156,7 @@ const Numbers = () => {
       category: '3'
     },
     {
-      question: 'Continuous night duty for running staff should be limited to ______ nights',
+      question: 'Continuous night duty for running staff should be limited to ______ nights with fourth night towards headquarters.',
       answer: '4',
       category: '4'
     },
