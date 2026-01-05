@@ -256,6 +256,8 @@ const Timings = () => {
 
     { question: 'What is the periodicity meeting of Town Officials Language Implementation Committee?', answer: 'Once in 6 months', timing: '6 months' },
 
+    { question: 'The periodic joint inspection of tipplers to be carried out by Sr.DME/ DME (C&W) once in ______ months.', answer: '6 months', timing: '6 months' },
+
     { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
 
     { question: 'Maximum period of Leave on Average Pay (LAP) at a time that a Railway servant may be granted is ______ days', answer: '180 days', timing: '180 days' },

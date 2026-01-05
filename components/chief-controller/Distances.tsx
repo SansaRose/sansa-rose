@@ -10,11 +10,18 @@ interface Distance {
 
 const Distances = () => {
   const distances: Distance[] = [
+    { question: 'No consignment with less than ______ millimeter clearance from the overhead contact wire will be permitted in a 25 kV electrified section.', answer: '100 Millimeter', distance: '100 MM' },
+
+    { question: 'The Gap between Contact wire and Over Dimensional Consignment (ODC) shall be not less than (For 25 KV AC Electrified Sections) _______', answer: '250 Millimeter & Above', distance: '250 MM' },
+
     { question: '“Danger Zone” means the zone lying around any live equipment with in a radius of________', answer: '2M', distance: '2M' },
 
     { question: 'The distance between the two tracks on Broad Gauge', answer: '1676M', distance: '1676M' },
 
+
     { question: 'At non interlocked gates, the gateman, before opening the gate for road traffic shall fix a banner flag by day and red light by night at a distance of', answer: '5 Meters from Gate', distance: '5M' },
+
+    { question: 'Centre to centre distance between tracks for examination lines should be minimum ______ meters', answer: '7.5M', distance: '7.5M' },
     
     { question: 'In thick, foggy or tempestuous weather impairing visibility and his engine explodes two detonators within a distance of 10 metres apart, the Loco Pilot will control his train immediately and will follow the aspect of', answer: 'stop signal ahead', distance: '10M' },
     
