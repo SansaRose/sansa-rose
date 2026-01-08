@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { Train, Shield, BookOpen } from 'lucide-react'
+import { Train, Shield, BookOpen, Download, FileText } from 'lucide-react'
 import IndianRailwaysOperatingManualIndex from '@/components/indian-railways-operating-manual/IndianRailwaysOperatingManualIndex'
 
 const IndianRailwaysOperatingManual = () => {
@@ -91,6 +91,54 @@ const IndianRailwaysOperatingManual = () => {
           {/* Manual Sections */}
           <div className="space-y-3">
             <IndianRailwaysOperatingManualIndex/>
+          </div>
+
+          {/* Download Indian Railways Operating Manual PDF Section */}
+          <div className="mt-8 mb-8">
+            <div className="bg-linear-to-br from-blue-600/20 via-indigo-600/20 to-purple-600/20 backdrop-blur-lg rounded-3xl shadow-2xl p-8 lg:p-12 border border-blue-400/30 hover:border-blue-400/50 transition-all duration-300">
+              <div className="text-center mb-8">
+                <div className="inline-block p-4 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
+                  <div className="bg-linear-to-r from-blue-500 to-purple-600 p-4 rounded-full">
+                    <FileText className="w-8 h-8 text-white" />
+                  </div>
+                </div>
+                <h2 className="lg:text-4xl text-2xl font-bold text-white mb-4">
+                  Download Indian Railways Operating Manual PDF
+                </h2>
+                <p className="text-gray-300 lg:text-lg text-base max-w-2xl mx-auto">
+                  Get the complete Operating Manual for Indian Railways in PDF format. 
+                  This comprehensive guide covers all aspects of train operations and railway management.
+                </p>
+              </div>
+
+              <div className="flex justify-center">
+                <a
+                  href="/indian-railways-operating-manual-pdf/Indian Railway Operating Manual.pdf"
+                  download="Indian Railway Operating Manual.pdf"
+                  className="group relative inline-flex items-center justify-center px-8 py-4 lg:px-12 lg:py-5 text-lg lg:text-xl font-bold text-white bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 border-2 border-blue-400/30 hover:border-blue-300/50"
+                >
+                  <div className="absolute inset-0 bg-linear-to-r from-blue-400/20 to-purple-400/20 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
+                  <Download className="w-6 h-6 lg:w-7 lg:h-7 mr-3 group-hover:animate-bounce" />
+                  <span className="relative z-10">Download PDF</span>
+                  <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-purple-600 rounded-xl opacity-0 group-hover:opacity-20 blur transition-opacity duration-300"></div>
+                </a>
+              </div>
+
+              <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 text-center">
+                  <div className="text-2xl font-bold text-blue-400 mb-2">21</div>
+                  <div className="text-gray-300 text-sm">Chapters</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 text-center">
+                  <div className="text-2xl font-bold text-indigo-400 mb-2">171</div>
+                  <div className="text-gray-300 text-sm">Pages</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 text-center">
+                  <div className="text-2xl font-bold text-purple-400 mb-2">PDF</div>
+                  <div className="text-gray-300 text-sm">Format</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

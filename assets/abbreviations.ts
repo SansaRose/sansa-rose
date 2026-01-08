@@ -209,7 +209,27 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "BCACM", fullForm: "Bogie covered auto car modified wagon",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BCACBM", fullForm: "Bogie covered auto car carrier wagon",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "BCB", fullForm: "Bell Code Button",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BCBFG", fullForm: "Bogie covered Hopper Wagon for Food Grain",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BCCN", fullForm: "Bogie Covered Wagon fitted with air brakes for loading Auto cars",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BCGT", fullForm: "Brake Van Goods with Transitional Coupling",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -222,31 +242,27 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BCNAHS", fullForm: "Air braked Bogie Covered with High Speed wagon",
+      { acronym: "BCN", fullForm: "Bogie Wagon Covered with Air Brake",
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BCU", fullForm: "Brake Control Unit",
+      {
+        acronym: "BCNA",
+        fullForm: "Bogie Wagon Covered Arrangement for Improved with air brakes",
+      },
+      { 
+        acronym: "BCNEL",
+        fullForm: "Bogie Covered wagon fitted with air brakes and high axle load",
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BIC", fullForm: "Bogie Isolation Cock",
+      { acronym: "BCNAHS", fullForm: "Air braked Bogie Covered with High Speed wagon fitted with air brakes",
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BIB", fullForm: "Brake Interface Unit",
-        explanation: "It is a part of Loco Kavach. It executes the brake commanded by Onboard Vital Computer automatically when Loco pilot is not controlling the speed in commensuration with permitted speed which is based on signalling information including permanent speed restrictions, gradient, braking characterstics of train.",
-        reference: "--"
-      },
-      { acronym: "BLW", fullForm: "Banaras Locomotive Works",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BMBS", fullForm: "Bogie Mounted Brake System",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BOBYN", fullForm: "Bogie Open Hopper Wagon Bottom Discharge",
+      { 
+        acronym: "BCNHL", 
+        fullForm: "Bogie Covered wagon with CASNUB 22HS bogies (modified for 22.9t axle load), air brake",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -258,15 +274,21 @@ type AbbreviationItem = {
         acronym: "BCXT",
         fullForm: "Bogie Wagon Covered with Transitional Coupling",
       },
-      { acronym: "BCN", fullForm: "Bogie Wagon Covered with Air Brake & CTC",
+      { acronym: "BCU", fullForm: "Brake Control Unit",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BEML", fullForm: "Bharat Earth Movers Limited",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BFKN", fullForm: "Container flat wagon with standard floor height",
         explanation: "Will be added later",
         reference: "--"
       },
       {
-        acronym: "BCNA",
-        fullForm: "Bogie Wagon Covered Arrangement for Improved",
-      },
-      { acronym: "BEML", fullForm: "Bharat Earth Movers Limited",
+        acronym: "BFNS",
+        fullForm: "Bogie Flat wagon with Casnub bogies & air brake",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -274,12 +296,20 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BFK", fullForm: "Bogie Flat Container Car",
+      { acronym: "BFU", fullForm: "Bogie Well Wagon",
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BFU", fullForm: "Bogie Well Wagon",
+      { acronym: "BIC", fullForm: "Bogie Isolation Cock",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BIB", fullForm: "Brake Interface Unit",
+        explanation: "It is a part of Loco Kavach. It executes the brake commanded by Onboard Vital Computer automatically when Loco pilot is not controlling the speed in commensuration with permitted speed which is based on signalling information including permanent speed restrictions, gradient, braking characterstics of train.",
+        reference: "--"
+      },
+      { acronym: "BIU", fullForm: "Brake Interface Unit",
+        explanation: "It is a part of Loco Kavach. It executes the brake commanded by Onboard Vital Computer automatically when Loco pilot is not controlling the speed in commensuration with permitted speed which is based on signalling information including permanent speed restrictions, gradient, braking characterstics of train.",
         reference: "--"
       },
       { acronym: "BKH", fullForm: "Bogie Open Hopper Wagon (Side Discharge)",
@@ -290,19 +320,41 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BIU", fullForm: "Brake Interface Unit",
-        explanation: "It is a part of Loco Kavach. It executes the brake commanded by Onboard Vital Computer automatically when Loco pilot is not controlling the speed in commensuration with permitted speed which is based on signalling information including permanent speed restrictions, gradient, braking characterstics of train.",
+      { acronym: "BLW", fullForm: "Banaras Locomotive Works",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BMBS", fullForm: "Bogie Mounted Brake System",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "BOBR", fullForm: "Breach Of Block Rules",
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BOBRN", fullForm: "Bogie Open Bottom Rapid Dischrge with Pneumatic Brake",
+      { 
+        acronym: "BOBR", 
+        fullForm: "Hopper wagon with casnub bogies, bottom discharge system automatic wagon", 
+        explanation: "Will be added later",
+        reference: "--" 
+      },
+      { 
+        acronym: "BOBRN", 
+        fullForm: "Hopper wagon with casnub bogies, automatic rapid bottom discharge wagon fitted with air brake", 
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { 
+        acronym: "BOBRNEL", 
+        fullForm: "Hopper wagon with casnub bogies, high axle load and automatic discharge system wagon", 
         explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "BOBSN", fullForm: "Bogie Hopper Wagon Bottom side Discharge with Pneumatic Brake",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BOBYN", fullForm: "Bogie Open Hopper Wagon Bottom Discharge fitted with Air Brake",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -315,6 +367,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "BOST", fullForm: "Bogie Open for Steel with Air Brake & CBC",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BOXC", fullForm: "Bogie Open with CBC Coupling",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -338,23 +394,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BOXNEL", fullForm: "Bogie Open with Air Brake Loaded",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BOXR", fullForm: "Bogie Open with Screw Coupling",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BOXC", fullForm: "Bogie Open with CBC Coupling",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BOXT", fullForm: "Bogie Open with Transitional Coupling",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BOXN", fullForm: "Bogie Open for Coal with Air Brake & CBC",
+      { acronym: "BOXNEL", fullForm: "Bogie Open with Air Brake Loaded and High Axle Load",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -362,7 +402,45 @@ type AbbreviationItem = {
         acronym: "BOXMN1",
         fullForm: "Bogie Open Air Brake Light Weight Modified 1",
       },
+      { acronym: "BOXN", fullForm: "Bogie open wagon fitted with air brakes",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { 
+        acronym: "BOXNCR", 
+        fullForm: "Bogie open wagon fitted with air brakes and stainless steel body",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { 
+        acronym: "BOXNHL",
+        fullForm: "Bogie open stainless steel wagon with CASNUB 22HS bogies (modified for 22.9 t axle load), air brake",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { 
+        acronym: "BOXNR", 
+        fullForm: "Bogie open wagon fitted with air brakes", 
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BOXR", fullForm: "Bogie Open with Screw Coupling",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BOXT", fullForm: "Bogie Open with Transitional Coupling",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BOY", fullForm: "Bogie open low sided wagon",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "BOYN", fullForm: "Bogie Open Wagon for Ores Loading with Pneumatic Brake",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BOYEL", fullForm: "Bogie open low sided wagon for enhanced loading",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -386,11 +464,15 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BRNA", fullForm: "Bogie Rail Truck Air",
+      { acronym: "BRNA", fullForm: "Bogie Rail Truck fitted with air brakes",
         explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "BRNAHS", fullForm: "Bogie Rail Truck Air High Speed",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BRSTN", fullForm: "Bogie Rail Wagon for heavy vehicles",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -409,6 +491,28 @@ type AbbreviationItem = {
         explanation: "A board indicating the limit of the block section for operational reference",
         reference: "--"
       },
+      { acronym: "BTALN", fullForm: "Bogie Tank wagon Ammonia Liquefied with Air Bk.",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BTALNM", fullForm: "Bogie Tank wagon for Ammonia fitted with air brake",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BTAP", fullForm: "Bogie Tank wagon for Alumina Powder",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BTCS", fullForm: "Bogie Tank wagon for Caustic Soda",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { 
+        acronym: "BTFLN", 
+        fullForm: "Bogie Frameless Tank wagon for Petroleum product with air brake",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "BTPN", fullForm: "Bogie Tank Wagon for Petrol (Air Brake)",
         explanation: "Will be added later",
         reference: "--"
@@ -421,13 +525,17 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "BCGT", fullForm: "Brake Van Goods with Transitional Coupling",
-        explanation: "Will be added later",
-        reference: "--"
-      },
       {
         acronym: "BVGC",
         fullForm: "Brake Van Goods with CBC Coupling 4 Wheeler (Air Brake)",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BVZC", fullForm: "Brake van, Conventional with air brake",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "BVZI", fullForm: "Covered Brake Van with ICF bogie and air brake",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -439,6 +547,10 @@ type AbbreviationItem = {
         fullForm: "Bharat Wagon & Engineering Limited", 
         explanation: "To manufacture Wagons and undertake structural fabrication jobs.", 
         reference: "--" 
+      },
+      { acronym: "BWTB", fullForm: "Well wagon for Battle Tank (well height 1055 mm)",
+        explanation: "Will be added later",
+        reference: "--"
       },
       { acronym: "BUZC", fullForm: "4 Wheeler Brake Van",
         explanation: "Will be added later",
@@ -543,6 +655,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CCM", fullForm: "Chief Commercial Manager",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CCMS", fullForm: "Centralised Coach Monitoring System",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -861,6 +977,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CTRB", fullForm: "Catridge Tapered Roller Bearings",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CUG", fullForm: "Closed User Group",
         explanation: "Will be added later",
         reference: "--"
@@ -1126,6 +1246,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "EACT", fullForm: "Electronic Allotment for Congested Terminals",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "EBCU", fullForm: "Electronic Brake Control Unit",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1957,6 +2081,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "LWLH", fullForm: "Leight Weight Low Height",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "LWIS", fullForm: "Liberalized Wagon Investment Scheme",
         explanation: "Will be added later",
         reference: "--"
@@ -2639,6 +2767,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "RCF", fullForm: "Rail Coach Factory",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "RCIL", 
         fullForm: "RailTel Corporation of India Limited", 
         explanation: "To utilize the surplus telecom capacity and right of way available with the IR to build nationwide optical fibre cable based broadband telecom and multimedia network", 
@@ -3287,6 +3419,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "TMS", fullForm: "Terminal Management System",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "TOD", fullForm: "Train On Demand",
         explanation: "Will be added later",
         reference: "--"
       },

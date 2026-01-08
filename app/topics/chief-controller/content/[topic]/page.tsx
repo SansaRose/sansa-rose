@@ -14,6 +14,7 @@ import WhistleCodes from '@/components/chief-controller/WhistleCodes'
 import BellCodes from '@/components/chief-controller/BellCodes'
 import BellSignals from '@/components/chief-controller/BellSignals'
 import GSRChapters from '@/components/chief-controller/GSRChapters'
+import SWRChapters from '@/components/chief-controller/SWRChapters'
 import GeneralRules from '@/components/chief-controller/GeneralRules'
 import GSRAppendix from '@/components/chief-controller/GSRAppendix'
 import SWRAppendix from '@/components/chief-controller/SWRAppendix'
@@ -55,6 +56,7 @@ const TopicContentPage = () => {
     'bell-codes': BellCodes,
     'bell-signals': BellSignals,
     'gsr-chapters': GSRChapters,
+    'swr-chapters': SWRChapters,
     'general-rules': GeneralRules,
     'gsr-appendix': GSRAppendix,
     'swr-appendix': SWRAppendix
@@ -74,6 +76,7 @@ const TopicContentPage = () => {
     'bell-codes': 'Bell Codes',
     'bell-signals': 'Bell Signals',
     'gsr-chapters': 'G&SR Chapters',
+    'swr-chapters': 'SWR Chapters',
     'general-rules': 'G&SR All Rules',
     'gsr-appendix': 'G&SR Appendix',
     'swr-appendix': 'SWR Appendix'
@@ -81,7 +84,7 @@ const TopicContentPage = () => {
 
   const TopicComponent = topicComponents[topicId]
 
-  const topics = ['gsr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'bell-codes', 'bell-signals']
+  const topics = ['gsr-chapters', 'swr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'bell-codes', 'bell-signals']
   const currentIndex = topics.indexOf(topicId)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
   const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null

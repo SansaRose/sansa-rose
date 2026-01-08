@@ -61,6 +61,11 @@ const Perminssions = () => {
         category: 'PCOM'
       },
       {
+        description: 'Classifying a passenger carrying train as a mixed train needs authorization by ______ of the concerned Railway.',
+        authority: 'COM',
+        category: 'COM'
+      },
+      {
         description: 'Sanction for ‘C’ class ODC special trains has to be given by ______',
         authority: 'PCSO',
         category: 'PCSO & CRS & PCE'
@@ -142,6 +147,16 @@ const Perminssions = () => {
     },
     {
       description: 'Who is the Chairman of the Official Language Implementation Committee of the Divisional Railway Office?',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Record pertaining to public claims etc., or those under reference from Home or other railways, should not be destroyed without permission from ______ of the concerned Railway.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'The playing of bands and presentation of Guard of Honour etc., on the Station Platform is prohibited, except with the prior permission of the ______ of the concerned Railway.',
       authority: 'DRM',
       category: 'DRM'
     },
@@ -237,6 +252,11 @@ const Perminssions = () => {
     },
     {
       description: 'Who is the Chairman of Zonal Railways Official Language Implementation Committee?',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Employees are forbidden to occupy any place in station area for praying holding religious functions speeches, discourses etc., to erect religious structures, either permanent or temporary, or to add or alter any existing religious structures on railway land, without the sanction of the ______ of the concerned Railway.',
       authority: 'GM',
       category: 'GM'
     },

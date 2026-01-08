@@ -178,6 +178,8 @@ const Timings = () => {
     { question: 'The validity of Premium rake BPC is ______', answer: '12 days', timing: '12 days' },
 
     { question: 'BPC of a material train is valid for 30 days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
+
+    { question: 'No Railway servant in respect of whom an exemption has been made under rule shall be required to work for more than ______ days without a period of rest and shall be provided with compensatory rest within this period.', answer: '14 days', timing: '14 days' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
 
@@ -212,6 +214,12 @@ const Timings = () => {
 
     { question: 'Appeal shall be entertained unless preferred within ________ days', answer: '45 days', timing: '45 days' },
 
+    { question: "A Group 'D' Railway servant, who has been dismissed, removed or compulsorily retired from service may, after his appeal to the appropriate appellate authority has been disposed of and within ______ days thereafter, apply to the Divisional Railway Manager and where he is not under the control of any Divisional Railway Manager to the senior-most Administrative Grade Officer under whose control he may be working, for a revision of the penalty imposed on him.", answer: '45 days', timing: '45 days' },
+
+    { question: "A Group 'C' Railway servant who has been dismissed, removed or compulsorily retired from service may, after his appeal to the appropriate appellate authority has been disposed of, and within 45 days thereafter, apply to the General Manager for a revision of the penalty imposed on him.", answer: '45 days', timing: '45 days' },
+
+    { question: "No appeal preferred under this part (Rule 20 - Period of limitation for appeals), shall be entertained unless such appeal is preferred within a period of ______ days from the date on which a copy of the order appealed against, is delivered to the appellant", answer: '45 days', timing: '45 days' },
+
     { question: 'Maximum encashment of Leave on Average Pay (LAP) is ______ days', answer: '60 days', timing: '60 days' },
 
     { question: 'The time-limit for submitting of claims for Travelling Allowance is within ___ days succeeding the date of completion of journey', answer: '60 days', timing: '60 days' },
@@ -239,6 +247,8 @@ const Timings = () => {
     { question: 'Maximum days of Leave on Average Pay (LAP) that can be accumulated to an employee in his service life (upto retirement) is ______ days', answer: '300 days', timing: '300 days' },
 
     { question: 'Maternity leave for a female Railway servant shall be granted for a period of ______ days', answer: '180 days', timing: '180 days' },
+
+    { question: 'Privilege passes are valid for a period of 5 months from the date of issue.', answer: '5 months', timing: '5 months' },
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
@@ -280,7 +290,9 @@ const Timings = () => {
 
     { question: 'No person shall operate the electrical block instruments unless he holds a competency certificate issued by Principal/ZRTI which shall be valid for a period of______', answer: '3 years', timing: '3 years' },
 
-    { question: 'The competency certificate issued by DEE (TRD) to SM for operating the isolators (in emergency) is valid for', answer: '3 years', timing: '3 years' },
+    { question: 'The competency certificate issued by DEE (TRD) to SM for operating the isolators (in emergency) is valid for ______ years', answer: '3 years', timing: '3 years' },
+
+    { question: 'Record pertaining to Court Cases, departmental enquiries should not be destroyed till ______ years from the date the case is decided.', answer: '3 years', timing: '3 years' },
     
     { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
     

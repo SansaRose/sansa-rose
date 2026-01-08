@@ -85,6 +85,11 @@ const Percentages = () => {
       answer: '80%',
       category: '80%'
     },
+    {
+      question: 'The Staff of a Central Government office shall ordinarily be deemed to have acquired a working knowledge of Hindi if ______ of the Staff working therein have acquired such knowledge.',  
+      answer: '80%',
+      category: '80%'
+    },
     { 
       question: 'The effective brake power in case of Mail/Express enroute should be not less than', 
       answer: '90%', 

@@ -43,6 +43,13 @@ const ChiefControllerIndex = () => {
       description: 'Complete guide to General and Subsidiary Rules chapters with all 18 chapters and their rules'
     },
     {
+      id: 'swr-chapters',
+      title: 'SWR Chapters',
+      icon: <BookOpen className="w-6 h-6" />,
+      color: 'from-teal-500 to-teal-600',
+      description: 'Complete guide to Station Working Rules chapters with all 12 chapters'
+    },
+    {
       id: 'gsr-appendix',
       title: 'G&SR Appendix',
       icon: <Layers className="w-6 h-6" />,
