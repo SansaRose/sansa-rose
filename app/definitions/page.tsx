@@ -185,42 +185,7 @@ const Definitions = () => {
         )}
       </div>
 
-      <style jsx>{`
-        @keyframes blob {
-          0% {
-            transform: translate(0px, 0px) scale(1);
-          }
-          33% {
-            transform: translate(30px, -50px) scale(1.1);
-          }
-          66% {
-            transform: translate(-20px, 20px) scale(0.9);
-          }
-          100% {
-            transform: translate(0px, 0px) scale(1);
-          }
-        }
-        @keyframes referenceGlow {
-          0%, 100% {
-            box-shadow: 0 0 5px rgba(6, 182, 212, 0.3);
-          }
-          50% {
-            box-shadow: 0 0 15px rgba(6, 182, 212, 0.6);
-          }
-        }
-        .animate-blob {
-          animation: blob 7s infinite;
-        }
-        .animation-delay-2000 {
-          animation-delay: 2s;
-        }
-        .animation-delay-4000 {
-          animation-delay: 4s;
-        }
-        .reference-glow {
-          animation: referenceGlow 2s ease-in-out infinite;
-        }
-      `}</style>
+      
     </div>
   )
 }

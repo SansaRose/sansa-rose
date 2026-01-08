@@ -157,7 +157,7 @@ const Navbar = () => {
                 }`}
               >
                 <span className="relative z-10 flex items-center gap-1 transition-all duration-300">
-                  Acts
+                  Acts & Rules
                   <svg
                     className={`w-4 h-4 transition-transform duration-300 ${isActsDropdownOpen ? 'rotate-180' : ''}`}
                     fill="none"
@@ -199,7 +199,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between">
                       <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wider flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
-                        Acts & Regulations
+                        Acts & Rules
                       </h3>
                       <span className="text-xs text-gray-500 font-medium">{actsLinks.length} Acts</span>
                     </div>
@@ -648,9 +648,7 @@ const Navbar = () => {
           >
             <svg
               className={`h-6 w-6 transition-transform duration-300 ${isMobileMenuOpen ? 'rotate-90' : ''}`}
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              
               strokeWidth="2.5"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -678,7 +676,7 @@ const Navbar = () => {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`px-4 py-3 text-base font-semibold rounded-xl transition-all duration-300 ${
+                  className={`px-4 py-3 text-base font-semibold rounded-lg transition-all duration-300 ${
                     isActive
                       ? 'bg-white/30 text-white shadow-lg shadow-white/20 backdrop-blur-md border-2 border-white/40'
                       : 'text-white/90 bg-white/10 hover:bg-white/20 hover:text-white backdrop-blur-sm border border-white/20'

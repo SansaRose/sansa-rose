@@ -218,7 +218,7 @@ const Abbreviations = () => {
             return (
             <div
               key={letter}
-              className="group relative backdrop-blur-xl border border-purple-500/30 rounded-xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/30 hover:border-purple-400/50"
+              className="group relative backdrop-blur-xl border border-purple-500/30 rounded-xl overflow-hidden"
               style={{
                 animationDelay: `${index * 50}ms`,
                 background: 'linear-gradient(to bottom right, rgba(147, 51, 234, 0.2), rgba(59, 130, 246, 0.2))'
@@ -333,28 +333,7 @@ const Abbreviations = () => {
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes blob {
-          0%, 100% {
-            transform: translate(0px, 0px) scale(1);
-          }
-          33% {
-            transform: translate(30px, -50px) scale(1.1);
-          }
-          66% {
-            transform: translate(-20px, 20px) scale(0.9);
-          }
-        }
-        .animate-blob {
-          animation: blob 7s infinite;
-        }
-        .animation-delay-2000 {
-          animation-delay: 2s;
-        }
-        .animation-delay-4000 {
-          animation-delay: 4s;
-        }
-      `}</style>
+      
     </div>
   )
 }

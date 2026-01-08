@@ -62,6 +62,12 @@ type AbbreviationItem = {
         reference: "--"
       },
       { 
+        acronym: "AEB", 
+        fullForm: "Automatic Emergency Braking",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { 
         acronym: "AEN", 
         fullForm: "Assistant Engineer",
         explanation: "Will be added later",
