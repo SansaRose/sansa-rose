@@ -81,6 +81,11 @@ const Perminssions = () => {
         category: 'PCOM'
       },
       {
+        description: '______ is the nodal officer for all Amrit Bharat Station Scheme (ABSS) works',
+        authority: 'PCCM',
+        category: 'PCCM'
+      },
+      {
         description: 'At Zonal level the management of Passenger Traffic is looked after by ______',
         authority: 'CPTM',
         category: 'CPTM'

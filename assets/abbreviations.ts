@@ -724,6 +724,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CHC", fullForm: "Central Hindi Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CI", fullForm: "Catution Indicator",
         explanation: "Will be added later",
         reference: "--"
@@ -928,6 +932,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CSR", fullForm: "Clear Standing Room",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CSR", fullForm: "Corporate Social Responsibility",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1146,6 +1154,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "DMU", fullForm: "Diesel Multiple Unit",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "DOLIC", fullForm: "Divisional Official Language Implementation Committee",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1987,6 +1999,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "LILA", fullForm: "Learn Indian Languages through Artificial Intelligence",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "LIMBS", fullForm: "Legal Information Management & Briefing System",
         explanation: "Will be added later",
         reference: "--"
@@ -2184,6 +2200,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "MOSR", fullForm: "Minister of State for Railways",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "MPLADS", fullForm: "Member of Parliament Local Area Development Scheme",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2397,6 +2417,10 @@ type AbbreviationItem = {
       },
     ],
     P: [
+      { acronym: "PAC", fullForm: "Passenger Amenities Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PAD", fullForm: "Pre Arrival Detention",
         explanation: "Will be added later",
         reference: "--"
@@ -2446,6 +2470,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PCMM", fullForm: "Principal Chief Materials Manager",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PCOL", fullForm: "Parliamentary Committee on Official Language",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2855,6 +2883,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "RLT", fullForm: "Railway Labour Tribunal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "RMC", fullForm: "Railway Material Consignment",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3735,6 +3767,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "WOLIC", fullForm: "Workshop Official Language Implementation Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "WRRMDAC", fullForm: "Power car with disabled compartment",
         explanation: "Will be added later",
         reference: "--"
@@ -3772,6 +3808,10 @@ type AbbreviationItem = {
     ],
     Z: [
       { acronym: "ZBTT", fullForm: "Zero-Based Time Tabling",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "ZOLIC", fullForm: "Zonal Official Language Implementation Committee",
         explanation: "Will be added later",
         reference: "--"
       },

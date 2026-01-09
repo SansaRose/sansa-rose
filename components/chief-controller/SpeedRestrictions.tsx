@@ -134,6 +134,8 @@ const SpeedRestrictions = () => {
 
     { question: 'Mail Express trains are faster than passenger trains. Superfast trains have a higher average speed of greater than or equal to ______ kmph.', answer: '55 kmph', speed: '55 kmph' },
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing green light shall be restricted to', answer: '60kmph', speed: '60 kmph' },
+
+    { question: 'In case of heavy leakage or deflated air spring, the defective bogie is to be isolated with the help of isolaing valves and driver should observe a speed restriction of ______ kmph upto terminal point for maintenance.', answer: '60 kmph', speed: '60 kmph' },
     
     { question: 'When healthy section is temporarily isolated and re-energised, if train entered faulty section, the speed of the first train by day / night shall be', answer: '60/30 kmph', speed: '60/30 kmph' },
 
@@ -146,6 +148,10 @@ const SpeedRestrictions = () => {
     { question: 'On completion of USFD testing, speed of passenger trains and that of empty goods trains shall be raised to 75 KMPH and after observing for 24 hours, normal sectional speed shall be restored for these trains (In case of Flat Tyre).', answer: '75 kmph', speed: '75 kmph' },
 
     { question: 'What is Maximum speed of BOXNR Empty Rake ______ kmph', answer: '80 kmph', speed: '80 kmph' },
+
+    { question: 'In case of en-route breakage of outer flexi-coil spring of primary stage suspension, the LHB coach can be permitted to run upto destination with escorting TXR staff at a restricted speed of ______ kmph.', answer: '80 kmph', speed: '80 kmph' },
+
+    { question: 'In case of en-route breakage of outer flexi-coil spring of secondary stage suspension the LHB coach can be permitted to run with a restricted speed of ______ kmph upto the destination with TXR staff to escort the train and critically monitor the broken spring.', answer: '90 kmph', speed: '90 kmph' },
 
     { question: 'Maximum speed of 140 T Hydraulic Crane (BG) is ______ kmph', answer: '100 kmph', speed: '100 kmph' },
 
