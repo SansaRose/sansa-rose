@@ -240,7 +240,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "BCL", 
-        fullForm: "Braithwaite & Co. Limited",
+        fullForm: "Braithwaite & Company Limited",
         explanation: "Will be added later",
         reference: "--"
        },
@@ -1954,6 +1954,11 @@ type AbbreviationItem = {
       { acronym: "KMS",
         fullForm: "Key Management Systme",
         explanation: "Ensures secure exchange of Movement Authorities between Stationary Kavach and Onboard Kavach system.",
+        reference: "--"
+      },
+      { acronym: "KMRCL",
+        fullForm: "Kolkata Metro Rail Corporation Limited",
+        explanation: "To construct and operate metro rail systems in Kolkata.",
         reference: "--"
       },
       { acronym: "KRCL", 

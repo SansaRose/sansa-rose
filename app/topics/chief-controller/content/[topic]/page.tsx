@@ -11,6 +11,7 @@ import Authorities from '@/components/chief-controller/Authorities'
 import Permissions from '@/components/chief-controller/Perminssions'
 import MarkerBoards from '@/components/chief-controller/MarkerBoards'
 import WhistleCodes from '@/components/chief-controller/WhistleCodes'
+import StandardForms from '@/components/chief-controller/StandardForms'
 import BellCodes from '@/components/chief-controller/BellCodes'
 import BellSignals from '@/components/chief-controller/BellSignals'
 import GSRChapters from '@/components/chief-controller/GSRChapters'
@@ -53,6 +54,7 @@ const TopicContentPage = () => {
     'permissions': Permissions,
     'marker-boards': MarkerBoards,
     'whistle-codes': WhistleCodes,
+    'standard-forms': StandardForms,
     'bell-codes': BellCodes,
     'bell-signals': BellSignals,
     'gsr-chapters': GSRChapters,
@@ -73,6 +75,7 @@ const TopicContentPage = () => {
     'permissions': 'Permissions/Sanctions/Authorised',
     'marker-boards': 'Marker Boards',
     'whistle-codes': 'Whistle Codes',
+    'standard-forms': 'Standard Forms',
     'bell-codes': 'Bell Codes',
     'bell-signals': 'Bell Signals',
     'gsr-chapters': 'G&SR Chapters',
@@ -84,7 +87,7 @@ const TopicContentPage = () => {
 
   const TopicComponent = topicComponents[topicId]
 
-  const topics = ['gsr-chapters', 'swr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'bell-codes', 'bell-signals']
+  const topics = ['gsr-chapters', 'swr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'standard-forms', 'bell-codes', 'bell-signals']
   const currentIndex = topics.indexOf(topicId)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
   const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null

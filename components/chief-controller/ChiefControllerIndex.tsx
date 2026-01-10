@@ -141,6 +141,13 @@ const ChiefControllerIndex = () => {
       description: 'Complete guide to engine whistle codes and their indications for railway operations'
     },
     {
+      id: 'standard-forms',
+      title: 'Standard Forms',
+      icon: <FileText className="w-6 h-6" />,
+      color: 'from-slate-500 to-slate-600',
+      description: 'Standard Forms for use in Disciplinary Proceedings - Complete guide to all SF forms (SF-1 to SF-14)'
+    },
+    {
       id: 'bell-codes',
       title: 'Bell Codes',
       icon: <Bell className="w-6 h-6" />,
