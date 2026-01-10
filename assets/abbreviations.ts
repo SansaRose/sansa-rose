@@ -3170,6 +3170,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "SOLIC", fullForm: "Station Official Language Implementation Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "SOP", fullForm: "Schedule Of Powers",
         explanation: "Will be added later",
         reference: "--"

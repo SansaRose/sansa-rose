@@ -22,7 +22,7 @@ const OfficialLanguageAct1963 = () => {
                 </svg>
               </div>
             </div>
-            <h1 className="text-2xl sm:text-3xl lg:text-6xl font-bold text-white dark:text-gray-100 mb-3 sm:mb-6 animate-fade-in">
+            <h1 className="text-2xl sm:text-3xl lg:text-6xl font-bold text-purple-500 dark:text-gray-100 mb-3 sm:mb-6 animate-fade-in">
               OFFICIAL LANGUAGE ACT 1963
             </h1>
             <h2 className="text-lg sm:text-2xl lg:text-4xl font-bold text-gray-300 dark:text-gray-400 mb-2 sm:mb-4">Articles 343 to 351</h2>
@@ -45,7 +45,7 @@ September, every year. Provisions regarding Official Language are contained in A
             <div className="pointer-events-none absolute top-0 left-0 w-24 h-24 bg-gray-700/10 dark:bg-gray-700/5 rounded-2xl"></div>
             <div className="pointer-events-none absolute bottom-0 right-0 w-24 h-24 bg-gray-700/10 dark:bg-gray-700/5 rounded-2xl"></div>
 
-            <h2 className="relative z-10 text-2xl sm:text-3xl lg:text-4xl font-bold text-white dark:text-gray-100 mb-6 sm:mb-10 flex flex-col sm:flex-row gap-3 sm:gap-6 items-center justify-center drop-shadow-lg">
+            <h2 className="relative z-10 text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-500 dark:text-gray-100 mb-6 sm:mb-10 flex flex-col sm:flex-row gap-3 sm:gap-6 items-center justify-center drop-shadow-lg">
               <span className="bg-gray-700 dark:bg-gray-800 p-3 sm:p-5 rounded-full shadow-xl ring-2 ring-gray-600/40 dark:ring-gray-600/20 transition-all duration-300 scale-110 hover:scale-125">
                 <svg className="w-7 h-7 sm:w-10 sm:h-10 text-white drop-shadow-glow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -355,7 +355,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 
                 <div className="w-full flex justify-center mb-4">
                   <div>
-                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest text-white dark:text-gray-100">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-center tracking-widest text-orange-500 dark:text-gray-100">
                       <span className="flex items-center justify-center gap-2">
                         Important Note
                       </span>
@@ -402,7 +402,7 @@ September, every year. Provisions regarding Official Language are contained in A
               <div className="flex items-center gap-4">
                 
                 <h2 className="relative w-full text-center">
-                  <span className="relative inline-block text-2xl lg:text-4xl font-extrabold tracking-wide px-6 py-2 rounded-xl text-white dark:text-gray-100 drop-shadow-lg">
+                  <span className="relative inline-block text-2xl lg:text-4xl font-extrabold tracking-wide px-6 py-2 rounded-xl text-purple-500 dark:text-gray-100 drop-shadow-lg">
                     <span className="absolute -inset-x-6 -top-1 h-7 rounded-full bg-gray-700/40 dark:bg-gray-700/20 blur-sm -z-10" aria-hidden />
                     <span className="block transition-all duration-500">
                       Sections of Official Language Act 1963
@@ -456,7 +456,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 1
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
                   Short title and commencement
                 </span>
               </h4>
@@ -485,7 +485,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 2
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
                   Definitions
                 </span>
               </h4>
@@ -519,7 +519,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 3
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Continuation of English language for official purposes of the Union and for the use in Parliament
                 </span>
               </h4>
@@ -625,7 +625,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 4
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Committee on Official Language
                 </span>
               </h4>
@@ -666,7 +666,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 5
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Authorised Hindi translations of Central Acts, etc.
                 </span>
               </h4>
@@ -713,7 +713,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 6
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Authorised Hindi translation of State Acts in certain cases
                 </span>
               </h4>
@@ -738,7 +738,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 7
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Optional use of Hindi or other official language in judgments, etc., of High Courts
                 </span>
               </h4>
@@ -761,7 +761,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 8
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Power to make rules
                 </span>
               </h4>
@@ -790,7 +790,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Section 9
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-gray-300 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                   Certain provisions not to apply to Jammu and Kashmir
                 </span>
               </h4>
@@ -1067,7 +1067,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
           {/* Official Languages Rules Section */}
           <div className="bg-gray-800/60 dark:bg-gray-800/80 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-2 mb-8 sm:mb-12 border border-gray-700/50 dark:border-gray-700/30 hover:bg-gray-800/70 dark:hover:bg-gray-800/90 transition-all duration-300">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-6 sm:mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-orange-500 mb-6 sm:mb-8 flex lg:flex-row flex-col gap-4 items-center justify-center">
               <span className="bg-linear-to-r from-emerald-500 to-teal-500 p-2 sm:p-4 rounded-full mr-2 sm:mr-4 shadow-lg">
                 <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1092,7 +1092,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 1
                   </span>
-                  <span className="block ml-1 bg-gray-900/30 dark:bg-gray-900/50 rounded px-2 py-1 text-base sm:text-lg font-semibold text-blue-500 dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white dark:text-gray-400 tracking-tight shadow-sm border border-gray-700/20 dark:border-gray-700/10 text-center">
                     Short title, extent &amp; commencement
                   </span>
                 </h4>
@@ -1127,7 +1127,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 2
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Definitions
                   </span>
                 </h4>
@@ -1233,7 +1233,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 3
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Communications to States etc. other than to Central Government offices
                   </span>
                 </h4>
@@ -1309,7 +1309,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                   Rule 4
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Communications between Central Government Offices
                   </span>  
                 </h4>
@@ -1411,7 +1411,7 @@ September, every year. Provisions regarding Official Language are contained in A
                 <span className="inline-flex items-center gap-2">
                   Rule 5
                 </span>
-                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                   Replies to communications received in Hindi
                 </span>  
                 </h4>
@@ -1433,7 +1433,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 6
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Use of both Hindi and English
                   </span>
                 </h4>
@@ -1456,7 +1456,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 7
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Application, representations etc.
                   </span>
                 </h4>
@@ -1499,7 +1499,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 8
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Noting in Central Government offices
                   </span>
                 </h4>
@@ -1551,7 +1551,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 9
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Proficiency in Hindi
                   </span>
                 </h4>
@@ -1597,7 +1597,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 10
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Working knowledge of Hindi
                   </span>
                 </h4>
@@ -1699,7 +1699,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 11
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Manuals, Codes, other procedural literature, articles of Stationery, etc.
                   </span>
                 </h4>
@@ -1738,7 +1738,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <span className="inline-flex items-center gap-2">
                     Rule 12
                   </span>
-                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-emerald-100 tracking-tight shadow-sm border border-emerald-200/20 text-center">
+                  <span className="block ml-1 bg-blue-500 rounded px-2 py-1 text-base sm:text-lg font-semibold text-white tracking-tight shadow-sm border border-emerald-200/20 text-center">
                     Responsibility for Compliance
                   </span>
                 </h4>
@@ -1793,7 +1793,7 @@ September, every year. Provisions regarding Official Language are contained in A
             <div className="space-y-4">
               {/* Item 1 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3 mb-3">
+                <div className="flex items-center justify-center flex-col gap-3 mb-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     1
                   </span>
@@ -1816,7 +1816,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 2 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     2
                   </span>
@@ -1833,7 +1833,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 3 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     3
                   </span>
@@ -1850,7 +1850,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 4 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     4
                   </span>
@@ -1867,7 +1867,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 5 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     5
                   </span>
@@ -1884,7 +1884,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 6 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     6
                   </span>
@@ -1901,7 +1901,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 7 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     7
                   </span>
@@ -1918,7 +1918,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 8 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     8
                   </span>
@@ -1935,7 +1935,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 9 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     9
                   </span>
@@ -1952,7 +1952,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Item 10 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     10
                   </span>
@@ -1971,14 +1971,14 @@ September, every year. Provisions regarding Official Language are contained in A
 
           {/* Hindi learning/training Softwares */}
           <div className="mt-8 mb-6">
-            <h3 className="text-xl sm:text-2xl font-bold text -center text-blue-500 dark:text-gray-100 mb-6 text-center">
+            <h3 className="text-xl sm:text-2xl font-bold text-center text-blue-500 dark:text-gray-100 mb-6">
               Hindi learning/training Softwares
             </h3>
             
             <div className="space-y-4">
               {/* Software 1 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-indigo-500/20 dark:bg-indigo-400/20 border border-indigo-500/40 dark:border-indigo-400/40 text-indigo-300 dark:text-indigo-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     1
                   </span>
@@ -1993,7 +1993,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Software 2 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-indigo-500/20 dark:bg-indigo-400/20 border border-indigo-500/40 dark:border-indigo-400/40 text-indigo-300 dark:text-indigo-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     2
                   </span>
@@ -2008,7 +2008,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Software 3 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-indigo-500/20 dark:bg-indigo-400/20 border border-indigo-500/40 dark:border-indigo-400/40 text-indigo-300 dark:text-indigo-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     3
                   </span>
@@ -2023,7 +2023,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Software 4 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-indigo-500/20 dark:bg-indigo-400/20 border border-indigo-500/40 dark:border-indigo-400/40 text-indigo-300 dark:text-indigo-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     4
                   </span>
@@ -2038,7 +2038,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Software 5 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-indigo-500/20 dark:bg-indigo-400/20 border border-indigo-500/40 dark:border-indigo-400/40 text-indigo-300 dark:text-indigo-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     5
                   </span>
@@ -2053,7 +2053,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Software 6 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-indigo-500/20 dark:bg-indigo-400/20 border border-indigo-500/40 dark:border-indigo-400/40 text-indigo-300 dark:text-indigo-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     6
                   </span>
@@ -2079,7 +2079,7 @@ September, every year. Provisions regarding Official Language are contained in A
             <div className="space-y-4">
               {/* Committee 1 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     1
                   </span>
@@ -2096,7 +2096,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 2 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     2
                   </span>
@@ -2106,7 +2106,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-cyan-300">Chairman:</span> Home Minister</p>
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-cyan-300">Periodicity:</span> No fixed schedule</p>
                     </div>
-                    <div className="mt-3 space-y-1 text-xs text-gray-400 dark:text-gray-500">
+                    <div className="mt-3 space-y-1 text-sm text-gray-400 dark:text-gray-500">
                       <p>1. Total 30 Members (20 - Lok Sabha & 10 - Rajya Sabha)</p>
                       <p>2. 3 Sub committees of 10 – 10 member each is constituted further.</p>
                       <p>3. 2nd Sub Committee will inspect Rajbhasha matters of Railways.</p>
@@ -2117,7 +2117,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 3 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     3
                   </span>
@@ -2133,7 +2133,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 4 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     4
                   </span>
@@ -2149,7 +2149,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 5 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     5
                   </span>
@@ -2165,7 +2165,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 6 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     6
                   </span>
@@ -2181,7 +2181,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 7 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     7
                   </span>
@@ -2197,7 +2197,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 8 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     8
                   </span>
@@ -2213,7 +2213,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 9 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     9
                   </span>
@@ -2229,7 +2229,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Committee 10 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-4 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center justify-center flex-col gap-3">
                   <span className="flex items-center justify-center bg-cyan-500/20 dark:bg-cyan-400/20 border border-cyan-500/40 dark:border-cyan-400/40 text-cyan-300 dark:text-cyan-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     10
                   </span>
@@ -2319,7 +2319,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">Ist Prize</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">12,000/-</span></p>
-                        <div className="text-xs text-gray-400 dark:text-gray-500 space-y-1">
+                        <div className="text-sm text-gray-400 dark:text-gray-500 space-y-1">
                           <p>6 Employees, 2,000/- to each</p>
                           <p>5 Employees, 1,600/- to each</p>
                           <p>5 Employees, 1,200/- to each</p>
@@ -2328,7 +2328,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">IInd Prize</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">8,000/-</span></p>
-                        <div className="text-xs text-gray-400 dark:text-gray-500 space-y-1">
+                        <div className="text-sm text-gray-400 dark:text-gray-500 space-y-1">
                           <p>6 Employees, 2,000/- to each</p>
                           <p>5 Employees, 1,600/- to each</p>
                           <p>5 Employees, 1,200/- to each</p>
@@ -2337,7 +2337,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">IIIrd Prize</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">6,000/-</span></p>
-                        <div className="text-xs text-gray-400 dark:text-gray-500 space-y-1">
+                        <div className="text-sm text-gray-400 dark:text-gray-500 space-y-1">
                           <p>6 Employees, 2,000/- to each</p>
                           <p>5 Employees, 1,600/- to each</p>
                           <p>5 Employees, 1,200/- to each</p>
@@ -2360,7 +2360,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">Ist Prize (2)</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">5,000/-</span></p>
-                        <p className="text-xs text-gray-400 dark:text-gray-500">20,000/- words in financial year by Staff/Officers in A & B regions and 10,000/- words by Staff/Officers in C regions.</p>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">20,000/- words in financial year by Staff/Officers in A & B regions and 10,000/- words by Staff/Officers in C regions.</p>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">IInd Prize (3)</p>
@@ -2441,13 +2441,13 @@ September, every year. Provisions regarding Official Language are contained in A
                         <div className="space-y-2 text-sm">
                           <div>
                             <p className="font-semibold text-gray-300 dark:text-gray-400 mb-1">Ist Prize</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Rail Mantri Rajbhasha Running Shield</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Shield</p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Rail Mantri Rajbhasha Running Shield</p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Shield</p>
                           </div>
                           <div>
                             <p className="font-semibold text-gray-300 dark:text-gray-400 mb-1">IInd Prize</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Rail Mantri Rajbhasha Running Trophy</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Trophy</p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Rail Mantri Rajbhasha Running Trophy</p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Trophy</p>
                           </div>
                         </div>
                       </div>
@@ -2466,13 +2466,13 @@ September, every year. Provisions regarding Official Language are contained in A
                         <div className="space-y-2 text-sm">
                           <div>
                             <p className="font-semibold text-gray-300 dark:text-gray-400 mb-1">Ist Prize</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Rail Mantri Rajbhasha Shield + <span className="font-bold text-green-300">14,000/-</span></p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Shield + <span className="font-bold text-green-300">14,000/-</span></p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Rail Mantri Rajbhasha Shield + <span className="font-bold text-green-300">14,000/-</span></p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Shield + <span className="font-bold text-green-300">14,000/-</span></p>
                           </div>
                           <div>
                             <p className="font-semibold text-gray-300 dark:text-gray-400 mb-1">IInd Prize</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Shiv Sagar Mishra Chal Vaijayanti Shield</p>
-                            <p className="text-gray-300 dark:text-gray-400 text-xs ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Trophy</p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-blue-300">For Region A & B:</span> Shiv Sagar Mishra Chal Vaijayanti Shield</p>
+                            <p className="text-gray-300 dark:text-gray-400 text-sm ml-3"><span className="font-semibold text-purple-300">For region C:</span> Rail Mantri Rajbhasha Running Trophy</p>
                           </div>
                         </div>
                       </div>
@@ -2492,7 +2492,7 @@ September, every year. Provisions regarding Official Language are contained in A
             <div className="space-y-6">
               {/* Competition 1 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-5 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3 mb-4">
+                <div className="flex items-center justify-center flex-col gap-3 mb-4">
                   <span className="flex items-center justify-center bg-pink-500/20 dark:bg-pink-400/20 border border-pink-500/40 dark:border-pink-400/40 text-pink-300 dark:text-pink-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     1
                   </span>
@@ -2519,7 +2519,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Competition 2 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-5 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3 mb-4">
+                <div className="flex items-center justify-center flex-col gap-3 mb-4">
                   <span className="flex items-center justify-center bg-pink-500/20 dark:bg-pink-400/20 border border-pink-500/40 dark:border-pink-400/40 text-pink-300 dark:text-pink-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     2
                   </span>
@@ -2547,7 +2547,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Competition 3 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-5 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3 mb-4">
+                <div className="flex items-center justify-center flex-col gap-3 mb-4">
                   <span className="flex items-center justify-center bg-pink-500/20 dark:bg-pink-400/20 border border-pink-500/40 dark:border-pink-400/40 text-pink-300 dark:text-pink-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     3
                   </span>
@@ -2576,7 +2576,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Competition 4 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-5 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3 mb-4">
+                <div className="flex items-center justify-center flex-col gap-3 mb-4">
                   <span className="flex items-center justify-center bg-pink-500/20 dark:bg-pink-400/20 border border-pink-500/40 dark:border-pink-400/40 text-pink-300 dark:text-pink-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     4
                   </span>
@@ -2619,7 +2619,7 @@ September, every year. Provisions regarding Official Language are contained in A
 
               {/* Competition 5 */}
               <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-5 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-                <div className="flex items-start gap-3 mb-4">
+                <div className="flex items-center justify-center flex-col gap-3 mb-4">
                   <span className="flex items-center justify-center bg-pink-500/20 dark:bg-pink-400/20 border border-pink-500/40 dark:border-pink-400/40 text-pink-300 dark:text-pink-200 font-bold shadow-sm rounded-full w-10 h-10 text-lg shrink-0">
                     5
                   </span>
@@ -2951,7 +2951,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   </span>
                   <div className="flex-1">
                     <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-teal-300">Stenography in Hindi:</span> <span className="font-bold text-green-300">Rs. 240/- pm</span></p>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">(daily 05 pages Dictation in Hindi)</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">(daily 05 pages Dictation in Hindi)</p>
                   </div>
                 </div>
               </div>
@@ -2963,7 +2963,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   </span>
                   <div className="flex-1">
                     <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-teal-300">Typing in Hindi:</span> <span className="font-bold text-green-300">Rs. 160/- pm</span></p>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">(daily 05 pages typing in Hindi)</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">(daily 05 pages typing in Hindi)</p>
                   </div>
                 </div>
               </div>
@@ -3049,7 +3049,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   </span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-200 dark:text-gray-300 mb-2">Prabodh</h4>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-3">Kannada, Tamil, Malayalam, Telugu, Mizo, Manipuri or English</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mb-3">Kannada, Tamil, Malayalam, Telugu, Mizo, Manipuri or English</p>
                     <div className="space-y-2 text-sm">
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Normal Duration:</span> January to May (05 Months) & July to November (05 Months)</p>
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Intensive (Short term Courses):</span> 25 Full days</p>
@@ -3067,7 +3067,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   </span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-200 dark:text-gray-300 mb-2">Praveen</h4>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-3">Marathi, Gujarati, Bangla, Assamese, Oriya, Nepali, Sindhi, Dogri, Bodo, Maithili, Santhali</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mb-3">Marathi, Gujarati, Bangla, Assamese, Oriya, Nepali, Sindhi, Dogri, Bodo, Maithili, Santhali</p>
                     <div className="space-y-2 text-sm">
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Intensive (Short term Courses):</span> 20 Full days</p>
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Correspondence:</span> 01 Year</p>
@@ -3084,7 +3084,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   </span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-200 dark:text-gray-300 mb-2">Pragya</h4>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-3">Urdu, Punjabi, Pusto, Kashmiri</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mb-3">Urdu, Punjabi, Pusto, Kashmiri</p>
                     <div className="space-y-2 text-sm">
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Intensive (Short term Courses):</span> 15 Full days</p>
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Correspondence:</span> 01 Year</p>
@@ -3101,7 +3101,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   </span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-200 dark:text-gray-300 mb-2">Parangat <span className="text-gray-400 dark:text-gray-500 text-sm font-normal">(Refresher Like)</span></h4>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-3">(Focuses of Practice)</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mb-3">(Focuses of Practice)</p>
                     <div className="space-y-2 text-sm">
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-sky-300">Intensive (Short term Courses):</span> 20 Full days</p>
                     </div>
