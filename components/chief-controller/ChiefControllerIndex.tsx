@@ -71,6 +71,41 @@ const ChiefControllerIndex = () => {
       description: 'Complete guide to all General and Subsidiary Rules with detailed rules for all 18 chapters'
     },
     {
+      id: 'railways-act-1989-all-chapters',
+      title: 'Railways Act 1989 - All Chapters',
+      icon: <BookOpen className="w-6 h-6" />,
+      color: 'from-slate-500 to-slate-600',
+      description: 'Complete reference guide to all 16 chapters and 200 sections of the Railways Act, 1989'
+    },
+    {
+      id: 'railway-da-rules-1968-all-chapters',
+      title: 'Railway DA Rules 1968 - All Parts',
+      icon: <BookOpen className="w-6 h-6" />,
+      color: 'from-gray-500 to-gray-600',
+      description: 'Complete reference guide to all 7 parts and 33 rules of the Railway Servants (Discipline & Appeal) Rules, 1968'
+    },
+    {
+      id: 'railway-leave-rules-1949-all-rules',
+      title: 'Railway Leave Rules 1949 - All Rules',
+      icon: <BookOpen className="w-6 h-6" />,
+      color: 'from-zinc-500 to-zinc-600',
+      description: 'Complete reference guide to all 57 rules (501-557) of the Railway Servants (Liberalised Leave) Rules, 1949'
+    },
+    {
+      id: 'railway-rest-rules-2005-all-rules',
+      title: 'Railway Rest Rules 2005 - All Parts',
+      icon: <BookOpen className="w-6 h-6" />,
+      color: 'from-neutral-500 to-neutral-600',
+      description: 'Complete reference guide to all 5 parts and 18 rules of the Railway Servants (Hours of Work and Period of Rest) Rules, 2005'
+    },
+    {
+      id: 'railway-conduct-rules-1966-all-rules',
+      title: 'Railway Conduct Rules 1966 - All Rules',
+      icon: <BookOpen className="w-6 h-6" />,
+      color: 'from-stone-500 to-stone-600',
+      description: 'Complete reference guide to all 25 rules of the Railway Services (Conduct) Rules, 1966'
+    },
+    {
       id: 'speed-restrictions',
       title: 'Speed Restrictions',
       icon: <Gauge className="w-6 h-6" />,

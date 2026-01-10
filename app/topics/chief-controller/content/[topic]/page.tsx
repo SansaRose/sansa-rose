@@ -17,6 +17,11 @@ import BellSignals from '@/components/chief-controller/BellSignals'
 import GSRChapters from '@/components/chief-controller/GSRChapters'
 import SWRChapters from '@/components/chief-controller/SWRChapters'
 import GeneralRules from '@/components/chief-controller/GeneralRules'
+import RailwaysAct1989AllChapters from '@/components/chief-controller/RailwaysAct1989AllChapters'
+import RailwayDARules1968AllChapters from '@/components/chief-controller/RailwayDARules1968AllChapters'
+import RailwayLeaveRules1949AllRules from '@/components/chief-controller/RailwayLeaveRules1949AllRules'
+import RailwayRestRules2005AllRules from '@/components/chief-controller/RailwayRestRules2005AllRules'
+import RailwayConductRules1966AllRules from '@/components/chief-controller/RailwayConductRules1966AllRules'
 import GSRAppendix from '@/components/chief-controller/GSRAppendix'
 import SWRAppendix from '@/components/chief-controller/SWRAppendix'
 
@@ -60,6 +65,11 @@ const TopicContentPage = () => {
     'gsr-chapters': GSRChapters,
     'swr-chapters': SWRChapters,
     'general-rules': GeneralRules,
+    'railways-act-1989-all-chapters': RailwaysAct1989AllChapters,
+    'railway-da-rules-1968-all-chapters': RailwayDARules1968AllChapters,
+    'railway-leave-rules-1949-all-rules': RailwayLeaveRules1949AllRules,
+    'railway-rest-rules-2005-all-rules': RailwayRestRules2005AllRules,
+    'railway-conduct-rules-1966-all-rules': RailwayConductRules1966AllRules,
     'gsr-appendix': GSRAppendix,
     'swr-appendix': SWRAppendix
   }
@@ -81,13 +91,18 @@ const TopicContentPage = () => {
     'gsr-chapters': 'G&SR Chapters',
     'swr-chapters': 'SWR Chapters',
     'general-rules': 'G&SR All Rules',
+    'railways-act-1989-all-chapters': 'Railways Act 1989 - All Chapters',
+    'railway-da-rules-1968-all-chapters': 'Railway DA Rules 1968 - All Parts',
+    'railway-leave-rules-1949-all-rules': 'Railway Leave Rules 1949 - All Rules',
+    'railway-rest-rules-2005-all-rules': 'Railway Rest Rules 2005 - All Parts',
+    'railway-conduct-rules-1966-all-rules': 'Railway Conduct Rules 1966 - All Rules',
     'gsr-appendix': 'G&SR Appendix',
     'swr-appendix': 'SWR Appendix'
   }
 
   const TopicComponent = topicComponents[topicId]
 
-  const topics = ['gsr-chapters', 'swr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'standard-forms', 'bell-codes', 'bell-signals']
+  const topics = ['gsr-chapters', 'swr-chapters', 'gsr-appendix', 'swr-appendix', 'general-rules', 'railways-act-1989-all-chapters', 'railway-da-rules-1968-all-chapters', 'railway-leave-rules-1949-all-rules', 'railway-rest-rules-2005-all-rules', 'railway-conduct-rules-1966-all-rules', 'speed-restrictions', 'timings', 'distances', 'percentages', 'authorities', 'permissions', 'numbers', 'years', 'marker-boards', 'whistle-codes', 'standard-forms', 'bell-codes', 'bell-signals']
   const currentIndex = topics.indexOf(topicId)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
   const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null
