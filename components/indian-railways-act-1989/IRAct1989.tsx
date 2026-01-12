@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { BookOpen, Scale, Shield, Building2, Train, Users, PackageCheck, Truck, AlertTriangle, Gavel, FileText, Settings, ChevronDown, ChevronUp, CheckCircle, ExternalLink, BookOpenCheck } from 'lucide-react'
+import { BookOpen, Scale, Shield, Building2, Train, Users, PackageCheck, Truck, AlertTriangle, Gavel, FileText, Settings, ChevronDown, ChevronUp, ExternalLink, BookOpenCheck } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const IRAct1989 = () => {
@@ -552,20 +552,7 @@ const IRAct1989 = () => {
             </div>
 
             {/* Footer */}
-            <div className="mt-6 text-center">
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-white/20">
-                <div className="flex flex-col lg:flex-row gap-4 items-center justify-center space-x-3 mb-4">
-                  <CheckCircle className="w-8 h-8 text-green-400" />
-                  <h3 className="text-2xl font-bold text-white">
-                    Complete Indian Railways Act 1989 Reference
-                  </h3>
-                </div>
-                <p className="text-gray-300 max-w-2xl mx-auto">
-                  This comprehensive guide covers all 16 chapters of the Indian Railways Act 1989, providing complete legal 
-                  framework for railway administration, operations, safety, carriage of passengers and goods, and regulatory provisions.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

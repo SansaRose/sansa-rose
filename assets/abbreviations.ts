@@ -1087,6 +1087,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "DEC", fullForm: "Divisional Empowered Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "DEE", fullForm: "Divisional Electrical Engineer",
         explanation: "Will be added later",
         reference: "--"
@@ -2055,7 +2059,7 @@ type AbbreviationItem = {
         explanation: "Every Coaching train Guard after completion of his journey is required to submit a report called LTM report.",
         reference: "--"
       },
-      { acronym: "LTTC", fullForm: "Long Term Traffic Contact",
+      { acronym: "LTTC", fullForm: "Long Term Traffic Contract",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3080,6 +3084,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "SFOORTI", fullForm: "Smart Freight Operation Optimisation and Real Time Information",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "SFTO", fullForm: "Special Freight Train Operator",
         explanation: "Will be added later",
         reference: "--"
       },

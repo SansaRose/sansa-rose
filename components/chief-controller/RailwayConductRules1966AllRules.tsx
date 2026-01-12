@@ -14,37 +14,64 @@ interface Part {
 }
 
 const RailwayConductRules1966AllRules = () => {
+  const rules: Rule[] = [
+    { number: "1", title: "Short title." },
+    { number: "2", title: "Definition" },
+    { number: "3", title: "General" },
+    { number: "4", title: "Employment of near relatives of railway servants in Company or firm enjoying Government patronage." },
+    { number: "5", title: "Taking part in politics and elections" },
+    { number: "6", title: "Joining of Associations or Unions by Railway Servants" },
+    { number: "7", title: "Demonstration." },
+    { number: "8", title: "Connection with press or other media" },
+    { number: "9", title: "Criticism of Government" },
+    { number: "10", title: "Evidence before Committee or any other Authority" },
+    { number: "11", title: "Communication of Official Information" },
+    { number: "12", title: "Subscription" },
+    { number: "13", title: "Gifts" },
+    { number: "14", title: "Public demonstrations in honour of Railway servants" },
+    { number: "15", title: "Private trade or Employment" },
+    { number: "16", title: "Investment, lending and borrowing" },
+    { number: "17", title: "Insolvency and Habitual indebtedness" },
+    { number: "18", title: "Movable, immovable and valuable Property" },
+    { number: "19", title: "Vindication of Acts and Character of Railway servants." },
+    { number: "20", title: "Canvassing of Non-official or other Influence" },
+    { number: "21", title: "Restrictions Regarding Marriage" },
+    { number: "22", title: "Consumption of intoxicating Drinks and Drugs" },
+    { number: "23", title: "Interpretation" },
+    { number: "24", title: "Delegation of Powers" },
+    { number: "25", title: "Repeal and Savings" }
+  ]
+
   const parts: Part[] = [
     {
       number: 'I',
-      title: 'Conduct Rules',
-      rules: [
-        { number: '1', title: 'Short title.' },
-        { number: '2', title: 'Definition' },
-        { number: '3', title: 'General' },
-        { number: '4', title: 'Employment of near relatives of railway servants in Company or firm enjoying Government patronage.' },
-        { number: '5', title: 'Taking part in politics and elections' },
-        { number: '6', title: 'Joining of Associations or Unions by Railway Servants' },
-        { number: '7', title: 'Demonstration.' },
-        { number: '8', title: 'Connection with press or other media' },
-        { number: '9', title: 'Criticism of Government' },
-        { number: '10', title: 'Evidence before Committee or any other Authority' },
-        { number: '11', title: 'Communication of Official Information' },
-        { number: '12', title: 'Subscription' },
-        { number: '13', title: 'Gifts' },
-        { number: '14', title: 'Public demonstrations in honour of Railway servants' },
-        { number: '15', title: 'Private trade or Employment' },
-        { number: '16', title: 'Investment, lending and borrowing' },
-        { number: '17', title: 'Insolvency and Habitual indebtedness' },
-        { number: '18', title: 'Movable, immovable and valuable Property' },
-        { number: '19', title: 'Vindication of Acts and Character of Railway servants.' },
-        { number: '20', title: 'Canvassing of Non-official or other Influence' },
-        { number: '21', title: 'Restrictions Regarding Marriage' },
-        { number: '22', title: 'Consumption of intoxicating Drinks and Drugs' },
-        { number: '23', title: 'Interpretation' },
-        { number: '24', title: 'Delegation of Powers' },
-        { number: '25', title: 'Repeal and Savings' }
-      ]
+      title: 'PRELIMINARY',
+      rules: rules.slice(0, 3)
+    },
+    {
+      number: 'II',
+      title: 'EMPLOYMENT AND POLITICAL ACTIVITIES',
+      rules: rules.slice(3, 7)
+    },
+    {
+      number: 'III',
+      title: 'MEDIA AND COMMUNICATION',
+      rules: rules.slice(7, 11)
+    },
+    {
+      number: 'IV',
+      title: 'FINANCIAL AND PROPERTY MATTERS',
+      rules: rules.slice(11, 18)
+    },
+    {
+      number: 'V',
+      title: 'CHARACTER AND CONDUCT',
+      rules: rules.slice(18, 22)
+    },
+    {
+      number: 'VI',
+      title: 'MISCELLANEOUS',
+      rules: rules.slice(22, 25)
     }
   ]
 
@@ -54,7 +81,8 @@ const RailwayConductRules1966AllRules = () => {
       'bg-gradient-to-r from-indigo-600 to-indigo-700',
       'bg-gradient-to-r from-purple-600 to-purple-700',
       'bg-gradient-to-r from-pink-600 to-pink-700',
-      'bg-gradient-to-r from-red-600 to-red-700'
+      'bg-gradient-to-r from-red-600 to-red-700',
+      'bg-gradient-to-r from-orange-600 to-orange-700'
     ]
     return colors[index % colors.length]
   }
@@ -70,22 +98,7 @@ const RailwayConductRules1966AllRules = () => {
       'bg-gradient-to-r from-yellow-500 to-yellow-600',
       'bg-gradient-to-r from-green-500 to-green-600',
       'bg-gradient-to-r from-teal-500 to-teal-600',
-      'bg-gradient-to-r from-cyan-500 to-cyan-600',
-      'bg-gradient-to-r from-sky-500 to-sky-600',
-      'bg-gradient-to-r from-violet-500 to-violet-600',
-      'bg-gradient-to-r from-rose-500 to-rose-600',
-      'bg-gradient-to-r from-amber-500 to-amber-600',
-      'bg-gradient-to-r from-emerald-500 to-emerald-600',
-      'bg-gradient-to-r from-lime-500 to-lime-600',
-      'bg-gradient-to-r from-fuchsia-500 to-fuchsia-600',
-      'bg-gradient-to-r from-slate-500 to-slate-600',
-      'bg-gradient-to-r from-gray-500 to-gray-600',
-      'bg-gradient-to-r from-zinc-500 to-zinc-600',
-      'bg-gradient-to-r from-stone-500 to-stone-600',
-      'bg-gradient-to-r from-neutral-500 to-neutral-600',
-      'bg-gradient-to-r from-blue-600 to-blue-700',
-      'bg-gradient-to-r from-indigo-600 to-indigo-700',
-      'bg-gradient-to-r from-purple-600 to-purple-700'
+      'bg-gradient-to-r from-cyan-500 to-cyan-600'
     ]
     return colors[index % colors.length]
   }
@@ -98,7 +111,7 @@ const RailwayConductRules1966AllRules = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-5xl font-bold mb-3 bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-            Railway Services (Conduct) Rules, 1966
+            Railway Services (Conduct) Rules, 1966 - All Parts
           </h1>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
             Complete reference guide to all parts and rules of the Railway Services (Conduct) Rules, 1966
@@ -110,10 +123,10 @@ const RailwayConductRules1966AllRules = () => {
           {parts.map((part, partIndex) => (
             <div
               key={partIndex}
-              className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:border-blue-500 hover:shadow-xl transition-all duration-300"
+              className="bg-slate-800 rounded-lg shadow-lg overflow-hidden border border-slate-700 hover:border-blue-500 hover:shadow-xl transition-all duration-300"
             >
               {/* Part Header */}
-              <div className={`${getPartColor(partIndex)} text-white px-6 py-5`}>
+              <div className={`${getPartColor(partIndex)} text-white px-3 py-5`}>
                 <div className="flex items-center justify-between flex-col flex-wrap gap-2">
                   <div className="flex items-center gap-3">
                     

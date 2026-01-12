@@ -126,6 +126,8 @@ const Distances = () => {
     { question: 'Under no circumstances a patrolman should be rostered to walk more than', answer: '20KM', distance: '20KM' },
     { question: 'Maximum Station spacing distance on DFC will be ______ km', answer: '40KM', distance: '40KM' },
 
+    { question: 'Separate Rate structure for running of MGR scheme, which is on number of trips per day basis as the distance is upto ______ Kms.', answer: '100KM', distance: '100KM' },
+
     { question: 'In FTR booking, Empty Haulage Charge is applied on a minimum chargeable distance of how many kilometres?', answer: '200KM', distance: '200KM' },
 
     

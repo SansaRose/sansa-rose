@@ -115,9 +115,12 @@ const SpeedRestrictions = () => {
     { question: 'When leading compartment of an electric or diesel engine with twin cab is defective and the train is driven from trailing compartment by Assistant Loco Pilot, the speed shall not exceed', answer: '40 kmph', speed: '40 kmph' },
 
     { question: 'What is the typical speed restriction for a Class "B" ODC on Broad Gauge (BG)?', answer: '40 kmph', speed: '40 kmph' },
-    
+
+    { question: 'The Track should be fit for running of goods train with axle load of 22.9 tonne at a speed not lower than ______ kmph (MGR Scheme)', answer: '40 kmph', speed: '40 kmph' },
+
     { question: 'Isolation is necessary where the trains are to run through a station at a speed exceeding', answer: '50 kmph', speed: '50 kmph' },
-    { question: 'When major work such as relaying and re-girdering is in progress a speed restriction that shall be observed on the adjoining line of DL//MULTIPLE/ line section', answer: '50kmph', speed: '50 kmph' },
+
+    { question: 'When major work such as relaying and re-girdering is in progress, a speed restriction that shall be observed on the adjoining line of DL/MULTIPLE line section', answer: '50 kmph', speed: '50 kmph' },
 
     { question: 'At standard – I R interlocked station the maximum speed permitted for the train over main line points is', answer: '50 KMPH', speed: '50 kmph' },
 

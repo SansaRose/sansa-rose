@@ -266,6 +266,11 @@ const Perminssions = () => {
       category: 'GM'
     },
     {
+      description: 'Merry Go Round (MGR) schemes proposals to be approved by ______ of the concerned Railway.',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
       description: 'Accident Inquiry Reports with staff of foreign railway responsibility should be put to __________directly being the Accepting Authority in such cases.',
       authority: 'AGM',
       category: 'AGM'
