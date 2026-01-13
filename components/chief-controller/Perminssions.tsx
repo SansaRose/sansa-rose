@@ -26,6 +26,11 @@ const Perminssions = () => {
       category: 'Railway Board'
     },
     {
+      description: 'In addition to normal LR trips, additional LR trips for LP/Guard may be given with the approval of ______',
+      authority: 'Controlling branch officers',
+      category: 'Controlling branch officers'
+    },
+    {
       description: 'Approved special instructions are issued or approved by',
       authority: 'Commissioner of Railway Safety (CRS)',
       category: 'CRS'

@@ -23,7 +23,7 @@ const Distances = () => {
 
     { question: 'Centre to centre distance between tracks for examination lines should be minimum ______ meters', answer: '7.5M', distance: '7.5M' },
     
-    { question: 'In thick, foggy or tempestuous weather impairing visibility and his engine explodes two detonators within a distance of 10 metres apart, the Loco Pilot will control his train immediately and will follow the aspect of', answer: 'stop signal ahead', distance: '10M' },
+    { question: 'In thick, foggy or tempestuous weather impairing visibility and his engine explodes two detonators within a distance of _______ metres apart, the Loco Pilot will control his train immediately and will follow the aspect of stop signal ahead.', answer: '10M', distance: '10M' },
     
     { question: 'In case of Class \'D\' stations, \'ENGINE STOP\' board shall be provided at a distance of 15M beyond the point/place on platform where train is required to be stopped.', answer: '15M', distance: '15M' },
     

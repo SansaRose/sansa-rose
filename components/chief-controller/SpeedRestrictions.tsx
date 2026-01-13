@@ -12,8 +12,8 @@ const SpeedRestrictions = () => {
   const restrictions: SpeedRestriction[] = [
     { question: 'Maximum Hand shunting speed is', answer: '5 kmph', speed: '5 kmph' },
     
-    { question: 'The maximum shunting speed of wagons containing Explosives shall not exceed', answer: '8 kmph', speed: '8 kmph' },
-    { question: 'The maximum shunting speed of wagons containing POL products shall be', answer: '8 kmph', speed: '8 kmph' },
+    { question: 'The maximum shunting speed of wagons containing Explosives or POL products shall not exceed', answer: '8 kmph', speed: '8 kmph' },
+
     { question: 'When engine is pushing a train and Guard is not travelling in leading vehicle, the speed shall not exceed', answer: '8 kmph', speed: '8 kmph' },
 
     { question: 'After stopping at the stop indicator, Loco Pilot shall sign in this book and proceed with restricted speed of ______ kmph.', answer: 'ER-7, 8 kmph', speed: '8 kmph' },
@@ -57,7 +57,6 @@ const SpeedRestrictions = () => {
     { question: 'The Gap between Contact wire and Over Dimensional Consignment (ODC) less than 200 mm (For 25 KV AC Electrified Sections) the speed shall be restricted to ______ kmph and over head power shall be switched off', answer: '15 kmph', speed: '15 kmph' },
     
     { question: 'When IBS is at "ON" and the telephone is out of order, Loco Pilot after waiting for five minutes shall proceed when view is clear/not clear up to next stop signal at a speed of', answer: '15/8 kmph', speed: '15/8 kmph' },
-    { question: 'When material train, TTM & Tower wagon are permitted in same block section to work, speed for the following is restricted to and the distance to be kept between them is', answer: '15/8 kmph, 150metres', speed: '15/8 kmph' },
     
     { question: 'Speed of Light engine/vehicle, going for opening of communication, is restricted to', answer: '15/10 kmph', speed: '15/10 kmph' },
     { question: 'Relief loco/train shall proceed with a restricted speed of', answer: '15/10 KMPH', speed: '15/10 kmph' },

@@ -46,12 +46,12 @@ const Numbers = () => {
       category: '2'
     },
     {
-      question: 'At stations, where PA system is not provided, to start the train SM shall arrange by ringing beats for Down trains is ______',
+      question: 'At stations, where Public Announcement (PA) system is not provided, to start the train Station Master (SM) shall arrange by ringing beats for Down trains is ______',
       answer: '2',
       category: '2'
     },
     {
-      question: 'No. of coaches permitted in rear of rear SLR for express trains ______',
+      question: 'Number of coaches permitted in rear of rear SLR for express trains ______',
       answer: '2',
       category: '2'
     },
@@ -206,13 +206,18 @@ const Numbers = () => {
         category: '6'
       },
       {
-        question: 'Max. no. of rail dollies can be worked in a group in any one block section.',
+        question: 'Maximum number of rail dollies can be worked in a group in any one block section.',
         answer: '6',
         category: '6'
       },
       {
         question: 'Group A and B officers are entitled to ______ sets of First Class A Privilege passes',
         answer: '6',
+        category: '6'
+      },
+      {
+        question: 'The road learning trips that are given to the Loco Pilot/Guard on Automatic section is ______ trips.',
+        answer: '6 (Six) trips',
         category: '6'
       },
       {
