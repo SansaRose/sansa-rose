@@ -210,6 +210,12 @@ export const definitions = [
       reference: "GR 1.02(17)"
     },
     {
+      number: 35,
+      term: "Derailing Switch",
+      definition: "An extended portion of track about 15feet from points ending with some sand to isolate main line from loop line and an efficient substitute for signal overlap and when vehicle moves it will derail on the sand is known as Derailing Switch",
+      reference: "--"
+    },
+    {
       number: 36,
       term: "Direction of traffic",
       definition: "Direction of traffic means – a. on a double line, the direction for which the line is signalled; b. on a single line, the direction for the time being established, under the system of working, to allow trains to move in that direction;",
@@ -630,6 +636,12 @@ export const definitions = [
       reference: "GR 1.02(48)"
     },
     {
+      number: 105,
+      term: "Sand hump",
+      definition: "An extended portion of rail embedded in sand of 60m in length with increasing gradient of 1 in 60 of which first 30m is laid with normal track embedded in sand and remaining an earthen lump of 4m width is known as Sand Hump",
+      reference: "--"
+    },
+    {
       number: 106,
       term: "Sectional Capacity",
       definition: "The number of trains which can be run on a section in 24 hours is termed as Sectional Capacity.",
@@ -659,6 +671,12 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       number: 109,
       term: "Signal",
       definition: "A visible or audio indication controlling train movement.",
+      reference: "--"
+    },
+    {
+      number: 110,
+      term: "Snag Dead End",
+      definition: "An extended portion of track of minimum 180m used to isolate main line from loop line and can be an efficient substitute for signal overlp is known as Snag Dead End",
       reference: "--"
     },
     {
@@ -749,6 +767,12 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       number: 124,
       term: "Train Notice",
       definition: "The message from Divisional Control that a train is scheduled to leave from a Station or Yard at a certain time, is known as the Train Notice.",
+      reference: "--"
+    },
+    {
+      number: 125,
+      term: "Trap Point",
+      definition: "A single rail cut point provided to isolate a running line from a non-running line, such that if a vehicle moves over it when it is open, the vehicle will derail. This is known as a trap point.",
       reference: "--"
     },
     {

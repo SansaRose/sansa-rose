@@ -16,6 +16,8 @@ const Distances = () => {
 
     { question: '“Danger Zone” means the zone lying around any live equipment with in a radius of________', answer: '2M', distance: '2M' },
 
+    { question: 'Station Master or Parcel Clerk shall ensure Parcel, luggage, goods and vendors‘ trays and barrows shall not be placed on passenger platforms within ______ meters of the edge of the platform.', answer: '3 meters', distance: '3M' },
+
     { question: 'The distance between the two tracks on Broad Gauge', answer: '1676M', distance: '1676M' },
 
 
@@ -42,6 +44,8 @@ const Distances = () => {
     { question: 'While receiving a train on an obstructed line, STOP hand signal shall be exhibited from the point of obstruction at a distance of not less than', answer: '45M', distance: '45M' },
 
     { question: 'A safety radius/distance of 45M should be maintained during the explosion of detonators.', answer: '45M', distance: '45M' },
+
+    { question: 'Sand hump is an extended portion of rail embedded in sand of ____ in length with increasing gradient of 1 in 60', answer: '60M', distance: '60M' },
     
     { question: 'When a train is stopped in an automatic block signalling section on single line and train cannot proceed further, the Guard shall protect in rear duly placing detonators at', answer: '90, 180, &190M', distance: '90M' },
     
@@ -163,6 +167,8 @@ const Distances = () => {
 
     { question: 'What is the validity of BPC for a Dedicated Parcel Express Train?', answer: '4500 km or 10 days', distance: '4500KM' },
     { question: 'What is the enhanced (under trial) validity for a BOXN/BOXNHL CC Rake?', answer: '10000 km or 35+5 days', distance: '1000KM' },
+
+    { question: 'Sand hump is an extended portion of rail embedded in sand of 60 M in length with increasing gradient of ______', answer: '1 in 60', distance: 'Gradients' },
     
     { question: 'The provision of Catch siding is compulsory, where the falling gradient towards Station section is steeper than', answer: '1 in 80', distance: 'Gradients' },
 

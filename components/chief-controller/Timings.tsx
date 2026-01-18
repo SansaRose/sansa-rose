@@ -111,6 +111,8 @@ const Timings = () => {
 
     { question: 'Out station rest for Guard performing more than 10 hours duty is ______ hours', answer: '8 hours', timing: '8 hours' },
 
+    { question: 'To ensure that bona fide use of waiting rooms is being made, they shall be checked by a ticket checking staff every ________ hours', answer: '8 hours', timing: '8 hours' },
+
     { question: 'Running duty at a stretch should not ordinarily exceed _____ hours from the departure of the train.', answer: '9 hours', timing: '9 hours' },
 
     { question: 'The maximum duty hours in any one trip should not exceed ______ hours.', answer: '10 hours', timing: '10 hours' },
@@ -194,14 +196,18 @@ const Timings = () => {
     { question: 'BPC of a material train is valid for 30 days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
 
     { question: 'No Railway servant in respect of whom an exemption has been made under rule shall be required to work for more than ______ days without a period of rest and shall be provided with compensatory rest within this period.', answer: '14 days', timing: '14 days' },
+
+    { question: 'No NI working should last for more than________ days.', answer: '14 days', timing: '14 days' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
 
     { question: 'Engineering and S&T officials shall send a circular notice before the work is due to commence to the Sr. DOM/DOM at least', answer: '15 days in advance', timing: '15 days' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, finalization of enquiry report by CSO/AGM to be done within is _____', answer: 'D + 15 days', timing: '15 days' },
-    
-    { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '20 days', timing: '20 days' },
+
+    { question: 'Detailed working instructions clearly specifying the zone of responsibility of each and every staff and supervisor, along with temporary working instructions, must be issued at least ___________ in advance of NI working', answer: '15 days', timing: '15 days' },
+
+    { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in a fortnight is', answer: '20 days', timing: '20 days' },
 
 
     { question: 'If the distance (km) data is missing and not retrievable for a CC Rake, for how many days is the BPC valid?', answer: '20 days', timing: '20 days' },
@@ -236,9 +242,12 @@ const Timings = () => {
 
     { question: "No appeal preferred under this part (Rule 20 - Period of limitation for appeals), shall be entertained unless such appeal is preferred within a period of ______ days from the date on which a copy of the order appealed against, is delivered to the appellant", answer: '45 days', timing: '45 days' },
 
+    { question: 'Construction officials responsible for carrying out the NI work should send a circular notice to the Sr. DOM/Sr. DSO at least ___________ in advance.', answer: '2 months', timing: '2 months' },
+
     { question: 'Maximum encashment of Leave on Average Pay (LAP) is ______ days', answer: '60 days', timing: '60 days' },
 
     { question: 'The time-limit for submitting of claims for Travelling Allowance is within ___ days succeeding the date of completion of journey', answer: '60 days', timing: '60 days' },
+
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
 
@@ -284,6 +293,10 @@ const Timings = () => {
 
     { question: 'The periodic joint inspection of tipplers to be carried out by Sr.DME/ DME (C&W) once in ______ months.', answer: '6 months', timing: '6 months' },
 
+    { question: 'Regular inspection in which each station on the division is inspected in details at least ___________covering the various aspects of safety, operations and allied matters including staff matters and comprehensive in nature', answer: 'once in every 6 months', timing: '6 months' },
+
+    { question: 'Running staff review should be carried out after every ----------- by Senior technical assistant of the division.', answer: '6 months', timing: '6 months' },
+
     { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
 
     { question: 'Maximum period of Leave on Average Pay (LAP) at a time that a Railway servant may be granted is ______ days', answer: '180 days', timing: '180 days' },
@@ -323,6 +336,8 @@ const Timings = () => {
     { question: 'Certificate of competency issued to Gateman will be valid for a period of', answer: '5 years', timing: '5 years' },
 
     { question: 'Station Working Rules (SWR) should be issued afresh once in', answer: '5 years', timing: '5 years' },
+
+    { question: 'In no case, whatever, shall a male passenger except a boy under _________ of age be allowed to travel in a compartment reserved for Ladies in any train.', answer: '12 years', timing: '12 years' },
 
     { question: 'Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in ______ years of service', answer: '20 years', timing: '20 years' },
 

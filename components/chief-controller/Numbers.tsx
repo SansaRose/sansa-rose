@@ -236,6 +236,11 @@ const Numbers = () => {
         category: '6'
       },
       {
+        question: 'Minimum Surprise Inspections that shall be conducted by the sectional TI in a month is ________',
+        answer: '6',
+        category: '6'
+      },
+      {
         question: 'For the purpose of Weather Warning, South Central Railway is divided into ______ zones',
         answer: '7',
         category: '7'

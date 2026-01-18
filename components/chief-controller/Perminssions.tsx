@@ -281,6 +281,21 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
+      description: 'For NI working of up to 3 days, plans will be finalized in consultation with ____________, Branch Officers and concerned HOD of Construction/RE Organization.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Before permitting introduction of NI working, _______________ will satisfy himself regarding arrangement of staff, safety equipment, lighting, telecommunication and ground position.',
+      authority: 'DRM/ADRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Running staff review when carried out, after accounts vetting, sanction of ___________ be taken and Sr. DPO will issue circulars of revised sanction.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
       description: 'Whenever Officers and Inspectors & Guards shall check speed of trains and if it is found that speed has been exceeded, they should inform LP at next stop and submit a report to ______',
       authority: 'DOM/DME/DEE',
       category: 'DOM'
@@ -422,6 +437,11 @@ const Perminssions = () => {
     },
     {
       description: 'Employees are forbidden to occupy any place in station area for praying holding religious functions speeches, discourses etc., to erect religious structures, either permanent or temporary, or to add or alter any existing religious structures on railway land, without the sanction of the ______',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'For NI working of more than 7 days personal approval of the _______________must be obtained.',
       authority: 'GM',
       category: 'GM'
     },
