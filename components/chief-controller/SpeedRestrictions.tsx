@@ -55,6 +55,8 @@ const SpeedRestrictions = () => {
     { question: 'The Gap between Contact wire and Over Dimensional Consignment (ODC) between 250 mm and 200 mm(For 25 KV AC Electrified Sections) the speed shall be restricted to ______ kmph', answer: '15 kmph', speed: '15 kmph' },
 
     { question: 'The Gap between Contact wire and Over Dimensional Consignment (ODC) less than 200 mm (For 25 KV AC Electrified Sections) the speed shall be restricted to ______ kmph and over head power shall be switched off', answer: '15 kmph', speed: '15 kmph' },
+
+    { question: 'The Loco Pilot of a train while passing an Outer, a Home or a Routing signal, when it is "on" or defective, shall ensure that the speed of his train does not exceed _______ kmph.', answer: '15 kmph', speed: '15 kmph' },
     
     { question: 'When IBS is at "ON" and the telephone is out of order, Loco Pilot after waiting for five minutes shall proceed when view is clear/not clear up to next stop signal at a speed of', answer: '15/8 kmph', speed: '15/8 kmph' },
     

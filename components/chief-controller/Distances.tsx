@@ -32,6 +32,12 @@ const Distances = () => {
     { question: 'From the obstruction (work spot), Engineering Stop indicator is located at', answer: '30M', distance: '30M' },
 
     { question: 'Termination Indicator is a square board of side 610 mm with black letter "T" on white background and located at 30 metres beyond danger zone', answer: '30M', distance: '30M' },
+
+    { question: 'When the train is required to Stop and the restriction is likely to last for more than a day.— A ___ shall be exhibited at a distance of ___from the place of obstruction and a _____ at 1200 metres on the Broad Gauge.', answer: 'Stop indicator, 30 metres, Caution indicator', distance: '30M' },
+
+    { question: 'When the train is not required to Stop and the restriction is likely to last only for a day or less.— Proceed with caution hand signals shall be exhibited at a distance of ___and again at a distance of at least ___ from the place of obstruction.', answer: '30 metres, 800 metres', distance: '30M' },
+
+    { question: 'When the train is not required to Stop and the restriction is likely to last for more than a day.— A ___ shall be exhibited at a distance of ___ from the place of obstruction and again a caution indicator at a distance of at least ___ or as specified by special instructions from the place of obstruction.', answer: 'speed indicator, 30 metres, 800 metres', distance: '30M' },
     
     { question: 'While receiving a train on an obstructed line, STOP hand signal shall be exhibited from the point of obstruction at a distance of not less than', answer: '45M', distance: '45M' },
 
@@ -95,12 +101,16 @@ const Distances = () => {
 
     { question: 'To treat any accident as averted collision, outside station limits, the distance between two trains shall be ______', answer: 'Less than 400 meters', distance: '400M' },
 
+    { question: 'Whenever dead loco is attached to a train, as a final check, the coupled locos should be run for about _________and the driver shall check for any abnormal rise in the temperature of the wheels of the dead locomotive and shall also check it at subsequent stops during the journey.', answer: '500M', distance: '500M' },
+
     { question: 'The Outer signal is located on a Single line section at a distance of Not less than 580M from Outermost points.', answer: '580M', distance: '580M' },
     
     { question: 'Whistle Board in case of approach to manned level crossing gates is at a distance of', answer: '600M', distance: '600M' },
     { question: 'When the train is required to stop and the restriction is likely to last only for a day or less, on BG a Banner flag shall be exhibited at a distance of', answer: '600M', distance: '600M' },
     
     { question: 'When a train is stopped in an automatic block signalling section on D/L (BG) and train cannot proceed further, the LP/ALP shall protect adjacent line in front duly placing detonators at', answer: '600, 1200, 1210 &1220 M', distance: '600M' },
+
+    { question: 'When the train is required to Stop and the restriction is likely to last only for a day or less.— A banner flag shall be exhibited at a distance of _____ on the Broad Gauge and three detonators at a distance of ______. In addition, Stop hand signal shall be shown at a distance of ______ from the place of obstruction and _______ from last detonator', answer: '600 M, 1200 M, 30 M, 45M', distance: '600M' },
     
     { question: 'Loop Line clearance Board with legend \'T/Loop\' to be provided at stations at a distance of', answer: '720M', distance: '720M' },
     

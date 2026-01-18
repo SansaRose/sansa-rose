@@ -21,6 +21,11 @@ const Perminssions = () => {
       category: 'Government of India'
     },
     {
+      description: 'Magisterial Inquiry may be judicial or non-judicial and is appointed by the_______.',
+      authority: 'State Government',
+      category: 'State Government'
+    },
+    {
       description: 'All India Trains at a glance is prepared by ______',
       authority: 'Railway Board',
       category: 'Railway Board'
@@ -66,6 +71,21 @@ const Perminssions = () => {
         category: 'PCOM'
       },
       {
+        description: "For block rake composition and marshalling order, 'Normal composition and marshalling order and rake link of passenger trains' are issued by ___________ of respective railways from time to time.",
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: "Classifying a passenger carrying train as a mixed train needs authorization by ________",
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'The Operating Branchwill arrange to advise the _______ of the other Ralways concerned, with full dimensions of the consignment, as loaded in the truck for issue of necessary final sanction for movement.',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
         description: 'Classifying a passenger carrying train as a mixed train needs authorization by ______ of the concerned Railway.',
         authority: 'COM',
         category: 'COM'
@@ -77,6 +97,41 @@ const Perminssions = () => {
       },
       {
         description: 'The Officer authorized to certify Officers of HQ for working of motor trolleys ______',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'All consequential accidents & yard accidents having serious repercussion are to be immediately conveyed to the Railway Board by _______________',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'In case of CRS or CCRS is not in a position to conduct inquiry into serious accident cases, notified to him, the inquiry shall be carried out by a Committee of ___________and ________of the Railway shall be convenor of such Committee.',
+        authority: 'SA Grade Officers, PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto PHOD of the Railway on which the accident took place through_________',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'Only on receipt of the orders of the _______________regarding the finding in the inquiry proceedings, shall disciplinary action be taken by the appropriate authorities in accordance with Discipline and Appeal Rules',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'The actual punishment imposed on the staff shall be communicated to the __________________within the stipulated time.',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'If the Magistracy or the Railway Police or the Local Police require a copy of the Inquiry Proceedings or the findings, they have to apply to the ______________.',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'Railway Board has authorized ________________ (when GM/AGM is not available)for declaring an untoward incident as Railway Disaster.',
         authority: 'PCSO',
         category: 'PCSO'
       },
@@ -171,6 +226,61 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
+      description: 'The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise _______ and other Officers concerned, their opinion, mentioning the department or departments responsible and person or persons responsible for the occurrence.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Staff alleged to be guilty of offences which, in the opinion of the ______________ or the concerned Divisional Officer would, if proved, amounting in their removal from service /dismissal, shall be placed under suspension, pending the result of the inquiry',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'For accidents not falling under the purview of CRS, the ______ shall order an enquiry by a committee of officers from the departments concerned.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Normally __________ shall order all departmental and inter-departmental inquiries into accidents.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'All cases of Indicative Accidents shall be inquired into by a Committee of SS or JS Officers with ___________ as the accepting authority.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'If no department accepts responsibility, the Divisional Safety Officer shall at once put up the case to the _________ who will, if necessary, order an Inter Departmental inquiry.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'If the findings of Sr. Supervisors of inquiry Committee are not accepted, an inquiry at Officers level should be ordered by the ____________.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Before an employee takes independent charge of a post connected with train working for the first time, the pickup period is generally laid down by the _________',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Station Masters and other railway staff including Guards and Loco pilots of any train must not permit the display of advertisement matters on engines, passenger coaches and other rolling stock, unless the prior permission of the ________ concerned has been obtained.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'If there is any difficulty in replying to the required information from the public, the Station Master shall acknowledge the receipt of the letter immediately and matter referred to the ______',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'The playing of bands and presentation of Guard of Honour etc., on the Station Platform is prohibited, except with the prior permission of the ________',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
       description: 'Whenever Officers and Inspectors & Guards shall check speed of trains and if it is found that speed has been exceeded, they should inform LP at next stop and submit a report to ______',
       authority: 'DOM/DME/DEE',
       category: 'DOM'
@@ -197,6 +307,11 @@ const Perminssions = () => {
     },
     {
       description: 'Specific Loading Order (S.L.O) is givenby  ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'When ODC consignment is offered at a station for booking SS/SM should apply to the ___________, who will obtain the necessary sanction of the competent authority. An application must show the length, width, height, and weight of the load accompanied by a sketch in duplicate of the consignment.',
       authority: 'Sr.DOM',
       category: 'DOM'
     },
@@ -231,8 +346,18 @@ const Perminssions = () => {
       category: 'DOM'
     },
     {
+      description: '_______________ shall fix the duty hours for the staff at stations in accordance with the (Hours of employment regulations) in consultation with concerned officials',
+      authority: 'Sr.DPO/DPO',
+      category: 'DPO'
+    },
+    {
       description: 'The Officer authorized to certify Group ‘C’ staff of the division for working of motor trolleys ______',
       authority: 'Sr.DSO',
+      category: 'DSO'
+    },
+    {
+      description: 'All yard accidents shall be inquired into by a Committee of Sr. Supervisors with __________as accepting authority.',
+      authority: 'Sr. DSO / DSO',
       category: 'DSO'
     },
     {
@@ -276,6 +401,31 @@ const Perminssions = () => {
       category: 'GM'
     },
     {
+      description: 'In case of CRS or CCRS is not in a position to conduct inquiry into serious accident cases, PCSO of the Railway shall be convenor of such Committee and _______ Railway will be the accepting authority.',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'All cases of collisions falling under A1 to A4 categories shall be inquired into by a committee of SAG officers with __________ as the accepting authority',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'If suitable response is not received from the respondent Railway at ___________ level, for finalisation of DAR cases for accident involved by staff of foreign railway, then the case should be referred to Railway Board.',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Railway Board has authorized _______________ for declaring an untoward incident as Railway Disaster.',
+      authority: 'GM or AGM',
+      category: 'GM'
+    },
+    {
+      description: 'Employees are forbidden to occupy any place in station area for praying holding religious functions speeches, discourses etc., to erect religious structures, either permanent or temporary, or to add or alter any existing religious structures on railway land, without the sanction of the ______',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
       description: 'Accident Inquiry Reports with staff of foreign railway responsibility should be put to __________directly being the Accepting Authority in such cases.',
       authority: 'AGM',
       category: 'AGM'
@@ -284,6 +434,21 @@ const Perminssions = () => {
       description: 'The level of enquiry to be conducted in case of A1 to A4(collision) in case CRS is not conducting to be done by minimum grade officers of ______',
       authority: 'SAG',
       category: 'SAG'
+    },
+    {
+      description: 'For accidents not falling under the purview of CRS, the GM considers it is necessary to hold an inquiry by the __________ in to such accidents, the same can be ordered.',
+      authority: 'PHOD',
+      category: 'PHOD'
+    },
+    {
+      description: 'If the cause of the accident is attributable beyond doubt to a particular department in Railways and the ______________ accepts the responsibility, the inquiry by the inter-departmental committee can be dispensed with.',
+      authority: 'PHOD',
+      category: 'PHOD'
+    },
+    {
+      description: 'In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto PHOD of the Railway on which the accident took place through_________',
+      authority: 'PHOD',
+      category: 'PHOD'
     },
   ]
 

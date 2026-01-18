@@ -156,6 +156,21 @@ const Numbers = () => {
       category: '3'
     },
     {
+      question: 'The Railway Board has permitted marshalling of _____________in front and rear of the SLR on short trains, provided they have working brakes and subject to end coaches at either side are anti telescopic',
+      answer: '3 coaches',
+      category: '3'
+    },
+    {
+      question: 'Maximum _________inspection carriages occupied by the officers can be attached and in case it exceeds, , rules regarding running of goods trains without brake van will apply.',
+      answer: '3',
+      category: '3'
+    },
+    {
+      question: 'ODCs are divided into ____________according to the minimum clearance available between the consignment and minimum fixed structure profile.',
+      answer: '3 classes',
+      category: '3'
+    },
+    {
       question: 'Continuous night duty for running staff should be limited to ______ nights with fourth night towards headquarters.',
       answer: '4',
       category: '4'

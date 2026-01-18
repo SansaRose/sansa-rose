@@ -720,6 +720,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CGHS", fullForm: "Central Government Health Scheme",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CHC", fullForm: "Chief Controller",
         explanation: "Will be added later",
         reference: "--"
@@ -971,6 +975,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CTNL", fullForm: "Control Telephone",
+        explanation: "A telephone line used for communication between control centers and field staff",
+        reference: "--"
+      },
       { acronym: "CTO", fullForm: "Container Train Operators",
         explanation: "Will be added later",
         reference: "--"
@@ -992,6 +1000,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CTRB", fullForm: "Catridge Tapered Roller Bearings",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CTSE", fullForm: "Cashless Treatment Sceme in Emergency",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1153,6 +1165,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "DMS", fullForm: "Divisional Medical Superintendent",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "DMT", fullForm: "Departmental Material Trains",
         explanation: "A maintenance train used to carry materials for track repair and maintenance works",
         reference: "--"
@@ -1288,6 +1304,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "ECA", fullForm: "Employees Compensation Act",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "ECR", fullForm: "Expenditure Control Register",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1457,6 +1477,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "FOB", fullForm: "Foot Over Bridge",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "FOIS", fullForm: "Freight Operations & Information System",
         explanation: "A computerized system used for monitoring and managing freight train movements and logistics",
         reference: "--"
@@ -1542,6 +1566,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "GOB", fullForm: "General Order Book",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "GPF", fullForm: "General Provident Fund",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2564,6 +2592,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "PFM", fullForm: "Public Financial Management",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PGC", fullForm: "Passenger Gaurd Course",
         explanation: "Will be added later",
         reference: "--"
@@ -2573,6 +2605,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PGS", fullForm: "Pilot Guard System",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PHC", fullForm: "Primary Health Center",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2593,6 +2629,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PKM", fullForm: "Passenger Kilometers",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PLB", fullForm: "Productivity Linked Bonus",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2810,6 +2850,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "RBE", fullForm: "Railway Board Establishment",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "RCF", fullForm: "Rail Coach Factory",
         explanation: "Will be added later",
         reference: "--"
@@ -2927,6 +2971,10 @@ type AbbreviationItem = {
       },
       { acronym: "RPF", fullForm: "Railway Protection Force",
         explanation: "Security organization protecting railway passengers and property",
+        reference: "--"
+      },
+      { acronym: "RPSF", fullForm: "Railway Protection Special Force",
+        explanation: "Will be added later",
         reference: "--"
       },
       { 
@@ -3545,6 +3593,12 @@ type AbbreviationItem = {
         "explanation": "Railway staff responsible for on-board ticket verification.",
         reference: "--"
       },
+      {
+        "acronym": "TTI",
+        "fullForm": "Travelling Ticket Inspector",
+        "explanation": "A railway staff responsible for inspecting tickets and ensuring compliance with fare rules.",
+        reference: "--"
+      },
       { acronym: "TTM", fullForm: "Track Tamping Machine",
         explanation: "Will be added later",
         reference: "--"
@@ -3681,13 +3735,13 @@ type AbbreviationItem = {
       },
       {
         acronym: "WAG",
-        fullForm: "Wide Gauge AC Goods (Electric Locomotive Class)",
+        fullForm: "Wide Gauge AC Goods Locomotive",
         explanation: "Designation for goods-hauling electric locomotives (e.g., WAG-7, WAG-9).",
         reference: "--"
       },
       {
         acronym: "WAP",
-        fullForm: "Wide Gauge AC Passenger (Electric Locomotive Class)",
+        fullForm: "Wide Gauge AC Passenger Locomotive",
         explanation: "Designation for passenger electric locomotives (e.g., WAP-4, WAP-7).",
         reference: "--"
       },
@@ -3701,13 +3755,13 @@ type AbbreviationItem = {
       },
       {
         acronym: "WDG",
-        fullForm: "Wide Gauge Diesel Goods (Locomotive Class)",
+        fullForm: "Wide Gauge Diesel Goods Locomotive",
         explanation: "Diesel locomotives primarily designed for hauling freight trains.",
         reference: "--"
       },
       {
         acronym: "WDP",
-        fullForm: "Wide Gauge Diesel Passenger (Locomotive Class)",
+        fullForm: "Wide Gauge Diesel Passenger Locomotive",
         explanation: "Diesel locomotives mainly used for passenger services.",
         reference: "--"
       },
@@ -3778,6 +3832,10 @@ type AbbreviationItem = {
       },
       { acronym: "WKM", fullForm: "Wagon Kilometer",
         explanation: "",
+        reference: "--"
+      },
+      { acronym: "WMS", fullForm: "Wage Management System",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "WMUCS", fullForm: "Wireless Multiple Unit Coupler System",

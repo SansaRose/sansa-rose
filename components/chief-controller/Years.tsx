@@ -21,6 +21,16 @@ const Years = () => {
         category: '1949'
       },
       {
+        question: 'An example of Non Railway enquiries are Judicial Commission or Commission of Inquiry as per Enquiries Act of ______',
+        answer: '1952',
+        category: '1952'
+      },
+      {
+        question: 'The Central Government may appoint a Commission of Inquiry under the Commission of Inquiry Act, ________ in a very serious accident.',
+        answer: '1952',
+        category: '1952'
+      },
+      {
         question: 'In compliance of article 344 when was the official language commission formed in the year?',
         answer: '07.06.1955',
         category: '1955'
@@ -99,6 +109,11 @@ const Years = () => {
       question: 'When the Official Language Rules were amended first?',
       answer: '1987',
       category: '1987'
+    },
+    {
+      question: 'CRS shall hold statutory enquiry into the accidents falling under Section 113 of Railways Act _________.',
+      answer: '1989',
+      category: '1989'
     },
     {
       question: 'Ministry of Railways (Railway Board) constituted a Committee for the revision of General Rules, 1976, who have submitted the final report in the year.',

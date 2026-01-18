@@ -155,9 +155,17 @@ const Timings = () => {
 
     { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - with effect from the date of his conviction, if in the event of a conviction for an offence, he is sentenced to a term of imprisonment exceeding ______ hours and is not forthwith dismissed or removed or compulsorily retired consequent to such conviction.', answer: '48 hours', timing: '48 hours' },
 
+    { question: 'Every portion of the permanent way shall be inspected daily on foot by some railway servant by approved special instructions be increased to ____in the case of lines with light and infrequent traffic.', answer: 'once in two days', timing: '2 days' },
+
+    { question: 'Irrespective of whether a joint or Inter departmental Inquiry is ordered by the General Manager, Sr.DSO of the division shall be advised within _______by the other divisional officers whether their department is accepting responsibility or not.', answer: '2 days', timing: '2 days' },
+
     { question: 'Weekly Hours of duty including P&C of Continuous category of employees is------- Hours', answer: '54 hours', timing: '54 hours' },
     
     { question: 'After issuing circular notice, how many days in advance, the DOM will issue an all concerned message', answer: '2 days', timing: '2 days' },
+
+    { question: 'When a Joint or Interdepartmental inquiry is ordered by the GM, the inquiry shall be held at station nearest to the site of accident and within ________after the occurrence of accident.', answer: '3 days', timing: '3 days' },
+
+    { question: 'Station Master may permit Learning duties at Medium stations & Road side station on first posting or when there is change of system/means of working of trains', answer: '3 days', timing: '3 days' },
 
     { question: 'The limit of stay away from Headquarters for Running staff should be fixed at ______ hours.', answer: '72 hours', timing: '72 hours' },
 
@@ -165,13 +173,19 @@ const Timings = () => {
 
     { question: 'When must an Empty End-to-End Rake reach the loading point from the time of BPC issue, otherwise a fresh BPC is required?', answer: 'Within 4 days', timing: '4 days' },
 
+    { question: 'Station Master may permit Learning duties at Large stations or junction stations on first posting or when there is change of system/means of working of trains', answer: '5 days', timing: '5 days' },
+
     { question: 'Subject to exigencies of services, a maximum limit of ______ duty hours per fortnight should be laid down for all Running staff.', answer: '125 hours', timing: '125 hours' },
 
     { question: 'The BPC of DEMU 700 HP trains is valid for ______', answer: '7 days', timing: '7 days' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to be done within is _____', answer: 'D + 7 days', timing: '7 days' },
 
+    { question: 'Station Master may permit Learning duties at Terminal stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains ______', answer: '8 days', timing: '8 days' },
+
     { question: 'The BPC of DEMU other than 700 HP trains is valid for ______', answer: '10 days', timing: '10 days' },
+
+    { question: 'Station Master may permit Learning duties at Junction stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains', answer: '10 days', timing: '10 days' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, acceptance of enquiry report to be done within is _____', answer: 'D + 10 days', timing: '10 days' },
 
@@ -204,11 +218,13 @@ const Timings = () => {
 
     { question: 'First Aid boxes available with Station Masters and Guards of passenger carrying trains are to be inspected by DMO ____________', answer: 'Once in a month', timing: '1 month' },
 
+    { question: 'Each Inspector of Way or Works shall at least ______inspect the permanent way gauges, flags, signal lamps, detonators, tools and implements supplied to the gangs and ascertain whether the above equipment is complete and in good order.', answer: 'Once in a month', timing: '1 month' },
+
     { question: 'How many days of Leave on Average Pay (LAP) can be granted to a Permanent/Temporary Railway servant for a period of one year?', answer: '30 days', timing: '30 days' },
 
     { question: 'A balance of atleast ________ days of leave on Average Pay should be available to the credit in leave account after taking into account the period of encashment', answer: '30 days', timing: '30 days' },
 
-    { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days' },
+    { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days'},
 
     { question: 'For miscarriage including abortion, what period of Maternity leave may be granted', answer: '45 days', timing: '45 days' },
 
@@ -282,7 +298,9 @@ const Timings = () => {
 
     { question: 'Wagon census is conducted once in ______', answer: 'a year', timing: '1 year' },
 
-    { question: 'POH interval of passenger coaches run on Mail Exp/Passenger trains is ______', answer: '18 months', timing: '18 months' },
+    { question: 'Normal period for which Station Operating Registers- Train passing registers/Books are required to be preserved', answer: '1 year', timing: '1 year' },
+
+    { question: 'Normal period for which Station Operating Registers - Caution order register and Caution Order books are required to be preserved', answer: '1 year', timing: '1 year' },
 
     { question: 'On passing Hindi Stenography examination, for how many months personal pay equal in amount to one increment is given?', answer: '24 months', timing: '24 months' },
     
@@ -293,6 +311,12 @@ const Timings = () => {
     { question: 'The competency certificate issued by DEE (TRD) to SM for operating the isolators (in emergency) is valid for ______ years', answer: '3 years', timing: '3 years' },
 
     { question: 'Record pertaining to Court Cases, departmental enquiries should not be destroyed till ______ years from the date the case is decided.', answer: '3 years', timing: '3 years' },
+
+    { question: 'Normal period for which Station Operating Registers- Wagon demand/priority register are required to be preserved is ______', answer: '3 years', timing: '3 years' },
+
+    { question: 'Normal period for which Station Operating Registers - Indent and Loading Register are required to be preserved is ______', answer: '3 years', timing: '3 years' },
+
+    { question: 'Normal period for which Station Operating Registers - Control Order Book/Conference Book are required to be preserved is ______', answer: '3 years', timing: '3 years' },
     
     { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
     
@@ -310,6 +334,9 @@ const Timings = () => {
     { question: 'Normal monsoon period for Vijayawada & Guntur divisions is from 15th June to', answer: '15th January', timing: 'Other' },
     { question: 'For all Goods trains at originating station "is line clear" should be asked', answer: 'Train is ready', timing: 'Other' },
     { question: 'At intermediate stations, for all stopping trains with a halt of less than five minutes is line clear\' shall be asked when the Train is', answer: 'Sighted', timing: 'Other' },
+    { question: 'Normal period for which Station Operating Registers- Muster Roll are required to be preserved is ______', answer: 'Permanent record', timing: 'Others' },
+    { question: 'Normal period for which Station Operating Registers- Station Inspection Register are required to be preserved is ______', answer: 'Permanent record', timing: 'Others' },
+    { question: 'Normal period for which Station Operating Registers Transportation Bio-data Register Register of Home Addresses of staff etc are required to be preserved is ______', answer: 'Permanent record', timing: 'Others' },
   ]
 
   // Group timings by duration for better organization
