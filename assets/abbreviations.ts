@@ -48,7 +48,6 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "ADMO", fullForm: "Assistant Divisional Medical Officer" },
-      { acronym: "ADRM", fullForm: "Additional Divisional Railway Manager" },
       {
         acronym: "ADRM",
         fullForm: "Additional Divisional Railway Manager",
@@ -308,10 +307,6 @@ type AbbreviationItem = {
       },
       { acronym: "BIC", fullForm: "Bogie Isolation Cock",
         explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "BIB", fullForm: "Brake Interface Unit",
-        explanation: "It is a part of Loco Kavach. It executes the brake commanded by Onboard Vital Computer automatically when Loco pilot is not controlling the speed in commensuration with permitted speed which is based on signalling information including permanent speed restrictions, gradient, braking characterstics of train.",
         reference: "--"
       },
       { acronym: "BIU", fullForm: "Brake Interface Unit",
@@ -790,10 +785,6 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "CMRL", fullForm: "Cennai Rail Metro Limited",
-        explanation: "Will be added later",
-        reference: "--"
-      },
       { acronym: "CNM", fullForm: "Chief Network Manager",
         explanation: "Will be added later",
         reference: "--"
@@ -812,10 +803,6 @@ type AbbreviationItem = {
       },
       { acronym: "COFMOW", fullForm: "Central Organization For Modernization Of Workshop",
         explanation: "An organisation responsible for modernization of railway workshops",
-        reference: "--"
-      },
-      { acronym: "COS", fullForm: "Controller of Stores",
-        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "COIS", fullForm: "Coaching Operations Information System",
@@ -1515,10 +1502,6 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "FWU", fullForm: "Final Works Program",
-        explanation: "Will be added later",
-        reference: "--"
-      },
     ],
     G: [
       { acronym: "GAGAN", fullForm: "GPS aided GEO augmented Navigation",
@@ -1655,10 +1638,6 @@ type AbbreviationItem = {
         explanation: "Rules regulating duty hours and rest periods for railway running and safety staff.",
         reference: "--"
       },
-      { acronym: "HOER", fullForm: "Hours of Employment and period of Rest Rules",
-        explanation: "Hours of Employment and period of Rest Rules (HOER) are the rules governing the working hours and rest periods for railway running and safety staff.",
-        reference: "--"
-      },
       { acronym: "HOG", fullForm: "Head On Generation",
         explanation: "Power supply system where the locomotive supplies electrical power to the entire train, eliminating the need for generator cars",
         reference: "--"
@@ -1685,10 +1664,6 @@ type AbbreviationItem = {
         fullForm: "High Speed Rail Corporation of India", 
         explanation: "For development and implementation of high speed rail projects.", 
         reference: "--  " 
-      },
-      { acronym: "HSRI", fullForm: "High Speed Rail Coroporation of India Limited",
-        explanation: "Will be added later",
-        reference: "--"
       },
       { acronym: "HVML", fullForm: "High Visibility Marker Light",
         explanation: "The marker light portion of the EoT device, flashing light to mark the End of Train (EoT).",
@@ -2343,10 +2318,6 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "NPS", fullForm: "New Pension System",
-        explanation: "Will be added later",
-        reference: "--"
-      },
       { acronym: "NPS", fullForm: "National Pension System",
         explanation: "Will be added later",
         reference: "--"
@@ -2538,10 +2509,6 @@ type AbbreviationItem = {
         explanation: "The zonal head responsible for safety monitoring and compliance",
         reference: "--"
       },
-      { acronym: "PCV", fullForm: "Passenger Carrying Vehicle",
-        explanation: "Will be added later",
-        reference: "--"
-      },
       { acronym: "PFRDA", fullForm: "Pension Fund Regulatory and Development Authority",
         explanation: "Will be added later",
         reference: "--"
@@ -2549,11 +2516,6 @@ type AbbreviationItem = {
       { acronym: "PCSTE",
         fullForm: "Principal Chief Signal and Telecommunication Engineer",
         explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "PCV", 
-        fullForm: "Passenger Coaching Vehicle",
-        explanation: "A vehicle in which whole or some portion is being utilized for carrying passengers.",
         reference: "--"
       },
       { acronym: "PCVO", fullForm: "Principal Chief Vigilance Officer",
@@ -2649,10 +2611,6 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PME", fullForm: "Periodical Monitoring Examination",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "PME", fullForm: "Preventive Maintenance Examination",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2792,14 +2750,24 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+    ],
+    R: [
       { acronym: "RA", fullForm: "Inspection Carriage (Administration)",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "RAC", fullForm: "Reservation Against Cancellation",
+        explanation: "Railway ticket status ensuring travel but conditional berth",
         reference: "--"
       },
       {
         acronym: "RAR",
         fullForm: "Railway Accounting Rules",
         explanation: "Rules that govern accounting procedures on Indian Railways.",
+        reference: "--"
+      },
+      { acronym: "RARV", fullForm: "Road Accident Restoration Vehicles",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "RAS", fullForm: "Rake Allocation System",
@@ -2820,41 +2788,11 @@ type AbbreviationItem = {
         explanation: "Kapurthala-based factory producing modern passenger coaches.",
         reference: "--"
       },
-      {
-        "acronym": "RDSO",
-        "fullForm": "Research Designs & Standards Organisation",
-        "explanation": "The R&D wing of Indian Railways responsible for developing and standardizing designs and systems.",
-        reference: "--"
-      },
-      { acronym: "RM", fullForm: "Railway Motor Van",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "RH", fullForm: "Railway Hospital Van",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "RZ", fullForm: "Track Recorder Car",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "RAC", fullForm: "Reservation Against Cancellation",
-        explanation: "Railway ticket status ensuring travel but conditional berth",
-        reference: "--"
-      },
-      { acronym: "RARV", fullForm: "Road Accident Restoration Vehicles",
-        explanation: "Will be added later",
-        reference: "--"
-      },
       { acronym: "RBS", fullForm: "Rates Branch System",
         explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "RBE", fullForm: "Railway Board Establishment",
-        explanation: "Will be added later",
-        reference: "--"
-      },
-      { acronym: "RCF", fullForm: "Rail Coach Factory",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2885,6 +2823,12 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      {
+        "acronym": "RDSO",
+        "fullForm": "Research Designs & Standards Organisation",
+        "explanation": "The R&D wing of Indian Railways responsible for developing and standardizing designs and systems.",
+        reference: "--"
+      },
       { acronym: "RDW", fullForm: "Rail Dolly Works",
         explanation: "Will be added later",
         reference: "--"
@@ -2913,6 +2857,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "RH", fullForm: "Railway Hospital Van",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { 
         acronym: "RIDE", 
         fullForm: "Rail Infrastructure Development Corporation",
@@ -2936,6 +2884,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "RLT", fullForm: "Railway Labour Tribunal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "RM", fullForm: "Railway Motor Van",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3058,6 +3010,10 @@ type AbbreviationItem = {
       { acronym: "RVNL", 
         fullForm: "Rail Vikas Nigam Limited",
         explanation: "To create and augment the capacity of rail infrastructure. To mobilize resources mainly through multilateral/bilateral funding agencies and also through domestic market for successful implementation of projects.",
+        reference: "--"
+      },
+      { acronym: "RZ", fullForm: "Track Recorder Car",
+        explanation: "Will be added later",
         reference: "--"
       },
     ],
@@ -3236,6 +3192,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "SOP", fullForm: "Schedule Of Powers",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "SORC", fullForm: "Summary of Other Railway Circulars",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3898,10 +3858,6 @@ type AbbreviationItem = {
         "acronym": "ZRUCC",
         "fullForm": "Zonal Railway Users Consultative Committee",
         "explanation": "Represents public interests to railway zonal authorities."
-      },
-      { acronym: "ZULU", fullForm: "Zulu Time (UTC)",
-        explanation: "Will be added later",
-        reference: "--"
       },
     ],
   };

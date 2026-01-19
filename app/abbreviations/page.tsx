@@ -39,9 +39,10 @@ const Abbreviations = () => {
 
   return (
     <div 
-      className="min-h-screen relative overflow-hidden font-sans"
+      className="min-h-screen relative overflow-hidden"
       style={{
-        background: 'linear-gradient(to bottom right, #1e1b4b, #312e81, #1e3a8a, #1e40af)'
+        background: 'linear-gradient(to bottom right, #1e1b4b, #312e81, #1e3a8a, #1e40af)',
+        fontFamily: 'var(--font-poppins), "Poppins", system-ui, -apple-system, sans-serif'
       }}
     >
       {/* Animated Background Blobs - Blue Purple Theme */}
