@@ -90,6 +90,11 @@ const Percentages = () => {
       answer: '80%',
       category: '80%'
     },
+    {
+      question: 'Maximum advance allowed before journey in All India Leave Travel Concession (AILTC) is ______',  
+      answer: '80%',
+      category: '80%'
+    },
     { 
       question: 'The effective brake power in case of Mail/Express enroute should be not less than', 
       answer: '90%', 

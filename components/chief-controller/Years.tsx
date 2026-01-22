@@ -106,6 +106,11 @@ const Years = () => {
       category: '1976'
     },
     {
+      question: 'Railway servants pass rules were implemented in which year?',
+      answer: '1986',
+      category: '1986'
+    },
+    {
       question: 'When the Official Language Rules were amended first?',
       answer: '1987',
       category: '1987'

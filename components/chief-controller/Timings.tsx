@@ -220,6 +220,8 @@ const Timings = () => {
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
+    { question: 'Within how many days Compensatory Off (Rest) can be sanctioned?', answer: '30 days', timing: '30 days' },
+
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
 
     { question: 'First Aid boxes available with Station Masters and Guards of passenger carrying trains are to be inspected by DMO ____________', answer: 'Once in a month', timing: '1 month' },
@@ -248,6 +250,8 @@ const Timings = () => {
 
     { question: 'The time-limit for submitting of claims for Travelling Allowance is within ___ days succeeding the date of completion of journey', answer: '60 days', timing: '60 days' },
 
+    { question: 'Advance can be taken how many days before issue?', answer: '60 days', timing: '60 days' },
+
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
 
@@ -273,7 +277,7 @@ const Timings = () => {
 
     { question: 'Maternity leave for a female Railway servant shall be granted for a period of ______ days', answer: '180 days', timing: '180 days' },
 
-    { question: 'Privilege passes are valid for a period of 5 months from the date of issue.', answer: '5 months', timing: '5 months' },
+    { question: 'Privilege passes are valid for a period of ______ months from the date of issue.', answer: '4 months', timing: '4 months' },
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
@@ -332,6 +336,8 @@ const Timings = () => {
     { question: 'Normal period for which Station Operating Registers - Control Order Book/Conference Book are required to be preserved is ______', answer: '3 years', timing: '3 years' },
     
     { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
+
+    { question: 'All India Leave Travel Concession (AILTC) is applicable for how many years block?', answer: '4 years', timing: '4 years' },
     
     { question: 'Certificate of competency issued to Gateman will be valid for a period of', answer: '5 years', timing: '5 years' },
 

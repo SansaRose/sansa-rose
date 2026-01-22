@@ -102,6 +102,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "AILTC", fullForm: "All India Leave Travel Concession",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "AIMS", fullForm: "Accounting Information Management System",
         explanation: "Platform for maintaining and accessing financial/accounting data.",
         reference: "--"
@@ -2655,6 +2659,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PPO", fullForm: "Pension Payment Order",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PQ", fullForm: "Promotional Quota",
         explanation: "Will be added later",
         reference: "--"
       },

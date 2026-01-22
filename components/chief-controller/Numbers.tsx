@@ -171,6 +171,16 @@ const Numbers = () => {
       category: '3'
     },
     {
+      question: 'How many times Home town Leave Travel Concession (LTC) can be availed in 4-year block?',
+      answer: '3 times',
+      category: '3'
+    },
+    {
+      question: 'Privilege Pass sets for Non-Gazetted Railway Servants are ______',
+      answer: '3',
+      category: '3'
+    },
+    {
       question: 'Continuous night duty for running staff should be limited to ______ nights with fourth night towards headquarters.',
       answer: '4',
       category: '4'

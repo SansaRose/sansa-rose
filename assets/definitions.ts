@@ -624,6 +624,12 @@ export const definitions = [
       reference: "--"
     },
     {
+      number: 103,
+      term: "Roster",
+      definition: "The document which shows employee’s daily hours of duty, weekly rest and break between spells of duty besides other necessary particulars is called Roster",
+      reference: "--"
+    },
+    {
       number: 104,
       term: "Running line",
       definition: "Running line means the line governed by one or more signals and includes connections, if any, used by a train when entering or leaving a station or when passing through a station or between stations;",
