@@ -693,6 +693,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CEA", fullForm: "Children Education Allowance",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CELE", fullForm: "Chief Electrical Locomotive Engineer",
         explanation: "Will be added later",
         reference: "--"
@@ -2316,6 +2320,10 @@ type AbbreviationItem = {
       },
       { acronym: "NP", fullForm: "Non-Pooled",
         explanation: "Wagons not contributed to the general pool of wagons are marked as Non-Pooled Wagons (&apos;NP&apos;). These are usually some special-purpose high-capacity wagons earmarked for specific operations on particular routes.",
+        reference: "--"
+      },
+      { acronym: "NPA", fullForm: "Non-Practicing Allowance",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "NPG", fullForm: "Network Planning Group",

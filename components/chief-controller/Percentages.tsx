@@ -50,6 +50,11 @@ const Percentages = () => {
       answer: '20%',
       category: '20%'
     },
+    {
+      question: 'What percentage of Non-Practicing Allowance (NPA) is added for Pension purposes?',
+      answer: '20%',
+      category: '20%'
+    },
     { 
       question: '_______ Leave Reserve is usually added to the bare requirement to ensure adequate coverage during leave periods.', 
       answer: '30%', 
@@ -61,9 +66,19 @@ const Percentages = () => {
       category: '30%'
     },
     {
+      question: 'As per Railway Services Rules 2008, what is the Running Allowance?',
+      answer: '30% of Basic Pay',
+      category: '30%'
+    },
+    {
       question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the grant of libraries is required to be spent on Hindi books, Hindi e-books',  
       answer: '50%',
       category: '50%'
+    },
+    {
+      question: 'What percentage of Running allowance is added for Retirement benefits?',
+      answer: '55%',
+      category: '55%'
     },
     {
       question: 'Maximum Composite transfer grant as per VII Pay Commission is equivalent to ______ pay',

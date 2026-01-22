@@ -103,11 +103,15 @@ const Timings = () => {
 
     { question: 'Out station rest for a Running staff performing less than 8 hours duty is ______ hours', answer: '6 hours', timing: '6 hours' },
 
+    { question: 'What is the minimum compulsory rest without duty?', answer: '6 hours', timing: '6 hours' },
+
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
     { question: 'Control chart is prepared normally for ______ hours', answer: '8 hours', timing: '8 hours' },
 
     { question: 'For Loco pilots of all Mail/Express trains, the runnung duty (for the purpose of preparation links only) should not exceed ______ hours.', answer: '8 hours', timing: '8 hours' },
+
+    { question: 'If duty outside Headquarters exceeds 8 hours, how much rest is given?', answer: '8 hours', timing: '8 hours' },
 
     { question: 'Out station rest for Guard performing more than 10 hours duty is ______ hours', answer: '8 hours', timing: '8 hours' },
 
@@ -118,6 +122,9 @@ const Timings = () => {
     { question: 'The maximum duty hours in any one trip should not exceed ______ hours.', answer: '10 hours', timing: '10 hours' },
 
     { question: 'Total duty at a stretch of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
+
+    { question: 'If duty hours are less than 8 hours, how much rest is given at Headquarters?', answer: '12 hours', timing: '12 hours' },
+    { question: 'If duty hours are more than 8 hours, how much rest is given at Headquarters?', answer: '16 hours', timing: '16 hours' },
 
     { question: 'Subject to exigencies of service, Headquarters rest of all Running staff will be ______ hours irrespective of the duration of their incoming trip.', answer: '16 hours', timing: '16 hours' },
     
@@ -183,6 +190,8 @@ const Timings = () => {
 
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to be done within is _____', answer: 'D + 7 days', timing: '7 days' },
 
+    { question: 'Leave for Husband on Wife\'s sterilization is ______ days', answer: '7 days', timing: '7 days' },
+
     { question: 'Station Master may permit Learning duties at Terminal stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains ______', answer: '8 days', timing: '8 days' },
 
     { question: 'The BPC of DEMU other than 700 HP trains is valid for ______', answer: '10 days', timing: '10 days' },
@@ -198,6 +207,8 @@ const Timings = () => {
     { question: 'No Railway servant in respect of whom an exemption has been made under rule shall be required to work for more than ______ days without a period of rest and shall be provided with compensatory rest within this period.', answer: '14 days', timing: '14 days' },
 
     { question: 'No NI working should last for more than________ days.', answer: '14 days', timing: '14 days' },
+
+    { question: 'How many Casual Leaves (CL) is allowed for a Disabled employee?', answer: '14 days', timing: '14 days' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
 
@@ -222,6 +233,8 @@ const Timings = () => {
 
     { question: 'Within how many days Compensatory Off (Rest) can be sanctioned?', answer: '30 days', timing: '30 days' },
 
+    { question: 'Within how many days CL can be changed?', answer: '30 days', timing: '30 days' },
+
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
 
     { question: 'First Aid boxes available with Station Masters and Guards of passenger carrying trains are to be inspected by DMO ____________', answer: 'Once in a month', timing: '1 month' },
@@ -231,6 +244,8 @@ const Timings = () => {
     { question: 'How many days of Leave on Average Pay (LAP) can be granted to a Permanent/Temporary Railway servant for a period of one year?', answer: '30 days', timing: '30 days' },
 
     { question: 'A balance of atleast ________ days of leave on Average Pay should be available to the credit in leave account after taking into account the period of encashment', answer: '30 days', timing: '30 days' },
+
+    { question: 'Maximum limit of Special Casual Leave (SCL) is ______ days in a year', answer: '30 days', timing: '30 days' },
 
     { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days'},
 
@@ -320,6 +335,8 @@ const Timings = () => {
     { question: 'Normal period for which Station Operating Registers - Caution order register and Caution Order books are required to be preserved', answer: '1 year', timing: '1 year' },
 
     { question: 'On passing Hindi Stenography examination, for how many months personal pay equal in amount to one increment is given?', answer: '24 months', timing: '24 months' },
+
+    { question: 'What is the medical examination interval between 45 and 55 years of age?', answer: 'once in 2 years', timing: '2 years' },
     
     { question: 'Periodical census of traffic at all level crossings shall be carried out for every', answer: '3 years for 7 days', timing: '3 years' },
 
@@ -338,10 +355,13 @@ const Timings = () => {
     { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
 
     { question: 'All India Leave Travel Concession (AILTC) is applicable for how many years block?', answer: '4 years', timing: '4 years' },
+    { question: 'Up to 45 years of age, medical examination is done once in how many years?', answer: '4 years', timing: '4 years' },
     
     { question: 'Certificate of competency issued to Gateman will be valid for a period of', answer: '5 years', timing: '5 years' },
 
     { question: 'Station Working Rules (SWR) should be issued afresh once in', answer: '5 years', timing: '5 years' },
+
+    { question: 'Minimum service required for a Railway servant to be eligible for Study Leave is ______ years', answer: '5 years', timing: '5 years' },
 
     { question: 'In no case, whatever, shall a male passenger except a boy under _________ of age be allowed to travel in a compartment reserved for Ladies in any train.', answer: '12 years', timing: '12 years' },
 
