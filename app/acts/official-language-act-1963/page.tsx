@@ -301,7 +301,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <blockquote className="pl-3 text-gray-300 dark:text-gray-400 bg-gray-900/30 dark:bg-gray-900/50 rounded-lg py-4 shadow-lg">
                     <div className="mb-3">
                       <span className="font-bold text-lg text-green-400 dark:text-green-300">Article 350</span>
-                      <span className="text-gray-300 dark:text-gray-400 ml-2">- Language to be used in representations for redress of grievances</span>
+                      <span className="text-blue-500 dark:text-blue-400 ml-2">- Language to be used in representations for redress of grievances</span>
                     </div>
                     <div className="space-y-4 text-gray-300 dark:text-gray-400 leading-relaxed">
                       <p>
@@ -314,7 +314,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <blockquote className="pl-3 text-gray-300 dark:text-gray-400 bg-gray-900/30 dark:bg-gray-900/50 rounded-lg py-4 shadow-lg">
                     <div className="mb-3">
                       <span className="font-bold text-lg text-orange-400 dark:text-orange-300">Article 350A</span>
-                      <span className="text-gray-300 dark:text-gray-400 ml-2">- Facilities for instruction in mother-tongue at the primary stage</span>
+                      <span className="text-blue-500 dark:text-blue-400 ml-2">- Facilities for instruction in mother-tongue at the primary stage</span>
                     </div>
                     <div className="space-y-4 text-gray-300 dark:text-gray-400 leading-relaxed">
                       <p>
@@ -327,7 +327,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <blockquote className="pl-3 text-gray-300 dark:text-gray-400 bg-gray-900/30 dark:bg-gray-900/50 rounded-lg py-4 shadow-lg">
                     <div className="mb-3">
                       <span className="font-bold text-lg text-pink-400 dark:text-pink-300">Article 350B</span>
-                      <span className="text-gray-300 dark:text-gray-400 ml-2">- Special Officer for linguistic minorities</span>
+                      <span className="text-blue-500 dark:text-blue-400 ml-2">- Special Officer for linguistic minorities</span>
                     </div>
                     <div className="space-y-4 text-gray-300 dark:text-gray-400 leading-relaxed">
                       <p>
@@ -340,7 +340,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <blockquote className="pl-3 text-gray-300 dark:text-gray-400 bg-gray-900/30 dark:bg-gray-900/50 rounded-lg py-4 shadow-lg">
                     <div className="mb-3">
                       <span className="font-bold text-lg text-indigo-400 dark:text-indigo-300">Article 351</span>
-                      <span className="text-gray-300 dark:text-gray-400 ml-2">- Directive for development of the Hindi language</span>
+                      <span className="text-blue-500 dark:text-blue-400 ml-2">- Directive for development of the Hindi language</span>
                     </div>
                     <div className="space-y-4 text-gray-300 dark:text-gray-400 leading-relaxed">
                       <p>
@@ -372,7 +372,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <blockquote className="pl-3 text-gray-300 dark:text-gray-400 bg-gray-900/30 dark:bg-gray-900/50 rounded-lg py-4 shadow-lg">
                     <div className="mb-3">
                       <span className="font-bold text-lg text-cyan-400 dark:text-cyan-300">Part – V, Article 120</span>
-                      <span className="text-gray-300 dark:text-gray-400 ml-2">- Language to be used in Parliament</span>
+                      <span className="text-blue-500 dark:text-blue-400 ml-2">- Language to be used in Parliament</span>
                     </div>
                     <div className="space-y-4 text-gray-300 dark:text-gray-400 leading-relaxed">
                       <p>
@@ -385,7 +385,7 @@ September, every year. Provisions regarding Official Language are contained in A
                   <blockquote className="pl-3 text-gray-300 dark:text-gray-400 bg-gray-900/30 dark:bg-gray-900/50 rounded-lg py-4 shadow-lg">
                     <div className="mb-3">
                       <span className="font-bold text-lg text-emerald-400 dark:text-emerald-300">Part – VI, Article 210</span>
-                      <span className="text-gray-300 dark:text-gray-400 ml-2">- Language to be used in the Legislature</span>
+                      <span className="text-blue-500 dark:text-blue-400 ml-2">- Language to be used in the Legislature</span>
                     </div>
                     <div className="space-y-4 text-gray-300 dark:text-gray-400 leading-relaxed">
                       <p>
@@ -1172,7 +1172,7 @@ September, every year. Provisions regarding Official Language are contained in A
                     
                     {/* Region A */}
                     <div className="bg-linear-to-r from-blue-900/30 to-indigo-900/30 dark:from-blue-900/40 dark:to-indigo-900/40 border border-blue-700/50 dark:border-blue-600/40 rounded-lg p-4 shadow-lg">
-                      <div className="flex items-start gap-3 mb-3">
+                      <div className="flex items-center justify-center flex-col gap-3 mb-3">
                         <span className="inline-flex items-center justify-center min-w-10 h-10 px-2 rounded-full bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold text-lg shadow-sm shrink-0">
                           A
                         </span>
@@ -1180,33 +1180,100 @@ September, every year. Provisions regarding Official Language are contained in A
                           <span className="font-semibold text-blue-200 dark:text-blue-100">Region</span> - <span className="text-blue-200/90 dark:text-blue-100/90">Hindi speaking states or governments (Union Territory/State) has recognized Hindi as the official language.</span>
                         </div>
                       </div>
-                      <div className="ml-14 mt-2">
-                        <p className="text-blue-200/90 dark:text-blue-100/90 text-sm">
-                          Bihar, Uttar Pradesh, Madhya Pradesh, Himachal Pradesh, Jharkhand, Rajasthan, Haryana, Uttarakhand, Chhattisgarh, Delhi and Andaman-Nicobar Islands.
-                        </p>
+                      <div className="ml-0 mt-2">
+                        <ol className="text-blue-200/90 dark:text-blue-100/90 text-sm grid grid-cols-1 sm:grid-cols-2 gap-2 ml-0 space-y-2 list-none">
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">1</span>
+                            <span className="font-medium">Andaman-Nicobar Islands</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2        bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">2</span>
+                            <span className="font-medium">Bihar</span>
+                          </li>   
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">3</span>
+                            <span className="font-medium">Chhattisgarh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">4</span>
+                            <span className="font-medium">Delhi</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2  bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">5</span>
+                            <span className="font-medium">Haryana</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">6</span>
+                            <span className="font-medium">Himachal Pradesh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">7</span>
+                            <span className="font-medium">Jharkhand</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2    bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">8</span>
+                            <span className="font-medium">Madhya Pradesh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">9</span>
+                            <span className="font-medium">Rajasthan</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">10</span>
+                            <span className="font-medium">Uttar Pradesh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-blue-600/10 border border-blue-400/10 shadow-sm hover:bg-blue-700/20 hover:text-blue-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-blue-500/80 text-white font-semibold flex items-center justify-center text-xs">11</span>
+                            <span className="font-medium">Uttarakhand</span>
+                          </li>
+                        </ol>
                       </div>
                     </div>
 
                     {/* Region B */}
                     <div className="bg-linear-to-r from-green-900/30 to-emerald-900/30 dark:from-green-900/40 dark:to-emerald-900/40 border border-green-700/50 dark:border-green-600/40 rounded-lg p-4 shadow-lg">
-                      <div className="flex items-start gap-3 mb-3">
+                      <div className="flex items-center justify-center flex-col gap-3 mb-3">
                         <span className="inline-flex items-center justify-center min-w-10 h-10 px-2 rounded-full bg-green-500/20 dark:bg-green-400/20 border border-green-500/40 dark:border-green-400/40 text-green-300 dark:text-green-200 font-bold text-lg shadow-sm shrink-0">
                           B
                         </span>
                         <div className="flex-1">
-                          <span className="font-semibold text-green-200 dark:text-green-100">region</span> - <span className="text-green-200/90 dark:text-green-100/90">Semi-Hindi speaking area ie.. where the language is similar to Hindi or Devanagari.</span>
+                          <span className="font-semibold text-green-200 dark:text-green-100">Region</span> - <span className="text-green-200/90 dark:text-green-100/90">Semi-Hindi speaking area ie.. where the language is similar to Hindi or Devanagari.</span>
                         </div>
                       </div>
-                      <div className="ml-14 mt-2">
-                        <p className="text-green-200/90 dark:text-green-100/90 text-sm">
-                          In this region are - Gujarat, Maharashtra, Punjab, Chandigarh, Daman, Diu and Dadra and Nagar Haveli.
-                        </p>
+                      <div className="ml-0 mt-2">
+                        <ol className="text-green-200/90 dark:text-green-100/90 text-sm grid grid-cols-1 sm:grid-cols-2 gap-2 ml-0 space-y-2 list-none">
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-green-600/10 border border-green-400/10 shadow-sm hover:bg-green-700/20 hover:text-green-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-green-500/80 text-white font-semibold flex items-center justify-center text-xs">1</span>
+                            <span className="font-medium">Chandigarh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-green-600/10 border border-green-400/10 shadow-sm hover:bg-green-700/20 hover:text-green-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-green-500/80 text-white font-semibold flex items-center justify-center text-xs">2</span>
+                            <span className="font-medium">Dadra and Nagar Haveli</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-green-600/10 border border-green-400/10 shadow-sm hover:bg-green-700/20 hover:text-green-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-green-500/80 text-white font-semibold flex items-center justify-center text-xs">3 </span>
+                            <span className="font-medium">Daman  & Diu</span>
+                          </li>
+                         
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-green-600/10 border border-green-400/10 shadow-sm hover:bg-green-700/20 hover:text-green-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-green-500/80 text-white font-semibold flex items-center justify-center text-xs">4 </span>
+                            <span className="font-medium">Gujarat</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-green-600/10 border border-green-400/10 shadow-sm hover:bg-green-700/20 hover:text-green-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-green-500/80 text-white font-semibold flex items-center justify-center text-xs">5</span>
+                            <span className="font-medium">Maharashtra</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-green-600/10 border border-green-400/10 shadow-sm hover:bg-green-700/20 hover:text-green-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-green-500/80 text-white font-semibold flex items-center justify-center text-xs">6</span>
+                            <span className="font-medium">Punjab</span>
+                          </li>
+                        </ol>
                       </div>
                     </div>
 
                     {/* Region C */}
                     <div className="bg-linear-to-r from-purple-900/30 to-pink-900/30 dark:from-purple-900/40 dark:to-pink-900/40 border border-purple-700/50 dark:border-purple-600/40 rounded-lg p-4 shadow-lg">
-                      <div className="flex items-start gap-3 mb-3">
+                      <div className="flex items-center justify-center flex-col gap-3 mb-3">
                         <span className="inline-flex items-center justify-center min-w-10 h-10 px-2 rounded-full bg-purple-500/20 dark:bg-purple-400/20 border border-purple-500/40 dark:border-purple-400/40 text-purple-300 dark:text-purple-200 font-bold text-lg shadow-sm shrink-0">
                           C
                         </span>
@@ -1214,10 +1281,77 @@ September, every year. Provisions regarding Official Language are contained in A
                           <span className="font-semibold text-purple-200 dark:text-purple-100">Region</span> - <span className="text-purple-200/90 dark:text-purple-100/90">Non-Hindi speaking area ie.. where the language is different from Hindi. Apart from &apos;A&apos; and &apos;B&apos; regions mentioned above, rest of the States/UTs (except Tamilnadu) comes under &apos;C&apos; region.</span>
                         </div>
                       </div>
-                      <div className="ml-14 mt-2">
-                        <p className="text-purple-200/90 dark:text-purple-100/90 text-sm">
-                          ie.. Andhra Pradesh, Karnataka, Kerala, Goa, Puducherry, Lakshadweep, West Bengal, Odisha, J & K, Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura.
-                        </p>
+                      <div className="ml-0 mt-2">
+                        <ol className="text-purple-200/90 dark:text-purple-100/90 text-sm grid grid-cols-1 sm:grid-cols-2 gap-2 ml-0 space-y-2 list-none">
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">1</span>
+                            <span className="font-medium">Andhra Pradesh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">2</span>
+                            <span className="font-medium">Arunachal Pradesh</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">3</span>
+                            <span className="font-medium">Assam</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">4</span>
+                            <span className="font-medium">Goa</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">5</span>
+                            <span className="font-medium">J & K</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">6</span>
+                            <span className="font-medium">Karnataka</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">7</span>
+                            <span className="font-medium">Kerala</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">8</span>
+                            <span className="font-medium">Lakshadweep</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">9</span>
+                            <span className="font-medium">Manipur</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">10</span>
+                            <span className="font-medium">Meghalaya</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">11</span>
+                            <span className="font-medium">Mizoram</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">12</span>
+                            <span className="font-medium">Nagaland</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">13</span>
+                            <span className="font-medium">Odisha</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">14</span>
+                            <span className="font-medium">Puducherry</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">15</span>
+                            <span className="font-medium">Sikkim</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">16</span>
+                            <span className="font-medium">Tripura</span>
+                          </li>
+                          <li className="flex items-center gap-2 rounded-lg px-2 py-2 bg-purple-600/10 border border-purple-400/10 shadow-sm hover:bg-purple-700/20 hover:text-purple-100 transition-colors">
+                            <span className="shrink-0 w-6 h-6 rounded-full bg-purple-500/80 text-white font-semibold flex items-center justify-center text-xs">17</span>
+                            <span className="font-medium">West Bengal</span>
+                          </li>
+                        </ol>
                       </div>
                     </div>
                   </div>
@@ -2321,25 +2455,21 @@ September, every year. Provisions regarding Official Language are contained in A
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">12,000/-</span></p>
                         <div className="text-sm text-gray-400 dark:text-gray-500 space-y-1">
                           <p>6 Employees, 2,000/- to each</p>
-                          <p>5 Employees, 1,600/- to each</p>
-                          <p>5 Employees, 1,200/- to each</p>
+                          
                         </div>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">IInd Prize</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">8,000/-</span></p>
                         <div className="text-sm text-gray-400 dark:text-gray-500 space-y-1">
-                          <p>6 Employees, 2,000/- to each</p>
                           <p>5 Employees, 1,600/- to each</p>
-                          <p>5 Employees, 1,200/- to each</p>
                         </div>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">IIIrd Prize</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">6,000/-</span></p>
                         <div className="text-sm text-gray-400 dark:text-gray-500 space-y-1">
-                          <p>6 Employees, 2,000/- to each</p>
-                          <p>5 Employees, 1,600/- to each</p>
+                          
                           <p>5 Employees, 1,200/- to each</p>
                         </div>
                       </div>
@@ -2360,7 +2490,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">Ist Prize (2)</p>
                         <p className="text-sm text-gray-300 dark:text-gray-400 mb-2"><span className="font-semibold">Amount:</span> <span className="font-bold text-green-300">5,000/-</span></p>
-                        <p className="text-sm text-gray-400 dark:text-gray-500">20,000/- words in financial year by Staff/Officers in A & B regions and 10,000/- words by Staff/Officers in C regions.</p>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">20,000 words in financial year by Staff/Officers in A & B regions and 10,000 words by Staff/Officers in C regions.</p>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="font-semibold text-amber-300 mb-2">IInd Prize (3)</p>
@@ -2756,10 +2886,13 @@ September, every year. Provisions regarding Official Language are contained in A
                         <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Prabodh:</span> <span className="font-bold text-green-300">Rs. 3,500/-</span></p>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
-                        <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Hindi Typing:</span> <span className="font-bold text-green-300">Rs. 4,000/-</span></p>
+                        <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Praveen:</span> <span className="font-bold text-green-300">Rs. 4,000/-</span></p>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
-                        <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Praveen:</span> <span className="font-bold text-green-300">Rs. 4,000/-</span></p>
+                        <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Pragya:</span> <span className="font-bold text-green-300">Rs. 6,000/-</span></p>
+                      </div>
+                      <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
+                        <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Hindi Typing:</span> <span className="font-bold text-green-300">Rs. 4,000/-</span></p>
                       </div>
                       <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-3">
                         <p className="text-sm text-gray-300 dark:text-gray-400"><span className="font-semibold text-violet-300">Hindi Stenography:</span> <span className="font-bold text-green-300">Rs. 7,500/-</span></p>
@@ -2786,7 +2919,12 @@ September, every year. Provisions regarding Official Language are contained in A
                     1
                   </span>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-gray-200 dark:text-gray-300 mb-2">Rajbhasha Keerti Puraskar for OL Implementation</h4>
+                    <h4 className="font-semibold text-orange-500 dark:text-gray-300 mb-2">Rajbhasha Keerti Puraskar for OL Implementation</h4>
+                    <div>
+                  <p className="text-sm text-gray-400 dark:text-gray-500 mb-2">
+                    <span className="font-semibold text-gray-300 dark:text-gray-400">Earlier:</span> Indira Gandhi Puraskar Yojana. From 2015-16, with expanded scope, renamed as Rajbhasha Kirti Puraskar Yojna.
+                  </p>
+                </div>
                     <p className="text-sm text-gray-300 dark:text-gray-400 mb-3">Under this award scheme neither Cash Prizes nor individual awards are given. This award is given for implementing Rajbhasha in best form with all total 36 shields in the following categories –</p>
                     <div className="space-y-1 text-sm">
                       <p className="text-gray-300 dark:text-gray-400">1. Ministries/departments (06)</p>
@@ -2969,70 +3107,6 @@ September, every year. Provisions regarding Official Language are contained in A
               </div>
             </div>
           </div>
-
-
-          {/* VI. Rajbhasha Kirti Puraskar */}
-          <div className="mt-8 mb-6">
-            <h3 className="text-xl sm:text-2xl font-bold text-center text-blue-500 dark:text-gray-100 mb-6">
-              Rajbhasha Kirti Puraskar for OL Implementation
-            </h3>
-            
-            <div className="bg-gray-800/60 dark:bg-gray-800/80 rounded-xl p-5 shadow-lg border border-gray-700/50 dark:border-gray-700/30">
-              <div className="space-y-4">
-                <div>
-                  <p className="text-sm text-gray-400 dark:text-gray-500 mb-2">
-                    <span className="font-semibold text-gray-300 dark:text-gray-400">Earlier:</span> Indira Gandhi Puraskar Yojana. From 2015-16, with expanded scope, renamed as Rajbhasha Kirti Puraskar Yojna.
-                  </p>
-                </div>
-                
-                <div>
-                  <p className="text-gray-300 dark:text-gray-400 mb-3">
-                    Awarded for excellence in Rajbhasha implementation by Central Govt. offices, departments, banks, autonomous bodies, etc.
-                  </p>
-                </div>
-                
-                <div className="bg-gray-900/30 dark:bg-gray-900/50 rounded-lg p-4">
-                  <p className="text-gray-300 dark:text-gray-400 mb-3">
-                    <span className="font-semibold text-yellow-300 dark:text-yellow-200">No cash prize:</span> Only Shields are awarded <span className="font-bold text-green-300">(39 Shields in various categories)</span> are given under various categories for effective progress and implementation of Rajabhasha in:
-                  </p>
-                  
-                  <div className="space-y-2 mt-4">
-                    <div className="flex items-start gap-2">
-                      <span className="inline-flex items-center justify-center min-w-8 h-8 px-2 rounded-full bg-blue-500/20 dark:bg-blue-400/20 border border-blue-500/40 dark:border-blue-400/40 text-blue-300 dark:text-blue-200 font-bold text-sm shadow-sm mt-0.5">
-                        A
-                      </span>
-                      <p className="text-gray-300 dark:text-gray-400 pt-1">ministries/departments <span className="font-bold text-green-300">(6)</span></p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="inline-flex items-center justify-center min-w-8 h-8 px-2 rounded-full bg-green-500/20 dark:bg-green-400/20 border border-green-500/40 dark:border-green-400/40 text-green-300 dark:text-green-200 font-bold text-sm shadow-sm mt-0.5">
-                        B
-                      </span>
-                      <p className="text-gray-300 dark:text-gray-400 pt-1">PSUs <span className="font-bold text-green-300">(9)</span></p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="inline-flex items-center justify-center min-w-8 h-8 px-2 rounded-full bg-purple-500/20 dark:bg-purple-400/20 border border-purple-500/40 dark:border-purple-400/40 text-purple-300 dark:text-purple-200 font-bold text-sm shadow-sm mt-0.5">
-                        C
-                      </span>
-                      <p className="text-gray-300 dark:text-gray-400 pt-1">Boards/Autonomous/Government Bodies/ Trusts <span className="font-bold text-green-300">(9)</span></p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="inline-flex items-center justify-center min-w-8 h-8 px-2 rounded-full bg-orange-500/20 dark:bg-orange-400/20 border border-orange-500/40 dark:border-orange-400/40 text-orange-300 dark:text-orange-200 font-bold text-sm shadow-sm mt-0.5">
-                        D
-                      </span>
-                      <p className="text-gray-300 dark:text-gray-400 pt-1">Nationalized Banks <span className="font-bold text-green-300">(6)</span></p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="inline-flex items-center justify-center min-w-8 h-8 px-2 rounded-full bg-pink-500/20 dark:bg-pink-400/20 border border-pink-500/40 dark:border-pink-400/40 text-pink-300 dark:text-pink-200 font-bold text-sm shadow-sm mt-0.5">
-                        E
-                      </span>
-                      <p className="text-gray-300 dark:text-gray-400 pt-1">In-House Hindi Magazine <span className="font-bold text-green-300">(6)</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
 
           {/* Target for completion of Hindi Training 2035 */}
           <div className="mt-8 mb-6">

@@ -2306,6 +2306,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "NIP", fullForm: "Notice of Imposition Penalty",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "NLP", fullForm: "National Logistics Policy",
         explanation: "Will be added later",
         reference: "--"
