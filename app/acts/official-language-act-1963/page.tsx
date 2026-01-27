@@ -2400,7 +2400,7 @@ September, every year. Provisions regarding Official Language are contained in A
                       <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-amber-300">Awards given to:</span> From Clerical Grade Staff to Selection Grade Officers</p>
                       <div className="ml-0 space-y-1">
                         <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-amber-300">For Hindi Speaking Staff/Officers:</span> 75% work to be done in Hindi - <span className="font-bold text-green-300">3,000/- + Certificate</span></p>
-                        <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-amber-300">For Non Hindi Speaking Staff/Officers:</span> 50% work to be done in Hindi</p>
+                        <p className="text-gray-300 dark:text-gray-400"><span className="font-semibold text-amber-300">For Non Hindi Speaking Staff/Officers:</span> 50% work to be done in Hindi - <span className="font-bold text-green-300">3,000/- + Certificate</span></p>
                       </div>
                     </div>
                   </div>
@@ -2925,7 +2925,7 @@ September, every year. Provisions regarding Official Language are contained in A
                     <span className="font-semibold text-gray-300 dark:text-gray-400">Earlier:</span> Indira Gandhi Puraskar Yojana. From 2015-16, with expanded scope, renamed as Rajbhasha Kirti Puraskar Yojna.
                   </p>
                 </div>
-                    <p className="text-sm text-gray-300 dark:text-gray-400 mb-3">Under this award scheme neither Cash Prizes nor individual awards are given. This award is given for implementing Rajbhasha in best form with all total 36 shields in the following categories –</p>
+                    <p className="text-sm text-gray-300 dark:text-gray-400 mb-3">Under this award scheme neither Cash Prizes nor individual awards are given. This award is given for implementing Rajbhasha in best form with all total 35 shields in the following categories –</p>
                     <div className="space-y-1 text-sm">
                       <p className="text-gray-300 dark:text-gray-400">1. Ministries/departments (06)</p>
                       <p className="text-gray-300 dark:text-gray-400">2. Public Sector Undertakings (09)</p>
