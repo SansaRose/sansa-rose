@@ -8708,51 +8708,291 @@ export const allQuizzes = {
       quizzes: {
         "1": [
           {
-            question: "Who painted the Mona Lisa?",
+            question: "What is the main objective of Parliamentary control over Railway Finance?",
             options: [
-              "Vincent van Gogh",
-              "Leonardo da Vinci",
-              "Pablo Picasso",
-              "Michelangelo",
+              "Administrative decentralization",
+              "Financial accountability",
+              "Operational control",
+              "Staff management",
             ],
             correct: 1,
             explanation:
-              "Leonardo da Vinci painted the Mona Lisa, one of the most famous paintings in the world.",
+              "Financial accountability is the main objective of Parliamentary control over Railway Finance.",
           },
           {
             question:
-              "What is the primary color that is not a primary color of light?",
-            options: ["Red", "Blue", "Yellow", "Green"],
+              "Cannons of Financial Propriety relate to",
+            options: ["Audit procedure", "Budget preparation", "Principles of economical spending", "Taxation"],
             correct: 2,
             explanation:
-              "Yellow is a primary color in painting but not in light. The primary colors of light are red, blue, and green.",
+              "Principles of economical spending is the correct answer.",
           },
           {
             question:
-              "Which art movement was characterized by bright colors and bold brushstrokes?",
-            options: ["Impressionism", "Cubism", "Surrealism", "Renaissance"],
+              "Demand for Grants in Railway Budget is presented for:",
+            options: ["Authorization of expenditure by Parliament", "Audit approval", "Capital expenditure only", "Revenue expenditure only"],
             correct: 0,
             explanation:
-              "Impressionism was characterized by bright colors, bold brushstrokes, and capturing the effects of light.",
+              "Authorization of expenditure by Parliament is the correct answer.",
           },
           {
-            question: "What is the technique of painting on wet plaster called?",
-            options: ["Oil painting", "Watercolor", "Fresco", "Acrylic"],
+            question: "Rules of Allocation deal with:",
+            options: ["Audit inspection", "Classification of expenditure", "Sanction of works", "Tender procedure"],
+            correct: 1,
+            explanation:
+              "Classification of expenditure is the correct answer.",
+          },
+          {
+            question: "Wrong head booking of expenditure is termed as:",
+            options: [
+              "Charged expenditure",
+              "Excess expenditure",
+              "Financial irregularities",
+              "Misclassification of expenditure",
+            ],
             correct: 2,
             explanation:
-              "Fresco is the technique of painting on wet plaster, commonly used in Renaissance art.",
+              "Financial irregularities is the correct answer.",
           },
           {
-            question: "Who is known for cutting off his own ear?",
+            question: "Exchequer control is related to:",
             options: [
-              "Pablo Picasso",
-              "Vincent van Gogh",
-              "Salvador Dalí",
-              "Claude Monet",
+              "Audit accounts",
+              "Cash control over expenditure",
+              "Stock verification",
+              "Tender finalisation",
             ],
             correct: 1,
             explanation:
-              "Vincent van Gogh is famously known for cutting off his own ear during a period of mental illness.",
+              "Cash control over expenditure is the correct answer.",
+          },
+          {
+            question: "What is meant by Re-appropriation of funds?",
+            options: [
+              "Audit objection",
+              "Excess expenditure",
+              "Fresh grant",
+              "Transfer between heads",
+            ],
+            correct: 3,
+            explanation:
+              "Transfer between heads is the correct answer.",
+          },
+          {
+            question: "ABC is based on:",
+            options: [
+              "Location",
+              "Quantity",
+              "Supplier category",
+              "Value of consumption",
+            ],
+            correct: 3,
+            explanation:
+              "Value of consumption is the correct answer.",
+          },
+          {
+            question: "'A' category items in ABC analysis are:",
+            options: [
+              "High value, low quantity",
+              "Low value, high quantity",
+              "Medium value",
+              "Obsolete items",
+            ],
+            correct: 0,
+            explanation:
+              "High value, low quantity is the 'A' category items in ABC analysis.",
+          },
+          {
+            question: "M&P programme is related to:",
+            options: [
+              "Budget grants",
+              "Procurement of machinery & Plant",
+              "Revenue earnings",
+              "Staff recruitment",
+            ],
+            correct: 1,
+            explanation:
+              "Procurement of machinery & Plant is the correct answer.",
+          },
+          {
+            question: "Draft Audit Para is prepared for:",
+            options: [
+              "Finance ministry",
+              "Parliament/PAC",
+              "Railway Board",
+              "Vigilance",
+            ],
+            correct: 1,
+            explanation:
+              "Parliament/PAC is the correct answer.",
+          },
+          {
+            question: "What is meant by embezzlement?",
+            options: [
+              "Accidental loss",
+              "Accounting error",
+              "Excess payment",
+              "Fradulent misappropriation of funds",
+            ],
+            correct: 3,
+            explanation:
+              "Fradulent misappropriation of funds is the correct answer.",
+          },
+          {
+            question: "Main objective of GeM portal is:",
+            options: [
+              "Audit control",
+              "Budget allocation",
+              "Recruitment",
+              "Transparent procurement",
+            ],
+            correct: 3,
+            explanation:
+              "Transparent procurement is the main objective of GeM portal.",
+          },
+          {
+            question: "Income from Platform ticket is classified under:",
+            options: [
+              "Capital receipts",
+              "Goods earnings",
+              "Passenger earnings",
+              "Sundry earnings",
+            ],
+            correct: 3,
+            explanation:
+              "Sundry earnings is the correct answer.",
+          },
+          {
+            question: "Works contract is treated as:",
+            options: [
+              "Composite supply of goods only",
+              "Exempt supply",
+              "Supply of goods",
+              "Supply of services",
+            ],
+            correct: 3,
+            explanation:
+              "Supply of services is the correct answer.",
+          },
+          {
+            question: "TDS (Tax Deducted at Source) is deducted from:",
+            options: [
+              "After audit",
+              "At time of payment or credit, whichever is earlier",
+              "At year end",
+              "After sanction",
+            ],
+            correct: 1,
+            explanation:
+              "At time of payment or credit, whichever is earlier is the correct answer.",
+          },
+          {
+            question: "Main function of CGA  is:",
+            options: [
+              "Audit",
+              "Maintenance of accounts",
+              "Tendering",
+              "Vigilance",
+            ],
+            correct: 1,
+            explanation:
+              "Maintenance of accounts is the correct answer.",
+          },
+          {
+            question: "Charged expenditure relates to:",
+            options: [
+              "Capital works only",
+              "Expenditure voted by Parliament",
+              "Expenditure not subject to vote",
+              "Railway board decisions",
+            ],
+            correct: 2,
+            explanation:
+              "Expenditure not subject to vote is the correct answer.",
+          },
+          {
+            question: "Voted expenditure means:",
+            options: [
+              "Audit approved expenditure",
+              "Charged expenditure",
+              "Expenditure approved by Parliament",
+              "Saving expenditure",
+            ],
+            correct: 2,
+            explanation:
+              "Expenditure approved by Parliament is the correct answer.",
+          },
+          {
+            question: "Who has authority to sanction expenditure in Railways?",
+            options: [
+              "Any officer",
+              "Audit authority",
+              "Delegated authority",
+              "PAC",
+            ],
+            correct: 2,
+            explanation:
+              "Delegated authority is the correct answer.",
+          },
+          {
+            question: "What is meant by financial concurrence?",
+            options: [
+              "Administrative approval",
+              "Approval by finanace before sanction",
+              "Audit approval",
+              "PAC approval",
+            ],
+            correct: 1,
+            explanation:
+              "Approval by finance before sanction is the correct answer.",
+          },
+          {
+            question: "Purpose of Re-appropriation of funds is:",
+            options: [
+              "Create new grants",
+              "Close accounts",
+              "Increase budget",
+              "Transfer funds within same grant",
+            ],
+            correct: 0,
+            explanation:
+              "Create new grants is the correct answer.",
+          },
+          {
+            question: "Which is an example of Revenue expenditure?",
+            options: [
+              "Construction of bridge",
+              "New workshop setup",
+              "Purchase of new locomotives",
+              "Staff salaries",
+            ],
+            correct: 3,
+            explanation:
+              "Staff salaries is the correct answer.",
+          },
+          {
+            question: "GST is based on the principle of:",
+            options: [
+              "Destination based",
+              "Income based",
+              "Origin based",
+              "Production based",
+            ],
+            correct: 0,
+            explanation:
+              "Destination based is the correct answer.",
+          },
+          {
+            question: "Time overrun in capital works leads to:",
+            options: [
+              "Audit closure",
+              "Cost reduction",
+              "Cost escalation",
+              "Savings",
+            ],
+            correct: 2,
+            explanation:
+              "Cost escalation is the correct answer.",
           },
         ],
         "2": [

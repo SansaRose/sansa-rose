@@ -1536,6 +1536,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "GFR", fullForm: "General Financial Rules",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "GIO", fullForm: "Grievance In-Charge Officer",
         explanation: "Will be added later",
         reference: "--"
@@ -1720,6 +1724,14 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "IDS", fullForm: "Inner Distant Signal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "IFMS", fullForm: "Integrated Financial Management System",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "IMMIS", fullForm: "Integrated Material Management Information System",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2991,7 +3003,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "RSP", fullForm: "Rolling Stock Performance",
+      { acronym: "RSP", fullForm: "Rolling Stock Programme",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3628,6 +3640,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "UDIT", fullForm: "Unified Digital Interface for Transfer Module",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "UDM", fullForm: "Unified Data Management",
         explanation: "Will be added later",
         reference: "--"
       },
