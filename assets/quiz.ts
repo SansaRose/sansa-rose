@@ -8997,50 +8997,262 @@ export const allQuizzes = {
         ],
         "2": [
           {
-            question: "What is the name of the famous sculpture by Michelangelo?",
-            options: ["The Thinker", "David", "Venus de Milo", "The Kiss"],
-            correct: 1,
-            explanation:
-              "David is the famous marble sculpture by Michelangelo, depicting the biblical hero David.",
-          },
-          {
-            question: 'Which artist is known for his "Blue Period"?',
-            options: [
-              "Pablo Picasso",
-              "Vincent van Gogh",
-              "Salvador Dalí",
-              "Henri Matisse",
-            ],
+            question: "What is the Bid Security (EMD) for tenders up to 1 Crore rupees?",
+            options: ["1 percent", "2 percent", "3 percent", "4 percent"],
             correct: 0,
             explanation:
-              'Pablo Picasso is known for his "Blue Period," characterized by somber paintings in shades of blue.',
+              "2 percent is the correct answer.",
           },
           {
-            question: "What is the most famous painting by Edvard Munch?",
+            question: "If the estimated cost exceeds 1 crore rupees, on what does the Bid Security depends?",
             options: [
-              "The Scream",
-              "Starry Night",
-              "The Persistence of Memory",
-              "Guernica",
+              "Contractor's choice",
+              "Fixed rule",
+              "Head of department",
+              "Terms and conditions",
             ],
-            correct: 0,
+            correct: 3,
             explanation:
-              "The Scream is the most famous painting by Edvard Munch, depicting a figure with an agonized expression.",
+              "Terms and conditions is the correct answer.",
           },
           {
-            question: "Which art movement was founded by Salvador Dalí?",
-            options: ["Cubism", "Surrealism", "Impressionism", "Expressionism"],
-            correct: 1,
+            question: "Which document is issued for inviting tenders?",
+            options: ["Agreement", "Bill", "Notice Inviting Tenders", "Work order"],
+            correct: 2,
             explanation:
-              "Salvador Dalí was a prominent figure in the Surrealism movement, known for his bizarre and dreamlike imagery.",
+              "Notice Inviting Tenders is the correct answer.",
           },
           {
             question:
-              "What is the technique of using small dots to create an image called?",
-            options: ["Pointillism", "Impressionism", "Cubism", "Expressionism"],
+              "How many main types of tenders are there?",
+            options: ["4", "5", "6", "7"],
+            correct: 2,
+            explanation:
+              "6 is the correct answer.",
+          },
+          {
+            question:
+              "How many types of quotations are there?",
+            options: ["2", "3", "4", "5"],
             correct: 0,
             explanation:
-              "Pointillism is the technique of using small dots of color to create an image, developed by Georges Seurat.",
+              "2 is the correct answer.",
+          },
+          {
+            question:
+              "Petty quotation is used for which purpose?",
+            options: ["Capital works", "International works", "Large works", "Low-value works"],
+            correct: 3,
+            explanation:
+              "Low-value works is the correct answer.",
+          },
+          {
+            question:
+              "Capital Budget is related to which of the following?",
+            options: ["Maintenance", "New assets and new works", "Salary", "Travelling allowance"],
+            correct: 1,
+            explanation:
+              "New assets and new works is the correct answer.",
+          },
+          {
+            question:
+              "Improvement & Modifications are included in which budget?",
+            options: ["Captital budget", "Contigency", "Deposit", "Revenue budget"],
+            correct: 3,
+            explanation:
+              "Revenue budget is the correct answer.",
+          },
+          {
+            question:
+              "How many main types of budget are there?",
+            options: ["2", "3", "4", "5"],
+            correct: 0,
+            explanation:
+              "2 is the correct answer.",
+          },
+          {
+            question:
+              "Salary, TA & DA come under which budget?",
+            options: ["Capital budget", "Loan", "Pink book", "Revenue budget"],
+            correct: 3,
+            explanation:
+              "Revenue budget is the correct answer.",
+          },
+          {
+            question:
+              "Performance Guarantee (PG) is what percentage of the contract value?",
+            options: ["2%", "5%", "6%", "7%"],
+            correct: 1,
+            explanation:
+              "5% is the correct answer.",
+          },
+          {
+            question:
+              "What is the validity of Performance Guarantee (PG)?",
+            options: ["Completed period + 60 days", "Only completion period", "One year", "Six months"],
+            correct: 0,
+            explanation:
+              "Completed period + 60 days is the correct answer.",
+          },
+          {
+            question:
+              "When is the Performance Guarantee (PG) released?",
+            options: ["At tender opening", "At agreement stage", "After completion of work", "During execution"],
+            correct: 2,
+            explanation:
+              "After completion of work is the correct answer.",
+          },
+          {
+            question:
+              "What is the Security Deposit (SD)?",
+            options: ["2%", "5%", "10%", "15%"],
+            correct: 1,
+            explanation:
+              "5% is the correct answer.",
+          },
+          {
+            question:
+              "Which amonut is included in the Security Deposit (SD)?",
+            options: ["Earnest Money Deposit (EMD)", "Performance Guarantee (PG)", "Penalty", "Tax"],
+            correct: 0,
+            explanation:
+              "Earnest Money Deposit (EMD) is the correct answer.",
+          },
+          {
+            question:
+              "Earnest Money Deposit (EMD) is what percentage of the contract value?",
+            options: ["1%", "2%", "3%", "4%"],
+            correct: 1,
+            explanation:
+              "2% is the correct answer.",
+          },
+          {
+            question:
+              "What happens to the Earnest Money Deposit (EMD) after the tender is awarded?",
+            options: ["Adjusted in Security Deposit (SD)", "Converted to Performance Guarantee (PG)", "Forfeited", "Refunded"],
+            correct: 0,
+            explanation:
+              "Adjusted in Security Deposit (SD) is the correct answer.",
+          },
+          {
+            question:
+              "what happens to the Earnest Money Deposit (EMD) if the tender is not awarded?",
+            options: ["Adjusted", "Deducted", "Forfeited", "Returned"],
+            correct: 3,
+            explanation:
+              "Returned is the correct answer.",
+          },
+          {
+            question:
+              "Fixed Deposit Receipt (FDR) is used in which form?",
+            options: ["As security", "Bill", "Payment", "Salary"],
+            correct: 2,
+            explanation:
+              "6 is the correct answer.",
+          },
+          {
+            question:
+              "What does Bank Guarantee (BG) mean?",
+            options: ["Bank makes payment", "Bank gives surety", "Bank executes work", "Bank submit tender"],
+            correct: 1,
+            explanation:
+              "Bank gives surety is the correct answer.",
+          },
+          {
+            question:
+              "What is the validity of Demand Draft (DD)?",
+            options: ["Three months", "Six months", "One year", "Two years"],
+            correct: 0,
+            explanation:
+              "Three months is the correct answer.",
+          },
+          {
+            question:
+              "Issue Note is used for which purpose?",
+            options: ["Issue of material from store", "Payment", "Purchase", "Tender"],
+            correct: 0,
+            explanation:
+              "Issue of material from store is the correct answer.",
+          },
+          {
+            question:
+              "Special Indent is used for which purpose?",
+            options: ["Budget", "Not-stock item", "Salary", "Stock item"],
+            correct: 1,
+            explanation:
+              "Not-stock item is the correct answer.",
+          },
+          {
+            question:
+              "IREPS portal is used for which purpose?",
+            options: ["Bill payment", "Budget preparation", "Online tendering", "Salary payment"],
+            correct: 2,
+            explanation:
+              "Online tendering is the correct answer.",
+          },
+          {
+            question:
+              "Aadhar card, PAN card and GST certificate fall under which category?",
+            options: ["Bill payments", "Payment documents", "Store documents", "Tender documents"],
+            correct: 3,
+            explanation:
+              "Tender documents is the correct answer.",
+          },
+          {
+            question:
+              "What is the main objective of Revenue budget?",
+            options: ["Asset creation", "Day-to-day maintenance expenses", "Land purchase", "Machinery purchase"],
+            correct: 1,
+            explanation:
+              "Day-to-day maintenance expenses is the correct answer.",
+          },
+          {
+            question:
+              "What is the main objective of Capital budget?",
+            options: ["Creation of new assets", "Imprest", "Maintenance", "Salary payments"],
+            correct: 0,
+            explanation:
+              "Creation of new assets is the correct answer.",
+          },
+          {
+            question:
+              "Green Book represents works of which level?",
+            options: ["DRM level", "GM level", "Railway Board level", "Unit level"],
+            correct: 3,
+            explanation:
+              "GM level is the correct answer.",
+          },
+          {
+            question:
+              "Pink Book is related to which authority?",
+            options: ["DRM", "GM", "Railway Board", "Unit"],
+            correct: 2,
+            explanation:
+              "Railway Board is the correct answer.",
+          },
+          {
+            question:
+              "Mini Law Book (MLB) is related to works under whose powers?",
+            options: ["DRM", "GM", "Railway Board", "Unit"],
+            correct: 0,
+            explanation:
+              "DRM is the correct answer.",
+          },
+          {
+            question:
+              "What is the purpose of the Technical Bid in the tender process?",
+            options: ["Payment details", "Price quotation", "Signing of agreement", "Verification of eligibility & technical capability"],
+            correct: 3,
+            explanation:
+              "Verification of eligibility & technical capability is the correct answer.",
+          },
+          {
+            question:
+              "What does L1 bidder mean?",
+            options: ["Lowest rate bidder", "Highest rate bidder", "Second lowest bidder", "Technically unqualified bidder"],
+            correct: 0,
+            explanation:
+              "Lowest rate bidder is the correct answer.",
           },
         ],
         "3": [

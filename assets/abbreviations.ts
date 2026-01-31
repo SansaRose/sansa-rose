@@ -1366,6 +1366,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "EMD", fullForm: "Earnest Money Deposit",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "EMU", fullForm: "Electrical Multiple Units",
         explanation: "A self-propelled passenger train unit powered by electricity, commonly used for suburban services",
         reference: "--"
@@ -1437,6 +1441,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "FATO", fullForm: "Factors Affecting Train Operations",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "FDR", fullForm: "Fixed Deposit Receipt",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2322,6 +2330,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "NIT", fullForm: "Notice Inviting Tender",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "NLP", fullForm: "National Logistics Policy",
         explanation: "Will be added later",
         reference: "--"
@@ -2584,6 +2596,10 @@ type AbbreviationItem = {
       },
       { acronym: "PFM", fullForm: "Public Financial Management",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PG", fullForm: "Performance Guarantee",
+        explanation: "Related to Tenders",
         reference: "--"
       },
       { acronym: "PGC", fullForm: "Passenger Gaurd Course",
