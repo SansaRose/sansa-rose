@@ -9254,6 +9254,95 @@ export const allQuizzes = {
             explanation:
               "Lowest rate bidder is the correct answer.",
           },
+          {
+            question:
+              "List of approved contractors for Zonal Railway are to be maintained in:",
+            options: ["General Manager's office", "PCSTE office", "Railway Board", "None of the above"],
+            correct: 1,
+            explanation:
+              "PCSTE office is the correct answer.",
+          },
+          {
+            question:
+              "List of approved contractors for Division are to be maintained in:",
+            options: ["DRM officer", "PCSTE office", "Sr.DSTE office", "None of the above"],
+            correct: 2,
+            explanation:
+              "Sr.DSTE office is the correct answer.",
+          },
+          {
+            question:
+              "List of approved contractors are maintained under the following categories of works in the PCSTE office:",
+            options: ["Works executed under Open line conditions affecting safety of running trains", "Works executed under Open line conditions not involving safety of running trains", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "List of approved contractors are maintained under the following categories of works in the division:",
+            options: ["Works executed under Open line conditions affecting safety of running trains", "Works executed under Open line conditions not involving safety of running trains", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "Depending upon the conditions, tenders for works can be obtained by:",
+            options: ["Limited tenders", "Open tenders", "Single tender", "All of the above"],
+            correct: 3,
+            explanation:
+              "All of the above is the correct answer.",
+          },
+          {
+            question:
+              "When Limited tenders are invited, tender notices are:",
+            options: ["Issued to contractors on the approved list of contractors", "Published in Newspapers", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "When Open tenders are invited, tender notices are:",
+            options: ["Issued to contractors on the approved list of contractors", "Published in Newspapers and tender notices displayed in all important offices and important stations", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "The tenderer has to deposit initial security along with the tender in the form of:",
+            options: ["Earnest Money Deposit (EMD)", "Performance Guarantee (PG)", "Security Deposit (SD)", "Tax"],
+            correct: 0,
+            explanation:
+              "Earnest Money Deposit (EMD) is the correct answer.",
+          },
+          {
+            question:
+              "In case of acceptance of the tender, the Earnest Money Deposit (EMD) will be:",
+            options: ["Returned to the tenderer", "Retained by the Railway as part of Perforance Guarantee (PG)", "Retained by the Railway as part of the Security Deposit (SD)", "Either A or B or C"],
+            correct: 2,
+            explanation:
+              "Retained by the Railway as part of the Security Deposit (SD) is the correct answer.",
+          },
+          {
+            question:
+              "The Earnest Money of the unsuccessful tenderer shall be:",
+            options: ["Refunded after the tender is awarded", "Refunded as expeditiously as possible", "Retained by the Railway", "None of the above"],
+            correct: 0,
+            explanation:
+              "Refunded after the tender is awarded is the correct answer.",
+          },
+          {
+            question:
+              "At the advertised time and place tenders received for the contract shall be opened-",
+            options: ["In the presence of Tender committee members only", "In the presenec of Tender committee members and available tenderers or their representatives", "Either A or B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Either A or B is the correct answer.",
+          },
+          
         ],
         "3": [
           {
