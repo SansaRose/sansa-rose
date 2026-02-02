@@ -9341,8 +9341,303 @@ export const allQuizzes = {
             correct: 2,
             explanation:
               "Either A or B is the correct answer.",
+          },  
+          {
+            question:
+              "The tenders opened and initialled by the Tender Opening Committee shall be valued, assessed and comparative statement prepared and sent to -",
+            options: ["Accepting authority with recommendations", "Accounts department with recommendations", "Accounts department for vetting", "None of the above"],
+            correct: 2,
+            explanation:
+              "Accounts department for vetting is the correct answer.",
           },
-          
+          {
+            question:
+              "Each Measurement Book (MB) shall have -",
+            options: ["Instructions printed at the commencement", "An index sheet which should be posted up to date", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "Measurement Book (MB) shall be issued from Divisional office after they are -",
+            options: ["Contents & movements of books are recorded", "Duly numbered & in the personal custody of a responsible person", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "Entries of the measurement in the measurements in the measurement book (MB) is done by-",
+            options: ["AESTE/SSE will prepare rough measurements and then copy it neatly in measurement book in presence of Contractor", "AESTE/SSE shall directly enter the measurements in the measurement book in presence of Contractor", "Contractor will prepare the measurements and the same will be copied by AESTE/SSE", "Any of the above"],
+            correct: 0,
+            explanation:
+              "AESTE/SSE will prepare rough measurements and then copy it neatly in measurement book in presence of Contractor is the correct answer.",
+          },
+          {
+            question:
+              "When any measurements are cancelled in the measurement book (MB) it should be -",
+            options: ["It should be initialed by the Official who made the measurement", "The reason for cancellation of measurement record", "Both A & B", "Measurements can be cancelled only with approval of the Officer in-charge of the work"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "When addition to measurements already taken are to be done owing to ommission at the time of measurements, then -",
+            options: ["Such additions shall be detailed in a subsequent page of the book, giving reference to the page containing the original measurement", "Explanation for reason of ommission to be given", "Both A & B", "Measurements can be added only with approval of the Officer in-charge of the work"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "Entries in the measurement books for all 'On Account' measurements are done and signed by-",
+            options: ["Concerned Railway officials", "Concerned Railway officials & the contractor or his authorized representative", "Concerned Railway officials, contractor or his authorized representative and Accounts officer", "None of the above"],
+            correct: 1,
+            explanation:
+              "Concerned Railway officials & the contractor or his authorized representative is the correct answer.",
+          },
+          {
+            question:
+              "If the contractor does not turn up after due notice of time and date on which measurements are to be taken -",
+            options: ["Measurements will be postponed and taken later", "Another notice with time and date for measurements will be given to the contractor", "The work may be measured in the absence of the contractor and recorded", "None of the above"],
+            correct: 1,
+            explanation:
+              "Another notice with time and date for measurements will be given to the contractor is the correct answer.",
+          },
+          {
+            question:
+              "If the contractor does not turn up after due notice and measurements are recorded in his absence, it will be binding on the contractor unless -",
+            options: ["Any objection to any measurements is made by the contractor in writing within 7 days of the date of measurement which will be investigated and considered", "Any objection in writing within 15 days", "Any objection in writing within 30 days", "Objection of the contractor will not be considered after measurements are recorded"],
+            correct: 0,
+            explanation:
+              "Any objection to any measurements is made by the contractor in writing within 7 days of the date of measurement which will be investigated and considered is the correct answer.",
+          },
+          {
+            question:
+              "On satisfactory completion of the work, the security deposit is -",
+            options: ["Refunded to the contractor after final measurements are recorded", "Refunded to the contractor after final payment for the work is made", "Refunded to the contractor after the guarantee period", "Refunded to the contractor after 3 months of recording of final measurements"],
+            correct: 1,
+            explanation:
+              "Refunded to the contractor after final payment for the work is made is the correct answer.",
+          },
+          {
+            question:
+              "On completion of every work the contractor has to submit -",
+            options: ["All bills cleared certificate", "All works completed certificate", "No claim certificate", "No bills pending certificate"],
+            correct: 2,
+            explanation:
+              "No claim certificate is the correct answer.",
+          },
+          {
+            question:
+              "Disputes with contractors are sorted out by -",
+            options: ["Arbitration", "Counselling of contractor", "Counselling of Railway officials", "None of the above"],
+            correct: 0,
+            explanation:
+              "Arbitration is the correct answer.",
+          },
+          {
+            question:
+              "After the measurements are done in the measurement book, the bills are prepared in the -",
+            options: ["Accounts office", "ADSTE office", "SSE office", "Sr. DSTE office"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE office is the correct answer.",
+          },
+          {
+            question:
+              "At the end of the ADSTE's abstract of measurements made in the measurement book, an endorsement is made giving the reference to the particulars of the bill passed under the signature of -",
+            options: ["Accounts officer", "ADSTE", "SSE", "Sr. DSTE"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE is the correct answer.",
+          },
+          {
+            question:
+              "At the end of the ADSTE's abstract of measurements made in the measurement book, an endorsement is made giving the reference to the particulars of the bill passed under the signature of Sr. DSTE giveing the reference to-",
+            options: ["Particulars of the bill passed", "Particulars of pending payments", "Both A & B", "None of the above"],
+            correct: 0,
+            explanation:
+              "Particulars of the bill passed is the correct answer.",
+          },
+          {
+            question:
+              "When 'On Account' bills are prepared, the prescribed percentage of the value of the work done since the last certificated shall be deducted as -",
+            options: ["Material guarantee", "Performance guarantee", "Safety deposit", "Security deposit"],
+            correct: 3,
+            explanation:
+              "Security deposit is the correct answer.",
+          },
+          {
+            question:
+              "Bill registers shall be maintained for all the works in the division in the office of -",
+            options: ["Accounts office", "DRM office", "PCSTE office", "Sr. DSTE office"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE is the correct answer.",
+          },
+          {
+            question:
+              "The measurement book when filled up for measurements, shall show the following quantities of work done -",
+            options: ["As per last measurement", "Total measurement till date", "Either A or B", "Both A & B"],
+            correct: 1,
+            explanation:
+              "Total measurement till date is the correct answer.",
+          },
+          {
+            question:
+              "Mistakes in entries, if made in the measurement book, shall be -",
+            options: ["Erased, corrected and initialled", "Neatly scored out and corrected and initialled", "The whole page is crossed out and cancelled written", "Any of the above"],
+            correct: 1,
+            explanation:
+              "Neatly scored out and corrected and initialled is the correct answer.",
+          },
+          {
+            question:
+              "The measurement books are normally available in the office of -",
+            options: ["Accounts office", "ADSTE office", "SSE office", "Sr. DSTE office"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE office is the correct answer.",
+          },
+          {
+            question:
+              "Before detailing the measurements relating to work the following information is not required to be given -",
+            options: ["Final/On account Contract certificate number", "Last On account bill payment done", "Reference of previous On account bill Measurement book pages", "Situation of the work"],
+            correct: 1,
+            explanation:
+              "Last On account bill payment done is the correct answer.",
+          },
+          {
+            question:
+              "Before detailing the measurements relating to work the following information is required to be given -",
+            options: ["Date commenced", "Date completed", "Date of measurements", "All of the above"],
+            correct: 3,
+            explanation:
+              "All of the above is the correct answer.",
+          },
+          {
+            question:
+              "Before detailing the measurements relating to work the following information is required to be given -",
+            options: ["Agency by which work executed", "Reference to Agreement of Work order", "Situation of the work", "All of the above"],
+            correct: 3,
+            explanation:
+              "All of the above is the correct answer.",
+          },
+          {
+            question:
+              "The same Measurement book can be used for making measurements for different works -",
+            options: ["Yes", "No", "When filled up by the same SSE", "With the approval of Sr. DSTE"],
+            correct: 0,
+            explanation:
+              "Yes is the correct answer.",
+          },
+          {
+            question:
+              "After the measurements are completed, the Measurement book should be kept in -",
+            options: ["ADSTE office", "SSE/Signal office", "Sr. DSTE office", "None of the above"],
+            correct: 2,
+            explanation:
+              "Sr. DSTE office is the correct answer.",
+          },
+          {
+            question:
+              "The normal method adopted for obtaining the tenders is -",
+            options: ["Limited tender", "Open tender", "Single tender", "None of the above"],
+            correct: 1,
+            explanation:
+              "Open tender is the correct answer.",
+          },
+          {
+            question:
+              "Copies of Contract documents shall be availabe for use in the office of -",
+            options: ["Accounts office", "ADSTE office", "SSE office", "Sr. DSTE office"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE office is the correct answer.",
+          },
+          {
+            question:
+              "If any pages are left blank inadvertenly, they shall be cancelled by -",
+            options: ["Cancelled by ADSTE", "Drawing hotizontal lines across the page & attesting the cancellation", "Drawing vertical lines across the page & attesting the cancellation", "Drawing Diagonal lines across the page & attesting the cancellation"],
+            correct: 3,
+            explanation:
+              "Drawing Diagonal lines across the page & attesting the cancellation is the correct answer.",
+          },
+          {
+            question:
+              "A register of measurement books shall be maintained in the office of -",
+            options: ["Accounts office", "ADSTE office", "SSE office", "Sr. DSTE office"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE office is the correct answer.",
+          },
+          {
+            question:
+              "The pages of every measurement book shall be -",
+            options: ["Hand numbered", "Hand numbered and attested", "Machine numbered", "Stamped in Sr. DSTE office"],
+            correct: 2,
+            explanation:
+              "Machine numbered is the correct answer.",
+          },
+          {
+            question:
+              "Items which are not included in the contract, can only be carried out if essentially required by -",
+            options: ["Approval of ADSTE", "Approval of competent authority", "Mutual agreement with the contractor", "None of the above"],
+            correct: 1,
+            explanation:
+              "Approval of competent authority is the correct answer.",
+          },
+          {
+            question:
+              "If any tenderer, whose tender has been accepted, refuses to execute the contract documents then the tender and the acceptance shall be -",
+            options: ["Earnest Money forfeited", "Null and void", "Both A & B", "Kept in abeyance"],
+            correct: 2,
+            explanation:
+              "Both A & B is the correct answer.",
+          },
+          {
+            question:
+              "A contractor interested in having his name included in the approval list of contractors should submit with his application for registration the following -",
+            options: ["A certificate showing the financial standing of the applicant", "An authorized copy of the income-tax clearance certificate", "Original certificates regarding past experience of works", "All of the above"],
+            correct: 3,
+            explanation:
+              "All of the above is the correct answer.",
+          },
+          {
+            question:
+              "Ordinarily the tender accepted by the Railway is -",
+            options: ["Discretion of competent authority", "Highest tender", "Lowest tender", "Tender with maximum experience"],
+            correct: 2,
+            explanation:
+              "Lowest tender is the correct answer.",
+          },
+          {
+            question:
+              "If the loss of a measurement book is discovered, the matter shall be immediately reported to -",
+            options: ["GRP", "PCSTE", "RPF", "Sr. DSTE"],
+            correct: 3,
+            explanation:
+              "Sr. DSTE is the correct answer.",
+          },
+          {
+            question:
+              "Normally, Earnest Money for the tender is -",
+            options: ["Accepted by cheque with approval of competent authority", "Accepted by cheque form Nationalised Bank", "Normally accepted by cheque from any banks", "Normally not accepted by cheque"],
+            correct: 3,
+            explanation:
+              "Normally not accepted by cheque is the correct answer.",
+          },
+          {
+            question:
+              "In the case of 'first and final bill' the bill amount will be -",
+            options: ["Be subject to deductions for Security deposit", "Be subject to deductions for Performance guarantee", "Be subject to deductions for Material guarantee", "Not be subject to any deductions"],
+            correct: 3,
+            explanation:
+              "Not be subject to any deductions is the correct answer.",
+          },
         ],
         "3": [
           {
