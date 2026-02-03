@@ -146,6 +146,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "APAR", fullForm: "Annual Performance Appraisal Report",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "APO", fullForm: "Assistant Personnel Officer",
         explanation: "Will be added later",
         reference: "--"

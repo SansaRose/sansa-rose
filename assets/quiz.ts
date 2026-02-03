@@ -6822,6 +6822,224 @@ export const allQuizzes = {
             correct: 3,
             explanation: "24 is the correct answer.",
           },
+          {
+            question:
+              "Regulation of Hours of Work and Period of Rest are dealt in -",
+            options: ["Chapter IX of Indian Railways Act 1989", "Chapter XII of Indian Railways Act 1989", "Chapter XIII of Indian Railways Act 1989", "Chapter XIV of Indian Railways Act 1989"],
+            correct: 3,
+            explanation: "Chapter XIV of Indian Railways Act 1989 is the correct answer.",
+          },
+          {
+            question:
+              "The classification of _______ employees is defined in section 130(a) of Indian Railways Act 1989",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 1,
+            explanation: "Essentially Intermittent is the correct answer.",
+          },
+          {
+            question:
+              "The classification of _______ employees is defined in section 130(b) of Indian Railways Act 1989",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 0,
+            explanation: "Continuous is the correct answer.",
+          },
+          {
+            question:
+              "The classification of _______ employees is defined in section 130(c) of Indian Railways Act 1989",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 2,
+            explanation: "Excluded is the correct answer.",
+          },
+          {
+            question:
+              "The classification of _______ employees is defined in section 130(d) of Indian Railways Act 1989",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 3,
+            explanation: "Intensive is the correct answer.",
+          },
+          {
+            question:
+              "Grant of Overtime payment to Railway servants is dealt in -",
+            options: ["Chapter IX of Indian Railways Act 1989", "Chapter XII of Indian Railways Act 1989", "Chapter XIII of Indian Railways Act 1989", "Chapter XIV of Indian Railways Act 1989"],
+            correct: 3,
+            explanation: "Chapter XIV of Indian Railways Act 1989 is the correct answer.",
+          },
+          {
+            question:
+              "The duties of supervisors of Railway Labour is defined in Chapter XIV of Indian Railways Act 1989",
+            options: ["Section 135", "Section 136", "Section 137", "Section 138"],
+            correct: 0,
+            explanation: "Section 135 is the correct answer.",
+          },
+          {
+            question:
+              "In the case of Intensive workers _______ means period of duty over 6 hours",
+            options: ["Long on duty", "Long off duty", "Long on off duty", "Long off and on duty"],
+            correct: 0,
+            explanation: "Long on duty is the correct answer.",
+          },
+          {
+            question:
+              "In the case of Continuous workers Long on duty means period of duty over ______ hours",
+            options: ["Over 6", "Over 8", "Over 10", "Over 12"],
+            correct: 2,
+            explanation: "Over 10 is the correct answer.",
+          },
+          {
+            question:
+              "In the case of _______ workers Long on duty means period of duty over 12 hours",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 1,
+            explanation: "Essentially Intermittent is the correct answer.",
+          },
+          {
+            question:
+              "_______ is the period of rest less than 12 hours between two rostered duties of 6 hours of Railway servant under Intensive classification",
+            options: ["Long Off", "Long On Off duty", "Short Off", "None of the above"],
+            correct: 2,
+            explanation: "Short Off is the correct answer.",
+          },
+          {
+            question:
+              "Short Off is the period of ________ rest between two rostered duties of Railway servant under continuous classification",
+            options: ["Less than 8 hours", "Less than 10 hours", "Less than 12 hours", "Less than 14 hours"],
+            correct: 1,
+            explanation: "Less than 10 hours is the correct answer.",
+          },
+          {
+            question:
+              "Maximum number of breaks permitted in a split shift is ______",
+            options: ["2 break 1 spell", "2 break 2 spells", "2 break 3 spells", "3 break 2 spells"],
+            correct: 2,
+            explanation: "2 break 3 spells is the correct answer.",
+          },
+          {
+            question:
+              "If the place of residence is beyond _______ kilometers from the place of duty, then 7 hours of split duty shall be treated as equivalent to 8 hours of normal duty",
+            options: ["1.6", "1.8", "2.0", "2.2"],
+            correct: 0,
+            explanation: "1.6 is the correct answer.",
+          },
+          {
+            question:
+              "Power to declare the employment of a Railway servant as 'Intensive' or 'Essentially Intermittent' is vested in the",
+            options: ["DRM", "GM", "PCPO", "Sr.DPO"],
+            correct: 2,
+            explanation: "PCPO is the correct answer.",
+          },
+          {
+            question:
+              "_______ is the competent authority to declare the employment of a Railway servant as 'Excluded'",
+            options: ["Ministry of Finance", "Ministry of Home Affairs", "Ministry of Labour", "Ministry of Railways"],
+            correct: 3,
+            explanation: "Ministry of Railways is the correct answer.",
+          },
+          {
+            question:
+              "The time limit for the appeal against classification of employment is ______ days",
+            options: ["30", "45", "60", "90"],
+            correct: 3,
+            explanation: "90 is the correct answer.",
+          },
+          {
+            question:
+              "Copy of order specifying a Railway servant to be treated as Supervisory staff shall be forwarded to ______",
+            options: ["Chief Labour Commissioner", "Labour Enforcement Officer", "Regional Labour Commissioner","None of the above"],
+            correct: 0,
+            explanation: "Chief Labour Commissioner is the correct answer.",
+          },
+          {
+            question:
+              "______ is the competent authority to specify a Railway servant as supervisory staff",
+            options: ["Ministry of Home Affairs", "Ministry of Labour", "Ministry of Railways", "None of the above"],
+            correct: 1,
+            explanation: "Ministry of Labour is the correct answer.",
+          },
+          {
+            question:
+              "The Employement of all Railway Servants except those excluded by Ministry of Railways are assumed to be ______",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 0,
+            explanation: "Continuous is the correct answer.",
+          },
+          {
+            question:
+              "Health Educators and Family planning field workers are classified as ______",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 2,
+            explanation: "Excluded is the correct answer.",
+          },
+          {
+            question:
+              "Period of inaction or relaxation aggregating to _______ hours in a cycle of 24 hours will satisfy the condition of little period of rest for classification as Intensive",
+            options: ["Less than 6", "Less than 8", "Less than 10", "Less than 12"],
+            correct: 0,
+            explanation: "Less than 6 is the correct answer.",
+          },
+          {
+            question:
+              "Period of inaction or relaxation aggregating to _______ hours in a cycle of 8 hours will satisfy the condition of little period of rest for classification as Intensive",
+            options: ["Less than 1", "Less than 2", "Less than 3", "Less than 4"],
+            correct: 0,
+            explanation: "Less than 1 is the correct answer.",
+          },
+          {
+            question:
+              "The Employment of Railway Servants is classified as _______ if in shift of 12 hours the period of inaction aggregate to 6 hours or more",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 1,
+            explanation: "Essentially Intermittent is the correct answer.",
+          },
+          {
+            question:
+              "The standard hours of duty of Intensive category is ______ hours in a week",
+            options: ["42", "54", "60", "72"],
+            correct: 0,
+            explanation: "42 is the correct answer.",
+          },
+          {
+            question:
+              "The rostered hours of duty of Caretaker of rest houses is ______ hours in a week",
+            options: ["48", "54", "60", "75"],
+            correct: 3,
+            explanation: "75 is the correct answer.",
+          },
+          {
+            question:
+              "The standard hours of work of a Railway Servant classified as Essentially Intermittent and working in _______ period with quarters within 0.5 km from the place of duty is 60 hours in a week",
+            options: ["Non road station", "Non station", "Non road", "Road station"],
+            correct: 0,
+            explanation: "Non road station is the correct answer.",
+          },
+          {
+            question:
+              "The standard hours of work of a Railway Servant classified as Essentially Intermittent and working in Road station not period with quarters within 0.5 km from the place of duty is ________ hours in a week",
+            options: ["48", "54", "60", "72"],
+            correct: 2,
+            explanation: "60 is the correct answer.(Doubt, Check one more time)",
+          },
+          {
+            question:
+              "The standard hours of work of a Railway Servant classified as Essentially Intermittent and working in Road station and provided with quarters within 0.5 km from the place of duty is ________ hours in a week",
+            options: ["48", "54", "60", "72"],
+            correct: 3,
+            explanation: "72 is the correct answer.",
+          },
+          {
+            question:
+              "Maximum time limit prescribed for preparatory and complementary work in case of Railway Servant classified as Intensive is ________ hours in a week",
+            options: ["2", "3", "4", "5"],
+            correct: 1,
+            explanation: "3 is the correct answer.",
+          },
+          {
+            question:
+              "Maximum time limit prescribed for preparatory and complementary work in case of Railway Servant classified as Continuous is ________ hours in a week",
+            options: ["2", "4", "5", "6"],
+            correct: 3,
+            explanation: "6 is the correct answer. (Doubt, Check one more time)",
+          },
+          
         ],
         "4": [
           {
@@ -7007,6 +7225,288 @@ export const allQuizzes = {
             ],
             correct: 1,
             explanation: "Two(IInd/Sleeper) is the correct answer.",
+          },
+        ],
+        "6": [
+          {
+            question:
+              "Paternity Leave is granted to Railway Servant for _______ days",
+            options: ["10", "15", "20", "25"],
+            correct: 1,
+            explanation: "15 is the correct answer.",
+          },
+          {
+            question:
+              "Paternity Leave is granted up to _______ living children",
+            options: ["One", "Two", "Three", "Four"],
+            correct: 1,
+            explanation: "Two is the correct answer.",
+          },
+          {
+            question:
+              "Paternity Leave is introduced with effect from _______",
+            options: ["1997", "1998", "1999", "2000"],
+            correct: 0,
+            explanation: "07.10.1997 is the correct answer.",
+          },
+          {
+            question:
+              "Maximum limit of Leave on Average Pay (LAP) is 300 is effective from _______",
+            options: ["01.07.1997", "01.07.1987", "01.07.2007", "01.09.2008"],
+            correct: 0,
+            explanation: "01.07.1997 is the correct answer.",
+          },
+          {
+            question:
+              "Leave on Half Average Pay (LHAP) can be granted for _______ months at a time",
+            options: ["6", "12", "24", "36"],
+            correct: 2,
+            explanation: "24 is the correct answer.",
+          },
+          {
+            question:
+              "Leave Not Due (LND) for _______ days is eligible for Railway employees in entire service life",
+            options: ["120", "180", "240", "360"],
+            correct: 3,
+            explanation: "360 is the correct answer.",
+          },
+          {
+            question:
+              "Transfer at more than 1000 kms distance are eligible for _______ days joining time. ",
+            options: ["10 days", "12 days", "15 days", "20 days"],
+            correct: 1,
+            explanation: "12 days is the correct answer.",
+          },
+          {
+            question:
+              "Study leave is granted for Railway Servant for _______ months at a time",
+            options: ["6", "12", "24", "36"],
+            correct: 1,
+            explanation: "12 is the correct answer.",
+          },
+          {
+            question:
+              "For encashment of leave salary, minimum leave balance should be _______ days",
+            options: ["15", "30", "45", "60"],
+            correct: 1,
+            explanation: "30 is the correct answer.",
+          },
+          {
+            question:
+              "Casual leave can be combined with joining time?",
+            options: ["False", "True", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "False is the correct answer.",
+          },
+          {
+            question:
+              "Hospital leave is granted to Group C and D employees?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Unmarried female employees are also eligible for Maternity Leave?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Extra Ordinary Leave (EOL) can be granted NOT more than 5 years",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Paternity Leave (PL) can be granted within 6 months of childbirth?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Maternity Leave can be sanctioned twice a year?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Casual leave can be combined with maternity leave?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "False is the correct answer.",
+          },
+          {
+            question:
+              "Leave is not a right of employee?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Female Railway employees are eligible for Maternity Leave upto 3 living children?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "False is the correct answer.",
+          },
+          {
+            question:
+              "Special Casual Leave (SCL) is granted during the bandh, curfew and natural calamity?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "If joining time is not availed, it is credited to LAP account?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Joining time is not given on Own Request transfers?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Child Care Leave (CCL) is eligible up to 730 days?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Leave of Apprentice is not accumulated?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Woman employee is eligible for Maternity Leave, even if child is dead",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Paternity Leave is applicable to apprentice also?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Salary is payable to the employee up to his date of death?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Female railway employees are eligible for maternity leave for ______ days",
+            options: ["90", "120", "180", "210"],
+            correct: 2,
+            explanation: "180 is the correct answer.",
+          },
+          {
+            question:
+              "What is the joining time eligible for transfer on administrative grounds for 1500 kms _______ days",
+            options: ["10", "12", "15", "20"],
+            correct: 1,
+            explanation: "12 is the correct answer.",
+          },
+          {
+            question:
+              "Maximum study leave may be granted for _______ months",
+            options: ["6", "12", "24", "36"],
+            correct: 2,
+            explanation: "24 is the correct answer.",
+          },
+          {
+            question:
+              "Leave on Average Pay (LAP) may be accumulation up to how many days",
+            options: ["285 days", "290 days", "300 + 15 days", "305 days"],
+            correct: 2,
+            explanation: "300 + 15 days is the correct answer.",
+          },
+          {
+            question:
+              "Indian Railway Establishment Code (IREC) Volume-I paragraph 501 to 556 mentions Leave Rules?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Since when, the current leave rules been implemented?",
+            options: ["1949", "1950", "1951", "1952"],
+            correct: 0,
+            explanation: "01.02.1949 is the correct answer.",
+          },
+          {
+            question:
+              "When maternity leave came into existence up to 180 days?",
+            options: ["2006", "2007", "2008", "2009"],
+            correct: 2,
+            explanation: "01.09.2008 is the correct answer.",
+          },
+          {
+            question:
+              "How many days leave is given to Special Category Apprenticeships(SCRA)?",
+            options: ["30 days", "45 days", "60 days", "90 days"],
+            correct: 0,
+            explanation: "30 days with stipend and on submission of medical certificate is the correct answer.",
+          },
+          {
+            question:
+              "How many days leave is given to apprentice mechanics?",
+            options: ["16 days", "20 days", "24 days", "28 days"],
+            correct: 0,
+            explanation: "16 days with stipend and 20 days on half stipend with submission of medical certificate is the correct answer.",
+          },
+          {
+            question:
+              "Leave allowed to trade apprentices in a year is _______ days",
+            options: ["12 days", "15 days", "18 days", "20 days"],
+            correct: 0,
+            explanation: "12 days with full stipend and 15 days on half stipend with submission of medical certificate is the correct answer.",
+          },
+          {
+            question:
+              "How many days leave is granted to Trainees/apprentices, who are posted as supervisors on completion of training?",
+            options: ["16 days", "20 days", "24 days", "28 days"],
+            correct: 0,
+            explanation: "16 days with stipend and 20 days on half stipend with submission of medical certificate is the correct answer.",
+          },
+          {
+            question:
+              "Maximum leave at Leave on Average Pay (LAP) can be approved one time/in one spell for _______ days",
+            options: ["180", "240", "300", "360"],
+            correct: 0,
+            explanation: "180 is the correct answer.",
+          },
+          {
+            question:
+              "During six months, if the employee remains absent from duty for more than 160 days, how many days of his/her average salary leave will be credited to his/her leave account?",
+            options: ["10", "15", "20", "Nil"],
+            correct: 0,
+            explanation: "Maximum 15 days (1 day for each 10 days of absence) is the correct answer.",
+          },
+          {
+            question:
+              "During six months, if the employee remains absent from duty for more than 160 days, how many days of his/her average salary leave will be credited to his/her leave account?",
+            options: ["10", "15", "20", "25"],
+            correct: 0,
+            explanation: "10 is the correct answer.",
           },
         ],
       },
