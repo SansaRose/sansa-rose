@@ -1696,7 +1696,26 @@ export const establishmentRulesQuizzes = {
         ],
         
         "conduct-rules": [
-          
+          {
+            question:
+              "Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in .... years of service.",
+            options: ["10", "15", "20", "25"],
+            correct: 2,
+            explanation: "20 is the correct answer.",
+          },
+          {
+            question:
+              "How many sets of P.T.O. are issued to the Railway employees?",
+            options: [
+              "3 sets both for Gazetted and Non-Gazetted every year from the date of appointment",
+              "4 sets both for Gazetted and Non-Gazetted every year from the date of appointment",
+              "6 sets both for Gazetted and Non-Gazetted every year from the date of appointment",
+              "6 sets for Gazetted and 4 sets for Non-Gazetted",
+            ],
+            correct: 1,
+            explanation:
+              "4 sets both for Gazetted and Non-Gazetted every year from the date of appointment",
+          },
         ],
       },
 }

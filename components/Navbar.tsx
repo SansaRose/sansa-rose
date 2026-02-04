@@ -25,7 +25,6 @@ const Navbar = () => {
   const navLinks = [
     { href: '/abbreviations', label: 'Abbreviations' },
     { href: '/definitions', label: 'Definitions' },
-    { href: '/quiz', label: 'Quiz' },
     { href: '/syllabus', label: 'Syllabus' },
   ]
 
@@ -216,7 +215,7 @@ const Navbar = () => {
                         <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
                         Acts & Rules
                       </h3>
-                      <span className="text-xs text-gray-500 font-medium">{actsLinks.length} Acts</span>
+                      <span className="text-xs text-gray-500 font-medium">{actsLinks.length} Acts & Rules</span>
                     </div>
                   </div>
                   
@@ -716,7 +715,7 @@ const Navbar = () => {
                   </div>
                   
                   {/* Content */}
-                  <div className="p-4 flex flex-col gap-2">
+                  <div className="p-4 flex flex-col gap-2 max-h-[400px] overflow-y-auto">
                     {quizzesLinks.map((quiz) => {
                       const isActive = pathname === quiz.href
                       return (
@@ -833,7 +832,7 @@ const Navbar = () => {
                     : 'text-white/90 bg-white/10 hover:bg-white/20 hover:text-white backdrop-blur-sm border border-white/20'
                 }`}
               >
-                <span>Acts</span>
+                <span>Acts & Rules</span>
                 <svg
                   className={`w-5 h-5 transition-transform duration-300 ${isActsDropdownOpen ? 'rotate-180' : ''}`}
                   fill="none"
