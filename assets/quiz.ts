@@ -7503,281 +7503,799 @@ export const allQuizzes = {
           },
           {
             question:
-              "During six months, if the employee remains absent from duty for more than 160 days, how many days of his/her average salary leave will be credited to his/her leave account?",
-            options: ["10", "15", "20", "25"],
-            correct: 0,
-            explanation: "10 is the correct answer.",
-          },
-        ],
-      },
-    },
-    // Operating Manual Category - Multiple separate quizzes
-    "operating-manual": {
-      title: "Operating Manual",
-      description: "Learn about operating manual with various topics",
-      icon: "🎨",
-      color: "from-pink-500 to-pink-600",
-      quizzes: {
-        "1": [
-          {
-            question: "Who painted the Mona Lisa?",
-            options: [
-              "Vincent van Gogh",
-              "Leonardo da Vinci",
-              "Pablo Picasso",
-              "Michelangelo",
-            ],
-            correct: 1,
-            explanation:
-              "Leonardo da Vinci painted the Mona Lisa, one of the most famous paintings in the world.",
+              "Conversion of Leave on Half Average Pay (LHAP) can be accepted in lieu of study leave?",
+            options: ["30 days", "60 days", "120 days", "180 days"],
+            correct: 3,
+            explanation: "180 days during the entire service life is the correct answer.",
           },
           {
             question:
-              "What is the primary color that is not a primary color of light?",
-            options: ["Red", "Blue", "Yellow", "Green"],
+              "At what rate, the Leave on Half Average Pay (LHAP) is credited to the leave account?",
+            options: ["5/3 days per completed month", "5/3 days per completed year", "5/3 days per completed 6 months", "5/3 days per completed 12 months"],
+            correct: 0,
+            explanation: "5/3 days per completed month is the correct answer.",
+          },
+          {
+            question:
+              "Total days of Leave on Half Average Pay (LHAP) that can be credited for six months working",
+            options: ["10 days", "15 days", "20 days", "25 days"],
+            correct: 0,
+            explanation: "10 days is the correct answer.",
+          },
+          {
+            question:
+              "The maximum number of days of Leave on Half Average Pay (LHAP) that can be credited the account of a Railway servant upto the date of retirement is _______ days",
+            options: ["100 days", "150 days", "200 days", "No limit"],
+            correct: 1,
+            explanation: "No limit is the correct answer.",
+          },
+          {
+            question:
+              "How many days Leave on Average Pay (LAP) becomes payable in six months working",
+            options: ["10 days", "15 days", "20 days", "25 days"],
+            correct: 1,
+            explanation: "15 days is the correct answer.",
+          },
+          {
+            question:
+              "Maximum Encashment of Leave on Average Pay (LAP) in entire service life is _______ days",
+            options: ["30 days", "50 days", "60 days", "90 days"],
             correct: 2,
-            explanation:
-              "Yellow is a primary color in painting but not in light. The primary colors of light are red, blue, and green.",
+            explanation: "60 days/6 times with a gap of 2 years is the correct answer.",
           },
           {
             question:
-              "Which art movement was characterized by bright colors and bold brushstrokes?",
-            options: ["Impressionism", "Cubism", "Surrealism", "Renaissance"],
-            correct: 0,
-            explanation:
-              "Impressionism was characterized by bright colors, bold brushstrokes, and capturing the effects of light.",
+              "How many days of Special Casual Leave (SCL) can be given on the sterilization operation of the railway worker's wife?",
+            options: ["5 day", "7 days", "10 days", "12 days"],
+            correct: 1,
+            explanation: "7 days is the correct answer.",
           },
           {
-            question: "What is the technique of painting on wet plaster called?",
-            options: ["Oil painting", "Watercolor", "Fresco", "Acrylic"],
+            question:
+              "Will education allowance to children be acceptable to a railway employee who is on extraordinary leave/without pay leave?",
+            options: ["True", "False", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Within which period should be the compensatory leave (Compencentary Rest) be sanctioned?",
+            options: ["30 days", "60 days", "90 days", "120 days"],
+            correct: 0,
+            explanation: "30 days is the correct answer.",
+          },
+          {
+            question:
+              "Is there a maximum limit for a Hospital Leave (HL) to be sanctioned?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes 28 months is the correct answer.",
+          },
+          {
+            question:
+              "Is there a maximum limit for special disability vacations?",
+            options: ["1 month", "6 months", "1 year", "Not more than 24 months"],
+            correct: 3,
+            explanation: "Not more than 24 months is the correct answer.",
+          },
+          {
+            question:
+              "Who is the competent authority to sanction study leave to the officers in India?",
+            options: ["AGM", "GM", "PCPO", "None of the above"],
+            correct: 1,
+            explanation: "GM is the correct answer.",
+          },
+          {
+            question:
+              "Whether out of India study leave accepted for subjects available in India?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "No is the correct answer.",
+          },
+          {
+            question:
+              "Who is able to accept study leave for non gazetted employees?",
+            options: ["GM", "DRM & PCPO", "Sr.DPO", "None of the above"],
+            correct: 1,
+            explanation: "DRM & PCPO is the correct answer.",
+          },
+          {
+            question:
+              "How many medical officers can be allowed study leave from each Railway Zone?",
+            options: ["1", "2", "3", "Not fixed"],
+            correct: 3,
+            explanation: "Not fixed is the correct answer.",
+          },
+          {
+            question:
+              "How many months of study leave can be accepted for doing PHD in medical category?",
+            options: ["12 months", "18 months", "24 months", "36 months"],
+            correct: 3,
+            explanation: "36 months is the correct answer.",
+          },
+          {
+            question:
+              "is AGM empowered to sanction EX-INDIA of Group C employees?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "No is the correct answer.",
+          },
+          {
+            question:
+              "Who is the competent authority to sanction study leave to the officers in India?",
+            options: ["AGM", "GM", "PCPO", "None of the above"],
+            correct: 3,
+            explanation: "None of the above (Cadre Authority, Administrative Ministry, or Department) is the correct answer.",
+          },
+          {
+            question:
+              "Who is the competent authority for accepting leave of non-gazetted employees working in the boards and giving NOC certificates?",
+            options: ["AGM", "GM", "PCPO", "Ex India leave by BO and NOC by ADRM"],
+            correct: 3,
+            explanation: "None of the above (Cadre Authority, Administrative Ministry, or Department) is the correct answer.",
+          },
+          {
+            question:
+              "Who is the competent authority for accepting leave of non-gazetted employees working in unit?",
+            options: ["ADRM", "DRM", "Branch Officer", "Immediate Superior"],
+            correct: 3,
+            explanation: "Immediate Superior is the correct answer.",
+          },
+          {
+            question:
+              "is GM empowered to sanction EX-INDIA leave to officers?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "No is the correct answer.",
+          },
+          {
+            question:
+              "Which holiday is can not be given/combined with casual leave?",
+            options: ["CCL", "Ex India", "Maternity", "LAP, LHAP, Joining Time"],
+            correct: 3,
+            explanation: "LAP, LHAP, Joining Time is the correct answer.",
+          },
+          {
+            question:
+              "Can the joining time be given at the first appointment?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "No is the correct answer.",
+          },
+          {
+            question:
+              "Whether the transfer to a new post at the same station or in which the house changes are not located fro one station to the other station, is employee given the time for joining time or not?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes one day is granted as joining time is the correct answer.",
+          },
+          {
+            question:
+              "What leave can be done for sick leave?",
+            options: ["LAP", "LHAP", "Casual Leave", "CCL"],
+            correct: 1,
+            explanation: "LHAP is the correct answer.",
+          },
+          {
+            question:
+              "In a year how many days of Leave on Average Pay (LAP) can be credited the railway school teachers?",
+            options: ["0 days", "20 days", "25 days", "30 days"],
+            correct: 0,
+            explanation: "0 days is the correct answer.",
+          },
+          {
+            question:
+              "In a year how many days of Leave on Half Average Pay (LHAP) can be credited the railway school teachers?",
+            options: ["0 days", "20 days", "25 days", "30 days"],
+            correct: 1,
+            explanation: "20 days is the correct answer.",
+          },
+          {
+            question:
+              "In a year how many days of Leave on Half Average Pay (LHAP) can be credited the railway school teachers every six months?",
+            options: ["10 days", "20 days", "25 days", "30 days"],
+            correct: 1,
+            explanation: "10 days is the correct answer.",
+          },
+          {
+            question:
+              "What is the provision for Leave Rules for Railway school employees?",
+            options: ["0 days", "10 days", "15 days", "20 days"],
+            correct: 0,
+            explanation: "0 days is the correct answer.",
+          },
+          {
+            question:
+              "Maximum holidays allowed including all holidays, together at a time/in one spell?",
+            options: ["upto 2 years", "upto 3 years", "upto 4 years", "upto 5 years"],
+            correct: 3,
+            explanation: "upto 5 years is the correct answer.",
+          },
+          {
+            question:
+              "Extraodrinary leave can be granted in one spell",
+            options: ["3 years", "4 years", "5 years", "6 years"],
             correct: 2,
-            explanation:
-              "Fresco is the technique of painting on wet plaster, commonly used in Renaissance art.",
+            explanation: "5 years is the correct answer.",
           },
           {
-            question: "Who is known for cutting off his own ear?",
-            options: [
-              "Pablo Picasso",
-              "Vincent van Gogh",
-              "Salvador Dalí",
-              "Claude Monet",
-            ],
+            question:
+              "Maximum leave granted in the state of abortion is _______ days",
+            options: ["30 days", "45 days", "60 days", "90 days"],
             correct: 1,
-            explanation:
-              "Vincent van Gogh is famously known for cutting off his own ear during a period of mental illness.",
+            explanation: "45 days is the correct answer.",
           },
+          {
+            question:
+              "How many times Child Care Leave (CCL) is paid at one time and in the year?",
+            options: ["Minimum 5 days and three times in a year", "20 days", "25 days", "30 days"],
+            correct: 0,
+            explanation: "Minimum 5 days and three times in a year is the correct answer.",
+          },
+          {
+            question:
+              "Child Care Leave (CCL) is granted for how many children and till what age?",
+            options: ["2 children and till 18 years", "3 children and till 18 years", "2 children and till 21 years", "3 children and till 21 years"],
+            correct: 0,
+            explanation: "2 children and till 18 years is the correct answer.",
+          },
+          {
+            question:
+              "Child Care Leave (CCL) is granted for how many children and till what age?",
+            options: ["2 children and till 18 years", "3 children and till 18 years", "2 children and till 21 years", "3 children and till 21 years"],
+            correct: 3,
+            explanation: "3 children and till 21 years is the correct answer.",
+          },
+          {
+            question:
+              "Are clerical staff eligible for Hospital Leave (HL)?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question:
+              "How many Restricted Holiday (RH) does the line staff get?",
+            options: ["10 days", "15 days", "20 days", "Nil"],
+            correct: 3,
+            explanation: "Nil is the correct answer.",
+          },
+          {
+            question:
+              "How many days Casual Leave (CL) can be granted to a clerical staff in a year?",
+            options: ["8 days", "10 days", "12 days", "15 days"],
+            correct: 0,
+            explanation: "8 days is the correct answer.",
+          },
+          {
+            question:
+              "What is the miximum limit of unearned/leave not due in entire service life?",
+            options: ["120 days", "200 days", "300 days", "360 days"],
+            correct: 3,
+            explanation: "360 days is the correct answer.",
+          },
+          {
+            question:
+              "Can the employee take Casual Leave (CL) of 10 days in one spell?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question:
+              "Maximum number of days debited in one time/in one spell in lieu of encashment of leave on average pay (LAP)?",
+            options: ["10 days", "15 days", "20 days", "25 days"],
+            correct: 0,
+            explanation: "10 days is the correct answer.",
+          },
+          {
+            question:
+              "How many Restricted Holiday (RH) the workshop staff can avail in a year?",
+            options: ["2 days", "3 days", "4 days", "5 days"],
+            correct: 0,
+            explanation: "2 days is the correct answer.",
+          },
+          {
+            question:
+              "Is General Manager (GM) empowered to regularize the leave of a Railway servant who erroneously continued the service inspite of attaining age of 60 years?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question:
+              "How many days Special Casual Leave (SCL) is granted to Male employees for sterilization operation?",
+            options: ["5 days", "6 days", "10 days", "12 days"],
+            correct: 1,
+            explanation: "6 days is the correct answer.",
+          },
+          {
+            question:
+              "How many days Special Casual Leave (SCL) is granted to Female employees for sterilization operation?",
+            options: ["5 days", "6 days", "10 days", "14 days"],
+            correct: 3,
+            explanation: "14 days is the correct answer.",
+          },
+          {
+            question:
+              "How many days Special Casual Leave (SCL) is granted to Female employees when her husband undergoes sterilization operation?",
+            options: ["5 days", "6 days", "7 days", "10 days"],
+            correct: 2,
+            explanation: "7 days is the correct answer.",
+          },
+          {
+            question:
+              "How many days Special Casual Leave (SCL) is granted to Male employees when his wife undergoes sterilization operation?",
+            options: ["5 days", "6 days", "7 days", "10 days"],
+            correct: 2,
+            explanation: "7 days is the correct answer.",
+          },
+          {
+            question:
+              "Is a female employee who has attained Temporary status eligible for Maternity Leave?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question:
+              "Is Maternity Leave admissible in case of still born child?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question:
+              "Maximum Special Disability Leave (SDL) eligible under FR 83",
+            options: ["24 months", "36 months", "48 months", "60 months"],
+            correct: 0,
+            explanation: "24 months is the correct answer.",
+          },
+          {
+            question:
+              "Minimum requisite service to be completed before grant of any study leave for scientific/technical purpose?",
+            options: ["3 years", "4 years", "5 years", "6 years"],
+            correct: 2,
+            explanation: "5 years is the correct answer.",
+          },
+          {
+            question:
+              "How many days leave can be sanctioned for an employee who donated the blood?",
+            options: ["1 day", "2 days", "3 days", "No leave"],
+            correct: 0,
+            explanation: "1 day is the correct answer.",
+          },
+          {
+            question:
+              "When no leave is admissible under any other rule, the leave granted is known as",
+            options: ["Compensatory Rest", "Special Casual Leave", "Study Leave", "Extraordinary Leave"],
+            correct: 3,
+            explanation: "Extraordinary Leave is the correct answer.",
+          },
+          {
+            question:
+              "Hospital Leave (HL) is granted to Group A and Group B employees?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "No is the correct answer.",
+          },
+          {
+            question:
+              "Who is the competent authority to sanction study leave to the officers abroad/foreign countries?",
+            options: ["AGM", "CPO", "Dy.CPO", "Railway Board"],
+            correct: 3,
+            explanation: "Railway Board is the correct answer.",
+          },
+          {
+            question:
+              "Study leave is permissible for Junior and Senior scale staff for studies abroad/foreign countries?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          
         ],
-        "2": [
+        "7": [
           {
-            question: "What is the name of the famous sculpture by Michelangelo?",
-            options: ["The Thinker", "David", "Venus de Milo", "The Kiss"],
-            correct: 1,
-            explanation:
-              "David is the famous marble sculpture by Michelangelo, depicting the biblical hero David.",
-          },
-          {
-            question: 'Which artist is known for his "Blue Period"?',
-            options: [
-              "Pablo Picasso",
-              "Vincent van Gogh",
-              "Salvador Dalí",
-              "Henri Matisse",
-            ],
-            correct: 0,
-            explanation:
-              'Pablo Picasso is known for his "Blue Period," characterized by somber paintings in shades of blue.',
-          },
-          {
-            question: "What is the most famous painting by Edvard Munch?",
-            options: [
-              "The Scream",
-              "Starry Night",
-              "The Persistence of Memory",
-              "Guernica",
-            ],
-            correct: 0,
-            explanation:
-              "The Scream is the most famous painting by Edvard Munch, depicting a figure with an agonized expression.",
-          },
-          {
-            question: "Which art movement was founded by Salvador Dalí?",
-            options: ["Cubism", "Surrealism", "Impressionism", "Expressionism"],
-            correct: 1,
-            explanation:
-              "Salvador Dalí was a prominent figure in the Surrealism movement, known for his bizarre and dreamlike imagery.",
+            question:
+              "______ form is used to nominate Investigating Officer for an inquiry?",
+            options: ["SF1", "SF2", "SF5", "SF7"],
+            correct: 3,
+            explanation: "SF7 is the correct answer.",
           },
           {
             question:
-              "What is the technique of using small dots to create an image called?",
-            options: ["Pointillism", "Impressionism", "Cubism", "Expressionism"],
+              "SF.11(B) form is usef for ______",
+            options: ["Minor penalty", "Major penalty", "Both", "None of the above"],
             correct: 0,
-            explanation:
-              "Pointillism is the technique of using small dots of color to create an image, developed by Georges Seurat.",
-          },
-        ],
-        "3": [
-          {
-            question: 'Who painted "The Starry Night"?',
-            options: [
-              "Vincent van Gogh",
-              "Claude Monet",
-              "Pablo Picasso",
-              "Salvador Dalí",
-            ],
-            correct: 0,
-            explanation:
-              'Vincent van Gogh painted "The Starry Night" while staying at the Saint-Paul-de-Mausole asylum.',
-          },
-          {
-            question: "What is the most famous work by Leonardo da Vinci?",
-            options: [
-              "The Last Supper",
-              "Mona Lisa",
-              "Vitruvian Man",
-              "The Annunciation",
-            ],
-            correct: 1,
-            explanation:
-              "The Mona Lisa is Leonardo da Vinci's most famous work, known for its enigmatic smile.",
-          },
-          {
-            question: 'Which artist is known for his "Campbell\'s Soup Cans"?',
-            options: [
-              "Andy Warhol",
-              "Roy Lichtenstein",
-              "Jasper Johns",
-              "Robert Rauschenberg",
-            ],
-            correct: 0,
-            explanation:
-              'Andy Warhol is famous for his "Campbell\'s Soup Cans" series, which became an icon of Pop Art.',
+            explanation: "Minor penalty is the correct answer.",
           },
           {
             question:
-              "What is the technique of painting with water-soluble pigments called?",
-            options: ["Oil painting", "Watercolor", "Acrylic", "Tempera"],
+              "Period of Appeal under DAR rules is ______ days",
+            options: ["30", "45", "60", "90"],
             correct: 1,
-            explanation:
-              "Watercolor is the technique of painting with water-soluble pigments on paper or other absorbent surfaces.",
-          },
-          {
-            question: 'Who sculpted "The Thinker"?',
-            options: ["Auguste Rodin", "Michelangelo", "Donatello", "Bernini"],
-            correct: 0,
-            explanation:
-              'Auguste Rodin sculpted "The Thinker," originally part of his larger work "The Gates of Hell."',
-          },
-        ],
-        "4": [
-          {
-            question: "What is the most famous painting by Claude Monet?",
-            options: [
-              "Water Lilies",
-              "Impression, Sunrise",
-              "Haystacks",
-              "Rouen Cathedral",
-            ],
-            correct: 1,
-            explanation:
-              "Impression, Sunrise by Claude Monet gave the Impressionist movement its name.",
-          },
-          {
-            question: 'Which artist is known for his "Drip Painting" technique?',
-            options: [
-              "Jackson Pollock",
-              "Mark Rothko",
-              "Willem de Kooning",
-              "Franz Kline",
-            ],
-            correct: 0,
-            explanation:
-              'Jackson Pollock is famous for his "Drip Painting" technique, where he poured paint onto canvas.',
+            explanation: "45 days is the correct answer.",
           },
           {
             question:
-              "What is the technique of carving into a surface to create an image called?",
-            options: ["Sculpture", "Engraving", "Etching", "Relief"],
-            correct: 1,
-            explanation:
-              "Engraving is the technique of carving or incising a design into a hard surface.",
-          },
-          {
-            question: 'Who painted "Guernica"?',
-            options: [
-              "Pablo Picasso",
-              "Salvador Dalí",
-              "Joan Miró",
-              "Fernand Léger",
-            ],
+              "Employee removed from service can be issued pass for personal interview by appellate authority?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
             correct: 0,
-            explanation:
-              'Pablo Picasso painted "Guernica" as a response to the bombing of the Basque town during the Spanish Civil War.',
+            explanation: "Yes is the correct answer.",
           },
           {
             question:
-              "What is the technique of using light and shadow to create depth called?",
-            options: ["Perspective", "Chiaroscuro", "Foreshortening", "Sfumato"],
+              "Suspension is a penalty?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
             correct: 1,
-            explanation:
-              "Chiaroscuro is the technique of using strong contrasts between light and dark to create depth and volume.",
-          },
-        ],
-        "5": [
-          {
-            question: 'Who is known as the "Father of Modern Art"?',
-            options: [
-              "Pablo Picasso",
-              "Paul Cézanne",
-              "Vincent van Gogh",
-              "Claude Monet",
-            ],
-            correct: 1,
-            explanation:
-              'Paul Cézanne is often called the "Father of Modern Art" for his influence on 20th-century art movements.',
-          },
-          {
-            question: "What is the technique of painting on glass called?",
-            options: [
-              "Stained glass",
-              "Glass painting",
-              "Vitreous painting",
-              "Enamel painting",
-            ],
-            correct: 0,
-            explanation:
-              "Stained glass is the technique of creating decorative windows by coloring glass with metallic oxides.",
-          },
-          {
-            question: 'Which artist is known for his "Cut-Outs"?',
-            options: [
-              "Henri Matisse",
-              "Pablo Picasso",
-              "Georges Braque",
-              "Fernand Léger",
-            ],
-            correct: 0,
-            explanation:
-              'Henri Matisse is famous for his "Cut-Outs," created by cutting shapes from colored paper.',
+            explanation: "No is the correct answer.",
           },
           {
             question:
-              "What is the technique of painting with egg yolk and pigment called?",
-            options: ["Oil painting", "Tempera", "Fresco", "Encaustic"],
+              "Is D&AR rules applicable for Apprentice?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
             correct: 1,
-            explanation:
-              "Tempera is the technique of painting with pigments mixed with egg yolk, used before the invention of oil paint.",
+            explanation: "No is the correct answer.",
           },
           {
-            question: 'Who painted "The Persistence of Memory"?',
+            question:
+              "Is D&AR rules applicable for Apprentice?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 1,
+            explanation: "No is the correct answer.",
+          },
+          {
+            question:
+              "Promotion can be done during the penalties of witholding of Previlege Passes or Privilege Ticket Orders or both?",
+            options: ["Yes", "No", "Not applicable", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question: "Under which rule of DAR is Enquiry officer to be nominated?",
             options: [
-              "Salvador Dalí",
-              "René Magritte",
-              "Max Ernst",
-              "Yves Tanguy",
+              "Rule 9",
+              "Rule 10",
+              "Rule 11",
+              "Rule 12",
             ],
             correct: 0,
-            explanation:
-              'Salvador Dalí painted "The Persistence of Memory," featuring melting clocks in a dreamlike landscape.',
+            explanation: "Rule 9 is the correct answer.",
+          },
+          {
+            question:
+              "Under whose signature is SF-3 form issued?",
+            options: ["Appellate Authority", "Controller of Authority", "Disciplinary Authority", "Suspended Employee"],
+            correct: 3,
+            explanation: "Suspended Employee is the correct answer.",
+          },
+          {
+            question: "For what purpose is SF-3 form used?",
+            options: ["Claiming Subsistence Allowance", "For special allowance", "For regular salary", "For leave"],
+            correct: 0,
+            explanation: "Claiming Subsistence Allowance is the correct answer.",
+          },
+          {
+            question: "What does SF-3 form show?",
+            options: [
+              "Certificate of Suspended employee that he is unemployed",
+              "Certificate of Suspended employee that he is employed",
+              "Character certificate of Suspended employee",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Certificate of Suspended employee that he is unemployed is the correct answer.",
+          },
+          {
+            question: 'What is the standard form used for Suspension of an employee?',
+            options: [
+              "SF-1",
+              "SF-2",
+              "SF-3",
+              "SF-4",
+            ],
+            correct: 0,
+            explanation: "SF-1 is the correct answer.",
+          },
+          {
+            question: "Whether Bonus can be paid to an employee during the suspension?",
+            options: [
+              "Yes",
+              "No",
+              "Not applicable",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question: 'What is the standard form used for Deemed Suspension of an employee?',
+            options: [
+              "SF-1",
+              "SF-2",
+              "SF-3",
+              "SF-4",
+            ],
+            correct: 1,
+            explanation: "SF-2 is the correct answer.",
+          },
+          {
+            question: 'What is the standard form used for Revocation of Suspension of an employee?',
+            options: [
+              "SF-1",
+              "SF-2",
+              "SF-3",
+              "SF-4",
+            ],
+            correct: 3,
+            explanation: "SF-4 is the correct answer.",
+          },
+          {
+            question: 'What amount is given as Subsistence Allowance to an employee during the suspension?',
+            options: [
+              "10% last pay",
+              "25% last pay",
+              "50% last pay",
+              "75% last pay",
+            ],
+            correct: 2,
+            explanation: "50% last pay is the correct answer.",
+          },
+          {
+            question: 'Which deductions are prohibited from Subsistence Allowance?',
+            options: [
+              "CMTD",
+              "Loan from Bank",
+              "Provident Fund and Court Attachments",
+              "None of the above",
+            ],
+            correct: 2,
+            explanation: "Provident Fund and Court Attachments is the correct answer.",
+          },
+          {
+            question: 'For what period in police custody is sufficient to pun an employee under deemed suspension?',
+            options: [
+              "48 hours",
+              "72 hours",
+              "96 hours",
+              "120 hours",
+            ],
+            correct: 0,
+            explanation: "48 hours is the correct answer.",
+          },
+          {
+            question: 'What is the percentage of Subsistence allowance that can be increased if suspension is increased due to administrative reasons?',
+            options: [
+              "10%",
+              "25%",
+              "50%",
+              "75%",
+            ],
+            correct: 1,
+            explanation: "25% is the correct answer.",
+          },
+          {
+            question: 'Under which rule of DAR a employee can be suspended?',
+            options: [
+              "Rule 5",
+              "Rule 6",
+              "Rule 7",
+              "Rule 8",
+            ],
+            correct: 0,
+            explanation: "Rule 5 is the correct answer.",
+          },
+          {
+            question: 'Under which rule of DAR a employee can be suspended?',
+            options: [
+              "Rule 5",
+              "Rule 6",
+              "Rule 7",
+              "Rule 8",
+            ],
+            correct: 0,
+            explanation: "Rule 5 is the correct answer.",
+          },
+          {
+            question: 'What enclosure are mandatory with SF-11 form?',
+            options: [
+              "Rule 10",
+              "Rule 11",
+              "Rule 12",
+              "Copy of charges in the form of imputations",
+            ],
+            correct: 3,
+            explanation: "Copy of charges in the form of imputations is the correct answer.",
+          },
+          {
+            question: 'When a person has been sentenced by the court to jail, under which rule of DAR can he be removed from service?',
+            options: [
+              "Rule 10",
+              "Rule 11",
+              "Rule 12",
+              "Rule 14",
+            ],
+            correct: 3,
+            explanation: "Rule 14 is the correct answer.",
+          },
+          {
+            question: 'An Appeal to punishment imposed by DRM can be made to GM?',
+            options: [
+              "Yes",
+              "Rule 6",
+              "No",
+              "Not applicable",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question: 'What is the time limit under DAR for increasing and decreasing the punishment?',
+            options: [
+              "6 months and 1 year respectively from the date of issue of NIP",
+              "1 year",
+              "2 years",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "6 months and 1 year respectively from the date of issue of NIP is the correct answer.",
+          },
+          {
+            question: 'What is the time limit for Appeal under DAR?',
+            options: [
+              "30 days",
+              "45 days",
+              "60 days",
+              "90 days",
+            ],
+            correct: 1,
+            explanation: "45 days is the correct answer.",
+          },
+          {
+            question: 'Which form is issued to nominate Presenting Officer?',
+            options: [
+              "SF-8",
+              "SF-9",
+              "SF-10",
+              "SF-11",
+            ],
+            correct: 0,
+            explanation: "SF-8 is the correct answer.",
+          },
+          {
+            question: 'Under DAR Enquiry Officer has the right to call witness whether it is admissible in Witness Act?',
+            options: [
+              "Yes",
+              "Rule 6",
+              "No",
+              "Not applicable",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question: 'Under what rules an employee can be dismissed from service without complying with the principle of natural justice?',
+            options: [
+              "Rule 10",
+              "Rule 11",
+              "Rule 12",
+              "Rule 14/2 if it is not possible to conduct the inquiry",
+            ],
+            correct: 3,
+            explanation: "Rule 14/2 if it is not possible to conduct the inquiry is the correct answer.",
+          },
+          {
+            question: 'Is Welfare Inspector may be permitted to work as defence lawyer in DAR cases?',
+            options: [
+              "Yes",
+              "No",
+              "Not applicable",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Yes, but that case should not be delt by him previously is the correct answer.",
+          },
+          {
+            question: 'Appeal against the President\'s order can be made to',
+            options: [
+              "The President",
+              "The Railway Board",
+              "The Supreme Court",
+              "No appeal can be made",
+            ],
+            correct: 3,
+            explanation: "No appeal can be made is the correct answer.",
+          },
+          {
+            question: 'An employee is imposed penalty of witholding of increment, but the punishment has not been effected, can the employee be promoted?',
+            options: [
+              "Yes",
+              "No",
+              "Not applicable",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question: 'Which standard form is issued for issuing charge sheet to a retired Railway employee?',
+            options: [
+              "SF-12",
+              "SF-13",
+              "SF-14",
+              "None of the above",
+            ],
+            correct: 2,
+            explanation: "SF-14 is the correct answer.",
+          },
+          {
+            question: 'Which standard form is issued for common proceedings in DAR proceedings?',
+            options: [
+              "SF-8",
+              "SF-10",
+              "SF-11",
+              "SF-12",
+            ],
+            correct: 1,
+            explanation: "SF-10 is the correct answer.",
+          },
+          {
+            question: 'Under which rule of DAR is the process for imposing major penalty given?',
+            options: [
+              "Rule 7",
+              "Rule 8",
+              "Rule 9",
+              "Rule 10",
+            ],
+            correct: 2,
+            explanation: "Rule 9 is the correct answer.",
+          },
+          {
+            question: 'Under which rule of DAR is provision for penalties given?',
+            options: [
+              "Rule 5",
+              "Rule 6",
+              "Rule 11",
+              "Rule 12",
+            ],
+            correct: 1,
+            explanation: "Rule 6 is the correct answer.",
+          },
+          {
+            question: 'Under which rule of DAR is provision for Revision given?',
+            options: [
+              "Rule 15",
+              "Rule 16",
+              "Rule 20",
+              "Rule 25-A",
+            ],
+            correct: 3,
+            explanation: "Rule 25-A is the correct answer.",
+          },
+          {
+            question: 'How many annexures should be attached with charge sheet for imposing major penalty?',
+            options: [
+              "1",
+              "2",
+              "3",
+              "4",
+            ],
+            correct: 3,
+            explanation: "4 is the correct answer.",
+          },
+          {
+            question: 'Is an employee eligible for pension when he is compulsorily retired form service after completion of 12 years of service?',
+            options: [
+              "Yes",
+              "No",
+              "Not applicable",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation: "Yes, subject to the condition he has 10 years qualifying service is the correct answer.",
           },
         ],
       },
