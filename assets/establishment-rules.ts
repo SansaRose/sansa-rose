@@ -1621,7 +1621,188 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "6 is the correct answer. (Doubt, Check one more time)",
           },
-          
+          {
+            question:
+              "Maximum time limit prescribed for preparatory and complementary work in case of Railway Servant classified as Essentially Intermittent and called upon to work 24 additional hours in a week is ________ hours in a week",
+            options: ["2", "3", "4", "5"],
+            correct: 1,
+            explanation: "3 is the correct answer.",
+          },
+          {
+            question:
+              "Maximum time limit prescribed for preparatory and complementary work in case of Railway Servant classified as Essentially Intermittent and called upon to work 12 additional hours in a week is ________ hours in a week",
+            options: ["2", "3.5", "4.5", "5"],
+            correct: 2,
+            explanation: "4.5 is the correct answer.",
+          },
+          {
+            question:
+              "Time required for preparatory and complementary work by a running staff shall be deemed to be ________ hours in a week",
+            options: ["2", "3", "4", "5"],
+            correct: 2,
+            explanation: "4 is the correct answer.",
+          },
+          {
+            question:
+              "If the time assessed for preparatory and complementary work in respect of staff classified as ________ is less than 45 minutes per day the same should be treated as half an hour.",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 0,
+            explanation: "Continuous is the correct answer.",
+          },
+          {
+            question:
+              "If the time assessed for preparatory and complementary work in respect of staff classified as Continuous is 45 minutes and 1 hour per day the same should be treated as ________",
+            options: ["1 hour", "1.5 hours", "2 hours", "2.5 hours"],
+            correct: 0,
+            explanation: "1 hour is the correct answer.",
+          },
+          {
+            question:
+              "If the time assessed for preparatory and complementary work in respect of staff classified as Continuous, Essentially Intermittent and Intensive is more than 15 minutes per day the same should be treated as ________",
+            options: ["Half an hour", "1 hour", "2 hours", "2.5 hours"],
+            correct: 0,
+            explanation: "Half an hour is the correct answer.",
+          },
+          {
+            question:
+              "Average period for purpose of calculating overtime in respect of continuous staff is ________",
+            options: ["Weekly", "Bi Weekly", "Monthly", "Quarterly"],
+            correct: 1,
+            explanation: "Bi Weekly is the correct answer.",
+          },
+          {
+            question:
+              "The particulars of extra work done by a Railway Servant shall be recorded in _________",
+            options: ["Register of extra hours of work (Form A)", "Register of extra hours of work (Form B)", "Register of extra hours of work (Form C)", "Register of extra hours of work (Form D)"],
+            correct: 0,
+            explanation: "Register of extra hours of work (Form A) is the correct answer.",
+          },
+          {
+            question:
+              "Weekly rest of not less than ________ is granted to Railway Servant whose employment is classified as Intensive",
+            options: ["24 consecutive hours", "30 consecutive hours", "40 consecutive hours", "48 consecutive hours"],
+            correct: 1,
+            explanation: "30 consecutive hours is the correct answer.",
+          },
+          {
+            question:
+              "Weekly rest of not less than ________ is granted to Railway Servant whose employment is classified as Essentially Intermittent",
+            options: ["24 hours including a full night", "30 hours including a full night", "40 hours including a full night", "48 hours including a full night"],
+            correct: 0,
+            explanation: "24 hours including a full night is the correct answer.",
+          },
+          {
+            question:
+              "Weekly rest of not less than ________ is granted to Railway Servant whose employment is classified as Continuous",
+            options: ["20 consecutive hours", "24 consecutive hours", "30 consecutive hours", "40 consecutive hours"],
+            correct: 2,
+            explanation: "30 consecutive hours is the correct answer.",
+          },
+          {
+            question:
+              "No Railway Servant classified as Intensive, shall be called upon to duty before completion of rest of _______",
+            options: ["8 hours", "10 hours", "12 hours", "14 hours"],
+            correct: 2,
+            explanation: "12 hours is the correct answer.",
+          },
+          {
+            question:
+              "Running staff shall be granted rest of _______ consecutive hours including a full night in bed in a month",
+            options: ["4 periods of 10 hours or 5 periods of 22 hours", "4 periods of 20 hours or 5 periods of 22 hours", "4 periods of 30 hours or 5 periods of 22 hours", "4 periods of 40 hours or 5 periods of 22 hours"],
+            correct: 2,
+            explanation: "4 periods of 30 hours or 5 periods of 22 hours is the correct answer.",
+          },
+          {
+            question:
+              "Loco running staff who are deputed to accompany engine on trial are allowed _______ credit of time spent.",
+            options: ["50%", "70%", "80%", "100%"],
+            correct: 3,
+            explanation: "100% is the correct answer.",
+          },
+          {
+            question:
+              "There are 7 sections in Chapter XIV of Indian Railways Act 1989",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True (Section 130 to Section 136) is the correct answer.",
+          },
+          {
+            question:
+              "Exemptions from application of Chapter XIV of Indian Railways Act 1989 are defined in section 131",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True (Section 131) is the correct answer.",
+          },
+          {
+            question:
+              "The duties of supervisors of Railway Labour is defined in Chapter XIV of Indian Railways Act 1989",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True (Section 135) is the correct answer.",
+          },
+          {
+            question:
+              "Power to make rules and declare employment of Railway Servant as Essentially Intermittent or Intensive is provided in chapter XV of Indian Railways Act 1989",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 1,
+            explanation: "False is the correct answer.",
+          },
+          {
+            question:
+              "Regional Labour Commissioner is appointed by the Ministry of Railways",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 1,
+            explanation: "False (Ministry of Labour) is the correct answer.",
+          },
+          {
+            question:
+              "A station which is not a junction but from which trains are ordered on regular measure is Roadside station?",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 1,
+            explanation: "False is the correct answer.",
+          },
+          {
+            question:
+              "For the purpose of Hours of Work and Period of Rest rules 2005, ordinary rate of pay means pay defined in rule 1303 of the Indian Railway Establishment Code Volume-11 (1990 Edition)",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Maximum number of spells of duty permitted in a split shift is 2?",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 1,
+            explanation: "False (Maximum number of spells of duty permitted in a split shift is 3) is the correct answer.",
+          },
+          {
+            question:
+              "While preparing rosters long on and short off shall be avoided?",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Period involving sustained attention is decided by the controlling authority",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Matrons are classified as excluded staff?",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True is the correct answer.",
+          },
+          {
+            question:
+              "Most suitable method to classify the employment of Railway Servant as Continuous, Intensive or Essentially Intermittent is based on Factorial Job Analysis",
+            options: ["True", "False", "None of the above", "All of the above"],
+            correct: 0,
+            explanation: "True (Section 131) is the correct answer.",
+          },
         ],
         
         "pass-rules": [

@@ -3125,6 +3125,14 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "SCRES", fullForm: "South Central Railway Employees Sangh",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "SCRMU", fullForm: "South Central Railway Mazdoor Union",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "SDGM", fullForm: "Senior Deputy General Manager",
         explanation: "Will be added later",
         reference: "--"
