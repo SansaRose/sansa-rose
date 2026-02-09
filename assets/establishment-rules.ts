@@ -590,6 +590,17 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "Yes, subject to the condition he has 10 years qualifying service is the correct answer.",
           },
+          {
+            question: 'If the alcohol level of 1 to 40 mg/100 ml of blood is found during signing OFF, concern staff shall be issued with?',
+            options: [
+              "Kept under suspension",
+              "Minor Penalty Charge Sheet",
+              "Major Penalty Charge Sheet",
+              "Reversion from safety critical post ",
+            ],
+            correct: 1,
+            explanation: "Minor Penalty Charge Sheet is the correct answer.",
+          },
         ],
         "leave-rules": [
           {

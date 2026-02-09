@@ -167,6 +167,8 @@ const SpeedRestrictions = () => {
 
 
     { question: 'Maximum speed of the trains over DFC willbe ______ kmph', answer: '100 kmph', speed: '100 kmph' },
+
+    { question: 'Maximum speed of BVZI wagon is ______ kmph', answer: '100 kmph', speed: '100 kmph' },
     
     { question: 'At standard – II R interlocked station the maximum speed permitted for the train over main line points is', answer: '110 KMPH', speed: '110 kmph' },
 

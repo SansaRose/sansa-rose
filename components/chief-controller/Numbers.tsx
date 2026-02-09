@@ -111,6 +111,11 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'How many dependants are allowed in Complimentary Pass?',
+      answer: 'Maximum 2 dependants',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
@@ -203,6 +208,11 @@ const Numbers = () => {
     {
       question: 'As per Hours of Employment Rules, employees are classified into how many categories',
       answer: '4',
+      category: '4'
+    },
+    {
+      question: 'How many times in a year are the meetings of the Regional Official Language Implementation Committee held?',
+      answer: '4 times',
       category: '4'
     },
     {

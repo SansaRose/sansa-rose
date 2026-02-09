@@ -1524,6 +1524,10 @@ type AbbreviationItem = {
       },
     ],
     G: [
+      { acronym: "GAAP", fullForm: "Generally Accepted Accounting Principles",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "GAGAN", fullForm: "GPS aided GEO augmented Navigation",
         explanation: "Will be added later",
         reference: "--"

@@ -78,6 +78,8 @@ const Distances = () => {
     { question: 'Gate-cum-distant signal will be located in rear of the gate at a distance of', answer: '180M', distance: '180M' },
 
     { question: 'On absolute block system, the adequate distance (BOL) beyond FSS on multiple aspect signalling for granting line clear is not less than', answer: '180 M', distance: '180M' },
+
+    { question: 'What should be minimum length of Snag Dead End?', answer: '180M', distance: '180M' },
     
     { question: 'LP shall ensure head light produces illumination to see ahead clearly for a distance of', answer: '250M', distance: '250M' },
 

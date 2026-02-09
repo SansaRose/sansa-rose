@@ -41,6 +41,8 @@ const Timings = () => {
     
     { question: 'For Sub-urban trains, punctuality of the train is lost when it arrives more than ______ minutes late at destination.', answer: '5 minutes', timing: '5 minutes' },
 
+    { question: 'Generally no passenger train should arrive at a junction and important station more than ______ minutes before scheduled time', answer: '5 minutes', timing: '5 minutes' },
+
     { question: 'In the case of train is booked to run through a station, is line clear shall be asked how many minutes before the train is due to pass', answer: '7 minutes', timing: '7 minutes' },
     
     { question: 'Before the arrival of the train, to avoid complaints from road user, taking off the approach signals can be delayed to ensure that gate is closed only for', answer: '10 minutes', timing: '10 minutes' },
@@ -188,6 +190,8 @@ const Timings = () => {
 
     { question: 'Station Master may permit Learning duties at Large stations or junction stations on first posting or when there is change of system/means of working of trains', answer: '5 days', timing: '5 days' },
 
+    { question: 'Point to be kept in view while preparing loco pilot link, average duty hours in a fortnight should not exceed ______ hours', answer: '104 hours', timing: '104 hours' },
+
     { question: 'Subject to exigencies of services, a maximum limit of ______ duty hours per fortnight should be laid down for all Running staff.', answer: '125 hours', timing: '125 hours' },
 
     { question: 'The BPC of DEMU 700 HP trains is valid for ______', answer: '7 days', timing: '7 days' },
@@ -195,6 +199,8 @@ const Timings = () => {
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to be done within is _____', answer: 'D + 7 days', timing: '7 days' },
 
     { question: 'Leave for Husband on Wife\'s sterilization is ______ days', answer: '7 days', timing: '7 days' },
+
+    { question: 'Minimum notice period for quotation is ______ days', answer: '7 days', timing: '7 days' },
 
     { question: 'Station Master may permit Learning duties at Terminal stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains ______', answer: '8 days', timing: '8 days' },
 
@@ -343,6 +349,8 @@ const Timings = () => {
     { question: 'Normal period for which Station Operating Registers - Caution order register and Caution Order books are required to be preserved', answer: '1 year', timing: '1 year' },
 
     { question: 'On passing Hindi Stenography examination, for how many months personal pay equal in amount to one increment is given?', answer: '24 months', timing: '24 months' },
+
+    { question: 'Total how many days are granted as Child Care Leave in entire service?', answer: '730 days', timing: '730 days' },
 
     { question: 'What is the medical examination interval between 45 and 55 years of age?', answer: 'once in 2 years', timing: '2 years' },
     
