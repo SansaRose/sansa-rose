@@ -146,6 +146,11 @@ const Perminssions = () => {
         category: 'PCCM'
       },
       {
+        description: 'Who is the Chairman of the Headquerter level of Staff Benefit Fund (SBF)',
+        authority: 'PCPO',
+        category: 'PCPO'
+      },
+      {
         description: 'At Zonal level the management of Passenger Traffic is looked after by ______',
         authority: 'CPTM',
         category: 'CPTM'
@@ -442,6 +447,11 @@ const Perminssions = () => {
     },
     {
       description: 'For NI working of more than 7 days personal approval of the _______________must be obtained.',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Re-appropriation of funds from one itemised to another itemised work of a plan head is within the powers of ______',
       authority: 'GM',
       category: 'GM'
     },

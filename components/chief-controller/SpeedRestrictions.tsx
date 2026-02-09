@@ -81,6 +81,8 @@ const SpeedRestrictions = () => {
 
     { question: 'What is the maximum permissible speed for a Class "C" ODC on Broad Gauge (BG) section?', answer: '25 kmph', speed: '25 kmph' },
 
+    { question: 'In train following system all the trains following the first train shall be timed to run at the same speed and such speed shall not exceed ______ kmph.', answer: '25 kmph', speed: '25 kmph' },
+
     
     { question: 'During T I C on double line, the Loco Pilot to proceed with a restricted speed of', answer: '25/10 kmph', speed: '25/10 kmph' },
     { question: 'If enquiry is made for more than one train and reply is also received, after a clear interval of 30 minutes the second train can be allowed to go with a restricted speed of', answer: '25/10 KMPH', speed: '25/10 kmph' },
@@ -127,6 +129,8 @@ const SpeedRestrictions = () => {
 
     { question: 'At stations with manually operated multiple-aspect signals and train speed not exceeding _______, Distant and Home signals may be provided in each direction', answer: '50 KMPH', speed: '50 kmph' },
 
+    { question: 'If a train runs through at a speed exceeding _______ kmph without stopping, a Warner signal shall be provided at a class "B" station (both on a single and a double line)?', answer: '50 KMPH', speed: '50 kmph' },
+    
     { question: 'What is the maximum permissible train speed for the proviso under GR 3.33?', answer: '50 KMPH', speed: '50 kmph' },
 
     { question: 'Engineering Control in consultation with SSE/JE-P.Way Supervisor who has inspected the section (In case of of Flat Tyre) shall impose Speed Restriction of ______ KMPH for Passenger trains as well as for empty Goods trains in the affected section till USFD test is conducted.', answer: '50 KMPH', speed: '50 kmph' },

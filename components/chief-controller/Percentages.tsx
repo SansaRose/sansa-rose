@@ -71,6 +71,11 @@ const Percentages = () => {
       category: '30%'
     },
     {
+      question: 'To what extent commutation of pension is allowed into a lump sum payment as a retirement benefit to a Railway servant?',
+      answer: '40%',
+      category: '40%'
+    },
+    {
       question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the grant of libraries is required to be spent on Hindi books, Hindi e-books',  
       answer: '50%',
       category: '50%'

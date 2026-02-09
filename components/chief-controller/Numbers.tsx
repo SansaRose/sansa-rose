@@ -251,6 +251,11 @@ const Numbers = () => {
         category: '6'
       },
       {
+        question: 'How many total number of system of working for Train running are there?',
+        answer: '6',
+        category: '6'
+      },
+      {
         question: 'For the purpose of Weather Warning, South Central Railway is divided into ______ zones',
         answer: '7',
         category: '7'

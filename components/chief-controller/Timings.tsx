@@ -124,7 +124,11 @@ const Timings = () => {
     { question: 'Total duty at a stretch of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
 
     { question: 'If duty hours are less than 8 hours, how much rest is given at Headquarters?', answer: '12 hours', timing: '12 hours' },
+
+    { question: 'Permissible free time for use of ground for dealing with container train for type II goods shed is ______ hours', answer: '15 hours', timing: '15 hours' },
+
     { question: 'If duty hours are more than 8 hours, how much rest is given at Headquarters?', answer: '16 hours', timing: '16 hours' },
+
 
     { question: 'Subject to exigencies of service, Headquarters rest of all Running staff will be ______ hours irrespective of the duration of their incoming trip.', answer: '16 hours', timing: '16 hours' },
     
@@ -229,6 +233,8 @@ const Timings = () => {
 
     { question: 'How many days of Leave on Half Average Pay (LHAP) in a calendar year, can be credited to an employee?', answer: '20 days', timing: '20 days' },
 
+    { question: 'Within how many days the In-Principle Approval (IPA) will be granted to the applicant with the approval of the DRM in case of GCT on Non-Railway Land?', answer: '20 days', timing: '20 days' },
+
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
     { question: 'Within how many days Compensatory Off (Rest) can be sanctioned?', answer: '30 days', timing: '30 days' },
@@ -280,7 +286,9 @@ const Timings = () => {
 
     { question: 'What is the periodicity of the meetings of Official Language Implementation Committee?', answer: 'Once in 3 months', timing: '3 months' },
 
-    { question: 'Review meetings of progress of Official Language at Zonal level is conducted in every', answer: 'Once in 6 months', timing: '3 months' },
+    { question: 'Review meetings of progress of Official Language at Zonal level is conducted in every', answer: 'Once in 3 months', timing: '3 months' },
+
+    { question: 'What is the periodicity of the "Partification of Railway Employees in Management (PREM)" meeting at zonal level?', answer: 'Once in 3 months', timing: '3 months' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
 
@@ -365,9 +373,13 @@ const Timings = () => {
 
     { question: 'In no case, whatever, shall a male passenger except a boy under _________ of age be allowed to travel in a compartment reserved for Ladies in any train.', answer: '12 years', timing: '12 years' },
 
+    { question: 'Commuted pension of a Railway servant is restored after a period of ______ years', answer: '15 years', timing: '15 years' },  
+
     { question: 'Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in ______ years of service', answer: '20 years', timing: '20 years' },
 
     { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
+
+    { question: 'What is the maximum tenure for which Railway land can be leased to the GCTO under the GCT Agreement', answer: '35 years', timing: '35 years' },
     
     { question: 'After issue of following number of amendment slips SWR should be issued afresh', answer: '5', timing: 'Other' },
     { question: 'Normal monsoon period for SC, HYB & NED divisions is from 15th June to', answer: '15 October', timing: 'Other' },
