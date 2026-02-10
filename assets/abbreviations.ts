@@ -461,6 +461,10 @@ type AbbreviationItem = {
         explanation: "A certificate confirming the brake power adequacy of the train before departure",
         reference: "--"
       },
+      { acronym: "BPSU", fullForm: "Budget Spending Unit Level",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "BPT", fullForm: "Blank Paper Ticket",
         explanation: "Will be added later",
         reference: "--"
@@ -706,6 +710,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CELE", fullForm: "Coupled Electric Light Engine",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CF", fullForm: "Capital Fund",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1118,6 +1126,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "DF", fullForm: "Development Fund",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "DFC", fullForm: "Dedicated Freight Corridor",
         explanation: "Will be added later",
         reference: "--"
@@ -1387,6 +1399,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "EOL", fullForm: "Engine On Load",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "EOQ", fullForm: "Economic Order Quantity",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2384,6 +2400,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "NRUCC", fullForm: "National Railway Users Consultative Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "NTES", fullForm: "National Train Enquiry System",
         explanation: "The official platform for real-time train running information and passenger updates",
         reference: "--"
@@ -2474,6 +2494,10 @@ type AbbreviationItem = {
     ],
     P: [
       { acronym: "PAC", fullForm: "Passenger Amenities Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PAC", fullForm: "Proprietary Article Certificate",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2838,6 +2862,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "RCC", fullForm: "Railway Convention Committee",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       {
         acronym: "RCF",
         fullForm: "Rail Coach Factory",
@@ -3023,6 +3051,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "RSF", fullForm: "Railway Safety Fund",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "RSHC", fullForm: "RPF Security Helpline",
         explanation: "Will be added later",
         reference: "--"
@@ -3160,6 +3192,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "SG", fullForm: "Self Generated",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "SGF", fullForm: "Sovereign Green Fund",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3730,6 +3766,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "VDU", fullForm: "Visual Display Unit",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "VED", fullForm: "Vital Essential Desirable",
         explanation: "Will be added later",
         reference: "--"
       },

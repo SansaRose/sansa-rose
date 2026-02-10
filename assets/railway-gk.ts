@@ -164,7 +164,32 @@ export const railwayGkQuizzes = {
           },
         ],
         "chapter-2": [
-          
+          {
+            question:
+              "Where is the Indian Railways Institute of Financial Management (IRIFM) located?",
+            options: [
+              "Lucknow",
+              "Mumbai",
+              "Secunderabad",
+              "Vadodara",
+            ],
+            correct: 2,
+            explanation:
+              "Secunderabad is the correct answer.",
+          },
+          {
+            question:
+              "The first Railway Budget was presented in which year?",
+            options: [
+              "1924",
+              "1925",
+              "1926",
+              "1927",
+            ],
+            correct: 0,
+            explanation:
+              "1924 is the correct answer.",
+          },
         ],
         
         

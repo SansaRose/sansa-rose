@@ -76,7 +76,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "33.  Appeal against classification of employment can be made to .......",
+              "Appeal against classification of employment can be made to .......",
             options: [
               "Branch Officer",
               "DRM",
@@ -1814,6 +1814,32 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "True (Section 131) is the correct answer.",
           },
+          {
+            question:
+              "Maximtime time limit prescribed for preparatory and complementary work in case of Railway Servant classified as Intensive is 3 hours in a week",
+            options: [
+              "True",
+              "False",
+              "None of the above",
+              "All of the above",
+            ],
+            correct: 0,
+            explanation:
+              "True is the correct answer.",
+          },
+          {
+            question:
+              "Time required for preparatory and complementary work by a running staff shall be deemed to be 4 hours in a week",
+            options: [
+              "True",
+              "False",
+              "None of the above",
+              "All of the above",
+            ],
+            correct: 0,
+            explanation:
+              "True is the correct answer.",
+          },
         ],
         
         "pass-rules": [
@@ -1885,6 +1911,31 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "Two(IInd/Sleeper) is the correct answer.",
           },
+          {
+            question: "Under which rule is the definition of Railway Servant given?",
+            options: ["Rule 1", "Rule 2", "Rule 3", "Rule 4"],
+            correct: 1,
+            explanation: "Rule 2 is the correct answer.",
+          },
+          {
+            question: "When were the Railway Pass Rules first implemented?",
+            options: ["1986", "1987", "1988", "1989"],
+            correct: 0,
+            explanation: "1986 is the correct answer.",
+          },
+          {
+            question: "When was the latest amendment of Railway Pass Rules made?",
+            options: ["1986", "1987", "1990", "1993"],
+            correct: 3,
+            explanation: "09.09.1993 is the correct answer.",
+          },
+          {
+            question: "The colour of the First Class A Pass is .... in colour",
+            options: ["Green", "Pink", "White", "Yellow"],
+            correct: 2,
+            explanation: "White is the correct answer.",
+          },
+
         ],
         
         "conduct-rules": [
