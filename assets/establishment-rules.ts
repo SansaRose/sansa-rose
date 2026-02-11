@@ -2204,5 +2204,394 @@ export const establishmentRulesQuizzes = {
             explanation: "Behaviour lowering integrity is the correct answer.",
           },
         ],
-    },
+        "cga":[
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) is primarily intended to provide-",
+            options: ["Employment to all relatives", "Immediate financial assistance to bereaved family", "Promotion to higher post", "Reward for long service"],
+            correct: 1,
+            explanation: "Immediate financial assistance to bereaved family is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) is admissible when a Railway employee is-",
+            options: ["Dies in harness", "Takes normal retirement", "Transferred", "Voluntarily resigns"],
+            correct: 0,
+            explanation: "Dies in harness is the correct answer.",
+          },
+          {
+            question:
+              "Dependent of a totally medically incapacitated Railway employee may be considered for CGA-",
+            options: ["At par with death cases", "Not permissible", "Only after court order", "Only after superannuation"],
+            correct: 0,
+            explanation: "At par with death cases is the correct answer.",
+          },
+          {
+            question:
+              "Minimum period after which CGA can be considered in missing employee cases is-",
+            options: ["1 year", "2 years", "3 years", "4 years"],
+            correct: 1,
+            explanation: "2 years is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) appointment in missing employee cases is-",
+            options: ["Automatic", "A matter of right", "Mandatory", "Subject to conditions and vacancy"],
+            correct: 3,
+            explanation: "Subject to conditions and vacancy is the correct answer.",
+          },
+          {
+            question:
+              "In case missing employee reappears, the service of CGA employee-",
+            options: ["Continues permanently", "Is regularised", "Is terminated", "Is promoted"],
+            correct: 2,
+            explanation: "Is terminated is the correct answer.",
+          },
+          {
+            question:
+              "Normally, compassionate grounds appointment (CGA) are made in which of the following cases?",
+            options: ["Contract posts", "Gazetted posts", "Promotion Quota", "Recruitment grades"],
+            correct: 3,
+            explanation: "Recruitment grades is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) in intermediate grade is-",
+            options: ["Allowed", "Mandatory", "Not allowed", "Preferred"],
+            correct: 2,
+            explanation: "Not allowed is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) up to level-6 can be approved by-",
+            options: ["Court", "DRM/CWM/HOD", "Railway Board", "Welfare Inspector"],
+            correct: 1,
+            explanation: "DRM/CWM/HOD is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) up to level-7 can be approved by-",
+            options: ["CWM", "DRM", "General Manager", "Welfare Inspector"],
+            correct: 2,
+            explanation: "General Manager is the correct answer.",
+          },
+          {
+            question:
+              "Married/Divorced/Widowed daughter of a Railway employee can be appointed on CGA by-",
+            options: ["Board only", "CPO", "DRM", "GM only"],
+            correct: 3,
+            explanation: "GM only is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) is linked with settlement dues-",
+            options: ["Always", "Can be delinked", "Never", "Mandatory linked"],
+            correct: 1,
+            explanation: "Can be delinked is the correct answer.",
+          },
+          {
+            question:
+              "Time limit for submission of CGA request is normally-",
+            options: ["1 year", "2 years", "4 years", "5 years"],
+            correct: 3,
+            explanation: "5 years is the correct answer.",
+          },
+          {
+            question:
+              "In case of minor ward, CGA can be considered within-",
+            options: ["Anytime", "1 year after death", "2 years after attaining majority", "5 years after majority"],
+            correct: 1,
+            explanation: "2 years after attaining majority is the correct answer.",
+          },
+          {
+            question:
+              "Normally, minimum age for CGA appointment is-",
+            options: ["18 years", "21 years", "25 years", "30 years"],
+            correct: 0,
+            explanation: "18 years is the correct answer.",
+          },
+          {
+            question:
+              "Relaxation in lower age limit up to one year can be granted by-",
+            options: ["GM", "DRM", "Railway Board", "Welfare Inspector"],
+            correct: 0,
+            explanation: "GM is the correct answer.",
+          },
+          {
+            question:
+              "Relaxation beyond one year in lower age requires approval of-",
+            options: ["CPO", "DRM", "GM", "Ministry of Railways"],
+            correct: 3,
+            explanation: "Ministry of Railways is the correct answer.",
+          },
+          {
+            question:
+              "Education qualification for CGA appointment is-",
+            options: ["Can be freely relaxed", "Depends on candidate choice", "Not required", "Normally should not be relaxed"],
+            correct: 3,
+            explanation: "Normally should not be relaxed is the correct answer.",
+          },
+          {
+            question:
+              "Minimum period after which CGA can be considered in missing employee cases is-",
+            options: ["1 year", "2 years", "3 years", "4 years"],
+            correct: 1,
+            explanation: "2 years is the correct answer.",
+          },
+          {
+            question:
+              "Widow without minimum qualification can be appointed on CGA in-",
+            options: ["level-1", "level-2", "level-3", "level-4"],
+            correct: 0,
+            explanation: "level-1 is the correct answer.",
+          },
+          {
+            question:
+              "Purpose of suitability test for CGA appointment is-",
+            options: ["Promotion", "Proper assessment of candidate", "Seniority fixation", "Time pass"],
+            correct: 1,
+            explanation: "Proper assessment of candidate is the correct answer.",
+          },
+          {
+            question:
+              "Suitability test committee consists of-",
+            options: ["2 members", "3 members", "4 members", "5 members"],
+            correct: 2,
+            explanation: "3 members is the correct answer.",
+          },
+          {
+            question:
+              "One of the members of suitability test committee should be-",
+            options: ["Accounts officer", "Medical officer", "Personnel officer", "Vigilance officer"],
+            correct: 2,
+            explanation: "Personnel officer is the correct answer.",
+          },
+          {
+            question:
+              "Maximum chances normally allowed to wards for CGA are-",
+            options: ["1", "2", "3", "4"],
+            correct: 2,
+            explanation: "3 chances are the correct answer.",
+          },
+          {
+            question:
+              "Maximum chances allowed to widow/wife for CGA are-",
+            options: ["1", "2", "3", "4"],
+            correct: 3,
+            explanation: "4 chances are the correct answer.",
+          },
+          {
+            question:
+              "Third chance to ward requires approval of-",
+            options: ["CPO", "DRM", "GM", "Welfare officer"],
+            correct: 2,
+            explanation: "GM is the correct answer.",
+          },
+          {
+            question:
+              "CGA cases can be transferred from one Railway to another Railway-",
+            options: ["No", "Only by Board", "Yes, with papers", "Only by court"],
+            correct: 2,
+            explanation: "Yes, with papers is the correct answer.",
+          },
+          {
+            question:
+              "Normally, only one CGA is admissible against-",
+            options: ["One family", "One death/medical invalidation", "One division", "One ward"],
+            correct: 1,
+            explanation: "One death/medical invalidation is the correct answer.",
+          },
+          {
+            question:
+              "Compassionate Grounds Appointment (CGA) is not a-",
+            options: ["Concession", "Matter of right", "Relief measure", "Welfare measure"],
+            correct: 1,
+            explanation: "Matter of right is the correct answer.",
+          },
+          {
+            question:
+              "Priority-1 includes dependents of employees who-",
+            options: ["Die in course of duty", "Resign", "Retire normally", "Transferred"],
+            correct: 0,
+            explanation: "Die in course of duty is the correct answer.",
+          },
+          {
+            question:
+              "Priority list should be maintained based on-",
+            options: ["Date of application", "Date of eligibilty", "Date of interview", "Date of vacancy"],
+            correct: 1,
+            explanation: "Date of eligibilty is the correct answer.",
+          },
+          {
+            question:
+              "Deviation from priority list requires approval of-",
+            options: ["Court", "Same authority", "Next higher authority", "Welfare Inspector"],
+            correct: 2,
+            explanation: "Next higher authority is the correct answer.",
+          },
+          {
+            question:
+              "CGA in GP 4200/- in Security department requires approval of-",
+            options: ["CWM", "DRM", "GM", "Railway Board"],
+            correct: 2,
+            explanation: "GM is the correct answer.",
+          },
+          {
+            question:
+              "In ministerial cadre, failure in typing proficiency may lead to-",
+            options: ["Promotion", "Pay cut", "Shift to Non-ministerial cadre", "Termination"],
+            correct: 2,
+            explanation: "Shift to Non-ministerial cadre is the correct answer.",
+          },
+          {
+            question:
+              "Widow/ward appointed on CGA must give undertaking to-",
+            options: ["Accept transfer", "Maintain dependent family members", "Pass exams", "Work overtime"],
+            correct: 1,
+            explanation: "Maintain dependent family members is the correct answer.",
+          },
+          {
+            question:
+              "CGA for widow posts exclusively reserved in level-1 may relax",
+            options: ["Age only", "Education qualification", "Medical fitness", "Service length"],
+            correct: 1,
+            explanation: "2 years is the correct answer.",
+          },
+          {
+            question:
+              "In CGA, higher qualification beyond minimum is mainly relevant for-",
+            options: ["Casual posts", "Contract posts", "Level-1 posts", "Level-7 consideration"],
+            correct: 3,
+            explanation: "Level-7 consideration is the correct answer.",
+          },
+          {
+            question:
+              "B.Tech qualified CGA is generally not considered above-",
+            options: ["Group D", "Gazetted", "JE Level-6", "SSE Level-7"],
+            correct: 2,
+            explanation: "JE Level-6 is the correct answer.",
+          },
+          {
+            question:
+              "CGA candidate selected for Group C post, but appointed in Group D post will-",
+            options: ["Be terminated", "Be promoted automatically", "Get preference for next Group C vacancy", "Lose Group C chance"],
+            correct: 2,
+            explanation: "Get preference for next Group C vacancy is the correct answer.",
+          },
+          {
+            question:
+              "Time limit for Priority-1 CGA appointment should be-",
+            options: ["1 month", "2 months", "3 months", "4 months"],
+            correct: 0,
+            explanation: "1 month is the correct answer.",
+          },
+          {
+            question:
+              "Any deviation from CGA rules requires approval of-",
+            options: ["DRM", "GM", "Ministry of Railways", "Welfare Inspector"],
+            correct: 1,
+            explanation: "GM is the correct answer.",
+          },
+          {
+            question:
+              "In case of conflict between English and Hindi version of CGA compendium-",
+            options: ["Hindi version prevails", "English version prevails", "Both versions are equally valid", "Board decides later"],
+            correct: 1,
+            explanation: "English version prevails is the correct answer.",
+          },
+        ],
+        "apar":
+[
+  {
+    question:
+      "Section-II of APAR for promotion to Grade B shall be reported upon by-",
+    options: ["Depot incharge", "JAG", "Jr.Scale", "Sr.Scale"],
+    correct: 2,
+    explanation: "Jr.Scale is the correct answer.",
+  },
+  {
+    question:
+      "APAR of Non-Gazetted staff in level-6 shall be finalized by-",
+    options: ["Depot incharge", "JAG", "Jr.Scale", "Sr.Scale"],
+    correct: 1,
+    explanation: "JAG is the correct answer.",
+  },
+  {
+    question:
+      "Benchmark for APAR for MACP would be _______ w.e.f 25th July 2016",
+    options: ["Average", "Good", "Very Good", "Outstanding"],
+    correct: 2,
+    explanation: "Very Good is the correct answer.",
+  },
+  {
+    question:
+      "Benchmark for grant of financial upgradation under MACPs would be 'Very Good' came into force w.e.f-",
+    options: ["01.08.2008", "27.10.2015", "25.07.2016", "None of the above"],
+    correct: 2,
+    explanation: "25.07.2016 is the correct answer.",
+  },
+  {
+    question:
+      "Self appraisal in APAR is required for employees in Grade Pay _______ and above",
+    options: ["2400/- (Level-4)", "2800/- (Level-5)", "4200/- (Level-6)", "4600/- (Level-7)"],
+    correct: 2,
+    explanation: "4200/- (Level-6) is the correct answer.",
+  },
+  {
+    question:
+      "Upto year 2018, the APAR should be written annually of every Railway servant except level _____ as per VII Central Pay Commission",
+    options: ["Level-1", "Level-2", "Level-3", "Level-4"],
+    correct: 0,
+    explanation: "Level-1 is the correct answer.",
+  },
+  {
+    question:
+      "The APAR of Non-Gazetted staff should be written _____",
+    options: ["Monthly", "Quarterly", "Half Yearly", "Yearly"],
+    correct: 3,
+    explanation: "Yearly is the correct answer.",
+  },
+  {
+    question:
+      "All representations against adverse remarks in APAR should be submitted within ______ days from the date of receipt of APAR",
+    options: ["10", "15", "30", "45"],
+    correct: 1,
+    explanation: "15 days is the correct answer.",
+  },
+  {
+    question:
+      "Nomenclature of Annual Confidential Report (ACR) modified as Annaul Performance Appraisal Report (APAR) in the year _______",
+    options: ["2008", "2009", "2010", "2011"],
+    correct: 1,
+    explanation: "2009 is the correct answer.",
+  },
+  {
+    question:
+      "Annexure ______ is used for filling of APAR for staff working in Level-5 (GP 2800)",
+    options: ["Annexure-II", "Annexure-III", "Annexure-V", "Annexure-IV"],
+    correct: 2,
+    explanation: "Annexure-V is the correct answer.",
+  },
+  {
+    question:
+      "Immediate supervisor working in minimum GP _______ can act as a reporting officer for filling of APAR of staff working in Level-2 (GP 1900)",
+    options: ["Level-4 (GP 2400/-)", "Level-5 (GP 2800)", "Level-6 (GP 4200)", "Level-7 (GP 4600)"],
+    correct: 3,
+    explanation: "Level-7 (GP 4600) is the correct answer.",
+  },
+  {
+    question:
+      "Annexure ______ is used for filling of APAR for School Teachers",
+    options: ["Annexure-II", "Annexure-III", "Annexure-IV", "Annexure-V"],
+    correct: 2,
+    explanation: "Annexure-IV is the correct answer.",
+  },
+  {
+    question:
+      "Annexure ______ is used for filling of APAR of Staff working in drawing section",
+    options: ["Annexure-I", "Annexure-II", "Annexure-III", "Annexure-IV"],
+    correct: 0,
+    explanation: "Annexure-I is the correct answer.",
+  },
+]    },
 }
