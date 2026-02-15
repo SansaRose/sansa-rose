@@ -2594,4 +2594,632 @@ export const establishmentRulesQuizzes = {
     explanation: "Annexure-I is the correct answer.",
   },
 ]    },
+"npa":[
+  {
+    question:
+      "From which date is National Pension System (NPS) applicable for Railway Employees?",
+    options: ["01.01.2004", "01.01.2005", "01.01.2006", "01.01.2007"],
+    correct: 0,
+    explanation: "01.01.2004 is the correct answer.",
+  },
+  {
+    question:
+      "How many tiers are there in National Pension System (NPS)?",
+    options: ["2", "3", "4", "5"],
+    correct: 0,
+    explanation: "2 is the correct answer.",
+  },
+  {
+    question:
+      "Which tier of National Pension System (NPS) is mandatory for all Railway Employees?",
+    options: ["Tier-1", "Tier-2", "Tier-3", "Tier-4"],
+    correct: 0,
+    explanation: "Tier-1 is the correct answer.",
+  },
+  {
+    question:
+      "Main purpose of Tier-1 account of National Pension System (NPS) is:",
+    options: ["Insurance", "Investment", "Pension", "Savings"],
+    correct: 2,
+    explanation: "Pension is the correct answer.",
+  },
+  {
+    question:
+      "Nature of Tier-II account of National Pension System (NPS) is:",
+    options: ["Locked", "Mandatory", "Optional", "Pension"],
+    correct: 2,
+    explanation: "Optional is the correct answer.",
+  },
+  {
+    question:
+      "Tier-II account of National Pension System (NPS) cannot be opened without:",
+    options: ["Aaadhar", "Bank account", "PAN", "Tier-I account"],
+    correct: 3,
+    explanation: "Tier-I account is the correct answer.",
+  },
+  {
+    question:
+      "What is PRAN in National Pension System (NPS)?",
+    options: ["Account number", "Annuity plan", "Fund name", "Pension rate"],
+    correct: 0,
+    explanation: "Account number is the correct answer.",
+  },
+  {
+    question:
+      "Nature of PRAN (Permanent Retirement Account Number) is:",
+    options: ["Employer specific", "Location based", "Temporary", "Transfarable"],
+    correct: 3,
+    explanation: "Transfarable is the correct answer.",
+  },
+  {
+    question:
+      "Employee contribution to National Pension System (NPS) is:",
+    options: ["8% of basic + DA", "10% of basic + DA", "12% of basic + DA", "14% of basic + DA"],
+    correct: 1,
+    explanation: "10% of basic + DA is the correct answer.",
+  },
+  {
+    question:
+      "Government contribution to National Pension System (NPS) is:",
+    options: ["10%", "12%", "14%", "16%"],
+    correct: 2,
+    explanation: "14% is the correct answer.",
+  },
+  {
+    question:
+      "National Pension System (NPS) is a:",
+    options: ["Defined Benefit Scheme", "Defined Contribution Scheme", "Fixed pension Scheme", "Guaranteed Pension Scheme"],
+    correct: 1,
+    explanation: "Defined Contribution Scheme is the correct answer.",
+  },
+  {
+    question:
+      "Is market risk involved in National Pension System (NPS)?",
+    options: ["Yes", "No", "Partially", "Depends on the DA"],
+    correct: 0,
+    explanation: "Yes is the correct answer.",
+  },
+  {
+    question:
+      "Partial withdrawal is allowed in National Pension System (NPS)? from:",
+    options: ["Tier-I only", "Tier-II only", "Both Tier-I and Tier-II", "None of the above"],
+    correct: 0,
+    explanation: "Tier-I only is the correct answer.",
+  },
+  {
+    question:
+      "Maximum service required for withdrawal from National Pension System (NPS) is:",
+    options: ["3 years", "5 years", "10 years", "15 years"],
+    correct: 0,
+    explanation: "3 years is the correct answer.",
+  },
+  {
+    question:
+      "Maximum number of partial withdrawals allowed in National Pension System (NPS) is:",
+    options: ["1", "2", "3", "4"],
+    correct: 2,
+    explanation: "3 is the correct answer.",
+  },
+  {
+    question:
+      "Minimum gap between two partial withdrawals in National Pension System (NPS) is:",
+    options: ["2 years", "3 years", "4 years", "5 years"],
+    correct: 3,
+    explanation: "5 years is the correct answer.",
+  },
+  {
+    question:
+      "Maximum amount of partial withdrawal allowed in National Pension System (NPS) is:",
+    options: ["20% of total corpus", "25% of employee contribution", "40% of total corpus", "50% of total corpus"],
+    correct: 1,
+    explanation: "25% of employee contribution is the correct answer.",
+  },
+  {
+    question:
+      "In Partial withdrawal, is Government contribution included?",
+    options: ["Yes", "No", "Partially", "Depends on the service length"],
+    correct: 1,
+    explanation: "No is the correct answer.",
+  },
+  {
+    question:
+      "Partial withdrawal is NOT allowed in National Pension System (NPS) for:",
+    options: ["Children education", "Foreign travel", "House construction", "Medical treatment"],
+    correct: 1,
+    explanation: "Foreign travel is the correct answer.",
+  },
+  {
+    question:
+      "Is Partial withdrawal taxable in National Pension System (NPS)?",
+    options: ["Fully taxable", "Partially taxable", "Tax free", "Depends on ammount"],
+    correct: 2,
+    explanation: "Tax free is the correct answer.",
+  },
+  {
+    question:
+      "Withdrawal from Tier-II account of National Pension System (NPS) are:",
+    options: ["Once a year", "Limited", "Unlimited", "Not allowed"],
+    correct: 2,
+    explanation: "Unlimited is the correct answer.",
+  },
+  {
+    question:
+      "Is there a lock-in period in Tier-II account of National Pension System (NPS)?",
+    options: ["Yes", "No", "3 years", "5 years"],
+    correct: 1,
+    explanation: "No is the correct answer.",
+  },
+  {
+    question:
+      "Tier-II account of National Pension System (NPS) is similar to:",
+    options: ["PF account", "Fixed deposit", "Pension account", "Savings/investment account"],
+    correct: 3,
+    explanation: "Savings/investment account is the correct answer.",
+  },
+  {
+    question:
+      "Normal retirement age for National Pension System (NPS) is:",
+    options: ["58 years", "60 years", "62 years", "65 years"],
+    correct: 1,
+    explanation: "60 years is the correct answer.",
+  },
+  {
+    question:
+      "Maximum lumpsum amount at retirement is:",
+    options: ["40%", "50%", "60%", "80%"],
+    correct: 2,
+    explanation: "60% is the correct answer.",
+  },
+  {
+    question:
+      "Mandatory annuity portion at retirement is:",
+    options: ["40%", "50%", "60%", "80%"],
+    correct: 0,
+    explanation: "40% is the correct answer.",
+  },
+  {
+    question:
+      "Monthly pension in National Pension System (NPS) depends on:",
+    options: ["Annuity rate", "DA rate", "Last pay", "Service length"],
+    correct: 0,
+    explanation: "Annuity rate is the correct answer.",
+  },
+  {
+    question:
+      "Is DA (Dearness Allowance) guaranteed with National Pension System (NPS) pension?",
+    options: ["Yes", "No", "Partially", "After 80 years"],
+    correct: 1,
+    explanation: "No is the correct answer.",
+  },
+  {
+    question:
+      "Lump Sum on Pre-mature exit (before 60 years) from National Pension System (NPS) is:",
+    options: ["20%", "30%", "40%", "50%"],
+    correct: 0,
+    explanation: "20% is the correct answer.",
+  },
+  {
+    question:
+      "Mandatory annuity portion on Pre-mature exit (before 60 years) from National Pension System (NPS) is:",
+    options: ["40%", "50%", "60%", "80%"],
+    correct: 3,
+    explanation: "80% is the correct answer.",
+  },
+  {
+    question:
+      "Is annuity mandatory in death case of National Pension System (NPS)?",
+    options: ["Yes", "No", "Partially", "Depends on the nominee"],
+    correct: 1,
+    explanation: "No is the correct answer.",
+  },
+  {
+    question:
+      "Status of gratuity under National Pension System (NPS) is:",
+    options: ["Included in NPS", "Not payable", "Optional", "Paid separately"],
+    correct: 3,
+    explanation: "Paid separately is the correct answer.",
+  },
+  {
+    question:
+      "Central Government Employees Current gratuity ceiling is:",
+    options: ["20 lakhs", "25 lakhs", "30 lakhs", "35 lakhs"],
+    correct: 1,
+    explanation: "25 lakhs is the correct answer.",
+  },
+  {
+    question:
+      "National Pension System (NPS) investment in:",
+    options: ["Corporate bonds", "Government bonds", "Equity", "All of the above"],
+    correct: 3,
+    explanation: "All of the above is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), Tax benefit is available under section:",
+    options: ["80C", "80D", "80E", "80CCD"],
+    correct: 3,
+    explanation: "80CCD is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), additional 50,000/- benefit is available under section:",
+    options: ["80CC", "80CCD(1)", "80CCD(2)", "80CCD(1B)"],
+    correct: 3,
+    explanation: "80CCD(1B) is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), Tax benefit on Tier-II is:",
+    options: ["Fully exempted", "Limited/conditional", "Not defined", "Same as Tier-I"],
+    correct: 1,
+    explanation: "Limited/conditional is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), in case of partial withdrawal, 5-year gap condition may be relaxed in:",
+    options: ["Education case", "Housing case", "Marriage case", "Medical/death case"],
+    correct: 3,
+    explanation: "Medical/death case is the correct answer.",
+  },
+  {
+    question:
+      "National Pension System (NPS) is regulated by:",
+    options: ["PFRDA", "IRDA", "SEBI", "RBI"],
+    correct: 0,
+    explanation: "PFRDA is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), Investment choice is mady by:",
+    options: ["Annuity provider", "Bank", "Government only", "Employee/Subscriber"],
+    correct: 3,
+    explanation: "Employee/Subscriber is the correct answer.",
+  },
+  {
+    question:
+      "Guaranteed return in National Pension System (NPS) is:",
+    options: ["Always available", "After retirement", "Not available", "Only in Tier-II"],
+    correct: 2,
+    explanation: "Not available is the correct answer.",
+  },
+  {
+    question:
+      "In Tier-I account of National Pension System (NPS), withdrawal is restricted because:",
+    options: ["Banking rule", "Government control", "Pension purpose", "Tax benefit"],
+    correct: 2,
+    explanation: "Pension purpose is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), Pension payment is through:",
+    options: ["Bank via annuity", "Government treasury", "PF Office", "Post office"],
+    correct: 0,
+    explanation: "Bank via annuity is the correct answer.",
+  },
+  {
+    question:
+      "In National Pension System (NPS), Employee contribution is based on:",
+    options: ["Basic only", "Basic + DA", "Gross salary", "Total CTC"],
+    correct: 1,
+    explanation: "Basic + DA is the correct answer.",
+  },
+  {
+    question:
+      "Is family pension available in National Pension System (NPS) like in OPS?",
+    options: ["Yes", "No", "After 10 years", "After 15 years"],
+    correct: 1,
+    explanation: "No is the correct answer.",
+  },
+  
+],
+"ups":[
+  {
+    question:
+      "Unified Pension Scheme (UPS) was approved in which year?",
+    options: ["2018", "2020", "2022", "2024"],
+    correct: 3,
+    explanation: "2024 is the correct answer.",
+  },
+  {
+    question:
+      "Unified Pension Scheme (UPS) is effective from which date?",
+    options: ["1st January 2025", "1st February 2025", "1st March 2025", "1st April 2025"],
+    correct: 3,
+    explanation: "1st April 2025 is the correct answer.",
+  },
+  {
+    question:
+      "Unified Pension Scheme (UPS) is mainly introduced for:",
+    options: ["Contract employees", "NPS employees", "OPS employees", "Private employees"],
+    correct: 1,
+    explanation: "NPS employees is the correct answer.",
+  },
+  {
+    question:
+      "Unified Pension Scheme (UPS) is a type of:",
+    options: ["Defined Benefit Scheme", "Defined Contribution Scheme", "Hybrid Pension Scheme", "Market-linked Scheme"],
+    correct: 2,
+    explanation: "Hybrid Pension Scheme is the correct answer.",
+  },
+  {
+    question:
+      "Maximum qualifying service for Unified Pension Scheme (UPS) is:",
+    options: ["5 years", "10 years", "15 years", "20 years"],
+    correct: 1,
+    explanation: "10 years is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Service required for full assured pension is:",
+    options: ["15 years", "20 years", "25 years", "30 years"],
+    correct: 2,
+    explanation: "25 years is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Full assured pension is:",
+    options: ["40% of Last basic pay", "50% of Last 10 months average pay", "50% of Last 12 months average pay", "60% of last drawn pay"],
+    correct: 2,
+    explanation: "50% of Last 12 months average pay is the correct answer.",
+  },
+  {
+    question:
+      "Minimum guaranteed pension in Unified Pension Scheme (UPS) is:",
+    options: ["10,000/-", "15,000/-", "20,000/-", "25,000/-"],
+    correct: 0,
+    explanation: "10,000/- is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), If service is less than 25 years, pension will be:",
+    options: ["Fixed pension", "Lump sum only", "Not payable", "Proportionate pension"],
+    correct: 3,
+    explanation: "Proportionate pension is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Employee contribution is:",
+    options: ["8% of basic + DA", "10% of basic + DA", "12% of basic + DA", "14% of basic + DA"],
+    correct: 1,
+    explanation: "10% of basic + DA is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Government contribution is:",
+    options: ["8%", "10%", "12%", "14%"],
+    correct: 1,
+    explanation: "10% is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Government contribution goes to:",
+    options: ["Annuity fund", "Collective Corpus", "Individual Corpus", "Provident fund"],
+    correct: 1,
+    explanation: "Collective Corpus is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Government additional contribution to collective corpus is:",
+    options: ["5%", "7%", "8.5%", "10%"],
+    correct: 2,
+    explanation: "8.5% is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Effective Government support is approximately:",
+    options: ["10%", "15%", "18.5%", "25%"],
+    correct: 2,
+    explanation: "18.5% is the correct answer.",
+  },
+  {
+    question:
+      "How many pension funds are there in Unified Pension Scheme (UPS)?",
+    options: ["1", "2", "3", "4"],
+    correct: 2,
+    explanation: "2 is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Individual Corpus consists of:",
+    options: ["Employee + Government matching contribution", "Only employee contribution", "Only government contribution", "Only collective contribution"],
+    correct: 0,
+    explanation: "Employee + Government matching contribution is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Collective Corpus is managed by:",
+    options: ["Bank", "Central Government", "Employee", "PFRDA"],
+    correct: 3,
+    explanation: "PFRDA is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Who can choose investment option?",
+    options: ["Annuity provider", "Bank", "Government only", "Employee/(Individual Corpus)"],
+    correct: 3,
+    explanation: "Employee/(Individual Corpus) is the correct answer.",
+  },
+  {
+    question:
+      "Investment under Unified Pension Scheme (UPS) is regulated by:",
+    options: ["PFRDA", "IRDA", "SEBI", "RBI"],
+    correct: 0,
+    explanation: "PFRDA is the correct answer.",
+  },
+  {
+    question:
+      "Family pension under Unified Pension Scheme (UPS) is:",
+    options: ["30%", "40%", "50%", "60%"],
+    correct: 3,
+    explanation: "60% is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Dearness Relief (DR) is applicable on:",
+    options: ["Lump sum only", "Only assured pension", "Only family pension", "Both assured pension and family pension"],
+    correct: 3,
+    explanation: "Both assured pension and family pension is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Dearness Relief (DR) calculation will be similar to:",
+    options: ["CPI Index", "NPS annuity", "OPS pension", "Serving employees DA"],
+    correct: 3,
+    explanation: "Serving employees DA is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Lump sum benefit is paid at:",
+    options: ["Death", "Joining", "Promotion", "Retirement"],
+    correct: 3,
+    explanation: "Retirement is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Lump sum is calculated on:",
+    options: ["Basic pay only", "Basic pay + DA", "Gross salary", "Pension amount"],
+    correct: 1,
+    explanation: "Basic pay + DA is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Lump sum amount is:",
+    options: ["5% per year of service", "10% per year of service", "10% for every completed 6 months of service", "Fixed 5 lakh rupees"],
+    correct: 2,
+    explanation: "10% for every completed 6 months of service is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Employees retired under FR 56(j) are:",
+    options: ["Eligible only for lump sum", "Eligible if not a penalty", "Eligible only after approval", "Not eligible"],
+    correct: 1,
+    explanation: "Eligible if not a penalty is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), who is NOT eligible under UPS?",
+    options: ["Dissmissed employee", "FR 56(j) retiree", "Superannuated employee", "Voluntary retiree"],
+    correct: 0,
+    explanation: "Dissmissed employee is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), minimum service for VRS (Voluntary Retirement Scheme) is:",
+    options: ["20 years", "22 years", "25 years", "30 years"],
+    correct: 0,
+    explanation: "20 years is the correct answer.",
+  },
+  {
+    question:
+      "What happens to NPS corpus after opting the UPS?",
+    options: ["It is forfeited", "It is refunded", "It is transferred to Individual Corpus", "It is converted into gratuity"],
+    correct: 2,
+    explanation: "It is transferred to Individual Corpus is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Purpose of benchmark corpus is:",
+    options: ["Calculate gratuity", "Ensure assured pension", "Fix DA", "Fix retirement age"],
+    correct: 1,
+    explanation: "Ensure assured pension is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), If individual corpus is less than benchmark:",
+    options: ["Employee can contribute difference", "Government pay difference", "Pension stopped", "Pension reduced permanently"],
+    correct: 0,
+    explanation: "Employee can contribute difference is the correct answer. (doubt, check again)",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), If individual corpus is more than benchmark:",
+    options: ["Excess forfeited", "Excess given to employee", "Excess transferred to Government", "Excess added to DR"],
+    correct: 1,
+    explanation: "Excess given to employee is the correct answer. (doubt, check again)",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Status of gratuity is:",
+    options: ["Abolished", "Included in UPS corpus", "Optional", "Paid separately"],
+    correct: 3,
+    explanation: "Paid separately is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Maximum gratuity limit is:",
+    options: ["20 lakhs", "25 lakhs", "30 lakhs", "35 lakhs"],
+    correct: 1,
+    explanation: "25 lakhs is the correct answer.",
+  },
+  {
+    question:
+      "Can UPS option be changed later?",
+    options: ["Yes, anytime", "Yes, within 1 year", "No, option is final", "Depends on the government"],
+    correct: 2,
+    explanation: "No, option is final is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), For disciplinary cases:",
+    options: ["Lump sum only", "No provision", "Pension cancelled", "Separate rules will be notified"],
+    correct: 3,
+    explanation: "Separate rules will be notified is the correct answer.",
+  },
+  {
+    question:
+      "Unified Pension Scheme (UPS) rules will be issued by:",
+    options: ["DoPT", "Ministry of Finance", "PFRDA", "Railway Board"],
+    correct: 2,
+    explanation: "PFRDA is the correct answer.",
+  },
+  {
+    question:
+      "Market risk under Unified Pension Scheme (UPS) is:",
+    options: ["Nil", "Limited", "Very high", "Fully market linked"],
+    correct: 1,
+    explanation: "Limited is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Assured pension is based on:",
+    options: ["Average of last 12 months basic pay", "Last pay drawn", "Market returns", "Total corpus only"],
+    correct: 0,
+    explanation: "Average of last 12 months basic pay is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Maximum assured pension is available to employees with:",
+    options: ["5 years of service", "10 years of service", "15 years of service", "20 years of service"],
+    correct: 1,
+    explanation: "10 years of service is the correct answer.",
+  },
+  {
+    question:
+      "UPS differs from OPS because:",
+    options: ["Contribution based structure", "No pension", "No DA", "No family pension"],
+    correct: 0,
+    explanation: "Contribution based structure is the correct answer.",
+  },
+  {
+    question:
+      "UPS differs from NPS because:",
+    options: ["Assured pension element", "No contribution", "No investment", "No regulation"],
+    correct: 0,
+    explanation: "Assured pension element is the correct answer.",
+  },
+  {
+    question:
+      "In Unified Pension Scheme (UPS), Lump sum benefit is NOT applicable to:",
+    options: ["Dismissed employee", "FR 56(j) retiree", "Superannuated employee", "Voluntary retiree"],
+    correct: 0,
+    explanation: "Dismissed employee is the correct answer.",
+  },
+  {
+    question:
+      "",
+    options: ["", "", "", ""],
+    correct: 3,
+    explanation: "2024 is the correct answer.",
+  },
+]
 }
