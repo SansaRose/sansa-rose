@@ -23,6 +23,8 @@ const Distances = () => {
 
     { question: 'At non interlocked gates, the gateman, before opening the gate for road traffic shall fix a banner flag by day and red light by night at a distance of', answer: '5 Meters from Gate', distance: '5M' },
 
+    { question: 'The distance of derailing switch from the point is about ________ feet.', answer: '15 ', distance: '15 feet' },
+
     { question: 'Centre to centre distance between tracks for examination lines should be minimum ______ meters', answer: '7.5M', distance: '7.5M' },
     
     { question: 'In thick, foggy or tempestuous weather impairing visibility and his engine explodes two detonators within a distance of _______ metres apart, the Loco Pilot will control his train immediately and will follow the aspect of stop signal ahead.', answer: '10M', distance: '10M' },
@@ -80,6 +82,8 @@ const Distances = () => {
     { question: 'On absolute block system, the adequate distance (BOL) beyond FSS on multiple aspect signalling for granting line clear is not less than', answer: '180 M', distance: '180M' },
 
     { question: 'What should be minimum length of Snag Dead End?', answer: '180M', distance: '180M' },
+
+    { question: 'Where two denotators are placed for protection of train stopped in automatic block signalling section', answer: '180M', distance: '180M' },
     
     { question: 'LP shall ensure head light produces illumination to see ahead clearly for a distance of', answer: '250M', distance: '250M' },
 

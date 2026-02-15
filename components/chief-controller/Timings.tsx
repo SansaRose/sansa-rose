@@ -92,12 +92,19 @@ const Timings = () => {
     { question: 'The target time for turning out Accident Relief Train (ART) during day/night is_______', answer: '30/45 minutes', timing: '30/45 minutes' },
 
     { question: 'In the case of Goods trains originating from a terminal yard, the Guards shall appear on duty at least 45 minutes before the departure of the train is scheduled to leave.', answer: 'at least 45 mins before', timing: '45 minutes' },
+
+    { question: 'Every Loco Pilot and ALP shall "sign on" ________ minutes in advance for examining and taking over the Multiple Unit Electric Engine in the shed.', answer: '45 minutes', timing: '45 minutes' },
     
     { question: 'Depending upon trains in the section Disconnection should normally be allowed by SM for duration up to', answer: '60 minutes', timing: '60 minutes' },
     
     { question: 'VHF sets as a means of communication should be permitted only in the presence of supervisory staff for prolonged duration of', answer: '3 hours or more', timing: '3 hours' },
 
     { question: 'When power supply fails in Non-electrified area, one generator can be used at a time for a maximum of________', answer: '4 hours', timing: '4 hours' },
+
+    { question: 'The powers to grant traffic blocks up to ______ hours have been given to DRM', answer: '4 hours', timing: '4 hours' },
+
+    { question: 'Free time for unloading of BTPN type of wagons under Engine on Load scheme is ______ hours', answer: '5 hours', timing: '5 hours' },
+    { question: 'Free time for unloading of BCN type of wagons under Engine on Load scheme is ______ hours', answer: '6 hours', timing: '6 hours' },
 
     { question: 'On trunk routes when traffic is disrupted for following hours or more, it is treated as serious dislocation of traffic.', answer: '6 hours', timing: '6 hours' },
 
@@ -181,6 +188,8 @@ const Timings = () => {
     { question: 'When a Joint or Interdepartmental inquiry is ordered by the GM, the inquiry shall be held at station nearest to the site of accident and within ________after the occurrence of accident.', answer: '3 days', timing: '3 days' },
 
     { question: 'Station Master may permit Learning duties at Medium stations & Road side station on first posting or when there is change of system/means of working of trains', answer: '3 days', timing: '3 days' },
+
+    { question: 'The GM can sanction NI Working up to ______ days subject to certain conditions', answer: '3 days', timing: '3 days' },
 
     { question: 'The limit of stay away from Headquarters for Running staff should be fixed at ______ hours.', answer: '72 hours', timing: '72 hours' },
 
@@ -302,37 +311,42 @@ const Timings = () => {
 
     { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
 
-    { question: 'Maximum days of Leave on Average Pay (LAP) that can be accumulated to an employee in his service life (upto retirement) is ______ days', answer: '300 days', timing: '300 days' },
-
-    { question: 'Maternity leave for a female Railway servant shall be granted for a period of ______ days', answer: '180 days', timing: '180 days' },
-
     { question: 'Privilege passes are valid for a period of ______ months from the date of issue.', answer: '4 months', timing: '4 months' },
+
+    
+    { question: 'Maternity leave for a female Railway servant shall be granted for a period of ______ days', answer: '180 days', timing: '180 days' },
+    
     
     { question: 'The 2/4 wire telephone will be tested by SE/JE-Tele. once in', answer: '6 months', timing: '6 months' },
     { question: 'Contents of the EL Box shall be tested by the SE / JE-TL. once in', answer: '6 months', timing: '6 months' },
     { question: 'All Gds, LPs, ALP, Motor men who are required to work in automatic block system shall undergo one day intensive training and a certificate shall be renewed once in', answer: '6 months', timing: '6 months' },
-
+    
     { question: 'Loco Pilot shall be re-examined after a refresher course and his certificate endorsed if he has not driven an electric engine or multiple units for more than', answer: '6 months', timing: '6 months' },
-
+    
     { question: 'Record foils of the caution orders shall be preserved for a period of', answer: '6 months', timing: '6 months' },
-
+    
     { question: 'Crew requirement is reviewed once in _______ months by the division based on the crew required for working coaching links and average working hours of goods crew.', answer: '6 months', timing: '6 months' },
     
     { question: 'Medical Relief Van and Auxiliary Van shall be inspected at least once in _______ months jointly by Divisional Officers of Medical, Safety, Civil Engineering, Mechanical, Electrical and S&T.', answer: '6 months', timing: '6 months' },
-
+    
     { question: 'From the date of confinement, Paternity leave to be availed within.', answer: '6 months', timing: '6 months' },
-
+    
     { question: 'What is the periodicity meeting of Town Officials Language Implementation Committee?', answer: 'Once in 6 months', timing: '6 months' },
-
+    
+    
     { question: 'The periodic joint inspection of tipplers to be carried out by Sr.DME/ DME (C&W) once in ______ months.', answer: '6 months', timing: '6 months' },
-
+    
     { question: 'Regular inspection in which each station on the division is inspected in details at least ___________covering the various aspects of safety, operations and allied matters including staff matters and comprehensive in nature', answer: 'once in every 6 months', timing: '6 months' },
-
+    
     { question: 'Running staff review should be carried out after every ----------- by Senior technical assistant of the division.', answer: '6 months', timing: '6 months' },
-
+    
+    { question: 'If a weighbridge becomes non-functional, how many days of loading permission can be granted by the General Manager?', answer: 'Up to 6 months', timing: '6 months' },
+    
     { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
-
+    
     { question: 'Maximum period of Leave on Average Pay (LAP) at a time that a Railway servant may be granted is ______ days', answer: '180 days', timing: '180 days' },
+    
+    { question: 'Maximum days of Leave on Average Pay (LAP) that can be accumulated to an employee in his service life (upto retirement) is ______ days', answer: '300 days', timing: '300 days' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
 

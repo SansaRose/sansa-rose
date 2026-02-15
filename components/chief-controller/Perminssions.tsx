@@ -151,6 +151,11 @@ const Perminssions = () => {
         category: 'PCPO'
       },
       {
+        description: 'In case of emergency, CC+6 loaded wagons can be permitted on excepted CC+6 routes. Permission of ______ is required',
+        authority: 'PCE',
+        category: 'PCE'
+      },
+      {
         description: 'At Zonal level the management of Passenger Traffic is looked after by ______',
         authority: 'CPTM',
         category: 'CPTM'

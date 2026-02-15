@@ -271,6 +271,11 @@ const Numbers = () => {
         category: '7'
       },
       {
+        question: 'Explosives are classified into how many classes?',
+        answer: '7',
+        category: '7'
+      },
+      {
         question: 'How many articles are there in part XVII of the Constitution of India?',
         answer: '9 articles (Article 343 to Article 351)',
         category: '9'
