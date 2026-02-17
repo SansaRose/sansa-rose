@@ -1298,6 +1298,123 @@ export const financialRulesQuizzes = {
             explanation:
               "Destination is the correct answer.",
           },
+          {
+            question:
+              "RoR is calculated for works chargable to:",
+            options: [
+              "Capital Fund",
+              "Development Fund",
+              "Depreciation Reserve Fund",
+              "All of the above",
+            ],
+            correct: 0,
+            explanation:
+              "Capital Fund is the correct answer.",
+          },
+          {
+            question:
+              "In case of delayed supply beyond contractual delivery period, Railway may:",
+            options: [
+              "Blacklist firm automatically",
+              "Cancel contract only",
+              "Forfeit security deposit only",
+              "Levy liquidated damages",
+            ],
+            correct: 3,
+            explanation:
+              "Levy liquidated damages is the correct answer.",
+          },
+          {
+            question:
+              "Railway budget expenditure is broadly divided into:",
+            options: [
+              "Capital and Revenue",
+              "Fixed and Variable",
+              "Ordinary and Special",
+              "Plan and Non-Plan",
+            ],
+            correct: 0,
+            explanation:
+              "Capital and Revenue is the correct answer.",
+          },
+          {
+            question:
+              "Timings for night incentive under Demurrage/Wharfage are:",
+            options: [
+              "21.00 to 06.00 hours",
+              "22.00 to 06.00 hours",
+              "24.00 to 06.00 hours",
+              "24.00 to 08.00 hours",
+            ],
+            correct: 1,
+            explanation:
+              "22.00 to 06.00 hours is the correct answer.",
+          },
+          {
+            question:
+              "Post project appraisal is done through:",
+            options: [
+              "Financial justification",
+              "Physical progress of work",
+              "Productivity test",
+              "RoR",
+            ],
+            correct: 2,
+            explanation:
+              "Productivity test is the correct answer.",
+          },
+          {
+            question:
+              "In ABC analysis, 'A' category items normally represent:",
+            options: [
+              "10% items and 70% value",
+              "50% items and 50% value",
+              "70% items and 10% value",
+              "None of the above",
+            ],
+            correct: 0,
+            explanation:
+              "10% items and 70% value is the correct answer.",
+          },
+          {
+            question:
+              "Which budget provides funds for temporary period?",
+            options: [
+              "Revised",
+              "Supplementary",
+              "Vote on account",
+              "None of the above",
+            ],
+            correct: 2,
+            explanation:
+              "Vote on account is the correct answer.",
+          },
+          {
+            question:
+              "Railway's net earnings are exhibited in which Part of Traffic Book?",
+            options: [
+              "Part A",
+              "Part B",
+              "Part C",
+              "Part D",
+            ],
+            correct: 2,
+            explanation:
+              "Part C is the correct answer.",
+          },
+          {
+            question:
+              "Which accounting principle will be followed by Indian Railways in near future?",
+            options: [
+              "Accrual basis",
+              "Cash basis",
+              "Hybrid basis",
+              "Single entry basis",
+            ],
+            correct: 0,
+            explanation:
+              "Accrual basis is the correct answer.",
+          },
         ],
         
       },

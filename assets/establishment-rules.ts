@@ -2594,7 +2594,7 @@ export const establishmentRulesQuizzes = {
     explanation: "Annexure-I is the correct answer.",
   },
 ]    },
-"npa":[
+"nps":[
   {
     question:
       "From which date is National Pension System (NPS) applicable for Railway Employees?",
@@ -3483,5 +3483,20 @@ export const establishmentRulesQuizzes = {
     explanation: "2024 is the correct answer.",
   },
   
+],
+"cpc":[
+  {
+    question:
+      "7th Central Pay Commission (CPC) was constituted in the year:",
+    options: [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+    ],
+    correct: 2,
+    explanation:
+      "2016 is the correct answer.",
+  },
 ]
 }

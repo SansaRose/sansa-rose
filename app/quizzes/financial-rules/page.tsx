@@ -17,6 +17,14 @@ const FinancialRules = () => {
       description: 'Comprehensive rules and regulations governing railway accounts, financial records, and accounting procedures'
     },
     {
+      href: '/quizzes/financial-rules/finance',
+      title: 'Finance',
+      icon: '📊',
+      color: 'from-emerald-500 to-green-600',
+      hoverColor: 'from-emerald-600 to-green-700',
+      description: 'Railway budget, earnings classification, funds management, and financial procedures'
+    },
+    {
       href: '/quizzes/financial-rules/tenders',
       title: 'Tenders',
       icon: '📋',
@@ -46,7 +54,7 @@ const FinancialRules = () => {
         </div>
 
         {/* Rules Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {rules.map((rule) => {
             const isActive = pathname === rule.href
             return (

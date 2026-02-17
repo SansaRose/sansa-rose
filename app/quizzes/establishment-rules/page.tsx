@@ -53,6 +53,51 @@ const EstablishmentRules = () => {
       hoverColor: 'from-indigo-600 to-indigo-700',
       description: 'Standards of conduct and behavior expected from railway service employees'
     },
+    {
+      href: '/quizzes/establishment-rules/cga',
+      title: 'CGA (Compassionate Grounds Appointment)',
+      year: 'CGA',
+      icon: '❤️',
+      color: 'from-amber-500 to-orange-600',
+      hoverColor: 'from-amber-600 to-orange-700',
+      description: 'Rules for compassionate ground appointments for dependents of railway employees who die in harness'
+    },
+    {
+      href: '/quizzes/establishment-rules/apar',
+      title: 'APAR (Annual Performance Appraisal Report)',
+      year: 'APAR',
+      icon: '📈',
+      color: 'from-teal-500 to-cyan-600',
+      hoverColor: 'from-teal-600 to-cyan-700',
+      description: 'Annual Performance Appraisal Report rules for staff assessment, promotion benchmarks, and MACP'
+    },
+    {
+      href: '/quizzes/establishment-rules/nps',
+      title: 'NPS (National Pension System)',
+      year: 'NPS',
+      icon: '🪙',
+      color: 'from-slate-500 to-slate-600',
+      hoverColor: 'from-slate-600 to-slate-700',
+      description: 'National Pension System rules for railway employees - Tier-I, Tier-II, contributions, and withdrawal'
+    },
+    {
+      href: '/quizzes/establishment-rules/ups',
+      title: 'UPS (Unified Pension System)',
+      year: 'UPS',
+      icon: '🏛️',
+      color: 'from-rose-500 to-rose-600',
+      hoverColor: 'from-rose-600 to-rose-700',
+      description: 'Unified Pension System rules - assured pension, contributions, corpus, gratuity, and family pension'
+    },
+    {
+      href: '/quizzes/establishment-rules/ops',
+      title: 'OPS (Old Pension Scheme)',
+      year: 'OPS',
+      icon: '📜',
+      color: 'from-violet-500 to-violet-600',
+      hoverColor: 'from-violet-600 to-violet-700',
+      description: 'Old Pension Scheme for employees appointed before 2004 - pension, GPF, gratuity, and family pension'
+    },
   ]
 
   return (
