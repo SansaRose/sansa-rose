@@ -99,9 +99,13 @@ const Timings = () => {
     
     { question: 'VHF sets as a means of communication should be permitted only in the presence of supervisory staff for prolonged duration of', answer: '3 hours or more', timing: '3 hours' },
 
+    { question: 'Threshold values for interruption to through traffic: For BG (Broad Gauge) A, B, C or D Special routes: ______ hours for total interruption', answer: '3 hours', timing: '3 hours' },
+
     { question: 'When power supply fails in Non-electrified area, one generator can be used at a time for a maximum of________', answer: '4 hours', timing: '4 hours' },
 
     { question: 'The powers to grant traffic blocks up to ______ hours have been given to DRM', answer: '4 hours', timing: '4 hours' },
+
+    { question: 'Threshold values for interruption to through traffic: For BG D, E Special or MG (Meter Gauge) Q, R routes: ______ hours for total interruption', answer: '4 hours', timing: '4 hours' },
 
     { question: 'Free time for unloading of BTPN type of wagons under Engine on Load scheme is ______ hours', answer: '5 hours', timing: '5 hours' },
     { question: 'Free time for unloading of BCN type of wagons under Engine on Load scheme is ______ hours', answer: '6 hours', timing: '6 hours' },
@@ -113,6 +117,10 @@ const Timings = () => {
     { question: 'Out station rest for a Running staff performing less than 8 hours duty is ______ hours', answer: '6 hours', timing: '6 hours' },
 
     { question: 'What is the minimum compulsory rest without duty?', answer: '6 hours', timing: '6 hours' },
+
+    { question: 'Threshold values for interruption to through traffic: For BG (Broad Gauge) A, B, C or D Special routes: ______ hours  for total + partial interruption', answer: '6 hours', timing: '6 hours' },
+
+    { question: 'Threshold values for interruption to through traffic: For BG E or MG S routes: ______ hours for total interruption', answer: '6 hours', timing: '6 hours' },
 
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
@@ -126,6 +134,8 @@ const Timings = () => {
 
     { question: 'To ensure that bona fide use of waiting rooms is being made, they shall be checked by a ticket checking staff every ________ hours', answer: '8 hours', timing: '8 hours' },
 
+    { question: 'Threshold values for interruption to through traffic: For BG D, E Special or MG (Meter Gauge) Q, R routes: ______ hours for total + partial interruption.', answer: '8 hours', timing: '8 hours' },
+
     { question: 'Running duty at a stretch should not ordinarily exceed _____ hours from the departure of the train.', answer: '9 hours', timing: '9 hours' },
 
     { question: 'The maximum duty hours in any one trip should not exceed ______ hours.', answer: '10 hours', timing: '10 hours' },
@@ -133,6 +143,8 @@ const Timings = () => {
     { question: 'Total duty at a stretch of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
 
     { question: 'If duty hours are less than 8 hours, how much rest is given at Headquarters?', answer: '12 hours', timing: '12 hours' },
+
+    { question: 'Threshold values for interruption to through traffic: For BG E or MG S routes: ______ hours for total + partial interruption.', answer: '12 hours', timing: '12 hours' },
 
     { question: 'Permissible free time for use of ground for dealing with container train for type II goods shed is ______ hours', answer: '15 hours', timing: '15 hours' },
 
@@ -249,6 +261,8 @@ const Timings = () => {
     { question: 'How many days of Leave on Half Average Pay (LHAP) in a calendar year, can be credited to an employee?', answer: '20 days', timing: '20 days' },
 
     { question: 'Within how many days the In-Principle Approval (IPA) will be granted to the applicant with the approval of the DRM in case of GCT on Non-Railway Land?', answer: '20 days', timing: '20 days' },
+
+    { question: 'Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of ______ days after the accident (Grievous injuries)', answer: '20 days', timing: '20 days' },
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
