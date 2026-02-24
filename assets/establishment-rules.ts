@@ -2593,8 +2593,8 @@ export const establishmentRulesQuizzes = {
     correct: 0,
     explanation: "Annexure-I is the correct answer.",
   },
-]    },
-"nps":[
+],
+        "nps": [
   {
     question:
       "From which date is National Pension System (NPS) applicable for Railway Employees?",
@@ -2910,9 +2910,8 @@ export const establishmentRulesQuizzes = {
     correct: 1,
     explanation: "No is the correct answer.",
   },
-  
 ],
-"ups":[
+        "ups": [
   {
     question:
       "Unified Pension Scheme (UPS) was approved in which year?",
@@ -3222,7 +3221,7 @@ export const establishmentRulesQuizzes = {
     explanation: "2024 is the correct answer.",
   },
 ],
-"ops":[
+        "ops": [
   {
     question:
       "Old Pension Scheme (OPS) is applicable to employees appointed before which date?",
@@ -3482,9 +3481,8 @@ export const establishmentRulesQuizzes = {
     correct: 3,
     explanation: "2024 is the correct answer.",
   },
-  
 ],
-"cpc":[
+        "cpc": [
   {
     question:
       "7th Central Pay Commission (CPC) was constituted in the year:",
@@ -3499,4 +3497,5 @@ export const establishmentRulesQuizzes = {
       "2016 is the correct answer.",
   },
 ]
+    }
 }

@@ -24,7 +24,7 @@ export default function NPSQuiz() {
     description: 'Test your knowledge of National Pension System rules for Railway',
     color: 'from-slate-500 to-slate-600',
     quizzes: {
-      'nps': (establishmentRulesQuizzes.quizzes['nps'] as QuizQuestion[]) || []
+      'nps': ((establishmentRulesQuizzes.quizzes as Record<string, QuizQuestion[]>)['nps']) || []
     }
   };
   

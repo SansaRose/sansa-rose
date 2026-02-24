@@ -67,6 +67,7 @@ const Navbar = () => {
   const topicsLinks = [
     { href: '/topics/chief-controller', label: 'Chief Controller', icon: '👨‍💼' },
     { href: '/topics/wagons-data', label: 'Wagons Data', icon: '🚃' },
+    { href: '/topics/coaches-data', label: 'Coaches Data', icon: '🚃' },
     { href: '/topics/information-technology-apps', label: 'Information Technology Apps', icon: '💻' },
   ]
 

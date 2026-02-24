@@ -24,7 +24,7 @@ export default function UPSQuiz() {
     description: 'Test your knowledge of Unified Pension System rules for Railway',
     color: 'from-rose-500 to-rose-600',
     quizzes: {
-      'ups': (establishmentRulesQuizzes.quizzes['ups'] as QuizQuestion[]) || []
+      'ups': ((establishmentRulesQuizzes.quizzes as Record<string, QuizQuestion[]>)['ups']) || []
     }
   };
   

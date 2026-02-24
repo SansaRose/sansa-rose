@@ -24,7 +24,7 @@ export default function OPSQuiz() {
     description: 'Test your knowledge of Old Pension Scheme rules for Railway',
     color: 'from-violet-500 to-violet-600',
     quizzes: {
-      'ops': (establishmentRulesQuizzes.quizzes['ops'] as QuizQuestion[]) || []
+      'ops': ((establishmentRulesQuizzes.quizzes as Record<string, QuizQuestion[]>)['ops']) || []
     }
   };
   
