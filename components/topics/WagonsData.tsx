@@ -497,13 +497,53 @@ const WagonsData = () => {
               <li className="flex gap-2 items-start"><span className="text-amber-400 shrink-0">5.</span><span>Next four digits will indicate individual wagon number</span></li>
               <li className="flex gap-2 items-start"><span className="text-amber-400 shrink-0">6.</span><span>The last digit will be a check digit</span></li>
             </ul>
-            <div className="pt-4 border-t border-slate-600">
-              <div className="flex flex-wrap gap-1 justify-center mb-2">
-                {['C1 : Type of wagon', 'C2 : Type of wagon', 'C3 : Owning Railway', 'C4 : Owning Railway', 'C5 : Year of manufacturing', 'C6 : Year of manufacturing', 'C7 : Individual Wagon Number', 'C8 : Individual Wagon Number', 'C9 : Individual Wagon Number', 'C10 : Individual Wagon Number', 'C11 : Check Digit'].map((c) => (
-                  <span key={c} className="inline-flex h-8 min-w-8 items-center justify-center rounded bg-amber-500/20 text-amber-300 font-semibold px-2">{c}</span>
-                ))}
+            <div className="pt-6 mt-6 border-t border-slate-600/80">
+              <p className="text-amber-300/90 text-xs font-medium uppercase tracking-wider mb-4 text-center">Position Legend</p>
+              <div className="space-y-4">
+                {/* C1, C2 = Type of wagon */}
+                <div className="rounded-xl border border-amber-500/25 bg-amber-500/5 p-3 sm:p-4">
+                  <p className="text-amber-400/80 text-xs font-medium uppercase tracking-wider mb-2">Type of wagon</p>
+                  <div className="flex flex-wrap gap-2">
+                    {['C1 : Type of wagon', 'C2 : Type of wagon'].map((c) => (
+                      <span key={c} className="inline-flex items-center justify-center rounded-lg border border-amber-500/40 bg-linear-to-br from-amber-500/20 to-amber-600/10 text-amber-300 font-semibold px-3 py-1.5 text-sm shadow-sm">{c}</span>
+                    ))}
+                  </div>
+                </div>
+                {/* C3, C4 = Owning Railway */}
+                <div className="rounded-xl border border-emerald-500/25 bg-emerald-500/5 p-3 sm:p-4">
+                  <p className="text-emerald-400/80 text-xs font-medium uppercase tracking-wider mb-2">Owning Railway</p>
+                  <div className="flex flex-wrap gap-2">
+                    {['C3 : Owning Railway', 'C4 : Owning Railway'].map((c) => (
+                      <span key={c} className="inline-flex items-center justify-center rounded-lg border border-emerald-500/40 bg-linear-to-br from-emerald-500/20 to-emerald-600/10 text-emerald-300 font-semibold px-3 py-1.5 text-sm shadow-sm">{c}</span>
+                    ))}
+                  </div>
+                </div>
+                {/* C5, C6 = Year of manufacturing */}
+                <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 p-3 sm:p-4">
+                  <p className="text-sky-400/80 text-xs font-medium uppercase tracking-wider mb-2">Year of manufacturing</p>
+                  <div className="flex flex-wrap gap-2">
+                    {['C5 : Year of manufacturing', 'C6 : Year of manufacturing'].map((c) => (
+                      <span key={c} className="inline-flex items-center justify-center rounded-lg border border-sky-500/40 bg-linear-to-br from-sky-500/20 to-sky-600/10 text-sky-300 font-semibold px-3 py-1.5 text-sm shadow-sm">{c}</span>
+                    ))}
+                  </div>
+                </div>
+                {/* C7, C8, C9, C10 = Individual Wagon Number */}
+                <div className="rounded-xl border border-violet-500/25 bg-violet-500/5 p-3 sm:p-4">
+                  <p className="text-violet-400/80 text-xs font-medium uppercase tracking-wider mb-2">Individual Wagon Number</p>
+                  <div className="flex flex-wrap gap-2">
+                    {['C7 : Individual Wagon Number', 'C8 : Individual Wagon Number', 'C9 : Individual Wagon Number', 'C10 : Individual Wagon Number'].map((c) => (
+                      <span key={c} className="inline-flex items-center justify-center rounded-lg border border-violet-500/40 bg-linear-to-br from-violet-500/20 to-violet-600/10 text-violet-300 font-semibold px-3 py-1.5 text-sm shadow-sm">{c}</span>
+                    ))}
+                  </div>
+                </div>
+                {/* C11 = Check Digit */}
+                <div className="rounded-xl border border-rose-500/25 bg-rose-500/5 p-3 sm:p-4">
+                  <p className="text-rose-400/80 text-xs font-medium uppercase tracking-wider mb-2">Check Digit</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="inline-flex items-center justify-center rounded-lg border border-rose-500/40 bg-linear-to-br from-rose-500/20 to-rose-600/10 text-rose-300 font-semibold px-3 py-1.5 text-sm shadow-sm">C11 : Check Digit</span>
+                  </div>
+                </div>
               </div>
-              
             </div>  
           </div>
         </section>
@@ -515,6 +555,7 @@ const WagonsData = () => {
             <p className="text-amber-100/90 text-sm mt-1">(ACCORDING TO BODY)</p>
           </div>
           <div className="p-4 sm:p-6 space-y-6">
+          <h3 className="text-amber-300 font-semibold mb-2">OPEN WAGON <span className="text-slate-400 font-normal">code allotted 10 to 29</span></h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
               {[['BOXN', '10'], ['BOXNHA', '11'], ['BOXNHS', '12'], ['BOXNCR', '13'], ['BOXNLW', '14'], ['BOXNB', '15'], ['BOXNF', '16'], ['BOXNG', '17'], ['BOY', '18'], ['BOST', '19'], ['BOXNAL', '20'],   ['BOSTHS', '21'],   ['BOXNHL', '22'],   ['BOXNS', '24']].map(([name, code]) => (
                 <div key={name} className="flex justify-between items-center rounded-lg bg-slate-700/40 border border-slate-600 px-3 py-2 text-slate-200 text-sm"><span>{name}</span><span className="text-amber-400 font-medium">{code}</span></div>
@@ -561,6 +602,365 @@ const WagonsData = () => {
               {[['BVZC', '85'], ['BVZI', '86'], ['BVCM', '87']].map(([name, code]) => (
                 <div key={name} className="flex justify-between items-center rounded-lg bg-slate-700/40 border border-slate-600 px-3 py-2 text-slate-200 text-sm"><span>{name}</span><span className="text-amber-400 font-medium">{code}</span></div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* OWNERSHIP (RAILWAYS') CODE (C3,C4) */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-emerald-600 to-emerald-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">OWNERSHIP (RAILWAYS&apos;) CODE (C3,C4)</h2>
+          </div>
+          <div className="p-4 sm:p-6 overflow-x-auto">
+            <table className="w-full text-slate-200 text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-emerald-500/40 bg-emerald-500/10">
+                  <th className="text-emerald-300 font-semibold text-left py-3 px-3 rounded-tl-lg">Sl No.</th>
+                  <th className="text-emerald-300 font-semibold text-left py-3 px-3">Name of the Railways</th>
+                  <th className="text-emerald-300 font-semibold text-left py-3 px-3 rounded-tr-lg">Numerical Codes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">1</td><td className="py-2.5 px-3">Central Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">01</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">2</td><td className="py-2.5 px-3">Eastern Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">02</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">3</td><td className="py-2.5 px-3">Northern Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">03</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">4</td><td className="py-2.5 px-3">North East Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">04</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">5</td><td className="py-2.5 px-3">Northeast Frontier Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">05</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">6</td><td className="py-2.5 px-3">Southern Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">06</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">7</td><td className="py-2.5 px-3">South Eastern Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">07</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">8</td><td className="py-2.5 px-3">Western Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">08</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">9</td><td className="py-2.5 px-3">South Central Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">09</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">10</td><td className="py-2.5 px-3">East Central Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">10</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">11</td><td className="py-2.5 px-3">North Western Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">11</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">12</td><td className="py-2.5 px-3">East Coast Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">12</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">13</td><td className="py-2.5 px-3">North Central Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">13</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">14</td><td className="py-2.5 px-3">South East Central Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">14</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">15</td><td className="py-2.5 px-3">South Western Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">15</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">16</td><td className="py-2.5 px-3">West Central Railway</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">16</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">17</td><td className="py-2.5 px-3">Wagon owned by Defense</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">24</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">18</td><td className="py-2.5 px-3">Wagon owned by CONCOR</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">25</td></tr>
+                <tr className="border-b border-slate-700 hover:bg-slate-700/30 transition-colors"><td className="py-2.5 px-3 text-amber-400 font-medium">19</td><td className="py-2.5 px-3">Wagon owned by other private parties</td><td className="py-2.5 px-3 text-emerald-400 font-semibold">26</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* YEAR OF MANUFACTURE CODE (C5, C6) */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-sky-600 to-sky-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">YEAR OF MANUFACTURE CODE (C5, C6)</h2>
+          </div>
+          <div className="p-6 space-y-4 text-slate-200 text-sm">
+            <ul className="list-none space-y-3">
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-sky-500/20 text-sky-400 text-xs">•</span>
+                <span>Consists of last two digits of the year of manufacture</span>
+              </li>
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-sky-500/20 text-sky-400 text-xs">•</span>
+                <span>For example, wagon manufacture in 2016 will have code 16</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        {/* INDIVIDUAL WAGON No. (C7, C8, C9, C10) */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-violet-600 to-violet-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">INDIVIDUAL WAGON No. (C7, C8, C9, C10)</h2>
+          </div>
+          <div className="p-6 space-y-4 text-slate-200 text-sm">
+            <ul className="list-none space-y-3">
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-500/20 text-violet-400 text-xs">•</span>
+                <span>This will be running serial number from 0001 to 9999</span>
+              </li>
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-500/20 text-violet-400 text-xs">•</span>
+                <span>0001 to 0999 will be departmental stock, after completing upto 0999, the number will begin from 0001</span>
+              </li>
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-500/20 text-violet-400 text-xs">•</span>
+                <span>1000 to 9999 will be for other (traffic) stock, after completing upto 9999, the number will begin from 1000</span>
+              </li>
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-500/20 text-violet-400 text-xs">•</span>
+                <span>The series will not change with type of wagon</span>
+              </li>
+              <li className="flex gap-3 items-start">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-500/20 text-violet-400 text-xs">•</span>
+                <span>For example on ECR if 1001 is BOXNHS, next wagon which may be BCNHS will be 1002</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        {/* CHECK DIGIT: Method of calculation */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-rose-600 to-rose-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">CHECK DIGIT: Method of calculation</h2>
+          </div>
+          <div className="p-6 space-y-6 text-slate-200 text-sm">
+            <div className="flex flex-wrap gap-2">
+              {['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11'].map((c) => (
+                <span key={c} className="inline-flex h-8 w-10 items-center justify-center rounded-lg border border-rose-500/30 bg-rose-500/10 text-rose-300 font-semibold">{c}</span>
+              ))}
+            </div>
+            <ol className="list-none space-y-4 [counter-reset:step]">
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-rose-500/20 before:text-rose-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the characters in the even number<br /><span className="text-rose-300 font-mono font-semibold mt-1 inline-block">S1 = C2+C4+C6+C8+C10</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-rose-500/20 before:text-rose-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Multiply S1 by 3 =3 S1</span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-rose-500/20 before:text-rose-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the character in the odd number<br /><span className="text-rose-300 font-mono font-semibold mt-1 inline-block">S2 = C1+C3+C5+C7+C9 (Except check digit)</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-rose-500/20 before:text-rose-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Add the sum of step 2 to the sum of step 3; <span className="text-rose-300 font-mono font-semibold">S4=3S1+S2</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-rose-500/20 before:text-rose-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Round this total up to the next multiple of 10</span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-rose-500/20 before:text-rose-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>The check digit is the number required to be added to round up to the next multiple of 10. If the total in S4 is already a multiple of 10, then the check digit will be Zero (0).</span>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+
+        {/* EXAMPLE */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-amber-600 to-amber-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">EXAMPLE</h2>
+          </div>
+          <div className="p-6 space-y-6 text-slate-200 text-sm">
+            <p className="leading-relaxed">
+              Northern Railway owned BOXNHS wagon number 4567 manufactured in 2003 would be stenciled as 1203034567. C alculate the check digit and write down the wagon number which will be stenciled on wagon body.
+            </p>
+            <div className="overflow-x-auto">
+              <h3 className="text-sky-400 font-bold text-center mb-3 underline decoration-sky-400">Check digit calculation</h3>
+              <div className="rounded-xl overflow-hidden border-2 border-white">
+                <table className="w-full text-sm border-collapse bg-orange-800/90">
+                  <thead>
+                    <tr className="border border-white">
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Type of wagon</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Railway Code</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Year of manufacturing</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={4}>Individual Wagon Number</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white">Check Digit</th>
+                    </tr>
+                    <tr className="border border-white">
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">1</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">2</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">0</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">3</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">0</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">3</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">4</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">5</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">6</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">7</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">?</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border border-white">
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>BOXNHS</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>N. Rly.</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>2003</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={4}></td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <ol className="list-none space-y-3 [counter-reset:step]">
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-amber-500/20 before:text-amber-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the characters in the even number<br /><span className="text-amber-300 font-mono font-semibold mt-1 inline-block">S1 = C2+C4+C6+C8+C10 = 2+3+3+5+7 = 20</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-amber-500/20 before:text-amber-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Multiply S1 by 3 =3 S1 = 3X20 = 60</span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-amber-500/20 before:text-amber-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the character in the odd number<br /><span className="text-amber-300 font-mono font-semibold mt-1 inline-block">S2 = C1+C3+C5+C7+C9 = 1+0+0+4+6 = 11</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-amber-500/20 before:text-amber-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Add the sum of step 2 to the sum of step 3; <span className="text-amber-300 font-mono font-semibold">S4=3S1+S2=60+11=71</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-amber-500/20 before:text-amber-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Round this total up to the next multiple of 10.<br /><span className="text-amber-300 font-mono font-semibold mt-1 inline-block">71+</span><span className="text-amber-300 font-mono font-semibold">9 =80</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-amber-500/20 before:text-amber-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>The check digit is the number required to be added to round up to the next multiple of 10. Check digit is 9</span>
+              </li>
+            </ol>
+            <div className="pt-4 border-t border-slate-600">
+              <p className="text-amber-300 font-semibold mb-2">Therefore, the wagon number will be stenciled as :</p>
+              <div className="flex flex-col gap-1 font-mono text-amber-400 font-semibold">
+                <span>BOXNHS</span>
+                <span>12030345679</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* EXERCISE 1 */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-teal-600 to-teal-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">EXERCISE</h2>
+          </div>
+          <div className="p-6 space-y-6 text-slate-200 text-sm">
+            <p className="leading-relaxed">
+              East Central Railway owned a BCNAHS wagon having number 9521, manufactured in 2016 would be stenciled as 3110169521. Calculate the check digit and write down the wagon number which will be stenciled on wagon body.
+            </p>
+            <div className="overflow-x-auto">
+              <h3 className="text-sky-400 font-bold text-center mb-3 underline decoration-sky-400">Check digit calculation</h3>
+              <div className="rounded-xl overflow-hidden border-2 border-white">
+                <table className="w-full text-sm border-collapse bg-orange-800/90">
+                  <thead>
+                    <tr className="border border-white">
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Type of wagon</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Railway Code</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Year of manufacturing</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={4}>Individual Wagon Number</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white">Check Digit</th>
+                    </tr>
+                    <tr className="border border-white">
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">3</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">1</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">1</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">0</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">1</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">6</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">9</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">5</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">2</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">1</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">?</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border border-white">
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>BCNAHS</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>E. C. Rly.</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>2016</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={4}></td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <ol className="list-none space-y-3 [counter-reset:step]">
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-teal-500/20 before:text-teal-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the characters in the even number<br /><span className="text-teal-300 font-mono font-semibold mt-1 inline-block">S1 = C2+C4+C6+C8+C10 = 1+0+6+5+1 = 13</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-teal-500/20 before:text-teal-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Multiply S1 by 3 = 3S1 = 3×13 = 39</span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-teal-500/20 before:text-teal-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the character in the odd number<br /><span className="text-teal-300 font-mono font-semibold mt-1 inline-block">S2 = C1+C3+C5+C7+C9 = 3+1+1+9+2 = 16</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-teal-500/20 before:text-teal-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Add the sum of step 2 to the sum of step 3; <span className="text-teal-300 font-mono font-semibold">S4=3S1+S2=39+16=55</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-teal-500/20 before:text-teal-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Round this total up to the next multiple of 10.<br /><span className="text-teal-300 font-mono font-semibold mt-1 inline-block">55+5=60</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-teal-500/20 before:text-teal-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>The check digit is the number required to be added to round up to the next multiple of 10. Check digit is 5</span>
+              </li>
+            </ol>
+            <div className="pt-4 border-t border-slate-600">
+              <p className="text-teal-300 font-semibold mb-2">Therefore, the wagon number will be stenciled as :</p>
+              <div className="flex flex-col gap-1 font-mono text-teal-400 font-semibold">
+                <span>BCNAHS</span>
+                <span>31101695215</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* EXERCISE 2 */}
+        <section className="bg-slate-800/80 rounded-2xl shadow-xl border border-slate-700 overflow-hidden">
+          <div className="bg-linear-to-r from-cyan-600 to-cyan-700 text-white px-6 py-4">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">EXERCISE 2</h2>
+          </div>
+          <div className="p-6 space-y-6 text-slate-200 text-sm">
+            <p className="leading-relaxed">
+              Eastern Railway owned a BLLA wagon having number 6557, manufactured in 2020 would be stenciled as 6302206557. Calculate the check digit and write down the wagon number which will be stenciled on wagon body.
+            </p>
+            <div className="overflow-x-auto">
+              <h3 className="text-sky-400 font-bold text-center mb-3 underline decoration-sky-400">Check digit calculation</h3>
+              <div className="rounded-xl overflow-hidden border-2 border-white">
+                <table className="w-full text-sm border-collapse bg-orange-800/90">
+                  <thead>
+                    <tr className="border border-white">
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Type of wagon</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Railway Code</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>Year of manufacturing</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={4}>Individual Wagon Number</th>
+                      <th className="text-white font-bold text-center py-2 px-2 border border-white">Check Digit</th>
+                    </tr>
+                    <tr className="border border-white">
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">6</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">3</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">0</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">2</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">2</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">0</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">6</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">5</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">5</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">7</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white">?</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border border-white">
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>BLLA</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>E. Rly.</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={2}>2020</td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white" colSpan={4}></td>
+                      <td className="text-white font-bold text-center py-2 px-2 border border-white"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <ol className="list-none space-y-3 [counter-reset:step]">
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-cyan-500/20 before:text-cyan-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the characters in the even number<br /><span className="text-cyan-300 font-mono font-semibold mt-1 inline-block">S1 = C2+C4+C6+C8+C10 = 3+2+0+5+7 = 17</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-cyan-500/20 before:text-cyan-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Multiply S1 by 3 = 3S1 = 3×17 = 51</span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-cyan-500/20 before:text-cyan-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span className="flex-1">Add all the character in the odd number<br /><span className="text-cyan-300 font-mono font-semibold mt-1 inline-block">S2 = C1+C3+C5+C7+C9 = 6+0+2+6+5 = 19</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-cyan-500/20 before:text-cyan-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Add the sum of step 2 to the sum of step 3; <span className="text-cyan-300 font-mono font-semibold">S4=3S1+S2=51+19=70</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-cyan-500/20 before:text-cyan-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>Round this total up to the next multiple of 10.<br /><span className="text-cyan-300 font-mono font-semibold mt-1 inline-block">70 is already a multiple of 10, so add 0</span></span>
+              </li>
+              <li className="flex gap-3 items-start [counter-increment:step] before:flex before:h-6 before:w-6 before:shrink-0 before:items-center before:justify-center before:rounded-full before:bg-cyan-500/20 before:text-cyan-300 before:text-xs before:font-bold before:content-[counter(step)]">
+                <span>The check digit is the number required to be added to round up to the next multiple of 10. Check digit is 0</span>
+              </li>
+            </ol>
+            <div className="pt-4 border-t border-slate-600">
+              <p className="text-cyan-300 font-semibold mb-2">Therefore, the wagon number will be stenciled as :</p>
+              <div className="flex flex-col gap-1 font-mono text-cyan-400 font-semibold">
+                <span>BLLA</span>
+                <span>63022065570</span>
+              </div>
             </div>
           </div>
         </section>
