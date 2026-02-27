@@ -66,6 +66,12 @@ const Navbar = () => {
 
   const topicsLinks = [
     { href: '/topics/chief-controller', label: 'Chief Controller', icon: '👨‍💼' },
+    { href: '/topics/public-complaints', label: 'Public Complaints', icon: '📢' },
+    { href: '/topics/hrms', label: 'HRMS', icon: '👥' },
+    { href: '/topics/macp', label: 'MACP', icon: '📈' },
+    { href: '/topics/apar', label: 'APAR', icon: '📋' },
+    { href: '/topics/cat', label: 'CAT', icon: '📝' },
+    { href: '/topics/master-circulars', label: 'Master Circulars', icon: '📜' },
     { href: '/topics/wagons-data', label: 'Wagons Data', icon: '🚃' },
     { href: '/topics/coaches-data', label: 'Coaches Data', icon: '🚃' },
     { href: '/topics/information-technology-apps', label: 'Information Technology Apps', icon: '💻' },
