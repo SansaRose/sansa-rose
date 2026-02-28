@@ -110,7 +110,11 @@ const CoachesData = () => {
             </li>
             <li className="flex items-center gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors sm:col-span-2">
               <span className="shrink-0 flex h-8 w-10 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">LL</span>
-              <span><strong className="text-amber-300"></strong> = Combined Luggage vand and Lavatory (rare)</span>
+              <span><strong className="text-amber-300"></strong> = Combined Luggage and Lavatory (rare)</span>
+            </li>
+            <li className="flex items-center gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors sm:col-span-2">
+              <span className="shrink-0 flex h-8 w-10 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">LR</span>
+              <span><strong className="text-amber-300"></strong> = Luggage and Brake Van</span>
             </li>
             <li className="flex items-center gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors sm:col-span-2">
               <span className="shrink-0 flex h-8 w-10 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">RR</span>
@@ -174,6 +178,10 @@ const CoachesData = () => {
               <span>Vestibuled Pantry/Kitchen/Buffet Car</span>
             </li>
             <li className="flex items-start gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors">
+              <span className="shrink-0 flex h-8 min-w-18 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">WGCB</span>
+              <span>Vestibuled Pantry/Kitchen/Buffet Car with Self Generating Equipment</span>
+            </li>
+            <li className="flex items-start gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors">
               <span className="shrink-0 flex h-8 min-w-18 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">WCD</span>
               <span>Vestibuled Dining Car</span>
             </li>
@@ -224,6 +232,14 @@ const CoachesData = () => {
             <li className="flex items-start gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors">
               <span className="shrink-0 flex h-8 min-w-18 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">VP</span>
               <span>Parcel Van</span>
+            </li>
+            <li className="flex items-start gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors">
+              <span className="shrink-0 flex h-8 min-w-18 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">VPH</span>
+              <span>High capacity Parcel Van</span>
+            </li>
+            <li className="flex items-start gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors">
+              <span className="shrink-0 flex h-8 min-w-18 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">VPU</span>
+              <span>High capacity Motor Cum Parcel Van</span>
             </li>
             <li className="flex items-start gap-3 rounded-xl border border-slate-600/60 bg-slate-700/30 px-4 py-3 hover:border-amber-500/40 hover:bg-slate-700/50 transition-colors">
               <span className="shrink-0 flex h-8 min-w-18 items-center justify-center rounded-lg bg-amber-500/20 text-amber-400 font-bold text-xs">WLRRM</span>
