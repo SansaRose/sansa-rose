@@ -815,6 +815,27 @@ export const rajabhashaQuizzes = {
             explanation:
               "Tri lingual (Regional, Hindi and English) is the proportion in which the panel board of a train has to be displayed.",
           },
+          {
+            question:
+              "In which year was the 'Parangat' course introduced in the Hindi Teaching Scheme?",
+            options: ["2002", "2003", "2004", "2005"],
+            correct: 3,
+            explanation: "2005 is the correct answer.",
+          },
+          {
+            question:
+              "Praveen is equivalent to which class of Hindi qualification?",
+            options: ["Class 5", "Class 6", "Class 7", "Class 8"],
+            correct: 3,
+            explanation: "Class 8 is the correct answer.",
+          },
+          {
+            question:
+              "General Manager (GM) award has now be renamed as ______",
+            options: ["AVRSP", "RSP", "VRSP", "None of the above"],
+            correct: 2,
+            explanation: "VRSP is the correct answer.",
+          },
         ],
       },
 }

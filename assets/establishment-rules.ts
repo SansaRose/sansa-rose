@@ -601,6 +601,69 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "Minor Penalty Charge Sheet is the correct answer.",
           },
+          {
+            question:
+              "Which rule of the Discipline & Appeal Rules 1968 defines the 'Penalties' that can be imposed on a Railway Servant?",
+            options: ["Rule 5", "Rule 6", "Rule 7", "Rule 8"],
+            correct: 1,
+            explanation: "Rule 6 is the correct answer.",
+          },
+          {
+            question:
+              "Under the sexual harassment of women at the workplace (Prevention, Prohibition and Redressal) Act, the appeal shall be entertained within ______ days",
+            options: ["30", "45", "60", "90"],
+            correct: 3,
+            explanation: "90 is the correct answer.",
+          },
+          {
+            question:
+              "According to the 2024 amendment to Rule 9, what technology is now officially permitted for conducting disciplinary inquiries?",
+            options: ["Telephonic recording", "Video Conferencing", "WhatsApp messages", "None of the above"],
+            correct: 1,
+            explanation: "Video Conferencing is the correct answer.",
+          },
+          {
+            question:
+              "The first appeal to the first appellate authority can be preferred by the applicant within ______ days from the expiry of the prescribed time limit or the receipt of the decision from the PIO",
+            options: ["30", "45", "60", "90"],
+            correct: 0,
+            explanation: "30 is the correct answer.",
+          },
+          {
+            question:
+              "Which penalty is considered as 'Disqualification' for future employment under the Government?",
+            options: ["Any major penalty", "Compulsory retirement", "Dismissal from service", "Removal from service"],
+            correct: 2,
+            explanation: "Dismissal from service is the correct answer.",
+          },
+          {
+            question:
+              "What is the tenure of the Internal Complaints Committee under Sexual Harassment of Women at the Workplace?",
+            options: ["2 years", "3 years", "4 years", "5 years"],
+            correct: 1,
+            explanation: "3 years is the correct answer.",
+          },
+          {
+            question:
+              "Under Railway Servants (Discipline & Appeal) Rules, 1968, Suspension order must be reviewed by the competent authority every-",
+            options: ["30 days", "45 days", "60 days", "90 days"],
+            correct: 3,
+            explanation: "90 days is the correct answer.",
+          },
+          {
+            question:
+              "By what percent Subsistence allowance that can be increased if suspension period is increased due to administrative reasons?",
+            options: ["10%", "20%", "25%", "30%"],
+            correct: 2,
+            explanation: "25% is the correct answer.",
+          },
+          {
+            question:
+              "Who is the competent authority for consideration of representation against adverse remarks recorded in APAR of a Non-gazetted Railway servant if ADRM in division is the accepting authority?",
+            options: ["ADRM", "DRM", "GM", "PCPO"],
+            correct: 1,
+            explanation: "DRM is the correct answer.",
+          },
         ],
         "leave-rules": [
           {
@@ -1341,6 +1404,34 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "Yes is the correct answer.",
           },
+          {
+            question:
+              "What is the maximum of Special Casual Leave (SCL) in a calendar year that can be granted to the delegates of members of Co-operative Societies to attend the meetings of the Society?",
+            options: ["10", "15", "20", "25"],
+            correct: 1,
+            explanation: "15 is the correct answer.",
+          },
+          {
+            question:
+              "What is the rate of CTG (Composite Transfer Grant) admissible for transfer within the same city/short distance transfer within the distance of 20 km?",
+            options: ["1/2 of Pay and D.Pay", "1/3 of Pay and D.Pay", "1/4 of Pay and D.Pay", "1/5 of Pay and D.Pay"],
+            correct: 1,
+            explanation: "1/3 of Pay and D.Pay is the correct answer.",
+          },
+          {
+            question:
+              "Leave Reserve for all Running staff should be-",
+            options: ["5% to 10%", "10% to 15%", "15% to 30%", "20% to 50%"],
+            correct: 2,
+            explanation: "15% to 30% is the correct answer.",
+          },
+          {
+            question:
+              "Who can sanction Joining time beyond 30 days?",
+            options: ["DRM", "GM", "PHOD", "Railway Board"],
+            correct: 3,
+            explanation: "Railway Board is the correct answer.",
+          },
         ],
         "rest-rules": [
           {
@@ -1840,6 +1931,48 @@ export const establishmentRulesQuizzes = {
             explanation:
               "True is the correct answer.",
           },
+          {
+            question:
+              "Health Educators and Family Planning Workers are classified as ______",
+            options: ["Continuous", "Essentially Intermittent", "Excluded", "Intensive"],
+            correct: 2,
+            explanation: "Excluded is the correct answer.",
+          },
+          {
+            question:
+              "What is the maximum number of overtime hours a worker is allowed to work in a single quarter (3 months)?",
+            options: ["120 hours", "125 hours", "130 hours", "144 hours"],
+            correct: 3,
+            explanation: "144 hours is the correct answer.",
+          },
+          {
+            question:
+              "In the case of continous workers Long on means period of duty over ______ hours",
+            options: ["Over 6", "Over 8", "Over 10", "Over 12"],
+            correct: 2,
+            explanation: "Over 10 is the correct answer.",
+          },
+          {
+            question:
+              "How many hours of factual job analysis is required for change of duty roster?",
+            options: ["48 hours", "72 hours", "96 hours", "120 hours"],
+            correct: 1,
+            explanation: "72 hours is the correct answer.",
+          },
+          {
+            question:
+              "In a 14-day roster cycle for running staff, the total number of Long-Off prescribed is ______",
+            options: ["2", "3", "4", "5"],
+            correct: 2,
+            explanation: "3 is the correct answer.",
+          },
+          {
+            question:
+              "What is the maximum Basic Pay considered for calculating hourly rate of NDA(Night Duty Allowance)?",
+            options: ["41,000", "43,600", "46,200", "48,800"],
+            correct: 1,
+            explanation: "43,600 is the correct answer.",
+          },
         ],
         
         "pass-rules": [
@@ -2031,6 +2164,20 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "Entitled class is the correct answer.",
           },
+          {
+            question:
+              "A son is eligible to be included in a Railway Pass after the age of 21 years, only if he is-",
+            options: ["A bonafide student of recognized educational institution", "Living with his parents", "Unemployed", "Not eligible"],
+            correct: 0,
+            explanation: "A bonafide student of recognized educational institution is the correct answer.",
+          },
+          {
+            question:
+              "Which of the following still requires manual approval?",
+            options: ["Cancellation e-pass", "Issuance of e-pass", "Re-declaration of same family", "None of the above"],
+            correct: 0,
+            explanation: "Cancellation e-pass is the correct answer.",
+          },
         ],
         
         "conduct-rules": [
@@ -2202,6 +2349,20 @@ export const establishmentRulesQuizzes = {
             options: ["Behaviour lowering integrity", "Criminal offence", "Illegal act", "Leave violation"],
             correct: 0,
             explanation: "Behaviour lowering integrity is the correct answer.",
+          },
+          {
+            question:
+              "Rule No. _______ of Railway Conduct Rules 1966 deals with Subletting and Vacation of Government accommodation",
+            options: ["Rule 12", "Rule 13-A", "Rule 14", "Rule 15-A"],
+            correct: 3,
+            explanation: "Rule 15-A is the correct answer.",
+          },
+          {
+            question:
+              "Restriction regarding more than 1 marriage is imposed vide Rule _______ of Railway Servants (Conduct) Rules 1966",
+            options: ["Rule 12", "Rule 15", "Rule 18", "Rule 21"],
+            correct: 3,
+            explanation: "Rule 21 is the correct answer.",
           },
         ],
         "cga":[
@@ -2498,6 +2659,41 @@ export const establishmentRulesQuizzes = {
             options: ["Hindi version prevails", "English version prevails", "Both versions are equally valid", "Board decides later"],
             correct: 1,
             explanation: "English version prevails is the correct answer.",
+          },
+          {
+            question:
+              "For considering appointment under compassionate grounds, depends of employees who die or are permanently crippled in the course of duty are categorized as Priority _______ cases.",
+            options: ["Priority-1", "Priority-2", "Priority-3", "Priority-4"],
+            correct: 0,
+            explanation: "Priority-1 is the correct answer.",
+          },
+          {
+            question:
+              "In case where employees are partially medically decategorized, appointment under compassionate grounds can be offered to wife/wards/dependent in which grade?",
+            options: ["Based on qualification can be offered", "No CG is permitted in such cases", "Level-1 (Erstwhile Group-D)", "Level-2 (Erstwhile Group-C)"],
+            correct: 2,
+            explanation: "Level-1 (Erstwhile Group-D) is the correct answer.",
+          },
+          {
+            question:
+              "Are the wards/dependant family members of Railway employees commiting suicide eligible for appointment under compassionate grounds?",
+            options: ["Yes", "No", "Yes, but only wife is eligible", "None of the above"],
+            correct: 0,
+            explanation: "Yes is the correct answer.",
+          },
+          {
+            question:
+              "In CG aapointments against Divisonal controlled posts, powers for considering cases of appointment of dependant brothers/sisters are vested with-",
+            options: ["DRM", "CWM", "GM", "PCPO"],
+            correct: 0,
+            explanation: "DRM is the correct answer.",
+          },
+          {
+            question:
+              "What is the procedure for the redeployment of surplus staff against post having an element of DRQ(Direct Recruitment Quota)?",
+            options: ["Posted in the same grade", "Posted in Higher grade", "Posted in Lower grade", "Posted in any grade as per request"],
+            correct: 0,
+            explanation: "Posted in the same grade is the correct answer.",
           },
         ],
         "apar":
@@ -3476,10 +3672,10 @@ export const establishmentRulesQuizzes = {
   },
   {
     question:
-      "",
-    options: ["", "", "", ""],
+      "Pensioners who have been completed 90 years of age but not completed 95 years will be entitled to what percentage of additional quantum of pension?",
+    options: ["10%", "20%", "30%", "40%"],
     correct: 3,
-    explanation: "2024 is the correct answer.",
+    explanation: "40% is the correct answer.",
   },
 ],
         "cpc": [
@@ -3495,6 +3691,682 @@ export const establishmentRulesQuizzes = {
     correct: 2,
     explanation:
       "2016 is the correct answer.",
+  },
+  {
+    question:
+      "What is the minimum pay in Level-5 of VII CPC Pay Commission?",
+    options: ["18000", "25500", "29200", "35400"],
+    correct: 2,
+    explanation: "29200 is the correct answer.",
+  },
+  {
+    question:
+      "The recruitment against cultural quota is done in only level ______ of VII PC Pay Commission.",
+    options: ["Level I", "Level II", "Level III", "Level IV"],
+    correct: 1,
+    explanation: "Level II is the correct answer.",
+  },
+],
+"rti-act-2005":[
+  {
+    question:
+      "RTI Act 2005 was passed in the year:",
+    options: ["2005", "2006", "2007", "2008"],
+    correct: 0,
+    explanation: "12th October 2005 is the correct answer.",
+  },
+  {
+    question:
+      "Under RTI Act, 2005, if information concerns life or liberty of a person, it must be supplied within ______ hours",
+    options: ["24 hours", "48 hours", "36 hours", "72 hours"],
+    correct: 1,
+    explanation: "48 hours is the correct answer.",
+  },
+  {
+    question:
+      "A Public Information Officer (PIO) must transfer an RTI application to another public authority within ______ days",
+    options: ["5 days", "7 days", "10 days", "15 days"],
+    correct: 0,
+    explanation: "5 days is the correct answer.",
+  },
+  {
+    question:
+      "",
+    options: ["", "", "", ""],
+    correct: 0,
+    explanation: "12th October 2005 is the correct answer.",
+  },
+],
+"lhb": [
+  {
+    question:
+      "What is the full form of LHB?",
+    options: ["Lower Heavy Bogie", "Low Heiht Bogie", "Linke Hofmann Busch", "None of the above"],
+    correct: 2,
+    explanation: "Linke Hofmann Busch is the correct answer.",
+  },
+  {
+    question:
+      "What is the riding index of LHB Coach?",
+    options: ["2.0", "2.5", "2.75", "3.0"],
+    correct: 2,
+    explanation: "2.75 is the correct answer.",
+  },
+  {
+    question:
+      "What is the lenght of the LHB Coaches' body?",
+    options: ["23540 mm", "23545 mm", "23565 mm", "23570 mm"],
+    correct: 0,
+    explanation: "23540 mm is the correct answer.",
+  },
+  {
+    question:
+      "What is the overall width of the LHB Coaches?",
+    options: ["3240 mm", "3245 mm", "3265 mm", "3270 mm"],
+    correct: 0,
+    explanation: "3240 mm is the correct answer.",
+  },
+  {
+    question:
+      "What is the highest speed potential of the LHB Coaches?",
+    options: ["160 kmph to 180 kmph", "160 kmph to 200 kmph", "180 kmph to 200 kmph", "200 kmph to 220 kmph"],
+    correct: 1,
+    explanation: "160 kmph to 200 kmph is the correct answer.",
+  },
+  {
+    question:
+      "What is the length of the LHB Power Car body?",
+    options: ["23540 mm", "24400 mm", "24430 mm", "24500 mm"],
+    correct: 2,
+    explanation: "24430 mm is the correct answer.",
+  },
+  {
+    question:
+      "D1 maintenance of LHB Coaches done after how long time?",
+    options: ["7 days", "10 days", "15 days", "Every Trip"],
+    correct: 3,
+    explanation: "Every Trip is the correct answer.",
+  },
+  {
+    question:
+      "D2 maintenance of LHB Coaches done after how long time?",
+    options: ["30 days +- 1 day", "30 days +- 3 days", "30 days +- 5 days", "30 days +- 7 days"],
+    correct: 1,
+    explanation: "30 days +- 3 days is the correct answer.",
+  },
+  {
+    question:
+      "D3 maintenance of LHB Coaches done after how long time?",
+    options: ["90 days +- 7 days", "120 days +- 3 days", "150 days +- 5 days", "180 days +- 15 days"],
+    correct: 3,
+    explanation: "180 days +- 15 days is the correct answer.",
+  },
+  {
+    question:
+      "SS-1 maintenance of LHB Coaches done after how long time?",
+    options: ["1 year", "1.5 years", "2 years", "2.5 years"],
+    correct: 1,
+    explanation: "1.5 years is the correct answer.",
+  },
+  {
+    question:
+      "SS-2 maintenance of LHB Coaches done after how long time?",
+    options: ["1 year", "1.5 years", "2 years", "3 years"],
+    correct: 3,
+    explanation: "3 years is the correct answer.",
+  },
+  {
+    question:
+      "SS-3 maintenance of LHB Coaches done after how long time?",
+    options: ["3 years", "4 years", "5 years", "6 years"],
+    correct: 3,
+    explanation: "6 years is the correct answer.",
+  },
+  {
+    question:
+      "ON KM basis 'SS-1' of LHB Coach is done-",
+    options: ["5 lakhs", "6 lakhs", "7 lakhs", "8 lakhs"],
+    correct: 1,
+    explanation: "6 lakhs is the correct answer.",
+  },
+  {
+    question:
+      "ON KM basis 'SS-2' of LHB Coach is done-",
+    options: ["8 lakhs", "10 lakhs", "12 lakhs", "14 lakhs"],
+    correct: 2,
+    explanation: "12 lakhs is the correct answer.",
+  },
+  {
+    question:
+      "POH maintenance of LHB Coaches done after how long time?",
+    options: ["12 lakhs", "16 lakhs", "20 lakhs", "24 lakhs"],
+    correct: 3,
+    explanation: "24 lakhs is the correct answer.",
+  },
+  {
+    question:
+      "The Fire Extinguisher used in AC LHB Coaches is of which type?",
+    options: ["CO2 type", "DCP type", "Foat type", "None of the above"],
+    correct: 1,
+    explanation: "DCP type is the correct answer.",
+  },
+  {
+    question:
+      "Fire Extinguisher used in LHB Coaches should refilled in-",
+    options: ["Every month", "Every 3 months", "Every 6 months", "Every year"],
+    correct: 3,
+    explanation: "Every year is the correct answer.",
+  },
+  {
+    question:
+      "What is the hotel load in LHB Coaches?",
+    options: ["Air conditioning load", "Light and fan load", "Pantry equipment load", "All the above"],
+    correct: 3,
+    explanation: "All the above is the correct answer.",
+  },
+  {
+    question:
+      "How many volts are supplied to the LHB Coaches?",
+    options: ["230 volts", "415 volts 3 phase", "750 volts 3 phase", "11000 volts 3 phase"],
+    correct: 2,
+    explanation: "750 volts 3 phase is the correct answer.",
+  },
+  {
+    question:
+      "How many feeders are supplied power to the LHB Coaches?",
+    options: ["1", "2", "3", "4"],
+    correct: 1,
+    explanation: "2 is the correct answer.",
+  },
+  {
+    question:
+      "What is the Coil Voltage of the Main feeder contractor in the LHB AC Coach?",
+    options: ["110 volts DC", "110 volts AC", "230 volts DC", "230 volts AC"],
+    correct: 0,
+    explanation: "110 volts DC is the correct answer.",
+  },
+  {
+    question:
+      "What is the capacity of the step-down transformer provided in the LHB AC Coach?",
+    options: ["50 KVA", "60 KVA", "75 KVA", "100 KVA"],
+    correct: 1,
+    explanation: "60 KVA is the correct answer.",
+  },
+  {
+    question:
+      "What is the full form of WRA in LHB Coaches?",
+    options: ["Wire Relay Appliances", "Water Raising Apparatus", "Worker Relief Arrangement", "None of the above"],
+    correct: 1,
+    explanation: "Water Raising Apparatus is the correct answer.",
+  },
+  {
+    question:
+      "How many water tanks are provided under the frame of LHB AC Coach?",
+    options: ["2", "3", "4", "5"],
+    correct: 2,
+    explanation: "3 is the correct answer.",
+  },
+  {
+    question:
+      "What is the capacity of the water tank provided under the frame of LHB AC Coach?",
+    options: ["500 litres", "550 litres", "600 litres", "685 litres"],
+    correct: 3,
+    explanation: "685 litres is the correct answer.",
+  },
+  {
+    question:
+      "Where mounted the WRA (Water Raising Apparatus) in LHB AC Coach?",
+    options: ["Bogie", "Under Frame", "Both", "None of the above"],
+    correct: 1,
+    explanation: "Under Frame is the correct answer.",
+  },
+  {
+    question:
+      "Which type of Motor is used in mono-block centrifugal type WRA in LHB AC Coach?",
+    options: ["AC", "DC", "Both AC & DC", "None of the above"],
+    correct: 0,
+    explanation: "AC is the correct answer.",
+  },
+  {
+    question:
+      "What is the voltage rating of the AC motor used with WRA in LHB AC Coach?",
+    options: ["110 volts AC", "230 volts AC", "415 volts AC", "750 volts AC"],
+    correct: 2,
+    explanation: "415 volts AC is the correct answer.",
+  },
+  {
+    question:
+      "What is the capacity of the motor provided with WRA in LHB AC Coach?",
+    options: ["0.5 HP", "1 HP", "1.5 HP", "2 HP"],
+    correct: 0,
+    explanation: "0.5 HP is the correct answer.",
+  },
+  {
+    question:
+      "Which type of motor is used in the WRA in LHB AC Coach?",
+    options: ["Single phase induction motor", "Two phase induction motor", "Three phase induction motor", "None of the above"],
+    correct: 2,
+    explanation: "Three phase induction motor is the correct answer.",
+  },
+  {
+    question:
+      "Which type of motor used in the pump set for WRA in LHB Coach?",
+    options: ["Slip ring", "Squirrel cage", "Both", "None of the above"],
+    correct: 1,
+    explanation: "Squirrel cage is the correct answer.",
+  },
+  {
+    question:
+      "What is the class of insulation of winding in the pump motor of WRA in LHB Coach?",
+    options: ["E-class", "F-class", "H-class", "None of the above"],
+    correct: 1,
+    explanation: "F-class is the correct answer.",
+  },
+  {
+    question:
+      "What is the rated speed of the pump set for WRA in LHB Coach?",
+    options: ["2500 RPM", "2600 RPM", "2700 RPM", "2800 RPM"],
+    correct: 3,
+    explanation: "2800 RPM is the correct answer.",
+  },
+  {
+    question:
+      "What is the total head of the pump set for WRA in LHB Coach?",
+    options: ["5 m", "6 m", "7 m", "8 m"],
+    correct: 3,
+    explanation: "12th October 2005 is the correct answer.",
+  },
+  {
+    question:
+      "How many pump sets are provided in the WRA in LHB AC Coach?",
+    options: ["1", "2", "3", "4"],
+    correct: 1,
+    explanation: "2 is the correct answer.",
+  },
+  {
+    question:
+      "Each pump in coach is alternatively switched by the pump controller for how many hours?",
+    options: ["3 hours", "4 hours", "5 hours", "6 hours"],
+    correct: 1,
+    explanation: "4 hours is the correct answer.",
+  },
+  
+  
+  
+],
+"hrms":[
+  {
+    question:
+      "What does LAA stand for in HRMS?",
+    options: ["Leave Allocation Application", "Leave Allocation Approval", "Loan Accepting Authority", "None of the above"],
+    correct: 2,
+    explanation: "Loan Accepting Authority is the correct answer.",
+  },
+  {
+    question:
+      "Which HRMS module is central for maintaining an employees's complete career history, including appointments, promotions, transfers, and qualifications?",
+    options: ["e-APAR module", "e-SR module", "MPP module", "Pass/PTO module"],
+    correct: 1,
+    explanation: "e-SR module is the correct answer.",
+  },
+  {
+    question:
+      "Which module in HRMS is most directly used for online processing of promotion, orders of employees",
+    options: ["Cadre management", "UDIP", "UDIT", "None of the above"],
+    correct: 1,
+    explanation: "UDIP is the correct answer.",
+  },
+  {
+    question:
+      "Which applicattion CANNOT be processed in HRMS as on date?",
+    options: ["Duty Check Pass", "Inter Railway Mutual Transfer", "PF Withdrawal", "Settlement after VR"],
+    correct: 3,
+    explanation: "Settlement after VR is the correct answer.",
+  },
+],
+"miscelaneous": [
+  {
+    question:
+      "In which chapter of IREM deals with Change in name of Railway Servants?",
+    options: ["Chapter IX", "Chapter XI", "Chapter XII", "Chapter XV"],
+    correct: 2,
+    explanation: "Chapter XII is the correct answer.",
+  },
+  {
+    question:
+      "What mandatory details are required for an emaployee to register on the UMID portal?",
+    options: ["Aadhar & PF/PPO", "PF/PPO & DOB", "Railway ID and PF", "Any Government Issued ID"],
+    correct: 1,
+    explanation: "PF/PPO & DOB is the correct answer.",
+  },
+  {
+    question:
+      "In which of the following situations maximum compensation is paid under the Employees Compensation Act 1923?",
+    options: ["Death resulting from injury", "Permanent total disability", "Permanent partial disability", "Temporary disability"],
+    correct: 1,
+    explanation: "Permanent total disability is the correct answer.",
+  },
+  {
+    question:
+      "The minimum number of Gatekeepers at a level crossing declared as Special Class of Level Crossing is-",
+    options: ["2", "3", "4", "5"],
+    correct: 1,
+    explanation: "3 is the correct answer.",
+  },
+  {
+    question:
+      "Pensioners to retire on disability pension under Railway Services Pension (Extraordinary) Rules, 1993 for ______ % of disability",
+    options: ["50%", "60%", "70%", "100%"],
+    correct: 3,
+    explanation: "100% is the correct answer.",
+  },
+  {
+    question:
+      "The frequency of PNM (Permanent Negotiating Machinery) at Divisional Level meetings for each recognized trade union is-",
+    options: ["Once in 2 months", "Once in 3 months", "Once in 4 months", "Once in 5 months"],
+    correct: 0,
+    explanation: "Once in 2 months is the correct answer.",
+  },
+  {
+    question:
+      "Under which rule of the Railway Services (Pension) Rules, 1993 can be settled on option to quit Railways regarding Absorption of medically de-categorized employees?",
+    options: ["Rule 63", "Rule 65", "Rule 67", "Rule 69"],
+    correct: 3,
+    explanation: "Rule 69 is the correct answer.",
+  },
+  {
+    question:
+      "The following allowance CAN NOT be attached by a Court?",
+    options: ["HRA", "Leave Encashment", "NDA", "NHA"],
+    correct: 0,
+    explanation: "HRA is the correct answer.",
+  },
+  {
+    question:
+      "The amount of Compensation on permanent total disability will be at least how much?",
+    options: ["1,00,000", "1,20,000", "1,40,000", "1,80,000"],
+    correct: 2,
+    explanation: "1,40,000 is the correct answer.",
+  },
+  {
+    question:
+      "During 'Temporary transfer' an employee may be permitted to retain the Quarters at the former place of posting on payment of normal rent for a period of _______",
+    options: ["2 months", "3 months", "4 months", "Entire period of temporary transfer"],
+    correct: 3,
+    explanation: "Entire period of temporary transfer is the correct answer.",
+  },
+  {
+    question:
+      "Recognition of Trade Unions shall normally be valid for a period of ______",
+    options: ["3 years", "4 years", "5 years", "6 years"],
+    correct: 3,
+    explanation: "6 years is the correct answer.",
+  },
+  {
+    question:
+      "The Promotional Quota vacancies for Tech-III posts from lower grade in Diesel/Electrical/Loco/EMU sheds are",
+    options: ["40%", "50%", "60%", "70%"],
+    correct: 1,
+    explanation: "50% is the correct answer.",
+  },
+  {
+    question:
+      "Which allowance is not admissible during the period of deputation abroad?",
+    options: ["Dual Charge Allowance", "Non-Practising Allowance", "Travelling Allowance", "None of the above"],
+    correct: 2,
+    explanation: "Travelling Allowance is the correct answer.",
+  },
+  {
+    question:
+      "Scale of pay of various non-gazetted staff are detailed in IREM in which chapter?",
+    options: ["Chapter III", "Chapter IV", "Chapter V", "Chapter VI"],
+    correct: 1,
+    explanation: "Chapter IV is the correct answer.",
+  },
+  {
+    question:
+      "In case of Railway Servant suffering from any disease and on medical certificate, HRA is admissible on full rate upto 180 days, can be extended upto ______ days on medical certificate",
+    options: ["240", "270", "300", "360"],
+    correct: 0,
+    explanation: "240 is the correct answer.",
+  },
+  {
+    question:
+      "The amount of Break Down Allowance payable to a Technician Grade-II in Level-4 of VII CPC Pay Commission is",
+    options: ["450/- PM", "500/- PM", "600/- PM", "675/- PM"],
+    correct: 3,
+    explanation: "675/- PM is the correct answer.",
+  },
+  {
+    question:
+      "If both Husband and Wife are Railway Servants, are they both concurrently eligible for Children Education Allowance of their children?",
+    options: ["Yes", "No", "Only 12%", "Each is eligible for 50%"],
+    correct: 1,
+    explanation: "No is the correct answer.",
+  },
+  {
+    question:
+      "The Hostel subsidy and Children Education Allowance can be claimed concurrently?",
+    options: ["Yes", "No", "Yes, for first child only", "None of the above"],
+    correct: 0,
+    explanation: "Yes is the correct answer.",
+  },
+  {
+    question:
+      "Which part of Model SOP 2018 contains provision of Establishment matter?",
+    options: ["Part C", "Part D", "Part E", "Part F"],
+    correct: 3,
+    explanation: "Part F is the correct answer.",
+  },
+  {
+    question:
+      "Conduct of viva voce is mandatory for promotion to the post of ______",
+    options: ["Group D to C", "Law Assistants", "Welfare Inspectors", "None of the above"],
+    correct: 1,
+    explanation: "Law Assistants is the correct answer.",
+  },
+  {
+    question:
+      "80% of Temporary posts are converted into permanent ones only after coninuous operation of the post for ______ years",
+    options: ["1", "2", "3", "4"],
+    correct: 2,
+    explanation: "3 is the correct answer.",
+  },
+  {
+    question:
+      "The post in Group C and earstwhile Group-D are declared as 'selection' or 'non-selection' for promotion depending upon the requirement of the service by ______",
+    options: ["GM", "PCPO", "Railway Board", "None of the above"],
+    correct: 2,
+    explanation: "Railway Board is the correct answer.",
+  },
+  {
+    question:
+      "In the context of manpower planning, what does 'Surplus staff' mean?",
+    options: ["Staff on bench", "Staff who are working overtime", "Staff who are on long leave", "Staff rendered unnecessary due to change in technology or closure of an activity"],
+    correct: 3,
+    explanation: "Staff rendered unnecessary due to change in technology or closure of an activity is the correct answer.",
+  },
+  {
+    question:
+      "A Suitability test should be held at the interval which should not be less than ______",
+    options: ["3 months", "6 months", "9 months", "12 months"],
+    correct: 1,
+    explanation: "6 months is the correct answer.",
+  },
+  {
+    question:
+      "Percentage of posts fixed for the post in the category of Station Master is covered under Para ______",
+    options: ["122 of IREM", "122 of IREC", "160 of IREM", "160 of IREC"],
+    correct: 0,
+    explanation: "122 of IREM is the correct answer.",
+  },
+  {
+    question:
+      "Selection Boards for selection posts shall consist of ______ officers",
+    options: ["Not less than 2 officers", "Not less than 3 officers", "Not less than 4 officers", "Not less than 5 officers"],
+    correct: 1,
+    explanation: "Not less than 3 officers is the correct answer.",
+  },
+  {
+    question:
+      "The instructions regarding Adhoc promotions are contained in Para/Rule ______",
+    options: ["215 of IREM", "215 of IREC", "216 of IREM", "216 of IREC"],
+    correct: 2,
+    explanation: "216 of IREM is the correct answer.",
+  },
+  {
+    question:
+      "Out of turn promotion may be granted in Gazetted cadre for representing country in Olympic Games with at least ______ position.",
+    options: ["1st", "2nd", "3rd", "4th"],
+    correct: 2,
+    explanation: "3rd is the correct answer.",
+  },
+  {
+    question:
+      "As per MSOP, what is the maximum period for which quarter can be retained on transfer to new Zonal Railway on normal rent?",
+    options: ["3 months", "6 months", "9 months", "12 months"],
+    correct: 3,
+    explanation: "12 months is the correct answer.",
+  },
+  {
+    question:
+      "What is the annaul quota of Divisions for recruitment against Scout and Guide posts?",
+    options: ["2 posts of Level-1", "2 posts of Level-2", "2 posts of Level-3", "2 posts of Level-4"],
+    correct: 0,
+    explanation: "2 posts of Level-1 is the correct answer.",
+  },
+  {
+    question:
+      "How many minutes of rate are calculated for NDA for each hour?",
+    options: ["8 minutes", "10 minutes", "12 minutes", "15 minutes"],
+    correct: 0,
+    explanation: "10 minutes is the correct answer.",
+  },
+  {
+    question:
+      "After how many year can a Railway employee apply for reimbursement of spectacles from Staff Benefit Fund?",
+    options: ["2 years", "3 years", "4 years", "5 years"],
+    correct: 0,
+    explanation: "3 years is the correct answer.",
+  },
+  {
+    question:
+      "Which of the following is NOT a module of e-Office?",
+    options: ["e-File", "e-File MIS report", "e-Service book", "Knowledge Management System"],
+    correct: 2,
+    explanation: "e-Service book is the correct answer.",
+  },
+  {
+    question:
+      "Which digital signature is used in e-Office?",
+    options: ["Class-1", "Class-2", "Class-3", "Class-4"],
+    correct: 2,
+    explanation: "Class-3 is the correct answer.",
+  },
+  {
+    question:
+      "As per Railway Board instructions, closed e-Office files are to be-",
+    options: ["Archived in KMS", "Deleted", "Printed and stiched", "Stored in HRMS"],
+    correct: 0,
+    explanation: "Archived in KMS is the correct answer.",
+  },
+  {
+    question:
+      "Which of the following does not fall under the Horizontal Reservation?",
+    options: ["CCAA", "Ex-Servicemen", "PwBD", "EWS"],
+    correct: 3,
+    explanation: "EWS is the correct answer.",
+  },
+  {
+    question:
+      "Time schedule for screening of employees for grant of MACPS benefits?",
+    options: ["January and July", "March and September", "May and November", "None of the above"],
+    correct: 1,
+    explanation: "March and September is the correct answer.",
+  },
+  {
+    question:
+      "Who is the competent authority for curtailing the period of training of non-gazetted employees in exigencies of service?",
+    options: ["GM", "PCPO", "Railway Board", "None of the above"],
+    correct: 0,
+    explanation: "GM is the correct answer.",
+  },
+  {
+    question:
+      "Claims for Reimbursement of medical charges should be preferred within ______ months from the date of completion of treatment?",
+    options: ["3 months", "6 months", "9 months", "12 months"],
+    correct: 1,
+    explanation: "6 months is the correct answer.",
+  },
+  {
+    question:
+      "For recognition at Zonal level, a Union must score-",
+    options: ["20% of valid votes", "30% of valid votes", "40% of valid votes", "50% of valid votes"],
+    correct: 0,
+    explanation: "20% of valid votes is the correct answer.",
+  },
+  {
+    question:
+      "The minimum amount of compensation payable under Employees Compensation Act, 1923 is, in case of death of a Railway servant due to accident?",
+    options: ["1,00,000", "1,20,000", "1,40,000", "1,80,000"],
+    correct: 1,
+    explanation: "1,20,000 is the correct answer.",
+  },
+  {
+    question:
+      "What is the time limit to resolve a CPGRAM (Central Public Grievance Redressal and Monitoring System) complaint?",
+    options: ["15 days", "21 days", "30 days", "45 days"],
+    correct: 1,
+    explanation: "21 days is the correct answer.",
+  },
+  {
+    question:
+      "Minimum amount of Ex-Gratia payable in case of death of a Railway employee in course of duty is-",
+    options: ["15 lakhs", "25 lakhs", "30 lakhs", "35 lakhs"],
+    correct: 1,
+    explanation: "25 lakhs is the correct answer.",
+  },
+  {
+    question:
+      "What is the maximum award admissible under Accident Free Service for Loco Pilots/Motorsmen?",
+    options: ["45 days basic pay", "30 days basic pay", "60 days basic pay", "90 days basic pay"],
+    correct: 3,
+    explanation: "90 days basic pay is the correct answer.",
+  },
+  {
+    question:
+      "What is the maximum ceiling of two family pensions payable when both are admissible under sub-rule(2) of Rule 54 of Railway Servants (Pension) Rules, 1993?",
+    options: ["75,000", "1,00,000", "1,25,000", "1,50,000"],
+    correct: 0,
+    explanation: "75,000 is the correct answer.",
+  },
+  {
+    question:
+      "Who is the competent authority to grant advance increment on sports account for excellence in sports?",
+    options: ["ADRM", "DRM", "Sr.DPO", "None of the above"],
+    correct: 1,
+    explanation: "DRM is the correct answer.",
+  },
+  {
+    question:
+      "What percentage of vacancies in Level-1 posts is reserved for CCAA (Course Completed Act Apprentices) candidates?",
+    options: ["10%", "20%", "30%", "40%"],
+    correct: 1,
+    explanation: "20% is the correct answer.",
+  },
+  {
+    question:
+      "The per-capita grant for the Staff Benefit Fund is sanctioned by-",
+    options: ["GM", "PCPO", "Railway Board", "Central Staff Benefit Fund Committee"],
+    correct: 2,
+    explanation: "Railway Board is the correct answer.",
+  },
+  {
+    question:
+      "Special Allowance for Child Care for Women with Disabilities is payable upto which age of the child?",
+    options: ["2 years", "3 years", "4 years", "5 years"],
+    correct: 0,
+    explanation: "2 years is the correct answer.",
   },
 ]
     }

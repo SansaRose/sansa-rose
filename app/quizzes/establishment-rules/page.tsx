@@ -98,6 +98,51 @@ const EstablishmentRules = () => {
       hoverColor: 'from-violet-600 to-violet-700',
       description: 'Old Pension Scheme for employees appointed before 2004 - pension, GPF, gratuity, and family pension'
     },
+    {
+      href: '/quizzes/establishment-rules/cpc',
+      title: 'CPC (Central Pay Commission)',
+      year: 'CPC',
+      icon: '💰',
+      color: 'from-emerald-500 to-emerald-600',
+      hoverColor: 'from-emerald-600 to-emerald-700',
+      description: 'Central Pay Commission - pay structure, grade pay, levels, and salary revisions for railway employees'
+    },
+    {
+      href: '/quizzes/establishment-rules/rti-act-2005',
+      title: 'RTI Act 2005 (Right to Information)',
+      year: '2005',
+      icon: '📄',
+      color: 'from-sky-500 to-sky-600',
+      hoverColor: 'from-sky-600 to-sky-700',
+      description: 'Right to Information Act 2005 - transparency, information requests, PIO, appellate authority, and timelines'
+    },
+    {
+      href: '/quizzes/establishment-rules/lhb',
+      title: 'LHB (Linke Hofmann Busch)',
+      year: 'LHB',
+      icon: '🚃',
+      color: 'from-orange-500 to-orange-600',
+      hoverColor: 'from-orange-600 to-orange-700',
+      description: 'Linke Hofmann Busch coaches - modern train coaches, safety features, and rolling stock technology'
+    },
+    {
+      href: '/quizzes/establishment-rules/hrms',
+      title: 'HRMS (Human Resource Management System)',
+      year: 'HRMS',
+      icon: '👥',
+      color: 'from-cyan-500 to-cyan-600',
+      hoverColor: 'from-cyan-600 to-cyan-700',
+      description: 'Human Resource Management System - leave allocation, loan authority, and employee management for railway staff'
+    },
+    {
+      href: '/quizzes/establishment-rules/miscelaneous',
+      title: 'Miscellaneous',
+      year: 'Misc',
+      icon: '📦',
+      color: 'from-lime-500 to-lime-600',
+      hoverColor: 'from-lime-600 to-lime-700',
+      description: 'Miscellaneous rules - IREM chapters, UMID portal registration, and other general establishment topics'
+    },
   ]
 
   return (

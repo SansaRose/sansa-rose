@@ -403,6 +403,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CCAA", fullForm: "Course Completed Act Apprentices",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CCC", fullForm: "Chief Crew Controller",
         explanation: "Will be added later",
         reference: "--"
@@ -656,8 +660,16 @@ type AbbreviationItem = {
         explanation: "The top authority and head of the Railway Board",
         reference: "--"
       },
+      { acronym: "CRC", fullForm: "Consignee Receipt Certificate",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CRIS", fullForm: "Centre for Railway Information System",
         explanation: "To provide consultancy and IT services to IR as partners to conceptualize and realize technology initiatives, to build new products or services and to implement prudent business and technology strategies.",
+        reference: "--"
+      },
+      { acronym: "CRN", fullForm: "Consignee Receipt Note",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "CRRM", fullForm: "Credit from Rail Release Material",
@@ -932,6 +944,10 @@ type AbbreviationItem = {
       },
       { acronym: "DMT", fullForm: "Departmental Material Trains",
         explanation: "A maintenance train used to carry materials for track repair and maintenance works",
+        reference: "--"
+      },
+      { acronym: "DMTR", fullForm: "Daily Material Transaction Report",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "DMU", fullForm: "Diesel Multiple Unit",
@@ -1223,6 +1239,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "FIBA", fullForm: "Failure Indication and Brake Application",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "FIFO", fullForm: "First In First Out",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1790,6 +1810,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "LDCE", fullForm: "Limited Departmental Competitive Exam",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "LEO", fullForm: "Labour Enforcement Officer",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2416,6 +2440,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "PIO", fullForm: "Public Information Officer",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PKM", fullForm: "Passenger Kilometers",
         explanation: "Will be added later",
         reference: "--"
@@ -2715,6 +2743,10 @@ type AbbreviationItem = {
       { acronym: "RLDA", 
         fullForm: "Railway Land Development Authority",
         explanation: "To develop vacant railway land for commercial use for the purpose of generating revenue by non-tariff measures for IR.",
+        reference: "--"
+      },
+      { acronym: "RLC", fullForm: "Regional Labour Commissioner",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "RLT", fullForm: "Railway Labour Tribunal",
@@ -3461,7 +3493,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "UDM", fullForm: "Unified Data Management",
+      { acronym: "UDM", fullForm: "User Depot Module",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3645,6 +3677,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "WILD", fullForm: "Wheel Impact Load Detection",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "WIPER", fullForm: "Welfare Inspector Progress Evaluation & Review",
         explanation: "Will be added later",
         reference: "--"
       },

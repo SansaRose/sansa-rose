@@ -288,6 +288,13 @@ export const financialRulesQuizzes = {
             explanation:
               "Cost escalation is the correct answer.",
           },
+          {
+            question:
+              "The form used for non-stock purchase of a store is-",
+            options: ["S-1301", "S-1302", "S-1303", "S-1304"],
+            correct: 1,
+            explanation: "S-1302 is the correct answer.",
+          },
         ],
         "tenders": [
           {
@@ -932,6 +939,27 @@ export const financialRulesQuizzes = {
             explanation:
               "Not be subject to any deductions is the correct answer.",
           },
+          {
+            question:
+              "In case of default in payment of wages by the contractor the responsibility of payment of wages lies with the ______ under the Act.",
+            options: ["Inspectors under the Act", "Principal Employer", "State Government", "None of the above"],
+            correct: 1,
+            explanation: "Principal Employer is the correct answer.",
+          },
+          {
+            question:
+              "Tenders addressed to a limited number of suppliers, who are the reliable source of supply is called ______",
+            options: ["Limited tender", "Open tender", "Single tender", "PAC tender"],
+            correct: 0,
+            explanation: "Limited tender is the correct answer.",
+          },
+          {
+            question:
+              "The successful bidder shall have to submit a Performance Guarantee (PG) within how many days from the date of issue of Letter of Acceptance (LOA) without Penal interest?",
+            options: ["15 days", "21 days", "30 days", "45 days"],
+            correct: 1,
+            explanation: "21 days is the correct answer.",
+          },
         ],
         "finance":[
           {
@@ -1414,6 +1442,34 @@ export const financialRulesQuizzes = {
             correct: 0,
             explanation:
               "Accrual basis is the correct answer.",
+          },
+          {
+            question:
+              "GM/DRM should carry out a zero-based review of all posts appearing in the book of sanctions at the beginning of every ______",
+            options: ["August every year", "Calender year", "December every year", "Financial year"],
+            correct: 3,
+            explanation: "Financial year is the correct answer.",
+          },
+          {
+            question:
+              "In GeM (Government e-Marketplace) procurement of stationery items, online bidding is mandatory for purchase above what value?",
+            options: ["5 Lakhs", "10 Lakhs", "15 Lakhs", "20 Lakhs"],
+            correct: 0,
+            explanation: "5 Lakhs is the correct answer.",
+          },
+          {
+            question:
+              "The 'Pink Book' in Indian Railways contains the details of-",
+            options: ["Passenger amentities list", "Railway accidents report", "Staff strenght of zones", "Sanctioned works and budget allotments"],
+            correct: 3,
+            explanation: "Sanctioned works and budget allotments is the correct answer.",
+          },
+          {
+            question:
+              "The financial provision for each work in the Pink Book is known as-",
+            options: ["Allocation", "Allotment", "Outlay", "Sanction"],
+            correct: 2,
+            explanation: "Outlay is the correct answer.",
           },
         ],
         
