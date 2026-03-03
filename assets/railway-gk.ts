@@ -162,6 +162,32 @@ export const railwayGkQuizzes = {
             explanation:
               "Surekha Yadav became the first female train driver (locopilot) of Indian Railways in 1988. She started her career with Central Railways and has since driven various trains, including suburban and express trains. She gained global recognition for driving the Vande Bharat Express (Mumbai-Solapur) in 2023, showcasing women's leadership in railways.",
           },
+          {
+            question:
+              "Where is the Indian Railways Institute of Financial Management (IRIFM) located?",
+            options: [
+              "Lucknow",
+              "Mumbai",
+              "Secunderabad",
+              "Vadodara",
+            ],
+            correct: 2,
+            explanation:
+              "Secunderabad is the correct answer.",
+          },
+          {
+            question:
+              "The first Railway Budget was presented in which year?",
+            options: [
+              "1924",
+              "1925",
+              "1926",
+              "1927",
+            ],
+            correct: 0,
+            explanation:
+              "1924 is the correct answer.",
+          },
         ],
         "chapter-2": [
           {
