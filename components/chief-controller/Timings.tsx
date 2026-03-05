@@ -395,6 +395,8 @@ const Timings = () => {
     { question: 'Normal period for which Station Operating Registers - Indent and Loading Register are required to be preserved is ______', answer: '3 years', timing: '3 years' },
 
     { question: 'Normal period for which Station Operating Registers - Control Order Book/Conference Book are required to be preserved is ______', answer: '3 years', timing: '3 years' },
+
+    { question: 'Record pertaining to Court Cases, departmental enquiries should not be destroyed till _______ years from the date the case is decided.', answer: '3 years', timing: '3 years' },
     
     { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
 

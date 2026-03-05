@@ -306,6 +306,16 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
+      description: 'Letters from the public asking for information must be replied to as promptly as possible. If there is any difficulty in supplying the required information, the receipt of the letter must be acknowledged and matter referred to the ______',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
+      description: 'Record pertaining to public claims etc., or those under reference from Home or other railways, should not be destroyed without permission from _______ concerned.',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
       description: 'Whenever Officers and Inspectors & Guards shall check speed of trains and if it is found that speed has been exceeded, they should inform LP at next stop and submit a report to ______',
       authority: 'DOM/DME/DEE',
       category: 'DOM'
@@ -337,6 +347,11 @@ const Perminssions = () => {
     },
     {
       description: 'When ODC consignment is offered at a station for booking SS/SM should apply to the ___________, who will obtain the necessary sanction of the competent authority. An application must show the length, width, height, and weight of the load accompanied by a sketch in duplicate of the consignment.',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: '_______ shall provide model draft of letters, which are frequently received at stations, using a model draft will ensure that language used is polite, respectful and courteous.',
       authority: 'Sr.DOM',
       category: 'DOM'
     },

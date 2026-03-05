@@ -732,7 +732,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "CTLC", fullForm: "Chief Train Loco Controller",
+      { acronym: "CTLC", fullForm: "Chief Traction Loco Controller",
         explanation: "Will be added later",
         reference: "--"
       },
