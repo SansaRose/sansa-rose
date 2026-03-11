@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Sansa Rose",
-  description: "Sansa Rose is a luxury fashion brand that offers a wide range of products for men and women.",
+  title: "AOM Aspirant",
+  description: "AOM Aspirant is a platform for AOM aspirants to prepare for the AOM examination.",
 };
 
 export default function RootLayout({

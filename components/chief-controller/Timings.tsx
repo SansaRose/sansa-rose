@@ -231,6 +231,8 @@ const Timings = () => {
 
     { question: 'Minimum number of days from the date of accident ‘D’, acceptance of enquiry report to be done within is _____', answer: 'D + 10 days', timing: '10 days' },
 
+    { question: 'The time-limit for drawal of LTC advance is 125 days for journeys by train. It is mandatory for the Government servant to produce the outward journey tickets to the Competent Authority within ______ days of advance drawal.', answer: '10 days', timing: '10 days' },
+
     { question: 'The validity of Premium rake BPC is ______', answer: '12 days', timing: '12 days' },
 
     { question: 'BPC of a material train is valid for 30 days subject to examination of the train by TXR in case of UIC rakes once in', answer: 'fortnight', timing: 'Fortnight' },
@@ -251,7 +253,7 @@ const Timings = () => {
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in a fortnight is', answer: '20 days', timing: '20 days' },
 
-
+{ question: 'Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of 20 days after the accident (Grievous injuries)', answer: '20 days', timing: '20 days' },
     { question: 'If the distance (km) data is missing and not retrievable for a CC Rake, for how many days is the BPC valid?', answer: '20 days', timing: '20 days' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to CRS/Rly Board to be done within is _____', answer: 'D + 20 days', timing: '20 days' },
@@ -281,6 +283,8 @@ const Timings = () => {
     { question: 'A balance of atleast ________ days of leave on Average Pay should be available to the credit in leave account after taking into account the period of encashment', answer: '30 days', timing: '30 days' },
 
     { question: 'Maximum limit of Special Casual Leave (SCL) is ______ days in a year', answer: '30 days', timing: '30 days' },
+
+    { question: 'Request for conversion of one kind of leave into another kind of leave shall be submitted within ______ days of joining duty.', answer: '30 days', timing: '30 days' },
 
     { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days'},
 
@@ -318,6 +322,10 @@ const Timings = () => {
     { question: 'Review meetings of progress of Official Language at Zonal level is conducted in every', answer: 'Once in 3 months', timing: '3 months' },
 
     { question: 'What is the periodicity of the "Partification of Railway Employees in Management (PREM)" meeting at zonal level?', answer: 'Once in 3 months', timing: '3 months' },
+
+    { question: 'GPF (General Provident Fund) subscription is stopped _______ months before retirement.', answer: '3 months', timing: '3 months' },
+
+    { question: '50% Subsistence Allowance is allowed during suspension for the first ______ months.', answer: '3 months', timing: '3 months' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
 

@@ -40,6 +40,11 @@ const Percentages = () => {
       answer: '6%', 
       category: '6%' 
     },
+    {
+      question: 'GPF subscription can be made minimum _______ of Basic Pay and maximum of 100% Basic Pay.', 
+      answer: '6%', 
+      category: '6%' 
+    },
     { 
       question: '_______ Trainee Reserve is added to support ongoing training and development of new crew members.', 
       answer: '10%', 
@@ -68,6 +73,11 @@ const Percentages = () => {
     {
       question: 'As per Railway Services Rules 2008, what is the Running Allowance?',
       answer: '30% of Basic Pay',
+      category: '30%'
+    },
+    {
+      question: 'Family Pension at normal rate is ______ of last pay.',
+      answer: '30%',
       category: '30%'
     },
     {

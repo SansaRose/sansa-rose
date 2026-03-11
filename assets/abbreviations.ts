@@ -1230,6 +1230,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "FCT", fullForm: "Fixed Cellular Telephone",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "FDR", fullForm: "Fixed Deposit Receipt",
         explanation: "Will be added later",
         reference: "--"
@@ -1845,8 +1849,16 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "LND", fullForm: "Leave Not Due",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "LPOCIP",
         fullForm: "Loco Pilot's Operation Cum Indication Panel",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "LPR", fullForm: "Leave Preparatory to Retirement",
         explanation: "Will be added later",
         reference: "--"
       },
