@@ -70,7 +70,7 @@ const Timings = () => {
 
     { question: 'Guards of Suburban trains shall report for duty at least ______ minutes before the scheduled departure of the train.', answer: '15 minutes', timing: '15 minutes' },
 
-    { question: 'In Following train, Pilot Guard, Train staff & ticket systems, a train shall be allowed to follow another from a station unless there has elapsed, an interval of not less than_____, or such shorter interval as may be fixed by special instructions.', answer: '15 minutes', timing: '15 minutes' },
+    { question: 'In The Following Trains System, The Pilot Guard System, The Train Staff & Ticket Systems, a train shall be allowed to follow another from a station unless there has elapsed, an interval of not less than_____, or such shorter interval as may be fixed by special instructions.', answer: '15 minutes', timing: '15 minutes' },
 
     { question: 'To treat as equipment failure, a gate telephone shall fail for more than ______ minutes.', answer: '15 minutes', timing: '15 minutes' },
 

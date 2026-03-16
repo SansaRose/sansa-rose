@@ -10,6 +10,13 @@ export const gsrpdfFiles = [
     icon: FileArchive,
   },
   {
+    name: "AS 24 to SCR G&SR 2020",
+    filename: "AS 24 to SCR G&SR 2020.pdf",
+    size: "914KB",
+    description: "Amendment Slip 24 to SCR G&SR 2020",
+    icon: FileText,
+  },
+  {
     name: "AS 23 to SCR G&SR 2020",
     filename: "AS 23 to SCR G&SR 2020.pdf",
     size: "914KB",

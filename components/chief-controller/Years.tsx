@@ -11,6 +11,11 @@ interface YearItem {
 const Years = () => {
     const years: YearItem[] = [
       {
+        question: 'First electric locomotive was introduced in ______ year by the Government of India?',
+        answer: '1925',
+        category: '1925'
+      },
+      {
         question: 'The General Rules issued under the notification of the Government of India in the late Railway Department (Railway Board) No. 1078-T, dated the ______ are hereby repealed except as respects things done or action taken or omitted to be done or taken before such repeal.',
         answer: '9th March 1929',
         category: '1929'

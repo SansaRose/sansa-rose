@@ -1635,6 +1635,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "IRICEN", fullForm: "Indian Railways Institute of Civil Engineering",
+        explanation: "The Indian Railways Institute of Civil Engineering (IRICEN), located in Pune, Maharashtra, is a premier Centralised Training Institute (CTI) dedicated to the professional development of the Indian Railway Service of Engineers (IRSE) cadre.",
+        reference: "--"
+      },
       { acronym: "IRIEEN", fullForm: "Indian Railways Institute of Electrical Engineering",
         explanation: "Will be added later",
         reference: "--"
@@ -1774,8 +1778,8 @@ type AbbreviationItem = {
         explanation: "A jointly issued order defining coordinated working procedures between two or more departments",
         reference: "--"
       },
-      { acronym: "JRRPF", fullForm: "Jagjivan Ram Railway Protection Force Academy",
-        explanation: "Will be added later",
+      { acronym: "JRRPFA", fullForm: "Jagjivan Ram Railway Protection Force Academy",
+        explanation: "The Jagjivan Ram Railway Protection Force Academy (JRRPFA), located in Lucknow, is the premier Centralised Training Institute (CTI) for the Indian Railway Protection Force Service (IRPFS). Recently recognized as an \"Ati Utkrisht\" (Excellent) accredited institution, it ranks among India's top six apex training facilities.",
         reference: "--"
       },
       { acronym: "JTBS", fullForm: "Jansadharan Ticket Booking Sewak",
@@ -2178,12 +2182,17 @@ type AbbreviationItem = {
         explanation: "Present value of future cash inflows minus the initial investment.",
         reference: "--"
       },
+      
       { acronym: "NRP", fullForm: "National Rail Plan",
         explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "NRT", fullForm: "Normal Running Time",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "NRTI", fullForm: "National Rail and Transportation Institute",
+        explanation: "The National Rail and Transportation Institute (NRTI), established in 2018 in Vadodara, Gujarat, was India's first university dedicated to transportation and logistics. As of December 2022, the institute was upgraded and renamed Gati Shakti Vishwavidyalaya (GSV), transitioning from a 'deemed to be' university to a full-fledged Central University.",
         reference: "--"
       },
       { acronym: "NRUCC", fullForm: "National Railway Users Consultative Committee",
@@ -3494,7 +3503,7 @@ type AbbreviationItem = {
     ],
     U: [
       { acronym: "UDAY", fullForm: "Utkrist Double Decker Air Condition Yatri Express",
-        explanation: "Will be added later",
+        explanation: "Uday Express (Utkrisht Double-Decker Air-conditioned Yatri Express) is a double-decker train designed to carry more passengers and is primarily used for day travel between major cities.",
         reference: "--"
       },
       { acronym: "UDIP", fullForm: "Unified Digital Interface for Promotion",

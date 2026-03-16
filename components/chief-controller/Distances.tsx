@@ -90,6 +90,8 @@ const Distances = () => {
     { question: 'When material train, TTM and Tower wagon are permitted in the same block section to work, the distance to be kept between them shall be_____', answer: '250M', distance: '250M' },
     
     { question: 'During TIC on double line, when a train is stopped in the block section on account of accident, Guard shall protect the train by placing detonators at', answer: '250, 500, 510M', distance: '250M' },
+
+    { question: 'When a train is stopped between stations and if the detention exceeds or is likely to exceed five minutes, it shall be protected in accordance with the provisions of Rule 6.03, except that the Guard going back to protect the train shall place one detonator, at 250 metres from the train on the way out, and two detonators, 10 metres apart, at 500 metres from the train, irrespective of gauge. (The Following Trains System)', answer: '250, 500, 510M', distance: '250M' },
     
     { question: 'Warning boards shall be fixed on OHE masts in rear of neutral sections at a distance of', answer: '250, 500M', distance: '250M' },
     
@@ -113,6 +115,10 @@ const Distances = () => {
 
     { question: 'What is the Adequate distance beyond the First Stop Signal for granting line clear in case of two aspect lower quadrant signals?', answer: '400M', distance: '400M' },
 
+    { question: '(On a single line section or a section of double or multiple lines when temporarily worked as a single line section). When a train is stopped between stations on account of accident, failure, obstruction or other exceptional cause and the Loco Pilot finds that his train cannot proceed, Guard should place detonators as follows: On the Metre gauge and Narrow Gauge, the first detonator shall be placed at 400 metres and the three detonators 10 metres apart not less than 800 metres or at such distance as has been fixed by special instructions, from the place where the train has stopped.', answer: '400M, 800M, 810M 820M', distance: '400M' },
+
+    { question: '(On a double line section where trains on the two lines run in the opposite direction). As soon as the Loco Pilot comes to know that his train has met with an accident he shall at once switch on the flasher light and switch off the head light and thereafter either go himself and send his Assistant Loco Pilot or some other competent person to protect the adjacent line in front in the manner, In rear Guard should place detonators as follows and in front in adjacent line The Loco pilot should place detonators as follows: On the Metre gauge and Narrow Gauge, the first detonator shall be placed at 400 metres and the three detonators 10 metres apart not less than 800 metres or at such distance as has been fixed by special instructions, from the place where the train has stopped.', answer: '400M, 800M, 810M 820M', distance: '400M' },
+
     { question: 'Whenever dead loco is attached to a train, as a final check, the coupled locos should be run for about _________and the driver shall check for any abnormal rise in the temperature of the wheels of the dead locomotive and shall also check it at subsequent stops during the journey.', answer: '500M', distance: '500M' },
 
     { question: 'The Outer signal is located on a Single line section at a distance of Not less than 580M from Outermost points.', answer: '580M', distance: '580M' },
@@ -123,6 +129,10 @@ const Distances = () => {
     { question: 'When a train is stopped in an automatic block signalling section on D/L (BG) and train cannot proceed further, the LP/ALP shall protect adjacent line in front duly placing detonators at', answer: '600, 1200, 1210 &1220 M', distance: '600M' },
 
     { question: 'When the train is required to Stop and the restriction is likely to last only for a day or less.— A banner flag shall be exhibited at a distance of _____ on the Broad Gauge and three detonators at a distance of ______. In addition, Stop hand signal shall be shown at a distance of ______ from the place of obstruction and _______ from last detonator', answer: '600 M, 1200 M, 30 M, 45M', distance: '600M' },
+
+    { question: '(On a single line section or a section of double or multiple lines when temporarily worked as a single line section). When a train is stopped between stations on account of accident, failure, obstruction or other exceptional cause and the Loco Pilot finds that his train cannot proceed, Guard should place detonators as follows: One detonator at 600 metres from his train, to be placed on the way out and three detonators, 10 metres apart, not less than 1200 metres from his train or at such distance as has been fixed by special instructions.', answer: '600, 1200, 1210, 1220M', distance: '600M' },
+
+    { question: '(On a double line section where trains on the two lines run in the opposite direction). As soon as the Loco Pilot comes to know that his train has met with an accident he shall at once switch on the flasher light and switch off the head light and thereafter either go himself and send his Assistant Loco Pilot or some other competent person to protect the adjacent line in front in the manner, In rear Guard should place detonators as follows and in front in adjacent line The Loco pilot should place detonators as follows: One detonator at 600 metres from his train, to be placed on the way out and three detonators, 10 metres apart, not less than 1200 metres from his train or at such distance as has been fixed by special instructions.', answer: '600, 1200, 1210, 1220M', distance: '600M' },
 
     { question: 'To protect the train from rear, the Guard shall place first detonator at', answer: '600M', distance: '600M' },
     

@@ -40,6 +40,7 @@ const SpeedRestrictions = () => {
     { question: 'The Station Master who received the message about the rail fracture through LP, he shall arrange to issue caution order of', answer: '15 kmph', speed: '15 kmph' },
 
     { question: 'When a train is dispatched on T/J602, when view ahead is clear, the speed shall not exceed', answer: '15 kmph', speed: '15 kmph' },
+
     { question: 'When Loco Pilot passes an automatic signal at ON without any authority after waiting 1/2 minutes during day/night with great caution so as to stop short of any obstruction', answer: '15 kmph', speed: '15 kmph' },
 
     { question: 'In cases where the leading cab of an EMU/MEMU has become defective, brake equipment in the leading cab is inoperative; the maximum speed shall be', answer: '15 kmph', speed: '15 kmph' },
@@ -47,6 +48,8 @@ const SpeedRestrictions = () => {
     { question: 'The Loco Pilot on observing PHS shall be pass the defective signal at "ON" position at a speed not exceeding 15 kmph..', answer: '15 kmph', speed: '15 kmph' },
 
     { question: 'Light engine/vehicle which is going for opening of communication shall proceed with a restricted speed of _______ kmph.', answer: '15 kmph', speed: '15 kmph' },
+
+    { question: '(The engine of the first train waiting to go forward will be detached and sent light accompanied by the pilot Guard to the next station for establishing The Pilot Guard System working)The Loco Pilot shall proceed very cautiously at a speed not exceeding 15 kilometres an hour and be prepared to stop within a short distance.', answer: '15 kmph', speed: '15 kmph' },
 
     { question: 'What is the default supervised speed in Shunt (SH) mode?', answer: '15 kmph', speed: '15 kmph' },
     
@@ -81,15 +84,13 @@ const SpeedRestrictions = () => {
 
     { question: 'What is the maximum permissible speed for a Class "C" ODC on Broad Gauge (BG) section?', answer: '25 kmph', speed: '25 kmph' },
 
-    { question: 'In train following system all the trains following the first train shall be timed to run at the same speed and such speed shall not exceed ______ kmph.', answer: '25 kmph', speed: '25 kmph' },
+    { question: 'In The Following Trains System, all the trains following the first train shall be timed to run at the same speed and such speed shall not exceed ______ kmph.', answer: '25 kmph', speed: '25 kmph' },
 
     
     { question: 'During T I C on double line, the Loco Pilot to proceed with a restricted speed of', answer: '25/10 kmph', speed: '25/10 kmph' },
     { question: 'If enquiry is made for more than one train and reply is also received, after a clear interval of 30 minutes the second train can be allowed to go with a restricted speed of', answer: '25/10 KMPH', speed: '25/10 kmph' },
-    
-    { question: 'In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ___________except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
 
-    { question: 'In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ______ kmph except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
+    { question: 'In The Following Trains System, The Pilot Guard System, The Train Staff & Ticket Systems, speed of all the trains following the first train shall not exceed ______ kmph except under special instructions', answer: '25/10 kmph', speed: '25/10 kmph' },
     
     { question: 'During dense fog maximum speed of a train on Automatic block system when signal showing two yellow lights shall be restricted to', answer: '30 kmph', speed: '30 kmph' },
 
