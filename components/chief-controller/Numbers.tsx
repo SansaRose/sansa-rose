@@ -186,6 +186,11 @@ const Numbers = () => {
       category: '3'
     },
     {
+      question: 'How many Annexures are there in Railway Pass Rules 1986?',
+      answer: '3 annexures',
+      category: '3'
+    },
+    {
       question: 'Continuous night duty for running staff should be limited to ______ nights with fourth night towards headquarters.',
       answer: '4',
       category: '4'
@@ -213,6 +218,11 @@ const Numbers = () => {
     {
       question: 'How many times in a year are the meetings of the Regional Official Language Implementation Committee held?',
       answer: '4 times',
+      category: '4'
+    },
+    {
+      question: 'How many annexures should be attached with charge sheet for imposing major penalty?',
+      answer: '4 annexures',
       category: '4'
     },
     {
@@ -276,6 +286,11 @@ const Numbers = () => {
         category: '7'
       },
       {
+        question: 'How many Schedules are there in Railway Pass Rules 1986?',
+        answer: '7 Schedules',
+        category: '7'
+      },
+      {
         question: 'How many articles are there in part XVII of the Constitution of India?',
         answer: '9 articles (Article 343 to Article 351)',
         category: '9'
@@ -320,6 +335,11 @@ const Numbers = () => {
         answer: 'Maximum 15 artists',
         category: '15'
       },
+      {
+        question: 'Total number of Appendices in General & Subsidiary are ______',
+        answer: '17',
+        category: '17'
+      },
     {
         question: 'Total Number of zones on Indian Railways',
         answer: '18',
@@ -331,9 +351,9 @@ const Numbers = () => {
         category: '18'
       },
       {
-        question: 'Total number of Appendices in General & Subsidiary are ______',
-        answer: '17',
-        category: '17'
+        question: 'Total number of Railway Pass Rules are ______',
+        answer: '18',
+        category: '18'
       },
       {
         question: 'The number of detonators that are given to each fog signalman is ______',

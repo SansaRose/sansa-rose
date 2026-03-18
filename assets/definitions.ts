@@ -596,7 +596,7 @@ export const definitions = [
     {
       number: 99,
       term: "Railway Servant",
-      definition: "Railway Servant means a person employed in the personal service of the Government of India in the Railways;",
+      definition: "Railway Servant means a person who is a member of a service or who holds a post under the administrative control of the Railway Board and includes a post in the Railway Board. Persons lent from a service or post which is not under the administrative control of the Railway Board to a service or post which is under such administrative control do not come within the scope of this definition.",
       reference: "The Railway Services (Conduct) Rules 1966"
     },
     {
@@ -696,6 +696,12 @@ any other accident, which in the opinion of the Chief Commissioner of Railway Sa
       term: "Special instructions",
       definition: "Special instructions means instructions issued from time to time by the authorised officer in respect to particular cases or special circumstances;",
       reference: "GR 1.02(50)"
+    },
+    {
+      number: 111,
+      term: "Split Pass",
+      definition: "When a Railway employee is unable to accompany his family, he can avail a pass for himself and a pass for his family.",
+      reference: "--"
     },
     {
       number: 112,

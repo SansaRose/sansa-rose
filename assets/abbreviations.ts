@@ -1168,6 +1168,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "EOL", fullForm: "Extra Ordinary Leave",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "EOQ", fullForm: "Economic Order Quantity",
         explanation: "Will be added later",
         reference: "--"
@@ -1770,6 +1774,11 @@ type AbbreviationItem = {
       },
     ],
     J: [
+      
+      { acronym: "JAG", fullForm: "Junior Administrative Grade",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "JCM", fullForm: "Joint Consultative Machinery",
         explanation: "Will be added later",
         reference: "--"
@@ -1863,8 +1872,8 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "LPR", fullForm: "Leave Preparatory to Retirement",
-        explanation: "Will be added later",
-        reference: "--"
+        explanation: "A railway servant not desirous of encashment of leave on average pay at his credit at the time of retirement on superannuation may be permitted by a competent authority to take leave preparatory to retirement to the extent of leave on average pay due not exceeding 300 days together with half pay leave due subject to the conditions that such leave extends upto and includes the day preceding the date of retirement.",
+        reference: "Railway Service (Liberalised Leave) Rules, 1949 (Rule 540)"
       },
       { acronym: "LRZAC", fullForm: "EOG AC Track Recording Car LHB Variant Coach",
         explanation: "Will be added later",
@@ -2461,6 +2470,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "PIA", fullForm: "Pass Issuing Authority",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PIO", fullForm: "Public Information Officer",
         explanation: "Will be added later",
         reference: "--"
@@ -2909,6 +2922,11 @@ type AbbreviationItem = {
       },
     ],
     S: [
+      
+      { acronym: "SAG", fullForm: "Senior Administrative Grade",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       {
         acronym: "SAMPRATI",
         fullForm:
@@ -3004,6 +3022,10 @@ type AbbreviationItem = {
       },
       { acronym: "SGSLRD", fullForm: "Self Generated",
         explanation: "Second class, Luggage & Brake van with disabled compartment",
+        reference: "--"
+      },
+      { acronym: "SHINE", fullForm: "Sexual Harassment Incident Notification for Empowerment of Female Employees",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "SI", fullForm: "Special Instructions",

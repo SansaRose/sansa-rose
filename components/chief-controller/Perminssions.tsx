@@ -30,6 +30,18 @@ const Perminssions = () => {
       authority: 'Railway Board',
       category: 'Railway Board'
     },
+
+    {
+      description: 'Who is the competent authority to sanction study leave to the officers abroad/foreign countries?',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+
+    {
+      description: 'Who can sanction Joining time beyond 30 days?',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
     {
       description: 'In addition to normal LR trips, additional LR trips for LP/Guard may be given with the approval of ______',
       authority: 'Controlling branch officers',
@@ -472,6 +484,16 @@ const Perminssions = () => {
     },
     {
       description: 'Re-appropriation of funds from one itemised to another itemised work of a plan head is within the powers of ______',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'In the case of all Group \'C\' including erstwhile Group \'D\' railway employees, the power to grant the leave beyond maximum period of 5 years is delegated to concerned ______',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Who is the competent authority to sanction study leave to the officers in India?',
       authority: 'GM',
       category: 'GM'
     },

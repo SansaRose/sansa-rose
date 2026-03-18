@@ -1,24 +1,7 @@
 export const establishmentRulesQuizzes = {
     quizzes: {
         "discipline-appeal-rules": [
-          {
-            question: "Running staff are classified as .......",
-            options: ["Continuous", "EI roster", "Excluded", "Intensive"],
-            correct: 0,
-            explanation: "Continuous is the correct answer.",
-          },
-          {
-            question:
-              "Eligibility criteria of Grade pay for availing First class pass as per 7th Pay Commission.",
-            options: [
-              "Level V & above",
-              "Level VI & above",
-              "Level VII & above",
-              "None of the above",
-            ],
-            correct: 1,
-            explanation: "Level VI & above is the correct answer.",
-          },
+          
           {
             question:
               "Standard form to be used for issuing Major Penalty is .......",
@@ -33,89 +16,15 @@ export const establishmentRulesQuizzes = {
             correct: 2,
             explanation: "SF11 is the correct answer.",
           },
-          {
-            question:
-              "How many days of LAP in a calendar year, a permanent/ Temporary Railway servant shall be entitled to get?",
-            options: ["15", "20", "25", "30"],
-            correct: 3,
-            explanation: "30 is the correct answer.",
-          },
-          {
-            question:
-              "How many days of LHAP in a calendar year, can be credited to an employee?",
-            options: ["15", "20", "25", "30"],
-            correct: 1,
-            explanation: "20 is the correct answer.",
-          },
-          {
-            question:
-              "Maximum days of leave on average pay that can be accumulated is .......",
-            options: ["120", "180", "240", "300"],
-            correct: 3,
-            explanation: "300 is the correct answer.",
-          },
-          {
-            question:
-              "How many days of LHAP can be accumulated to an employee in his service life?",
-            options: ["300", "450", "600", "Unlimited"],
-            correct: 3,
-            explanation: "Unlimited is the correct answer.",
-          },
-          {
-            question: "Maximum encashment of leave on average pay is .......",
-            options: ["30", "60", "90", "180"],
-            correct: 1,
-            explanation: "60 is the correct answer.",
-          },
-          {
-            question:
-              "Maximum period of leave on Average pay at a time that a railway servant may be granted.",
-            options: ["120", "150", "180", "300"],
-            correct: 2,
-            explanation: "180 is the correct answer.",
-          },
-          {
-            question:
-              "Appeal against classification of employment can be made to .......",
-            options: [
-              "Branch Officer",
-              "DRM",
-              "General Manager",
-              "Regional Labour Commissioner",
-            ],
-            correct: 3,
-            explanation: "Regional Labour Commissioner is the correct answer.",
-          },
-          {
-            question:
-              'The document which shows employee"s daily hours of duty, weekly rest and break between spells of duty besides other necessary particulars is called _______',
-            options: [
-              "Attendance register",
-              "Duty Chart",
-              "Overtime Allowance Register",
-              "Roster",
-            ],
-            correct: 3,
-            explanation: "Roster is the correct answer.",
-          },
-          {
-            question:
-              "At what rate OTA will be given if any employee works beyond Statutory Limits?",
-            options: [
-              "At 2 times the pay",
-              "At 2½ times the pay",
-              "At 3 times the pay",
-              "At 4 times the pay",
-            ],
-            correct: 0,
-            explanation: "At 2 times the pay is the correct answer.",
-          },
+         
+         
+          
           {
             question:
               "The Railway servants (Discipline & Appeal) Rules came into force on ......",
             options: ["1966", "1968", "1972", "1978"],
             correct: 1,
-            explanation: "1968 is the correct answer.",
+            explanation: "01.10.1968 is the correct answer.",
           },
           {
             question:
@@ -176,19 +85,8 @@ export const establishmentRulesQuizzes = {
             correct: 2,
             explanation: "Review is the correct answer.",
           },
-          {
-            question: "...... form is used for nomination of Inquiry Officer",
-            options: ["SF1", "SF2", "SF5", "SF7"],
-            correct: 3,
-            explanation: "SF7 is the correct answer.",
-          },
-          {
-            question:
-              "Appeal shall be entertained unless preferred within .... days",
-            options: ["30", "45", "60", "90"],
-            correct: 1,
-            explanation: "45 is the correct answer.",
-          },
+          
+          
           {
             question:
               "______ form is used to nominate Investigating Officer for an inquiry?",
@@ -379,17 +277,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "Rule 5 is the correct answer.",
           },
-          {
-            question: 'Under which rule of DAR a employee can be suspended?',
-            options: [
-              "Rule 5",
-              "Rule 6",
-              "Rule 7",
-              "Rule 8",
-            ],
-            correct: 0,
-            explanation: "Rule 5 is the correct answer.",
-          },
+          
           {
             question: 'What enclosure are mandatory with SF-11 form?',
             options: [
@@ -416,7 +304,6 @@ export const establishmentRulesQuizzes = {
             question: 'An Appeal to punishment imposed by DRM can be made to GM?',
             options: [
               "Yes",
-              "Rule 6",
               "No",
               "Not applicable",
               "None of the above",
@@ -435,17 +322,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "6 months and 1 year respectively from the date of issue of NIP is the correct answer.",
           },
-          {
-            question: 'What is the time limit for Appeal under DAR?',
-            options: [
-              "30 days",
-              "45 days",
-              "60 days",
-              "90 days",
-            ],
-            correct: 1,
-            explanation: "45 days is the correct answer.",
-          },
+          
           {
             question: 'Which form is issued to nominate Presenting Officer?',
             options: [
@@ -461,7 +338,6 @@ export const establishmentRulesQuizzes = {
             question: 'Under DAR Enquiry Officer has the right to call witness whether it is admissible in Witness Act?',
             options: [
               "Yes",
-              "Rule 6",
               "No",
               "Not applicable",
               "None of the above",
@@ -546,17 +422,7 @@ export const establishmentRulesQuizzes = {
             correct: 2,
             explanation: "Rule 9 is the correct answer.",
           },
-          {
-            question: 'Under which rule of DAR is provision for penalties given?',
-            options: [
-              "Rule 5",
-              "Rule 6",
-              "Rule 11",
-              "Rule 12",
-            ],
-            correct: 1,
-            explanation: "Rule 6 is the correct answer.",
-          },
+          
           {
             question: 'Under which rule of DAR is provision for Revision given?',
             options: [
@@ -650,13 +516,7 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "90 days is the correct answer.",
           },
-          {
-            question:
-              "By what percent Subsistence allowance that can be increased if suspension period is increased due to administrative reasons?",
-            options: ["10%", "20%", "25%", "30%"],
-            correct: 2,
-            explanation: "25% is the correct answer.",
-          },
+          
           {
             question:
               "Who is the competent authority for consideration of representation against adverse remarks recorded in APAR of a Non-gazetted Railway servant if ADRM in division is the accepting authority?",
@@ -1009,7 +869,7 @@ export const establishmentRulesQuizzes = {
             question:
               "During six months, if the employee remains absent from duty for more than 160 days, how many days of his/her average salary leave will be credited to his/her leave account?",
             options: ["10", "15", "20", "Nil"],
-            correct: 0,
+            correct: 1,
             explanation: "Maximum 15 days (1 day for each 10 days of absence) is the correct answer.",
           },
           {
@@ -1037,7 +897,7 @@ export const establishmentRulesQuizzes = {
             question:
               "The maximum number of days of Leave on Half Average Pay (LHAP) that can be credited the account of a Railway servant upto the date of retirement is _______ days",
             options: ["100 days", "150 days", "200 days", "No limit"],
-            correct: 1,
+            correct: 3,
             explanation: "No limit is the correct answer.",
           },
           {
@@ -1175,7 +1035,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Whether the transfer to a new post at the same station or in which the house changes are not located fro one station to the other station, is employee given the time for joining time or not?",
+              "Whether the transfer to a new post at the same station or in which the house changes are not located from one station to the other station, is employee given the time for joining time or not?",
             options: ["Yes", "No", "Not applicable", "None of the above"],
             correct: 0,
             explanation: "Yes one day is granted as joining time is the correct answer.",
@@ -1205,7 +1065,7 @@ export const establishmentRulesQuizzes = {
             question:
               "In a year how many days of Leave on Half Average Pay (LHAP) can be credited the railway school teachers every six months?",
             options: ["10 days", "20 days", "25 days", "30 days"],
-            correct: 1,
+            correct: 0,
             explanation: "10 days is the correct answer.",
           },
           {
@@ -1249,13 +1109,6 @@ export const establishmentRulesQuizzes = {
             options: ["2 children and till 18 years", "3 children and till 18 years", "2 children and till 21 years", "3 children and till 21 years"],
             correct: 0,
             explanation: "2 children and till 18 years is the correct answer.",
-          },
-          {
-            question:
-              "Child Care Leave (CCL) is granted for how many children and till what age?",
-            options: ["2 children and till 18 years", "3 children and till 18 years", "2 children and till 21 years", "3 children and till 21 years"],
-            correct: 3,
-            explanation: "3 children and till 21 years is the correct answer.",
           },
           {
             question:

@@ -51,6 +51,16 @@ const Percentages = () => {
       category: '10%' 
     },
     {
+      question: 'If the longer route requested by the railway servant does not exceed _______ of the direct route distance, such passes may be issued.',
+      answer: '15%',
+      category: '15%'
+    },
+    {
+      question: 'Even if there is a small portion of double journey, it is permitted for the benefit of terminal facilities as long as the total distance does not exceed _______ of the shortest route.',
+      answer: '15%',
+      category: '15%'
+    },
+    {
       question: 'According to the annual programme issued by the Department of Official Language, Ministry of Home Affairs, it is mandatory for officers of the Official Language Department to inspect the minimum percentage of their subordinate offices.',  
       answer: '20%',
       category: '20%'
@@ -59,6 +69,11 @@ const Percentages = () => {
       question: 'What percentage of Non-Practicing Allowance (NPA) is added for Pension purposes?',
       answer: '20%',
       category: '20%'
+    },
+    {
+      question: 'What is the percentage of Subsistence allowance that can be increased if suspension is increased due to administrative reasons?',
+      answer: '25%',
+      category: '25%'
     },
     { 
       question: '_______ Leave Reserve is usually added to the bare requirement to ensure adequate coverage during leave periods.', 
@@ -88,6 +103,11 @@ const Percentages = () => {
     {
       question: 'According to the annual programme issued by the Ministry of Home Affairs, Department of Official Language, what percentage of the grant of libraries is required to be spent on Hindi books, Hindi e-books',  
       answer: '50%',
+      category: '50%'
+    },
+    {
+      question: 'What amount is given as Subsistence Allowance to an employee during the suspension?',
+      answer: '50% of last pay',
       category: '50%'
     },
     {

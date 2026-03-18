@@ -171,6 +171,8 @@ const Timings = () => {
 
     { question: 'Temporary Instructions shall be issued for Disconnections / maintenance likely to last for more than', answer: 'one day', timing: '1 day' },
 
+    { question: 'How many days leave can be sanctioned for an employee who donated the blood?', answer: '1 day', timing: '1 day' },
+
     { question: 'Minimum number of days from the date of accident ‘D’, DRM/GM to order enquiry to be done within is _____', answer: 'D + 1 day', timing: '1 day' },
 
     { question: 'What is the duration for Hindi conversation course?', answer: '30 hours', timing: '30 hours' },
@@ -192,6 +194,8 @@ const Timings = () => {
     { question: 'Every portion of the permanent way shall be inspected daily on foot by some railway servant by approved special instructions be increased to ____in the case of lines with light and infrequent traffic.', answer: 'once in two days', timing: '2 days' },
 
     { question: 'Irrespective of whether a joint or Inter departmental Inquiry is ordered by the General Manager, Sr.DSO of the division shall be advised within _______by the other divisional officers whether their department is accepting responsibility or not.', answer: '2 days', timing: '2 days' },
+
+    { question: 'How many Restricted Holiday (RH) the workshop staff can avail in a year?', answer: '2 days', timing: '2 days' },
 
     { question: 'Weekly Hours of duty including P&C of Continuous category of employees is------- Hours', answer: '54 hours', timing: '54 hours' },
     
@@ -215,15 +219,23 @@ const Timings = () => {
 
     { question: 'Subject to exigencies of services, a maximum limit of ______ duty hours per fortnight should be laid down for all Running staff.', answer: '125 hours', timing: '125 hours' },
 
+    { question: 'How many days Special Casual Leave (SCL) is granted to Male employees for sterilization operation?', answer: '6 days', timing: '6 days' },
+
     { question: 'The BPC of DEMU 700 HP trains is valid for ______', answer: '7 days', timing: '7 days' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to be done within is _____', answer: 'D + 7 days', timing: '7 days' },
 
-    { question: 'Leave for Husband on Wife\'s sterilization is ______ days', answer: '7 days', timing: '7 days' },
+    { question: 'How many days of Special Casual Leave (SCL) can be given on the sterilization operation of the railway worker\'s wife?', answer: '7 days', timing: '7 days' },
 
     { question: 'Minimum notice period for quotation is ______ days', answer: '7 days', timing: '7 days' },
 
+    { question: 'How many days Special Casual Leave (SCL) is granted to Female employees when her husband undergoes sterilization operation?', answer: '7 days', timing: '7 days' },
+
+    { question: 'How many days Special Casual Leave (SCL) is granted to Male employees when his wife undergoes sterilization operation?', answer: '7 days', timing: '7 days' },
+
     { question: 'Station Master may permit Learning duties at Terminal stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains ______', answer: '8 days', timing: '8 days' },
+
+    { question: 'How many days Casual Leave (CL) can be granted to a clerical staff in a year?', answer: '8 days', timing: '8 days' },
 
     { question: 'The BPC of DEMU other than 700 HP trains is valid for ______', answer: '10 days', timing: '10 days' },
 
@@ -242,6 +254,8 @@ const Timings = () => {
     { question: 'No NI working should last for more than________ days.', answer: '14 days', timing: '14 days' },
 
     { question: 'How many Casual Leaves (CL) is allowed for a Disabled employee?', answer: '14 days', timing: '14 days' },
+
+    { question: 'How many days Special Casual Leave (SCL) is granted to Female employees for sterilization operation?', answer: '14 days', timing: '14 days' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
 
@@ -250,6 +264,8 @@ const Timings = () => {
     { question: 'Minimum number of days from the date of accident ‘D’, finalization of enquiry report by CSO/AGM to be done within is _____', answer: 'D + 15 days', timing: '15 days' },
 
     { question: 'Detailed working instructions clearly specifying the zone of responsibility of each and every staff and supervisor, along with temporary working instructions, must be issued at least ___________ in advance of NI working', answer: '15 days', timing: '15 days' },
+
+    { question: 'What is the maximum of Special Casual Leave (SCL) in a calendar year that can be granted to the delegates of members of Co-operative Societies to attend the meetings of the Society?', answer: '15 days', timing: '15 days' },
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in a fortnight is', answer: '20 days', timing: '20 days' },
 
@@ -268,9 +284,11 @@ const Timings = () => {
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
-    { question: 'Within how many days Compensatory Off (Rest) can be sanctioned?', answer: '30 days', timing: '30 days' },
+    { question: 'Within which period should be the compensatory leave (Compencentary Rest) be sanctioned?', answer: '30 days', timing: '30 days' },
 
     { question: 'Within how many days CL can be changed?', answer: '30 days', timing: '30 days' },
+
+    { question: 'Provided that no such request shall be considered unless received by such authority, or any other authority designated in this behalf, within a period of ______ days of the concerned Railway servant joining his duty on the expiry of the relevant spell of leave availed of by him.', answer: '30 days', timing: '30 days' },
 
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
 
@@ -285,6 +303,12 @@ const Timings = () => {
     { question: 'Maximum limit of Special Casual Leave (SCL) is ______ days in a year', answer: '30 days', timing: '30 days' },
 
     { question: 'Request for conversion of one kind of leave into another kind of leave shall be submitted within ______ days of joining duty.', answer: '30 days', timing: '30 days' },
+
+    { question: 'How many days leave is given to Special Category Apprenticeships(SCRA)', answer: '30 days', timing: '30 days' },
+
+    { question: 'The first appeal to the first appellate authority can be preferred by the applicant within ______ days from the expiry of the prescribed time limit or the receipt of the decision from the PIO', answer: '30 days', timing: '30 days' },
+
+
 
     { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days'},
 
@@ -305,6 +329,8 @@ const Timings = () => {
     { question: 'The time-limit for submitting of claims for Travelling Allowance is within ___ days succeeding the date of completion of journey', answer: '60 days', timing: '60 days' },
 
     { question: 'Advance can be taken how many days before issue?', answer: '60 days', timing: '60 days' },
+
+    { question: 'In the case of permanent running staff the leave salary on leave on average pay for the first ______ days shall be at the substantive pay or on average pay, whichever is greater, and thereafter at substantive pay.', answer: '60 days', timing: '60 days' },
 
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
@@ -330,6 +356,13 @@ const Timings = () => {
     { question: 'Minimum number of days from the date of accident ‘D’, DAR action to be completed within is _____', answer: 'D + 90 days', timing: '90 days' },
 
     { question: 'The review of an order of suspension shall be done by the authority which is competent to modify or revoke the suspension, on the recommendation of the review committee constituted for the purpose, and such competent authority shall pass orders either extending or revoking the suspension before expiry of ninety days from the date of order of suspension.', answer: '90 days', timing: '90 days' },
+
+    { question: 'Leave up to a period of ______ days may be granted to an aggrieved female Railway Servant on the recommendation of the Internal committee or the Local Committee, as the case may be, during the pendency of inquiry under Sexual Harassment of women at workplace (Prevention, Prohibition and Redressal) Act, 2013', answer: '90 days', timing: '90 days' },
+
+    
+    { question: 'Under Railway Servants (Discipline & Appeal) Rules, 1968, Suspension order must be reviewed by the competent authority every-', answer: '90 days', timing: '90 days' },
+
+    { question: 'What is the maximum period of leave up to which the employee can avail the leave on half average pay (LHAP)?', answer: '90 days', timing: '90 days' },
 
     { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
 
@@ -369,6 +402,8 @@ const Timings = () => {
     { question: 'Maximum period of Leave on Average Pay (LAP) at a time that a Railway servant may be granted is ______ days', answer: '180 days', timing: '180 days' },
     
     { question: 'Maximum days of Leave on Average Pay (LAP) that can be accumulated to an employee in his service life (upto retirement) is ______ days', answer: '300 days', timing: '300 days' },
+
+    { question: 'What is the miximum limit of unearned/leave not due in entire service life?', answer: '360 days', timing: '360 days' },
     
     { question: 'Fire-Extinguishers: Replacement shall be done once in', answer: '12 months', timing: '12 months' },
 
@@ -385,6 +420,8 @@ const Timings = () => {
     { question: 'Normal period for which Station Operating Registers - Caution order register and Caution Order books are required to be preserved', answer: '1 year', timing: '1 year' },
 
     { question: 'On passing Hindi Stenography examination, for how many months personal pay equal in amount to one increment is given?', answer: '24 months', timing: '24 months' },
+
+    { question: 'Maximum Special Disability Leave (SDL) eligible under Fundamental Rule 83', answer: '24 months', timing: '24 months' },
 
     { question: 'Total how many days are granted as Child Care Leave in entire service?', answer: '730 days', timing: '730 days' },
 
@@ -405,7 +442,12 @@ const Timings = () => {
     { question: 'Normal period for which Station Operating Registers - Control Order Book/Conference Book are required to be preserved is ______', answer: '3 years', timing: '3 years' },
 
     { question: 'Record pertaining to Court Cases, departmental enquiries should not be destroyed till _______ years from the date the case is decided.', answer: '3 years', timing: '3 years' },
-    
+
+    { question: 'What is the tenure of the Internal Complaints Committee under Sexual Harassment of Women at the Workplace?', answer: '3 years', timing: '3 years' },
+
+
+    { question: 'How many months of study leave can be accepted for doing PHD in medical category?', answer: '36 months', timing: '36 months' },
+
     { question: 'The certificate of competency for Electronic Signal Maintainer (ESM) is valid for', answer: '4 years', timing: '4 years' },
 
     { question: 'All India Leave Travel Concession (AILTC) is applicable for how many years block?', answer: '4 years', timing: '4 years' },
@@ -415,7 +457,9 @@ const Timings = () => {
 
     { question: 'Station Working Rules (SWR) should be issued afresh once in', answer: '5 years', timing: '5 years' },
 
-    { question: 'Minimum service required for a Railway servant to be eligible for Study Leave is ______ years', answer: '5 years', timing: '5 years' },
+    { question: 'Minimum requisite service to be completed before grant of any study leave for scientific/technical purpose?', answer: '5 years', timing: '5 years' },
+
+    { question: 'No Railway servant shall be granted leave of any kind for a continuous period exceeding ______ years.', answer: '5 years', timing: '5 years' },
 
     { question: 'In no case, whatever, shall a male passenger except a boy under _________ of age be allowed to travel in a compartment reserved for Ladies in any train.', answer: '12 years', timing: '12 years' },
 

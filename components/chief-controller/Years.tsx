@@ -21,6 +21,11 @@ const Years = () => {
         category: '1929'
       },
       {
+        question: 'The Railway Services (Liberalised Leave) Rules, 1949 came into force on _______',
+        answer: '1st February 1949',
+        category: '1949'
+      },
+      {
         question: 'When did the Constituent Assembly accepted Hindi as the official language of the Union?',
         answer: '14.09.1949',
         category: '1949'
@@ -121,12 +126,32 @@ const Years = () => {
       category: '1987'
     },
     {
+      question: 'Widows of employees who were in service prior to _______ are eligible for the Widow Pass scheme on a one-time payment of Rs. 250.',
+      answer: '12.03.1987',
+      category: '1987'
+    },
+    {
+      question: 'The Widow Pass scheme does not apply to widows of employees who retired or died before _______.',
+      answer: '12.03.1987',
+      category: '1987'
+    },
+    {
       question: 'CRS shall hold statutory enquiry into the accidents falling under Section 113 of Railways Act _________.',
       answer: '1989',
       category: '1989'
     },
     {
-      question: 'Maternity leave effective from which year?',
+      question: 'Maximum limit of Leave on Average Pay (LAP) is 300 is effective from _______',
+      answer: '01.07.1997',
+      category: '1997'
+    },
+    {
+      question: 'Paternity Leave is introduced with effect from _______',
+      answer: '07.10.1997',
+      category: '1997'
+    },
+    {
+      question: 'When maternity leave came into existence up to 180 days?',
       answer: '01.09.2008',
       category: '2008'
     },
