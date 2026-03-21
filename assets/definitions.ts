@@ -150,6 +150,12 @@ export const definitions = [
       reference: "Indian Railways Act 1989 Section 2(10)"
     },
     {
+      number: 25,
+      term: "Crack Train",
+      definition: "'A crack train/Link Train is a train when the same crew (and engine if possible) instead of 'Signing off' at the intermediate crew changing point works a train to farther junction.",
+      reference: ""
+    },
+    {
       number: 26,
       term: "Demurrage",
       definition: "'Demurrage' means the charge levied for the detention of any rolling stock after the expiry of free time, if any, allowed for such detention.",

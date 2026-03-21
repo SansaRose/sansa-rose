@@ -445,6 +445,8 @@ const Timings = () => {
 
     { question: 'What is the tenure of the Internal Complaints Committee under Sexual Harassment of Women at the Workplace?', answer: '3 years', timing: '3 years' },
 
+    { question: 'Each concessionaire is required to set up two rail linked inland container terminals within ______ years of obtaining the license to operate or have access to inland container terminals.', answer: '3 years', timing: '3 years'},
+
 
     { question: 'How many months of study leave can be accepted for doing PHD in medical category?', answer: '36 months', timing: '36 months' },
 

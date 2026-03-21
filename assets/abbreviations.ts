@@ -3120,6 +3120,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "SOP", fullForm: "Standard Operating Procedure",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "SORC", fullForm: "Summary of Other Railway Circulars",
         explanation: "Will be added later",
         reference: "--"
