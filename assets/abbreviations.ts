@@ -188,6 +188,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "AT", fullForm: "Auxiliary Transformers",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "ATLC", fullForm: "Assistant Traction Loco Controller",
         explanation: "Will be added later",
         reference: "--"
@@ -642,6 +646,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CPRC", fullForm: "Chief Power Controller",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CPRO", fullForm: "Chief Public Relations Officer",
         explanation: "Will be added later",
         reference: "--"
@@ -907,6 +915,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "DGM", fullForm: "Deputy General Manager",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "DIU", fullForm: "Digital Indoor Unit",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1286,6 +1298,10 @@ type AbbreviationItem = {
         explanation: "A computerized system used for monitoring and managing freight train movements and logistics",
         reference: "--"
       },
+      { acronym: "FP", fullForm: "Feeding Post",
+        explanation: "It is a supply control post, where the incoming feeder link from grid substation are terminated.",
+        reference: "--"
+      },
       { acronym: "FRED", fullForm: "Flashing Rear End Device",
         explanation: "Will be added later",
         reference: "--"
@@ -1468,6 +1484,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "HOR", fullForm: "Hours on Road",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       {
         acronym: "HRA",
         fullForm: "House Rent Allowance",
@@ -1534,6 +1554,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "IDS", fullForm: "Inner Distant Signal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "IFM", fullForm: "Intermediate Frequency Module",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1756,6 +1780,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "ISDN", fullForm: "Integrated Service Digital Network",
+        explanation: "A telecommunication network that provides digital transmission of voice, data, and video services over a single, high-speed channel. It combines the features of both ISDN and PSTN, offering faster transmission speeds and improved reliability compared to traditional analog telephone lines.",
+        reference: "--"
+      },
       { acronym: "ISMD", fullForm: "Infringing Standard Moving Dimensions",
         explanation: "Will be added later",
         reference: "--"
@@ -1816,6 +1844,10 @@ type AbbreviationItem = {
     L: [
       { acronym: "LAP", fullForm: "Leave on Average Pay",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "LAN", fullForm: "Local Area Network",
+        explanation: "A network that connects devices within a limited geographical area, such as a building or campus, using cables or wireless technology.",
         reference: "--"
       },
       { acronym: "LAR", fullForm: "Latest Accepted Rates",
@@ -2066,6 +2098,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "MPC", fullForm: "Multiport Port Control",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "MPLADS", fullForm: "Member of Parliament Local Area Development Scheme",
         explanation: "Will be added later",
         reference: "--"
@@ -2222,6 +2258,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "OCC", fullForm: "Operational Control Center ",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "OCMS", fullForm: "Online Computerized Monitoring System",
         explanation: "Will be added later",
         reference: "--"
@@ -2244,6 +2284,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "ODR", fullForm: "Oldest Date of Registration",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "ODU", fullForm: "Out Door Unit",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2305,7 +2349,7 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
-      { acronym: "PAD", fullForm: "Pre Arrival Detention",
+      { acronym: "PAD", fullForm: "Post Arrival Detention",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2389,6 +2433,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "PCS", fullForm: "Prestressed Concrete Sleepers",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "PCSTE",
         fullForm: "Principal Chief Signal and Telecommunication Engineer",
         explanation: "Will be added later",
@@ -2411,6 +2459,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PED", fullForm: "Principal Executive Director",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PES", fullForm: "Power Earth Station",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2552,6 +2604,10 @@ type AbbreviationItem = {
       },
       { acronym: "PQRS", fullForm: "Plasser Quick Relaying System",
         explanation: "Mechanized railway track relaying system",
+        reference: "--"
+      },
+      { acronym: "PR", fullForm: "Periodical Rest",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "PRCP", fullForm: "Post Retirement Complimentary Passes",
@@ -3132,6 +3188,10 @@ type AbbreviationItem = {
         explanation: "Kavach",
         reference: "--"
       },
+      { acronym: "SP", fullForm: "Sectioning and Paralleling Post",
+        explanation: "These posts are situated approximately midway between feeding posts marking the demarcating point of two zones fed from different phases a 'paralleling interrupter' is provided at each 'SP' to parallel the OHE of the up and down tracks of a double track section, 'bridging interrupters' are also provided to permit one feeding post to feed beyond the sectioning post upto the next FP if its 25 kV supply is interrupted for some reasons. ",
+        reference: "--"
+      },
       { acronym: "SPAD", fullForm: "Signal Passing At Danger",
         explanation: "A serious operational violation where a train passes a stop signal at danger",
         reference: "--"
@@ -3202,6 +3262,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "SS", fullForm: "Sub Sectioning Post",
+        explanation: "These are provided only occasionally. They are similar to SSPs with provision for sectioning of the OHE but not paralleling.",
+        reference: "--"
+      },
       {
         acronym: "SSBPAC",
         fullForm: "Solid State Block Proving by Axle Counter",
@@ -3225,7 +3289,11 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "SSP", fullForm: "Sub Sectioning & Paralleling Post",
-        explanation: "Combined switching location in OHE network enabling sectional isolation and control",
+        explanation: "One or more SSPs are provided between each FP and adjacent SP depending upon the distance between them. In a double track section, normally three interrupters are provided at each SSP i.e. two connecting the adjacent sub-sectors of up and down tracks.",
+        reference: "--"
+      },
+      { acronym: "STA", fullForm: "Senior Technical Assistant",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "STBA", fullForm: "Station Ticket Booking Agent",
@@ -3374,6 +3442,10 @@ type AbbreviationItem = {
         "explanation": "A supervisory officer responsible for monitoring operating staff and train operations.",
         reference: "--"
       },
+      { acronym: "TI", fullForm: "Trip Inspection",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "TIC", fullForm: "Total Interruption of Communication",
         explanation: "Will be added later",
         reference: "--"
@@ -3468,6 +3540,10 @@ type AbbreviationItem = {
         explanation: "Electric power supply station feeding overhead traction system to power trains.",
         reference: "--"
       },
+      { acronym: "TSS", fullForm: "Terminal Sub-Systems",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "TSTS", fullForm: "Train Staff Ticket System",
         explanation: "Will be added later",
         reference: "--"
@@ -3511,6 +3587,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "TWI", fullForm: "Temporary Working Instructions",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "TWO", fullForm: "Temporary Working Order",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3572,6 +3652,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "UPS", fullForm: "Uninterruptible Power Supply",
+        explanation: "It is an electrical apparatus that provides emergency power to a load when the input power source or mains power fails. Unlike an auxiliary or emergency power system or standby generator, a UPS provides near-instantaneous protection from input power interruptions by using energy stored in batteries, supercapacitors, or flywheels.",
+        reference: "--"
+      },
       { acronym: "USFD", fullForm: "Ultra Sonic Flaw Detection",
         explanation: "Will be added later",
         reference: "--"
@@ -3591,6 +3675,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "VCD", fullForm: "Vigilance Control Device",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "VDPC", fullForm: "Voice Data Port Card",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -3614,6 +3702,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "VSAT", fullForm: "Very Small Aperture Terminal",
+        explanation: "It is a two-way satellite ground station that uses a small dish antenna (typically under 3.8 metres) to transmit and receive data, voice, and video signals. VSAT technology is especially useful for providing connectivity in remote or rural areas where terrestrial infrastructure like cables or fibre is unavailable.",
+        reference: "--"
+      },
       { acronym: "VTO", fullForm: "Visibility Test Object",
         explanation: "Will be added later",
         reference: "--"
@@ -3634,6 +3726,10 @@ type AbbreviationItem = {
         acronym: "WAG",
         fullForm: "Wide Gauge AC Goods Locomotive",
         explanation: "Designation for goods-hauling electric locomotives (e.g., WAG-7, WAG-9).",
+        reference: "--"
+      },
+      { acronym: "WAN", fullForm: "Wide Area Network",
+        explanation: "A network that connects devices over a large geographical area, such as a city or country, using long-distance communication lines.",
         reference: "--"
       },
       {

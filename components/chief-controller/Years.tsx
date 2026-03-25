@@ -116,6 +116,11 @@ const Years = () => {
       category: '1976'
     },
     {
+      question: 'Vacuum Circuit Breakers were introduced on electric locomotives on Indian Rlys. in the year _______',
+      answer: '1985',
+      category: '1985'
+    },
+    {
       question: 'Railway servants pass rules were implemented in which year?',
       answer: '1986',
       category: '1986'

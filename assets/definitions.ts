@@ -498,6 +498,14 @@ export const definitions = [
       reference: "GR 1.02(41)"
     },
     {
+      number: 81,
+      term: "Neutral Section",
+      definition: `It is a short section of insulated and dead overhead equipment which separates the area fed by adjacent substation or feeding post.
+
+A neutral section is provided to make it impossible for the pantograph of an electric locomotive or EMU train to bridge the different phases of 25 kV supply, while passing from the zone fed from one sub-station to the next one.`,
+      reference: "GR 1.02(41)"
+    },
+    {
       number: 82,
       term: "Night",
       definition: "Night means from sunset to sunrise;",
