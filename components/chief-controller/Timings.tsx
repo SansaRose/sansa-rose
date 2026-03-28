@@ -107,6 +107,8 @@ const Timings = () => {
 
     { question: 'Threshold values for interruption to through traffic: For BG D, E Special or MG (Meter Gauge) Q, R routes: ______ hours for total interruption', answer: '4 hours', timing: '4 hours' },
 
+    { question: 'At least ___________ hours prior to the planned departure of CONCOR‘s Train, the CONCOR shall submit an indent (―Indent for Locomotive‖) for supply of locomotive.', answer: '4 hours', timing: '4 hours' },
+
     { question: 'Free time for unloading of BTPN type of wagons under Engine on Load scheme is ______ hours', answer: '5 hours', timing: '5 hours' },
     { question: 'Free time for unloading of BCN type of wagons under Engine on Load scheme is ______ hours', answer: '6 hours', timing: '6 hours' },
 
@@ -121,6 +123,8 @@ const Timings = () => {
     { question: 'Threshold values for interruption to through traffic: For BG (Broad Gauge) A, B, C or D Special routes: ______ hours  for total + partial interruption', answer: '6 hours', timing: '6 hours' },
 
     { question: 'Threshold values for interruption to through traffic: For BG E or MG S routes: ______ hours for total interruption', answer: '6 hours', timing: '6 hours' },
+
+    { question: 'Railway Administration shall normally complete the intensive train examination within a period of _________ hoursfrom the time the CONCOR‘s Wagons (in empty Rake formation) are handed over by the CONCOR for such examination', answer: '6 hours', timing: '6 hours' },
 
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
@@ -232,6 +236,8 @@ const Timings = () => {
     { question: 'How many days Special Casual Leave (SCL) is granted to Female employees when her husband undergoes sterilization operation?', answer: '7 days', timing: '7 days' },
 
     { question: 'How many days Special Casual Leave (SCL) is granted to Male employees when his wife undergoes sterilization operation?', answer: '7 days', timing: '7 days' },
+
+    { question: 'Within _____________ days of completion of NI, a brain storming session should be held with all the senior supervisors involved for taking stock of lessons learnt.', answer: '7 days', timing: '7 days' },
 
     { question: 'Station Master may permit Learning duties at Terminal stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains ______', answer: '8 days', timing: '8 days' },
 

@@ -11,41 +11,39 @@ interface PermissionItem {
 const Perminssions = () => {
   const permissions: PermissionItem[] = [
     {
-      description: 'General Rules can be framed by',
-      authority: 'Government of India',
-      category: 'Governmen of India'
+      description: 'Subsidiary rules are framed by',
+      authority: 'Authorised Officer',
+      category: 'Authorised Officer'
     },
     {
-      description: 'Who is empowered to make rules to implement the Official Language Act?',
-      authority: 'Government of India',
-      category: 'Government of India'
+      description: 'Coordinating officer for approval of plans and sanctioning of estimates for PFT is ______',
+      authority: 'CGE',
+      category: 'CGE'
     },
     {
-      description: 'Magisterial Inquiry may be judicial or non-judicial and is appointed by the_______.',
-      authority: 'State Government',
-      category: 'State Government'
-    },
-    {
-      description: 'All India Trains at a glance is prepared by ______',
-      authority: 'Railway Board',
-      category: 'Railway Board'
-    },
-
-    {
-      description: 'Who is the competent authority to sanction study leave to the officers abroad/foreign countries?',
-      authority: 'Railway Board',
-      category: 'Railway Board'
-    },
-
-    {
-      description: 'Who can sanction Joining time beyond 30 days?',
-      authority: 'Railway Board',
-      category: 'Railway Board'
+      description: 'Classifying a passenger carrying train as a mixed train needs authorization by ______ of the concerned Railway.',
+      authority: 'COM',
+      category: 'COM'
     },
     {
       description: 'In addition to normal LR trips, additional LR trips for LP/Guard may be given with the approval of ______',
       authority: 'Controlling branch officers',
       category: 'Controlling branch officers'
+    },
+    {
+      description: 'At Zonal level the management of Passenger Traffic is looked after by ______',
+      authority: 'CPTM',
+      category: 'CPTM'
+    },
+    {
+      description: 'In the month of October minutes of Divisional time table meeting sent to ______',
+      authority: 'CPTM',
+      category: 'CPTM'
+    },
+    {
+      description: 'Nodal officer of the construction of Private freight terminal is ______',
+      authority: 'CTPM',
+      category: 'CTPM'
     },
     {
       description: 'Approved special instructions are issued or approved by',
@@ -58,140 +56,86 @@ const Perminssions = () => {
       category: 'CRS'
     },
     {
-      description: 'Subsidiary rules are framed by',
-      authority: 'Authorised Officer',
-      category: 'Authorised Officer'
+      description: 'The level of enquiry to be conducted in case of other consequential accidents to be done by ______',
+      authority: 'Dy.CSO',
+      category: 'CSO'
     },
     {
-      description: 'Normally fixed signals are placed on the left side of track of an approaching train, provided on right side under the authorization of',
-      authority: 'PCOM',
-      category: 'PCOM'
+      description: 'Frequent power failures are to be reported to ______',
+      authority: 'DEE',
+      category: 'DEE'
     },
     {
-        description: 'ODC shall be allowed to be attached by a train for transport only with prior sanction of ______',
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: 'No private trolley shall be used by non railway official except under special permission of ______',
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: 'For booking against a restriction, thepermission of ______ is required',
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: "For block rake composition and marshalling order, 'Normal composition and marshalling order and rake link of passenger trains' are issued by ___________ of respective railways from time to time.",
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: "Classifying a passenger carrying train as a mixed train needs authorization by ________",
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: 'The Operating Branchwill arrange to advise the _______ of the other Ralways concerned, with full dimensions of the consignment, as loaded in the truck for issue of necessary final sanction for movement.',
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: 'Classifying a passenger carrying train as a mixed train needs authorization by ______ of the concerned Railway.',
-        authority: 'COM',
-        category: 'COM'
-      },
-      {
-        description: 'Sanction for ‘C’ class ODC special trains has to be given by ______',
-        authority: 'PCSO',
-        category: 'PCSO & CRS & PCE'
-      },
-      {
-        description: 'The Officer authorized to certify Officers of HQ for working of motor trolleys ______',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'All consequential accidents & yard accidents having serious repercussion are to be immediately conveyed to the Railway Board by _______________',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'In case of CRS or CCRS is not in a position to conduct inquiry into serious accident cases, notified to him, the inquiry shall be carried out by a Committee of ___________and ________of the Railway shall be convenor of such Committee.',
-        authority: 'SA Grade Officers, PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto PHOD of the Railway on which the accident took place through_________',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'Only on receipt of the orders of the _______________regarding the finding in the inquiry proceedings, shall disciplinary action be taken by the appropriate authorities in accordance with Discipline and Appeal Rules',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'The actual punishment imposed on the staff shall be communicated to the __________________within the stipulated time.',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'If the Magistracy or the Railway Police or the Local Police require a copy of the Inquiry Proceedings or the findings, they have to apply to the ______________.',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'Railway Board has authorized ________________ (when GM/AGM is not available)for declaring an untoward incident as Railway Disaster.',
-        authority: 'PCSO',
-        category: 'PCSO'
-      },
-      {
-        description: 'Maximum Permissible speed for each section of the railway is given by ______',
-        authority: 'PCOM',
-        category: 'PCOM'
-      },
-      {
-        description: '______ is the nodal officer for all Amrit Bharat Station Scheme (ABSS) works',
-        authority: 'PCCM',
-        category: 'PCCM'
-      },
-      {
-        description: 'Who is the Chairman of the Headquerter level of Staff Benefit Fund (SBF)',
-        authority: 'PCPO',
-        category: 'PCPO'
-      },
-      {
-        description: 'In case of emergency, CC+6 loaded wagons can be permitted on excepted CC+6 routes. Permission of ______ is required',
-        authority: 'PCE',
-        category: 'PCE'
-      },
-      {
-        description: 'At Zonal level the management of Passenger Traffic is looked after by ______',
-        authority: 'CPTM',
-        category: 'CPTM'
-      },
-      {
-        description: 'In the month of October minutes of Divisional time table meeting sent to ______',
-        authority: 'CPTM',
-        category: 'CPTM'
-      },
-      {
-        description: 'Nodal officer of the construction of Private freight terminal is ______',
-        authority: 'CTPM',
-        category: 'CTPM'
-      },
-      {
-        description: 'Coordinating officer for approval of plans and sanctioning of estimates for PFT is ______',
-        authority: 'CGE',
-        category: 'CGE'
-      },
-      {
-        description: 'Who is the head of Transformation Cell at Railway Board? ______',
-        authority: 'PED',
-        category: 'PED'
-      },
+      description: 'Patrol man must patrol their beats according to the Patrol charts issued by the ______',
+      authority: 'DEN',
+      category: 'DEN'
+    },
+    {
+      description: 'Whenever Officers and Inspectors & Guards shall check speed of trains and if it is found that speed has been exceeded, they should inform LP at next stop and submit a report to ______',
+      authority: 'DOM/DME/DEE',
+      category: 'DOM'
+    },
+    {
+      description: 'Trains not carrying passengers may be run without guard with the orders of the ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'In an emergency, a train not carrying passengers may be run without Guard can be ordered by ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'Before commencement of NI works the Engineering and S&T officials responsible for carrying out NI work shall send a Circular notice to ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'The official authorized to prescribe either one pilot only system or multiple pilot system of working at siding ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'Specific Loading Order (S.L.O) is givenby  ______',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'When ODC consignment is offered at a station for booking SS/SM should apply to the ___________, who will obtain the necessary sanction of the competent authority. An application must show the length, width, height, and weight of the load accompanied by a sketch in duplicate of the consignment.',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: '_______ shall provide model draft of letters, which are frequently received at stations, using a model draft will ensure that language used is polite, respectful and courteous.',
+      authority: 'Sr.DOM',
+      category: 'DOM'
+    },
+    {
+      description: 'The officials to sign and issue the SWR are ______',
+      authority: 'DOM & DSTE',
+      category: 'DOM'
+    },
+    {
+      description: 'SWR diagram must be signed by ______',
+      authority: 'DOM & DSTE& DEN',
+      category: 'DOM'
+    },
+    {
+      description: 'Appendix ‘G’ (rules for electrified section) of SWR must be signed by ______',
+      authority: 'DOM & DSTE & DEE',
+      category: 'DOM'
+    },
+    {
+      description:
+        'Temporary Working order is an embodiment of detailed instructions issued and circulated by the ________ whenever any pre-planned work of signalling, electrical (OHE) or engineering department is to be executed, requiring special safety precautions to be observed by staff.',
+      authority: 'Sr.DOM/DOM',
+      category: 'DOM'
+    },
+    {
+      description: '_______________ shall fix the duty hours for the staff at stations in accordance with the (Hours of employment regulations) in consultation with concerned officials',
+      authority: 'Sr.DPO/DPO',
+      category: 'DPO'
+    },
     {
       description: 'No. of detonators which shall be kept in stock at a station is prescribed by',
       authority: 'DRM',
@@ -328,81 +272,6 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
-      description: 'Whenever Officers and Inspectors & Guards shall check speed of trains and if it is found that speed has been exceeded, they should inform LP at next stop and submit a report to ______',
-      authority: 'DOM/DME/DEE',
-      category: 'DOM'
-    },
-    {
-      description: 'Trains not carrying passengers may be run without guard with the orders of the ______',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: 'In an emergency, a train not carrying passengers may be run without Guard can be ordered by ______',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: 'Before commencement of NI works the Engineering and S&T officials responsible for carrying out NI work shall send a Circular notice to ______',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: 'The official authorized to prescribe either one pilot only system or multiple pilot system of working at siding ______',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: 'Specific Loading Order (S.L.O) is givenby  ______',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: 'When ODC consignment is offered at a station for booking SS/SM should apply to the ___________, who will obtain the necessary sanction of the competent authority. An application must show the length, width, height, and weight of the load accompanied by a sketch in duplicate of the consignment.',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: '_______ shall provide model draft of letters, which are frequently received at stations, using a model draft will ensure that language used is polite, respectful and courteous.',
-      authority: 'Sr.DOM',
-      category: 'DOM'
-    },
-    {
-      description: 'The officials to sign and issue the SWR are ______',
-      authority: 'DOM & DSTE',
-      category: 'DOM'
-    },
-    {
-      description: 'Patrol man must patrol their beats according to the Patrol charts issued by the ______',
-      authority: 'DEN',
-      category: 'DEN'
-    },
-    {
-      description: 'Frequent power failures are to be reported to ______',
-      authority: 'DEE',
-      category: 'DEE'
-    },
-    {
-      description: 'In extreme exigencies , the maintenance/repair of S&T gear is urgently needed to avoid an accident, same may be permitted by ______',
-      authority: 'Sr.DSTE',
-      category: 'DSTE'
-    },
-    {
-      description: 'SWR diagram must be signed by ______',
-      authority: 'DOM & DSTE& DEN',
-      category: 'DOM'
-    },
-    {
-      description: 'Appendix ‘G’ (rules for electrified section) of SWR must be signed by ______',
-      authority: 'DOM & DSTE & DEE',
-      category: 'DOM'
-    },
-    {
-      description: '_______________ shall fix the duty hours for the staff at stations in accordance with the (Hours of employment regulations) in consultation with concerned officials',
-      authority: 'Sr.DPO/DPO',
-      category: 'DPO'
-    },
-    {
       description: 'The Officer authorized to certify Group ‘C’ staff of the division for working of motor trolleys ______',
       authority: 'Sr.DSO',
       category: 'DSO'
@@ -413,9 +282,9 @@ const Perminssions = () => {
       category: 'DSO'
     },
     {
-      description: 'The level of enquiry to be conducted in case of other consequential accidents to be done by ______',
-      authority: 'Dy.CSO',
-      category: 'CSO'
+      description: 'In extreme exigencies , the maintenance/repair of S&T gear is urgently needed to avoid an accident, same may be permitted by ______',
+      authority: 'Sr.DSTE',
+      category: 'DSTE'
     },
     {
       description: 'Color light Distant signal may be permitted to be combined with the last Stop signal of a station in rear with an Intermediate Block signal by the Sanctioning Authority is _______',
@@ -500,7 +369,154 @@ const Perminssions = () => {
     {
       description: 'Accident Inquiry Reports with staff of foreign railway responsibility should be put to __________directly being the Accepting Authority in such cases.',
       authority: 'AGM',
-      category: 'AGM'
+      category: 'GM'
+    },
+    {
+      description: 'General Rules can be framed by',
+      authority: 'Government of India',
+      category: 'Governmen of India'
+    },
+    {
+      description: 'Who is empowered to make rules to implement the Official Language Act?',
+      authority: 'Government of India',
+      category: 'Government of India'
+    },
+    {
+      description: '______ is the nodal officer for all Amrit Bharat Station Scheme (ABSS) works',
+      authority: 'PCCM',
+      category: 'PCCM'
+    },
+    {
+      description: 'In case of emergency, CC+6 loaded wagons can be permitted on excepted CC+6 routes. Permission of ______ is required',
+      authority: 'PCE',
+      category: 'PCE'
+    },
+    {
+      description: 'Normally fixed signals are placed on the left side of track of an approaching train, provided on right side under the authorization of',
+      authority: 'PCOM',
+      category: 'PCOM'
+    },
+    {
+        description: 'ODC shall be allowed to be attached by a train for transport only with prior sanction of ______',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'No private trolley shall be used by non railway official except under special permission of ______',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'For booking against a restriction, thepermission of ______ is required',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: "For block rake composition and marshalling order, 'Normal composition and marshalling order and rake link of passenger trains' are issued by ___________ of respective railways from time to time.",
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: "Classifying a passenger carrying train as a mixed train needs authorization by ________",
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'The Operating Branchwill arrange to advise the _______ of the other Ralways concerned, with full dimensions of the consignment, as loaded in the truck for issue of necessary final sanction for movement.',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'Maximum Permissible speed for each section of the railway is given by ______',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'Who is the Chairman of the Headquerter level of Staff Benefit Fund (SBF)',
+        authority: 'PCPO',
+        category: 'PCPO'
+      },
+      {
+        description: 'Sanction for ‘C’ class ODC special trains has to be given by ______',
+        authority: 'PCSO',
+        category: 'PCSO & CRS & PCE'
+      },
+      {
+        description: 'The Officer authorized to certify Officers of HQ for working of motor trolleys ______',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'All consequential accidents & yard accidents having serious repercussion are to be immediately conveyed to the Railway Board by _______________',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'In case of CRS or CCRS is not in a position to conduct inquiry into serious accident cases, notified to him, the inquiry shall be carried out by a Committee of ___________and ________of the Railway shall be convenor of such Committee.',
+        authority: 'SA Grade Officers, PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto PHOD of the Railway on which the accident took place through_________',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'Only on receipt of the orders of the _______________regarding the finding in the inquiry proceedings, shall disciplinary action be taken by the appropriate authorities in accordance with Discipline and Appeal Rules',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'The actual punishment imposed on the staff shall be communicated to the __________________within the stipulated time.',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'If the Magistracy or the Railway Police or the Local Police require a copy of the Inquiry Proceedings or the findings, they have to apply to the ______________.',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'Railway Board has authorized ________________ (when GM/AGM is not available)for declaring an untoward incident as Railway Disaster.',
+        authority: 'PCSO',
+        category: 'PCSO'
+      },
+      {
+        description: 'Who is the head of Transformation Cell at Railway Board? ______',
+        authority: 'PED',
+        category: 'PED'
+      },
+      {
+        description: 'For accidents not falling under the purview of CRS, the GM considers it is necessary to hold an inquiry by the __________ in to such accidents, the same can be ordered.',
+        authority: 'PHOD',
+        category: 'PHOD'
+      },
+      {
+        description: 'If the cause of the accident is attributable beyond doubt to a particular department in Railways and the ______________ accepts the responsibility, the inquiry by the inter-departmental committee can be dispensed with.',
+        authority: 'PHOD',
+        category: 'PHOD'
+      },
+      {
+        description: 'In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto PHOD of the Railway on which the accident took place through_________',
+        authority: 'PHOD',
+        category: 'PHOD'
+      },
+    {
+      description: 'All India Trains at a glance is prepared by ______',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+
+    {
+      description: 'Who is the competent authority to sanction study leave to the officers abroad/foreign countries?',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+
+    {
+      description: 'Who can sanction Joining time beyond 30 days?',
+      authority: 'Railway Board',
+      category: 'Railway Board'
     },
     {
       description: 'The level of enquiry to be conducted in case of A1 to A4(collision) in case CRS is not conducting to be done by minimum grade officers of ______',
@@ -508,19 +524,9 @@ const Perminssions = () => {
       category: 'SAG'
     },
     {
-      description: 'For accidents not falling under the purview of CRS, the GM considers it is necessary to hold an inquiry by the __________ in to such accidents, the same can be ordered.',
-      authority: 'PHOD',
-      category: 'PHOD'
-    },
-    {
-      description: 'If the cause of the accident is attributable beyond doubt to a particular department in Railways and the ______________ accepts the responsibility, the inquiry by the inter-departmental committee can be dispensed with.',
-      authority: 'PHOD',
-      category: 'PHOD'
-    },
-    {
-      description: 'In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto PHOD of the Railway on which the accident took place through_________',
-      authority: 'PHOD',
-      category: 'PHOD'
+      description: 'Magisterial Inquiry may be judicial or non-judicial and is appointed by the_______.',
+      authority: 'State Government',
+      category: 'State Government'
     },
   ]
 

@@ -99,7 +99,7 @@ const Quizzes = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-purple-50 via-blue-50 via-indigo-50 to-pink-50 py-8 sm:py-12">
+    <div className="min-h-screen bg-linear-to-br from-purple-50 via-blue-50 via-indigo-50 to-pink-50 py-8 pb-[max(2rem,env(safe-area-inset-bottom,0px))] sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12">

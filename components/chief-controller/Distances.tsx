@@ -14,11 +14,13 @@ const Distances = () => {
 
     { question: 'The Gap between Contact wire and Over Dimensional Consignment (ODC) shall be not less than (For 25 KV AC Electrified Sections) _______', answer: '250 Millimeter & Above', distance: '250 MM' },
 
+    { question: 'No consignment with less than _______ gross clearance from the over head contact wire will be permitted over electrified section.', answer: '10 CM', distance: '10 CM' },
+
+    { question: 'The distance between the two tracks on Broad Gauge', answer: '1.676M', distance: '1.676M' },
+
     { question: '“Danger Zone” means the zone lying around any live equipment with in a radius of________', answer: '2M', distance: '2M' },
 
     { question: 'Station Master or Parcel Clerk shall ensure Parcel, luggage, goods and vendors‘ trays and barrows shall not be placed on passenger platforms within ______ meters of the edge of the platform.', answer: '3 meters', distance: '3M' },
-
-    { question: 'The distance between the two tracks on Broad Gauge', answer: '1676M', distance: '1676M' },
 
 
     { question: 'At non interlocked gates, the gateman, before opening the gate for road traffic shall fix a banner flag by day and red light by night at a distance of', answer: '5 Meters from Gate', distance: '5M' },

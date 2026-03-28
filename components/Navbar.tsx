@@ -627,9 +627,9 @@ const Navbar = () => {
               
               {/* Dropdown Menu */}
               {isTopicsDropdownOpen && (
-                <div className="absolute top-full right-0 mt-2 w-[500px] bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
+                <div className="absolute top-full right-0 mt-2 w-[500px] max-h-[min(70vh,560px)] flex flex-col bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
                   {/* Header */}
-                  <div className="bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
+                  <div className="shrink-0 bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
                     <div className="flex items-center justify-between">
                       <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wider flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
@@ -639,8 +639,8 @@ const Navbar = () => {
                     </div>
                   </div>
                   
-                  {/* Content */}
-                  <div className="p-4 flex flex-col gap-2">
+                  {/* Content — scrollable so all topics stay reachable */}
+                  <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain p-4 flex flex-col gap-2">
                     {topicsLinks.map((topic) => {
                       const isActive = pathname === topic.href
                       return (
@@ -683,7 +683,7 @@ const Navbar = () => {
                   </div>
                   
                   {/* Footer */}
-                  <div className="bg-linear-to-r from-purple-50/50 via-blue-50/50 to-indigo-50/50 px-6 py-3.5 border-t border-purple-100/50">
+                  <div className="shrink-0 bg-linear-to-r from-purple-50/50 via-blue-50/50 to-indigo-50/50 px-6 py-3.5 border-t border-purple-100/50">
                     <Link
                       href="/topics"
                       onClick={() => setIsTopicsDropdownOpen(false)}
@@ -748,9 +748,9 @@ const Navbar = () => {
               
               {/* Dropdown Menu */}
               {isQuizzesDropdownOpen && (
-                <div className="absolute top-full right-0 mt-2 w-[500px] bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
+                <div className="absolute top-full right-0 mt-2 w-[500px] max-h-[min(70vh,560px)] flex flex-col bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
                   {/* Header */}
-                  <div className="bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
+                  <div className="shrink-0 bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
                     <div className="flex items-center justify-between">
                       <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wider flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
@@ -760,8 +760,8 @@ const Navbar = () => {
                     </div>
                   </div>
                   
-                  {/* Content */}
-                  <div className="p-4 flex flex-col gap-2 max-h-[400px] overflow-y-auto">
+                  {/* Content — scrollable so all quiz links stay reachable */}
+                  <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain p-4 flex flex-col gap-2">
                     {quizzesLinks.map((quiz) => {
                       const isActive = pathname === quiz.href
                       return (
@@ -804,7 +804,7 @@ const Navbar = () => {
                   </div>
                   
                   {/* Footer */}
-                  <div className="bg-linear-to-r from-purple-50/50 via-blue-50/50 to-indigo-50/50 px-6 py-3.5 border-t border-purple-100/50">
+                  <div className="shrink-0 bg-linear-to-r from-purple-50/50 via-blue-50/50 to-indigo-50/50 px-6 py-3.5 border-t border-purple-100/50">
                     <Link
                       href="/quizzes"
                       onClick={() => setIsQuizzesDropdownOpen(false)}
@@ -951,10 +951,10 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu — cap to viewport so nested accordions can scroll inside the screen */}
         <div
-          className={`md:hidden overflow-y-auto transition-all duration-300 ease-in-out ${
-            isMobileMenuOpen ? 'max-h-[800px] opacity-100 pb-4' : 'max-h-0 opacity-0'
+          className={`md:hidden overflow-y-auto overflow-x-hidden overscroll-contain transition-all duration-300 ease-in-out ${
+            isMobileMenuOpen ? 'max-h-[calc(100dvh-4.5rem)] opacity-100 pb-4' : 'max-h-0 opacity-0'
           }`}
         >
           <div className="flex flex-col space-y-2 pt-4">
@@ -1155,13 +1155,15 @@ const Navbar = () => {
                 </svg>
               </button>
               
-              {/* Mobile Topics Dropdown */}
+              {/* Mobile Topics Dropdown — viewport-based max height + touch scroll (nested scroll) */}
               <div
-                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
-                  isTopicsDropdownOpen ? 'max-h-[400px] opacity-100 mt-2' : 'max-h-0 opacity-0'
+                className={`relative touch-pan-y overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch] transition-all duration-300 ease-in-out ${
+                  isTopicsDropdownOpen
+                    ? 'max-h-[min(65dvh,28rem)] opacity-100 mt-2'
+                    : 'max-h-0 overflow-hidden opacity-0'
                 }`}
               >
-                <div className="flex flex-col space-y-1 pl-4">
+                <div className="flex min-h-0 flex-col space-y-1 pl-4">
                   {topicsLinks.map((topic) => {
                     const isActive = pathname === topic.href
                     return (
@@ -1208,13 +1210,15 @@ const Navbar = () => {
                 </svg>
               </button>
               
-              {/* Mobile Quizzes Dropdown */}
+              {/* Mobile Quizzes Dropdown — viewport-based height + touch scroll */}
               <div
-                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
-                  isQuizzesDropdownOpen ? 'max-h-[400px] opacity-100 mt-2' : 'max-h-0 opacity-0'
+                className={`relative touch-pan-y overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch] transition-all duration-300 ease-in-out ${
+                  isQuizzesDropdownOpen
+                    ? 'max-h-[min(65dvh,28rem)] opacity-100 mt-2'
+                    : 'max-h-0 overflow-hidden opacity-0'
                 }`}
               >
-                <div className="flex flex-col space-y-1 pl-4">
+                <div className="flex min-h-0 flex-col space-y-1 pl-4">
                   {quizzesLinks.map((quiz) => {
                     const isActive = pathname === quiz.href
                     return (

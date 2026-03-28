@@ -600,6 +600,10 @@ type AbbreviationItem = {
         explanation: "To develop multi-modal logistics support for India’s international and domestic containerized cargo and trade.",
         reference: "--"
       },
+      { acronym: "COR", fullForm: "Control Order Register",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       {
         acronym: "CORE",
         fullForm: "Central Organization for Railway Electrification",
