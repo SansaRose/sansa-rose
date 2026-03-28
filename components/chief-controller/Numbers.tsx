@@ -191,6 +191,16 @@ const Numbers = () => {
       category: '3'
     },
     {
+      question: 'Number of Loco manufacturing Units on Indian railways are ______',
+      answer: '3',
+      category: '3'
+    },
+    {
+      question: 'Number of Coach manufacturing Units on Indian railways are ______',
+      answer: '3',
+      category: '3'
+    },
+    {
       question: 'Continuous night duty for running staff should be limited to ______ nights with fourth night towards headquarters.',
       answer: '4',
       category: '4'
@@ -369,6 +379,11 @@ const Numbers = () => {
         question: 'With regard to marshalling of explosives and other dangerous goods, The rules are laid down in the I. R. C. A. Red Tariff No. for strict compliance in ______',
         answer: '20',
         category: '20'
+      },
+      {
+        question: 'T otal number of classes in Classification of Goods freight rate table is ______',
+        answer: '24',
+        category: '24'
       },
       {
         question: 'How many members are there in the committee of parliamentary on official Language?',

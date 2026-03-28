@@ -101,6 +101,8 @@ const Timings = () => {
 
     { question: 'Threshold values for interruption to through traffic: For BG (Broad Gauge) A, B, C or D Special routes: ______ hours for total interruption', answer: '3 hours', timing: '3 hours' },
 
+    { question: 'In case of EOL scheme, free time for loading of BOXN rake is _______hrs.', answer: '3 hours', timing: '3 hours' },
+
     { question: 'When power supply fails in Non-electrified area, one generator can be used at a time for a maximum of________', answer: '4 hours', timing: '4 hours' },
 
     { question: 'The powers to grant traffic blocks up to ______ hours have been given to DRM', answer: '4 hours', timing: '4 hours' },
@@ -110,6 +112,9 @@ const Timings = () => {
     { question: 'At least ___________ hours prior to the planned departure of CONCOR‘s Train, the CONCOR shall submit an indent (―Indent for Locomotive‖) for supply of locomotive.', answer: '4 hours', timing: '4 hours' },
 
     { question: 'Free time for unloading of BTPN type of wagons under Engine on Load scheme is ______ hours', answer: '5 hours', timing: '5 hours' },
+
+    { question: 'In case of EOL scheme, free time for un-loading of BOXN rake is _______ hrs.', answer: '5 hours', timing: '5 hours' },
+
     { question: 'Free time for unloading of BCN type of wagons under Engine on Load scheme is ______ hours', answer: '6 hours', timing: '6 hours' },
 
     { question: 'On trunk routes when traffic is disrupted for following hours or more, it is treated as serious dislocation of traffic.', answer: '6 hours', timing: '6 hours' },
@@ -126,6 +131,10 @@ const Timings = () => {
 
     { question: 'Railway Administration shall normally complete the intensive train examination within a period of _________ hoursfrom the time the CONCOR‘s Wagons (in empty Rake formation) are handed over by the CONCOR for such examination', answer: '6 hours', timing: '6 hours' },
 
+    { question: 'In case of EOL scheme, free time for loading of covered rake is _______ hrs.', answer: '6 hours', timing: '6 hours' },
+
+    { question: 'In case of EOL scheme, free time for un-loading of covered rake is _______ hrs.', answer: '6 hours', timing: '6 hours' },
+
     { question: 'No Railway Servant directly concerned with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation within ________ hours before the commencement of his duty or take or use any such drink, drugh or preparation when on duty.', answer: '8 hours', timing: '8 hours' },
 
     { question: 'Control chart is prepared normally for ______ hours', answer: '8 hours', timing: '8 hours' },
@@ -141,6 +150,8 @@ const Timings = () => {
     { question: 'Threshold values for interruption to through traffic: For BG D, E Special or MG (Meter Gauge) Q, R routes: ______ hours for total + partial interruption.', answer: '8 hours', timing: '8 hours' },
 
     { question: 'Running duty at a stretch should not ordinarily exceed _____ hours from the departure of the train.', answer: '9 hours', timing: '9 hours' },
+
+    { question: 'F ree time for loading / unloading of BCN /BCNA rake is ______ hours', answer: '9 hours', timing: '9 hours' },
 
     { question: 'The maximum duty hours in any one trip should not exceed ______ hours.', answer: '10 hours', timing: '10 hours' },
 
@@ -196,6 +207,8 @@ const Timings = () => {
     { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - with effect from the date of his conviction, if in the event of a conviction for an offence, he is sentenced to a term of imprisonment exceeding ______ hours and is not forthwith dismissed or removed or compulsorily retired consequent to such conviction.', answer: '48 hours', timing: '48 hours' },
 
     { question: 'Every portion of the permanent way shall be inspected daily on foot by some railway servant by approved special instructions be increased to ____in the case of lines with light and infrequent traffic.', answer: 'once in two days', timing: '2 days' },
+
+    { question: 'All payments as advised by IRCTC for booking of Train/coach on FTR shall be made in advance of ___________ commencement of journey', answer: '48 hours', timing: '48 hours' },
 
     { question: 'Irrespective of whether a joint or Inter departmental Inquiry is ordered by the General Manager, Sr.DSO of the division shall be advised within _______by the other divisional officers whether their department is accepting responsibility or not.', answer: '2 days', timing: '2 days' },
 
@@ -314,7 +327,7 @@ const Timings = () => {
 
     { question: 'The first appeal to the first appellate authority can be preferred by the applicant within ______ days from the expiry of the prescribed time limit or the receipt of the decision from the PIO', answer: '30 days', timing: '30 days' },
 
-
+    { question: 'Full Tarif Rates (FTR) registration can be done prior to the journey date minimum of _______ days', answer: '30 days', timing: '30 days' },
 
     { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days'},
 
@@ -399,9 +412,11 @@ const Timings = () => {
     
     { question: 'Regular inspection in which each station on the division is inspected in details at least ___________covering the various aspects of safety, operations and allied matters including staff matters and comprehensive in nature', answer: 'once in every 6 months', timing: '6 months' },
     
-    { question: 'Running staff review should be carried out after every ----------- by Senior technical assistant of the division.', answer: '6 months', timing: '6 months' },
+    { question: 'Running staff review should be carried out after every _______ months by Senior technical assistant of the division.', answer: '6 months', timing: '6 months' },
     
     { question: 'If a weighbridge becomes non-functional, how many days of loading permission can be granted by the General Manager?', answer: 'Up to 6 months', timing: '6 months' },
+
+    { question: 'Full Tarif Rates (FTR) registration can be done in advance of maxmimum _______ months', answer: '6 months', timing: '6 months' },
     
     { question: 'Subsequent reviews shall be made before expiry of the extended period of suspension. Extension of suspension shall not be for a period exceeding one hundred and eighty days at a time.', answer: '180 days', timing: '180 days' },
     

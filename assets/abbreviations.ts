@@ -238,7 +238,7 @@ type AbbreviationItem = {
         reference: "--"
        },
       { acronym: "BCM", fullForm: "Ballast Cleaning Machine",
-        explanation: "Will be added later",
+        explanation: "The track machine which screens plain & turnout track ballast by removing muck, thus improve drainage & elasticity of track for safe & comfortable running is known as Ballast Cleaning Machine.",
         reference: "--"
       },
       
@@ -2607,7 +2607,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PQRS", fullForm: "Plasser Quick Relaying System",
-        explanation: "Mechanized railway track relaying system",
+        explanation: "The track machine which is a semi mechanized system of track renewal wherein pre fabricated rail panels are laid and existing panels removed with minimum labour is known as Plasser Quick Relaying System.",
         reference: "--"
       },
       { acronym: "PR", fullForm: "Periodical Rest",
@@ -3520,6 +3520,10 @@ type AbbreviationItem = {
       },
       { acronym: "TRR", fullForm: "Through Rail Renewal",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "TRT", fullForm: "Track Relaying Train",
+        explanation: "The track machine which is fully mechanized system of complete track renewal is known as Track Relaying Train.",
         reference: "--"
       },
       { acronym: "TSL", fullForm: "Temporary Single Line",

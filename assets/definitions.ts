@@ -96,6 +96,12 @@ export const definitions = [
       reference: "GR 1.02(10)"
     },
     {
+      number: 16,
+      term: "Buckling",
+      definition: "When in a section, about one or two rails length of the track leaves its place and moves side way is known as Buckling",
+      reference: "--"
+    },
+    {
       number: 17,
       term: "Centralised Traffic Control",
       definition: "Centralised Traffic Control means a system by which the working of trains over a route, to which the system applies, is governed by fixed signals remotely controlled from a designated place;",
@@ -196,6 +202,12 @@ export const definitions = [
       term: "Controller",
       definition: "Controller means a railway servant on duty who may for the time being be responsible for regulating the working of traffic on a section of a railway provided with the system of speech communication;",
       reference: "GR 1.02(16)"
+    },
+    {
+      number: 32,
+      term: "Creep",
+      definition: "Longitudinal displacement of track is known as Creep",
+      reference: "--"
     },
     {
       number: 33,
@@ -352,6 +364,12 @@ export const definitions = [
       term: "Government railway",
       definition: "'Government railway' means a railway owned by the Central Government;",
       reference: "Indian Railways Act 1989 Section 2(20)"
+    },
+    {
+      number: 57,
+      term: "Guage",
+      definition: "Shortest distance between the two rails of the track is known as Guage.",
+      reference: "--"
     },
     {
       number: 58,
