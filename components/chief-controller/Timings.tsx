@@ -206,9 +206,9 @@ const Timings = () => {
 
     { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - with effect from the date of his conviction, if in the event of a conviction for an offence, he is sentenced to a term of imprisonment exceeding ______ hours and is not forthwith dismissed or removed or compulsorily retired consequent to such conviction.', answer: '48 hours', timing: '48 hours' },
 
-    { question: 'Every portion of the permanent way shall be inspected daily on foot by some railway servant by approved special instructions be increased to ____in the case of lines with light and infrequent traffic.', answer: 'once in two days', timing: '2 days' },
-
     { question: 'All payments as advised by IRCTC for booking of Train/coach on FTR shall be made in advance of ___________ commencement of journey', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'Every portion of the permanent way shall be inspected daily on foot by some railway servant by approved special instructions be increased to ____in the case of lines with light and infrequent traffic.', answer: 'once in two days', timing: '2 days' },
 
     { question: 'Irrespective of whether a joint or Inter departmental Inquiry is ordered by the General Manager, Sr.DSO of the division shall be advised within _______by the other divisional officers whether their department is accepting responsibility or not.', answer: '2 days', timing: '2 days' },
 
@@ -274,7 +274,9 @@ const Timings = () => {
 
     { question: 'How many Casual Leaves (CL) is allowed for a Disabled employee?', answer: '14 days', timing: '14 days' },
 
-    { question: 'How many days Special Casual Leave (SCL) is granted to Female employees for sterilization operation?', answer: '14 days', timing: '14 days' },
+      { question: 'How many days Special Casual Leave (SCL) is granted to Female employees for sterilization operation?', answer: '14 days', timing: '14 days' },
+
+      { question: 'M inimum notice period for inviting Limited / Special limited tenders', answer: '14 days', timing: '14 days' },
     
     { question: 'LP/ALP/Guard should record in the register maintained in crew booking point about the lapse of road learning in a section in advance of', answer: '15 days', timing: '15 days' },
 
@@ -289,6 +291,7 @@ const Timings = () => {
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in a fortnight is', answer: '20 days', timing: '20 days' },
 
 { question: 'Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of 20 days after the accident (Grievous injuries)', answer: '20 days', timing: '20 days' },
+
     { question: 'If the distance (km) data is missing and not retrievable for a CC Rake, for how many days is the BPC valid?', answer: '20 days', timing: '20 days' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, submission of enquiry report to CRS/Rly Board to be done within is _____', answer: 'D + 20 days', timing: '20 days' },
@@ -308,6 +311,8 @@ const Timings = () => {
     { question: 'Within how many days CL can be changed?', answer: '30 days', timing: '30 days' },
 
     { question: 'Provided that no such request shall be considered unless received by such authority, or any other authority designated in this behalf, within a period of ______ days of the concerned Railway servant joining his duty on the expiry of the relevant spell of leave availed of by him.', answer: '30 days', timing: '30 days' },
+
+    { question: 'Minimum notice period for inviting open tenders costing up to Rs. 2 crores', answer: '30 days', timing: '30 days' },
 
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
 
@@ -341,6 +346,8 @@ const Timings = () => {
 
     { question: "No appeal preferred under this part (Rule 20 - Period of limitation for appeals), shall be entertained unless such appeal is preferred within a period of ______ days from the date on which a copy of the order appealed against, is delivered to the appellant", answer: '45 days', timing: '45 days' },
 
+    { question: 'Number of days for intial training for Probationary Guard as per latest module is', answer: '50 days', timing: '50 days' },
+
     { question: 'Construction officials responsible for carrying out the NI work should send a circular notice to the Sr. DOM/Sr. DSO at least ___________ in advance.', answer: '2 months', timing: '2 months' },
 
     { question: 'Maximum encashment of Leave on Average Pay (LAP) is ______ days', answer: '60 days', timing: '60 days' },
@@ -350,6 +357,8 @@ const Timings = () => {
     { question: 'Advance can be taken how many days before issue?', answer: '60 days', timing: '60 days' },
 
     { question: 'In the case of permanent running staff the leave salary on leave on average pay for the first ______ days shall be at the substantive pay or on average pay, whichever is greater, and thereafter at substantive pay.', answer: '60 days', timing: '60 days' },
+
+    { question: 'Performance Guarantee for works has to be submitted within', answer: '60 days', timing: '60 days' },
 
     
     { question: 'Engineering branch will arrange with the Operating branch for the issue of a circular notice, which shall be valid for', answer: '3 months', timing: '3 months' },
@@ -382,6 +391,10 @@ const Timings = () => {
     { question: 'Under Railway Servants (Discipline & Appeal) Rules, 1968, Suspension order must be reviewed by the competent authority every-', answer: '90 days', timing: '90 days' },
 
     { question: 'What is the maximum period of leave up to which the employee can avail the leave on half average pay (LHAP)?', answer: '90 days', timing: '90 days' },
+
+    { question: 'Performance Guarantee for service contracts can be submitted within', answer: '90 days', timing: '90 days' },
+
+    { question: 'Number of days for intial training for Probationary Station Master as per latest module is', answer: '90 days', timing: '90 days'},
 
     { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
 
@@ -447,6 +460,8 @@ const Timings = () => {
     { question: 'Total how many days are granted as Child Care Leave in entire service?', answer: '730 days', timing: '730 days' },
 
     { question: 'What is the medical examination interval between 45 and 55 years of age?', answer: 'once in 2 years', timing: '2 years' },
+
+    { question: 'Revenue sharing for Brown field Private Freight Terminal (PFT) starts after ______ years after notification of PFT.', answer: '2 years', timing: '2 years' },
     
     { question: 'Periodical census of traffic at all level crossings shall be carried out for every', answer: '3 years for 7 days', timing: '3 years' },
 
@@ -484,6 +499,8 @@ const Timings = () => {
 
     { question: 'No Railway servant shall be granted leave of any kind for a continuous period exceeding ______ years.', answer: '5 years', timing: '5 years' },
 
+    { question: 'Revenue sharing for Green field Private Freight Terminal (PFT) starts after ______ years after notification of PFT', answer: '5 years', timing: '5 years' },
+
     { question: 'In no case, whatever, shall a male passenger except a boy under _________ of age be allowed to travel in a compartment reserved for Ladies in any train.', answer: '12 years', timing: '12 years' },
 
     { question: 'Commuted pension of a Railway servant is restored after a period of ______ years', answer: '15 years', timing: '15 years' },  
@@ -491,6 +508,8 @@ const Timings = () => {
     { question: 'Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in ______ years of service', answer: '20 years', timing: '20 years' },
 
     { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
+
+    { question: 'Agreement period for Private Freight Terminal (PFT) is ______ years', answer: '30 years', timing: '30 years' },
 
     { question: 'What is the maximum tenure for which Railway land can be leased to the GCTO under the GCT Agreement', answer: '35 years', timing: '35 years' },
     

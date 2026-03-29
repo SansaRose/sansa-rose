@@ -11,10 +11,21 @@ interface YearItem {
 const Years = () => {
     const years: YearItem[] = [
       {
+        question: 'T he first non-passenger train in pre-independent India was made operational in:',
+        answer: '1851',
+        category: '1851'
+      },
+      {
+        question: "The East India Railway Company's first passenger train ran on _____ covering a distance of 38 kms between Howrah and Hooghly:",
+        answer: '15.08.1854',
+        category: '1854'
+      },
+      {
         question: 'First electric locomotive was introduced in ______ year by the Government of India?',
         answer: '1925',
         category: '1925'
       },
+      
       {
         question: 'The General Rules issued under the notification of the Government of India in the late Railway Department (Railway Board) No. 1078-T, dated the ______ are hereby repealed except as respects things done or action taken or omitted to be done or taken before such repeal.',
         answer: '9th March 1929',
@@ -169,6 +180,21 @@ const Years = () => {
       question: 'Railway employees are allowed to avail LTC as per DoPT OM dated 27th March 2018',
       answer: '27.03.2018',
       category: '2018'
+    },
+    {
+      question: 'Railways suspended running of Passenger, Mail/Express and other passenger carrying trains amid the nationwide lockdown to combat the spread of Covid-19 from',
+      answer: '25.03.2020',
+      category: '2020'
+    },
+    {
+      question: 'To transport stranded migrant workers, students, pilgrims and tourists to their native states, Shramik specials were run from',
+      answer: '01.05.2020',
+      category: '2020'
+    },
+    {
+      question: 'After outbreak of COVID-19 passenger carrying trains were cancelled and again reopened for general passengers on',
+      answer: '12.05.2020',
+      category: '2020'
     },
   ]
 

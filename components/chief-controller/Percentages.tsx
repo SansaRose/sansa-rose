@@ -51,6 +51,11 @@ const Percentages = () => {
       category: '10%' 
     },
     {
+      question: 'Performance Guarantee percentage in Service Contracts',
+      answer: '10%',
+      category: '10%'
+    },
+    {
       question: 'If the longer route requested by the railway servant does not exceed _______ of the direct route distance, such passes may be issued.',
       answer: '15%',
       category: '15%'
@@ -92,6 +97,11 @@ const Percentages = () => {
     },
     {
       question: 'Family Pension at normal rate is ______ of last pay.',
+      answer: '30%',
+      category: '30%'
+    },
+    {
+      question: 'What is the maximum percentage of discount allowed in the Station To Station (STS) scheme?',
       answer: '30%',
       category: '30%'
     },

@@ -367,6 +367,16 @@ const Perminssions = () => {
       category: 'GM'
     },
     {
+      description: 'Who is the sanctioning authority for 100% excess due to escalation?',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
+      description: 'Variation beyond 150% of the contract value requires the sanction of',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
       description: 'Accident Inquiry Reports with staff of foreign railway responsibility should be put to __________directly being the Accepting Authority in such cases.',
       authority: 'AGM',
       category: 'GM'
@@ -512,9 +522,28 @@ const Perminssions = () => {
       authority: 'Railway Board',
       category: 'Railway Board'
     },
-
+    {
+      description: 'Re-appropriation of funds from one plan head to another plan head is within the powers of',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
     {
       description: 'Who can sanction Joining time beyond 30 days?',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+    {
+      description: 'Re-appropriation of funds from one source to another source is within the powers of',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+    {
+      description: 'Re-appropriation of funds from a priority work to a non-priority work',
+      authority: 'Railway Board',
+      category: 'Railway Board'
+    },
+    {
+      description: 'Who is the sanctioning authority for 25% excess due to scope?',
       authority: 'Railway Board',
       category: 'Railway Board'
     },

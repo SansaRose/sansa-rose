@@ -395,7 +395,7 @@ type AbbreviationItem = {
       },
       {
         acronym: "CBTC",
-        fullForm: "Communication based train control technology",
+        fullForm: "Communication Based Train control Technology",
         explanation: "Will be added later",
         reference: "--"
       },

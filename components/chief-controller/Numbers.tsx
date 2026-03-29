@@ -336,6 +336,11 @@ const Numbers = () => {
         category: '12'
       },
       {
+        question: 'Number of Multi disciplinary Zonal training Institutes on Indian railways are',
+        answer: '11',
+        category: '11'
+      },
+      {
         question: 'According to Section 3(3) of the Official Language Act, 1963 how many documents are mandatory to be issued in the bilingual form?',
         answer: '13',
         category: '13'

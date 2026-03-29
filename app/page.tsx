@@ -58,7 +58,7 @@ const Home = () => {
       count: '2 Topics'
     },
     {
-      href: '/quiz',
+      href: '/quizzes',
       title: 'Quiz',
       description: 'Test your knowledge with interactive quizzes',
       icon: Brain,
@@ -125,12 +125,12 @@ const Home = () => {
 
             {/* Main Title */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight animate-fade-in">
-              Sansa Rose
+              AOM Aspirant
             </h1>
             
             {/* Subtitle */}
             <div className="text-xl sm:text-2xl md:text-3xl font-light mb-8 text-blue-100">
-              Indian Railways Study Material Portal
+              AOM Aspirant Study Material Portal
             </div>
 
             {/* Description */}
@@ -150,7 +150,7 @@ const Home = () => {
                 <ChevronRight className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
-                href="/quiz"
+                href="/quizzes"
                 className="group px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 rounded-xl font-semibold text-lg hover:bg-white/20 transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
               >
                 <Brain className="w-5 h-5" />
@@ -245,10 +245,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Why Choose Sansa Rose?
+              Why Choose AOM Aspirant?
             </h2>
             <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-              Comprehensive, organized, and easy-to-access railway study materials
+              Comprehensive, organized, and easy-to-access AOM Aspirant study materials
             </p>
           </div>
 
@@ -259,7 +259,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Comprehensive Coverage</h3>
               <p className="text-blue-100">
-                Access all railway acts, manuals, rules, and regulations in one centralized platform
+                Access all AOM Aspirant acts, manuals, rules, and regulations in one centralized platform
               </p>
             </div>
 
@@ -269,7 +269,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Easy Navigation</h3>
               <p className="text-blue-100">
-                Intuitive interface with organized categories for quick access to any study material
+                Intuitive interface with organized categories for quick access to any AOM Aspirant study material
               </p>
             </div>
 
@@ -279,7 +279,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Exam Ready</h3>
               <p className="text-blue-100">
-                Practice quizzes and study materials specifically designed for railway examinations
+                Practice quizzes and study materials specifically designed for AOM Aspirant examinations
               </p>
             </div>
           </div>
@@ -293,7 +293,7 @@ const Home = () => {
             Ready to Start Your Journey?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Begin exploring our comprehensive collection of railway study materials today
+            Begin exploring our comprehensive collection of AOM Aspirant study materials today
           </p>
           <Link
             href="/topics"
