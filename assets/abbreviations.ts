@@ -700,6 +700,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "CSBF", fullForm: "Central Staff Benefit Fund",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "CSC", fullForm: "Central Security Commissioner",
         explanation: "Will be added later",
         reference: "--"

@@ -21,15 +21,44 @@ const Years = () => {
         category: '1854'
       },
       {
+        question: 'When was the Workmen\'s Compensation Act enforced in India?',
+        answer: '01.07.1924',
+        category: '1924'
+      },
+      {
         question: 'First electric locomotive was introduced in ______ year by the Government of India?',
         answer: '1925',
         category: '1925'
       },
-      
+      {
+        question: 'When was the Trade Unions Act, 1926 passed',
+        answer: '01.06.1927',
+        category: '1927'
+      },
       {
         question: 'The General Rules issued under the notification of the Government of India in the late Railway Department (Railway Board) No. 1078-T, dated the ______ are hereby repealed except as respects things done or action taken or omitted to be done or taken before such repeal.',
         answer: '9th March 1929',
         category: '1929'
+      },
+      {
+        question: 'In which year the SBF was implemented in the Railways',
+        answer: '1931',
+        category: '1931'
+      },
+      {
+        question: 'Name the Act which aims prompt and regular payment of wages without any arbitrary deductions',
+        answer: 'The Payment of Wages Act, 1936',
+        category: '1936'
+      },
+      {
+        question: 'Name the Law for investigation and settlement of disputes in railways',
+        answer: 'The Industrial Dispute Act, 1947',
+        category: '1947'
+      },
+      {
+        question: 'Name the Act made to ensure prevention of exploitation of unorganised labour',
+        answer: 'The Minimum Wages Act, 1948',
+        category: '1948'
       },
       {
         question: 'The Railway Services (Liberalised Leave) Rules, 1949 came into force on _______',
@@ -39,6 +68,16 @@ const Years = () => {
       {
         question: 'When did the Constituent Assembly accepted Hindi as the official language of the Union?',
         answer: '14.09.1949',
+        category: '1949'
+      },
+      {
+        question: 'When did The Factories Act, 1948 come into effect?',
+        answer: '01.04.1949',
+        category: '1949'
+      },
+      {
+        question: 'When did the workshop act 1948 come into effect',
+        answer: '01.04.1949',
         category: '1949'
       },
       {
@@ -52,6 +91,11 @@ const Years = () => {
         category: '1952'
       },
       {
+        question: 'When PNM (Permanent Negotiating Machinery) was formed',
+        answer: '01.01.1952',
+        category: '1952'
+      },
+      {
         question: 'In compliance of article 344 when was the official language commission formed in the year?',
         answer: '07.06.1955',
         category: '1955'
@@ -60,6 +104,11 @@ const Years = () => {
         question: 'In which year the Hindi translation of Railway Budget was prepared and who was the Railway Minister?',
         answer: '1956 and Lal Bahadur Shastri',
         category: '1956'
+      },
+      {
+        question: 'When was pension introduced in Indian Railway',
+        answer: '01.04.1957',
+        category: '1957'
       },
       {
         question: 'In which year Hindi (Parliament) section was established in Railway Board?',
@@ -82,9 +131,19 @@ const Years = () => {
         category: '1963'
       },
       {
+        question: 'In which year Family Pension is introduced in Indian Railways?',
+        answer: '01.01.1964',
+        category: '1964'
+      },
+      {
         question: 'From when did the Section 3(3) of the Official Languages Act take effect?',
         answer: '26.01.1965',
         category: '1965'
+      },
+      {
+        question: 'When Joint Consultative machinery (JCM) was formed',
+        answer: '28.10.1966',
+        category: '1966'
       },
       {
         question: 'When was official language Act 1963 ammended?',
@@ -127,8 +186,23 @@ const Years = () => {
       category: '1976'
     },
     {
+      question: 'The term same work or work of similar nature‘ is mentioned in the which Act',
+      answer: 'Equal Remuneration Act, 1976',
+      category: '1976'
+    },
+    {
+      question: 'When was CGEGI (Central Government Employee Group Insurance Scheme) introduced',
+      answer: '01.01.1982',
+      category: '1982'
+    },
+    {
       question: 'Vacuum Circuit Breakers were introduced on electric locomotives on Indian Rlys. in the year _______',
       answer: '1985',
+      category: '1985'
+    },
+    {
+      question: 'When was the first Central Administrative Tribunal established?',
+      answer: '01.11.1985',
       category: '1985'
     },
     {
@@ -157,6 +231,16 @@ const Years = () => {
       category: '1989'
     },
     {
+      question: 'The rule governing employment assistance on compassionate ground has framed w.e.f _______',
+      answer: '30.04.1993',
+      category: '1993'
+    },
+    {
+      question: 'When PREM has been established for participation of Railway employees in management?',
+      answer: '1994',
+      category: '1994'
+    },
+    {
       question: 'Maximum limit of Leave on Average Pay (LAP) is 300 is effective from _______',
       answer: '01.07.1997',
       category: '1997'
@@ -167,7 +251,32 @@ const Years = () => {
       category: '1997'
     },
     {
+      question: 'Maximum limit of average pay Leave is 300 is with effect from _______',
+      answer: '01.07.1997',
+      category: '1997'
+    },
+    {
+      question: 'Accident Free service award for railway staff implemented wef 01.01.1999',
+      answer: '01.01.1999',
+      category: '1999'
+    },
+    {
+      question: 'NPS (National Pension System) was introduced on',
+      answer: '01.01.2004',
+      category: '2004'
+    },
+    {
+      question: 'Whether unmarried daughter above the age of 25 yrs is eligible for family pension',
+      answer: '06.09.2007',
+      category: '2007'
+    },
+    {
       question: 'When maternity leave came into existence up to 180 days?',
+      answer: '01.09.2008',
+      category: '2008'
+    },
+    {
+      question: 'The MACP scheme was operative from which date',
       answer: '01.09.2008',
       category: '2008'
     },
@@ -177,9 +286,34 @@ const Years = () => {
       category: '2009'
     },
     {
+      question: 'When was the Sexual Harassment of women at work place Act enforced in India (Prevention, prohibition and redressal) act 2013 commonly known as POSH Act came into force on',
+      answer: '09.12.2013',
+      category: '2013'
+    },
+    {
+      question: 'Prescribed benchmark for grant of MACP is Very Good for all levels wef 25.07.2016 (Mention in APAR)',
+      answer: '25.07.2016',
+      category: '2016'
+    },
+    {
+      question: 'The benchmark ―Very Good‖ grading in APAR for grant of upgradation under MACP has been made applicable w.e.f _______',
+      answer: '25.07.2016',
+      category: '2016'
+    },
+    {
       question: 'Railway employees are allowed to avail LTC as per DoPT OM dated 27th March 2018',
       answer: '27.03.2018',
       category: '2018'
+    },
+    {
+      question: '100% Objective tests for selection have been introduced vide Rly. Bd. Letter dated',
+      answer: '14.12.2018',
+      category: '2018'
+    },
+    {
+      question: 'Introduction of provision for writing of APAR of app Railway employees working in Level-1 (GP-1800) was initiated from year ending',
+      answer: '2019',
+      category: '2019'
     },
     {
       question: 'Railways suspended running of Passenger, Mail/Express and other passenger carrying trains amid the nationwide lockdown to combat the spread of Covid-19 from',

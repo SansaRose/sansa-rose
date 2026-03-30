@@ -487,10 +487,16 @@ const Perminssions = () => {
         category: 'PCSO'
       },
       {
+        description: 'Who is the authorised to nominate / select the members of the SBF',
+        authority: 'PCPO',
+        category: 'PCPO'
+      },
+      {
         description: 'Railway Board has authorized ________________ (when GM/AGM is not available)for declaring an untoward incident as Railway Disaster.',
         authority: 'PCSO',
         category: 'PCSO'
       },
+      
       {
         description: 'Who is the head of Transformation Cell at Railway Board? ______',
         authority: 'PED',

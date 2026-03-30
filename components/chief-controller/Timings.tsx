@@ -111,6 +111,8 @@ const Timings = () => {
 
     { question: 'At least ___________ hours prior to the planned departure of CONCOR‘s Train, the CONCOR shall submit an indent (―Indent for Locomotive‖) for supply of locomotive.', answer: '4 hours', timing: '4 hours' },
 
+    { question: 'Time required for preparatory and complementary work by a running staff shall be deemed to be _______ a week', answer: '4 hours', timing: '4 hours' },
+
     { question: 'Free time for unloading of BTPN type of wagons under Engine on Load scheme is ______ hours', answer: '5 hours', timing: '5 hours' },
 
     { question: 'In case of EOL scheme, free time for un-loading of BOXN rake is _______ hrs.', answer: '5 hours', timing: '5 hours' },
@@ -153,6 +155,8 @@ const Timings = () => {
 
     { question: 'F ree time for loading / unloading of BCN /BCNA rake is ______ hours', answer: '9 hours', timing: '9 hours' },
 
+    { question: 'What is the working hour per day under the Factory Act?', answer: '48 hours', timing: '48 hours' },
+
     { question: 'The maximum duty hours in any one trip should not exceed ______ hours.', answer: '10 hours', timing: '10 hours' },
 
     { question: 'Total duty at a stretch of running staff from "sign-on" to "sign-off" should not generally exceed _____ hours.', answer: '11 hours', timing: '11 hours' },
@@ -160,6 +164,8 @@ const Timings = () => {
     { question: 'If duty hours are less than 8 hours, how much rest is given at Headquarters?', answer: '12 hours', timing: '12 hours' },
 
     { question: 'Threshold values for interruption to through traffic: For BG E or MG S routes: ______ hours for total + partial interruption.', answer: '12 hours', timing: '12 hours' },
+
+    { question: 'No Railway Servant classified as intensive shall be called upon to duty before completion of rest of ______ hours', answer: '12 hours', timing: '12 hours' },
 
     { question: 'Permissible free time for use of ground for dealing with container train for type II goods shed is ______ hours', answer: '15 hours', timing: '15 hours' },
 
@@ -194,6 +200,12 @@ const Timings = () => {
 
     { question: 'There will be no change in the existing provisition for Periodical Rest (PR). However, preference should be given to Periodical Rest for 4 periods of 30 hours or 5 periods of 22 hours.', answer: '4 periods of 30 hours or 5 periods of 22 hours', timing: '30 hours' },
 
+    { question: 'Weekly rest of not less than _______ is granted to Railway Servant whose employment is classified as Essentially Intermittent', answer: '24 consecutive hrs', timing: '24 hours' },
+
+    { question: 'Weekly rest of not less than _______ is granted to Railway Servant whose employment is classified as Intensive', answer: '30 consecutive hrs', timing: '30 hours' },
+
+    { question: 'Weekly rest of not less than _______ is granted to Railway Servant whose employment is classified as continuous', answer: '30 consecutive hrs', timing: '30 hours' },
+
     { question: 'What is the statutory limit of hours of employment of Intensive Category employee in a week?', answer: '45 hours', timing: '45 hours' },
 
     { question: 'Explosives and other dangerous goods should be brought to railway premises only after giving anotice of hours.', answer: '48 hours', timing: '48 hours' },
@@ -207,6 +219,8 @@ const Timings = () => {
     { question: 'A Railway servant shall be deemed to have been placed under suspension by an order of the competent authority - with effect from the date of his conviction, if in the event of a conviction for an offence, he is sentenced to a term of imprisonment exceeding ______ hours and is not forthwith dismissed or removed or compulsorily retired consequent to such conviction.', answer: '48 hours', timing: '48 hours' },
 
     { question: 'All payments as advised by IRCTC for booking of Train/coach on FTR shall be made in advance of ___________ commencement of journey', answer: '48 hours', timing: '48 hours' },
+
+    { question: 'What is the working hour per week under the Factory Act', answer: '48 hours', timing: '48 hours' },
 
     { question: 'Every portion of the permanent way shall be inspected daily on foot by some railway servant by approved special instructions be increased to ____in the case of lines with light and infrequent traffic.', answer: 'once in two days', timing: '2 days' },
 
@@ -224,7 +238,11 @@ const Timings = () => {
 
     { question: 'The GM can sanction NI Working up to ______ days subject to certain conditions', answer: '3 days', timing: '3 days' },
 
+    { question: 'How many days special Casual Leave may be given for participation in PNM', answer: '3 days', timing: '3 days' },
+
     { question: 'The limit of stay away from Headquarters for Running staff should be fixed at ______ hours.', answer: '72 hours', timing: '72 hours' },
+
+    { question: 'What is the limit for weekly working hours for (EI) Essential intermittent class?', answer: '75 hours', timing: '75 hours' },
 
     { question: 'Minimum number of days from the date of accident ‘D’, commencement of enquiry to be done within is ______', answer: 'D + 3 days', timing: '3 days' },
 
@@ -263,6 +281,8 @@ const Timings = () => {
     { question: 'Minimum number of days from the date of accident ‘D’, acceptance of enquiry report to be done within is _____', answer: 'D + 10 days', timing: '10 days' },
 
     { question: 'The time-limit for drawal of LTC advance is 125 days for journeys by train. It is mandatory for the Government servant to produce the outward journey tickets to the Competent Authority within ______ days of advance drawal.', answer: '10 days', timing: '10 days' },
+
+    { question: 'What is the time limit given to a male employee to reply against the compliant of Sexual Harassment?', answer: '10 days', timing: '10 days' },
 
     { question: 'The validity of Premium rake BPC is ______', answer: '12 days', timing: '12 days' },
 
@@ -312,6 +332,8 @@ const Timings = () => {
 
     { question: 'Provided that no such request shall be considered unless received by such authority, or any other authority designated in this behalf, within a period of ______ days of the concerned Railway servant joining his duty on the expiry of the relevant spell of leave availed of by him.', answer: '30 days', timing: '30 days' },
 
+    { question: 'For encashment of Leave Salary minimum leave balance should be __________ days', answer: '30 days', timing: '30 days' },
+
     { question: 'Minimum notice period for inviting open tenders costing up to Rs. 2 crores', answer: '30 days', timing: '30 days' },
 
     { question: 'What is the mandatory minimum time limit for booking an FTR Special Coach/Train before the date of journey?', answer: '1 month', timing: '1 month' },
@@ -333,6 +355,8 @@ const Timings = () => {
     { question: 'The first appeal to the first appellate authority can be preferred by the applicant within ______ days from the expiry of the prescribed time limit or the receipt of the decision from the PIO', answer: '30 days', timing: '30 days' },
 
     { question: 'Full Tarif Rates (FTR) registration can be done prior to the journey date minimum of _______ days', answer: '30 days', timing: '30 days' },
+
+    { question: 'How many days after leave without pay is a railway employee entitled for maintenance grant through SBF', answer: '30 days', timing: '30 days' },
 
     { question: 'The validity of CC rake BPC is ______ days', answer: '35 days', timing: '35 days'},
 
@@ -395,6 +419,9 @@ const Timings = () => {
     { question: 'Performance Guarantee for service contracts can be submitted within', answer: '90 days', timing: '90 days' },
 
     { question: 'Number of days for intial training for Probationary Station Master as per latest module is', answer: '90 days', timing: '90 days'},
+
+    { question: 'Suspension or deemed suspension is valid only for a period of ______ days, if required may be extended by review committee.', answer: '90 days', timing: '90 days' },
+
 
     { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
 
@@ -483,6 +510,8 @@ const Timings = () => {
 
     { question: 'Each concessionaire is required to set up two rail linked inland container terminals within ______ years of obtaining the license to operate or have access to inland container terminals.', answer: '3 years', timing: '3 years'},
 
+    { question: 'After how many years can a railway employee apply for reimbursement of spectacles?', answer: '3 years', timing: '3 years' },
+
 
     { question: 'How many months of study leave can be accepted for doing PHD in medical category?', answer: '36 months', timing: '36 months' },
 
@@ -506,6 +535,8 @@ const Timings = () => {
     { question: 'Commuted pension of a Railway servant is restored after a period of ______ years', answer: '15 years', timing: '15 years' },  
 
     { question: 'Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in ______ years of service', answer: '20 years', timing: '20 years' },
+
+    { question: 'The minimum qualifying service for Voluntary Retirement is _______ years', answer: '20 years', timing: '20 years' },
 
     { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
 
