@@ -2177,6 +2177,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "NCRTC", fullForm: "National Capital Region Transport Corporation",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "NDMA", fullForm: "National Disaster Management Authority",
         explanation: "Will be added later",
         reference: "--"

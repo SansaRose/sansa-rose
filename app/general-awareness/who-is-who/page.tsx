@@ -1,9 +1,9 @@
 import React from 'react'
 
+import WhoIsWho from '@/components/general-awareness/WhoIsWho'
+
 const WhoIsWhoPage = () => {
-  return (
-    <div>General Awareness - Who is Who</div>
-  )
+  return <WhoIsWho />
 }
 
 export default WhoIsWhoPage
