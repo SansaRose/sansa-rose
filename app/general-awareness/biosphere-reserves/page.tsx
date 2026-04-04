@@ -1,9 +1,9 @@
 import React from 'react'
 
+import BiosphereReserves from '@/components/general-awareness/BiosphereReserves'
+
 const BiosphereReservesPage = () => {
-  return (
-    <div>General Awareness - Biosphere Reserves</div>
-  )
+  return <BiosphereReserves showBackNav />
 }
 
 export default BiosphereReservesPage

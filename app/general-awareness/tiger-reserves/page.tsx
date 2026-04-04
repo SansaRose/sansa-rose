@@ -1,9 +1,9 @@
 import React from 'react'
 
+import TigerReserves from '@/components/general-awareness/TigerReserves'
+
 const TigerReservesPage = () => {
-  return (
-    <div>General Awareness - Tiger Reserves</div>
-  )
+  return <TigerReserves showBackNav />
 }
 
 export default TigerReservesPage

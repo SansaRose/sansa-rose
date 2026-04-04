@@ -1,9 +1,9 @@
 import React from 'react'
 
+import RamsarSites from '@/components/general-awareness/RamsarSites'
+
 const RamsarSitesPage = () => {
-  return (
-    <div>General Awareness - Ramsar Sites</div>
-  )
+  return <RamsarSites showBackNav />
 }
 
 export default RamsarSitesPage

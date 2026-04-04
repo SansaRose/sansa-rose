@@ -1,9 +1,9 @@
 import React from 'react'
 
+import ElephantReserves from '@/components/general-awareness/ElephantReserves'
+
 const ElephantReservesPage = () => {
-  return (
-    <div>General Awareness - Elephant Reserves</div>
-  )
+  return <ElephantReserves showBackNav />
 }
 
 export default ElephantReservesPage
