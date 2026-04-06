@@ -4,21 +4,21 @@ export const andhraPradeshHeaderLine =
   'ANDHRA PRADESH' as const
 
 export const andhraPradeshBasicFacts = [
-  { label: 'Capital', value: 'Hyderabad (from 2024, Amaravati)' },
-  { label: 'Established', value: 'November 1st, 1956 and June 2nd, 2014' },
-  { label: 'Chief Minister', value: 'Y S Jagan Reddy' },
-  { label: 'Governor', value: 'B Harichandran' },
-  { label: 'Ruling Party', value: 'Y S R Congress Party' },
-  { label: 'High Court', value: 'Hyderabad' },
-  { label: 'State Animal', value: 'Krishna Jinka (Black buck)' },
-  { label: 'State Bird', value: 'Rama Chiluka (Rose – ringed Parakeet)' },
-  { label: 'State Tree', value: 'Neem' },
-  { label: 'State Flower', value: 'Jasmine' },
-  { label: 'State Fruit', value: 'Mango' },
-  { label: 'State Emblem', value: 'Poorna Ghatam' },
-  { label: 'State Song', value: 'Maa Telugu Talliki' },
-  { label: 'State Sport', value: 'Kabaddi' },
-  { label: 'State Language(s)', value: 'Telugu (State Language) Hindi' },
+  { label: 'CAPITAL', value: 'Hyderabad (from 2024, Amaravati)' },
+  { label: 'ESTABLISHED', value: 'November 1st, 1956 and June 2nd, 2014' },
+  { label: 'CHIEF MINISTER', value: 'Y S Jagan Reddy' },
+  { label: 'GOVERNOR', value: 'B Harichandran' },
+  { label: 'RULING PARTY', value: 'Y S R Congress Party' },
+  { label: 'HIGH COURT', value: 'Hyderabad' },
+  { label: 'STATE ANIMAL', value: 'Krishna Jinka (Black buck)' },
+  { label: 'STATE BIRD', value: 'Rama Chiluka (Rose – ringed Parakeet)' },
+  { label: 'STATE TREE', value: 'Neem' },
+  { label: 'STATE FLOWER', value: 'Jasmine' },
+  { label: 'STATE FRUIT', value: 'Mango' },
+  { label: 'STATE EMBLEM', value: 'Poorna Ghatam' },
+  { label: 'STATE SONG', value: 'Maa Telugu Talliki' },
+  { label: 'STATE SPORT', value: 'Kabaddi' },
+  { label: 'STATE LANGUAGE(S)', value: 'Telugu (State Language), Hindi' },
 ] as const
 
 /** Tribes in display order (numbered 1…n on the page). */
@@ -129,74 +129,74 @@ export type AndhraPradeshExtendedFact =
 
 export const andhraPradeshExtendedFacts: readonly AndhraPradeshExtendedFact[] = [
   {
-    label: 'State Dance(s)',
+    label: 'STATE DANCE(S)',
     kind: 'ordered',
     items: stateDancesOrdered,
   },
   {
-    label: 'Boundary States',
+    label: 'BOUNDARY STATES',
     kind: 'ordered',
     items: boundaryStatesOrdered,
   },
   {
-    label: 'Area',
+    label: 'AREA',
     kind: 'text',
     value: '1, 62, 975 sq km (7th)',
   },
   {
-    label: 'Density',
+    label: 'DENSITY',
     kind: 'text',
     value: '308 per km2',
   },
   {
-    label: 'Population (2011)',
+    label: 'POPULATION (2011)',
     kind: 'text',
     value:
       '4,93,86,799 (10th) Male = 2,47,38,068 & Female = 2,46,48,731 Male : Female = 1000 : 996',
   },
   {
-    label: 'Literacy (2011)',
+    label: 'LITERACY (2011)',
     kind: 'text',
     value: '67.41%',
   },
   {
-    label: 'Assembly',
+    label: 'ASSEMBLY',
     kind: 'text',
     value: 'Bicameral Assembly Seats = 175 & Legislative Council = 54',
   },
   {
-    label: 'Lok Sabha',
+    label: 'LOK SABHA',
     kind: 'text',
     value: '25',
   },
   {
-    label: 'Rajya Sabha',
+    label: 'RAJYA SABHA',
     kind: 'text',
     value: '11',
   },
   {
-    label: 'Tribes',
+    label: 'TRIBES',
     kind: 'ordered',
     items: tribesOrdered,
   },
   {
-    label: 'Festivals',
+    label: 'FESTIVALS',
     kind: 'ordered',
     items: festivalsOrdered,
   },
   {
-    label: 'Districts',
+    label: 'DISTRICTS',
     kind: 'ordered',
     items: districtsOrdered,
   },
   {
-    label: 'Main Cities',
+    label: 'MAIN CITIES',
     kind: 'ordered',
     items: mainCitiesOrdered,
   },
 ]
 
-export const templesSectionTitle = 'Temples/Church/Masjid' as const
+export const templesSectionTitle = 'TEMPLES/CHURCH/MASJID' as const
 export const templesRows = [
   { name: 'Sri Venkateswara Swami Temple', location: 'Tirupati' },
   { name: 'Mallikarjun Swami Temple', location: 'Sri Sailam' },
@@ -212,7 +212,7 @@ export const templesRows = [
   { name: 'Lepakshi Temple', location: 'Mahasthupa (Amaravati)' },
 ] as const
 
-export const industriesSectionTitle = 'Industries :' as const
+export const industriesSectionTitle = 'INDUSTRIES :' as const
 export const industriesRows = [
   { name: 'Vizag Steel/Rastriya Ispat Nigam Limited', location: 'Visakhapatnam', year: '1982' },
   { name: 'Tummalapalle Uranium Mine', location: 'Tummalapalle (Kadapa)', year: '2011' },
@@ -220,7 +220,7 @@ export const industriesRows = [
   { name: 'Kia Motors India', location: 'Anantapur', year: '2017' },
 ] as const
 
-export const powerPlantsSectionTitle = 'Power Plants :' as const
+export const powerPlantsSectionTitle = 'POWER PLANTS :' as const
 export const powerPlantsRows = [
   { name: 'Simhadri Super Thermal Power Plant', year: '2002', location: 'Visakhapatnam' },
   { name: 'Sri Damodaram Sanjeevaiah Thermal Power Station', year: '--', location: 'Krishnapatnam (Nellore)' },
@@ -263,14 +263,14 @@ export const famousPersonsOrdered = [
   'Krishana Devaraya – Andhra Bhojan',
 ] as const
 
-export const lakesSectionTitle = 'Lakes :' as const
+export const lakesSectionTitle = 'LAKES :' as const
 export const lakesRows = [
   { name: 'Pulicat Lake', location: 'Sullurpet', river: '--' },
   { name: 'Kolleru Lake', location: '--', river: '--' },
   { name: 'Nagarjun Sagar Lake', location: 'Nalgonda', river: '--' },
 ] as const
 
-export const projectsDamsSectionTitle = 'Projects/ Dams :' as const
+export const projectsDamsSectionTitle = 'PROJECTS/ DAMS :' as const
 export const projectsDamsRows = [
   { name: 'Sriram Sagar Reservoir', river: 'Godavari', location: '--' },
   { name: 'Srisailam Dam', river: 'Krishna', location: '--' },
@@ -280,7 +280,7 @@ export const projectsDamsRows = [
   { name: 'Nizam Sagar Irrigation Project', river: '--', location: '--' },
 ] as const
 
-export const waterfallsBeachSectionTitle = 'Waterfalls/Beach :' as const
+export const waterfallsBeachSectionTitle = 'WATERFALLS/BEACH :' as const
 export const waterfallsBeachRows = [
   { name: 'Ethipothala Waterfalls', location: 'Guntur' },
   { name: 'Ubbalamadugu Waterfalls (Tana Waterfalls)', location: 'Chittoor' },
@@ -291,13 +291,13 @@ export const waterfallsBeachRows = [
   { name: 'Suryalanka Beach', location: 'Bapatla' },
 ] as const
 
-export const portsPeakSectionTitle = 'Ports/Peak :' as const
+export const portsPeakSectionTitle = 'PORTS/PEAK :' as const
 export const portsPeakRows = [
   { name: 'Vizag Port', location: 'Visakhapatnam' },
   { name: 'Arma Konda (Seethamma Konda)', location: '---' },
 ] as const
 
-export const hillsValleyCavesSectionTitle = 'Hills/Valley/Caves:' as const
+export const hillsValleyCavesSectionTitle = 'HILLS/VALLEY/CAVES:' as const
 export const hillsValleyCavesRows = [
   { name: 'Horsley Hills', location: 'Visakhapatnam' },
   { name: 'Papi Hills', location: '--' },
@@ -305,7 +305,7 @@ export const hillsValleyCavesRows = [
   { name: 'Belum & Borra Caves', location: '--' },
 ] as const
 
-export const biosphereSectionTitle = 'Biosphere Reserves :' as const
+export const biosphereSectionTitle = 'BIOSPHERE RESERVES :' as const
 export const biosphereRows = [
   {
     name: 'Sheshachalam Biosphere Reserve',
@@ -315,7 +315,7 @@ export const biosphereRows = [
   },
 ] as const
 
-export const tigerReservesSectionTitle = 'Tiger Reserves :' as const
+export const tigerReservesSectionTitle = 'TIGER RESERVES :' as const
 export const tigerReservesRows = [
   {
     name: 'Nagarjun Sagar – Srisailam T.R',
@@ -325,16 +325,27 @@ export const tigerReservesRows = [
   },
 ] as const
 
-export const elephantReservesSectionTitle = 'Tiger Reserves :' as const
+export const elephantReservesSectionTitle = 'ELEPHANT RESERVES :' as const
 export const elephantReservesRows = [
   {
     name: 'Rayala Elephant Reserve',
     year: '2003',
-    location: 'Rayala (East Godavari)',
+    location: 'Chittoor',
+    area: '766 (sq.km)',
   },
 ] as const
 
-export const nationalParksSectionTitle = 'National Parks :' as const
+export const ramsarSitesSectionTitle = 'RAMSAR SITES :' as const
+export const ramsarSitesRows = [
+  {
+    name: 'Kolleru Lake',
+    year: '2002',
+    location: 'Eluru & West Godavari Districts',
+    area: '900 (sq.km)',
+  },
+] as const
+
+export const nationalParksSectionTitle = 'NATIONAL PARKS :' as const
 export const nationalParksRows = [
   {
     name: 'Sri Venkateswara National Park',
@@ -356,7 +367,7 @@ export const nationalParksRows = [
   },
 ] as const
 
-export const wildlifeSanctuariesSectionTitle = 'Wildlife Sanctuaries :' as const
+export const wildlifeSanctuariesSectionTitle = 'WILDLIFE SANCTUARIES :' as const
 export const wildlifeSanctuariesRows = [
   { name: 'Nellapattu W.L.S', year: '--', location: '---', area: '----' },
   { name: 'Kolleru W.L.S', year: '--', location: 'Eluru', area: '673 (sq.km)' },
@@ -380,7 +391,7 @@ export const wildlifeSanctuariesRows = [
   { name: 'Sri Lankamalleswara W.L.S', year: '--', location: 'Kadapa District', area: '464.42' },
 ] as const
 
-export const zooMuseumsSectionTitle = 'Zoo Parks/Museums :' as const
+export const zooMuseumsSectionTitle = 'ZOO PARKS/MUSEUMS :' as const
 export const zooMuseumsRows = [
   { name: 'Indira Gandhi Zoological Park', city: 'Visakhapatnam' },
   { name: 'Sri Venkateswara Zoological Park', city: 'Tirupati' },
@@ -389,13 +400,13 @@ export const zooMuseumsRows = [
   { name: 'INS Kursura Submarine Museum', city: 'Visakhapatnam' },
 ] as const
 
-export const internationalAirportsSectionTitle = 'International Airports :' as const
+export const internationalAirportsSectionTitle = 'INTERNATIONAL AIRPORTS :' as const
 export const internationalAirportsRows = [
   { name: 'Visakhapatnam International Airport', city: 'Visakhapatnam', category: 'International' },
   { name: 'Vijayawada International Airport', city: 'Gannavaram', category: 'International' },
 ] as const
 
-export const airportsSectionTitle = 'Airports :' as const
+export const airportsSectionTitle = 'AIRPORTS :' as const
 export const airportsRows = [
   { name: 'Bobbili Airport', city: 'Badangi', category: 'Defence' },
   { name: 'Donakonda Airport', city: 'Donakonda', category: 'Domestic' },
@@ -420,7 +431,7 @@ export const iitRows = [
   { name: 'Indian Institute of Information Technology (IIIT)', location: 'Kurnool' },
 ] as const
 
-export const universitiesSectionTitle = 'Universities :' as const
+export const universitiesSectionTitle = 'UNIVERSITIES :' as const
 export const universitiesRows = [
   {
     name: 'Gandhi Institute of Technology & Management (GITAM University)',
@@ -431,7 +442,7 @@ export const universitiesRows = [
   { name: 'NTR University of Health Science', location: 'Vijayawada' },
 ] as const
 
-export const stadiumsSectionTitle = 'Stadiums :' as const
+export const stadiumsSectionTitle = 'STADIUMS :' as const
 export const stadiumsRows = [
   { name: 'Apca – Vdca Stadium', location: 'Visakhapatnam' },
   { name: 'Indira Gandhi Stadium', location: 'Vijayawada' },
@@ -439,23 +450,23 @@ export const stadiumsRows = [
 
 export const miscellaneousBlocks = [
   {
-    heading: 'Andhra Pradesh',
+    heading: 'ANDHRA PRADESH',
     lines: ['1. Rice Bowl of India', '2. Egg Bowl of Asia', '3. Cyber State of India'],
   },
   {
-    heading: 'Vijayawada',
+    heading: 'VIJAYAWADA',
     lines: ['1. The Place of Victory'],
   },
   {
-    heading: 'Guntur',
+    heading: 'GUNTUR',
     lines: ['1. City of Chillies'],
   },
   {
-    heading: 'Visakhapatnam',
+    heading: 'VISAKHAPATNAM',
     lines: ['1. The City of Destiny', '2. Eastern Goa'],
   },
   {
-    heading: 'Tirupati',
+    heading: 'TIRUPATI',
     lines: [
       '1. Spiritual Capital of Andhra Pradesh',
       '2. Financial Capital of Andhra Pradesh',
@@ -463,35 +474,35 @@ export const miscellaneousBlocks = [
     ],
   },
   {
-    heading: 'Kakinada',
+    heading: 'KAKINADA',
     lines: ['1. Pensioners Paradise', '2. City of Fertilizers', '3. City of Kaja'],
   },
   {
-    heading: 'Pidugruralla',
+    heading: 'PIDUGRURALLA',
     lines: ['1. Lime City'],
   },
   {
-    heading: 'Rajahmundry',
+    heading: 'RAJAHMUNDRY',
     lines: ['1. Cultural Capital of Andhra Pradesh'],
   },
   {
-    heading: 'Bhimavaram',
+    heading: 'BHIMAVARAM',
     lines: ['1. City of Prawns', '2. Second Bardoli of India'],
   },
   {
-    heading: 'Tenali',
+    heading: 'TENALI',
     lines: ['1. Andhra Paris'],
   },
   {
-    heading: 'Telugu',
+    heading: 'TELUGU',
     lines: ['1. Italian of the East'],
   },
   {
-    heading: 'Godavari',
+    heading: 'GODAVARI',
     lines: ['1. Vridha Ganga', '2. Lifeline of Andhra Pradesh'],
   },
   {
-    heading: 'Visakhapatnam',
+    heading: 'VISAKHAPATNAM',
     lines: [
       '1. Indian Institute of Petroleum & Energy',
       '2. Naval Science and Technological Laboratory',
@@ -500,7 +511,7 @@ export const miscellaneousBlocks = [
     ],
   },
   {
-    heading: 'Tirupati',
+    heading: 'TIRUPATI',
     lines: [
       '1. Indian Institute of Science Education & Research (IISER)',
       '2. National Atmospheric Research Laboratory',
@@ -509,31 +520,31 @@ export const miscellaneousBlocks = [
     ],
   },
   {
-    heading: 'Vijayawada',
+    heading: 'VIJAYAWADA',
     lines: ['1. School of Planning & Architecture', '2. UIDAI Aadhar Seva Kendra'],
   },
   {
-    heading: 'Rajahmundry',
+    heading: 'RAJAHMUNDRY',
     lines: ['1. Central Tobacco Research Institute'],
   },
   {
-    heading: 'Anantpur',
+    heading: 'ANANTPUR',
     lines: ['1. Central Institute of Plastic Engineering & Technology'],
   },
   {
-    heading: 'Kadapa',
+    heading: 'KADAPA',
     lines: ['1. Academy of Adventure Sports – Gandikota'],
   },
   {
-    heading: 'Nellore',
+    heading: 'NELLORE',
     lines: ['1. Cyber Grameen Centre (India’s first) – Venkatachalam village'],
   },
   {
-    heading: 'West Godavari',
+    heading: 'WEST GODAVARI',
     lines: ['1. Godavari Mega Aqua Food Park (India’s 1st) – Bhimavaram'],
   },
   {
-    heading: 'Pedavegi',
+    heading: 'PEDAVEGI',
     lines: ['1. National Palm Oil Research Centre'],
   },
 ] as const

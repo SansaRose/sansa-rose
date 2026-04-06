@@ -2,9 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import { BookOpen, ChevronRight, MapPin, Sparkles } from 'lucide-react'
 
-import * as AP from '@/assets/general-awareness/states-information/andhra-pradesh'
+import * as AR from '@/assets/general-awareness/states-information/arunachal-pradesh'
 
-type AndhraPradeshProps = {
+type ArunachalPradeshProps = {
   showBackNav?: boolean
 }
 
@@ -38,20 +38,13 @@ function SectionHeading({ children }: { children: React.ReactNode }) {
   )
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function SubHeading({ children }: { children: React.ReactNode }) {
-  return (
-    <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-teal-200/95 sm:text-base">{children}</h3>
-  )
-}
-
 function KeyValueGrid({ items }: { items: readonly { label: string; value: string }[] }) {
   return (
     <dl className="divide-y divide-slate-600/40 rounded-xl border border-slate-600/45 bg-slate-900/25">
       {items.map((row) => (
         <div key={row.label} className="grid gap-1 px-4 py-3.5 sm:grid-cols-[minmax(0,14rem)_1fr] sm:gap-4">
           <dt className="font-semibold uppercase text-emerald-200/95">{row.label}</dt>
-          <dd className="min-w-0 text-slate-300 leading-relaxed">{row.value}</dd>
+          <dd className="min-w-0 text-slate-300 leading-relaxed">{row.value || '\u2014'}</dd>
         </div>
       ))}
     </dl>
@@ -62,7 +55,7 @@ function ExtendedFactsGrid({
   facts,
   className = 'mt-5',
 }: {
-  facts: readonly AP.AndhraPradeshExtendedFact[]
+  facts: readonly AR.ArunachalPradeshExtendedFact[]
   className?: string
 }) {
   return (
@@ -120,9 +113,7 @@ function RowNumberCell({ index }: { index: number }) {
   const n = index + 1
   return (
     <td className="w-14 px-2 py-2.5 align-middle sm:w-16 sm:px-3">
-      <span
-        className="mx-auto flex h-8 w-8 items-center justify-center rounded-lg bg-linear-to-br from-emerald-500/40 to-teal-600/25 text-xs font-bold tabular-nums text-emerald-50 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_2px_8px_rgba(0,0,0,0.2)] ring-1 ring-emerald-400/45 sm:text-sm"
-      >
+      <span className="mx-auto flex h-8 w-8 items-center justify-center rounded-lg bg-linear-to-br from-emerald-500/40 to-teal-600/25 text-xs font-bold tabular-nums text-emerald-50 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_2px_8px_rgba(0,0,0,0.2)] ring-1 ring-emerald-400/45 sm:text-sm">
         {n}
       </span>
     </td>
@@ -156,7 +147,7 @@ function MiscellaneousListItem({ line }: { line: string }) {
   )
 }
 
-const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
+const ArunachalPradesh = ({ showBackNav = false }: ArunachalPradeshProps) => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-linear-to-b from-slate-950 via-slate-900 to-emerald-950/80">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(16,185,129,0.12),transparent)]" />
@@ -169,10 +160,10 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
             General Awareness
           </div>
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-teal-300/90 sm:text-base">
-            {AP.statesInformationPageTitle}
+            {AR.statesInformationPageTitle}
           </p>
           <h1 className="mt-3 bg-linear-to-r from-emerald-100 via-teal-100 to-emerald-200 bg-clip-text text-xl font-bold uppercase tracking-tight text-transparent sm:text-2xl md:text-3xl">
-            {AP.andhraPradeshHeaderLine}
+            {AR.arunachalPradeshHeaderLine}
           </h1>
           <div
             className="mx-auto mt-4 h-1 w-24 rounded-full bg-linear-to-r from-emerald-600 via-teal-500 to-emerald-500 opacity-90"
@@ -187,8 +178,8 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 <BookOpen className="h-5 w-5" strokeWidth={2} />
               </div>
             </div>
-            <KeyValueGrid items={AP.andhraPradeshBasicFacts} />
-            <ExtendedFactsGrid facts={AP.andhraPradeshExtendedFacts} />
+            <KeyValueGrid items={AR.arunachalPradeshBasicFacts} />
+            <ExtendedFactsGrid facts={AR.arunachalPradeshExtendedFacts} />
           </SectionShell>
 
           <SectionShell>
@@ -196,7 +187,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/25">
                 <MapPin className="h-5 w-5" strokeWidth={2} />
               </div>
-              <SectionHeading>{AP.templesSectionTitle}</SectionHeading>
+              <SectionHeading>{AR.templesSectionTitle}</SectionHeading>
             </div>
             <ScrollTable
               header={
@@ -207,8 +198,8 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.templesRows.map((row, i) => (
-                <tr key={row.name} className="hover:bg-slate-800/40">
+              {AR.templesRows.map((row, i) => (
+                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
@@ -218,7 +209,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.industriesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.industriesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -229,7 +220,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.industriesRows.map((row, i) => (
+              {AR.industriesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -241,7 +232,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.powerPlantsSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.powerPlantsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -252,7 +243,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.powerPlantsRows.map((row, i) => (
+              {AR.powerPlantsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -266,12 +257,12 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           <SectionShell>
             <ExtendedFactsGrid
               className="mt-0"
-              facts={[{ label: 'RIVERS', kind: 'ordered', items: AP.riversOrdered }]}
+              facts={[{ label: 'RIVERS', kind: 'ordered', items: AR.riversOrdered }]}
             />
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.lakesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.lakesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -282,7 +273,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.lakesRows.map((row, i) => (
+              {AR.lakesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -294,7 +285,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.projectsDamsSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.projectsDamsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -305,19 +296,19 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.projectsDamsRows.map((row, i) => (
+              {AR.projectsDamsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.river}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location || '—'}</td>
                 </tr>
               ))}
             </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.waterfallsBeachSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.waterfallsBeachSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -327,7 +318,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.waterfallsBeachRows.map((row, i) => (
+              {AR.waterfallsBeachRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -338,7 +329,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.portsPeakSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.portsPeakSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -348,7 +339,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.portsPeakRows.map((row, i) => (
+              {AR.portsPeakRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -359,7 +350,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.hillsValleyCavesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.hillsValleyCavesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -369,7 +360,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.hillsValleyCavesRows.map((row, i) => (
+              {AR.hillsValleyCavesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -380,7 +371,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.biosphereSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.biosphereSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -392,7 +383,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.biosphereRows.map((row, i) => (
+              {AR.biosphereRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -405,7 +396,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.tigerReservesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.tigerReservesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -417,7 +408,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.tigerReservesRows.map((row, i) => (
+              {AR.tigerReservesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -430,7 +421,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.elephantReservesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.elephantReservesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -442,7 +433,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.elephantReservesRows.map((row, i) => (
+              {AR.elephantReservesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -455,7 +446,8 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.ramsarSitesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.ramsarSitesSectionTitle}</SectionHeading>
+            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{AR.ramsarSitesNote}</p>
             <ScrollTable
               header={
                 <tr>
@@ -467,7 +459,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.ramsarSitesRows.map((row, i) => (
+              {AR.ramsarSitesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -480,7 +472,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.nationalParksSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.nationalParksSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -492,7 +484,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.nationalParksRows.map((row, i) => (
+              {AR.nationalParksRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -505,7 +497,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.wildlifeSanctuariesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.wildlifeSanctuariesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -517,7 +509,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.wildlifeSanctuariesRows.map((row, i) => (
+              {AR.wildlifeSanctuariesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -530,7 +522,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.zooMuseumsSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.zooMuseumsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -540,7 +532,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.zooMuseumsRows.map((row, i) => (
+              {AR.zooMuseumsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -551,7 +543,12 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.internationalAirportsSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.internationalAirportsSectionTitle}</SectionHeading>
+            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{AR.internationalAirportsNote}</p>
+          </SectionShell>
+
+          <SectionShell>
+            <SectionHeading>{AR.airportsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -562,7 +559,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.internationalAirportsRows.map((row, i) => (
+              {AR.airportsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -574,30 +571,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.airportsSectionTitle}</SectionHeading>
-            <ScrollTable
-              header={
-                <tr>
-                  <NumberColumnHeader />
-                  <th className="px-3 py-3 sm:px-4">Airport Name</th>
-                  <th className="px-3 py-3 sm:px-4">City</th>
-                  <th className="px-3 py-3 sm:px-4">Category</th>
-                </tr>
-              }
-            >
-              {AP.airportsRows.map((row, i) => (
-                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                  <RowNumberCell index={i} />
-                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.city}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.category}</td>
-                </tr>
-              ))}
-            </ScrollTable>
-          </SectionShell>
-
-          <SectionShell>
-            <SectionHeading>{AP.iitSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.iitSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -607,7 +581,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.iitRows.map((row, i) => (
+              {AR.iitRows.map((row, i) => (
                 <tr key={`${row.name}-${row.location}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -618,7 +592,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.universitiesSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.universitiesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -628,7 +602,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.universitiesRows.map((row, i) => (
+              {AR.universitiesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -639,7 +613,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{AP.stadiumsSectionTitle}</SectionHeading>
+            <SectionHeading>{AR.stadiumsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -649,7 +623,7 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
                 </tr>
               }
             >
-              {AP.stadiumsRows.map((row, i) => (
+              {AR.stadiumsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -662,13 +636,15 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
           <SectionShell>
             <ExtendedFactsGrid
               className="mt-0"
-              facts={[{ label: 'FAMOUS PERSONS', kind: 'ordered', items: AP.famousPersonsOrdered }]}
+              facts={[{ label: 'FAMOUS PERSONS', kind: 'ordered', items: AR.famousPersonsOrdered }]}
             />
           </SectionShell>
 
           <SectionShell>
+            <SectionHeading>{AR.miscellaneousSectionTitle}</SectionHeading>
+            <p className="mb-6 text-slate-300 leading-relaxed">{AR.miscellaneousIntroLine}</p>
             <div className="space-y-8">
-              {AP.miscellaneousBlocks.map((block, blockIndex) => (
+              {AR.miscellaneousBlocks.map((block, blockIndex) => (
                 <div key={`${blockIndex}-${block.heading}`}>
                   <h3 className="mb-3 text-base font-bold uppercase text-emerald-100/95 sm:text-lg">
                     {block.heading}
@@ -710,4 +686,4 @@ const AndhraPradesh = ({ showBackNav = false }: AndhraPradeshProps) => {
   )
 }
 
-export default AndhraPradesh
+export default ArunachalPradesh

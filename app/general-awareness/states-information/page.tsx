@@ -22,6 +22,24 @@ const stateTopics: StateTopic[] = [
     ring: 'ring-emerald-500/30',
     iconBg: 'bg-emerald-500/20',
   },
+  {
+    href: '/general-awareness/states-information/arunachal-pradesh',
+    title: 'Arunachal Pradesh',
+    subtitle: 'Himalayan state',
+    description: 'Capital, symbols, districts, rivers, protected areas, airports, and miscellaneous facts.',
+    gradient: 'from-teal-700 to-cyan-900',
+    ring: 'ring-teal-500/30',
+    iconBg: 'bg-teal-500/20',
+  },
+  {
+    href: '/general-awareness/states-information/assam',
+    title: 'Assam',
+    subtitle: 'Brahmaputra valley',
+    description: 'Capital, symbols, districts, rivers, protected areas, airports, and miscellaneous facts.',
+    gradient: 'from-emerald-800 to-green-950',
+    ring: 'ring-green-500/30',
+    iconBg: 'bg-green-500/20',
+  },
 ]
 
 const StatesInformationPage = () => {
