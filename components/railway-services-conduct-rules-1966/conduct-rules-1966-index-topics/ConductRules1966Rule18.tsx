@@ -2,7 +2,6 @@
 import React from 'react'
 import { 
   Scale,
-  FileText
 } from 'lucide-react'
 
 const ConductRules1966Rule18 = () => {
@@ -317,7 +316,7 @@ const ConductRules1966Rule18 = () => {
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
                         <span className="font-semibold text-orange-300">Railway Ministry&apos;s Decision.</span> The intention behind the proviso to sub-rule (2) &amp; (3) regarding bona fide transactions is to ensure that:
                       </p>
-                      <ul className="list-disc ml-6 text-gray-300 text-xs lg:text-sm mt-2 space-y-1">
+                      <ul className="list-disc ml-6 text-gray-300 text-sm  mt-2 space-y-1">
                         <li>The proposed transaction is for genuine purposes.</li>
                         <li>The acquisition/sale is at fair market value and involves no profiteering or speculation.</li>
                         <li>No undue official influence has been exercised by the officer (e.g., in return for official favours to the buyer/seller).</li>
@@ -361,7 +360,7 @@ const ConductRules1966Rule18 = () => {
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
                         <span className="font-semibold text-orange-300">Railway Ministry&apos;s Decision.</span> Procedure to be followed by a Railway servant for house construction:
                       </p>
-                      <ol className="list-decimal ml-6 text-gray-300 text-xs lg:text-sm mt-2 space-y-1">
+                      <ol className="list-decimal ml-6 text-gray-300 text-sm  mt-2 space-y-1">
                         <li>Before starting construction, report or seek permission as applicable. After completion, report to the prescribed authority.</li>
                         <li>Furnish details in the prescribed proforma wherever feasible. If not possible to provide full details of movable property used for construction, specify the covered area and estimated cost.</li>
                         <li>If expenditure on repairs or minor construction for any immovable property owned by a Railway servant exceeds Rs. 1,000/-, sanction from the prescribed authority is mandatory.</li>
@@ -401,7 +400,7 @@ const ConductRules1966Rule18 = () => {
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
                         <span className="font-semibold text-orange-300">Railway Ministry&apos;s Decision.</span> The Railway Board delegates certain powers under Rule 18:
                       </p>
-                      <ol className="list-decimal ml-6 text-gray-300 text-xs lg:text-sm mt-2 space-y-1">
+                      <ol className="list-decimal ml-6 text-gray-300 text-sm  mt-2 space-y-1">
                         <li>
                           Powers under Rule 18(2) can also be exercised by General Managers of Indian Railways, Heads of Production Units, and the DG, RDSO, for Gazetted officers under their control. All sanctions granted must be reported to the Railway Board.
                         </li>
@@ -520,7 +519,7 @@ const ConductRules1966Rule18 = () => {
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
                         <span className="font-semibold text-orange-300">Railway Ministry&apos;s Decision.</span> All grades of specified Commercial Staff (Reservation Clerks, Parcel Clerks, Booking Clerks, TTEs, and TCs) must submit a property return at:
                       </p>
-                      <ul className="list-disc ml-6 text-gray-300 text-xs lg:text-sm mt-2 space-y-1">
+                      <ul className="list-disc ml-6 text-gray-300 text-sm  mt-2 space-y-1">
                         <li>Initial appointment as per Rule 18(1)(i)</li>
                         <li>Every promotion</li>
                         <li>Submission of pension documents (about two years before superannuation)</li>
@@ -544,7 +543,7 @@ const ConductRules1966Rule18 = () => {
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
                         <span className="font-semibold text-orange-300">Railway Ministry&apos;s Decision.</span> The sale and purchase of shares, securities, debentures, etc. are considered transactions in movable property. Intimation under Rule 18(4) must be submitted in the prescribed proforma if:
                       </p>
-                      <ul className="list-disc ml-6 text-gray-300 text-xs lg:text-sm mt-2 space-y-1">
+                      <ul className="list-disc ml-6 text-gray-300 text-sm  mt-2 space-y-1">
                         <li>
                           <span className="font-semibold">Group A &amp; B Officers:</span> Cumulative sale/purchase of shares, securities, debentures or mutual funds exceeds ₹50,000/- in one calendar year.
                         </li>
@@ -623,15 +622,7 @@ const ConductRules1966Rule18 = () => {
             </div>
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-4 backdrop-blur-sm border border-white/20">
-              <FileText className="w-8 h-8 text-gray-300" />
-            </div>
-            <p className="text-gray-300">
-              Railway Services (Conduct) Rules, 1966
-            </p>
-          </div>
+          
         </div>
       </div>
 

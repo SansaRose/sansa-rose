@@ -2,7 +2,6 @@
 import React from 'react'
 import { 
   Scale,
-  FileText
 } from 'lucide-react'
 
 const ConductRules1966Rule9 = () => {
@@ -102,15 +101,6 @@ const ConductRules1966Rule9 = () => {
 
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-4 backdrop-blur-sm border border-white/20">
-              <FileText className="w-8 h-8 text-gray-300" />
-            </div>
-            <p className="text-gray-300">
-              Railway Services (Conduct) Rules, 1966
-            </p>
-          </div>
         </div>
       </div>
 

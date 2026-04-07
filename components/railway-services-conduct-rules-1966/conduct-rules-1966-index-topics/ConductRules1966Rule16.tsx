@@ -2,7 +2,6 @@
 import React from 'react'
 import { 
   Scale,
-  FileText
 } from 'lucide-react'
 
 const ConductRules1966Rule16 = () => {
@@ -76,9 +75,7 @@ const ConductRules1966Rule16 = () => {
                       <span className="bg-linear-to-br from-cyan-500 to-blue-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-cyan-400/50 shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
                         2
                       </span>
-                      <span className="bg-linear-to-br from-cyan-400/30 to-blue-500/30 text-cyan-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
-                        i
-                      </span>
+                      
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
@@ -98,9 +95,7 @@ const ConductRules1966Rule16 = () => {
                       <span className="bg-linear-to-br from-cyan-500 to-blue-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-cyan-400/50 shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
                         2
                       </span>
-                      <span className="bg-linear-to-br from-cyan-400/30 to-blue-500/30 text-cyan-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
-                        ii
-                      </span>
+                     
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-200 lg:text-base text-sm leading-relaxed mb-3 pt-1">
@@ -134,9 +129,7 @@ const ConductRules1966Rule16 = () => {
                       <span className="bg-linear-to-br from-green-500 to-emerald-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-green-400/50 shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
                         4
                       </span>
-                      <span className="bg-linear-to-br from-green-400/30 to-emerald-500/30 text-green-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
-                        i
-                      </span>
+                      
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-200 lg:text-lg text-base leading-relaxed mb-4 pt-1">
@@ -175,9 +168,7 @@ const ConductRules1966Rule16 = () => {
                       <span className="bg-linear-to-br from-green-500 to-emerald-600 text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 ring-green-400/50 shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
                         4
                       </span>
-                      <span className="bg-linear-to-br from-green-400/30 to-emerald-500/30 text-green-200 lg:w-6 lg:h-6 w-5 h-5 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md shrink-0 mt-0.5">
-                        ii
-                      </span>
+                      
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-200 lg:text-lg text-base leading-relaxed pt-1">
@@ -208,15 +199,6 @@ const ConductRules1966Rule16 = () => {
 
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-4 backdrop-blur-sm border border-white/20">
-              <FileText className="w-8 h-8 text-gray-300" />
-            </div>
-            <p className="text-gray-300">
-              Railway Services (Conduct) Rules, 1966
-            </p>
-          </div>
         </div>
       </div>
 

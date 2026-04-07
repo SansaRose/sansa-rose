@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { BookOpen, Scale, Shield, Users, FileText, ChevronDown, ChevronUp, CheckCircle, ExternalLink, BookOpenCheck, Gavel, Briefcase, Newspaper, MessageSquare, Gift, Home, Banknote, Heart, Megaphone, Vote, UserCheck, AlertTriangle, FileSearch } from 'lucide-react'
+import { BookOpen, Scale, Shield, Users, FileText, ChevronDown, ChevronUp, ExternalLink, BookOpenCheck, Gavel, Briefcase, Newspaper, MessageSquare, Gift, Home, Banknote, Heart, Megaphone, Vote, UserCheck, AlertTriangle, FileSearch } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const ConductRules1966Index = () => {
@@ -286,21 +286,7 @@ const ConductRules1966Index = () => {
               ))}
             </div>
 
-            {/* Footer */}
-            <div className="mt-6 text-center">
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-white/20">
-                <div className="flex flex-col lg:flex-row gap-4 items-center justify-center space-x-3 mb-4">
-                  <CheckCircle className="w-8 h-8 text-green-400" />
-                  <h3 className="text-2xl font-bold text-white">
-                    Complete Railway Services (Conduct) Rules 1966 Reference
-                  </h3>
-                </div>
-                <p className="text-gray-300 max-w-2xl mx-auto">
-                  This comprehensive guide covers all 25 rules of the Railway Services (Conduct) Rules 1966, providing complete regulatory 
-                  framework for conduct, behavior, ethical standards, and professional obligations for railway servants.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

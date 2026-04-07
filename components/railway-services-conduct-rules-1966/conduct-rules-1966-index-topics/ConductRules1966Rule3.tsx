@@ -2,7 +2,6 @@
 import React from 'react'
 import { 
   Scale,
-  FileText
 } from 'lucide-react'
 
 const ConductRules1966Rule3 = () => {
@@ -400,31 +399,31 @@ const ConductRules1966Rule3 = () => {
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 i
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Physical contact and advances</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Physical contact and advances</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 ii
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">A demand or request for sexual favours</span>
+                              <span className="text-gray-200 lg:text-base text-sm">A demand or request for sexual favours</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 iii
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Making sexually coloured remarks</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Making sexually coloured remarks</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 iv
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Showing pornography</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Showing pornography</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 v
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature</span>
                             </li>
                           </ul>
                         </div>
@@ -442,31 +441,31 @@ const ConductRules1966Rule3 = () => {
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 i
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Implied or explicit promise of preferential treatment in employment</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Implied or explicit promise of preferential treatment in employment</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 ii
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Implied or explicit threat of detrimental treatment in employment</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Implied or explicit threat of detrimental treatment in employment</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 iii
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Implied or explicit threat about her present or future employment status</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Implied or explicit threat about her present or future employment status</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 iv
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Interference with her work or creating an intimidating, offensive, or hostile work environment</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Interference with her work or creating an intimidating, offensive, or hostile work environment</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 v
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Humiliating treatment likely to affect her health or safety</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Humiliating treatment likely to affect her health or safety</span>
                             </li>
                           </ul>
                         </div>
@@ -484,31 +483,31 @@ const ConductRules1966Rule3 = () => {
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 i
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Any department, organisation, undertaking, establishment, enterprise, institution, office, branch, or unit established, owned, controlled, or substantially financed by the Central Government</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Any department, organisation, undertaking, establishment, enterprise, institution, office, branch, or unit established, owned, controlled, or substantially financed by the Central Government</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 ii
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Hospitals or nursing homes</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Hospitals or nursing homes</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 iii
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Any sports institute, stadium, sports complex, or venue used for training, sports, competitions, or related activities</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Any sports institute, stadium, sports complex, or venue used for training, sports, competitions, or related activities</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 iv
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">Any place visited by the employee arising out of, or during, the course of employment (including transportation provided by the employer for such journey)</span>
+                              <span className="text-gray-200 lg:text-base text-sm">Any place visited by the employee arising out of, or during, the course of employment (including transportation provided by the employer for such journey)</span>
                             </li>
                             <li className="flex items-start gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300">
                               <span className="bg-linear-to-br from-pink-300/20 to-red-400/20 text-pink-200 lg:w-5 lg:h-5 w-4 h-4 rounded-full flex items-center justify-center font-semibold lg:text-[10px] text-[9px] shadow-sm shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                                 v
                               </span>
-                              <span className="text-gray-200 lg:text-sm text-xs">A dwelling place or a house</span>
+                              <span className="text-gray-200 lg:text-base text-sm">A dwelling place or a house</span>
                             </li>
                           </ul>
                         </div>
@@ -522,15 +521,7 @@ const ConductRules1966Rule3 = () => {
 
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-4 backdrop-blur-sm border border-white/20">
-              <FileText className="w-8 h-8 text-gray-300" />
-            </div>
-            <p className="text-gray-300">
-              Railway Services (Conduct) Rules, 1966
-            </p>
-          </div>
+          
         </div>
       </div>
 
