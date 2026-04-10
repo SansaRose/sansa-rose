@@ -4,6 +4,45 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
+type TopicNavLink = { href: string; label: string; icon: string }
+
+const topicsLinksRaw: TopicNavLink[] = [
+  { href: '/topics/chief-controller', label: 'Chief Controller', icon: '👨‍💼' },
+  { href: '/topics/container-rail-terminals', label: 'Container rail terminals', icon: '🏗️' },
+  { href: '/topics/public-complaints', label: 'Public complaints', icon: '📢' },
+  { href: '/topics/hrms', label: 'HRMS', icon: '👥' },
+  { href: '/topics/irec', label: 'IREC', icon: '📕' },
+  { href: '/topics/irem', label: 'IREM', icon: '📗' },
+  { href: '/topics/joint-consultative-machinery', label: 'Joint consultative machinery', icon: '💬' },
+  { href: '/topics/staff-benefit-fund', label: 'Staff benefit fund', icon: '🤝' },
+  { href: '/topics/macp', label: 'MACP', icon: '📈' },
+  { href: '/topics/apar', label: 'APAR', icon: '📋' },
+  { href: '/topics/cat', label: 'CAT', icon: '📝' },
+  { href: '/topics/master-circulars', label: 'Master circulars', icon: '📜' },
+  { href: '/topics/merry-go-round', label: 'Merry go round', icon: '🎠' },
+  { href: '/topics/mission-3000MT', label: 'Mission 3000 MT', icon: '🎯' },
+  { href: '/topics/service-rules', label: 'Service rules', icon: '📋' },
+  { href: '/topics/leave-travel-concession', label: 'Leave travel concession', icon: '🎫' },
+  { href: '/topics/govt-pension', label: 'Government pension', icon: '🏛️' },
+  { href: '/topics/government-e-market', label: 'Government e-market', icon: '🛒' },
+  { href: '/topics/national-logistics-policy', label: 'National logistics policy', icon: '📦' },
+  { href: '/topics/national-pension-scheme', label: 'National pension scheme', icon: '💰' },
+  { href: '/topics/permanent-negotiating-machinery', label: 'Permanent negotiating machinery', icon: '🗣️' },
+  { href: '/topics/prem', label: 'PREM', icon: '📑' },
+  { href: '/topics/national-rail-plan', label: 'National rail plan', icon: '🗺️' },
+  { href: '/topics/quarters', label: 'Quarters', icon: '🏠' },
+  { href: '/topics/transfers', label: 'Transfers', icon: '🔄' },
+  { href: '/topics/wagons-data', label: 'Wagons data', icon: '🚃' },
+  { href: '/topics/coaches-data', label: 'Coaches data', icon: '🚃' },
+  { href: '/topics/engine-on-load', label: 'Engine on load', icon: '🚂' },
+  { href: '/topics/gati-shakti-terminals', label: 'Gati Shakti terminals', icon: '⚡' },
+  { href: '/topics/information-technology-apps', label: 'Information technology apps', icon: '💻' },
+]
+
+const topicsLinks: TopicNavLink[] = [...topicsLinksRaw].sort((a, b) =>
+  a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }),
+)
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -63,28 +102,6 @@ const Navbar = () => {
     { href: '/manuals/indian-railways-operating-manual', label: 'Indian Railways Operating Manual', icon: '🚂' },
     { href: '/manuals/station-working-rules', label: 'Station Working Rules', icon: '🚉' },
     { href: '/manuals/working-time-table', label: 'Working Time Table', icon: '⏰' },
-  ]
-
-  const topicsLinks = [
-    { href: '/topics/chief-controller', label: 'Chief Controller', icon: '👨‍💼' },
-    { href: '/topics/public-complaints', label: 'Public Complaints', icon: '📢' },
-    { href: '/topics/hrms', label: 'HRMS', icon: '👥' },
-    { href: '/topics/irec', label: 'IREC', icon: '📕' },
-    { href: '/topics/irem', label: 'IREM', icon: '📗' },
-    { href: '/topics/staff-benefit-fund', label: 'Staff Benefit Fund', icon: '🤝' },
-    { href: '/topics/macp', label: 'MACP', icon: '📈' },
-    { href: '/topics/apar', label: 'APAR', icon: '📋' },
-    { href: '/topics/cat', label: 'CAT', icon: '📝' },
-    { href: '/topics/master-circulars', label: 'Master Circulars', icon: '📜' },
-    { href: '/topics/service-rules', label: 'Service Rules', icon: '📋' },
-    { href: '/topics/leave-travel-concession', label: 'Leave Travel Concession', icon: '🎫' },
-    { href: '/topics/govt-pension', label: 'Government Pension', icon: '🏛️' },
-    { href: '/topics/national-pension-scheme', label: 'National Pension Scheme', icon: '💰' },
-    { href: '/topics/quarters', label: 'Quarters', icon: '🏠' },
-    { href: '/topics/transfers', label: 'Transfers', icon: '🔄' },
-    { href: '/topics/wagons-data', label: 'Wagons Data', icon: '🚃' },
-    { href: '/topics/coaches-data', label: 'Coaches Data', icon: '🚃' },
-    { href: '/topics/information-technology-apps', label: 'Information Technology Apps', icon: '💻' },
   ]
 
   const quizzesLinks = [
@@ -636,12 +653,12 @@ const Navbar = () => {
                 <div className="absolute top-full right-0 mt-2 w-[500px] max-h-[min(70vh,560px)] flex flex-col bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
                   {/* Header */}
                   <div className="shrink-0 bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between gap-3">
                       <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wider flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
-                        Topics
+                        Topics (A–Z)
                       </h3>
-                      <span className="text-xs text-gray-500 font-medium">{topicsLinks.length} Topics</span>
+                      <span className="shrink-0 text-xs text-gray-500 font-medium">{topicsLinks.length} topics</span>
                     </div>
                   </div>
                   
@@ -1150,7 +1167,7 @@ const Navbar = () => {
                     : 'text-white/90 bg-white/10 hover:bg-white/20 hover:text-white backdrop-blur-sm border border-white/20'
                 }`}
               >
-                <span>Topics</span>
+                <span>Topics (A–Z)</span>
                 <svg
                   className={`w-5 h-5 transition-transform duration-300 ${isTopicsDropdownOpen ? 'rotate-180' : ''}`}
                   fill="none"
@@ -1161,7 +1178,7 @@ const Navbar = () => {
                 </svg>
               </button>
               
-              {/* Mobile Topics Dropdown — viewport-based max height + touch scroll (nested scroll) */}
+              {/* Mobile Topics — same A–Z order as desktop hover menu */}
               <div
                 className={`relative touch-pan-y overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch] transition-all duration-300 ease-in-out ${
                   isTopicsDropdownOpen

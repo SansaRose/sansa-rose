@@ -9,22 +9,33 @@ import {
   Briefcase,
   ChevronRight,
   ClipboardList,
+  Container,
   GraduationCap,
+  Handshake,
   HeartHandshake,
   Home,
   Landmark,
   Laptop,
+  MapPinned,
   Megaphone,
+  Network,
+  Orbit,
+  Package,
   PiggyBank,
   Plane,
   Scale,
   ScrollText,
+  ShoppingCart,
   Sparkles,
+  Target,
   Train,
   TrainFront,
   TrendingUp,
   Users,
+  UsersRound,
   FileCheck,
+  FileStack,
+  Gauge,
 } from 'lucide-react'
 
 
@@ -66,6 +77,66 @@ const topicSections: { heading: string; blurb: string; items: TopicCard[] }[] = 
         ring: 'ring-slate-500/30',
         iconBg: 'bg-slate-500/20',
       },
+      {
+        href: '/topics/national-rail-plan',
+        title: 'National rail plan',
+        subtitle: 'Network vision & projects',
+        description: 'National Rail Plan — policy context, corridors, and examination-oriented summary.',
+        icon: MapPinned,
+        gradient: 'from-cyan-700 to-blue-800',
+        ring: 'ring-cyan-500/30',
+        iconBg: 'bg-cyan-500/20',
+      },
+      {
+        href: '/topics/mission-3000MT',
+        title: 'Mission 3000 MT',
+        subtitle: 'Freight & logistics',
+        description: 'Mission 3000 MT — reference summary for the freight capacity mission.',
+        icon: Target,
+        gradient: 'from-purple-700 to-indigo-900',
+        ring: 'ring-purple-500/30',
+        iconBg: 'bg-purple-500/20',
+      },
+      {
+        href: '/topics/national-logistics-policy',
+        title: 'National logistics policy',
+        subtitle: 'Policy framework',
+        description: 'National Logistics Policy — framework, PM Gati Shakti links, and exam-focused notes.',
+        icon: Package,
+        gradient: 'from-teal-800 to-emerald-900',
+        ring: 'ring-teal-500/30',
+        iconBg: 'bg-teal-500/20',
+      },
+      {
+        href: '/topics/container-rail-terminals',
+        title: 'Container rail terminals',
+        subtitle: 'CRT & freight hubs',
+        description: 'Container rail terminals — facilities, handling, and examination-oriented reference.',
+        icon: Container,
+        gradient: 'from-sky-700 to-blue-900',
+        ring: 'ring-sky-500/30',
+        iconBg: 'bg-sky-500/20',
+      },
+      {
+        href: '/topics/gati-shakti-terminals',
+        title: 'Gati Shakti terminals',
+        subtitle: 'Rail terminals under Gati Shakti',
+        description: 'Gati Shakti terminals — multimodal connectivity and examination-oriented reference.',
+        icon: Network,
+        gradient: 'from-orange-600 to-rose-700',
+        ring: 'ring-orange-500/30',
+        iconBg: 'bg-orange-500/20',
+      },
+      {
+        href: '/topics/government-e-market',
+        title: 'Government e-market',
+        subtitle: 'GeM & public procurement',
+        description: 'Government e-Market (GeM) — procurement portal overview and examination-oriented reference.',
+        icon: ShoppingCart,
+        gradient: 'from-emerald-600 to-green-800',
+        ring: 'ring-emerald-500/30',
+        iconBg: 'bg-emerald-500/20',
+      },
     ],
   },
   {
@@ -103,6 +174,38 @@ const topicSections: { heading: string; blurb: string; items: TopicCard[] }[] = 
         iconBg: 'bg-emerald-500/20',
       },
       {
+        href: '/topics/permanent-negotiating-machinery',
+        title: 'Permanent negotiating machinery',
+        subtitle: 'PNM & joint consultations',
+        description:
+          'Permanent Negotiating Machinery — forums, union–management dialogue, and examination-oriented reference.',
+        icon: Handshake,
+        gradient: 'from-fuchsia-600 to-pink-800',
+        ring: 'ring-fuchsia-500/30',
+        iconBg: 'bg-fuchsia-500/20',
+      },
+      {
+        href: '/topics/joint-consultative-machinery',
+        title: 'Joint consultative machinery',
+        subtitle: 'JCM & staff–government dialogue',
+        description:
+          'Joint Consultative Machinery — levels, councils, and examination-oriented reference for central services.',
+        icon: UsersRound,
+        gradient: 'from-violet-600 to-fuchsia-800',
+        ring: 'ring-violet-500/30',
+        iconBg: 'bg-violet-500/20',
+      },
+      {
+        href: '/topics/prem',
+        title: 'PREM',
+        subtitle: 'Establishment reference',
+        description: 'PREM — examination-oriented reference for railway establishment.',
+        icon: FileStack,
+        gradient: 'from-slate-700 to-zinc-900',
+        ring: 'ring-slate-500/30',
+        iconBg: 'bg-slate-500/20',
+      },
+      {
         href: '/topics/cat',
         title: 'CAT',
         subtitle: 'Central Administrative Tribunal',
@@ -131,6 +234,16 @@ const topicSections: { heading: string; blurb: string; items: TopicCard[] }[] = 
         gradient: 'from-violet-600 to-purple-700',
         ring: 'ring-violet-500/30',
         iconBg: 'bg-violet-500/20',
+      },
+      {
+        href: '/topics/merry-go-round',
+        title: 'Merry go round',
+        subtitle: 'Study topic',
+        description: 'Merry go round — reference page for this topic.',
+        icon: Orbit,
+        gradient: 'from-indigo-600 to-violet-700',
+        ring: 'ring-indigo-500/30',
+        iconBg: 'bg-indigo-500/20',
       },
       {
         href: '/topics/irem',
@@ -248,11 +361,25 @@ const topicSections: { heading: string; blurb: string; items: TopicCard[] }[] = 
         ring: 'ring-neutral-500/30',
         iconBg: 'bg-neutral-500/20',
       },
+      {
+        href: '/topics/engine-on-load',
+        title: 'Engine on load',
+        subtitle: 'Locomotive operation',
+        description: 'Engine on load — operating reference for examination and field use.',
+        icon: Gauge,
+        gradient: 'from-yellow-600 to-amber-800',
+        ring: 'ring-amber-500/30',
+        iconBg: 'bg-amber-500/20',
+      },
     ],
   },
 ]
 
-const totalTopics = topicSections.reduce((n, s) => n + s.items.length, 0)
+const topicsAlphabetical: TopicCard[] = topicSections
+  .flatMap((s) => s.items)
+  .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }))
+
+const totalTopics = topicsAlphabetical.length
 
 const Topics = () => {
   return (
@@ -296,54 +423,54 @@ const Topics = () => {
       </header>
 
       <main className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        {topicSections.map((section) => (
-          <section key={section.heading} className="mb-14 last:mb-0 lg:mb-16">
-            <div className="mb-8 border-b border-pink-200/80 pb-4">
-              <h2 className="text-xl font-bold text-slate-900 sm:text-2xl">{section.heading}</h2>
-              <p className="mt-1 text-sm text-slate-600 sm:text-base">{section.blurb}</p>
-            </div>
+        <section aria-label="All topics A to Z">
+          <div className="mb-8 border-b border-pink-200/80 pb-4">
+            <h2 className="text-xl font-bold text-slate-900 sm:text-2xl">All topics (A–Z)</h2>
+            <p className="mt-1 text-sm text-slate-600 sm:text-base">
+              Study systems, establishment, rolling stock — sorted alphabetically by title.
+            </p>
+          </div>
 
-            <ul className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3 xl:gap-6">
-              {section.items.map((topic) => {
-                const Icon = topic.icon
-                return (
-                  <li key={topic.href}>
-                    <Link
-                      href={topic.href}
-                      className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-rose-900/10 ${topic.ring}`}
-                    >
+          <ul className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3 xl:gap-6">
+            {topicsAlphabetical.map((topic) => {
+              const Icon = topic.icon
+              return (
+                <li key={topic.href}>
+                  <Link
+                    href={topic.href}
+                    className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-rose-900/10 ${topic.ring}`}
+                  >
+                    <div
+                      className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r opacity-90 ${topic.gradient}`}
+                      aria-hidden
+                    />
+                    <div className="mb-4 flex items-start justify-between gap-3">
                       <div
-                        className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r opacity-90 ${topic.gradient}`}
-                        aria-hidden
-                      />
-                      <div className="mb-4 flex items-start justify-between gap-3">
-                        <div
-                          className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${topic.iconBg} text-slate-800`}
-                        >
-                          <Icon className="h-6 w-6" strokeWidth={1.75} />
-                        </div>
-                        <span
-                          className={`rounded-full bg-linear-to-r px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white opacity-0 transition group-hover:opacity-100 sm:text-xs ${topic.gradient}`}
-                        >
-                          Open
-                        </span>
+                        className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${topic.iconBg} text-slate-800`}
+                      >
+                        <Icon className="h-6 w-6" strokeWidth={1.75} />
                       </div>
-                      <h3 className="text-lg font-bold leading-snug text-slate-900 group-hover:text-rose-800 sm:text-xl">
-                        {topic.title}
-                      </h3>
-                      <p className="mt-1 text-sm font-medium text-slate-500">{topic.subtitle}</p>
-                      <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-600">{topic.description}</p>
-                      <div className="mt-5 flex items-center gap-1 text-sm font-semibold text-rose-700">
-                        Read topic
-                        <ChevronRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
-                      </div>
-                    </Link>
-                  </li>
-                )
-              })}
-            </ul>
-          </section>
-        ))}
+                      <span
+                        className={`rounded-full bg-linear-to-r px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white opacity-0 transition group-hover:opacity-100 sm:text-xs ${topic.gradient}`}
+                      >
+                        Open
+                      </span>
+                    </div>
+                    <h3 className="text-lg font-bold leading-snug text-slate-900 group-hover:text-rose-800 sm:text-xl">
+                      {topic.title}
+                    </h3>
+                    <p className="mt-1 text-sm font-medium text-slate-500">{topic.subtitle}</p>
+                    <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-600">{topic.description}</p>
+                    <div className="mt-5 flex items-center gap-1 text-sm font-semibold text-rose-700">
+                      Read topic
+                      <ChevronRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
+                    </div>
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
       </main>
     </div>
   )

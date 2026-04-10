@@ -40,6 +40,24 @@ const stateTopics: StateTopic[] = [
     ring: 'ring-green-500/30',
     iconBg: 'bg-green-500/20',
   },
+  {
+    href: '/general-awareness/states-information/bihar',
+    title: 'Bihar',
+    subtitle: 'Ganga river state',
+    description: 'Capital, symbols, districts, rivers, protected areas, airports, and miscellaneous facts.',
+    gradient: 'from-cyan-700 to-sky-900',
+    ring: 'ring-sky-500/30',
+    iconBg: 'bg-sky-500/20',
+  },
+  {
+    href: '/general-awareness/states-information/chhattisgarh',
+    title: 'Chhattisgarh',
+    subtitle: 'Central India state',
+    description: 'Capital, symbols, districts, rivers, protected areas, airports, and miscellaneous facts.',
+    gradient: 'from-emerald-700 to-lime-900',
+    ring: 'ring-lime-500/30',
+    iconBg: 'bg-lime-500/20',
+  },
 ]
 
 const StatesInformationPage = () => {
