@@ -525,7 +525,7 @@ export const establishmentRulesQuizzes = {
             explanation: "DRM is the correct answer.",
           },
         ],
-        "leave-rules": [
+"leave-rules": [
           {
             question:
               "LAP shall be credited to a Railway servant at the rate of .......",
@@ -1286,7 +1286,7 @@ export const establishmentRulesQuizzes = {
             explanation: "Railway Board is the correct answer.",
           },
         ],
-        "rest-rules": [
+"rest-rules": [
           {
             question:
               "As per Hours of Employment Rule employees are classified into ... number of categories.",
@@ -1828,7 +1828,7 @@ export const establishmentRulesQuizzes = {
           },
         ],
         
-        "pass-rules": [
+"pass-rules": [
           
           {
             question:
@@ -2033,7 +2033,7 @@ export const establishmentRulesQuizzes = {
           },
         ],
         
-        "conduct-rules": [
+"conduct-rules": [
           {
             question:
               "In which year was the Railway Conduct Rules first implemented?",
@@ -2217,8 +2217,78 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "Rule 21 is the correct answer.",
           },
+{
+question:
+              "Under Rule 22 of the Railway Conduct Rules 1966, running staff are prohibited from consuming intoxicating drinks and drugs before how many hours from signing on duty?",
+            options: ["8 hours", "10 hours", "12 hours", "14 hours"],
+            correct: 0,
+            explanation: "Under Rule 22 of the Railway Conduct Rules 1966, running staff are prohibited from consuming intoxicating drinks and drugs before 8 hours from signing on duty.",
+          },
+          {
+            question:
+              "Under which rule of the Railway Conduct Rules 1966, is there to ban on renting Railway accommodation",
+            options: ["Rule 12", "Rule 15-A", "Rule 18", "Rule 21"],
+            correct: 1,
+            explanation: "Rule 15-A (Subletting and Vacation of Government accommodation) of the Railway Conduct Rules 1966, prohibits Railway servants from subletting, leasing, or allowing third-party occupation of allotted railway accommodation.",
+          },
+          {
+            question:
+              "Charges for indiscipline are levied under which rule of the Railway Conduct Rules 1966?",
+            options: ["Rule 3(i) and (ii)", "Rule 15", "Rule 18", "Rule 21"],
+            correct: 0,
+            explanation: "Rule 3(i) and (ii) is the correct answer.",
+          },
+          {
+            question:
+              "Under which rule of the Railway Conduct Rules 1966, accepting gifts are prohibited?",
+            options: ["Rule 13", "Rule 15", "Rule 18", "Rule 21"],
+            correct: 0,
+            explanation: "Rule 13 is the correct answer.",
+          },
+          {
+            question:
+              "Rule 3(C) of the Railway Conduct Rules 1966 is related to which railway employee?",
+            options: ["Accepting gifts", "Dowry", "Sexual harassment of Female employee", "Sub-letting of Government accommodation"],
+            correct: 2,
+            explanation: "Rule 3(C) of the Railway Conduct Rules 1966 is related to Sexual harassment of any woman at any workplace. Every Railway servant who is in charge of a workplace shall take appropriate steps to prevent sexual harassment of any woman at the workplace.",
+          },
+          {
+            question:
+              "As per Railway Servant Conduct Rules 1966, Rule number _______ is necessary for purchase of immovable property",
+            options: ["Rule 12", "Rule 15", "Rule 18", "Rule 21"],
+            correct: 0,
+            explanation: "Rule 18 is the correct answer.",
+          },
+          {
+            question:
+              "As per Railway Servant Conduct Rules 1966, Rule number _______ is about consumption of intoxicating drinks and drugs",
+            options: ["Rule 22", "Rule 23", "Rule 24", "Rule 25"],
+            correct: 0,
+            explanation: "Rule 22 is the correct answer.",
+          },
+          {
+            question:
+              "As per Railway Servant Conduct Rules 1966, Rule number _______ is forbidden to participate in any political activity",
+            options: ["Rule 5", "Rule 6", "Rule 7", "Rule 8"],
+            correct: 0,
+            explanation: "Rule 5 is the correct answer.",
+          },
+          {
+            question:
+              "Railway Servant Conduct Rules 1966, Rule 3A is related to _______",
+            options: ["Observance of Government Policies", "Promptness and Courtesy", "Taking part in political activity", "None of the above"],
+            correct: 1,
+            explanation: "Promptness and Courtesy is the correct answer.",
+          },
+          {
+            question:
+              "In Railway Servant Conduct Rules 1966, Rule number _______ are General Rules",
+            options: ["2", "3", "4", "5"],
+            correct: 1,
+            explanation: "In Railway Servant Conduct Rules 1966, Rule number 3 are General Rules. It covers the fundamental duties of a railway servant.",
+          },
         ],
-        "cga":[
+"cga":[
           {
             question:
               "Compassionate Grounds Appointment (CGA) is primarily intended to provide-",
@@ -2478,8 +2548,8 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "Level-7 consideration is the correct answer.",
           },
-          {
-            question:
+{
+question:
               "B.Tech qualified CGA is generally not considered above-",
             options: ["Group D", "Gazetted", "JE Level-6", "SSE Level-7"],
             correct: 2,
@@ -2549,7 +2619,7 @@ export const establishmentRulesQuizzes = {
             explanation: "Posted in the same grade is the correct answer.",
           },
         ],
-        "apar":
+"apar":
 [
   {
     question:
@@ -2642,8 +2712,86 @@ export const establishmentRulesQuizzes = {
     correct: 0,
     explanation: "Annexure-I is the correct answer.",
   },
+  {
+    question:
+      "APAR should be filled within ______ month of the expiry of reporting period every year",
+    options: ["1", "2", "3", "4"],
+    correct: 0,
+    explanation: "1 month is the correct answer.",
+  },
+  {
+    question:
+      "Nomenclature of Annual Confidential Report (ACR) modified as Annaul Performance Appraisal Report (APAR) in the year _______",
+    options: ["2008", "2009", "2010", "2011"],
+    correct: 1,
+    explanation: "2009 is the correct answer.",
+  },
+  {
+    question:
+      "Report can be written by the Officer who has supervised th work of the employee reported upon at least for a period ______ months during year.",
+    options: ["2", "3", "4", "5"],
+    correct: 1,
+    explanation: "3 months is the correct answer.",
+  },
+  {
+    question:
+      "Benchmark for APAR for promotion to Grade B shall be ______ w.e.f 25th July 2016",
+    options: ["Average", "Good", "Very Good", "Outstanding"],
+    correct: 2,
+    explanation: "Very Good is the correct answer.",
+  },
+  {
+    question:
+      "Where the Reporting authority or Reviewing authority retired or demits office, he should report/review the confidential report of all railway employees working under him ordinarily within a period of ______ months",
+    options: ["1", "2", "3", "4"],
+    correct: 0,
+    explanation: "1 month is the correct answer.",
+  },
+  {
+    question:
+      "The confidential report should be reviewed and counter signed by reviewing authority ordinarily within _______ days of its receipt fro the reporting authority ",
+    options: ["10", "15", "30", "45"],
+    correct: 2,
+    explanation: "30 days is the correct answer.",
+  },
+  {
+    question:
+      "Annexure ______ is used for filling of APAR of SSE (Works) in Engineering department",
+    options: ["Annexure-I", "Annexure-II", "Annexure-III", "Annexure-IV"],
+    correct: 2,
+    explanation: "Annexure-III is the correct answer.",
+  },
+  {
+    question:
+      "Confidential report for each reporting officer shall be written ordinarily within _______ months.",
+    options: ["1", "2", "3", "4"],
+    correct: 0,
+    explanation: "1 month is the correct answer.",
+  },
+  {
+    question:
+      "Introduction of provision for writing of APAR of app Railway employees working in Level-1 (GP-1800) was initiated from year ending _______",
+    options: ["2019", "2020", "2021", "2022"],
+    correct: 0,
+    explanation: "2019 is the correct answer.",
+  },
+  {
+    question:
+      "Introduction of provision for writing of APAR of app Railway employees working in Level-2 (GP-1900) was initiated from year ending _______",
+    options: ["2015", "2016", "2017", "2018"],
+    correct: 0,
+    explanation: "2015 is the correct answer.",
+  },
+  {
+    question:
+      "All representations against adverse remarks in APAR should be submitted within _______ days from the date of receipt of APAR",
+    options: ["10", "15", "30", "45"],
+    correct: 1,
+    explanation: "15 days is the correct answer.",
+  },
+  
 ],
-        "nps": [
+"nps": [
   {
     question:
       "From which date is National Pension System (NPS) applicable for Railway Employees?",
@@ -2960,7 +3108,7 @@ export const establishmentRulesQuizzes = {
     explanation: "No is the correct answer.",
   },
 ],
-        "ups": [
+"ups": [
   {
     question:
       "Unified Pension Scheme (UPS) was approved in which year?",
@@ -3270,7 +3418,7 @@ export const establishmentRulesQuizzes = {
     explanation: "2024 is the correct answer.",
   },
 ],
-        "ops": [
+"ops": [
   {
     question:
       "Old Pension Scheme (OPS) is applicable to employees appointed before which date?",
@@ -3531,7 +3679,7 @@ export const establishmentRulesQuizzes = {
     explanation: "40% is the correct answer.",
   },
 ],
-        "cpc": [
+"cpc": [
   {
     question:
       "7th Central Pay Commission (CPC) was constituted in the year:",
@@ -3584,10 +3732,73 @@ export const establishmentRulesQuizzes = {
   },
   {
     question:
-      "",
-    options: ["", "", "", ""],
+      "Under which section is the States Information Commission mentioned in the RTI Act 2005?",
+    options: ["Section 12", "Section 13", "Section 14", "Section 15"],
+    correct: 3,
+    explanation: "The State Information Commission is constituted by the State Government under section 15 of the RTI Act 2005. This section authorizes the State Government to constitute a body to be known as the State Information Commission to exercise the powers conferred on, and to perform the functions assigned to, it under this Act.",
+  },
+  {
+    question:
+      "What is the rate of penalty per day for delay i providing information under section 20(1) of the RTI Act 2005?",
+    options: ["250 rupees", "500 rupees", "1000 rupees", "2000 rupees"],
     correct: 0,
-    explanation: "12th October 2005 is the correct answer.",
+    explanation: "Under section 20(1) of the Right to Information Act 2005, the penalty per day for delay in providing information is 250 rupees is imposed on the Public Information Officer (PIO) for delays i providing information. This penalty accrues for each day the application is delayed or information is not furnished, up to a maximum of 25,000 rupees.",
+  },
+  {
+    question:
+      "Which section of the RTI Act 2005, deals with monitoring and reporting by the Information Commissions?",
+    options: ["Section 25", "Section 26", "Section 27", "Section 28"],
+    correct: 0,
+    explanation: "Section 25 of the RTI Act 2005 deals with monitoring and reporting by the Information Commissions. It requires the Central Information Commission or State Information Commission, as the case may be, to prepare a report on the implementation of the provisions of this Act during that year and forward a copy thereof to the appropriate Government.",
+  },
+  {
+    question:
+      "Under which section of the RTI Act 2005, is the Central Information Commission mentioned?",
+    options: ["Section 12", "Section 13", "Section 14", "Section 15"],
+    correct: 0,
+    explanation: "The Central Information Commission is constituted by the Central Government under section 12 of the RTI Act 2005. This section authorizes the Central Government to constitute a body to be known as the Central Information Commission to exercise the powers conferred on, and to perform the functions assigned to, it under this Act.",
+  },
+  {
+    question:
+      "Within how many days must an RTI application be transffered to another public authority under section 6 of the RTI Act 2005?",
+    options: ["5 days", "7 days", "10 days", "15 days"],
+    correct: 0,
+    explanation: "Under section 6(3) of the RTI Act 2005, the public authority, to which such application is made, shall transfer the application or such part of it as may be appropriate to that other public authority and inform the applicant immediately about such transfer. The transfer shall be made as soon as practicable but in no case later than five days from the date of receipt of the application.",
+  },
+  {
+    question:
+      "What is the maximum penalty that can be imposed on a Public Information Officer (PIO) under the RTI Act 2005?",
+    options: ["25000 rupees", "50000 rupees", "75000 rupees", "100000 rupees"],
+    correct: 0,
+    explanation: "Under section 20(1) of the RTI Act 2005, the penalty per day for delay in providing information is 250 rupees is imposed on the Public Information Officer (PIO) for delays i providing information. This penalty accrues for each day the application is delayed or information is not furnished, up to a maximum of 25,000 rupees.",
+  },
+  {
+    question:
+      "Under which section does the RTI Act 2005 have overriding effect over other laws?",
+    options: ["Section 22", "Section 23", "Section 24", "Section 25"],
+    correct: 0,
+    explanation: "Under section 22 of the RTI Act 2005, the provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in the Official Secrets Act, 1923 (19 of 1923), and any other law for the time being in force or in any instrument having effect by virtue of any law other than this Act.",
+  },
+  {
+    question:
+      "What is the maximum time limit for providing information if the application is transferred under section 6(3) of the RTI Act 2005?",
+    options: ["30 days", "45 days", "60 days", "90 days"],
+    correct: 0,
+    explanation: "30 days from the date of receipt by the transferee public authority.",
+  },
+  {
+    question:
+      "Date on which the RTI Act 2005 was passed in Parliament?",
+    options: ["15th June 2005", "12th July 2005", "12th August 2005", "12th September 2005"],
+    correct: 0,
+    explanation: "15th June 2005 is the correct answer.",
+  },
+  {
+    question:
+      "Under which section does the Information Commission have the power to impose penalties on a Public Information Officer (PIO) for delay in providing information?",
+    options: ["Section 20", "Section 21", "Section 22", "Section 23"],
+    correct: 0,
+    explanation: "Section 20 of the RTI Act 2005 provides the Information Commission with the power to impose penalties on a Public Information Officer (PIO) for delay in providing information. The penalty is imposed for each day the application is delayed or information is not furnished, up to a maximum of 25,000 rupees.",
   },
 ],
 "lhb": [
