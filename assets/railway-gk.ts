@@ -1809,6 +1809,129 @@ export const railwayGkQuizzes = {
             correct: 1,
             explanation: "Used for unreserved tickets.",
           },
+        ],
+        "chapter-6": [
+          {
+            question: "In which train has the country's first train ATM been installed?",
+            options: ["Chennai Express", "Guwahati Express", "Panchvati Express", "Ramnagar Express"],
+            correct: 2,
+            explanation: "The Panchvati Express (also known as the Mumbai-Manmad or Manmad-CSMT Panchvati Express, Train No. 12110) is the first train in India to have an onboard ATM installed. This initiative by Indian Railways (in collaboration with the Bhusawal division and Bank of Maharashtra) involved a trial run on April 10, 2025, on the route between Mumbai's Chhatrapati Shivaji Maharaj Terminus (CSMT) and Manmad Junction in Maharashtra.",
+          },
+          {
+            question: "Which became the first bank to install an ATM in a train in India?",
+            options: ["Bank of Maharashtra", "State Bank of India", "HDFC Bank", "ICICI Bank"],
+            correct: 0,
+            explanation: "Bank of Maharashtra became the first bank to install an ATM in a train in India. It was installed on the Panchvati Express in 2025.",
+          },
+          {
+            question: "Where is Asia's first vertical lift railway sea bridge (New Pamban Bridge) located?",
+            options: ["Andhra Pradesh", "Karnataka", "Kerala", "Tamil Nadu"],
+            correct: 3,
+            explanation: "The New Pamban Bridge (also known as the new Pamban Rail Bridge) is located in Ramanathapuram district, Tamil Nadu, India. It spans the Palk Strait (part of the Pamban Strait), connecting Mandapam on the Indian mainland with Rameswaram (on Pamban Island).",
+          },
+          {
+            question: "Which institution developed India's first 442-meter-long Hyperloop test track?",
+            options: ["IIT Bombay", "IIT Kanpur", "IIT Kharagpur", "IIT Madras"],
+            correct: 3,
+            explanation: "IIT Madras (Indian Institute of Technology Madras), specifically through its student team Avishkar Hyperloop in collaboration with the incubated startup TuTr Hyperloop, developed India's first Hyperloop test track. The track is a vacuum-compatible tube facility (often reported as approximately 410–442 meters long, with sources citing 422 m or 442 m depending on the exact segment or reporting date). It is located at the IIT Madras Discovery Campus in Thaiyur, near Chennai, Tamil Nadu.",
+          },
+          {
+            question: "How much budget was allocated to the Ministry of Railways in Budget 2025-26?",
+            options: ["2.40 lakh crore", "2.52 lakh crore", "2.62 lakh crore", "2.65 lakh crore"],
+            correct: 3,
+            explanation: "The Ministry of Railways received a capital expenditure allocation of ₹2.65 lakh crore (₹2,65,200 crore) in the Union Budget 2025-26. This marks the highest-ever capital outlay for Indian Railways, with ₹2,52,000 crore from general revenues (Gross Budgetary Support), ₹10,000 crore from extra-budgetary resources, ₹3,000 crore from internal resources, and ₹200 crore from the Nirbhaya Fund. Key components include: New railway lines: ₹32,235 crore. Track doubling: ₹32,000 crore. Rolling stock: ₹57,693 crore. Gauge conversion: ₹4,550 crore. Safety initiatives: ₹1,16,514 crore (track renewal, signaling, etc.)",
+          },
+          {
+            question: "How much budget was allocated to the Ministry of Railways in Budget 2026-27?",
+            options: ["2.75 lakh crore", "2.85 lakh crore", "2.93 lakh crore", "3.05 lakh crore"],
+            correct: 2,
+            explanation: "In the Union Budget 2026-27, the Ministry of Railways received a record capital expenditure (capex) outlay of ₹2,93,030 crore. This is described as the highest-ever allocation for Indian Railways. The total outlay (including Gross Budgetary Support and other components) is commonly reported as ₹2,78,030 crore (or approximately ₹2.78–2.81 lakh crore in various summaries). Some official breakdowns place the ministry's overall expenditure allocation at around ₹2,81,377 crore.",
+          },
+          {
+            question: "Which country built the world's first 3D-printed railway station?",
+            options: ["India", "China", "Japan", "United States"],
+            correct: 2,
+            explanation: "Japan built the world's first 3D-printed railway station. The station, known as Hatsushima Station (in Arida City, Wakayama Prefecture), was developed by West Japan Railway Company (JR West) in collaboration with the Japanese construction technology firm Serendix (and architecture studio Neuob). It replaced an old wooden shelter built in 1948.",
+          },
+          {
+            question: "Which became the 69th Division of Indian Railways?",
+            options: ["Batala Division", "Jammu Division", "Ladakh Division", "None of the above"],
+            correct: 3,
+            explanation: "The Jammu Railway Division (headquartered in Jammu) became the 69th Division of Indian Railways. It was established under the Northern Railway Zone and became operational effective January 1, 2025. Prime Minister Narendra Modi formally inaugurated it on January 6, 2025",
+          },
+          {
+            question: "Where is the world's highest railway bridge located?",
+            options: ["Arunachal Pradesh", "Assam", "Jammu & Kashmir", "Tamil Nadu"],
+            correct: 2,
+            explanation: "The world's highest railway bridge is the Chenab Rail Bridge (also known as the Chenab Bridge), located in Reasi district, Jammu and Kashmir, India. It spans the Chenab River between Kauri and Bakkal railway stations on the Jammu–Baramulla line (part of the Udhampur-Srinagar-Baramulla Rail Link or USBRL project). The bridge deck stands at a height of 359 meters (1,178 feet) above the riverbed — approximately 35 meters taller than the Eiffel Tower",
+          },
+          {
+            question: "Which is the longest rail-road bridge in India?",
+            options: ["Amarpuri Bridge", "Bogibeel Bridge", "Maku Bridge", "Nalabari Bridge"],
+            correct: 1,
+            explanation: "The Bogibeel Bridge (also known as the Bogibeel Rail-cum-Road Bridge) is the longest rail-road (rail-cum-road) bridge in India. It measures 4.94 km (approximately 4.9–5 km) in total length and spans the Brahmaputra River in Assam, connecting Dhemaji (north bank, Dhemaji district) with Dibrugarh (south bank, Dibrugarh district)",
+          },
+          {
+            question: "Which force has Indian Railways formed to deal with railway accidents?",
+            options: ["Accidents Prevention Force", "Rail Rakshak Dal", "Rail Service Force", "None of the above"],
+            correct: 1,
+            explanation: "Indian Railways launched the 'Rail Rakshak Dal' (a quick-response volunteer-based rescue team) specifically to deal with railway accidents and conduct prompt rescue operations. It was introduced as a pilot project in the North Western Railway (NWR) zone in September 2024 (launched around September 24, 2024), under the direction of the Railway Minister. This marked the first time such an internal initiative was rolled out, with the inclusion of Railway Protection Force (RPF) personnel in rescue processes",
+          },
+
+          {
+            question: "India's first air train will start at which airport?",
+            options: ["Chennai Airport", "Delhi Airport", "Hyderabad Airport", "Mumbai Airport"],
+            correct: 1,
+            explanation: "ndira Gandhi International Airport (IGI Airport) in Delhi is where India's first air train (also called an Automated People Mover or APM, commonly referred to as a Sky Train) will start operations. Delhi International Airport Limited (DIAL), operated by GMR Group, is developing this Automated People Mover (APM) system on a design-build-finance-operate-transfer (DBFOT) model. It will connect Terminal 1 (T1) with Terminals 2/3 (T2/3), Aerocity, and Cargo City over a 7.7 km elevated and at-grade route with four stops.",
+          },
+          {
+            question: "Rangpo Railway Station is the first railway station of which state?",
+            options: ["Assam", "Manipur", "Mizoram", "Sikkim"],
+            correct: 3,
+            explanation: "Rangpo Railway Station is the first railway station of Sikkim. It is being developed as part of the Sevoke-Rangpo Railway Line (also known as Sivok-Rangpo project), a 44–45 km broad-gauge line that will connect Sikkim to the Indian Railways network for the first time. The station is located at Khanikhola, Majitar, near Rangpo town in Pakyong district, Sikkim",
+          },
+          {
+            question: "Which CPSEs under the Ministry of Railways have been granted Navratna status?",
+            options: ["IRCTC", "IRFC", "IRCTC & IRFC", "None of the above"],
+            correct: 2,
+            explanation: "IRCTC & IRFC: March 2025, becoming the 25th and 26th Navratna CPSEs overall.",
+          },
+          {
+            question: "Where will India's first driverless metro train run?",
+            options: ["Delhi Metro", "Mumbai Metro", "Kolkata Metro", "Chennai Metro"],
+            correct: 0,
+            explanation: "India's first driverless metro train (fully automated, Grade of Automation 4 or Unattended Train Operation - UTO) runs on the Delhi Metro's Magenta Line. The Magenta Line spans 37 km from Janakpuri West (Line 8) to Botanical Garden (Line 8), serving 25 stations including key hubs like Janakpuri, RK Ashram Marg, and Chirag Delhi. Operations began on December 28, 2020, inaugurated by PM Narendra Modi, marking India's first fully automated (GoA4) metro service controlled from a central Operations Control Centre.",
+          },
+          {
+            question: "Which country operated the world's first Hydrogen-powered train?",
+            options: ["China", "France", "Germany", "United States"],
+            correct: 2,
+            explanation: "Germany operated the world's first hydrogen-powered train in regular passenger service. The train is the Alstom Coradia iLint, a zero-emission passenger train that uses hydrogen fuel cells to generate electricity (emitting only water vapor and heat). It was developed by the French company Alstom but first entered commercial service in Germany in September 2018.",
+          },
+          {
+            question: "What is the height of the Chenab Rail Bridge?",
+            options: ["309 meters", "339 meters", "359 meters", "389 meters"],
+            correct: 2,
+            explanation: "The Chenab Rail Bridge (also known as the Chenab Bridge) has a deck height of 359 meters (1,178 feet) above the riverbed. This makes it the world's highest railway bridge, surpassing the Eiffel Tower (324 m) by 35 meters. The deck height is measured from the Chenab River bed in Reasi district, Jammu and Kashmir."
+          },
+          {
+            question: "In which country was Asia's first Hydrogen train launched?",
+            options: ["China", "India", "Japan", "Vietnam"],
+            correct: 0,
+            explanation: "China launched Asia's first hydrogen-powered train (specifically, the first hydrogen urban/passenger train in Asia). In early 2023, CRRC Corporation Ltd. unveiled the world's first hydrogen-powered urban train in China, making it Asia's pioneer after Germany debuted the global first in 2018. This four-car train, based on a high-speed platform, reached test speeds of 160 km/h by March 2024.",
+          },
+          {
+            question: "In which state will India's first Hydrogen-powered train be launched?",
+            options: ["Gujarat", "Haryana", "Himachal Pradesh", "Unttar Pradesh"],
+            correct: 1,
+            explanation: "Haryana is the state where India's first hydrogen-powered train will be (and has begun to be) launched/operated on a pilot basis. The train operates on the Jind-Sonipat route under Northern Railway as a pilot project. It successfully completed trial runs in March 2026 from Jind railway station, covering a 20-km stretch to Lalit Khera at 70 km/h speeds with eight coaches. Full commercial operations are expected post-trials, supported by a dedicated hydrogen plant in Jind using electrolysis.",
+          },
+          {
+            question: "In which state has the country's first CNG-powered toy train been started?",
+            options: ["Madhya Pradesh", "Maharashtra", "Rajasthan", "West Bengal"],
+            correct: 2,
+            explanation: "Rajasthan is the state where India's first CNG-powered toy train has been started. It was inaugurated on June 25, 2023, in Udaipur at Gulab Bagh (Sajjan Niwas Garden) and named the Maharana Pratap Express. Former Rajasthan Governor and then Home Minister Gulab Chand Kataria flagged it off.",
+          },
         ]
       },
 }
