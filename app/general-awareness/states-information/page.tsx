@@ -58,6 +58,15 @@ const stateTopics: StateTopic[] = [
     ring: 'ring-lime-500/30',
     iconBg: 'bg-lime-500/20',
   },
+  {
+    href: '/general-awareness/states-information/goa',
+    title: 'Goa',
+    subtitle: 'Coastal state',
+    description: 'Capital, symbols, districts, rivers, protected areas, airports, and miscellaneous facts.',
+    gradient: 'from-cyan-700 to-blue-900',
+    ring: 'ring-cyan-500/30',
+    iconBg: 'bg-cyan-500/20',
+  },
 ]
 
 const StatesInformationPage = () => {

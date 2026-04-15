@@ -656,7 +656,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between gap-3">
                       <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wider flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
-                        Topics (A–Z)
+                        Topics
                       </h3>
                       <span className="shrink-0 text-xs text-gray-500 font-medium">{topicsLinks.length} topics</span>
                     </div>
@@ -1167,7 +1167,7 @@ const Navbar = () => {
                     : 'text-white/90 bg-white/10 hover:bg-white/20 hover:text-white backdrop-blur-sm border border-white/20'
                 }`}
               >
-                <span>Topics (A–Z)</span>
+                <span>Topics</span>
                 <svg
                   className={`w-5 h-5 transition-transform duration-300 ${isTopicsDropdownOpen ? 'rotate-180' : ''}`}
                   fill="none"

@@ -1,8 +1,9 @@
 import React from 'react'
+import Artilces from '@/components/general-awareness/indian-constitution/Artilces'
 
 const IndianConstitutionPage = () => {
   return (
-    <div>General Awareness - Indian Constitution</div>
+    <Artilces showBackNav />
   )
 }
 
