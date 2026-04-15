@@ -61,6 +61,11 @@ const Years = () => {
         category: '1948'
       },
       {
+        question: 'The Minimum Wages Act was enacted in the year _____',
+        answer: '1948',
+        category: '1948'
+      },
+      {
         question: 'The Railway Services (Liberalised Leave) Rules, 1949 came into force on _______',
         answer: '1st February 1949',
         category: '1949'
@@ -91,7 +96,7 @@ const Years = () => {
         category: '1952'
       },
       {
-        question: 'When PNM (Permanent Negotiating Machinery) was formed',
+        question: 'When PNM (Permanent Negotiating Machinery) for Indian Railways was established?',
         answer: '01.01.1952',
         category: '1952'
       },
@@ -233,6 +238,11 @@ const Years = () => {
     {
       question: 'The rule governing employment assistance on compassionate ground has framed w.e.f _______',
       answer: '30.04.1993',
+      category: '1993'
+    },
+    {
+      question: 'Railway Services (Pension) Rules, 1993 were issued in the year _______',
+      answer: '1993',
       category: '1993'
     },
     {

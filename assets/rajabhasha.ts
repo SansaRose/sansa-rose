@@ -836,6 +836,13 @@ export const rajabhashaQuizzes = {
             correct: 2,
             explanation: "VRSP is the correct answer.",
           },
+          {
+            question:
+              "Kamalapathi Tripathi Rajbhasha Gold Medal is given to which level officer for their outstanding contribution towards Rajabhasha Implementation in Zonal Railway/Workshop Units?",
+            options: ["SG", "SAG", "HAG", "HAG+"],
+            correct: 3,
+            explanation: "HAG+ is the correct answer.",
+          },
         ],
       },
 }

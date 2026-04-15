@@ -295,6 +295,79 @@ export const financialRulesQuizzes = {
             correct: 1,
             explanation: "S-1302 is the correct answer.",
           },
+          {
+            question: "Final withdrawal of Provident Fund (PF) is allowed after how many years of service?",
+            options: ["10 years", "15 years", "20 years", "25 years"],
+            correct: 1,
+            explanation: "15 years is the correct answer.",
+          },
+          {
+            question: "The minimum amount of compensation payable under Employees Compensation Act, 1923 is, in case of total permanent disability of a Railway servant due to accident?",
+            options: ["1,00,000", "1,20,000", "1,40,000", "1,80,000"],
+            correct: 2,
+            explanation: "1,40,000 is the correct answer.",
+          },
+          {
+            question: "The transactions to the extent of ______ should be intimated to the government within one month of such transactions?",
+            options: ["Basic pay", "More than 1.5 times of basic pay", "More than 2 times of basic pay", "More than 2.5 times of basic pay"],
+            correct: 2,
+            explanation: "More than 2 times of basic pay is the correct answer.",
+          },
+          {
+            question: "What is the rate of reimbursement of Children Education Allowance (CEA) to Disabled Children?",
+            options: ["4500/-", "4800/-", "5100/-", "5625/-"],
+            correct: 3,
+            explanation: "5625/- is the correct answer.",
+          },
+          {
+            question: "An employee can give option for apy fixation on promotion within ______ days of promotion?",
+            options: ["15", "30", "45", "60"],
+            correct: 1,
+            explanation: "30 days is the correct answer.",
+          },
+          {
+            question: "A railway employee on his superannuation changed his residence, which is less than 20 km away from the existing one. His last basic pay is 84000/-. What will be the amount to be paid as CTG?",
+            options: ["16800/-", "58800/-", "67200/-", "62000/-"],
+            correct: 2,
+            explanation: "67200/- is the correct answer. (84000 * 80% * 20 km)",
+          },
+          {
+            question: "If a Railway servant expires while in service and his qualifying service is 10 years. What amount of Death Gratuity shall be paid to his family?",
+            options: ["5 times of basic pay", "10 times of basic pay", "12 times of basic pay", "20 lakhs"],
+            correct: 2,
+            explanation: "12 times of basic pay is the correct answer.(Less than 1 year service - 2 times. 01 year to 5 years service - 6 times. 5 years to 11 years service - 12 times. 11 years to 20 years service - 20 times. 20+ years service - 33 times.). But maximum amount is 25 lakhs.",
+          },
+          {
+            question: "Which of the following is/are fully exempted from Income Tax?",
+            options: ["DCRG", "LAP", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation: "Both A & B is the correct answer.",
+          },
+          {
+            question: "For claiming Hostel Subsidy, pre-condintion required regarding the distance between residence of emplyee and ward's hostel is ______",
+            options: ["50 km", "60 km", "70 km", "80 km"],
+            correct: 0,
+            explanation: "At least 50 km or more is the correct answer. (33750/- per year)",
+          },
+          {
+            question: "Competent Authority to approve interest on delayed payment of DCRG is ______ in the division?",
+            options: ["ADRM", "DRM", "GM", "PCPO"],
+            correct: 2,
+            explanation: "GM or Administrative Head of the Railway Unit is the correct answer.",
+          },
+          {
+            question: "As per Trade Union Act, 1926, what is the minimum number of employees required to form a trade union?",
+            options: ["7", "10", "20", "25"],
+            correct: 0,
+            explanation: "7 is the correct answer.(As per the Trade Union Act, 1926, Section 4, a trade union can be formed by a minimum of 7 employees.)",
+          },
+          {
+            question:
+              "What is the maiximum amount of Compassionate Allowance paid to an employee who was removed from service?",
+            options: ["2/3 Pension", "2/3 Gratuity", "Both A & B", "None of the above"],
+            correct: 2,
+            explanation: "Both A & B is the correct answer.(In the Indian Railways, the maximum amount of Compassionate Allowance paid to an employee who was removed from service or dismissed from service is 2/3 of his pension and 2/3 of his gratuity that would have been admissible to them had they retired on compensation pension, subject to a minimum of 9,000/- per month.)",
+          },
         ],
         "tenders": [
           {

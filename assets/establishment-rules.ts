@@ -1,6 +1,6 @@
 export const establishmentRulesQuizzes = {
     quizzes: {
-        "discipline-appeal-rules": [
+"discipline-appeal-rules": [
           
           {
             question:
@@ -523,6 +523,46 @@ export const establishmentRulesQuizzes = {
             options: ["ADRM", "DRM", "GM", "PCPO"],
             correct: 1,
             explanation: "DRM is the correct answer.",
+          },
+          {
+            question: "If in a case Disciplinary Authority is Sr.DPO, who shall be the Reviewing Authority?",
+            options: ["ADRM", "DRM", "GM", "PCPO"],
+            correct: 1,
+            explanation: "DRM is the correct answer.",
+          },
+          {
+            question: "Which form is issued for nomination of Inquiry Officer under D&AR Rules 1968?",
+            options: ["SF-7", "SF-8", "SF-9", "SF-10"],
+            correct: 0,
+            explanation: "SF-7 is the correct answer.",
+          },
+          {
+            question:
+              "Appeal against classification of railway servants under HOER can be within ______ days of its publication?",
+            options: ["30", "45", "60", "90"],
+            correct: 3,
+            explanation: "90 days is the correct answer.",
+          },
+          {
+            question:
+              "As per Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, the tenure of Presiding Officer of Internal Committee is ______ years",
+            options: ["1", "2", "3", "4"],
+            correct: 2,
+            explanation: "3 years is the correct answer.",
+          },
+          {
+            question:
+              "Penalty of Compulsory retirement/Removal from service/Dismissal can be imposed by ______",
+            options: ["Appointing Authority", "Controlling Authority", "PHOD of the department", "HOD of the department"],
+            correct: 0,
+            explanation: "Appointing Authority is the correct answer.",
+          },
+          {
+            question:
+              "Competent Authority to dispose off an appeal made under CPGRAMS by a divisional officer is ______",
+            options: ["ADRM", "DRM", "GM", "PCPO"],
+            correct: 0,
+            explanation: "ADRM is the correct answer.",
           },
         ],
 "leave-rules": [
@@ -1285,6 +1325,27 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "Railway Board is the correct answer.",
           },
+          {
+            question:
+              "Special Leave Petition (SPL) is filed before ______",
+            options: ["Central Administrative Tribunal", "State Administrative Tribunal", "High Court", "Supreme Court"],
+            correct: 3,
+            explanation: "Supreme Court is the correct answer.",
+          },
+          {
+            question:
+              "Period of Special Casual Leave (SCL) admissible to female railway employee on account of Vasectomy operation of her husband is ______ days",
+            options: ["1", "2", "3", "4"],
+            correct: 0,
+            explanation: "1 day is the correct answer.",
+          },
+          {
+            question:
+              "A Railway employee appointed on 15.11.1990. His last basic pay is 66000/-. At the time of retirement he has 270 days of LAP and 200 days of LHAP in his credit. What will be the leave encashment payable at the time of his retirement. The rate of DA is 42%.",
+            options: ["8,90,340/-", "8,76,211/-", "8,43,480/-", "9,37,200/-"],
+            correct: 0,
+            explanation: "8,90,340/- is the correct answer.",
+          },
         ],
 "rest-rules": [
           {
@@ -1826,6 +1887,14 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "43,600 is the correct answer.",
           },
+          {
+            question:
+              "In 'L' shaped roster, roster point four is earmarked to ______ community in direct recruitment quota",
+            options: ["SC", "ST", "OBC", "UR"],
+            correct: 2,
+            explanation: "OBC is the correct answer.",
+          },
+          
         ],
         
 "pass-rules": [
@@ -2030,6 +2099,24 @@ export const establishmentRulesQuizzes = {
             options: ["Cancellation e-pass", "Issuance of e-pass", "Re-declaration of same family", "None of the above"],
             correct: 0,
             explanation: "Cancellation e-pass is the correct answer.",
+          },
+          {
+            question: "SAG officer is entitled for ______ of metal pass for travelling on duty?",
+            options: ["Gold", "Silver", "Bronze", "Platinum"],
+            correct: 1,
+            explanation: "Silver is the correct answer.",
+          },
+          {
+            question: "_____ class of three sets privilege passes can be issued tothe employees of Level-5 of 7th CPC after a service of 5 years?",
+            options: ["First Class", "Second Class", "Second Class A", "Sleeper Class"],
+            correct: 2,
+            explanation: "Second Class A is the correct answer.",
+          },
+          {
+            question: "For employees of Group C and D, who served more than 20 years, how many sets of Complimentary Retirement passes will be given every year?",
+            options: ["1", "2", "3", "4"],
+            correct: 2,
+            explanation: "2 is the correct answer.",
           },
         ],
         
@@ -2618,6 +2705,14 @@ question:
             correct: 0,
             explanation: "Posted in the same grade is the correct answer.",
           },
+          {
+            question:
+              "Subject to other conditions, Compassionate Ground Appointments (CGA), in case of wards of missing Railway employees can be considered after a lapse of ______ years from the date of missing?",
+            options: ["1", "2", "3", "4"],
+            correct: 1,
+            explanation: "2 years is the correct answer.",
+          },
+          
         ],
 "apar":
 [
@@ -3106,6 +3201,13 @@ question:
     options: ["Yes", "No", "After 10 years", "After 15 years"],
     correct: 1,
     explanation: "No is the correct answer.",
+  },
+  {
+    question:
+      "How many digits are there in PPAN (Permanent Pension Account Number) in the account number of National Pension System (NPS) subscriber?",
+    options: ["10", "12", "14", "16"],
+    correct: 1,
+    explanation: "12 is the correct answer.",
   },
 ],
 "ups": [
@@ -4087,6 +4189,13 @@ question:
     correct: 3,
     explanation: "Settlement after VR is the correct answer.",
   },
+  {
+    question:
+      "Which of the following statement about HRMS is not correct?",
+    options: ["HRMS is revised name of IPAS", "It is an employee database management system", "It is managed by CRIS", "It is an effort to digitalize office working"],
+    correct: 0,
+    explanation: "HRMS is revised name of IPAS is the correct answer.",
+  },
 ],
 "miscelaneous": [
   {
@@ -4432,6 +4541,105 @@ question:
     correct: 0,
     explanation: "2 years is the correct answer.",
   },
+  {
+    question:
+      "On death of a Railway Employee, Railway quarters allotted to him can be retained for a period of ______",
+    options: ["6 months", "12 months", "18 months", "24 months"],
+    correct: 3,
+    explanation: "24 months is the correct answer.",
+  },
+  {
+    question:
+      "Own request transfers, if NOC issued shall have a validity of ______ for relase of the staff",
+    options: ["6 months", "12 months", "18 months", "24 months"],
+    correct: 1,
+    explanation: "12 months is the correct answer.",
+  },
+  {
+    question:
+      "For regularization in the post of Jr. Clerk-Cum-Typist, the qualifying speed test in Hindi language is:",
+    options: ["10 words per minute", "15 words per minute", "20 words per minute", "25 words per minute"],
+    correct: 3,
+    explanation: "25 words per minute is the correct answer.",
+  },
+  {
+    question:
+      "Ex-servicemen quota in open market recruitment for Group C posts in Railway Services is ______",
+    options: ["10%", "12%", "14%", "16%"],
+    correct: 0,
+    explanation: "10% is the correct answer.",
+  },
+  {
+    question:
+      "How many candidates can be recruited against Cultural Quota in Group C Railway Services for a Zone in a financial year?",
+    options: ["1", "2", "3", "4"],
+    correct: 2,
+    explanation: "2 is the correct answer.",
+  },
+  {
+    question:
+      "Which of the following is a 'General Selection' post?",
+    options: ["Chief Loco Inspector", "Chief Law Assistant", "Section Controller", "Sr. Clerk"],
+    correct: 1,
+    explanation: "Chief Law Assistant is the correct answer.",
+  },
+  {
+    question:
+      "Which one of the following is not falling under Horizontal Reservation?",
+    options: ["CCAA", "Ex-Servicemen", "PwBD", "EWS"],
+    correct: 3,
+    explanation: "EWS (Economically Weaker Section) is the correct answer.",
+  },
+  {
+    question:
+      "Time schedule for screening of employees for grant of MACPS benefits?",
+    options: ["1st week of January/July", "1st week of April/October", "1st week of May/November", "1st week of June/December"],
+    correct: 0,
+    explanation: "1st week of January/July is the correct answer.",
+  },
+  {
+    question:
+      "Which of the following is not available for managing files in e-Office?",
+    options: ["Close", "Delete", "Digital Signature", "Send"],
+    correct: 1,
+    explanation: "Delete is the correct answer.",
+  },
+  {
+    question:
+      "Reservation in promotions to PwBD candidates shall be applicable in the cadres in which the element of Direct Recruitment, if any, does not exceed ______",
+    options: ["40%", "50%", "60%", "75%"],
+    correct: 3,
+    explanation: "75% is the correct answer.",
+  },
+  {
+    question:
+      "Which of the following disabilities comes under Locomotive Disability Category?",
+    options: ["Acid attack victims", "Dwarfism", "Leprosy cured person", "All of the above"],
+    correct: 3,
+    explanation: "All of the above is the correct answer.",
+  },
+  {
+    question:
+      "The pay of the employee shall be protected in case of own request transfer to a lower post provided he ahs completed minimum service of ______",
+    options: ["1 year", "2 years", "3 years", "4 years"],
+    correct: 0,
+    explanation: "Based on Railway Board RBE No. 161/2019, an employee can be protected in case of own request transfer to a lower post provided he has completed minimum service of 1 year.",
+  },
+  {
+    question:
+      "Permanent Negotiating Machinery (PNM) was established in the year 1951 by ______",
+    options: ["George Fernandes", "Lal Bahadur Shastri", "Jawaharlal Nehru", "V.V. Giri"],
+    correct: 3,
+    explanation: "The Permanent Negotiating Machinery (PNM) for Indian Railways was established on January 1, 1952. It was established in the year 1951 by V.V. Giri to maintain contact with organized labor, facilitate collective bargaining, and disputes between the Railway Administration and workers through a three-tier structure.",
+  },
+  {
+    question:
+      "Holidays for emplyees are decided by the nominated committee under powers given by which act?",
+    options: ["Indian Railways Act", "Payment of Wages Act", "The Trade Union Act", "None of the above"],
+    correct: 3,
+    explanation: "President of India (Article 309) is the correct answer.",
+  },
+
 ]
     }
 }

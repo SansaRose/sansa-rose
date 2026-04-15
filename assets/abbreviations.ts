@@ -1212,6 +1212,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "EPS", fullForm: "Employee Pension Scheme",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "ESP", fullForm: "Engineering Scale Plan",
         explanation: "Will be added later",
         reference: "--"
@@ -2575,7 +2579,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PNR", fullForm: "Passenger Name record",
-        explanation: "Travel booking reference used in passenger reservation systems",
+        explanation: "Travel booking reference used in passenger reservation systems. It is a unique alphanumeric code (10 characters) assigned to each passenger reservation, used for tracking, managing, and canceling bookings.",
         reference: "--"
       },
       { acronym: "POET", fullForm: "Passenger Operated Enquiry Terminal",
@@ -2603,11 +2607,11 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PPAN", fullForm: "Permanent Pension Account Number",
-        explanation: "Will be added later",
+        explanation: "The PPAN (Permanent Pension Account Number) for NPS subscribers, typically used for government employees, consists of 16 digits. This number is allotted by the concerned Pay and Accounts Office (PAO) or DDO, with the first four digits often indicating the calendar year of joining government service.",
         reference: "--"
       },
       { acronym: "PPO", fullForm: "Pension Payment Order",
-        explanation: "Will be added later",
+        explanation: "A Pension Payment Order (PPO) number consists of 2 digits. This unique number acts as a permanent identifier for all pension-related transactions and communications under the Employee Pension Scheme (EPS).",
         reference: "--"
       },
       { acronym: "PQ", fullForm: "Promotional Quota",
@@ -2620,6 +2624,10 @@ type AbbreviationItem = {
       },
       { acronym: "PR", fullForm: "Periodical Rest",
         explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PRAN", fullForm: "Permanent Retirement Account Number",
+        explanation: "The PRAN (Permanent Retirement Account Number) for NPS subscribers, typically used for government employees, consists of 12 digits. This unique, permanent number is assigned to each subscriber upon registration and remains valid throughout their lifetime, regardless of changes in employment or location, acting as the primary identifier for all account transactions.",
         reference: "--"
       },
       { acronym: "PRCP", fullForm: "Post Retirement Complimentary Passes",
@@ -2683,6 +2691,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "PWB", fullForm: "Passenger Warning Board",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "PwBD", fullForm: "Persons with Benchmark Disabilities",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2924,6 +2936,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "RRT", fullForm: "Railway Rates Tribunal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "RRTS", fullForm: "Regional Rapid Transit System",
         explanation: "Will be added later",
         reference: "--"
       },

@@ -1856,7 +1856,7 @@ export const railwayGkQuizzes = {
           {
             question: "Which became the 69th Division of Indian Railways?",
             options: ["Batala Division", "Jammu Division", "Ladakh Division", "None of the above"],
-            correct: 3,
+            correct: 1,
             explanation: "The Jammu Railway Division (headquartered in Jammu) became the 69th Division of Indian Railways. It was established under the Northern Railway Zone and became operational effective January 1, 2025. Prime Minister Narendra Modi formally inaugurated it on January 6, 2025",
           },
           {
@@ -1932,6 +1932,189 @@ export const railwayGkQuizzes = {
             correct: 2,
             explanation: "Rajasthan is the state where India's first CNG-powered toy train has been started. It was inaugurated on June 25, 2023, in Udaipur at Gulab Bagh (Sajjan Niwas Garden) and named the Maharana Pratap Express. Former Rajasthan Governor and then Home Minister Gulab Chand Kataria flagged it off.",
           },
+          {
+            question: "Which country recently built the world's first high-speed carbon fiber train?",
+            options: ["China", "Japan", "Germany", "United States"],
+            correct: 0,
+            explanation: "China recently built the world's first high-speed carbon fiber train. The train, named CETROVO 1.0 or Carbon Star Rapid Transit (Cetrovo 1.0), was unveiled in Qingdao, Shandong province, in July 2024 and entered commercial passenger service on Qingdao Metro Line 1 on January 10, 2025. Developed by CRRC Qingdao Sifang, its main load-bearing structures—like the car body and bogie frame—are made from carbon fiber composites, making the entire train about 11% lighter than traditional steel models.",
+          },
+          {
+            question: "Where did Prime Minister Narendra Modi recently inaugurate India's first underwater metro service?",
+            options: ["Mumbai", "Delhi", "Chennai", "Kolkata"],
+            correct: 3,
+            explanation: "Prime Minister Narendra Modi inaugurated India's first underwater metro service in Kolkata. The service runs between Howrah Maidan and Esplanade stations, featuring a 520-meter underwater tunnel beneath the Hooghly River, which separates Kolkata and Howrah in West Bengal. This engineering feat includes India's deepest metro station at Howrah, located about 33 meters below the surface.",
+          },
+          {
+            question: "Under which river did Prime Minister Narendra Modi inaugurate India's first underwater metro service?",
+            options: ["Hooghly River", "Ganga River", "Bhagirathi River", "Cauvery River"],
+            correct: 0,
+            explanation: "Prime Minister Narendra Modi inaugurated India's first underwater metro service under the Hooghly River. The 520-meter underwater tunnel connects Howrah Maidan and Esplanade stations in Kolkata, passing approximately 13 meters below the Hooghly River bed (around 30-37 meters below the surface). This makes it India's deepest metro tunnel and a key part of the East-West Metro corridor.",
+          },
+          {
+            question: "Where was India's first 'Namo Bharat Rapid Rail' inaugurated?",
+            options: ["Gujarat", "Haryana", "Himachal Pradesh", "Unttar Pradesh"],
+            correct: 0,
+            explanation: "Prime Minister Narendra Modi inaugurated India's first Namo Bharat Rapid Rail in Ahmedabad, Gujarat. The event took place on September 16, 2024, where Modi flagged off the service connecting Ahmedabad and Bhuj, covering 360 km with stops at nine stations including Gandhidham, Samakhiali, and Sabarmati. This marked the debut of the Namo Bharat (also called Vande Metro), a semi-high-speed regional rail with a top speed of 110 km/h and fares starting at Rs 30.",
+          },
+          {
+            question: "Who became India's first woman loco pilot to operate the 'Vande Bharat Express' train?",
+            options: ["Surekha Yadav", "Rekha Yadav", "Jyoti Sharma", "Hina Jaiswal"],
+            correct: 0,
+            explanation: "Surekha Yadav became India's first woman loco pilot to operate the Vande Bharat Express train. Surekha Yadav, from Satara district in Maharashtra, made history on March 13, 2023, by piloting the Vande Bharat Express from Solapur to Chhatrapati Shivaji Maharaj Terminus (CSMT) in Mumbai, covering 455 km. Already Asia's first female loco pilot since 1988, she underwent intensive training for this semi-high-speed train and completed the journey ahead of schedule.",
+          },
+          {
+            question: "Where will India's first fast railway trial track be built?",
+            options: ["Gujarat", "Maharashtra", "Madhya Pradesh", "Rajasthan"],
+            correct: 0,
+            explanation: "India's first fast railway trial track is being built near Didwana in Rajasthan's Nagaur district. The 60-km dedicated test track, spanning Gudha to Thathana Mithri (or Mithdi), is under construction near Sambhar Lake in the Jodhpur Division, about 80 km from Jaipur. Developed by the Research Designs and Standards Organization (RDSO) at a cost of around ₹820-967 crore, it will test high-speed, semi-high-speed, metro, and bullet trains up to 230 kmph without disrupting passenger services.",
+          },
+          {
+            question: "Where did Prime Minister Narendra Modi inaugurate the country's first 'Auto-In-Plant Railway Siding'?",
+            options: ["Gujarat", "Maharashtra", "Madhya Pradesh", "Rajasthan"],
+            correct: 0,
+            explanation: "Prime Minister Narendra Modi inaugurated India's first 'Auto-In-Plant Railway Siding' at Suzuki Motor Gujarat Private Limited in Hansalpur, near Becharaji, Gujarat. The facility, a wholly-owned subsidiary of Maruti Suzuki India Limited (MSIL), features a 2.5 km dedicated track connecting the plant to Becharaji Railway Station, enabling direct rail dispatch of finished vehicles. Inaugurated virtually on March 12, 2024, as part of the PM Gati Shakti initiative, it supports green logistics by reducing road congestion and fossil fuel use.",
+          },
+          {
+            question: "India's first High-Speed Rail Line is being constructed on which rail corridor?",
+            options: ["Delhi - Varanasi", "Mumbai - Ahmedabad", "Chennai - Bangalore", "Delhi - Mumbai"],
+            correct: 1,
+            explanation: "This 508-km corridor connects Mumbai in Maharashtra to Ahmedabad in Gujarat, designed for speeds up to 320 km/h using Shinkansen technology with Japanese assistance. Construction began in 2017 after foundation laying by PM Narendra Modi and Japan's PM Shinzo Abe, with the first section (Surat-Vapi, 97 km) targeted for 2027 operations using indigenously developed B28 trainsets by BEML.",
+          },
+          {
+            question: "Where will the country's first National Metro Rail Knowledge Centre be established?",
+            options: ["Delhi", "Mumbai", "Chennai", "Kolkata"],
+            correct: 0,
+            explanation: "India's first National Metro Rail Knowledge Centre will be established at Vishwavidyalaya Metro Station in Delhi. This facility, developed by the Delhi Metro Rail Corporation (DMRC) in partnership with GA Infra Pvt Ltd under a Public-Private Partnership (PPP) model, aims to serve as a hub for metro rail innovation, knowledge sharing, and collaboration across India's growing urban transit networks.",
+          },
+          {
+            question: "Breaking the record of Gorakhpur, which railway station has the longest platform in the world?",
+            options: ["Patna Railway Junction", "New Delhi Railway Station", "Hubballi Railway Station", "Varanasi Railway Station"],
+            correct: 0,
+            explanation: "Breaking the record of Gorakhpur, the railway station with the longest platform in the world is Hubballi Junction (Shree Siddharoodha Swamiji Station) in Karnataka. The platform at Hubballi Junction measures 1,507 metres (approximately 1.5 km or 4,944 feet), making it the current Guinness World Record holder . This record was officially recognized in March 2023 following a major modernization project ",
+          },
+          {
+            question: "Byculla Railway Station is located in which state that received the UNESCO Asia-Pacific Award?",
+            options: ["Maharashtra", "Tamil Nadu", "Kerala", "West Bengal"],
+            correct: 0,
+            explanation: "Byculla Railway Station is located in Maharashtra, the state that received the UNESCO Asia-Pacific Award. The station earned the UNESCO Asia-Pacific Award of Merit for Cultural Heritage Conservation in 2022 (presented in 2023) for its meticulous restoration, reviving its 169-year-old Victorian Gothic architecture while maintaining functionality.",
+          },
+          {
+            question: "Which state recently launched the country's first 'Mumbai Metro Rail Knowledge Centre'?",
+            options: ["Maharashtra", "Tamil Nadu", "Kerala", "West Bengal"],
+            correct: 0,
+            explanation: "Maharashtra recently launched the country's first 'Mumbai Metro Rail Knowledge Centre'. The centre, developed by the Mumbai Metro Rail Corporation (MMRC) in partnership with GA Infra Pvt Ltd under a Public-Private Partnership (PPP) model, aims to serve as a hub for metro rail innovation, knowledge sharing, and collaboration across India's growing urban transit networks.",
+          },
+          {
+            question: "Who has been the first woman chairperson of the Railway Board?",
+            options: ["Anshuti Rai", "Deepika Rana", "Jaya Verma Sinha", "Hina Jaiswal"],
+            correct: 2,
+            explanation: "Jaya Varma Sinha became the first woman chairperson of the Railway Board. She assumed office on September 1, 2023, succeeding Anil Kumar Lahoti, marking a historic milestone after 118 years of the board's existence. An IRTS officer since 1988, Sinha served as Member of Operations and Traffic before her elevation to the apex post.",
+          },
+        ],
+        "chapter-7": [
+          {
+            question: "By when has Indian Railways set a target to achieve net zero carbon emissions?",
+            options: ["2030", "2035", "2040", "2045"],
+            correct: 0,
+            explanation: `Indian Railways has set a target to achieve net zero carbon emissions by 2030.In some later reports, railway officials said the system may reach net zero targets earlier for direct emissions, but the official long-standing target remains 2030.`,
+          },
+          {
+            question: "What is the position of the Indian railway network in Asia?",
+            options: ["1st", "2nd", "3rd", "4th"],
+            correct: 0,
+            explanation: "Indian railway network is the 1st in Asia.",
+          },
+          {
+            question: "What is the rank of India's metro network at the world level?",
+            options: ["1st", "2nd", "3rd", "4th"],
+            correct: 2,
+            explanation: "As of 2026, India's metro network holds the 3rd rank in the world for total operational length. Following a period of rapid infrastructure expansion, India has surpassed traditional leaders like Japan and South Korea to sit just behind China (1st) and the United States (2nd).",
+          },
+          {
+            question: "Which of the following is the largest metro rail network in India?",
+            options: ["Delhi Metro", "Mumbai Metro", "Kolkata Metro", "Chennai Metro"],
+            correct: 0,
+            explanation: "Delhi Metro has the largest metro rail network in India. It spans 395 km across 271 stations, serving the National Capital Region including Delhi, Noida, Gurugram, and Ghaziabad.",
+          },
+          {
+            question: "Which city has the largest metro rail network in the world?",
+            options: ["Delhi", "Shanghai", "Moscow", "Beijing"],
+            correct: 1,
+            explanation: "Shanghai has the world's largest metro rail network by length. Shanghai Metro in China leads globally with over 800–900 km across 20+ lines and 500+ stations, serving millions daily.",
+          },
+          {
+            question: "Which company recently established the Maathwada Rail Coach Factory in Latur, Maharashtra?",
+            options: ["IRCON", "RVNL", "RITES", "None of the above"],
+            correct: 1,
+            explanation: "Kinet Railway Solutions (a joint venture between Rail Vikas Nigam Limited - RVNL, an Indian Railways PSU, and the Russian company Transmashholding/TMH) recently established operations and commissioned the Marathwada Rail Coach Factory (MRCF) in Latur, Maharashtra",
+          },
+          {
+            question: "Under the anti-collision system 'Kavach 4.0' introduced by Indian Railways, it was planned to be installed in how many engines?",
+            options: ["10000", "12000", "15000", "20000"],
+            correct: 0,
+            explanation: "Under the rollout of Kavach 4.0, Indian Railways has planned to install the anti-collision system in 10,000 locomotives (engines) during the first phase of its large-scale deployment.",
+          },
+          {
+            question: "Where was the trial of the new rail security system 'Kavach 4.0' conducted?",
+            options: ["Rewari to Jaipur", "Pune to Satara", "Jalandhar to Bikaner", "Kota to Sawai Madhopur"],
+            correct: 3,
+            explanation: "The first successful trial of Kavach 4.0 (the latest version of Indian Railways' indigenous Automatic Train Protection system) was conducted between Kota and Sawai Madhopur in the Kota Division of West Central Railway zone (Rajasthan) in September 2024",
+          },
+          {
+            question: "Which mobile app was launched by the Railway Protection Force to provide information about three new criminal laws?",
+            options: ["Samachar App", "Samaksh App", "Sangyaan App", "Vistaar App"],
+            correct: 2,
+            explanation: "The Railway Protection Force (RPF) launched the 'Sangyaan' mobile app to provide information on the three new criminal laws. Available on Android and iOS, it educates RPF personnel on Bharatiya Nyaya Sanhita (BNS), Bharatiya Nagarik Suraksha Sanhita (BNSS), and Bharatiya Sakshya Adhiniyam (BSA), comparing them with old laws and including RPF-relevant acts like the Railway Protection Force Act, 1957.",
+          },
+          {
+            question: "Which railway station has become the first station of North Eastern to be awarded the 'Eat Right Station' certificate?",
+            options: ["Dibrugarh Railway Station", "Guwahati Railway Station", "Rangiya Railway Station", "None of the above"],
+            correct: 1,
+            explanation: "Guwahati Railway Station has become the first station in the North Eastern Frontier Railway (NFR) zone to receive the 'Eat Right Station' certificate. Awarded by the Food Safety and Standards Authority of India (FSSAI) in June 2023, this certification recognizes its high-quality, nutritious food services for a two-year period.",
+          },
+          {
+            question: "Which is the largest railway zone in India?",
+            options: ["Northern Railway", "Eastern Railway", "Western Railway", "Central Railway"],
+            correct: 0,
+            explanation: "Northern Railway is the largest railway zone in India. It spans approximately 6,968 km of route length across 1,142 stations, headquartered in New Delhi and covering states like Punjab, Haryana, Himachal Pradesh, Uttarakhand, Uttar Pradesh, plus Delhi, Jammu & Kashmir, and Chandigarh."
+          },
+          {
+            question: "What is the name of the Ayodhya Railway Junction that has been changed in Uttar Pradesh?",
+            options: ["Ayodhya Ram Railway Station", "Ayodhya Dham Junction", "Ayodhya Railway Station", "Dham Ayodhyapur Station"],
+            correct: 1,
+            explanation: "Ayodhya Railway Junction has been renamed Ayodhya Dham Junction. This change was officially notified by Northern Railway in December 2023, ahead of the Ram Temple consecration, reflecting public sentiments and enhancing the station's cultural significance in Uttar Pradesh."
+          },
+          {
+            question: "What has been the name of Udhampur Railway Station changed to?",
+            options: ["Shaheed Captain Anand Railway Station", "Shaheed Captain Anand Khandekar Railway Station", "Shaheed Captain Tushar Mahanjan Railway Station", "Shaheed Captain Vikram Batra Railway Station"],
+            correct: 2,
+            explanation: "Udhampur Railway Station has been renamed Martyr Captain Tushar Mahajan Udhampur railway station (station code: MCTM) in Jammu and Kashmir. This honors Captain Tushar Mahajan, awarded the Military Cross for Gallantry (MCTM) for his sacrifice during the 2015 Udhampur terrorist attack."
+          },
+          {
+            question: "What will be the new name of Mumbai's Churchgate Railway Station?",
+            options: ["Atal Railway Station", "Chintamanrao Deshmukh Railway Station", "P.T Usha Railway Station", "Rani Kamalapati Railway Station"],
+            correct: 1,
+            explanation: "Mumbai’s iconic Churchgate Railway Station is set to be renamed Chintamanrao Deshmukh Station.The new name honors C.D. Deshmukh (Chintaman Dwarakanath Deshmukh), who was the first Indian Governor of the Reserve Bank of India (RBI) and later served as India’s Union Finance Minister."
+          },
+          {
+            question: "What has the name of 'Patalpani Railway Station' of Madhya Pradesh been changed to?",
+            options: ["Atal Railway Station", "Rani Kamalapati Railway Station", "Tantya Bhil Railway Station", "Veer Shivaji Rail Railway Station"],
+            correct: 2,
+            explanation: "Patalpani Railway Station in Madhya Pradesh has been renamed Tantya Bhil Railway Station (also called Tantya Mama Railway Station). This change honors Tantya Bhil, a tribal freedom fighter from the Bhil community known as the 'Indian Robin Hood' for resisting British rule in the 19th century."
+          },
+          {
+            question: "What has been the name of 'Habibganj Railway Station' located in the capital of Madhya Pradesh changed?",
+            options: ["Atal Railway Station", "Rani Kamalapati Railway Station", "Tantya Bhil Railway Station", "Veer Shivaji Rail Railway Station"],
+            correct: 1,
+            explanation: "Habibganj Railway Station in Bhopal, Madhya Pradesh, has been renamed Rani Kamalapati Railway Station. This change honors Rani Kamlapati, the 18th-century Gond queen and warrior of the region, and coincided with the station's redevelopment as India's first world-class station under a PPP model in November 2021."
+          },
+          {
+            question: "What has been the new name of Gujarat's 'Kevadiya Railway Station'?",
+            options: ["Ekta Nagar Railway Station", "Praja Nagar Railway Station", "Vaishali Railway Station", "Vidya Nagar Rail Railway Station"],
+            correct: 0,
+            explanation: "Gujarat's Kevadiya Railway Station has been renamed Ekta Nagar Railway Station. This renaming was approved by the Ministry of Railways in January 2022 for the station near the Statue of Unity in Narmada district (Vadodara division), with the new station code EKNR."
+          },
+
         ]
       },
 }
