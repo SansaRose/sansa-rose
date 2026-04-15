@@ -305,7 +305,13 @@ export const accidentManualQuizzes = {
           },
         ],
         "chapter-3": [
-          
+          {
+            question: 'ARME Scale - II has ______ sets of POMKA (Portable Medical Kit for Accidents)',
+            options: ["1", "2", "3", "4"],
+            correct: 2,
+            explanation:
+              'ARME Scale - II has 3 sets of POMKA (Portable Medical Kit for Accidents)',
+          },
         ],
       },
 }

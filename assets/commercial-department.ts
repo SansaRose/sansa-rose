@@ -286,7 +286,13 @@ export const commercialDepartmentQuizzes = {
           },
         ],
         "chapter-3": [
-          
+          {
+            question: 'Free time for Demurrage/Wharfage calculation depends upon _______',
+            options: ["Height of Wagon", "Type of Wagon", "Load of Wagon", "Width of Wagon"],
+            correct: 1,
+            explanation:
+              'Free time for Demurrage/Wharfage calculation depends upon Type of Wagon',
+          },
         ],
       },
 }
