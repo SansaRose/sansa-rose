@@ -2,7 +2,7 @@ import React from 'react'
 
 const PermanentNegotiatingMachinery = () => {
   return (
-    <div>PermanentNegotiatingMachinery</div>
+    <div>Permanent Negotiating Machinery</div>
   )
 }
 

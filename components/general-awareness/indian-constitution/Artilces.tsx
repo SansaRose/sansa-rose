@@ -1,6 +1,8 @@
+'use client'
+
 import Link from 'next/link'
-import React from 'react'
-import { BookOpen, ChevronRight, Scale, Sparkles } from 'lucide-react'
+import React, { useEffect, useMemo, useState } from 'react'
+import { BookOpen, ChevronRight, Scale, Search, Sparkles, X } from 'lucide-react'
 
 import { articlesRawContent } from '@/assets/general-awareness/indian-constitution/articles'
 
@@ -25,9 +27,51 @@ function isAllCapsLike(value: string) {
 
 const Artilces = ({ showBackNav = false }: ArtilcesProps) => {
   const lines = articlesRawContent.split('\n')
+  const [searchInput, setSearchInput] = useState('')
+  const [articleSearch, setArticleSearch] = useState('')
+  const [isSearchPinned, setIsSearchPinned] = useState(false)
+
+  const normalizedSearch = articleSearch.trim().toUpperCase()
+
+  const filteredLines = useMemo(() => {
+    if (!normalizedSearch) return lines
+
+    return lines.filter((line) => {
+      const value = line.trim()
+      if (!value) return false
+
+      const articleMatch = value.match(/^([0-9]{1,3}[A-Z]*(?:\s*[–-]\s*[0-9]{1,3}[A-Z]*)?)\s+(.*)$/)
+      if (!articleMatch) return false
+
+      const articleNumber = articleMatch[1].replace(/\s+/g, '').toUpperCase()
+      return articleNumber.includes(normalizedSearch)
+    })
+  }, [lines, normalizedSearch])
+
+  const onSearch = () => {
+    setArticleSearch(searchInput)
+  }
+
+  const onClearSearch = () => {
+    setSearchInput('')
+    setArticleSearch('')
+  }
+
+  useEffect(() => {
+    const onScroll = () => {
+      setIsSearchPinned(window.scrollY > 220)
+    }
+
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+    }
+  }, [])
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-linear-to-b from-slate-950 via-slate-900 to-emerald-950/80">
+    <div className="relative min-h-screen overflow-x-hidden bg-linear-to-b from-slate-950 via-slate-900 to-emerald-950/80">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(16,185,129,0.12),transparent)]" />
       <div className="pointer-events-none absolute bottom-0 left-1/2 h-px w-[min(100%,48rem)] -translate-x-1/2 bg-linear-to-r from-transparent via-emerald-500/20 to-transparent" />
 
@@ -49,6 +93,63 @@ const Artilces = ({ showBackNav = false }: ArtilcesProps) => {
           />
         </header>
 
+        <div
+          className={`${
+            isSearchPinned
+              ? 'fixed left-1/2 top-20 z-40 w-[calc(100%-1.5rem)] max-w-4xl -translate-x-1/2 sm:top-24 sm:w-[calc(100%-2rem)]'
+              : 'relative mx-auto mb-6 w-full max-w-4xl sm:mb-8'
+          }`}
+        >
+          <div className="rounded-2xl border border-emerald-500/25 bg-slate-900/75 p-3 ring-1 ring-emerald-500/10 shadow-lg shadow-black/20 backdrop-blur-md sm:p-4">
+            <label htmlFor="article-search" className="mb-2 block text-xs font-semibold uppercase tracking-[0.15em] text-emerald-200/85">
+              Search by Article Number
+            </label>
+            <div className="flex items-center gap-2">
+              <div className="relative flex-1">
+                <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-emerald-300/80" />
+                <input
+                  id="article-search"
+                  type="text"
+                  inputMode="search"
+                  placeholder="Try 98, 56, 125, 243A..."
+                  value={searchInput}
+                  onChange={(event) => setSearchInput(event.target.value)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter') onSearch()
+                  }}
+                  className="h-11 w-full min-w-0 rounded-xl border border-slate-500/45 bg-slate-950/70 pl-10 pr-3 text-sm text-slate-100 outline-none transition placeholder:text-slate-400/80 focus:border-emerald-400/50 focus:ring-2 focus:ring-emerald-500/35"
+                />
+              </div>
+              <div className="flex shrink-0 gap-2">
+                <button
+                  type="button"
+                  onClick={onSearch}
+                  className="inline-flex h-11 min-w-11 items-center justify-center gap-1.5 rounded-xl border border-emerald-500/50 bg-linear-to-r from-emerald-500/20 to-teal-500/20 px-3 text-sm font-semibold text-emerald-100 transition hover:border-emerald-400 hover:from-emerald-500/30 hover:to-teal-500/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 sm:px-4"
+                >
+                  <Search className="h-4 w-4" aria-hidden />
+                  <span className="hidden sm:inline">Search</span>
+                </button>
+                {(searchInput || articleSearch) && (
+                  <button
+                    type="button"
+                    onClick={onClearSearch}
+                    className="inline-flex h-11 min-w-11 items-center justify-center gap-1.5 rounded-xl border border-slate-500/60 bg-slate-800/60 px-3 text-sm font-semibold text-slate-200 transition hover:border-slate-400 hover:bg-slate-700/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-300 sm:px-4"
+                  >
+                    <X className="h-4 w-4" aria-hidden />
+                    <span className="hidden sm:inline">Clear</span>
+                  </button>
+                )}
+              </div>
+            </div>
+            {normalizedSearch && (
+              <p className="mt-2 text-xs text-emerald-200/80">
+                Showing matches for article: <span className="font-semibold text-emerald-100">{normalizedSearch}</span>
+              </p>
+            )}
+          </div>
+        </div>
+        {isSearchPinned ? <div className="mb-6 h-36 sm:mb-8 sm:h-24" aria-hidden /> : null}
+
         <SectionShell>
           <div className="mb-5 flex items-center gap-3">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300 ring-1 ring-emerald-500/25">
@@ -58,7 +159,7 @@ const Artilces = ({ showBackNav = false }: ArtilcesProps) => {
           </div>
 
           <div className="space-y-3">
-            {lines.map((line, index) => {
+            {filteredLines.map((line, index) => {
               const raw = line
               const value = raw.trim()
 
@@ -135,6 +236,11 @@ const Artilces = ({ showBackNav = false }: ArtilcesProps) => {
                 </div>
               )
             })}
+            {normalizedSearch && filteredLines.length === 0 ? (
+              <div className="rounded-xl border border-amber-500/35 bg-amber-500/10 px-4 py-3 text-sm font-medium text-amber-100">
+                No article found for <span className="font-bold">{normalizedSearch}</span>. Try another number like 98, 56, or 125.
+              </div>
+            ) : null}
           </div>
         </SectionShell>
 

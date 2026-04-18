@@ -31,6 +31,7 @@ const topicsLinksRaw: TopicNavLink[] = [
   { href: '/topics/prem', label: 'PREM', icon: '📑' },
   { href: '/topics/national-rail-plan', label: 'National rail plan', icon: '🗺️' },
   { href: '/topics/quarters', label: 'Quarters', icon: '🏠' },
+  { href: '/topics/schemes', label: 'Schemes', icon: '📋' },
   { href: '/topics/transfers', label: 'Transfers', icon: '🔄' },
   { href: '/topics/wagons-data', label: 'Wagons data', icon: '🚃' },
   { href: '/topics/coaches-data', label: 'Coaches data', icon: '🚃' },
@@ -39,9 +40,7 @@ const topicsLinksRaw: TopicNavLink[] = [
   { href: '/topics/information-technology-apps', label: 'Information technology apps', icon: '💻' },
 ]
 
-const topicsLinks: TopicNavLink[] = [...topicsLinksRaw].sort((a, b) =>
-  a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }),
-)
+const topicsLinks: TopicNavLink[] = topicsLinksRaw
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
