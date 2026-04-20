@@ -11,7 +11,7 @@ interface YearItem {
 const Years = () => {
     const years: YearItem[] = [
       {
-        question: 'T he first non-passenger train in pre-independent India was made operational in:',
+        question: 'The first non-passenger train in pre-independent India was made operational in:',
         answer: '1851',
         category: '1851'
       },
@@ -41,7 +41,7 @@ const Years = () => {
         category: '1929'
       },
       {
-        question: 'In which year the SBF was implemented in the Railways',
+        question: 'In which year the Station Staff Board (SBF) was implemented in the Railways',
         answer: '1931',
         category: '1931'
       },
@@ -146,7 +146,7 @@ const Years = () => {
         category: '1965'
       },
       {
-        question: 'When Joint Consultative machinery (JCM) was formed',
+        question: 'When Joint Consultative Machinery (JCM) was formed',
         answer: '28.10.1966',
         category: '1966'
       },
@@ -156,7 +156,7 @@ const Years = () => {
         category: '1967'
       },
       {
-        question: 'The general Rules framed in 1929, the revision for which was advocated by Railway accident inquiry committee in the year',
+        question: 'The General Rules (GR) framed in 1929, the revision for which was advocated by Railway accident inquiry committee in the year',
         answer: '1968',
         category: '1968'
       },
@@ -196,7 +196,7 @@ const Years = () => {
       category: '1976'
     },
     {
-      question: 'When was CGEGI (Central Government Employee Group Insurance Scheme) introduced',
+      question: 'When was CGEGI (Central Government Employee Group Insurance) scheme introduced',
       answer: '01.01.1982',
       category: '1982'
     },
@@ -246,7 +246,7 @@ const Years = () => {
       category: '1993'
     },
     {
-      question: 'When PREM has been established for participation of Railway employees in management?',
+      question: 'When Particpation of Railway Employees in Management (PREM) has been established for participation of Railway employees in management?',
       answer: '1994',
       category: '1994'
     },
@@ -260,23 +260,19 @@ const Years = () => {
       answer: '07.10.1997',
       category: '1997'
     },
+    
     {
-      question: 'Maximum limit of average pay Leave is 300 is with effect from _______',
-      answer: '01.07.1997',
-      category: '1997'
-    },
-    {
-      question: 'Accident Free service award for railway staff implemented wef 01.01.1999',
+      question: 'Accident Free Service Award for railway staff implemented w.e.f _______',
       answer: '01.01.1999',
       category: '1999'
     },
     {
-      question: 'NPS (National Pension System) was introduced on',
+      question: 'National Pension Scheme (NPS) was introduced on',
       answer: '01.01.2004',
       category: '2004'
     },
     {
-      question: 'Whether unmarried daughter above the age of 25 yrs is eligible for family pension',
+      question: 'Unmarried daughter above the age of 25 years is eligible for family pension w.e.f _______',
       answer: '06.09.2007',
       category: '2007'
     },
@@ -286,7 +282,7 @@ const Years = () => {
       category: '2008'
     },
     {
-      question: 'The MACP scheme was operative from which date',
+      question: 'The Modified Assured Career Progression (MACP) scheme was operative from which date',
       answer: '01.09.2008',
       category: '2008'
     },
@@ -300,38 +296,34 @@ const Years = () => {
       answer: '09.12.2013',
       category: '2013'
     },
+    
     {
-      question: 'Prescribed benchmark for grant of MACP is Very Good for all levels wef 25.07.2016 (Mention in APAR)',
+      question: 'The benchmark “Very Good” grading in Annual Performance Appraisal Report (APAR) for grant of upgradation under Modified Assured Career Progression (MACP) has been made applicable w.e.f _______',
       answer: '25.07.2016',
       category: '2016'
     },
     {
-      question: 'The benchmark ―Very Good‖ grading in APAR for grant of upgradation under MACP has been made applicable w.e.f _______',
-      answer: '25.07.2016',
-      category: '2016'
-    },
-    {
-      question: 'Railway employees are allowed to avail LTC as per DoPT OM dated 27th March 2018',
+      question: 'Railway employees are allowed to avail Leave Travel Concession (LTC) as per DoPT (Department of Personnel & Training) Office Memorandum dated _______',
       answer: '27.03.2018',
       category: '2018'
     },
     {
-      question: '100% Objective tests for selection have been introduced vide Rly. Bd. Letter dated',
+      question: '100% Objective Type Multiple Choice Questions (MCQs) tests for promotional examinations (departmental selections within Group "C" posts) have been introduced vide Railway Board Letter dated _______',
       answer: '14.12.2018',
       category: '2018'
     },
     {
-      question: 'Introduction of provision for writing of APAR of app Railway employees working in Level-1 (GP-1800) was initiated from year ending',
+      question: 'Introduction of provision for writing of Annual Performance Appraisal Report (APAR) of Railway employees working in Level-1 (GP-1800) and above was initiated from year ending _______',
       answer: '2019',
       category: '2019'
     },
     {
-      question: 'Railways suspended running of Passenger, Mail/Express and other passenger carrying trains amid the nationwide lockdown to combat the spread of Covid-19 from',
+      question: 'Railways suspended running of Passenger, Mail/Express and other passenger carrying trains amid the nationwide lockdown to combat the spread of COVID-19 from',
       answer: '25.03.2020',
       category: '2020'
     },
     {
-      question: 'To transport stranded migrant workers, students, pilgrims and tourists to their native states, Shramik specials were run from',
+      question: 'To transport stranded migrant workers, students, pilgrims and tourists to their native states, Shramik Special trains were run from',
       answer: '01.05.2020',
       category: '2020'
     },

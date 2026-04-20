@@ -414,8 +414,6 @@ const Timings = () => {
     
     { question: 'Under Railway Servants (Discipline & Appeal) Rules, 1968, Suspension order must be reviewed by the competent authority every-', answer: '90 days', timing: '90 days' },
 
-    { question: 'What is the maximum period of leave up to which the employee can avail the leave on half average pay (LHAP)?', answer: '90 days', timing: '90 days' },
-
     { question: 'Performance Guarantee for service contracts can be submitted within', answer: '90 days', timing: '90 days' },
 
     { question: 'Number of days for intial training for Probationary Station Master as per latest module is', answer: '90 days', timing: '90 days'},

@@ -135,6 +135,7 @@ const Navbar = () => {
     { href: '/general-awareness/indian-constitution', label: 'Indian Constitution', icon: '📖' },
     { href: '/general-awareness/indian-penal-code', label: 'Indian Penal Code', icon: '⚖️' },
     { href: '/general-awareness/index-reports', label: 'Index Reports', icon: '📊' },
+    { href: '/general-awareness/international-airports', label: 'International Airports', icon: '🛫' },
     { href: '/general-awareness/international-organization', label: 'International Organization', icon: '🌐' },
     { href: '/general-awareness/maharatna-companies', label: 'Maharatna Companies', icon: '🏢' },
     { href: '/general-awareness/national-parks', label: 'National Parks', icon: '🌲' },
@@ -147,6 +148,7 @@ const Navbar = () => {
     { href: '/general-awareness/summits', label: 'Summits', icon: '🏛️' },
     { href: '/general-awareness/tiger-reserves', label: 'Tiger Reserves', icon: '🐅' },
     { href: '/general-awareness/united-nations-organization', label: 'United Nations Organization', icon: '🇺🇳' },
+    { href: '/general-awareness/unesco-world-heritage-sites', label: 'UNESCO World Heritage Sites', icon: '🏰' },
     { href: '/general-awareness/who-is-who', label: 'Who Is Who', icon: '👤' },
     { href: '/general-awareness/wildlife-sanctuaries', label: 'Wildlife Sanctuaries', icon: '🦅' },
   ]

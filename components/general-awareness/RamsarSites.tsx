@@ -70,7 +70,7 @@ function SearchBarField({
           type="search"
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="Search state, name, or year…"
+          placeholder="Ramsar Sites of India"
           className="min-w-0 flex-1 bg-transparent py-2.5 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none"
           autoComplete="off"
           spellCheck={false}

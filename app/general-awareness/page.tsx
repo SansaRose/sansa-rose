@@ -129,6 +129,16 @@ const awarenessSections: { heading: string; blurb: string; items: Topic[] }[] = 
         iconBg: 'bg-lime-500/20',
       },
       {
+        href: '/general-awareness/unesco-world-heritage-sites',
+        title: 'UNESCO World Heritage Sites',
+        subtitle: 'Site name, state name, year',
+        description: 'Complete and updated list of India UNESCO World Heritage Sites.',
+        icon: Landmark,
+        gradient: 'from-indigo-600 to-cyan-700',
+        ring: 'ring-indigo-500/30',
+        iconBg: 'bg-indigo-500/20',
+      },
+      {
         href: '/general-awareness/elephant-reserves',
         title: 'Elephant reserves',
         subtitle: 'Project Elephant',
@@ -164,6 +174,16 @@ const awarenessSections: { heading: string; blurb: string; items: Topic[] }[] = 
     heading: 'World & organizations',
     blurb: 'International bodies, diplomacy, and global institutions.',
     items: [
+      {
+        href: '/general-awareness/international-airports',
+        title: 'International airports',
+        subtitle: 'State, airport, city, year',
+        description: 'International airports list in table format with state, airport name, city, and year details.',
+        icon: Globe2,
+        gradient: 'from-cyan-600 to-blue-700',
+        ring: 'ring-cyan-500/30',
+        iconBg: 'bg-cyan-500/20',
+      },
       {
         href: '/general-awareness/international-organization',
         title: 'International organizations',
