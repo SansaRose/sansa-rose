@@ -20,7 +20,7 @@ export default function CPCQuiz() {
 
   // Get the category data
   const categoryData = {
-    title: 'CPC (Central Pay Commission)',
+    title: 'Central Pay Commission (CPC)',
     description: 'Test your knowledge of Central Pay Commission rules for Railway',
     color: 'from-emerald-500 to-emerald-600',
     quizzes: {

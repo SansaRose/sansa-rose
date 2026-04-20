@@ -20,7 +20,7 @@ export default function ConductRulesQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'Conduct Rules 1966',
+    title: 'Railway Servants (Conduct) Rules 1966',
     description: 'Test your knowledge of Conduct Rules for Railway Service Employees',
     color: 'from-indigo-500 to-indigo-600',
     quizzes: {

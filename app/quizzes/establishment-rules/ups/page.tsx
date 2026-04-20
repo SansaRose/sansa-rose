@@ -20,7 +20,7 @@ export default function UPSQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'UPS (Unified Pension System)',
+    title: 'Unified Pension System (UPS)',
     description: 'Test your knowledge of Unified Pension System rules for Railway',
     color: 'from-rose-500 to-rose-600',
     quizzes: {

@@ -49,7 +49,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "....... equal to leave on half salary, will be drawn in case the employee is under suspension",
+              "....... is equal to leave on half salary, will be drawn in case the employee is under suspension",
             options: [
               "Dearness Allowance",
               "Subsistence Allowance",
@@ -61,7 +61,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "As per rule 17 of DAR rules No appeal lies against any order of an ....... nature or of the nature of step in aid of the final disposal of a disciplinary proceedings",
+              "As per Rule No. 17 of The Railway servants (Discipline & Appeal) Rules, No appeal lies against any order of an ....... nature or of the nature of step in aid of the final disposal of a disciplinary proceedings",
             options: [
               "Minor Penalty",
               "Major Penalty",
@@ -103,7 +103,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Period of Appeal under DAR rules is ______ days",
+              "Period of Appeal under The Railway servants (Discipline & Appeal) Rules is ______ days",
             options: ["30", "45", "60", "90"],
             correct: 1,
             explanation: "45 days is the correct answer.",
@@ -124,14 +124,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Is D&AR rules applicable for Apprentice?",
-            options: ["Yes", "No", "Not applicable", "None of the above"],
-            correct: 1,
-            explanation: "No is the correct answer.",
-          },
-          {
-            question:
-              "Is D&AR rules applicable for Apprentice?",
+              "Is The Railway servants (Discipline & Appeal) Rules applicable for Apprentice?",
             options: ["Yes", "No", "Not applicable", "None of the above"],
             correct: 1,
             explanation: "No is the correct answer.",
@@ -144,7 +137,7 @@ export const establishmentRulesQuizzes = {
             explanation: "Yes is the correct answer.",
           },
           {
-            question: "Under which rule of DAR is Enquiry officer to be nominated?",
+            question: "Under which rule of The Railway servants (Discipline & Appeal) Rules is Enquiry officer to be nominated?",
             options: [
               "Rule 9",
               "Rule 10",
@@ -178,17 +171,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "Certificate of Suspended employee that he is unemployed is the correct answer.",
           },
-          {
-            question: 'What is the standard form used for Suspension of an employee?',
-            options: [
-              "SF-1",
-              "SF-2",
-              "SF-3",
-              "SF-4",
-            ],
-            correct: 0,
-            explanation: "SF-1 is the correct answer.",
-          },
+          
           {
             question: "Whether Bonus can be paid to an employee during the suspension?",
             options: [
@@ -267,7 +250,7 @@ export const establishmentRulesQuizzes = {
             explanation: "25% is the correct answer.",
           },
           {
-            question: 'Under which rule of DAR a employee can be suspended?',
+            question: 'Under which rule of The Railway servants (Discipline & Appeal) Rules a employee can be suspended?',
             options: [
               "Rule 5",
               "Rule 6",
@@ -290,7 +273,7 @@ export const establishmentRulesQuizzes = {
             explanation: "Copy of charges in the form of imputations is the correct answer.",
           },
           {
-            question: 'When a person has been sentenced by the court to jail, under which rule of DAR can he be removed from service?',
+            question: 'When a person has been sentenced by the court to jail, under which rule of The Railway servants (Discipline & Appeal) Rules can he be removed from service?',
             options: [
               "Rule 10",
               "Rule 11",
@@ -312,15 +295,15 @@ export const establishmentRulesQuizzes = {
             explanation: "Yes is the correct answer.",
           },
           {
-            question: 'What is the time limit under DAR for increasing and decreasing the punishment?',
+            question: 'What is the time limit under The Railway servants (Discipline & Appeal) Rules for increasing and decreasing the punishment?',
             options: [
-              "6 months and 1 year respectively from the date of issue of NIP",
+              "6 months and 1 year respectively from the date of issue of Notice of Imposing Penalty (NIP)",
               "1 year",
               "2 years",
               "None of the above",
             ],
             correct: 0,
-            explanation: "6 months and 1 year respectively from the date of issue of NIP is the correct answer.",
+            explanation: "6 months and 1 year respectively from the date of issue of Notice of Imposing Penalty (NIP) is the correct answer.",
           },
           
           {
@@ -335,7 +318,7 @@ export const establishmentRulesQuizzes = {
             explanation: "SF-8 is the correct answer.",
           },
           {
-            question: 'Under DAR Enquiry Officer has the right to call witness whether it is admissible in Witness Act?',
+            question: 'Under The Railway servants (Discipline & Appeal) Rules Enquiry Officer has the right to call witness whether it is admissible in Witness Act?',
             options: [
               "Yes",
               "No",
@@ -422,18 +405,6 @@ export const establishmentRulesQuizzes = {
             correct: 2,
             explanation: "Rule 9 is the correct answer.",
           },
-          
-          {
-            question: 'Under which rule of DAR is provision for Revision given?',
-            options: [
-              "Rule 15",
-              "Rule 16",
-              "Rule 20",
-              "Rule 25-A",
-            ],
-            correct: 3,
-            explanation: "Rule 25-A is the correct answer.",
-          },
           {
             question: 'How many annexures should be attached with charge sheet for imposing major penalty?',
             options: [
@@ -467,16 +438,10 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "Minor Penalty Charge Sheet is the correct answer.",
           },
+         
           {
             question:
-              "Which rule of the Discipline & Appeal Rules 1968 defines the 'Penalties' that can be imposed on a Railway Servant?",
-            options: ["Rule 5", "Rule 6", "Rule 7", "Rule 8"],
-            correct: 1,
-            explanation: "Rule 6 is the correct answer.",
-          },
-          {
-            question:
-              "Under the sexual harassment of women at the workplace (Prevention, Prohibition and Redressal) Act, the appeal shall be entertained within ______ days",
+              "Under the sexual harassment of women at the workplace (Prevention, Prohibition and Redressal) Act 2013, the appeal shall be entertained within ______ days",
             options: ["30", "45", "60", "90"],
             correct: 3,
             explanation: "90 is the correct answer.",
@@ -490,10 +455,10 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "The first appeal to the first appellate authority can be preferred by the applicant within ______ days from the expiry of the prescribed time limit or the receipt of the decision from the PIO",
+              "The applicant can prefer the first appeal to the First Appellate Authority (FAA) within ______ days from the expiry of the prescribed time limit or the receipt of the decision from the Public Information Officer (PIO)",
             options: ["30", "45", "60", "90"],
             correct: 0,
-            explanation: "30 is the correct answer.",
+            explanation: "Under Section 19(1) of the Right to Information (RTI) Act, 2005, an applicant can file the first appeal to the First Appellate Authority (FAA) within 30 days from the expiry of the time limit for the PIO's response (typically 30 days) or from the actual receipt of the PIO's decision, whichever is applicable.",
           },
           {
             question:
@@ -502,13 +467,7 @@ export const establishmentRulesQuizzes = {
             correct: 2,
             explanation: "Dismissal from service is the correct answer.",
           },
-          {
-            question:
-              "What is the tenure of the Internal Complaints Committee under Sexual Harassment of Women at the Workplace?",
-            options: ["2 years", "3 years", "4 years", "5 years"],
-            correct: 1,
-            explanation: "3 years is the correct answer.",
-          },
+         
           {
             question:
               "Under Railway Servants (Discipline & Appeal) Rules, 1968, Suspension order must be reviewed by the competent authority every-",
@@ -516,26 +475,13 @@ export const establishmentRulesQuizzes = {
             correct: 3,
             explanation: "90 days is the correct answer.",
           },
-          
-          {
-            question:
-              "Who is the competent authority for consideration of representation against adverse remarks recorded in APAR of a Non-gazetted Railway servant if ADRM in division is the accepting authority?",
-            options: ["ADRM", "DRM", "GM", "PCPO"],
-            correct: 1,
-            explanation: "DRM is the correct answer.",
-          },
           {
             question: "If in a case Disciplinary Authority is Sr.DPO, who shall be the Reviewing Authority?",
             options: ["ADRM", "DRM", "GM", "PCPO"],
             correct: 1,
-            explanation: "DRM is the correct answer.",
+            explanation: "When the Sr. DPO (Senior Divisional Personnel Officer) acts as the Disciplinary Authority in a divisional context under Indian Railways' Discipline & Appeal Rules (DAR), the DRM (Divisional Railway Manager) serves as the Reviewing Authority (or Appellate Authority for appeals against Sr. DPO orders).",
           },
-          {
-            question: "Which form is issued for nomination of Inquiry Officer under D&AR Rules 1968?",
-            options: ["SF-7", "SF-8", "SF-9", "SF-10"],
-            correct: 0,
-            explanation: "SF-7 is the correct answer.",
-          },
+          
           {
             question:
               "Appeal against classification of railway servants under HOER can be within ______ days of its publication?",
@@ -568,7 +514,7 @@ export const establishmentRulesQuizzes = {
 "leave-rules": [
           {
             question:
-              "LAP shall be credited to a Railway servant at the rate of .......",
+              "Leave on Average Pay (LAP) shall be credited to a Railway servant at the rate of .......",
             options: [
               "1 ½ days per month",
               "2 days per month",
@@ -579,55 +525,21 @@ export const establishmentRulesQuizzes = {
             explanation: "2 ½ days per month is the correct answer.",
           },
           {
-            question: "No.of days permissible for Paternity leave is .......",
+            question: "No.of days permissible for Paternity Leave (PL) is .......",
             options: ["10", "15", "20", "25"],
             correct: 1,
             explanation: "15 is the correct answer.",
-          },
+          },  
+          
           {
-            question:
-              "Maximum no. of persons allowed on a Privilege pass when dependents are included is .......",
-            options: ["3", "4", "5", "6"],
-            correct: 2,
-            explanation: "5 is the correct answer.",
-          },
-          {
-            question:
-              "Maximum no of dependents allowed on a Privilege pass is .......",
-            options: ["1", "2", "3", "4"],
-            correct: 1,
-            explanation: "2 is the correct answer.",
-          },
-          {
-            question:
-              "Rostered hours maximum limit for intensive roster is .......",
-            options: ["24 hours", "36 hours", "45 hours", "60 hours"],
-            correct: 2,
-            explanation: "45 hours is the correct answer.",
-          },
-          {
-            question:
-              "Maximum amount of Retirement Gratuity payable to a Railway servant is .......",
-            options: ["10 Lakh", "15 Lakh", "20 Lakh", "25 Lakh"],
-            correct: 2,
-            explanation: "20 Lakh is the correct answer.",
-          },
-          {
-            question:
-              "Standard form to be used for order of suspension is .......",
-            options: ["SF1", "SF2", "SF5", "SF11"],
-            correct: 2,
-            explanation: "SF5 is the correct answer.",
-          },
-          {
-            question: "Maternity leave permissible for a period of .......",
+            question: "Maternity leave permissible for female Railway Servants for a period of .......",
             options: ["120 days", "180 days", "240 days", "300 days"],
             correct: 1,
             explanation: "180 days is the correct answer.",
           },
           {
             question:
-              "For miscarriage, including abortion, what period of Maternity leave may be granted",
+              "For miscarriage, including abortion, what period of Maternity Leave may be granted",
             options: ["30 days", "40 days", "45 days", "60 days"],
             correct: 2,
             explanation: "45 days is the correct answer.",
@@ -639,13 +551,7 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "6 months is the correct answer.",
           },
-          {
-            question:
-              "Paternity Leave is granted to Railway Servant for _______ days",
-            options: ["10", "15", "20", "25"],
-            correct: 1,
-            explanation: "15 is the correct answer.",
-          },
+         
           {
             question:
               "Paternity Leave is granted up to _______ living children",
@@ -676,7 +582,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Leave Not Due (LND) for _______ days is eligible for Railway employees in entire service life",
+              "Leave Not Due (LND)/Unearned Leave for _______ days is eligible for Railway employees in entire service life",
             options: ["120", "180", "240", "360"],
             correct: 3,
             explanation: "360 is the correct answer.",
@@ -739,10 +645,10 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Maternity Leave can be sanctioned twice a year?",
+              "Maternity Leave can be sanctioned twice in a year?",
             options: ["True", "False", "Not applicable", "None of the above"],
-            correct: 0,
-            explanation: "True is the correct answer.",
+            correct: 1,
+            explanation: "False is the correct answer.",
           },
           {
             question:
@@ -821,13 +727,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "True is the correct answer.",
           },
-          {
-            question:
-              "Female railway employees are eligible for maternity leave for ______ days",
-            options: ["90", "120", "180", "210"],
-            correct: 2,
-            explanation: "180 is the correct answer.",
-          },
+          
           {
             question:
               "What is the joining time eligible for transfer on administrative grounds for 1500 kms _______ days",
@@ -851,7 +751,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Indian Railway Establishment Code (IREC) Volume-I paragraph 501 to 556 mentions Leave Rules?",
+              "Indian Railway Establishment Code (IREC) Volume-I paragraph 501 to 557 mentions Leave Rules?",
             options: ["True", "False", "Not applicable", "None of the above"],
             correct: 0,
             explanation: "True is the correct answer.",
@@ -912,13 +812,7 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "Maximum 15 days (1 day for each 10 days of absence) is the correct answer.",
           },
-          {
-            question:
-              "Conversion of Leave on Half Average Pay (LHAP) can be accepted in lieu of study leave?",
-            options: ["30 days", "60 days", "120 days", "180 days"],
-            correct: 3,
-            explanation: "180 days during the entire service life is the correct answer.",
-          },
+          
           {
             question:
               "At what rate, the Leave on Half Average Pay (LHAP) is credited to the leave account?",
@@ -954,13 +848,7 @@ export const establishmentRulesQuizzes = {
             correct: 2,
             explanation: "60 days/6 times with a gap of 2 years is the correct answer.",
           },
-          {
-            question:
-              "How many days of Special Casual Leave (SCL) can be given on the sterilization operation of the railway worker's wife?",
-            options: ["5 day", "7 days", "10 days", "12 days"],
-            correct: 1,
-            explanation: "7 days is the correct answer.",
-          },
+          
           {
             question:
               "Will education allowance to children be acceptable to a railway employee who is on extraordinary leave/without pay leave?",
@@ -975,20 +863,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "30 days is the correct answer.",
           },
-          {
-            question:
-              "Is there a maximum limit for a Hospital Leave (HL) to be sanctioned?",
-            options: ["Yes", "No", "Not applicable", "None of the above"],
-            correct: 0,
-            explanation: "Yes 28 months is the correct answer.",
-          },
-          {
-            question:
-              "Is there a maximum limit for special disability vacations?",
-            options: ["1 month", "6 months", "1 year", "Not more than 24 months"],
-            correct: 3,
-            explanation: "Not more than 24 months is the correct answer.",
-          },
+          
           {
             question:
               "Who is the competent authority to sanction study leave to the officers in India?",
@@ -1031,20 +906,8 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "No is the correct answer.",
           },
-          {
-            question:
-              "Who is the competent authority to sanction study leave to the officers in India?",
-            options: ["AGM", "GM", "PCPO", "None of the above"],
-            correct: 3,
-            explanation: "None of the above (Cadre Authority, Administrative Ministry, or Department) is the correct answer.",
-          },
-          {
-            question:
-              "Who is the competent authority for accepting leave of non-gazetted employees working in the boards and giving NOC certificates?",
-            options: ["AGM", "GM", "PCPO", "Ex India leave by BO and NOC by ADRM"],
-            correct: 3,
-            explanation: "None of the above (Cadre Authority, Administrative Ministry, or Department) is the correct answer.",
-          },
+          
+         
           {
             question:
               "Who is the competent authority for accepting leave of non-gazetted employees working in unit?",
@@ -1108,13 +971,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "10 days is the correct answer.",
           },
-          {
-            question:
-              "What is the provision for Leave Rules for Railway school employees?",
-            options: ["0 days", "10 days", "15 days", "20 days"],
-            correct: 0,
-            explanation: "0 days is the correct answer.",
-          },
+          
           {
             question:
               "Maximum holidays allowed including all holidays, together at a time/in one spell?",
@@ -1171,13 +1028,7 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "8 days is the correct answer.",
           },
-          {
-            question:
-              "What is the miximum limit of unearned/leave not due in entire service life?",
-            options: ["120 days", "200 days", "300 days", "360 days"],
-            correct: 3,
-            explanation: "360 days is the correct answer.",
-          },
+          
           {
             question:
               "Can the employee take Casual Leave (CL) of 10 days in one spell?",
@@ -1250,10 +1101,10 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Maximum Special Disability Leave (SDL) eligible under FR 83",
+              "Maximum Special Disability Leave (SDL) eligible under Fundamental Rule (FR) 83.",
             options: ["24 months", "36 months", "48 months", "60 months"],
             correct: 0,
-            explanation: "24 months is the correct answer.",
+            explanation: "Under Fundamental Rule (FR) 83, Special Disability Leave (SDL) is granted to railway servants (permanent or temporary) disabled by injury from official duties or position, with a maximum limit of 24 months for any one disability, on medical certificate from competent authority.",
           },
           {
             question:
@@ -1304,13 +1155,7 @@ export const establishmentRulesQuizzes = {
             correct: 1,
             explanation: "15 is the correct answer.",
           },
-          {
-            question:
-              "What is the rate of CTG (Composite Transfer Grant) admissible for transfer within the same city/short distance transfer within the distance of 20 km?",
-            options: ["1/2 of Pay and D.Pay", "1/3 of Pay and D.Pay", "1/4 of Pay and D.Pay", "1/5 of Pay and D.Pay"],
-            correct: 1,
-            explanation: "1/3 of Pay and D.Pay is the correct answer.",
-          },
+          
           {
             question:
               "Leave Reserve for all Running staff should be-",
@@ -1350,20 +1195,20 @@ export const establishmentRulesQuizzes = {
 "rest-rules": [
           {
             question:
-              "As per Hours of Employment Rule employees are classified into ... number of categories.",
+              "As per Hours of Employment Rule employees are classified into ......... number of categories.",
             options: ["3", "4", "5", "6"],
             correct: 1,
             explanation: "4 is the correct answer.",
           },
           {
-            question: "The Minimum pension as per VII PC pension scheme ....",
+            question: "The Minimum pension as per VII PC pension scheme ........",
             options: ["8500/-", "9000/-", "10500/-", "12000/-"],
             correct: 1,
             explanation: "9000/- is the correct answer.",
           },
           {
             question:
-              "Maximum Composite transfer grant as per VII PC is equivalent to ....",
+              "Maximum Composite transfer grant as per VII PC is equivalent to ........",
             options: ["50%", "60%", "70%", "80%"],
             correct: 3,
             explanation: "80% is the correct answer.",
@@ -1383,21 +1228,21 @@ export const establishmentRulesQuizzes = {
             explanation: "54 hours is the correct answer.",
           },
           {
-            question: "Waiting Room Bearer comes under ....  Classification",
+            question: "Waiting Room Bearer comes under .........  Classification",
             options: ["Continuous", "EI roster", "Excluded", "Intensive"],
             correct: 1,
             explanation: "EI roster is the correct answer.",
           },
           {
             question:
-              "In the case of Continuous category of employees more than .... hours of duty is Long on duty",
+              "In case of Continuous category of employees, more than ......... hours of duty is Long on duty",
             options: ["6", "8", "10", "12"],
             correct: 2,
             explanation: "10 is the correct answer.",
           },
           {
             question:
-              "Weekly rest for Essentially Intermittent workers is .... hrs including a full night in bed",
+              "Weekly rest for Essentially Intermittent workers is ......... hrs including a full night in bed",
             options: [
               "22 consecutive hrs",
               "24 consecutive hrs",
@@ -1415,7 +1260,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "Rough Assessment Job Analysis is conducted for ....... hrs?",
+              "Rough Assessment Job Analysis is conducted for ......... hrs?",
             options: ["8", "12", "18", "24"],
             correct: 3,
             explanation: "24 is the correct answer.",
@@ -1611,10 +1456,10 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "The standard hours of work of a Railway Servant classified as Essentially Intermittent and working in Road station not period with quarters within 0.5 km from the place of duty is ________ hours in a week",
+              "The standard hours of work of a Railway Servant classified as Essentially Intermittent and working in Road station not provided with quarters within 0.5 km from the place of duty is ________ hours in a week",
             options: ["48", "54", "60", "72"],
-            correct: 2,
-            explanation: "60 is the correct answer.(Doubt, Check one more time)",
+            correct: 3,
+            explanation: "72 is the correct answer.",
           },
           {
             question:
@@ -1877,8 +1722,8 @@ export const establishmentRulesQuizzes = {
             question:
               "In a 14-day roster cycle for running staff, the total number of Long-Off prescribed is ______",
             options: ["2", "3", "4", "5"],
-            correct: 2,
-            explanation: "3 is the correct answer.",
+            correct: 1,
+            explanation: "3 is the correct answer.(Doubt, Check one more time)",
           },
           {
             question:
@@ -1892,7 +1737,22 @@ export const establishmentRulesQuizzes = {
               "In 'L' shaped roster, roster point four is earmarked to ______ community in direct recruitment quota",
             options: ["SC", "ST", "OBC", "UR"],
             correct: 2,
-            explanation: "OBC is the correct answer.",
+            explanation: `In the L-shaped roster (14-point roster) used for cadres with small strength (up to 13/14 posts) in direct recruitment quota on Indian Railways (as per DoPT guidelines adopted by Railway Board vide RBE No. 113/97 and subsequent clarifications), the roster points are earmarked as follows for direct recruitment:
+
+Point 1: UR
+Point 2: UR
+Point 3: UR
+Point 4: OBC
+Point 5: UR
+Point 6: UR
+Point 7: SC
+Point 8: OBC
+Point 9: UR
+Point 10: UR
+Point 11: UR
+Point 12: OBC
+Point 13: UR
+Point 14: ST`,
           },
           
         ],
@@ -1956,6 +1816,13 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
+              "Maximum no of dependents allowed on a Privilege pass is .......",
+            options: ["1", "2", "3", "4"],
+            correct: 1,
+            explanation: "2 is the correct answer.",
+          },
+          {
+            question:
               "How many sets of PTOs is/ are a license Holder coolie is entitled in a calendar year?",
             options: [
               "One (IInd/Sleeper)",
@@ -1967,37 +1834,31 @@ export const establishmentRulesQuizzes = {
             explanation: "Two(IInd/Sleeper) is the correct answer.",
           },
           {
-            question: "Under which rule is the definition of Railway Servant given?",
+            question: "Under which rule is the definition of Railway Servant (Pass) Rules 1986, given?",
             options: ["Rule 1", "Rule 2", "Rule 3", "Rule 4"],
             correct: 1,
             explanation: "Rule 2 is the correct answer.",
           },
           {
-            question: "When were the Railway Pass Rules first implemented?",
+            question: "When were the Railway Servants (Pass) Rules first implemented?",
             options: ["1986", "1987", "1988", "1989"],
             correct: 0,
             explanation: "1986 is the correct answer.",
           },
           {
-            question: "When was the latest amendment of Railway Pass Rules made?",
+            question: "When was the latest amendment of Railway Servants (Pass) Rules 1986, made?",
             options: ["1986", "1987", "1990", "1993"],
             correct: 3,
             explanation: "09.09.1993 is the correct answer.",
           },
           {
-            question: "The colour of the First Class A Pass is .... in colour",
-            options: ["Green", "Pink", "White", "Yellow"],
-            correct: 2,
-            explanation: "White is the correct answer.",
-          },
-          {
-            question: "Total number of Railway Pass Rules are ....",
+            question: "Total number of Railway Servants (Pass) Rules 1986, are ....",
             options: ["12", "15", "18", "20"],
             correct: 2,
             explanation: "18 is the correct answer.",
           },
           {
-            question: "How many Annexures are there in Railway Pass Rules 1986?",
+            question: "How many Annexures are there in Railway Servants (Pass) Rules 1986?",
             options: ["3", "4", "5", "6"],
             correct: 0,
             explanation: "3 is the correct answer.",
@@ -2009,19 +1870,19 @@ export const establishmentRulesQuizzes = {
             explanation: "Disciplinary action is the correct answer.",
           },
           {
-            question: "Annexure-A of Railway Pass Rules 1986 is related to ....",
+            question: "Annexure-A of Railway Servants (Pass) Rules 1986 is related to ....",
             options: ["LTC rules", "Misuse cases", "Powers of GM", "Standard Railway Pass Form"],
             correct: 3,
             explanation: "Standard Railway Pass Form is the correct answer.",
           },
           {
-            question: "Annexure-B of Railway Pass Rules 1986 is related to ....",
+            question: "Annexure-B of Railway Servants (Pass) Rules 1986 is related to ....",
             options: ["LTC rules", "Fraudulent/Misuse cases", "Powers of GM", "Standard Railway Pass Form"],
             correct: 1,
             explanation: "Fraudulent/Misuse cases is the correct answer.",
           },
           {
-            question: "Annexure-C of Railway Pass Rules 1986 is related to ....",
+            question: "Annexure-C of Railway Servants (Pass) Rules 1986 is related to ....",
             options: ["LTC rules", "Misuse cases", "Powers of GM", "Standard Railway Pass Form"],
             correct: 2,
             explanation: "Powers of GM is the correct answer.",
@@ -2039,7 +1900,7 @@ export const establishmentRulesQuizzes = {
             explanation: "Yes is the correct answer.",
           },
           {
-            question: "Family definition is given under which rule?",
+            question: "Family definition is given under which rule of Railway Servants (Pass) Rules 1986?",
             options: ["Rule 1", "Rule 2", "Rule 3", "Rule 4"],
             correct: 1,
             explanation: "Rule 2 is the correct answer.",
@@ -2075,7 +1936,7 @@ export const establishmentRulesQuizzes = {
             explanation: "Future pass stopped is the correct answer.",
           },
           {
-            question: "Pass rules are framed by which ministry?",
+            question: "Railway Servants (Pass) Rules 1986 are framed by which ministry?",
             options: ["Ministry of Railways", "Ministry of Home Affairs", "Ministry of Finance", "Ministry of Labour"],
             correct: 0,
             explanation: "Ministry of Railways is the correct answer.",
@@ -2088,7 +1949,7 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "A son is eligible to be included in a Railway Pass after the age of 21 years, only if he is-",
+              "A son is eligible to be included in a Railway Servants (Pass) Rules 1986 after the age of 21 years, only if he is-",
             options: ["A bonafide student of recognized educational institution", "Living with his parents", "Unemployed", "Not eligible"],
             correct: 0,
             explanation: "A bonafide student of recognized educational institution is the correct answer.",
@@ -3808,6 +3669,13 @@ question:
     options: ["Level I", "Level II", "Level III", "Level IV"],
     correct: 1,
     explanation: "Level II is the correct answer.",
+  },
+  {
+    question:
+      "Maximum amount of Retirement Gratuity payable to a Railway servant is .......",
+    options: ["10 Lakh", "15 Lakh", "20 Lakh", "25 Lakh"],
+    correct: 3,
+    explanation: "25 Lakh is the correct answer.",
   },
 ],
 "rti-act-2005":[

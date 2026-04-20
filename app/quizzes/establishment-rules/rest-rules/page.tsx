@@ -20,7 +20,7 @@ export default function RestRulesQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'Rest Rules 2005',
+    title: 'Railway Servants (Rest) Rules 2005',
     description: 'Test your knowledge of Rest Rules for Railway Service Employees',
     color: 'from-pink-500 to-pink-600',
     quizzes: {

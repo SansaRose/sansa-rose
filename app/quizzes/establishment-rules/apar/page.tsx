@@ -20,7 +20,7 @@ export default function APARQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'APAR (Annual Performance Appraisal Report)',
+    title: 'Annual Performance Appraisal Report (APAR)',
     description: 'Test your knowledge of Annual Performance Appraisal Report rules for Railway',
     color: 'from-teal-500 to-cyan-600',
     quizzes: {

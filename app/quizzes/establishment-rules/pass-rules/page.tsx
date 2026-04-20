@@ -20,7 +20,7 @@ export default function PassRulesQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'Pass Rules 1986',
+    title: 'Railway Servants (Pass) Rules 1986',
     description: 'Test your knowledge of Pass Rules for Railway Service Employees',
     color: 'from-green-500 to-green-600',
     quizzes: {

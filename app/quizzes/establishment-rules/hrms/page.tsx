@@ -20,7 +20,7 @@ export default function HRMSQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'HRMS (Human Resource Management System)',
+    title: 'Human Resource Management System (HRMS)',
     description: 'Test your knowledge of Human Resource Management System (HRMS) for Railway employees',
     color: 'from-cyan-500 to-cyan-600',
     quizzes: {

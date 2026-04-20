@@ -23,7 +23,7 @@ export default function RTIAct2005Quiz() {
   const questions = rawQuestions.filter((q) => q.question && q.question.trim() !== '');
 
   const categoryData = {
-    title: 'RTI Act 2005 (Right to Information)',
+    title: 'Right to Information Act 2005',
     description: 'Test your knowledge of Right to Information Act 2005',
     color: 'from-sky-500 to-sky-600',
   };

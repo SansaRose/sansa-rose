@@ -20,7 +20,7 @@ export default function CGAQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'CGA (Compassionate Grounds Appointment)',
+    title: 'Compassionate Grounds Appointment (CGA)',
     description: 'Test your knowledge of Compassionate Grounds Appointment rules for Railway',
     color: 'from-amber-500 to-orange-600',
     quizzes: {

@@ -23,7 +23,7 @@ export default function LHBQuiz() {
   const questions = rawQuestions.filter((q) => q.question && q.question.trim() !== '');
 
   const categoryData = {
-    title: 'LHB (Linke Hofmann Busch)',
+    title: 'Linke Hofmann Busch (LHB)',
     description: 'Test your knowledge of Linke Hofmann Busch coaches',
     color: 'from-orange-500 to-orange-600',
   };

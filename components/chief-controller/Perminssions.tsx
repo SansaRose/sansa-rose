@@ -272,6 +272,11 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
+      description: 'Competent Authority to dispose off an appeal made under CPGRAMS by a divisional officer is ______',
+      authority: 'ADRM',
+      category: 'DRM'
+    },
+    {
       description: 'The Officer authorized to certify Group ‘C’ staff of the division for working of motor trolleys ______',
       authority: 'Sr.DSO',
       category: 'DSO'

@@ -20,7 +20,7 @@ export default function OPSQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'OPS (Old Pension Scheme)',
+    title: 'Old Pension Scheme (OPS)',
     description: 'Test your knowledge of Old Pension Scheme rules for Railway',
     color: 'from-violet-500 to-violet-600',
     quizzes: {

@@ -420,6 +420,8 @@ const Timings = () => {
 
     { question: 'Suspension or deemed suspension is valid only for a period of ______ days, if required may be extended by review committee.', answer: '90 days', timing: '90 days' },
 
+    { question: 'Appeal against classification of railway servants under HOER can be within ______ days of its publication?', answer: '90 days', timing: '90 days' },
+
 
     { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
 

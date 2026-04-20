@@ -20,7 +20,7 @@ export default function NPSQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'NPS (National Pension System)',
+    title: 'National Pension System (NPS)',
     description: 'Test your knowledge of National Pension System rules for Railway',
     color: 'from-slate-500 to-slate-600',
     quizzes: {

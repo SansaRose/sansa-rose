@@ -10,7 +10,7 @@ const EstablishmentRules = () => {
   const rules = [
     {
       href: '/quizzes/establishment-rules/discipline-appeal-rules',
-      title: 'Discipline Appeal Rules',
+      title: 'Railway  Servants (Discipline & Appeal) Rules 1968',
       year: '1968',
       icon: '⚖️',
       color: 'from-blue-500 to-blue-600',
@@ -19,7 +19,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/pass-rules',
-      title: 'Pass Rules',
+      title: 'Railway Servants (Pass) Rules 1986',
       year: '1986',
       icon: '🎫',
       color: 'from-green-500 to-green-600',
@@ -28,7 +28,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/leave-rules',
-      title: 'Leave Rules',
+      title: 'Railway Servants (Leave) Rules 1949',
       year: '1949',
       icon: '🏖️',
       color: 'from-purple-500 to-purple-600',
@@ -37,7 +37,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/rest-rules',
-      title: 'Rest Rules',
+      title: 'Railway Servants (Rest) Rules 2005',
       year: '2005',
       icon: '🛌',
       color: 'from-pink-500 to-pink-600',
@@ -46,7 +46,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/conduct-rules',
-      title: 'Conduct Rules',
+      title: 'Railway Servants (Conduct) Rules 1966',
       year: '1966',
       icon: '📋',
       color: 'from-indigo-500 to-indigo-600',
@@ -55,7 +55,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/cga',
-      title: 'CGA (Compassionate Grounds Appointment)',
+      title: 'Compassionate Grounds Appointment (CGA)',
       year: 'CGA',
       icon: '❤️',
       color: 'from-amber-500 to-orange-600',
@@ -64,7 +64,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/apar',
-      title: 'APAR (Annual Performance Appraisal Report)',
+      title: 'Annual Performance Appraisal Report (APAR)',
       year: 'APAR',
       icon: '📈',
       color: 'from-teal-500 to-cyan-600',
@@ -73,7 +73,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/nps',
-      title: 'NPS (National Pension System)',
+      title: 'National Pension System (NPS)',
       year: 'NPS',
       icon: '🪙',
       color: 'from-slate-500 to-slate-600',
@@ -82,7 +82,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/ups',
-      title: 'UPS (Unified Pension System)',
+      title: 'Unified Pension System (UPS)',
       year: 'UPS',
       icon: '🏛️',
       color: 'from-rose-500 to-rose-600',
@@ -91,7 +91,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/ops',
-      title: 'OPS (Old Pension Scheme)',
+      title: 'Old Pension Scheme (OPS)',
       year: 'OPS',
       icon: '📜',
       color: 'from-violet-500 to-violet-600',
@@ -100,7 +100,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/cpc',
-      title: 'CPC (Central Pay Commission)',
+      title: 'Central Pay Commission (CPC)',
       year: 'CPC',
       icon: '💰',
       color: 'from-emerald-500 to-emerald-600',
@@ -109,7 +109,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/rti-act-2005',
-      title: 'RTI Act 2005 (Right to Information)',
+      title: 'Right to Information Act 2005',
       year: '2005',
       icon: '📄',
       color: 'from-sky-500 to-sky-600',
@@ -118,7 +118,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/lhb',
-      title: 'LHB (Linke Hofmann Busch)',
+      title: 'Linke Hofmann Busch (LHB)',
       year: 'LHB',
       icon: '🚃',
       color: 'from-orange-500 to-orange-600',
@@ -127,7 +127,7 @@ const EstablishmentRules = () => {
     },
     {
       href: '/quizzes/establishment-rules/hrms',
-      title: 'HRMS (Human Resource Management System)',
+      title: 'Human Resource Management System (HRMS)',
       year: 'HRMS',
       icon: '👥',
       color: 'from-cyan-500 to-cyan-600',

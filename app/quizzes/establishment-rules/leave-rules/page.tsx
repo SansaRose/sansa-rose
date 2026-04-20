@@ -20,7 +20,7 @@ export default function LeaveRulesQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'Leave Rules 1949',
+    title: 'Railway Servants (Leave) Rules 1949',
     description: 'Test your knowledge of Leave Rules for Railway Service Employees',
     color: 'from-purple-500 to-purple-600',
     quizzes: {

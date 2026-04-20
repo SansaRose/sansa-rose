@@ -20,7 +20,7 @@ export default function DisciplineAppealRulesQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'Discipline Appeal Rules 1968',
+    title: 'Railway Servants (Discipline & Appeal) Rules 1968',
     description: 'Test your knowledge of Discipline Appeal Rules for Railway Service Employees',
     color: 'from-blue-500 to-blue-600',
     quizzes: {
