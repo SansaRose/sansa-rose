@@ -512,6 +512,8 @@ const Timings = () => {
 
     { question: 'After how many years can a railway employee apply for reimbursement of spectacles?', answer: '3 years', timing: '3 years' },
 
+    { question: 'Maximum service required for withdrawal from National Pension System (NPS) is ______ years', answer: '3 years', timing: '3 years' },
+
 
     { question: 'How many months of study leave can be accepted for doing PHD in medical category?', answer: '36 months', timing: '36 months' },
 
@@ -530,19 +532,35 @@ const Timings = () => {
 
     { question: 'Revenue sharing for Green field Private Freight Terminal (PFT) starts after ______ years after notification of PFT', answer: '5 years', timing: '5 years' },
 
+    { question: 'Minimum gap between two partial withdrawals in National Pension System (NPS) is ______ years:', answer: '5 years', timing: '5 years' },
+
+    { question: 'Maximum qualifying service for Unified Pension Scheme (UPS) is ______ years', answer: '10 years', timing: '10 years' },
+
+    { question: 'In Unified Pension Scheme (UPS), Maximum assured pension is available to employees with _______ years of service', answer: '10 years of service', timing: '10 years' },
+
+    { question: 'Minimum qualifying service for pension under Old Pension Scheme (OPS) is _______ years of service', answer: '10 years of service', timing: '10 years' },
+
     { question: 'In no case, whatever, shall a male passenger except a boy under _________ of age be allowed to travel in a compartment reserved for Ladies in any train.', answer: '12 years', timing: '12 years' },
 
-    { question: 'Commuted pension of a Railway servant is restored after a period of ______ years', answer: '15 years', timing: '15 years' },  
+    { question: 'In Old Pension Scheme (OPS), After how many years is commuted pension restored?', answer: '15 years', timing: '15 years' },  
 
     { question: 'Post Retirement Complimentary Pass are admissible to Railway Servant retired after putting in ______ years of service', answer: '20 years', timing: '20 years' },
 
     { question: 'The minimum qualifying service for Voluntary Retirement is _______ years', answer: '20 years', timing: '20 years' },
+
+    { question: 'In Unified Pension Scheme (UPS), minimum service for VRS (Voluntary Retirement Scheme) is', answer: '20 years', timing: '20 years' },
+
+    { question: 'In Unified Pension Scheme (UPS), Service required for full assured pension is _______ years', answer: '25 years', timing: '25 years' },
 
     { question: 'Project life should be considered as ______ years from the date of Commissioning as per Para 345 of Indian Railways Engineering Code', answer: '30 years', timing: '30 years' },
 
     { question: 'Agreement period for Private Freight Terminal (PFT) is ______ years', answer: '30 years', timing: '30 years' },
 
     { question: 'What is the maximum tenure for which Railway land can be leased to the GCTO under the GCT Agreement', answer: '35 years', timing: '35 years' },
+
+    { question: 'Normal retirement age for National Pension System (NPS) is ______ years', answer: '60 years', timing: '60 years' },
+
+    { question: 'In Old Pension Scheme (OPS), Additional pension starts at the age of ______ years', answer: '80 years', timing: '80 years' },
     
     { question: 'After issue of following number of amendment slips SWR should be issued afresh', answer: '5', timing: 'Other' },
     { question: 'Normal monsoon period for SC, HYB & NED divisions is from 15th June to', answer: '15 October', timing: 'Other' },

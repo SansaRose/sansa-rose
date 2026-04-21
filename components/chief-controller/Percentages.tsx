@@ -56,6 +56,26 @@ const Percentages = () => {
       category: '10%'
     },
     {
+      question: 'Employee contribution to National Pension System (NPS) is ______ of Basic Pay + DA',
+      answer: '10% of Basic Pay + DA',
+      category: '10%'
+    },
+    {
+      question: 'In Unified Pension Scheme (UPS), Employee contribution is ______ of Basic Pay + DA',
+      answer: '10% of Basic Pay + DA',
+      category: '10%'
+    },
+    {
+      question: 'In Unified Pension Scheme (UPS), Government contribution is ______ of Basic Pay + DA',
+      answer: '10% of Basic Pay + DA',
+      category: '10%'
+    },
+    {
+      question: 'Government contribution to National Pension System (NPS) is ______ of Basic Pay + DA',
+      answer: '14% of Basic Pay + DA',
+      category: '14%'
+    },
+    {
       question: 'If the longer route requested by the railway servant does not exceed _______ of the direct route distance, such passes may be issued.',
       answer: '15%',
       category: '15%'
@@ -76,8 +96,18 @@ const Percentages = () => {
       category: '20%'
     },
     {
+      question: 'Lump Sum on Pre-mature exit (before 60 years) from National Pension System (NPS) is:',
+      answer: '20% of the corpus',
+      category: '20%'
+    },
+    {
       question: 'What is the percentage of Subsistence allowance that can be increased if suspension is increased due to administrative reasons?',
       answer: '25%',
+      category: '25%'
+    },
+    {
+      question: 'Maximum amount of partial withdrawal allowed in National Pension System (NPS) is:',
+      answer: '25% of employee contribution',
       category: '25%'
     },
     { 
@@ -96,7 +126,7 @@ const Percentages = () => {
       category: '30%'
     },
     {
-      question: 'Family Pension at normal rate is ______ of last pay.',
+      question: 'In Old Pension Scheme (OPS), Normal family pension is ______ of last pay.',
       answer: '30%',
       category: '30%'
     },
@@ -106,8 +136,8 @@ const Percentages = () => {
       category: '30%'
     },
     {
-      question: 'To what extent commutation of pension is allowed into a lump sum payment as a retirement benefit to a Railway servant?',
-      answer: '40%',
+      question: 'Maximum commution of pension under Old Pension Scheme (OPS) allowed is ______ of the basic pension',
+      answer: '40% of the basic pension',
       category: '40%'
     },
     {
@@ -121,9 +151,24 @@ const Percentages = () => {
       category: '50%'
     },
     {
+      question: 'In Unified Pension Scheme (UPS), Full assured pension is',
+      answer: '50% of Last 12 months average payy',
+      category: '50%'
+    },
+    {
+      question: 'Full pension under Old Pension Scheme (OPS) is ______ of last pay',
+      answer: '50% of last pay',
+      category: '50%'
+    },
+    {
       question: 'What percentage of Running allowance is added for Retirement benefits?',
       answer: '55%',
       category: '55%'
+    },
+    {
+      question: 'Family pension under Unified Pension Scheme (UPS) is',
+      answer: '60%',
+      category: '60%'
     },
     {
       question: 'Maximum Composite transfer grant as per VII Pay Commission is equivalent to ______ pay',
@@ -152,6 +197,11 @@ const Percentages = () => {
     },
     {
       question: 'Maximum advance allowed before journey in All India Leave Travel Concession (AILTC) is ______',  
+      answer: '80%',
+      category: '80%'
+    },
+    {
+      question: 'Mandatory annuity portion on Pre-mature exit (before 60 years) from National Pension System (NPS) is:',
       answer: '80%',
       category: '80%'
     },

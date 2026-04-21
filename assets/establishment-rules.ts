@@ -2881,21 +2881,21 @@ question:
       "Normal retirement age for National Pension System (NPS) is:",
     options: ["58 years", "60 years", "62 years", "65 years"],
     correct: 1,
-    explanation: "60 years is the correct answer.",
+    explanation: "At age 60 (or superannuation), subscribers must annuitize at least 40% of their corpus to purchase a pension annuity, while up to 60% can be withdrawn as a tax-free lump sum.",
   },
   {
     question:
-      "Maximum lumpsum amount at retirement is:",
+      "Maximum lumpsum amount at retirement in National Pension System (NPS) is:",
     options: ["40%", "50%", "60%", "80%"],
     correct: 2,
-    explanation: "60% is the correct answer.",
+    explanation: "Up to 60% can be withdrawn as a tax-free lump sum.",
   },
   {
     question:
-      "Mandatory annuity portion at retirement is:",
+      "Mandatory annuity portion at retirement in National Pension System (NPS) is:",
     options: ["40%", "50%", "60%", "80%"],
     correct: 0,
-    explanation: "40% is the correct answer.",
+    explanation: "At least 40% of the corpus must be annuitized to purchase a pension annuity.",
   },
   {
     question:
@@ -2986,7 +2986,7 @@ question:
       "National Pension System (NPS) is regulated by:",
     options: ["PFRDA", "IRDA", "SEBI", "RBI"],
     correct: 0,
-    explanation: "PFRDA is the correct answer.",
+    explanation: "Pension Fund Regulatory and Development Authority (PFRDA) is the correct answer.",
   },
   {
     question:
@@ -3044,7 +3044,7 @@ question:
       "Unified Pension Scheme (UPS) was approved in which year?",
     options: ["2018", "2020", "2022", "2024"],
     correct: 3,
-    explanation: "2024 is the correct answer.",
+    explanation: "The Unified Pension Scheme (UPS) was approved by the Union Cabinet on August 24, 2024.",
   },
   {
     question:
@@ -3142,7 +3142,7 @@ question:
       "How many pension funds are there in Unified Pension Scheme (UPS)?",
     options: ["1", "2", "3", "4"],
     correct: 2,
-    explanation: "2 is the correct answer.",
+    explanation: "Managed by the 3 Pension Fund Managers (UTI, SBI, LIC) for benchmark corpus calculation",
   },
   {
     question:
@@ -3156,7 +3156,7 @@ question:
       "In Unified Pension Scheme (UPS), Collective Corpus is managed by:",
     options: ["Bank", "Central Government", "Employee", "PFRDA"],
     correct: 3,
-    explanation: "PFRDA is the correct answer.",
+    explanation: "Pension Fund Regulatory and Development Authority (PFRDA) is the correct answer.",
   },
   {
     question:
@@ -3170,14 +3170,14 @@ question:
       "Investment under Unified Pension Scheme (UPS) is regulated by:",
     options: ["PFRDA", "IRDA", "SEBI", "RBI"],
     correct: 0,
-    explanation: "PFRDA is the correct answer.",
+    explanation: "Pension Fund Regulatory and Development Authority (PFRDA) is the correct answer.",
   },
   {
     question:
       "Family pension under Unified Pension Scheme (UPS) is:",
     options: ["30%", "40%", "50%", "60%"],
     correct: 3,
-    explanation: "60% is the correct answer.",
+    explanation: "Family pension under the Unified Pension Scheme (UPS) is 60% of the pension amount payable to the surviving spouse or eligible family members.",
   },
   {
     question:
@@ -3254,14 +3254,14 @@ question:
       "In Unified Pension Scheme (UPS), If individual corpus is less than benchmark:",
     options: ["Employee can contribute difference", "Government pay difference", "Pension stopped", "Pension reduced permanently"],
     correct: 0,
-    explanation: "Employee can contribute difference is the correct answer. (doubt, check again)",
+    explanation: "Employee can contribute difference is the correct answer.",
   },
   {
     question:
       "In Unified Pension Scheme (UPS), If individual corpus is more than benchmark:",
     options: ["Excess forfeited", "Excess given to employee", "Excess transferred to Government", "Excess added to DR"],
     correct: 1,
-    explanation: "Excess given to employee is the correct answer. (doubt, check again)",
+    explanation: "Excess given to employee is the correct answer.",
   },
   {
     question:
@@ -3296,7 +3296,7 @@ question:
       "Unified Pension Scheme (UPS) rules will be issued by:",
     options: ["DoPT", "Ministry of Finance", "PFRDA", "Railway Board"],
     correct: 2,
-    explanation: "PFRDA is the correct answer.",
+    explanation: "Pension Fund Regulatory and Development Authority (PFRDA) is the correct answer.",
   },
   {
     question:
@@ -3321,14 +3321,14 @@ question:
   },
   {
     question:
-      "UPS differs from OPS because:",
+      "Unified Pension Scheme (UPS) differs from Old Pension Scheme (OPS) because:",
     options: ["Contribution based structure", "No pension", "No DA", "No family pension"],
     correct: 0,
     explanation: "Contribution based structure is the correct answer.",
   },
   {
     question:
-      "UPS differs from NPS because:",
+      "Unified Pension Scheme (UPS) differs from National Pension System (NPS) because:",
     options: ["Assured pension element", "No contribution", "No investment", "No regulation"],
     correct: 0,
     explanation: "Assured pension element is the correct answer.",
@@ -3340,21 +3340,14 @@ question:
     correct: 0,
     explanation: "Dismissed employee is the correct answer.",
   },
-  {
-    question:
-      "",
-    options: ["", "", "", ""],
-    correct: 3,
-    explanation: "2024 is the correct answer.",
-  },
 ],
 "ops": [
   {
     question:
       "Old Pension Scheme (OPS) is applicable to employees appointed before which date?",
     options: ["01.01.2003", "01.01.2004", "01.04.2004", "01.01.2005"],
-    correct: 3,
-    explanation: "01.04.2004 is the correct answer.",
+    correct: 1,
+    explanation: "01.01.2004 is the correct answer.",
   },
   {
     question:
@@ -3375,7 +3368,7 @@ question:
       "Full pension under Old Pension Scheme (OPS) is:",
     options: ["40% of basic pay", "50% of basic pay", "60% of basic pay", "70% of basic pay"],
     correct: 1,
-    explanation: "50% of basic pay is the correct answer.",
+    explanation: "Under the Old Pension Scheme (OPS), the full pension is fixed at 50% of the employee’s last drawn basic salary or their average emoluments over the last 10 months of service, whichever is more beneficial to the employee. ",
   },
   {
     question:
@@ -3431,7 +3424,7 @@ question:
       "Maximum commution of pension under Old Pension Scheme (OPS) allowed is:",
     options: ["25%", "30%", "40%", "50%"],
     correct: 2,
-    explanation: "40% is the correct answer.",
+    explanation: "Under the Old Pension Scheme (OPS), the maximum commutation of pension allowed is 40% of the basic pension",
   },
   {
     question:
@@ -3459,7 +3452,7 @@ question:
       "In Old Pension Scheme (OPS), Normal family pension is:",
     options: ["25% of basic pay", "30% of basic pay", "35% of basic pay", "40% of basic pay"],
     correct: 1,
-    explanation: "30% of basic pay is the correct answer.",
+    explanation: "In the Old Pension Scheme (OPS), the normal family pension is 30% of the last pay drawn by the deceased pensioner (or average emoluments for the last 10 months, whichever is more beneficial).",
   },
   {
     question:
@@ -3556,7 +3549,7 @@ question:
     question:
       "In Old Pension Scheme (OPS), Family pension is paid to:",
     options: ["Spouse", "Children", "Both spouse and children", "Siblings"],
-    correct: 3,
+    correct: 2,
     explanation: "Both spouse and children is the correct answer.",
   },
   {

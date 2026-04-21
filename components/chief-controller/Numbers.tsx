@@ -116,12 +116,17 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'How many tiers are there in National Pension System (NPS)?',
+      answer: '2',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
     },
     {
-      question: 'At stations, where PA system is not provided, to start the train SM shall arrange by ringing beats for Up trains is ______',
+      question: 'At stations, where Public Announcement (PA) system is not provided, to start the train SM shall arrange by ringing beats for Up trains is ______',
       answer: '3',
       category: '3'
     },
@@ -197,6 +202,16 @@ const Numbers = () => {
     },
     {
       question: 'Number of Coach manufacturing Units on Indian railways are ______',
+      answer: '3',
+      category: '3'
+    },
+    {
+      question: 'Maximum number of partial withdrawals allowed in National Pension System (NPS) is:',
+      answer: '3 times',
+      category: '3'
+    },
+    {
+      question: 'How many pension funds are there in Unified Pension Scheme (UPS)?',
       answer: '3',
       category: '3'
     },
@@ -333,6 +348,11 @@ const Numbers = () => {
       {
         question: 'How many rules are there in the Official Language Rules 1976?',
         answer: '12',
+        category: '12'
+      },
+      {
+        question: 'How many digits are there in PPAN (Permanent Pension Account Number) in the account number of National Pension System (NPS) subscriber?',
+        answer: '12 digits',
         category: '12'
       },
       {

@@ -443,6 +443,10 @@ type AbbreviationItem = {
         explanation: "The head of the Railway Safety Organization responsible for oversight of railway safety nationwide.",
         reference: "--"
       },
+      { acronym: "CCS", fullForm: "Central Civil Services",
+        explanation: "The Central Civil Services (Pension) Rules, 1972 (CCS Pension Rules) govern retirement benefits for central government employees under the Old Pension Scheme (OPS).",
+        reference: "--"
+      },
       { acronym: "CDTS", fullForm: "Control Discharge Toilet System",
         explanation: "Will be added later",
         reference: "--"

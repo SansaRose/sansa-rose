@@ -332,6 +332,11 @@ const Years = () => {
       answer: '12.05.2020',
       category: '2020'
     },
+    {
+      question: 'Unified Pension Scheme (UPS) was approved in which year?',
+      answer: '24.08.2024',
+      category: '2024'
+    },
   ]
 
   // Group years by category for better organization
