@@ -510,6 +510,70 @@ export const establishmentRulesQuizzes = {
             correct: 0,
             explanation: "ADRM is the correct answer.",
           },
+          {
+            question:
+              "Rule 14 of the Railway Servants (Discipline & Appeal) Rules, 1968 is described as a 'special and stringent provision'. Under what circumstances is it primarily used?",
+            options: ["As a first resort in all disciplinary cases.", "For minor infractions by railway servants", "Only when procedures under Rules 9, 11, and 13 are not feasible", "To expedite all appeal processes"],
+            correct: 2,
+            explanation: "Only when procedures under Rules 9, 11, and 13 are not feasible is the correct answer.",
+          },
+          {
+            question:
+              "Which specific rules are mentioned as being superseded or deemed unfeasible before Rule 14 is invoked?",
+            options: ["Rules 1, 2, and 3", "Rules 5, 7, and 8", "Rules 9, 11, and 13", "Rules 10, 12, and 15"],
+            correct: 2,
+            explanation: "Rules 9, 11, and 13 are the correct answer. Rule 14 is used when the procedures under these rules are not feasible.",
+          },
+          {
+            question:
+              "Rule 14 of the Railway Servants (Discipline & Appeal) Rules, 1968 is conformity with which article of the Constitution of India?",
+            options: ["Article 311(1)", "Article 311(2)", "Article 312(1)", "Article 312(2)"],
+            correct: 1,
+            explanation: "Article 311(2) is the correct answer. Rule 14 is conformity with Article 311(2) of the Constitution of India.",
+          },
+          {
+            question:
+              "What is the nature of Rule 14 of the Railway Servants (Discipline & Appeal) Rules, 1968, as described in the text?",
+            options: ["A flexible and lenient provision", "A standard procedure for all cases", "A special and stringent provision", "An advisory guidelines"],
+            correct: 2,
+            explanation: "A special and stringent provision is the correct answer. Rule 14 is a special and stringent provision.",
+          },
+          {
+            question:
+              "When is Rule 14 of the Railway Servants (Discipline & Appeal) Rules, 1968 considered a 'last resort'?",
+            options: ["After all appeals have been exhausted, regardless of feasibility", "In all disciplinary cases", "Only in exceptional circumstances", "When an employee requests it"],
+            correct: 2,
+            explanation: "Only in exceptional circumstances is the correct answer. Rule 14 is a last resort when all other procedures have been exhausted and the disciplinary authority is satisfied that it is not reasonably practicable to hold an inquiry in the manner provided in Rules 9, 11, and 13.",
+          },
+          {
+            question:
+              "Under which of the following circumstances can an inquiry be dispensed with for a railway servant?",
+            options: ["When the railway servant has been convicted by a court of law", "When the disciplinary authority is satisfied tha t it is not reasonabley practiable to hold an inquiry", "When the President is satisfied that holding an inquiry is not expedient in the interest of state security", "All of the above"],
+            correct: 3,
+            explanation: "All of the above is the correct answer. Rule 14 can be dispensed with in all of the above circumstances.",
+          },
+          {
+            question:
+              "If a disciplinary authority determines that it is not 'reasonably practicable' to hold an inquiry, wihat is the consequence as per the given information?",
+            options: ["The inquiry must still be held", "The inquiry can be dispensed with", "The matter must be referred to a court of law", "The President must approve the inquiry"],
+            correct: 1,
+            explanation: "The inquiry can be dispensed with is the correct answer.",
+          },
+          {
+            question:
+              "Which of the following conditions allows for an inquiry to be bypassed if a railway servant is involved?",
+            options: ["If the railway servant has been convicted by a court of law", "If the railway servant requests  to skip the inquiry", "Only if the reilway servant admits guilt", "Only if the disciplinary authority recommneds it"],
+            correct: 0,
+            explanation: "If the railway servant has been convicted by a court of law is the correct answer.",
+          },
+          {
+            question:
+              "",
+            options: ["", "", "", ""],
+            correct: 0,
+            explanation: "",
+          },
+          
         ],
 "leave-rules": [
           {

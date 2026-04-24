@@ -10,6 +10,8 @@ const topicsLinksRaw: TopicNavLink[] = [
   { href: '/topics/chief-controller', label: 'Chief Controller', icon: '👨‍💼' },
   { href: '/topics/container-rail-terminals', label: 'Container rail terminals', icon: '🏗️' },
   { href: '/topics/public-complaints', label: 'Public complaints', icon: '📢' },
+  { href: '/topics/establishment-rules', label: 'Establishment rules', icon: '📜' },
+  { href: '/topics/financial-rules', label: 'Financial rules', icon: '💰' },
   { href: '/topics/hrms', label: 'HRMS', icon: '👥' },
   { href: '/topics/irec', label: 'IREC', icon: '📕' },
   { href: '/topics/irem', label: 'IREM', icon: '📗' },
