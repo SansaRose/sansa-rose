@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { BookOpenText, Landmark } from 'lucide-react'
+import { BookOpenText, Files, FileStack, Landmark, LayoutGrid } from 'lucide-react'
 
 const financialRuleTopics = [
   {
@@ -14,6 +14,42 @@ const financialRuleTopics = [
     iconClassName: 'text-emerald-200',
     borderClassName: 'border-emerald-500/25 hover:border-emerald-400/45',
     ringClassName: 'ring-emerald-500/10',
+  },
+  {
+    href: '/topics/financial-rules/major-heads',
+    title: 'Major heads',
+    subtitle: 'Core classifications',
+    description:
+      'Major head references and top-level financial classifications for quick study and future expansion.',
+    icon: Files,
+    accent: 'from-violet-500/20 via-fuchsia-500/10 to-transparent',
+    iconClassName: 'text-violet-200',
+    borderClassName: 'border-violet-500/25 hover:border-violet-400/45',
+    ringClassName: 'ring-violet-500/10',
+  },
+  {
+    href: '/topics/financial-rules/demands',
+    title: 'Demands',
+    subtitle: 'Grant categories',
+    description:
+      'Demand-wise financial references, grouped grant topics, and supporting material for study and revision.',
+    icon: FileStack,
+    accent: 'from-amber-500/20 via-orange-500/10 to-transparent',
+    iconClassName: 'text-amber-200',
+    borderClassName: 'border-amber-500/25 hover:border-amber-400/45',
+    ringClassName: 'ring-amber-500/10',
+  },
+  {
+    href: '/topics/financial-rules/primary-units',
+    title: 'Primary units',
+    subtitle: 'Object heads',
+    description:
+      'Primary unit references, object head structure, and related financial classification material for study.',
+    icon: LayoutGrid,
+    accent: 'from-pink-500/20 via-rose-500/10 to-transparent',
+    iconClassName: 'text-pink-200',
+    borderClassName: 'border-pink-500/25 hover:border-pink-400/45',
+    ringClassName: 'ring-pink-500/10',
   },
   {
     href: '/topics/financial-rules/railway-budget',
