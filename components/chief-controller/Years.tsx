@@ -116,6 +116,11 @@ const Years = () => {
         category: '1957'
       },
       {
+        question: 'Liberalized pension rules apply to all Railway Servants appointed on or after 16.11.1957',
+        answer: '16.11.1957',
+        category: '1957'
+      },
+      {
         question: 'In which year Hindi (Parliament) section was established in Railway Board?',
         answer: '1960',
         category: '1960'
@@ -174,6 +179,11 @@ const Years = () => {
         question: 'During which year the Official Language Resolution was passed?',
         answer: '1968',
         category: '1968'
+      },
+      {
+        question: 'Central Civil Services (Pension) Rules, 1972 (01.06.1972)',
+        answer: '01.06.1972',
+        category: '1972'
       },
       {
         question: 'Revised GR submitted by committee was circulated to RDSO, Commission of Railway Safety, Rly staff college Baroda, IRISET, IRMEE Jamalpur for suggestions vide Rly Board lr no 68-RR/2 Vol V in the month of........',
@@ -260,7 +270,11 @@ const Years = () => {
       answer: '07.10.1997',
       category: '1997'
     },
-    
+    {
+      question: 'Retired Railway Employees Liberalized Health Scheme (RELHS) - 1997',
+      answer: '1997',
+      category: '1997'
+    },
     {
       question: 'Accident Free Service Award for railway staff implemented w.e.f _______',
       answer: '01.01.1999',

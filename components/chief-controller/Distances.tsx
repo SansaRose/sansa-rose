@@ -165,6 +165,8 @@ const Distances = () => {
 
     { question: 'Separate Rate structure for running of MGR scheme, which is on number of trips per day basis as the distance is upto ______ Kms.', answer: '100KM', distance: '100KM' },
 
+    { question: 'Concession under STS shall be applicable to cluster of stations also. The cluster is defined as stations/points within close proximity to each other with a maximum distance between any two stations/points not exceeding ______ km.', answer: '150 KM', distance: '150 KM' },
+
     { question: 'In FTR booking, Empty Haulage Charge is applied on a minimum chargeable distance of how many kilometres?', answer: '200KM', distance: '200KM' },
 
     

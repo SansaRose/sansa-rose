@@ -942,6 +942,10 @@ type AbbreviationItem = {
         explanation: "Will be added later",
         reference: "--"
       },
+      { acronym: "DLI", fullForm: "Deposit Linked Insurance",
+        explanation: "Will be added later",
+        reference: "--"
+      },
       { acronym: "DME", fullForm: "Divisional Mechanical Engineer",
         explanation: "Will be added later",
         reference: "--"
@@ -995,6 +999,14 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "DPCS", fullForm: "Distributed Power Control System",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "DPIIT", fullForm: "Department for Promotion of Industry and Internal Trade",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "DPMF", fullForm: "Dual Phone Modulation Frequency",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -2074,6 +2086,13 @@ type AbbreviationItem = {
         explanation: "An EMU designed for semi-urban and intercity passenger services on electrified routes",
         reference: "--"
       },
+      {
+        acronym: "MGGFR",
+        fullForm: "Minimum Guaranteed Gross Freight Revenue",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      
       { acronym: "MGR", fullForm: "Many Go Round",
         explanation: "Will be added later",
         reference: "--"
@@ -2148,6 +2167,10 @@ type AbbreviationItem = {
         reference: "--" 
       },
       { acronym: "MSASS", fullForm: "Modified Semi Automatic Stop Signal",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "MSoP", fullForm: "Model Schedule of Powers",
         explanation: "Will be added later",
         reference: "--"
       },

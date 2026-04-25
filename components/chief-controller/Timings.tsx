@@ -427,6 +427,8 @@ const Timings = () => {
 
     { question: 'Privilege passes are valid for a period of ______ months from the date of issue.', answer: '4 months', timing: '4 months' },
 
+    { question: 'Retention of Railway quarters for 4 months on normal rent. (Applicable to Government Pension Scheme)', answer: '4 months', timing: '4 months' },
+
     
     { question: 'Maternity leave for a female Railway servant shall be granted for a period of ______ days', answer: '180 days', timing: '180 days' },
     
@@ -489,6 +491,8 @@ const Timings = () => {
     { question: 'What is the medical examination interval between 45 and 55 years of age?', answer: 'once in 2 years', timing: '2 years' },
 
     { question: 'Revenue sharing for Brown field Private Freight Terminal (PFT) starts after ______ years after notification of PFT.', answer: '2 years', timing: '2 years' },
+
+    { question: 'Retention of Railway quarters up to ______ years on normal rent in the event of death while in service. (Applicable to Government Pension Scheme)', answer: '2 years', timing: '2 years'},
     
     { question: 'Periodical census of traffic at all level crossings shall be carried out for every', answer: '3 years for 7 days', timing: '3 years' },
 

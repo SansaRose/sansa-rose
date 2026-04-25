@@ -452,6 +452,11 @@ const Perminssions = () => {
         category: 'PCPO'
       },
       {
+        description: 'Power to declare the employment of a Railway servant as "Intensive" or "Essentially Intermittent" is vested in the ______',
+        authority: 'PCPO',
+        category: 'PCPO'
+      },
+      {
         description: 'Sanction for ‘C’ class ODC special trains has to be given by ______',
         authority: 'PCSO',
         category: 'PCSO & CRS & PCE'
