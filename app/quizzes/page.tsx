@@ -49,6 +49,15 @@ const Quizzes = () => {
       description: 'Explore financial regulations, accounts management, tendering processes, and budget procedures'
     },
     {
+      href: '/quizzes/general-awareness',
+      title: 'General Awareness',
+      icon: '🌐',
+      color: 'from-cyan-500 to-teal-600',
+      hoverColor: 'from-cyan-600 to-teal-700',
+      description:
+        'Practice questions across geography, history, polity, science, current affairs, and other core general-awareness topics.'
+    },
+    {
       href: '/quizzes/general-subsidiary-rules',
       title: 'General Subsidiary Rules',
       icon: '📋',

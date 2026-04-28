@@ -111,6 +111,7 @@ const Navbar = () => {
     { href: '/quizzes/commercial-department', label: 'Commercial Department', icon: '💼' },
     { href: '/quizzes/establishment-rules', label: 'Establishment Rules', icon: '📜' },
     { href: '/quizzes/financial-rules', label: 'Financial Rules', icon: '💰' },
+    { href: '/quizzes/general-awareness', label: 'General Awareness', icon: '🌐' },
     { href: '/quizzes/general-subsidiary-rules', label: 'General Subsidiary Rules', icon: '📋' },
     { href: '/quizzes/kavach', label: 'Kavach', icon: '🛡️' },
     { href: '/quizzes/operating-department', label: 'Operating Department', icon: '🚂' },
