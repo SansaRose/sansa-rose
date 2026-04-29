@@ -160,29 +160,52 @@ export const polityQuiz = {
     ],
     'quiz-2': [
       {
-        question: 'What kind of constitution does India have?',
+        question: 'Which article has a similar provision to that of Article 32 and deals with writ jurisdiction?',
         options: [
-          'Unitary constitution',
-          'Federal constitution with unitary bias',
-          'Confederation',
-          'Pure federal constitution',
+          'Article 226',
+          'Article 227',
+          'Article 228',
+          'Article 229',
         ],
-        correct: 1,
+        correct: 0,
         explanation:
-          'The Indian Constitution is framed as a federation but also incorporates unitary features of government.',
+          'Article 226 has a similar provision to that of Article 32 and deals with writ jurisdiction.',
       },
       {
         question:
-          'The Preamble of the Indian Constitution declares India to be _______.',
+          'Right of prisoner to speedy trial will be categorised in which of the folowing Fundamental Rights?',
         options: [
-          'A sovereign communist republic',
-          'A sovereign socialist secular democratic republic',
-          'A sovereign federal monarchy',
-          'A parliamentary colony',
+          'Right against Exploitation',
+          'Right to Equality',
+          'Right to Constitutional Remedies',
+          'Right to Life and Liberty',
         ],
         correct: 1,
-        explanation: 'The Preamble describes India as a sovereign socialist secular democratic republic.',
+        explanation: 'Right to Equality is the correct answer.',
       },
+      {
+        question: 'Which Article of the Indian Constitution prohibits of any religious instruction in the educational istitutions maintained by the Union or by a State or by a local authority?',
+        options: [
+          'Article 28',
+          'Article 29',
+          'Article 30',
+          'Article 31',
+        ],
+        correct: 0,
+        explanation: 'Article 28 of the Indian Constitution prohibits of any religious instruction in the educational istitutions maintained by the Union or by a State or by a local authority.',
+      },
+      {
+        question: 'Which Article of the Indian Constitution deals with the Right to Constitutional Remedies?',
+        options: [
+          'Article 32',
+          'Article 33',
+          'Article 34',
+          'Article 35',
+        ],
+        correct: 0,
+        explanation: 'Article 32 deals with the Right to Constitutional Remedies.',
+      },
+      
     ],
   },
 }
