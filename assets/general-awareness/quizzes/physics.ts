@@ -474,5 +474,167 @@ export const physicsQuiz = {
           'Stimulated emission in a cavity yields coherence and beams with small divergence.',
       },
     ],
+    'quiz-3': [
+      {
+        question:
+          'The formula unit mass of a substance is the sum of the atomic masses of all atoms in a formula unit of a/an _______',
+        options: ['atom', 'compound', 'element', 'mixture'],
+        correct: 1,
+        explanation:
+          'compound is the sum of the atomic masses of all atoms in a formula unit',
+      },
+      {
+        question:
+          'Which two researchers independently suggested that acid-base reactions could be thought of as proton-transfer reactions for the first time, in 1923?',
+        options: ['Bronsted and Lowry', 'Lewis and Bronsted', 'Lewis and Lowry', 'J.N. Bronsted and T.M. Lowry'],
+        correct: 3,
+        explanation:
+          'Bronsted and Lowry independently proposed the concept of acid-base reactions as proton-transfer reactions in 1923.',
+      },
+      {
+        question:
+          'The element with atomic number 21 is _______',
+        options: ['Scandium', 'Titanium', 'Vanadium', 'Chromium'],
+        correct: 0,
+        explanation:
+          'Scandium is the element with atomic number 21.',
+      },
+      {
+        question:
+          'How do plants primarily get rid of excess water?',
+        options: ['By transpiration', 'By osmosis', 'By diffusion', 'By convection'],
+        correct: 0,
+        explanation:
+          'Transpiration is the primary mechanism for removing excess water from plants.',
+      },
+      {
+        question:
+          'What is molecular mass?',
+        options: ['The sum of the atomic masses of all atoms in a molecule', 'The mass of a single molecule', 'The mass of a single atom', 'The mass of a single molecule of water'],
+        correct: 0,
+        explanation:
+          'Molecular mass is the sum of the atomic masses of all atoms in a molecule.',
+      },
+      {
+        question:
+          'Which tissue causes movement by contraction?',
+        options: ['Cuboidal', 'Muscular', 'Nervous', 'Epithelial'],
+        correct: 1,
+        explanation:
+          'Muscular tissue causes movement by contraction.',
+      },
+      {
+        question:
+          'Angle between incident and emergent ray in a prism is called _______',
+        options: ['Angle of deviation', 'Angle of incidence', 'Angle of emergence', 'Angle of reflection'],
+        correct: 0,
+        explanation:
+          'Angle between incident and emergent ray in a prism is called angle of deviation.',
+      },
+      {
+        question:
+          'Which of the following scientists proosed the nuclear model of the atom based on the results of the gold foil experiment?',
+        options: ['Rutherford', 'Thomson', 'Bohr', 'Plank'],
+        correct: 0,
+        explanation:
+          'Rutherford proposed the nuclear model of the atom based on the results of the gold foil experiment.',
+      },
+      {
+        question:
+          'Which of the following cell organelles is filled with digestive enzymes and ehlps to keep the cell clean?',
+        options: ['Lysosome', 'Ribosome', 'Mitochondrion', 'Nucleus'],
+        correct: 0,
+        explanation:
+          'Lysosome is filled with digestive enzymes and helps to keep the cell clean.',
+      },
+      {
+        question:
+          'Propanone belongs to which homologous series?',
+        options: ['Alcohols', 'Aldehydes', 'Ketones', 'Carboxylic acids'],
+        correct: 2,
+        explanation:
+          'Propanone belongs to the ketones homologous series.',
+      },
+      {
+        question:
+          'The waves which can propagate in gases are _______',
+        options: ['Longitudinal', 'Transverse', 'Both longitudinal and transverse', 'Neither longitudinal nor transverse'],
+        correct: 0,
+        explanation:
+          'The waves which can propagate in gases are longitudinal.',
+      },
+      {
+        question:
+          'If a person feels difficulty in breathing on entering an underground store of wheat grains. This can be due to _______',
+        options: ['Carbon monoxide', 'Carbon dioxide', 'Nitrogen', 'Oxygen'],
+        correct: 1,
+        explanation:
+          'Carbon dioxide is present in the underground store of wheat grains and can cause difficulty in breathing.',
+      },
+      {
+        question:
+          'All eukaryotic ells are supported structuarally by an internal network of proteins known as _______',
+        options: ['Cytoskeleton', 'Cytosol', 'Cytoplasm', 'Cytology'],
+        correct: 0,
+        explanation:
+          'All eukaryotic ells are supported structuarally by an internal network of proteins known as cytoskeleton.',
+      },
+      {
+        question:
+          'In a starch test using a variegated leaf, what is the purpose of adding iodine solution at the end?',
+        options: ['To identify areas without chloroplasts', 'To stain starch present in leaf', 'To identify areas with chloroplasts', 'To stain starch present in root'],
+        correct: 1,
+        explanation:
+          'To stain starch present in leaf.',
+      },
+      {
+        question:
+          'Why are ultrasounds preferred for cleaning objects with complex shapes?',
+        options: ['They increase temperature of solution', 'They produce magnetic effect', 'They have very high speed in liquids', 'Their high frequency dislodges dirt particles'],
+        correct: 3,
+        explanation:
+          'Their high frequency dislodges dirt particles.',
+      },
+      {
+        question:
+          'The process of taking food in the body is known as _______',
+        options: ['Digestion', 'Egestion', 'Ingestion', 'Excretion'],
+        correct: 2,
+        explanation:
+          'The process of taking food in the body is known as ingestion.',
+      },
+      {
+        question:
+          'Which element from Group 17 is used to eliminate bacteria and viruses from surfaces, drinking water, sewage, industrial waste, and swimming pools and spas?',
+        options: ['Chlorine', 'Fluorine', 'Bromine', 'Iodine'],
+        correct: 0,
+        explanation:
+          'Chlorine is used to eliminate bacteria and viruses from surfaces, drinking water, sewage, industrial waste, and swimming pools and spas.',
+      },
+      {
+        question:
+          'Subatomic particles like electrons, protons, and neutrons exhibit _______',
+        options: ['Both particle and wave nature', 'Only particle nature', 'Only wave nature', 'Neither particle nor wave nature'],
+        correct: 0,
+        explanation:
+          'Subatomic particles like electrons, protons, and neutrons exhibit both particle and wave nature.',
+      },
+      {
+        question:
+          'The ratio by mass of carbon and oxygen in carbon dioxide is _______',
+        options: ['1:2', '2:1', '3:8', '6:8'],
+        correct: 0,
+        explanation:
+          '3:8 is the ratio by mass of carbon and oxygen in carbon dioxide.',
+      },
+      {
+        question:
+          'What does the value of the principle quantum number "n" in Bohr"s model represent?',
+        options: ['Charge on the nucleus', 'Mass of the atom', 'Number of protons', 'Size and energy of the orbit'],
+        correct: 3,
+        explanation:
+          'Size and energy of the orbit.',
+      },
+    ]
   },
 };
