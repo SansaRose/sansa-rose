@@ -3136,7 +3136,7 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "SHINE", fullForm: "Sexual Harassment Incident Notification for Empowerment of Female Employees",
-        explanation: "Will be added later",
+        explanation: "Indian Railways launched the SHINE app for women employees safety and security. Allows confidential reporting of workplace harassment via the HRMS app.",
         reference: "--"
       },
       { acronym: "SI", fullForm: "Special Instructions",
