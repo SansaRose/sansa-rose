@@ -4,6 +4,27 @@ export const establishmentRulesQuizzes = {
           
           {
             question:
+              "The Railway servants (Discipline & Appeal) Rules came into force on ......",
+            options: ["1966", "1968", "1972", "1978"],
+            correct: 1,
+            explanation: "01.10.1968 is the correct answer.",
+          },
+          {
+            question:
+              "Total number of rules in The Railway servants (Discipline & Appeal) Rules are .......",
+            options: ["20", "25", "31", "35"],
+            correct: 2,
+            explanation: "31 is the correct answer.",
+          },
+          {
+            question:
+              "Total number of parts are there in The Railway servants (Discipline & Appeal) Rules, 1968?",
+            options: ["5", "6", "7", "8"],
+            correct: 2,
+            explanation: "7 is the correct answer.",
+          },
+          {
+            question:
               "Standard form to be used for issuing Major Penalty is .......",
             options: ["SF1", "SF5", "SF11", "None of the abve"],
             correct: 1,
@@ -15,16 +36,6 @@ export const establishmentRulesQuizzes = {
             options: ["SF1", "SF5", "SF11", "None of the abve"],
             correct: 2,
             explanation: "SF11 is the correct answer.",
-          },
-         
-         
-          
-          {
-            question:
-              "The Railway servants (Discipline & Appeal) Rules came into force on ......",
-            options: ["1966", "1968", "1972", "1978"],
-            correct: 1,
-            explanation: "01.10.1968 is the correct answer.",
           },
           {
             question:
@@ -568,9 +579,86 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
+              "Suspnesion provisions are covered under which rules",
+            options: ["Rule 1 to 3", "Rule 4 to 5", "Rule 6 to 8", "Rule 9 to 16"],
+            correct: 1,
+            explanation: "Rule 4 to 5 is the correct answer.",
+          },
+          {
+            question:
+              "Which rules are related to Penalties?",
+            options: ["Rule 6 to 8", "Rule 9 to 16", "Rule 17 to 24", "Rule 25 to 31"],
+            correct: 0,
+            explanation: "Rule 6 to 8 is the correct answer.",
+          },
+          {
+            question:
+              "Procedure of Penalties are covered under which rules",
+            options: ["Rule 9 to 16", "Rule 17 to 24", "Rule 25 to 31", "Rule 32 to 35"],
+            correct: 0,
+            explanation: "Rule 9 to 16 is the correct answer.",
+          },
+          {
+            question:
+              "Appeals are covered under which rules",
+            options: ["Rule 17 to 24", "Rule 25 to 31", "Rule 32 to 35", "Rule 36 to 42"],
+            correct: 0,
+            explanation: "Rule 17 to 24 is the correct answer.",
+          },
+          {
+            question:
+              "Major and Minor penalties are covered under which rules",
+            options: ["Rule 5", "Rule 6", "Rule 7", "Rule 8"],
+            correct: 1,
+            explanation: "Rule 6 is the correct answer.",
+          },
+          {
+            question:
+              "Which rule deals with the disciplinary authority",
+            options: ["Rule 7", "Rule 8", "Rule 9", "Rule 10"],
+            correct: 0,
+            explanation: "Rule 7 is the correct answer.",
+          },
+          {
+            question:
+              "Which rule deals with the authority to institute proceedings",
+            options: ["Rule 7", "Rule 8", "Rule 9", "Rule 10"],
+            correct: 1,
+            explanation: "Rule 8 is the correct answer.",
+          },
+          {
+            question:
+              "Common proceedings are covered under which rules",
+            options: ["Rule 10", "Rule 11", "Rule 12", "Rule 13"],
+            correct: 3,
+            explanation: "Rule 13 is the correct answer.",
+          },
+          {
+            question:
+              "Which rule deals with the communication of orders",
+            options: ["Rule 14", "Rule 15", "Rule 16", "Rule 17"],
+            correct: 1,
+            explanation: "Rule 15 is the correct answer.",
+          },
+          {
+            question:
+              "Which rule deals with the special procedure in certain cases",
+            options: ["Rule 14", "Rule 15", "Rule 16", "Rule 17"],
+            correct: 0,
+            explanation: "Rule 14 is the correct answer.",
+          },
+          {
+            question:
+              "Which rule deals with action on inquiry report",
+            options: ["Rule 10", "Rule 11", "Rule 12", "Rule 13"],
+            correct: 0,
+            explanation: "Rule 10 is the correct answer.",
+          },
+          {
+            question:
               "",
             options: ["", "", "", ""],
-            correct: 0,
+            correct: 1,
             explanation: "",
           },
           
