@@ -2,9 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import { BookOpen, ChevronRight, MapPin, Sparkles } from 'lucide-react'
 
-import * as GA from '@/assets/general-awareness/states-information/goa'
+import * as HP from '@/assets/general-awareness/states-information/himachal-pradesh'
 
-type GoaProps = {
+type HimachalPradeshProps = {
   showBackNav?: boolean
 }
 
@@ -49,7 +49,7 @@ function ExtendedFactsGrid({
   facts,
   className = 'mt-5',
 }: {
-  facts: readonly GA.GoaExtendedFact[]
+  facts: readonly HP.HimachalPradeshExtendedFact[]
   className?: string
 }) {
   return (
@@ -135,7 +135,7 @@ function MiscellaneousListItem({ line }: { line: string }) {
   )
 }
 
-const Goa = ({ showBackNav = false }: GoaProps) => {
+const HimachalPradesh = ({ showBackNav = false }: HimachalPradeshProps) => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-linear-to-b from-slate-950 via-slate-900 to-emerald-950/80">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(16,185,129,0.12),transparent)]" />
@@ -148,10 +148,10 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
             General Awareness
           </div>
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-teal-300/90 sm:text-base">
-            {GA.statesInformationPageTitle}
+            {HP.statesInformationPageTitle}
           </p>
           <h1 className="mt-3 bg-linear-to-r from-emerald-100 via-teal-100 to-emerald-200 bg-clip-text text-xl font-bold uppercase tracking-tight text-transparent sm:text-2xl md:text-3xl">
-            {GA.goaHeaderLine}
+            {HP.himachalPradeshHeaderLine}
           </h1>
           <div
             className="mx-auto mt-4 h-1 w-24 rounded-full bg-linear-to-r from-emerald-600 via-teal-500 to-emerald-500 opacity-90"
@@ -166,8 +166,8 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 <BookOpen className="h-5 w-5" strokeWidth={2} />
               </div>
             </div>
-            <KeyValueGrid items={GA.goaBasicFacts} />
-            <ExtendedFactsGrid facts={GA.goaExtendedFacts} />
+            <KeyValueGrid items={HP.himachalPradeshBasicFacts} />
+            <ExtendedFactsGrid facts={HP.himachalPradeshExtendedFacts} />
           </SectionShell>
 
           <SectionShell>
@@ -175,7 +175,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/25">
                 <MapPin className="h-5 w-5" strokeWidth={2} />
               </div>
-              <SectionHeading>{GA.templesSectionTitle}</SectionHeading>
+              <SectionHeading>{HP.templesSectionTitle}</SectionHeading>
             </div>
             <ScrollTable
               header={
@@ -186,7 +186,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.templesRows.map((row, i) => (
+              {HP.templesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -197,30 +197,30 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.industriesSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.industriesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
                   <NumberColumnHeader />
                   <th className="px-3 py-3 sm:px-4">Industry/Company Name</th>
-                  <th className="px-3 py-3 sm:px-4">Location</th>
                   <th className="px-3 py-3 sm:px-4">Year</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
                 </tr>
               }
             >
-              {GA.industriesRows.map((row, i) => (
+              {HP.industriesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
                 </tr>
               ))}
             </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.powerPlantsSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.powerPlantsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -231,7 +231,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.powerPlantsRows.map((row, i) => (
+              {HP.powerPlantsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -243,34 +243,34 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <ExtendedFactsGrid className="mt-0" facts={[{ label: 'RIVERS', kind: 'ordered', items: GA.riversOrdered }]} />
+            <ExtendedFactsGrid className="mt-0" facts={[{ label: 'RIVERS', kind: 'ordered', items: HP.riversOrdered }]} />
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.lakesSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.lakesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
                   <NumberColumnHeader />
                   <th className="px-3 py-3 sm:px-4">Lake Name</th>
-                  <th className="px-3 py-3 sm:px-4">Location</th>
                   <th className="px-3 py-3 sm:px-4">River</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
                 </tr>
               }
             >
-              {GA.lakesRows.map((row, i) => (
+              {HP.lakesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.river}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
                 </tr>
               ))}
             </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.projectsDamsSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.projectsDamsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -281,19 +281,19 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.projectsDamsRows.map((row, i) => (
+              {HP.projectsDamsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.river}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location || '—'}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location || '\u2014'}</td>
                 </tr>
               ))}
             </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.waterfallsBeachSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.waterfallsBeachSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -303,7 +303,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.waterfallsBeachRows.map((row, i) => (
+              {HP.waterfallsBeachRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -314,7 +314,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.portsPeakSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.portsPeakSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -324,7 +324,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.portsPeakRows.map((row, i) => (
+              {HP.portsPeakRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -335,7 +335,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.hillsValleyCavesSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.hillsValleyCavesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -345,7 +345,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.hillsValleyCavesRows.map((row, i) => (
+              {HP.hillsValleyCavesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -356,14 +356,14 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.biosphereSectionTitle}</SectionHeading>
-            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.biosphereNote}</p>
+            <SectionHeading>{HP.biosphereSectionTitle}</SectionHeading>
+            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{HP.biosphereNote}</p>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.tigerReservesSectionTitle}</SectionHeading>
-            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.tigerReservesNote}</p>
-            {GA.tigerReservesRows.length > 0 ? (
+            <SectionHeading>{HP.tigerReservesSectionTitle}</SectionHeading>
+            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{HP.tigerReservesNote}</p>
+            {HP.tigerReservesRows.length > 0 ? (
               <ScrollTable
                 header={
                   <tr>
@@ -374,7 +374,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                   </tr>
                 }
               >
-                {GA.tigerReservesRows.map((row, i) => (
+                {HP.tigerReservesRows.map((row, i) => (
                   <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                     <RowNumberCell index={i} />
                     <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -387,10 +387,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.elephantReservesSectionTitle}</SectionHeading>
-            {GA.elephantReservesNote ? (
-              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.elephantReservesNote}</p>
-            ) : null}
+            <SectionHeading>{HP.nationalParksSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -401,53 +398,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.elephantReservesRows.map((row, i) => (
-                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                  <RowNumberCell index={i} />
-                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                </tr>
-              ))}
-            </ScrollTable>
-          </SectionShell>
-
-          <SectionShell>
-            <SectionHeading>{GA.ramsarSitesSectionTitle}</SectionHeading>
-            <ScrollTable
-              header={
-                <tr>
-                  <NumberColumnHeader />
-                  <th className="px-3 py-3 sm:px-4">Name</th>
-                  <th className="px-3 py-3 sm:px-4">Year</th>
-                  <th className="px-3 py-3 sm:px-4">Location</th>
-                </tr>
-              }
-            >
-              {GA.ramsarSitesRows.map((row, i) => (
-                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                  <RowNumberCell index={i} />
-                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                </tr>
-              ))}
-            </ScrollTable>
-          </SectionShell>
-
-          <SectionShell>
-            <SectionHeading>{GA.nationalParksSectionTitle}</SectionHeading>
-            <ScrollTable
-              header={
-                <tr>
-                  <NumberColumnHeader />
-                  <th className="px-3 py-3 sm:px-4">Name</th>
-                  <th className="px-3 py-3 sm:px-4">Year</th>
-                  <th className="px-3 py-3 sm:px-4">Location</th>
-                </tr>
-              }
-            >
-              {GA.nationalParksRows.map((row, i) => (
+              {HP.nationalParksRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -459,7 +410,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.wildlifeSanctuariesSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.wildlifeSanctuariesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -470,7 +421,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.wildlifeSanctuariesRows.map((row, i) => (
+              {HP.wildlifeSanctuariesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -482,17 +433,17 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.zooMuseumsSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.zooMuseumsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
                   <NumberColumnHeader />
                   <th className="px-3 py-3 sm:px-4">Zoo Park Name</th>
-                  <th className="px-3 py-3 sm:px-4">City</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
                 </tr>
               }
             >
-              {GA.zooMuseumsRows.map((row, i) => (
+              {HP.zooMuseumsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -503,11 +454,11 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.internationalAirportsSectionTitle}</SectionHeading>
-            {GA.internationalAirportsNote ? (
-              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.internationalAirportsNote}</p>
+            <SectionHeading>{HP.internationalAirportsSectionTitle}</SectionHeading>
+            {HP.internationalAirportsNote ? (
+              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{HP.internationalAirportsNote}</p>
             ) : null}
-            {GA.internationalAirportsRows.length > 0 ? (
+            {HP.internationalAirportsRows.length > 0 ? (
               <ScrollTable
                 header={
                   <tr>
@@ -518,7 +469,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                   </tr>
                 }
               >
-                {GA.internationalAirportsRows.map((row, i) => (
+                {HP.internationalAirportsRows.map((row, i) => (
                   <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                     <RowNumberCell index={i} />
                     <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -531,7 +482,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.airportsSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.airportsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -542,7 +493,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.airportsRows.map((row, i) => (
+              {HP.airportsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -554,7 +505,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.iitSectionTitle}</SectionHeading>
+            <SectionHeading>{HP.iitSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -564,7 +515,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.iitRows.map((row, i) => (
+              {HP.iitRows.map((row, i) => (
                 <tr key={`${row.name}-${row.location}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -575,67 +526,59 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.universitiesSectionTitle}</SectionHeading>
-            {GA.universitiesRows.length === 0 ? (
-              <p className="mt-2 text-slate-400">—</p>
-            ) : (
-              <ScrollTable
-                header={
-                  <tr>
-                    <NumberColumnHeader />
-                    <th className="px-3 py-3 sm:px-4">University Name</th>
-                    <th className="px-3 py-3 sm:px-4">Location</th>
-                  </tr>
-                }
-              >
-                {GA.universitiesRows.map((row, i) => (
-                  <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                    <RowNumberCell index={i} />
-                    <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                    <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  </tr>
-                ))}
-              </ScrollTable>
-            )}
+            <SectionHeading>{HP.universitiesSectionTitle}</SectionHeading>
+            <ScrollTable
+              header={
+                <tr>
+                  <NumberColumnHeader />
+                  <th className="px-3 py-3 sm:px-4">University Name</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
+                </tr>
+              }
+            >
+              {HP.universitiesRows.map((row, i) => (
+                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
+                  <RowNumberCell index={i} />
+                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
+                </tr>
+              ))}
+            </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.stadiumsSectionTitle}</SectionHeading>
-            {GA.stadiumsRows.length === 0 ? (
-              <p className="mt-2 text-slate-400">—</p>
-            ) : (
-              <ScrollTable
-                header={
-                  <tr>
-                    <NumberColumnHeader />
-                    <th className="px-3 py-3 sm:px-4">Stadium Name</th>
-                    <th className="px-3 py-3 sm:px-4">Location</th>
-                  </tr>
-                }
-              >
-                {GA.stadiumsRows.map((row, i) => (
-                  <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                    <RowNumberCell index={i} />
-                    <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                    <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  </tr>
-                ))}
-              </ScrollTable>
-            )}
+            <SectionHeading>{HP.stadiumsSectionTitle}</SectionHeading>
+            <ScrollTable
+              header={
+                <tr>
+                  <NumberColumnHeader />
+                  <th className="px-3 py-3 sm:px-4">Stadium Name</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
+                </tr>
+              }
+            >
+              {HP.stadiumsRows.map((row, i) => (
+                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
+                  <RowNumberCell index={i} />
+                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
+                </tr>
+              ))}
+            </ScrollTable>
           </SectionShell>
 
           <SectionShell>
             <ExtendedFactsGrid
               className="mt-0"
-              facts={[{ label: 'FAMOUS PERSONS', kind: 'ordered', items: GA.famousPersonsOrdered }]}
+              facts={[{ label: 'FAMOUS PERSONS', kind: 'ordered', items: HP.famousPersonsOrdered }]}
             />
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.miscellaneousSectionTitle}</SectionHeading>
-            <p className="mb-6 text-slate-300 leading-relaxed">{GA.miscellaneousIntroParagraph}</p>
+            <SectionHeading>{HP.miscellaneousSectionTitle}</SectionHeading>
+            <p className="mb-6 text-slate-300 leading-relaxed">{HP.miscellaneousIntroParagraph}</p>
             <div className="space-y-8">
-              {GA.miscellaneousBlocks.map((block, blockIndex) => (
+              {HP.miscellaneousBlocks.map((block, blockIndex) => (
                 <div key={`${blockIndex}-${block.heading}`}>
                   <h3 className="mb-3 text-base font-bold uppercase text-emerald-100/95 sm:text-lg">
                     {block.heading}
@@ -677,4 +620,4 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
   )
 }
 
-export default Goa
+export default HimachalPradesh

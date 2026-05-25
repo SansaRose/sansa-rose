@@ -48,7 +48,6 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isActsDropdownOpen, setIsActsDropdownOpen] = useState(false)
-  const [isPdfsDropdownOpen, setIsPdfsDropdownOpen] = useState(false)
   const [isManualsDropdownOpen, setIsManualsDropdownOpen] = useState(false)
   const [isTopicsDropdownOpen, setIsTopicsDropdownOpen] = useState(false)
   const [isQuizzesDropdownOpen, setIsQuizzesDropdownOpen] = useState(false)
@@ -66,7 +65,6 @@ const Navbar = () => {
   const navLinks = [
     { href: '/abbreviations', label: 'Abbreviations' },
     { href: '/definitions', label: 'Definitions' },
-    { href: '/syllabus', label: 'Syllabus' },
   ]
 
   const actsLinks = [
@@ -85,14 +83,6 @@ const Navbar = () => {
     { href: '/acts/right-to-information-act-2005', label: 'Right to Information Act, 2005' },
     { href: '/acts/trade-union-act-1926', label: 'Trade Union Act, 1926' },
     { href: '/acts/workmen-compensation-act-1923', label: 'Workmen Compensation Act, 1923' },
-  ]
-
-  const pdfsLinks = [
-    { href: '/pdfs/accident-manual-amendments', label: 'Accident Manual Amendments', icon: '🚨' },
-    { href: '/pdfs/authorities', label: 'Authorities', icon: '📜' },
-    { href: '/pdfs/block-working-manual-amendments', label: 'Block Working Manual Amendments', icon: '🛤️' },
-    { href: '/pdfs/circulars', label: 'Circulars', icon: '📄' },
-    { href: '/pdfs/general-subsidiary-rules-amendments', label: 'General & Subsidiary Rules Amendments', icon: '📋' },
   ]
 
   const manualsLinks = [
@@ -354,127 +344,6 @@ const Navbar = () => {
                       className="text-xs font-semibold text-purple-600 hover:text-purple-700 flex items-center gap-2 group justify-center"
                     >
                       <span>View All Acts</span>
-                      <svg className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </div>
-            
-            {/* PDFs Dropdown */}
-            <div 
-              className="relative group"
-              onMouseEnter={() => setIsPdfsDropdownOpen(true)}
-              onMouseLeave={() => setIsPdfsDropdownOpen(false)}
-            >
-              <Link
-                href="/pdfs"
-                className={`group relative px-5 py-2.5 text-base font-semibold text-white rounded-xl transition-all duration-300 ${
-                  pathname.startsWith('/pdfs') ? 'font-bold' : ''
-                }`}
-              >
-                <span className="relative z-10 flex items-center gap-1 transition-all duration-300">
-                  PDFs
-                  <svg
-                    className={`w-4 h-4 transition-transform duration-300 ${isPdfsDropdownOpen ? 'rotate-180' : ''}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </span>
-                {/* Animated underline */}
-                <span
-                  className={`absolute bottom-1 left-0 right-0 h-0.5 bg-white rounded-full transition-all duration-300 ${
-                    pathname.startsWith('/pdfs') ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0 group-hover:opacity-100 group-hover:scale-x-100'
-                  }`}
-                ></span>
-                {/* Hover background effect */}
-                <span 
-                  className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 backdrop-blur-sm"
-                  style={{
-                    background: 'linear-gradient(to right, rgba(168, 85, 247, 0.2), rgba(96, 165, 250, 0.2))'
-                  }}
-                ></span>
-                {/* Active state background */}
-                {pathname.startsWith('/pdfs') && (
-                  <span 
-                    className="absolute inset-0 rounded-xl backdrop-blur-sm shadow-lg shadow-purple-500/20 -z-10"
-                    style={{
-                      background: 'linear-gradient(to right, rgba(168, 85, 247, 0.3), rgba(96, 165, 250, 0.3))'
-                    }}
-                  ></span>
-                )}
-              </Link>
-              
-              {/* Dropdown Menu */}
-              {isPdfsDropdownOpen && (
-                <div className="absolute top-full right-0 mt-2 w-[500px] bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-purple-200/30 overflow-hidden z-50">
-                  {/* Header */}
-                  <div className="bg-linear-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 px-6 py-4 border-b border-purple-100/50">
-                    <div className="flex items-center justify-between">
-                      <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wider flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-purple-500 to-blue-500"></span>
-                        PDF Documents
-                      </h3>
-                      <span className="text-xs text-gray-500 font-medium">{pdfsLinks.length} Categories</span>
-                    </div>
-                  </div>
-                  
-                  {/* Content */}
-                  <div className="p-4 flex flex-col gap-2">
-                    {pdfsLinks.map((pdf) => {
-                      const isActive = pathname === pdf.href
-                      return (
-                        <Link
-                          key={pdf.href}
-                          href={pdf.href}
-                          className={`group relative px-4 py-3 rounded-xl transition-all duration-200 ${
-                            isActive
-                              ? 'bg-linear-to-r from-purple-500/20 via-blue-500/20 to-indigo-500/20 text-purple-700 font-semibold shadow-lg shadow-purple-200/50 border-2 border-purple-300/60'
-                              : 'text-gray-700 hover:bg-linear-to-r hover:from-purple-50 hover:via-blue-50 hover:to-indigo-50 hover:text-purple-600 hover:shadow-md border border-gray-200/50 hover:border-purple-200/70'
-                          }`}
-                        >
-                          {/* Active indicator */}
-                          {isActive && (
-                            <span className="absolute left-0 top-0 bottom-0 w-1.5 bg-linear-to-b from-purple-500 via-blue-500 to-indigo-500 rounded-r-full"></span>
-                          )}
-                          
-                          {/* Content */}
-                          <div className="relative z-10 flex items-center gap-3">
-                            <span className="text-xl shrink-0">{pdf.icon}</span>
-                            <span className="text-sm font-medium leading-snug flex-1">
-                              {pdf.label}
-                            </span>
-                            
-                            {/* Hover arrow */}
-                            <svg
-                              className={`w-4 h-4 text-purple-400 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-0.5 shrink-0 ${
-                                isActive ? 'opacity-100' : ''
-                              }`}
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
-                          </div>
-                        </Link>
-                      )
-                    })}
-                  </div>
-                  
-                  {/* Footer */}
-                  <div className="bg-linear-to-r from-purple-50/50 via-blue-50/50 to-indigo-50/50 px-6 py-3.5 border-t border-purple-100/50">
-                    <Link
-                      href="/pdfs"
-                      onClick={() => setIsPdfsDropdownOpen(false)}
-                      className="text-xs font-semibold text-purple-600 hover:text-purple-700 flex items-center gap-2 group justify-center"
-                    >
-                      <span>View All PDFs</span>
                       <svg className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -1048,59 +917,6 @@ const Navbar = () => {
                         }`}
                       >
                         {act.label}
-                      </Link>
-                    )
-                  })}
-                </div>
-              </div>
-            </div>
-            
-            {/* PDFs Link with Accordion */}
-            <div>
-              <button
-                onClick={() => setIsPdfsDropdownOpen(!isPdfsDropdownOpen)}
-                className={`w-full px-4 py-3 text-base font-semibold rounded-xl transition-all duration-300 flex items-center justify-between ${
-                  pathname.startsWith('/pdfs')
-                    ? 'bg-white/30 text-white shadow-lg shadow-white/20 backdrop-blur-md border-2 border-white/40'
-                    : 'text-white/90 bg-white/10 hover:bg-white/20 hover:text-white backdrop-blur-sm border border-white/20'
-                }`}
-              >
-                <span>PDFs</span>
-                <svg
-                  className={`w-5 h-5 transition-transform duration-300 ${isPdfsDropdownOpen ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              
-              {/* Mobile PDFs Dropdown */}
-              <div
-                className={`overflow-y-auto transition-all duration-300 ease-in-out ${
-                  isPdfsDropdownOpen ? 'max-h-[400px] opacity-100 mt-2' : 'max-h-0 opacity-0'
-                }`}
-              >
-                <div className="flex flex-col space-y-1 pl-4">
-                  {pdfsLinks.map((pdf) => {
-                    const isActive = pathname === pdf.href
-                    return (
-                      <Link
-                        key={pdf.href}
-                        href={pdf.href}
-                        onClick={() => {
-                          setIsMobileMenuOpen(false)
-                          setIsPdfsDropdownOpen(false)
-                        }}
-                        className={`px-4 py-2.5 text-sm font-medium rounded-lg transition-all duration-300 flex items-center gap-2 ${
-                          isActive
-                            ? 'bg-white/30 text-white shadow-md shadow-white/20 backdrop-blur-md border border-white/40'
-                            : 'text-white/80 bg-white/5 hover:bg-white/15 hover:text-white backdrop-blur-sm border border-white/10'
-                        }`}
-                      >
-                        <span>{pdf.icon}</span>
-                        <span>{pdf.label}</span>
                       </Link>
                     )
                   })}

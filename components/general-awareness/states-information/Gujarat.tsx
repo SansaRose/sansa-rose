@@ -2,9 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import { BookOpen, ChevronRight, MapPin, Sparkles } from 'lucide-react'
 
-import * as GA from '@/assets/general-awareness/states-information/goa'
+import * as GJ from '@/assets/general-awareness/states-information/gujarat'
 
-type GoaProps = {
+type GujaratProps = {
   showBackNav?: boolean
 }
 
@@ -49,7 +49,7 @@ function ExtendedFactsGrid({
   facts,
   className = 'mt-5',
 }: {
-  facts: readonly GA.GoaExtendedFact[]
+  facts: readonly GJ.GujaratExtendedFact[]
   className?: string
 }) {
   return (
@@ -135,7 +135,7 @@ function MiscellaneousListItem({ line }: { line: string }) {
   )
 }
 
-const Goa = ({ showBackNav = false }: GoaProps) => {
+const Gujarat = ({ showBackNav = false }: GujaratProps) => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-linear-to-b from-slate-950 via-slate-900 to-emerald-950/80">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(16,185,129,0.12),transparent)]" />
@@ -148,10 +148,10 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
             General Awareness
           </div>
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-teal-300/90 sm:text-base">
-            {GA.statesInformationPageTitle}
+            {GJ.statesInformationPageTitle}
           </p>
           <h1 className="mt-3 bg-linear-to-r from-emerald-100 via-teal-100 to-emerald-200 bg-clip-text text-xl font-bold uppercase tracking-tight text-transparent sm:text-2xl md:text-3xl">
-            {GA.goaHeaderLine}
+            {GJ.gujaratHeaderLine}
           </h1>
           <div
             className="mx-auto mt-4 h-1 w-24 rounded-full bg-linear-to-r from-emerald-600 via-teal-500 to-emerald-500 opacity-90"
@@ -166,8 +166,8 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 <BookOpen className="h-5 w-5" strokeWidth={2} />
               </div>
             </div>
-            <KeyValueGrid items={GA.goaBasicFacts} />
-            <ExtendedFactsGrid facts={GA.goaExtendedFacts} />
+            <KeyValueGrid items={GJ.gujaratBasicFacts} />
+            <ExtendedFactsGrid facts={GJ.gujaratExtendedFacts} />
           </SectionShell>
 
           <SectionShell>
@@ -175,7 +175,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/25">
                 <MapPin className="h-5 w-5" strokeWidth={2} />
               </div>
-              <SectionHeading>{GA.templesSectionTitle}</SectionHeading>
+              <SectionHeading>{GJ.templesSectionTitle}</SectionHeading>
             </div>
             <ScrollTable
               header={
@@ -186,7 +186,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.templesRows.map((row, i) => (
+              {GJ.templesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -197,7 +197,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.industriesSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.industriesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -208,7 +208,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.industriesRows.map((row, i) => (
+              {GJ.industriesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -220,22 +220,20 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.powerPlantsSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.powerPlantsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
                   <NumberColumnHeader />
                   <th className="px-3 py-3 sm:px-4">Power Plant Name</th>
-                  <th className="px-3 py-3 sm:px-4">Year</th>
                   <th className="px-3 py-3 sm:px-4">Location</th>
                 </tr>
               }
             >
-              {GA.powerPlantsRows.map((row, i) => (
+              {GJ.powerPlantsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
                 </tr>
               ))}
@@ -243,11 +241,11 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <ExtendedFactsGrid className="mt-0" facts={[{ label: 'RIVERS', kind: 'ordered', items: GA.riversOrdered }]} />
+            <ExtendedFactsGrid className="mt-0" facts={[{ label: 'RIVERS', kind: 'ordered', items: GJ.riversOrdered }]} />
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.lakesSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.lakesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -258,7 +256,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.lakesRows.map((row, i) => (
+              {GJ.lakesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -270,7 +268,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.projectsDamsSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.projectsDamsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -281,19 +279,19 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.projectsDamsRows.map((row, i) => (
+              {GJ.projectsDamsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.river}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location || '—'}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location || 'â€”'}</td>
                 </tr>
               ))}
             </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.waterfallsBeachSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.waterfallsBeachSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -303,7 +301,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.waterfallsBeachRows.map((row, i) => (
+              {GJ.waterfallsBeachRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -314,7 +312,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.portsPeakSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.portsPeakSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -324,7 +322,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.portsPeakRows.map((row, i) => (
+              {GJ.portsPeakRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -335,7 +333,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.hillsValleyCavesSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.hillsValleyCavesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -345,7 +343,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.hillsValleyCavesRows.map((row, i) => (
+              {GJ.hillsValleyCavesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -356,14 +354,14 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.biosphereSectionTitle}</SectionHeading>
-            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.biosphereNote}</p>
+            <SectionHeading>{GJ.biosphereSectionTitle}</SectionHeading>
+            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GJ.biosphereNote}</p>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.tigerReservesSectionTitle}</SectionHeading>
-            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.tigerReservesNote}</p>
-            {GA.tigerReservesRows.length > 0 ? (
+            <SectionHeading>{GJ.tigerReservesSectionTitle}</SectionHeading>
+            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GJ.tigerReservesNote}</p>
+            {GJ.tigerReservesRows.length > 0 ? (
               <ScrollTable
                 header={
                   <tr>
@@ -374,7 +372,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                   </tr>
                 }
               >
-                {GA.tigerReservesRows.map((row, i) => (
+                {GJ.tigerReservesRows.map((row, i) => (
                   <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                     <RowNumberCell index={i} />
                     <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -387,9 +385,9 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.elephantReservesSectionTitle}</SectionHeading>
-            {GA.elephantReservesNote ? (
-              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.elephantReservesNote}</p>
+            <SectionHeading>{GJ.elephantReservesSectionTitle}</SectionHeading>
+            {GJ.elephantReservesNote ? (
+              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GJ.elephantReservesNote}</p>
             ) : null}
             <ScrollTable
               header={
@@ -401,7 +399,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.elephantReservesRows.map((row, i) => (
+              {GJ.elephantReservesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -413,7 +411,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.ramsarSitesSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.ramsarSitesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -424,7 +422,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.ramsarSitesRows.map((row, i) => (
+              {GJ.ramsarSitesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -436,7 +434,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.nationalParksSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.nationalParksSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -447,7 +445,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.nationalParksRows.map((row, i) => (
+              {GJ.nationalParksRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -459,7 +457,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.wildlifeSanctuariesSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.wildlifeSanctuariesSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -470,7 +468,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.wildlifeSanctuariesRows.map((row, i) => (
+              {GJ.wildlifeSanctuariesRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -482,7 +480,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.zooMuseumsSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.zooMuseumsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -492,7 +490,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.zooMuseumsRows.map((row, i) => (
+              {GJ.zooMuseumsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -503,11 +501,11 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.internationalAirportsSectionTitle}</SectionHeading>
-            {GA.internationalAirportsNote ? (
-              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GA.internationalAirportsNote}</p>
+            <SectionHeading>{GJ.internationalAirportsSectionTitle}</SectionHeading>
+            {GJ.internationalAirportsNote ? (
+              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{GJ.internationalAirportsNote}</p>
             ) : null}
-            {GA.internationalAirportsRows.length > 0 ? (
+            {GJ.internationalAirportsRows.length > 0 ? (
               <ScrollTable
                 header={
                   <tr>
@@ -518,7 +516,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                   </tr>
                 }
               >
-                {GA.internationalAirportsRows.map((row, i) => (
+                {GJ.internationalAirportsRows.map((row, i) => (
                   <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                     <RowNumberCell index={i} />
                     <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -531,7 +529,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.airportsSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.airportsSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -542,7 +540,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.airportsRows.map((row, i) => (
+              {GJ.airportsRows.map((row, i) => (
                 <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -554,7 +552,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.iitSectionTitle}</SectionHeading>
+            <SectionHeading>{GJ.iitSectionTitle}</SectionHeading>
             <ScrollTable
               header={
                 <tr>
@@ -564,7 +562,7 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
                 </tr>
               }
             >
-              {GA.iitRows.map((row, i) => (
+              {GJ.iitRows.map((row, i) => (
                 <tr key={`${row.name}-${row.location}-${i}`} className="hover:bg-slate-800/40">
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
@@ -575,67 +573,59 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.universitiesSectionTitle}</SectionHeading>
-            {GA.universitiesRows.length === 0 ? (
-              <p className="mt-2 text-slate-400">—</p>
-            ) : (
-              <ScrollTable
-                header={
-                  <tr>
-                    <NumberColumnHeader />
-                    <th className="px-3 py-3 sm:px-4">University Name</th>
-                    <th className="px-3 py-3 sm:px-4">Location</th>
-                  </tr>
-                }
-              >
-                {GA.universitiesRows.map((row, i) => (
-                  <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                    <RowNumberCell index={i} />
-                    <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                    <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  </tr>
-                ))}
-              </ScrollTable>
-            )}
+            <SectionHeading>{GJ.universitiesSectionTitle}</SectionHeading>
+            <ScrollTable
+              header={
+                <tr>
+                  <NumberColumnHeader />
+                  <th className="px-3 py-3 sm:px-4">University Name</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
+                </tr>
+              }
+            >
+              {GJ.universitiesRows.map((row, i) => (
+                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
+                  <RowNumberCell index={i} />
+                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
+                </tr>
+              ))}
+            </ScrollTable>
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.stadiumsSectionTitle}</SectionHeading>
-            {GA.stadiumsRows.length === 0 ? (
-              <p className="mt-2 text-slate-400">—</p>
-            ) : (
-              <ScrollTable
-                header={
-                  <tr>
-                    <NumberColumnHeader />
-                    <th className="px-3 py-3 sm:px-4">Stadium Name</th>
-                    <th className="px-3 py-3 sm:px-4">Location</th>
-                  </tr>
-                }
-              >
-                {GA.stadiumsRows.map((row, i) => (
-                  <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
-                    <RowNumberCell index={i} />
-                    <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
-                    <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  </tr>
-                ))}
-              </ScrollTable>
-            )}
+            <SectionHeading>{GJ.stadiumsSectionTitle}</SectionHeading>
+            <ScrollTable
+              header={
+                <tr>
+                  <NumberColumnHeader />
+                  <th className="px-3 py-3 sm:px-4">Stadium Name</th>
+                  <th className="px-3 py-3 sm:px-4">Location</th>
+                </tr>
+              }
+            >
+              {GJ.stadiumsRows.map((row, i) => (
+                <tr key={`${row.name}-${i}`} className="hover:bg-slate-800/40">
+                  <RowNumberCell index={i} />
+                  <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
+                </tr>
+              ))}
+            </ScrollTable>
           </SectionShell>
 
           <SectionShell>
             <ExtendedFactsGrid
               className="mt-0"
-              facts={[{ label: 'FAMOUS PERSONS', kind: 'ordered', items: GA.famousPersonsOrdered }]}
+              facts={[{ label: 'FAMOUS PERSONS', kind: 'ordered', items: GJ.famousPersonsOrdered }]}
             />
           </SectionShell>
 
           <SectionShell>
-            <SectionHeading>{GA.miscellaneousSectionTitle}</SectionHeading>
-            <p className="mb-6 text-slate-300 leading-relaxed">{GA.miscellaneousIntroParagraph}</p>
+            <SectionHeading>{GJ.miscellaneousSectionTitle}</SectionHeading>
+            <p className="mb-6 text-slate-300 leading-relaxed">{GJ.miscellaneousIntroParagraph}</p>
             <div className="space-y-8">
-              {GA.miscellaneousBlocks.map((block, blockIndex) => (
+              {GJ.miscellaneousBlocks.map((block, blockIndex) => (
                 <div key={`${blockIndex}-${block.heading}`}>
                   <h3 className="mb-3 text-base font-bold uppercase text-emerald-100/95 sm:text-lg">
                     {block.heading}
@@ -677,4 +667,4 @@ const Goa = ({ showBackNav = false }: GoaProps) => {
   )
 }
 
-export default Goa
+export default Gujarat

@@ -1,161 +1,307 @@
 export const statesInformationPageTitle = 'STATES – INFORMATION' as const
+
 export const goaHeaderLine = 'GOA' as const
 
-export const goaRawContent = `
+export const goaBasicFacts = [
+  { label: 'CAPITAL', value: 'Panaji (Mandovi River)' },
+  { label: 'ESTABLISHED', value: 'May 30, 1987' },
+  { label: 'CHIEF MINISTER', value: 'Pramod Sawant' },
+  { label: 'GOVERNOR', value: 'Bhagat Singh Kotari' },
+  { label: 'RULING PARTY', value: 'BJP' },
+  { label: 'HIGH COURT', value: 'Mumbai' },
+  { label: 'STATE ANIMAL', value: 'Gaur' },
+  { label: 'STATE BIRD', value: 'Black central bul bul' },
+  { label: 'STATE TREE', value: 'Asna' },
+  { label: 'STATE FLOWER', value: '----' },
+  { label: 'STATE FRUIT', value: '---' },
+  { label: 'STATE EMBLEM', value: '---' },
+  { label: 'STATE SONG', value: '---' },
+  { label: 'STATE SPORT', value: '---' },
+  {
+    label: 'STATE LANGUAGE(S)',
+    value: 'Konkani (State Language), Marathi',
+  },
+] as const
 
-Capital                 : 	Panaji (Mandovi River)
-Established          	: 	May 30, 1987
-Chief Minister      	: 	Pramod Sawant
-Governor              	: 	Bhagat Singh Kotari
-Ruling Party        	: 	BJP
-High Court            	: 	Mumbai
-State Animal            : 	Gaur
-State Bird           	: 	Black central bul bul
-State Tree             	: 	Asna
-State Flower        	: 	----
-State Fruit 		:
-State Emblem 	:
-State Song 	:
-State Sport 	:
-State Language (s): 	Konkani (State Language)     Marati
-State Dance (s)     : 	Dhakto     Shigma     Talgadi (Folk Dance)	Dhalo (Folk Dance)
+export const stateDancesOrdered = [
+  'Dhakto',
+  'Shigma',
+  'Talgadi (Folk Dance)',
+  'Dhalo (Folk Dance)',
+  'Corridinho',
+  'Lamp Dance',
+  'Fugadi',
+  'Kunbi',
+  'Taramgamel',
+  'Dhangar (Navaratri)',
+  'Hanpet Sword',
+  'Mussal Khel',
+  'Dashavatar',
+  'Bhadap',
+  'Dekhni',
+  'Gauda Jagar',
+  'Goff',
+  'Ghode Modni',
+  'Mando',
+  'Morullem',
+  'Ranmale',
+  'Romat or Mell',
+  'Suvari',
+] as const
 
-Boundary States: 	Karnataka     		Maharashtra     	Arabian Sea
-Area                         	: 	3, 702 sq.km (29th)           		Density: 394 per sq. km
-Population            	: 	14,58,545 (26th) 			Males = 7,39,140 & Females = 7,19,405
-          									Male : Femlae = 1000 : 968
-Literacy                 	: 	88.70%
-Assembly            	: 	40
-Lok Sabha        	: 	2
-Rajya Sabha 	: 	1
-Tribes                     	:
-Festivals                	: 	Zatra at cansaulim     Goan Carnival     Shigmotsav     Sabado Gordo     Diwali     Christamas     Easter     Chavoth     Dasara     Konkani Drama Fest    Sao Jao     Sansvar Padvo
+export const boundaryStatesOrdered = ['Karnataka', 'Maharashtra', 'Arabian Sea'] as const
 
-Districts (2)                : 	North Goa – Panaji       South Goa – Margao
-Main Cities               : 	Bicholim     		Chimbel     	Davorlim     	Margao     	Panaji     	Mormugao     	Ponda     	Quepem     	Taleigao     	Dona Paula     	Bardez     	Bambolim     	Farmagudi     	Concolim     	Asagaon     	Vasco da Gama (Zuari river)     	Mapusa
+export const tribesOrdered = ['----'] as const
 
-                   Temple/Church/Masjid Name			                   Location
-                   1.	Shanta Durga Temple					Panaji
-                   2.	Mangueshi Temple					Margao
-                   3.	Mahalasa Temple					Panaji
+export const festivalsOrdered = [
+  'Zatra at cansaulim',
+  'Goan Carnival',
+  'Shigmotsav',
+  'Sabado Gordo',
+  'Diwali',
+  'Christamas',
+  'Easter',
+  'Chavoth',
+  'Dasara',
+  'Konkani Drama Fest',
+  'Sao Jao',
+  'Sansvar Padvo',
+] as const
 
-                   Industry                	:
-                   Industry Name						Year				Location
-                   1.	-------							---				---
+export const districtsOrdered = ['North Goa – Panaji', 'South Goa – Margao'] as const
 
-                   Power Plants         :
-                   Power Plant Name					Year				Location
-                   1.	----							--				---
+export const mainCitiesOrdered = [
+  'Bicholim',
+  'Chimbel',
+  'Davorlim',
+  'Margao',
+  'Panaji',
+  'Mormugao',
+  'Ponda',
+  'Quepem',
+  'Taleigao',
+  'Dona Paula',
+  'Bardez',
+  'Bambolim',
+  'Farmagudi',
+  'Concolim',
+  'Asagaon',
+  'Vasco da Gama (Zuari river)',
+  'Mapusa',
+] as const
 
+export type GoaExtendedFact =
+  | { readonly label: string; readonly kind: 'text'; readonly value: string }
+  | { readonly label: string; readonly kind: 'ordered'; readonly items: readonly string[] }
 
+export const goaExtendedFacts: readonly GoaExtendedFact[] = [
+  { label: 'STATE DANCE(S)', kind: 'ordered', items: stateDancesOrdered },
+  { label: 'BOUNDARY STATES', kind: 'ordered', items: boundaryStatesOrdered },
+  {
+    label: 'AREA',
+    kind: 'text',
+    value: '3, 702 sq.km (29th),           		Density: 394 per sq. km',
+  },
+  {
+    label: 'POPULATION',
+    kind: 'text',
+    value:
+      '14,58,545 (26th), 			Males = 7,39,140 & Females = 7,19,405 \n          									Male : Femlae = 1000 : 968',
+  },
+  { label: 'LITERACY', kind: 'text', value: '88.70%' },
+  { label: 'ASSEMBLY', kind: 'text', value: '40' },
+  { label: 'LOK SABHA', kind: 'text', value: '2' },
+  { label: 'RAJYA SABHA', kind: 'text', value: '1' },
+  { label: 'TRIBES', kind: 'ordered', items: tribesOrdered },
+  { label: 'FESTIVALS', kind: 'ordered', items: festivalsOrdered },
+  { label: 'DISTRICTS (2)', kind: 'ordered', items: districtsOrdered },
+  { label: 'MAIN CITIES', kind: 'ordered', items: mainCitiesOrdered },
+] as const
 
-                   Rivers                       	: 	Therekhol     Mandovi – Lifeline of Goa     Zuari     Chopra    Saleri     Galgibag
-                                                  	Kumbaarjua Canal     Talpona      Sal       Baga      Betul
+export const templesSectionTitle = 'TEMPLES/CHURCH/MASJID' as const
+export const templesRows = [
+  { name: 'Shanta Durga Temple', location: '---' },
+  { name: 'Mangueshi Temple', location: '---' },
+  { name: 'Mahalasa Temple', location: '---' },
+] as const
 
-Lakes                        	:
-Lake Name					River				Location
-1.	Mayem Lake					---				-----
+export const industriesSectionTitle = 'INDUSTRY' as const
+export const industriesRows = [{ name: '-------', year: '---', location: '---' }] as const
 
-Projects/Dams     :
-Project/Dam Name				River				Location
-1.	----						---				---
+export const powerPlantsSectionTitle = 'POWER PLANTS :' as const
+export const powerPlantsRows = [{ name: '----', year: '--', location: '---' }] as const
 
-Waterfalls/Beach :
-Waterfalls/Beach Name				Location
-1.	Dudhsagar Waterfalls 					Sanguem
-2.	Kharavelan Waterfallls				---
-3.	Arvalam Waterfalls					---
-4.	Kuskeran Waterfalls					---
-5.	Tamdi Surla Waterfalls				---
-6.	Kesarval Waterfalls					---
-7.	Colva Beach						---
+export const riversOrdered = [
+  'Therekhol',
+  'Mandovi – Lifeline of Goa',
+  'Zuari',
+  'Chopra',
+  'Saleri',
+  'Galgibag',
+  'Kumbaarjua Canal',
+  'Talpona',
+  'Sal',
+  'Baga',
+  'Betul',
+] as const
 
-Ports 			:
-Ports Name						Location
-1.	Mormugo Port						---
+export const lakesSectionTitle = 'LAKES :' as const
+export const lakesRows = [{ name: 'Mayem Lake', river: '---', location: '-----' }] as const
 
-Hills/Valley/Caves :
-Hills/Valley/Caves Name				Location
-1.	------							---
+export const projectsDamsSectionTitle = 'PROJECTS/DAMS :' as const
+export const projectsDamsRows = [{ name: '----', river: '---', location: '---' }] as const
 
+export const waterfallsBeachSectionTitle = 'WATERFALLS/BEACH :' as const
+export const waterfallsBeachRows = [
+  { name: 'Dudhsagar Waterfalls ', location: 'Sanguem' },
+  { name: 'Kharavelan Waterfallls', location: '---' },
+  { name: 'Arvalam Waterfalls', location: '---' },
+  { name: 'Kuskeran Waterfalls', location: '---' },
+  { name: 'Tamdi Surla Waterfalls', location: '---' },
+  { name: 'Kesarval Waterfalls', location: '---' },
+  { name: 'Colva Beach', location: '---' },
+] as const
 
+export const portsPeakSectionTitle = 'PORTS :' as const
+export const portsPeakRows = [{ name: 'Mormugo Port', location: '---' }] as const
 
-Biosphere Reserves : Nil
-Tiger Reserves 	: Nil
+export const hillsValleyCavesSectionTitle = 'HILLS/VALLEY/CAVES :' as const
+export const hillsValleyCavesRows = [{ name: '------', location: '---' }] as const
 
-Elephant Reserves :  Nil
-    Elephant Reserves						Year		Location
-1.	---							---		---
+export const biosphereSectionTitle = 'BIOSPHERE RESERVES :' as const
+export const biosphereNote = 'Nil' as const
 
-Ramsar Sites :
-   Ramsar Sites							Year		Location
-1.	Nanda Lake	 				2022		Curchorem (South Goa)
+export type GoaTigerReserveRow = { readonly name: string; readonly year: string; readonly location: string }
+export const tigerReservesSectionTitle = 'TIGER RESERVES :' as const
+export const tigerReservesNote = 'Nil' as const
+export const tigerReservesRows: readonly GoaTigerReserveRow[] = []
 
-National Parks 	:
-National Park (N.P)			Year		Location			Area (Sq.KM)
-1.	Bhagwan Mahavir (Mollem) N.P	--		Sangeum Taluk			107
+export const elephantReservesSectionTitle = 'ELEPHANT RESERVES :' as const
+export const elephantReservesNote = 'Nil' as const
+export const elephantReservesRows = [
+  { name: '---', year: '---', location: '---' },
+] as const
 
-Wildlife Sanctuaries :
-Wildlife Sanctuary (W.L.S) 		Year		Location			Area (Sq.KM)
-1.	Salim Ali (Chorao Island) Birds Sanct.	 1988 		--					1.78
-2.	Bondla Wildlife Sanctuary 		 1969 		--					7.95
-3.	Bhagwan Mahavir (Molem) W.L.S	1967 		--					133
-4.	Netravali Wildlife Sanctuary 		1999		--					211.05
-5.	Madei Wildlife Sanctuary 		1999		--		 			208.48
-6.	Cotigaon Wildlife Sanctuary 		1968		--		 			85.65
+export const ramsarSitesSectionTitle = 'RAMSAR SITES :' as const
+export const ramsarSitesRows = [
+  {
+    name: 'Nanda Lake',
+    year: '2022',
+    location: 'Curchorem (South Goa)',
+  },
+] as const
 
-Zoo Parks/Museum 	:
-Zoo Park/Museum Name 				Location
-1.	Bondla Wildlife Sanctuary 				Ponda
-2.	State Archaeology Museum				Panaji
-3.	Naval Aviation Museum                     			Vasco da Gama
+export const nationalParksSectionTitle = 'NATIONAL PARKS :' as const
+export const nationalParksRows = [
+  {
+    name: 'Bhagwan Mahavir (Mollem) N.P',
+    year: '--',
+    location: 'Sangeum Taluk',
+  },
+] as const
 
+export const wildlifeSanctuariesSectionTitle = 'WILDLIFE SANCTUARIES :' as const
+export const wildlifeSanctuariesRows = [
+  { name: 'Salim Ali (Chorao Island) Birds Sanct.', year: '1988', location: '--' },
+  { name: 'Bondla Wildlife Sanctuary ', year: '1969', location: '--' },
+  { name: 'Bhagwan Mahavir (Molem) W.L.S', year: '1967', location: '--' },
+  { name: 'Netravali Wildlife Sanctuary ', year: '1999', location: '--' },
+  { name: 'Madei Wildlife Sanctuary ', year: '1999', location: '--' },
+  { name: 'Cotigaon Wildlife Sanctuary ', year: '1968', location: '--' },
+] as const
 
+export const zooMuseumsSectionTitle = 'ZOO PARKS/MUSEUM :' as const
+export const zooMuseumsRows = [
+  { name: 'Bondla Wildlife Sanctuary ', city: 'Ponda' },
+  { name: 'State Archaeology Museum', city: 'Panaji' },
+  { name: 'Naval Aviation Museum', city: 'Vasco da Gama' },
+] as const
 
-International Airports :
-Airport Name						City				Category
-1.	Dabolim International Airport				Dabolim			Domestic
+export const internationalAirportsSectionTitle = 'INTERNATIONAL AIRPORTS :' as const
+export const internationalAirportsNote = '' as const
+export const internationalAirportsRows = [
+  { name: 'Dabolim International Airport', city: 'Dabolim', category: 'Domestic' },
+] as const
 
-Airports :
-Airport Name						City				Category
-1.	Mopa Airport						Mopa				Domestic
-2.	Indian Naval Air Station  				Dabolim			Defense
+export const airportsSectionTitle = 'AIRPORTS :' as const
+export const airportsRows = [
+  { name: 'Mopa Airport', city: 'Mopa', category: 'Domestic' },
+  { name: 'Indian Naval Air Station ', city: 'Dabolim', category: 'Defense' },
+] as const
 
-Stadiums			:
-Stadium Name						Location
-1.	Fatorda Stadium (Football & Cricket)			Margao
+export const stadiumsSectionTitle = 'STADIUMS :' as const
+export const stadiumsRows: readonly { readonly name: string; readonly location: string }[] = [
+  { name: 'Fatorda Stadium (Football & Cricket)', location: 'Margao' },
+]
 
-IIT/IIM/NIT/IIIT/AIIMS 	:
-IIT/IIM/NIT/IIIT/AIIMS Name				Location
-1.	National Institute of Technology (NIT)   		Farmagudi
-Universities		:
-Famous Persons		: 	Shasikala Kathokar      	Mohan Ranade – Goa Gandhi
-Miscellaneous     	:  Nil
-Goa
-1.	Paradise of The East
-2.	Land of Emerland
-3.	Tourist Paradise of India
-Mormugoa
-1.	Commercial Capital of Goa
-Mandovi River
-1.	Life Line of Goa
+export const iitSectionTitle = 'IIT/IIM/NIT/IIIT/AIIMS :' as const
+export const iitRows = [
+  {
+    name: 'National Institute of Technology (NIT)',
+    location: 'Farmagudi',
+  },
+] as const
 
+export const universitiesSectionTitle = 'UNIVERSITIES :' as const
+export const universitiesRows: readonly { readonly name: string; readonly location: string }[] = []
 
+export const famousPersonsOrdered = [
+  'Shasikala Kathokar',
+  'Mohan Ranade – Goa Gandhi',
+] as const
 
-Panaji
-1.	International Film Festival of India (IFFI)
-2.	National Institute of Water Sports
-3.	Birla Institute of Technology & Science (BITS Pilani)
-Margao
-1.	V V Mandal's Institute of Management Training & Research 	= Margao
-Vasco da Gama
-1.	National Centre for Antarctica and Ocean Research (NCAOR)
-Dona Paula
-1.	National Institute of Oceanography
-Assgaon
-1.	Angel Institute of Technololgy and Design
-Bardez
-1.	Institute of Hotel Management, Catering, Technology & Applied Nutrition
-Bambolim
-1.	Institute of Psychiatry and Human Behaviour
-National Center for Ocean and Polar Research – Goa` as const
+export const miscellaneousSectionTitle = 'MISCELLANEOUS :' as const
+export const miscellaneousIntroParagraph = 'Nil' as const
+
+export const miscellaneousBlocks = [
+  {
+    heading: 'Goa',
+    lines: [
+      '1.	Paradise of The East',
+      '2.	Land of Emerland ',
+      '3.	Tourist Paradise of India ',
+    ],
+  },
+  {
+    heading: 'Mormugoa',
+    lines: ['1.	Commercial Capital of Goa '],
+  },
+  {
+    heading: 'Mandovi River',
+    lines: ['1.	Life Line of Goa'],
+  },
+  {
+    heading: 'Panaji',
+    lines: [
+      '1.	International Film Festival of India (IFFI) ',
+      '2.	National Institute of Water Sports ',
+      '3.	Birla Institute of Technology & Science (BITS Pilani)',
+    ],
+  },
+  {
+    heading: 'Margao',
+    lines: ["1.\tV V Mandal's Institute of Management Training & Research \t= Margao"],
+  },
+  {
+    heading: 'Vasco da Gama',
+    lines: ['1.	National Centre for Antarctica and Ocean Research (NCAOR)'],
+  },
+  {
+    heading: 'Dona Paula',
+    lines: ['1.	National Institute of Oceanography'],
+  },
+  {
+    heading: 'Assgaon',
+    lines: ['1.	Angel Institute of Technololgy and Design'],
+  },
+  {
+    heading: 'Bardez',
+    lines: [
+      '1.	Institute of Hotel Management, Catering, Technology & Applied Nutrition ',
+    ],
+  },
+  {
+    heading: 'Bambolim',
+    lines: ['1.	Institute of Psychiatry and Human Behaviour'],
+  },
+] as const

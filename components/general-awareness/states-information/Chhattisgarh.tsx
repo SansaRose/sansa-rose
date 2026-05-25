@@ -369,7 +369,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <th className="px-3 py-3 sm:px-4">Name</th>
                   <th className="px-3 py-3 sm:px-4">Year</th>
                   <th className="px-3 py-3 sm:px-4">Location</th>
-                  <th className="px-3 py-3 sm:px-4">Area</th>
                 </tr>
               }
             >
@@ -379,7 +378,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.area}</td>
                 </tr>
               ))}
             </ScrollTable>
@@ -387,7 +385,9 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
 
           <SectionShell>
             <SectionHeading>{CG.elephantReservesSectionTitle}</SectionHeading>
-            <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{CG.elephantReservesNote}</p>
+            {CG.elephantReservesNote ? (
+              <p className="mt-2 text-sm font-semibold uppercase text-teal-200/95">{CG.elephantReservesNote}</p>
+            ) : null}
             <ScrollTable
               header={
                 <tr>
@@ -395,7 +395,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <th className="px-3 py-3 sm:px-4">Name</th>
                   <th className="px-3 py-3 sm:px-4">Year</th>
                   <th className="px-3 py-3 sm:px-4">Location</th>
-                  <th className="px-3 py-3 sm:px-4">Area</th>
                 </tr>
               }
             >
@@ -405,7 +404,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.area}</td>
                 </tr>
               ))}
             </ScrollTable>
@@ -420,7 +418,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <th className="px-3 py-3 sm:px-4">Name</th>
                   <th className="px-3 py-3 sm:px-4">Year</th>
                   <th className="px-3 py-3 sm:px-4">Location</th>
-                  <th className="px-3 py-3 sm:px-4">Area</th>
                 </tr>
               }
             >
@@ -430,7 +427,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.area}</td>
                 </tr>
               ))}
             </ScrollTable>
@@ -445,7 +441,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <th className="px-3 py-3 sm:px-4">Name</th>
                   <th className="px-3 py-3 sm:px-4">Year</th>
                   <th className="px-3 py-3 sm:px-4">Location</th>
-                  <th className="px-3 py-3 sm:px-4">Area</th>
                 </tr>
               }
             >
@@ -454,8 +449,7 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <RowNumberCell index={i} />
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.area}</td>
+                  <td className="px-3 py-2.5 text-slate-300 sm:px-4 whitespace-pre-line">{row.location}</td>
                 </tr>
               ))}
             </ScrollTable>
@@ -470,7 +464,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <th className="px-3 py-3 sm:px-4">Name</th>
                   <th className="px-3 py-3 sm:px-4">Year</th>
                   <th className="px-3 py-3 sm:px-4">Location</th>
-                  <th className="px-3 py-3 sm:px-4">Area</th>
                 </tr>
               }
             >
@@ -480,7 +473,6 @@ const Chhattisgarh = ({ showBackNav = false }: ChhattisgarhProps) => {
                   <td className="px-3 py-2.5 sm:px-4">{row.name}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.year}</td>
                   <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.location || '---'}</td>
-                  <td className="px-3 py-2.5 text-slate-300 sm:px-4">{row.area}</td>
                 </tr>
               ))}
             </ScrollTable>
