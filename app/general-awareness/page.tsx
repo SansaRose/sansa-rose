@@ -33,6 +33,7 @@ import {
   Leaf,
   PawPrint,
   TreePine,
+  Tags,
   Waves,
 } from 'lucide-react'
 
@@ -157,6 +158,17 @@ const awarenessSections: { heading: string; blurb: string; items: Topic[] }[] = 
         gradient: 'from-sky-600 to-cyan-800',
         ring: 'ring-sky-500/30',
         iconBg: 'bg-sky-500/20',
+      },
+      {
+        href: '/general-awareness/geographical-indication',
+        title: 'Geographical indications',
+        subtitle: 'GI tags in India',
+        description:
+          'State-wise registered geographical indications with type and year of registration.',
+        icon: Tags,
+        gradient: 'from-violet-600 to-purple-800',
+        ring: 'ring-violet-500/30',
+        iconBg: 'bg-violet-500/20',
       },
       {
         href: '/general-awareness/wildlife-sanctuaries',

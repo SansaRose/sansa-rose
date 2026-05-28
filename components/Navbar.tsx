@@ -122,6 +122,11 @@ const Navbar = () => {
     { href: '/general-awareness/committees', label: 'Committees', icon: '👥' },
     { href: '/general-awareness/elephant-reserves', label: 'Elephant Reserves', icon: '🐘' },
     { href: '/general-awareness/geography', label: 'Geography', icon: '🌍' },
+    {
+      href: '/general-awareness/geographical-indication',
+      label: 'Geographical Indications',
+      icon: '🏷️',
+    },
     { href: '/general-awareness/history', label: 'History', icon: '📜' },
     { href: '/general-awareness/important-days', label: 'Important Days', icon: '📅' },
     { href: '/general-awareness/india-information', label: 'India Information', icon: '🇮🇳' },
