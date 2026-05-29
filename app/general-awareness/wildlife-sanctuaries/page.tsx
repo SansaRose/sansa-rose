@@ -1,9 +1,9 @@
 import React from 'react'
 
+import WildlifeSanctuaries from '@/components/general-awareness/WildlifeSanctuaries'
+
 const WildlifeSanctuariesPage = () => {
-  return (
-    <div>General Awareness - Wildlife Sanctuaries</div>
-  )
+  return <WildlifeSanctuaries showBackNav />
 }
 
 export default WildlifeSanctuariesPage

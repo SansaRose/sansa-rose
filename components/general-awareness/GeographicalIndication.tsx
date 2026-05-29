@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { Search, Tag, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -187,6 +187,68 @@ const GeographicalIndication = ({
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-slate-600/70 bg-slate-800/40 shadow-xl shadow-slate-950/40 backdrop-blur-sm">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-emerald-500 via-teal-500 to-emerald-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300">
+                  <Tag className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-emerald-300/90 sm:text-lg">
+                  What is a Geographical Indication?
+                </h2>
+              </div>
+
+              <div className="space-y-4 text-sm leading-relaxed text-slate-300 sm:text-base">
+                <p>
+                  A geographical indication (GI) is a name or sign used on
+                  certain products which corresponds to a specific geographical
+                  location or origin (e.g., a town, region, or country). India,
+                  as a member of the World Trade Organization (WTO), enacted the{' '}
+                  <span className="font-semibold text-slate-100">
+                    Geographical Indications of Goods (Registration and
+                    Protection) Act, 1999
+                  </span>
+                  , which came into effect from{' '}
+                  <span className="font-semibold text-emerald-200">
+                    15 September 2003
+                  </span>
+                  . GIs have been defined under Article 22 (1) of the Agreement
+                  on Trade-Related Aspects of Intellectual Property Rights
+                  (TRIPS) as:
+                </p>
+
+                <blockquote className="rounded-xl border border-emerald-500/25 bg-emerald-500/5 px-4 py-3 text-slate-200 italic sm:px-5 sm:py-4">
+                  &ldquo;indications which identify a good as originating in the
+                  territory of a Member, or a region or locality in that
+                  territory, where a given quality, reputation or other
+                  characteristic of the good is essentially attributable to its
+                  geographic origin.&rdquo;
+                </blockquote>
+
+                <p>
+                  The GI tag ensures that none other than those registered as
+                  authorized users (or at least those residing inside the
+                  geographic territory) are allowed to use the popular product
+                  name.{' '}
+                  <span className="font-semibold text-emerald-200">
+                    Darjeeling tea
+                  </span>{' '}
+                  was the first GI recognized by Government of India in 2004–05.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-10 sm:space-y-12">
           {filteredGroups.length === 0 ? (

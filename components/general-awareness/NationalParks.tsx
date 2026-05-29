@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { Search, TreePine, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -177,6 +177,50 @@ const NationalParks = ({ showBackNav = false }: NationalParksProps) => {
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-slate-600/70 bg-slate-800/40 shadow-xl shadow-slate-950/40 backdrop-blur-sm">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-emerald-500 via-teal-500 to-emerald-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300">
+                  <TreePine className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-emerald-300/90 sm:text-lg">
+                  About National Parks
+                </h2>
+              </div>
+
+              <p className="text-sm leading-relaxed text-slate-300 sm:text-base">
+                National parks in India are International Union for Conservation
+                of Nature (IUCN) category II protected areas. India&apos;s first
+                national park was established in{' '}
+                <span className="font-semibold text-emerald-200">1936</span>, now
+                known as{' '}
+                <span className="font-semibold text-slate-100">
+                  Jim Corbett National Park
+                </span>
+                , in Uttarakhand. In 1970, India had only five national parks. In
+                1972, India enacted the{' '}
+                <span className="font-semibold text-slate-100">
+                  Wildlife Protection Act
+                </span>{' '}
+                and{' '}
+                <span className="font-semibold text-slate-100">Project Tiger</span>{' '}
+                in 1973 to safeguard the habitats of conservation reliant
+                species. Further legislation strengthening protection for
+                wildlife was introduced in the 1980s.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-10 sm:space-y-12">
           {filteredGroups.length === 0 ? (

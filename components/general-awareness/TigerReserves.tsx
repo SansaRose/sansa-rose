@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { PawPrint, Search, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -183,6 +183,86 @@ const TigerReserves = ({ showBackNav = false }: TigerReservesProps) => {
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-slate-600/70 bg-slate-800/40 shadow-xl shadow-slate-950/40 backdrop-blur-sm">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-emerald-500 via-teal-500 to-emerald-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300">
+                  <PawPrint className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-emerald-300/90 sm:text-lg">
+                  About Tiger Reserves
+                </h2>
+              </div>
+
+              <div className="space-y-4 text-sm leading-relaxed text-slate-300 sm:text-base">
+                <p>
+                  India is home to about{' '}
+                  <span className="font-semibold text-emerald-200">70%</span> of
+                  the global wild tiger population. The Government of India
+                  launched{' '}
+                  <span className="font-semibold text-slate-100">
+                    Project Tiger
+                  </span>{' '}
+                  in 1973, as a part of tiger conservation efforts. The
+                  initiative led to the establishment of dedicated tiger reserves
+                  — protected areas specifically designated for the conservation
+                  of tigers and its habitats, with the objective of ensuring a
+                  viable natural population of tigers. The National Tiger
+                  Conservation Authority was established in 2005 for the
+                  management of these tiger reserves. Each tiger reserve consists
+                  of a proteced core zone, free from human activity, and a buffer
+                  zone, where sustainable activities and regulated tourism are
+                  allowed.
+                </p>
+
+                <p>
+                  As of 2025, there are{' '}
+                  <span className="font-semibold text-emerald-200">
+                    58 tiger reserves
+                  </span>
+                  , covering 84,500 km2 (32,600 sq mi). The wild tiger
+                  population, which was recorded at 1,411 individuals in 2006, had
+                  grown to{' '}
+                  <span className="font-semibold text-slate-100">
+                    3,682 in 2022
+                  </span>
+                  . Madhya Pradesh and Maharashtra have the most number of tiger
+                  reserves with six each. Nagarjunasagar Srisailam in Andhra
+                  Pradesh, covering 3,296.31 km2 (1,272.71 sq mi), is the largest
+                  by area while the smallest is Orang in Assam, with an area of
+                  492 km2 (190 sq mi). Jim Corbett holds the largest population of
+                  tigers (231), while no tigers were recorded in the Dampa, Buxa,
+                  and Palamau tiger reserves.
+                </p>
+
+                <p>
+                  Project Tiger was initiated in 1973 as per the{' '}
+                  <span className="font-semibold text-slate-100">
+                    Wild Life (Protection) Act, 1972
+                  </span>{' '}
+                  by the Ministry of Environment, Forest and Climate Change of the
+                  Government of India. Under the project, dedicated protected
+                  areas called tiger reserves, were initiated to protect the
+                  Bengal tiger and its habitats. These reserves were established
+                  with an aim to ensure a viable, healthy population of wild
+                  tigers in India, free-ranging in their natural habitat.[1] In
+                  2006, the National Tiger Conservation Authority was established
+                  to administer the tiger reserves.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-10 sm:space-y-12">
           {filteredGroups.length === 0 ? (

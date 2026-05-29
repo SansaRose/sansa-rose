@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { PawPrint, Search, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -183,6 +183,48 @@ const ElephantReserves = ({ showBackNav = false }: ElephantReservesProps) => {
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-slate-600/70 bg-slate-800/40 shadow-xl shadow-slate-950/40 backdrop-blur-sm">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-emerald-500 via-teal-500 to-emerald-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300">
+                  <PawPrint className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-emerald-300/90 sm:text-lg">
+                  About Project Elephant
+                </h2>
+              </div>
+
+              <p className="text-sm leading-relaxed text-slate-300 sm:text-base">
+                <span className="font-semibold text-slate-100">
+                  Project Elephant
+                </span>{' '}
+                is a wildlife conservation movement initiated in India to protect
+                the endangered Indian elephant. The project was initiated in{' '}
+                <span className="font-semibold text-emerald-200">1992</span> by
+                the Ministry of Environment, Forest and Climate Change of the
+                Government of India to provide financial and technical support to
+                the states for wildlife management of free-ranging elephant
+                populations. The project aims to ensure the long-term survival
+                and viability of elephant populations in their natural habitats
+                by protecting the animals, their habitats and migration
+                corridors. The project also facilitates research of ecology and
+                management of elephants, creating awareness of conservation among
+                local people, and providing veterinary care for captive
+                elephants.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-10 sm:space-y-12">
           {filteredGroups.length === 0 ? (

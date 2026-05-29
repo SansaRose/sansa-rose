@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { Search, Waves, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -191,6 +191,73 @@ const RamsarSites = ({ showBackNav = false }: RamsarSitesProps) => {
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-slate-600/70 bg-slate-800/40 shadow-xl shadow-slate-950/40 backdrop-blur-sm">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-emerald-500 via-teal-500 to-emerald-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300">
+                  <Waves className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-emerald-300/90 sm:text-lg">
+                  About Ramsar Sites
+                </h2>
+              </div>
+
+              <div className="space-y-4 text-sm leading-relaxed text-slate-300 sm:text-base">
+                <p>
+                  There are{' '}
+                  <span className="font-semibold text-emerald-200">
+                    99 Ramsar sites
+                  </span>
+                  , covering{' '}
+                  <span className="font-semibold text-slate-100">
+                    13,60,805.63 hectares
+                  </span>
+                  , in India as of 22 April 2026.[1] These wetlands are deemed to
+                  be of &ldquo;international importance&rdquo; under the Ramsar
+                  Convention. For a full list of all Ramsar sites worldwide, see
+                  the list of Ramsar wetlands of international importance.
+                </p>
+
+                <p>
+                  <span className="font-semibold text-slate-100">
+                    Tamil Nadu
+                  </span>{' '}
+                  has the highest number of Ramsar sites in India with 20.[2]
+                  Till 2014, there were 26 Ramsar sites across India. Since 2014,
+                  67 new Ramsar sites have been added across India.
+                </p>
+
+                <p>
+                  According to the{' '}
+                  <span className="font-semibold text-slate-100">
+                    Wetlands (Conservation and Management) Rules of 2017
+                  </span>
+                  , the Indian government&apos;s definition of wetlands does not
+                  include river channels, paddy fields, or other areas utilized
+                  for commercial activities.[3]
+                </p>
+
+                <p>
+                  According to WWF-India, wetlands are one of the most threatened
+                  of all ecosystems in India. Loss of vegetation, salinization,
+                  excessive inundation, water pollution, invasive species,
+                  excessive development and road building, have all damaged the
+                  country&apos;s wetlands.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-10 sm:space-y-12">
           {filteredGroups.length === 0 ? (

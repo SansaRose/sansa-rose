@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { Landmark, Search, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -262,12 +262,7 @@ const UNESCOWorldHeritageSites = ({ showBackNav = false }: UNESCOWorldHeritageSi
         <header className="mb-10 rounded-3xl border border-cyan-400/25 bg-slate-900/55 p-6 shadow-2xl shadow-black/30 backdrop-blur-md sm:p-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">General Awareness</p>
           <h1 className="mt-3 text-2xl font-bold text-white sm:text-4xl">UNESCO World Heritage Sites of India</h1>
-          <p className="mt-4 text-sm leading-relaxed text-slate-200 sm:text-base">
-            Here is the complete and updated list of India&apos;s UNESCO World Heritage Sites as of April 2026.
-            India has 44 properties inscribed on the UNESCO World Heritage List: 36 Cultural, 7 Natural, and 1
-            Mixed (Khangchendzonga National Park). The most recent addition is the Maratha Military Landscapes of
-            India (inscribed in 2025).
-          </p>
+          
         </header>
 
         <div
@@ -291,6 +286,74 @@ const UNESCOWorldHeritageSites = ({ showBackNav = false }: UNESCOWorldHeritageSi
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-cyan-400/25 bg-slate-900/55 shadow-2xl shadow-black/30 backdrop-blur-md">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-cyan-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-cyan-500 via-sky-500 to-indigo-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-cyan-500/15 text-cyan-300">
+                  <Landmark className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-cyan-300 sm:text-lg">
+                  About UNESCO World Heritage Sites
+                </h2>
+              </div>
+
+              <div className="space-y-4 text-sm leading-relaxed text-slate-300 sm:text-base">
+                <p>
+                  The United Nations Educational, Scientific and Cultural
+                  Organization (UNESCO) designates World Heritage Sites of
+                  outstanding universal value to cultural or natural heritage
+                  which have been nominated by countries which are signatories to
+                  the{' '}
+                  <span className="font-semibold text-slate-100">
+                    UNESCO World Heritage Convention, established in 1972
+                  </span>
+                  .[1] Cultural heritage consists of monuments (such as
+                  architectural works, monumental sculptures, or inscriptions),
+                  groups of buildings, and sites (including archaeological sites).
+                  Natural features (consisting of physical and biological
+                  formations), geological and physiographical formations
+                  (including habitats of threatened species of animals and
+                  plants), and natural sites which are important from the point of
+                  view of science, conservation or natural beauty, are defined as
+                  natural heritage.[2] India accepted the convention on{' '}
+                  <span className="font-semibold text-cyan-200">
+                    14 November 1977
+                  </span>
+                  , making its sites eligible for inclusion on the list.[3]
+                </p>
+
+                <p>
+                  There are{' '}
+                  <span className="font-semibold text-cyan-200">
+                    44 World Heritage Sites
+                  </span>{' '}
+                  in India. Out of these, 36 are cultural, seven are natural, and
+                  one,{' '}
+                  <span className="font-semibold text-slate-100">
+                    Khangchendzonga National Park
+                  </span>
+                  , is of mixed type, listed for both cultural and natural
+                  properties. India has the sixth-most sites worldwide. The first
+                  sites to be listed were the Ajanta Caves, Ellora Caves, Agra
+                  Fort, and Taj Mahal, all of which were inscribed in the 1983
+                  session of the World Heritage Committee. The most recent
+                  addition is the Maratha Military Landscapes of India (inscribed
+                  in 2025).
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-8">
           {filteredGroups.length === 0 ? (

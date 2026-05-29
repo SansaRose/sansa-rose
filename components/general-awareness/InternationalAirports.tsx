@@ -1,6 +1,6 @@
 'use client'
 
-import { Search, X } from 'lucide-react'
+import { Plane, Search, X } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -449,6 +449,49 @@ const InternationalAirports = ({ showBackNav = false }: InternationalAirportsPro
             </p>
           ) : null}
         </div>
+
+        <section className="mb-8 sm:mb-10">
+          <div className="relative overflow-hidden rounded-2xl border border-slate-600/70 bg-slate-800/40 shadow-xl shadow-slate-950/40 backdrop-blur-sm">
+            <div
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-400/60 to-transparent"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute left-0 top-0 h-full w-1 bg-linear-to-b from-emerald-500 via-teal-500 to-emerald-600"
+              aria-hidden
+            />
+            <div className="p-5 sm:p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300">
+                  <Plane className="h-5 w-5" strokeWidth={2} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold uppercase tracking-wide text-emerald-300/90 sm:text-lg">
+                  About Airports in India
+                </h2>
+              </div>
+
+              <p className="text-sm leading-relaxed text-slate-300 sm:text-base">
+                India has a total of{' '}
+                <span className="font-semibold text-emerald-200">
+                  487 airports and airstrips
+                </span>
+                . This list of airports in India includes airports recognized by{' '}
+                <span className="font-semibold text-slate-100">
+                  Airports Authority of India (AAI)
+                </span>
+                . There are{' '}
+                <span className="font-semibold text-slate-100">
+                  36 international
+                </span>{' '}
+                and{' '}
+                <span className="font-semibold text-slate-100">
+                  11 limited international
+                </span>{' '}
+                airports apart from other domestic, private and civil enclaves.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-10 sm:space-y-12">
           {filteredGroups.length === 0 ? (
