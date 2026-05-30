@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Train, FileText, ScrollText } from 'lucide-react'
+import { FileText, ScrollText } from 'lucide-react'
 
 type FooterNavItem = {
   href: string
@@ -45,56 +45,25 @@ const Footer = () => {
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-6">
         <div className="flex flex-col gap-12 lg:flex-row lg:items-stretch lg:justify-between lg:gap-14">
-          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
-            <Link
-              href="/"
-              className="group inline-flex items-center gap-3 rounded-2xl outline-offset-4 transition hover:opacity-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-400"
-            >
-              <span className="flex lg:h-12 lg:w-12 h-8 w-8 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/20 backdrop-blur-md transition duration-300 group-hover:bg-white/15 group-hover:ring-violet-300/35">
-                <Train className="lg:h-6 lg:w-6 h-5 w-5 text-violet-100" aria-hidden />
-              </span>
-              <span className="lg:text-2xl text-xl font-bold tracking-tight bg-linear-to-r from-white to-indigo-100 bg-clip-text text-transparent drop-shadow-sm">
-                AOM Aspirant
-              </span>
-            </Link>
-          </div>
+          
 
           <section
             aria-labelledby="footer-explore-heading"
-            className="w-full max-w-md lg:w-[min(100%,420px)] lg:shrink-0"
+            className="w-full lg:w-auto lg:shrink-0"
           >
-            <div className="rounded-lg border border-white/10 bg-white/5 p-4 shadow-xl shadow-black/25 backdrop-blur-md ">
-              
-              <ul className="mt-2 flex flex-col gap-3">
-                {EXPLORE_LINKS.map(({ href, label, Icon }) => (
-                  <li key={href}>
-                    <Link
-                      href={href}
-                      className="group flex items-center gap-4 rounded-lg border border-white/8 bg-white/4 px-4 py-4 transition hover:border-violet-400/25 hover:bg-white/8"
-                    >
-                      <span className="flex lg:h-11 lg:w-11 h-8 w-8 shrink-0 items-center justify-center rounded-full bg-linear-to-br from-violet-500/30 to-blue-600/25 text-white ring-1 ring-white/10">
-                        <Icon className="h-5 w-5 opacity-95" aria-hidden />
-                      </span>
-                      <span className="min-w-0 flex-1 text-left text-base font-semibold text-white">
-                        {label}
-                      </span>
-                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/5 text-white/45 transition group-hover:bg-violet-500/25 group-hover:text-white">
-                        <svg
-                          className="h-4 w-4 transition group-hover:translate-x-px"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                          viewBox="0 0 24 24"
-                          aria-hidden
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                        </svg>
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <ul className="flex flex-wrap items-center gap-3">
+              {EXPLORE_LINKS.map(({ href, label, Icon }) => (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    className="group inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-3.5 py-2 text-sm font-semibold text-white transition hover:border-violet-400/30 hover:bg-white/10"
+                  >
+                    <Icon className="h-4 w-4 opacity-95" aria-hidden />
+                    <span>{label}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         </div>
 

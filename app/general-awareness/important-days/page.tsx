@@ -1,19 +1,104 @@
+import { CalendarDays } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
 const MONTHS = [
-  { href: '/general-awareness/important-days/january', label: 'January' },
-  { href: '/general-awareness/important-days/february', label: 'February' },
-  { href: '/general-awareness/important-days/march', label: 'March' },
-  { href: '/general-awareness/important-days/april', label: 'April' },
-  { href: '/general-awareness/important-days/may', label: 'May' },
-  { href: '/general-awareness/important-days/june', label: 'June' },
-  { href: '/general-awareness/important-days/july', label: 'July' },
-  { href: '/general-awareness/important-days/august', label: 'August' },
-  { href: '/general-awareness/important-days/september', label: 'September' },
-  { href: '/general-awareness/important-days/october', label: 'October' },
-  { href: '/general-awareness/important-days/november', label: 'November' },
-  { href: '/general-awareness/important-days/december', label: 'December' },
+  {
+    href: '/general-awareness/important-days/january',
+    label: 'January',
+    short: 'Jan',
+    accent: 'from-sky-500 to-blue-600',
+    glow: 'bg-sky-500/10',
+    ring: 'hover:border-sky-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/february',
+    label: 'February',
+    short: 'Feb',
+    accent: 'from-rose-500 to-pink-600',
+    glow: 'bg-rose-500/10',
+    ring: 'hover:border-rose-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/march',
+    label: 'March',
+    short: 'Mar',
+    accent: 'from-emerald-500 to-green-600',
+    glow: 'bg-emerald-500/10',
+    ring: 'hover:border-emerald-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/april',
+    label: 'April',
+    short: 'Apr',
+    accent: 'from-lime-500 to-emerald-600',
+    glow: 'bg-lime-500/10',
+    ring: 'hover:border-lime-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/may',
+    label: 'May',
+    short: 'May',
+    accent: 'from-amber-500 to-orange-600',
+    glow: 'bg-amber-500/10',
+    ring: 'hover:border-amber-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/june',
+    label: 'June',
+    short: 'Jun',
+    accent: 'from-orange-500 to-red-600',
+    glow: 'bg-orange-500/10',
+    ring: 'hover:border-orange-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/july',
+    label: 'July',
+    short: 'Jul',
+    accent: 'from-cyan-500 to-teal-600',
+    glow: 'bg-cyan-500/10',
+    ring: 'hover:border-cyan-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/august',
+    label: 'August',
+    short: 'Aug',
+    accent: 'from-teal-500 to-emerald-600',
+    glow: 'bg-teal-500/10',
+    ring: 'hover:border-teal-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/september',
+    label: 'September',
+    short: 'Sep',
+    accent: 'from-indigo-500 to-violet-600',
+    glow: 'bg-indigo-500/10',
+    ring: 'hover:border-indigo-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/october',
+    label: 'October',
+    short: 'Oct',
+    accent: 'from-fuchsia-500 to-purple-600',
+    glow: 'bg-fuchsia-500/10',
+    ring: 'hover:border-fuchsia-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/november',
+    label: 'November',
+    short: 'Nov',
+    accent: 'from-violet-500 to-indigo-600',
+    glow: 'bg-violet-500/10',
+    ring: 'hover:border-violet-500/45',
+  },
+  {
+    href: '/general-awareness/important-days/december',
+    label: 'December',
+    short: 'Dec',
+    accent: 'from-blue-500 to-indigo-600',
+    glow: 'bg-blue-500/10',
+    ring: 'hover:border-blue-500/45',
+  },
 ] as const
 
 const ImportantDaysPage = () => {
@@ -27,6 +112,9 @@ const ImportantDaysPage = () => {
           <h1 className="text-3xl sm:text-4xl font-bold bg-linear-to-r from-amber-300 via-yellow-200 to-amber-400 bg-clip-text text-transparent">
             Important Days
           </h1>
+          <p className="mt-2 text-sm text-slate-400 sm:text-base">
+            Select a month to explore its important days
+          </p>
           <div
             className="mt-4 h-1 w-24 mx-auto rounded-full bg-linear-to-r from-amber-600 via-amber-400 to-amber-600 opacity-80"
             aria-hidden
@@ -34,30 +122,31 @@ const ImportantDaysPage = () => {
         </header>
 
         <nav
-          className="grid gap-4 sm:gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+          className="grid gap-4 sm:gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4"
           aria-label="Months for important days"
         >
           {MONTHS.map((month, index) => (
             <Link
               key={month.href}
               href={month.href}
-              className="group relative flex flex-col justify-between min-h-22 rounded-2xl border border-slate-600/50 bg-linear-to-br from-slate-800/70 via-slate-800/50 to-slate-900/70 p-5 sm:p-6 shadow-lg shadow-slate-950/50 backdrop-blur-md overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/45 hover:shadow-xl hover:shadow-amber-950/25 hover:from-slate-800/90 hover:via-slate-800/80 hover:to-indigo-950/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+              className={`group relative flex flex-col justify-between min-h-36 rounded-2xl border border-slate-600/50 bg-linear-to-br from-slate-800/70 via-slate-800/50 to-slate-900/70 p-5 shadow-lg shadow-slate-950/50 backdrop-blur-md overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-950/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 ${month.ring}`}
             >
               <span
-                className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-amber-500/40 to-transparent opacity-60 group-hover:opacity-100 group-hover:via-amber-400/70 transition-opacity"
+                className={`pointer-events-none absolute -right-8 -top-8 h-28 w-28 rounded-full blur-2xl transition-colors ${month.glow}`}
                 aria-hidden
               />
               <span
-                className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-amber-500/5 blur-2xl group-hover:bg-amber-400/10 transition-colors"
+                className="pointer-events-none absolute right-3 bottom-1 text-6xl font-black tabular-nums leading-none text-white/5 select-none"
                 aria-hidden
-              />
+              >
+                {String(index + 1).padStart(2, '0')}
+              </span>
 
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex items-center justify-between">
                 <span
-                  className="text-[0.65rem] font-bold tabular-nums tracking-widest text-amber-500/50 group-hover:text-amber-400/80 transition-colors"
-                  aria-hidden
+                  className={`flex h-11 w-11 items-center justify-center rounded-xl bg-linear-to-br text-white shadow-lg ${month.accent}`}
                 >
-                  {String(index + 1).padStart(2, '0')}
+                  <CalendarDays className="h-5 w-5" strokeWidth={2} aria-hidden />
                 </span>
                 <span
                   className="text-slate-500 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 text-lg leading-none"
@@ -67,14 +156,18 @@ const ImportantDaysPage = () => {
                 </span>
               </div>
 
-              <span className="mt-2 text-xl sm:text-[1.35rem] font-bold tracking-tight text-amber-100/95 group-hover:text-white transition-colors">
-                {month.label}
-              </span>
-
-              <span
-                className="mt-3 h-0.5 w-0 rounded-full bg-linear-to-r from-amber-500 to-amber-300 group-hover:w-12 transition-all duration-300 ease-out"
-                aria-hidden
-              />
+              <div className="relative mt-4">
+                <span className="block text-xl sm:text-[1.35rem] font-bold tracking-tight text-slate-100 group-hover:text-white transition-colors">
+                  {month.label}
+                </span>
+                <span className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                  {month.short}
+                </span>
+                <span
+                  className={`mt-3 block h-0.5 w-0 rounded-full bg-linear-to-r group-hover:w-12 transition-all duration-300 ease-out ${month.accent}`}
+                  aria-hidden
+                />
+              </div>
             </Link>
           ))}
         </nav>
