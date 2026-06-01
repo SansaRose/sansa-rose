@@ -1,5 +1,28 @@
 export const footballPageTitle = 'FOOTBALL' as const
 
+export const footballOverviewSection = {
+  intro:
+    "Football (Soccer) is the world's most popular team sport, played between two teams of 11 players each. The objective is to score goals by kicking the ball into the opponent's net.",
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: '11 players per team, including a goalkeeper.' },
+    { label: 'Playing Field', value: 'Rectangular grass or artificial turf field.' },
+    {
+      label: 'Duration',
+      value: '90 minutes, divided into two halves of 45 minutes each.',
+    },
+    { label: 'Equipment', value: 'Football, jerseys, shin guards, and football boots.' },
+    { label: 'Objective', value: 'Score more goals than the opposing team.' },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'Players use their feet, head, or body to control and pass the ball.',
+    'Only the goalkeeper may handle the ball with their hands inside the penalty area.',
+    'A goal is scored when the entire ball crosses the goal line between the goalposts.',
+    'Fouls may result in free kicks, penalty kicks, or disciplinary cards.',
+  ],
+} as const
+
 export const footballCoachSection = {
   arrowBullets: [{ label: 'Football Coach', value: '---' }],
 } as const
@@ -175,18 +198,18 @@ export const under17WomensWorldCupSection = {
 export const trophiesSection = {
   heading: 'Trophies',
   lines: [
-    'Federation Cup Nehru Cup Nizam Gold Cup Subrotho Cup Rovers Cup',
-    'Merdeka Cup BC Roy Cup DCM Trophy Europe League Colombo Cup',
-    'Indira Gandhi Trophy COPA Cup Chakoia Gold Trophy Bandidkar Trophy Confederation Cup',
-    'Durand Cup Nehru Gold Cup Santosh Trophy FIFA World Cup Jules Rimet Trophy',
-    'Kalinga Cup Scissor Cup UEFA Champions League Sir Ashutosh Mukherjee Trophy',
+    'Federation Cup, Nehru Cup, Nizam Gold Cup, Subrotho Cup, Rovers Cup',
+    'Merdeka Cup, BC Roy Cup, DCM Trophy, Europe League, Colombo Cup',
+    'Indira Gandhi Trophy, COPA Cup, Chakoia Gold Trophy, Bandidkar Trophy, Confederation Cup',
+    'Durand, Cup, Nehru, Gold, Cup, Santosh, Trophy, FIFA, World, Cup, Jules, Rimet, Trophy',
+    'Kalinga Cup, Scissor Cup, UEFA Champions League, Sir Ashutosh Mukherjee Trophy',
     'Todd Memorial Trophy',
   ],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Goal, Corner- kick, Free kick, Red Card, Yellow card, Foul, Trapping, Heading, Penalty, Pass, Forward, Dribble, Half, Give & Go,',
+  text: 'Goal, Corner-kick, Free kick, Red Card, Yellow card, Foul, Trapping, Heading, Penalty, Pass, Forward, Dribble, Half, Give & Go',
 } as const
 
 export const famousFootballPlayersSection = {

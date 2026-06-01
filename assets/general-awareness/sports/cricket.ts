@@ -1,5 +1,30 @@
 export const cricketPageTitle = 'CRICKET' as const
 
+export const cricketOverviewSection = {
+  intro:
+    'Cricket is a popular bat-and-ball sport played between two teams of 11 players each. The game is played on a circular or oval field with a 22-yard pitch at the center.',
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: '11 players per team.' },
+    { label: 'Equipment', value: 'Bat, ball, wickets, pads, gloves, and helmet.' },
+    { label: 'Objective', value: 'Score more runs than the opposing team.' },
+  ],
+  formatsLabel: 'Formats',
+  formats: [
+    'Test Cricket – Up to 5 days.',
+    'One Day International (ODI) – 50 overs per side.',
+    'Twenty20 (T20) – 20 overs per side.',
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'One team bats while the other bowls and fields.',
+    'Batsmen score runs by hitting the ball and running between the wickets or by hitting boundaries.',
+    'A boundary scores 4 runs, while a ball hit over the boundary without bouncing scores 6 runs.',
+    'The bowling team tries to dismiss batsmen by methods such as bowled, caught, run out, LBW, or stumped.',
+    'After all wickets fall or overs are completed, the teams switch roles.',
+  ],
+} as const
+
 export const ranjiTrophySection = {
   heading: 'Ranji Trophy (Cricket)',
   introParagraphs: [
@@ -296,13 +321,13 @@ export const worldTestChampionshipSection = {
 export const trophiesSection = {
   heading: 'Trophies',
   lines: [
-    'Vijay Merchant Trophy Cooch Bihar Trophy Sahara Trophy Meinuddallah Cup Syed Mustak Ali Trophy Singer Cup Wisdon Cup',
+    'Vijay Merchant Trophy, Cooch Bihar Trophy, Sahara Trophy, Meinuddallah Cup, Syed Mustak Ali Trophy, Singer Cup, Wisdon Cup, Duleep Trophy, Ranji Trophy, Gavasker-Border Trophy, , Devadar Trophy, C K Nayidu Trophy,  Indira Priyadarshini Trophy, K S Subbiah Pilai Trophy',
   ],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Hat-trick Maiden Follow-on Gully Bouncer Pull Gully Yorker, Googly Hook pick Duck LBW Pitch',
+  text: 'Hat-trick, Maiden, Follow-on, Gully Bouncer, Pull Gully Yorker, Googly, Hook, Pick, Duck, LBW, Pitch, Beemar, Body line, Break, Chinaman, Chakkar, Stonewalling, The Ashes, Innings, Boundary',
 } as const
 
 export const famousPersonsSection = {

@@ -8,6 +8,38 @@ export const hockeyIntroSection = {
   ],
 } as const
 
+export const hockeyOverviewSection = {
+  intro:
+    "Hockey is a popular outdoor team sport played between two teams of 11 players each. The objective is to score goals by hitting a small hard ball into the opponent's goal using a curved stick.",
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: '11 per team (including a goalkeeper).' },
+    {
+      label: 'Playing Field',
+      value:
+        'Rectangular grass or artificial turf field measuring about 91.4 m × 55 m.',
+    },
+    {
+      label: 'Duration',
+      value: '60 minutes, divided into four quarters of 15 minutes each.',
+    },
+    {
+      label: 'Equipment',
+      value:
+        "Hockey stick, ball, shin guards, mouthguard, and goalkeeper's protective gear.",
+    },
+    { label: 'Goal', value: 'The team scoring the most goals wins.' },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'Players use only the flat side of the stick to play the ball.',
+    'Feet and body cannot be used intentionally to control the ball (except by the goalkeeper within the circle).',
+    'A goal is valid only when the ball is struck from inside the shooting circle.',
+    'Fouls may result in free hits, penalty corners, or penalty strokes.',
+  ],
+} as const
+
+
 export const internationalHockeyFederationSection = {
   heading: 'International Hockey Federation (FIH)',
   lines: ['Headquarters: Lausanne, Switzerland'],
@@ -126,16 +158,16 @@ export const womensHockeyWorldCupSection = {
 export const trophiesSection = {
   heading: 'Trophies',
   lines: [
-    'Sultan Azlansha Cup Rangaswami Cup Agakhan Cup Muragappa Gold Cup',
-    'Dhyanchand Trophy Gurunanak Cup Mumbai Gold Cup Bitan Cup',
-    'Indira Gold Cup Modi Gold Cup Maharaja Ranjith Singh Gold Cup Asia Cup',
-    'Nehru Trophy sindhia Gold Cup Stanley Cup',
+    'Sultan Azlansha Cup, Rangaswami Cup, Agakhan Cup, Muragappa Gold Cup',
+    'Dhyanchand Trophy, Gurunanak Cup, Mumbai Gold Cup, Bitan Cup',
+    'Indira Gold Cup, Modi Gold Cup, Maharaja Ranjith Singh Gold Cup, Asia Cup',
+    'Nehru Trophy, Sindhia Gold Cup, Stanley Cup',
   ],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Centre Penalty Stroke Stick Punch-in Carry Touch Line Penalty Line',
+  text: 'Centre, Penalty Stroke, Stick, Punch-in, Carry, Touch Line, Penalty Line',
 } as const
 
 export const famousPlayersSection = {

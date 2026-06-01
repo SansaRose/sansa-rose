@@ -1,5 +1,29 @@
 export const tennisPageTitle = 'TENNIS' as const
 
+export const tennisOverviewSection = {
+  intro:
+    "Tennis is a popular racket sport played between two players (singles) or two teams of two players each (doubles). Players use rackets to hit a ball over a net, aiming to land it within the opponent's court and score points.",
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: 'Singles (1 vs 1) or Doubles (2 vs 2).' },
+    { label: 'Court', value: 'Rectangular court divided by a net.' },
+    { label: 'Equipment', value: 'Tennis racket, tennis ball, net, and court.' },
+    {
+      label: 'Objective',
+      value:
+        'Score points by hitting the ball so that the opponent cannot return it legally.',
+    },
+    { label: 'Match Format', value: 'Usually best of 3 or 5 sets.' },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    "A player serves the ball from behind the baseline into the opponent's service box.",
+    'Points are scored as 15, 30, 40, and Game.',
+    'A set is usually won by the first player/team to win 6 games with a margin of at least 2 games.',
+    'The player/team winning the required number of sets wins the match.',
+  ],
+} as const
+
 export const australianOpenSection = {
   heading: 'Australian Open (Tennis)',
   introParagraphs: [
@@ -104,14 +128,14 @@ export const usOpenSection = {
 export const trophiesSection = {
   heading: 'Trophies',
   lines: [
-    'Trophies Australia Open French Open Wimbledon US Open',
-    'Davis Cup (World Cup of Tennis) Hopman Cup Heineken Cup',
+    'Australia Open, French Open, Wimbledon, US Open',
+    'Davis Cup (World Cup of Tennis), Hopman Cup, Heineken Cup',
   ],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Smash Serve Set Duece Ace Slice Love Backhand Forehand Grand slam lab',
+  text: 'Smash, Serve, Set, Duece, Ace, Slice, Love, Backhand, Forehand, Grand Slam, Lab',
 } as const
 
 export const famousTennisPlayersSection = {

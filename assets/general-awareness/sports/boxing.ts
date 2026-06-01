@@ -1,5 +1,36 @@
 export const boxingPageTitle = 'BOXING' as const
 
+export const boxingOverviewSection = {
+  intro:
+    'Boxing is a combat sport in which two athletes compete by throwing punches at each other while wearing protective gloves. The contest takes place inside a square ring under a set of rules and weight categories.',
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: 'Two boxers compete against each other.' },
+    { label: 'Playing Area', value: 'A square boxing ring enclosed by ropes.' },
+    {
+      label: 'Equipment',
+      value: 'Boxing gloves, mouthguard, hand wraps, and protective gear.',
+    },
+    {
+      label: 'Objective',
+      value: 'Win by scoring more points, forcing a stoppage, or achieving a knockout (KO).',
+    },
+    {
+      label: 'Rounds',
+      value:
+        'Amateur bouts usually have 3 rounds, while professional bouts may have up to 12 rounds.',
+    },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'Boxers may strike only with closed fists.',
+    'Punches must land on legal target areas above the waist.',
+    'Holding, tripping, or hitting below the belt is not allowed.',
+    "A boxer is knocked out if unable to stand and continue before the referee's count of ten.",
+    'If no knockout occurs, judges determine the winner based on points.',
+  ],
+} as const
+
 export const boxingIntroParagraph =
   'Boxing is a combat sport in which two people wearing protective gloves throw punches at each other for a predetermined set of time in a boxing ring'
 
@@ -32,12 +63,12 @@ export const mensWorldBoxingChampionshipLine =
 
 export const trophiesSection = {
   heading: 'Trophies',
-  lines: ['Federation Cup Val Barker Trophy'],
+  lines: ['Federation Cup, Val Barker Trophy'],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Rounds Knock Out Jab Hook Punch Count down',
+  text: 'Rounds, Knock Out, Jab, Hook, Punch, Count down, Velter bomtom, Ring crapt, Ring side, Climb, Bout,  Lead',
 } as const
 
 export const famousBoxingPlayersSection = {

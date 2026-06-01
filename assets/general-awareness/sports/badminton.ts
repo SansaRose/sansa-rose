@@ -4,6 +4,33 @@ export const badmintonWorldFederationLine = {
   line: 'Badminton World Federation = Headquarters = Kuala Lumpur (Malaysia)',
 } as const
 
+export const badmintonOverviewSection = {
+  intro:
+    "Badminton is a popular indoor racket sport played between two players (singles) or two teams of two players each (doubles). Players use rackets to hit a shuttlecock over a net, aiming to land it in the opponent's court.",
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: 'Singles (1 vs 1) or Doubles (2 vs 2).' },
+    { label: 'Court Size', value: '13.4 m long and 6.1 m wide (doubles).' },
+    { label: 'Equipment', value: 'Racket, shuttlecock, net, and court.' },
+    {
+      label: 'Objective',
+      value:
+        "Score points by making the shuttlecock land in the opponent's court or forcing an error.",
+    },
+    {
+      label: 'Match Format',
+      value: 'Best of three games, with each game played to 21 points.',
+    },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'A player/team scores a point on every rally.',
+    'A game is won by the first side to reach 21 points with at least a 2-point lead.',
+    'If the score reaches 20–20, play continues until a 2-point lead is achieved (up to 30 points).',
+    'The shuttlecock must pass over the net and land within the court boundaries.',
+  ],
+} as const
+
 export const malaysiaOpenSection = {
   heading: 'Malaysia Open (Badminton)',
   introParagraphs: [
@@ -174,16 +201,16 @@ export const worldBadmintonChampionshipSection = {
 export const trophiesSection = {
   heading: 'Trophies',
   lines: [
-    'Trophies Thamas Cup Uber Cup Sudirman Cup Narang Cup Mayer’s Cup',
-    'All England Cup IBL Rehamulla Cup Aros Junior Cup Challenge Cup',
-    'Amrit Diwan Cup Asia Cup Chddha Cup European Cup Kitiakara Cup',
-    'Konica Cup Malaysian Open Sopiha Cup',
+    'Thomas Cup Uber Cup Sudirman Cup Narang Cup Mayer’s Cup',
+    'All England Cup, IBL, Rehamulla Cup, Aros Junior Cup, Challenge Cup',
+    'Amrit Diwan Cup, Asia Cup, Chddha Cup, European Cup, Kitiakara Cup',
+    'Konica Cup, Malaysian Open, Sopiha Cup',
   ],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Drop Dues Smash Love Double fault Touch base line Back court Bird Carry Clear Centre line Court Drive Kill Rally',
+  text: 'Drop Dues, Smash, Love, Double fault, Touch base line, Back court, Bird Carry, Clear Centre line, Court Drive, Kill, Rally',
 } as const
 
 export const famousBadmintonPlayersSection = {

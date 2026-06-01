@@ -1,5 +1,27 @@
 export const chessPageTitle = 'CHESS' as const
 
+export const chessOverviewSection = {
+  intro:
+    "Chess is a strategic board game played between two players on a square board consisting of 64 squares arranged in an 8×8 grid. It is one of the world's most popular games and is known for developing logical thinking, concentration, and decision-making skills.",
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: '2 players.' },
+    { label: 'Board', value: '8 × 8 squares (64 squares).' },
+  ],
+  piecesLabel: 'Pieces',
+  piecesIntro: 'Each player starts with 16 pieces:',
+  pieces: ['1 King', '1 Queen', '2 Rooks', '2 Bishops', '2 Knights', '8 Pawns'],
+  objective: { label: 'Objective', value: "Checkmate the opponent's king." },
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'White moves first, followed by alternating turns.',
+    'Each type of piece has its own movement pattern.',
+    'The king must never be left in check.',
+    "A player wins by checkmating the opponent's king, meaning the king is under attack and cannot escape.",
+    'A game may also end in a draw under certain conditions.',
+  ],
+} as const
+
 export const chessIntroParagraph =
   'The Chess is a two – player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in a 8 * 8 grid'
 
@@ -54,12 +76,12 @@ export const worldRapidChessChampionshipSection = {
 
 export const trophiesSection = {
   heading: 'Trophies',
-  lines: ['Naidu Trophy Khatan Trophy,'],
+  lines: ['Naidu Trophy, Khatan Trophy, Hawai Trophy'],
 } as const
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Move Check mate Knight Pawn FIDE, Gambit Double check Promotion Grand master Attack King Queen Rook Bishops draw',
+  text: 'Move, Check mate, Knight, Pawn, FIDE, Gambit, Double check, Promotion, Grand master, Attack, King, Queen, Rook, Bishops, draw, Kajil,  Check,  Stale mate, Grand master, Kyasil',
 } as const
 
 export const famousChessPlayersSection = {
