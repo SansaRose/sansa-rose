@@ -61,11 +61,11 @@ export const summerParalympicGamesSection = {
     'The Paralympic Games are held every four years, organized by the International Paralympic Committee.',
   ],
   sinceBullets: [{ label: 'Since', value: '1960' }],
-  sportsDetails: `Sports Details : Archery Athletics Boccia Cycling Equestrian
-Goalball Judo Powerlifting Rowing Sailing
-Shooting Swimming Table Tennis Volleyball Wheelchair basketball
-Wheelchair Tennis Wheelchair Fencing Wheelchair Rugby
-Football 5 – a – side Football 7 – a – side`,
+  sportsDetails: `Sports Details : Archery, Athletics, Boccia, Cycling, Equestrian,
+Goalball, Judo, Powerlifting, Rowing, Sailing,
+Shooting, Swimming, Table Tennis, Volleyball, Wheelchair basketball,
+Wheelchair Tennis, Wheelchair Fencing, Wheelchair Rugby,
+Football 5 – a – side, Football 7 – a – side,`,
   for2021Title: 'For 2021 (16th)',
   for2021Bullets: [
     { label: 'Host Country', value: 'Japan' },
@@ -86,8 +86,8 @@ export const winterParalympicGamesSection = {
     'The Winter Paralympics are also hosted by the city that hosted the Winter Olympics.',
   ],
   sinceBullets: [{ label: 'Since', value: '1976' }],
-  sportsDetails: `Sports Details : Alpine Skiing Biathlon Cross – country skiing Ice Sledge Hockey
-Para – snowboarding Wheelchair curling`,
+  sportsDetails: `Sports Details : Alpine Skiing, Biathlon, Cross – country skiing, Ice Sledge Hockey,
+Para – snowboarding, Wheelchair curling,`,
   for2022Title: 'For 2022 (13th)',
   for2022Bullets: [
     { label: 'Host City', value: 'Beijing (China)' },
@@ -108,13 +108,13 @@ export const youthOlympicGamesSection = {
 export const summerYouthOlympicGamesSection = {
   heading: 'Summer Youth Olympic Games',
   sinceBullets: [{ label: 'Since', value: '2010' }],
-  sportsDetails: `Sports Details : Archery Athletics Badminton Basketball Beach Volleyball
-Boxing Canoeing Cycling Diving Equestrian
-Fencing Field Hockey Football Golf Gymnastics
-Handball Judo Modern Penthalon Rowing
-Rugby sevens Sailing Shooting Swimming Table Tennis
-Taekwondo Tennis Triathlon Volleyball Weightlifting
-Wrestling`,
+  sportsDetails: `Sports Details : Archery, Athletics, Badminton, Basketball, Beach Volleyball,
+Boxing, Canoeing, Cycling, Diving, Equestrian,
+Fencing, Field Hockey, Football, Golf, Gymnastics,
+Handball, Judo, Modern Penthalon, Rowing,
+Rugby sevens, Sailing, Shooting, Swimming, Table Tennis,
+Taekwondo, Tennis, Triathlon, Volleyball, Weightlifting,
+Wrestling,`,
   block2022Title: '2022 Summer Youth Olympic Games (4th)',
   block2022Line: 'Host city : Dakar (Senegal)',
 } as const
@@ -122,10 +122,10 @@ Wrestling`,
 export const winterYouthOlympicGamesSection = {
   heading: 'Winter Youth Olympic Games',
   sinceBullets: [{ label: 'Since', value: '2012' }],
-  sportsDetails: `Sports Details : Alphine Skiing Biathloon Bobsleigh Cross country skiing
-Curling Figure Skating Freestyle Skiing Ice Hockey
-Luge Nordic combined Short track speed skating Skeleton Ski jumping
-Snowboarding Speed skating`,
+  sportsDetails: `Sports Details : Alphine, Skiing, Biathloon, Bobsleigh, Cross country skiing,
+Curling, Figure Skating, Freestyle Skiing, Ice Hockey,
+Luge, Nordic combined, Short track speed skating, Skeleton, Ski jumping,
+Snowboarding, Speed skating,`,
   block2024Title: '2024 Winter Youth Olympic Games (4th)',
   block2024Bullets: [
     { label: 'Host city', value: 'Gangwon (South Korea)' },

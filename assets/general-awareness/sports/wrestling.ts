@@ -1,5 +1,25 @@
 export const wrestlingPageTitle = 'WRESTLING' as const
 
+export const wrestlingOverviewSection = {
+  intro:
+    "Wrestling is one of the oldest combat sports, in which two athletes compete by grappling, throwing, and controlling each other on a mat. The objective is to score points through successful techniques or win by pinning the opponent's shoulders to the mat.",
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: 'Two wrestlers compete against each other.' },
+    { label: 'Playing Area', value: 'Circular wrestling mat.' },
+    { label: 'Objective', value: 'Win by pin (fall), technical superiority, or points.' },
+    { label: 'Styles', value: 'Freestyle Wrestling and Greco-Roman Wrestling.' },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'Wrestlers score points for takedowns, reversals, escapes, and exposure moves.',
+    "A pin (fall) occurs when both of an opponent's shoulders are held on the mat, resulting in an immediate victory.",
+    'Matches are divided into timed periods.',
+    'Illegal holds and unsportsmanlike conduct are penalized.',
+    'The wrestler with the most points at the end of the match wins if there is no pin.',
+  ],
+} as const
+
 export const introParagraph =
   'The Wrestling is a combat sport involving grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.'
 
@@ -48,7 +68,7 @@ export const asianWrestlingChampionshipsSection = {
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Action Arm Control Arm throw Base Bridge Bridge out Bridge down Bout Clamping Default Decision Disqualification Escape Pin Reversal Stalemate Freestyle Folkstyle Illegal hold Near fall Take down',
+  text: 'Action Arm, Control Arm throw, Base, Bridge, Bridge out, Bridge down, Bout, Clamping, Default, Decision, Disqualification, Escape, Pin, Reversal, Stalemate, Freestyle, Folkstyle, Illegal hold, Near fall, Take down',
 } as const
 
 export const famousWrestlingPlayersSection = {

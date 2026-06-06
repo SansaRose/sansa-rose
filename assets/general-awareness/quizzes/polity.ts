@@ -639,11 +639,112 @@ export const polityQuiz = {
         explanation: '4 other members are there in the Finance Commission EXCEPT, Chairman.',
       },
       {
-        question: '',
-        options: ['', '', '', ''],
+        question: 'In which of the following years was the Election Commission of India established?',
+        options: ['1950', '1951', '1952', '1953'],
         correct: 0,
-        explanation: '',
+        explanation: 'The Election Commission of India was established in 1950.',
       },
+      {
+        question: 'What is the tenure of office of the Chief Election Commissioner?',
+        options: ['5 years or upto age of 60 years', '5 years or upto age of 65 years', '6 years or upto age of 60 years', '6 years or upto age of 65 years'],
+        correct: 3,
+        explanation: '6 years or upto age of 65 years is the tenure of office of the Chief Election Commissioner.',
+      },
+      {
+        question: 'Who among the is NOT a member of the National Human Rights Commission?',
+        options: ['District Magistrate', 'Former Chief Justice of the High Court', 'Former Judge of the Supreme Court', 'Former Chief Justice of the Supreme Court'],
+        correct: 0,
+        explanation: 'District Magistrate is NOT a member of the National Human Rights Commission.',
+      },
+      {
+        question: 'Which part of the Indian Constitution deals with the Election Commission of India?',
+        options: ['Part XIII', 'Part XIV', 'Part XV', 'Part XVI'],
+        correct: 2,
+        explanation: 'Part XV deals with the Election Commission of India.',
+      },
+      {
+        question: 'UPSC is a Constitutional Body to conduct examinations for appointments to the services of the Union and the services of the State, respectively, under Article ________ of the Constitution of India?',
+        options: ['Article 320', 'Article 321', 'Article 322', 'Article 323'],
+        correct: 2,
+        explanation: 'Article 320 of the Constitution of India deals with the Union Public Service Commission.',
+      },
+      {
+        question: 'The establishment of Union Public Service Commission, State Public Service Commissions and Joint Public Service Commission falls under which of the following features of the Indian Constitution?',
+        options: ['Directive Principles of State Policy', 'Fundamental Rights', 'Federalism', 'Parliamentary System'],
+        correct: 2,
+        explanation: 'Federalism falls under the establishment of Union Public Service Commission, State Public Service Commissions and Joint Public Service Commission.',
+      },
+      {
+        question: 'Which Article of the Indian Constitution mentions about the recommendations of the Finance Commission?',
+        options: ['Article 280', 'Article 281', 'Article 282', 'Article 283'],
+        correct: 1,
+        explanation: 'Article 281 of the Constitution of India mentions about the recommendations of the Finance Commission.',
+      },
+      {
+        question: 'What is the maximum age for a member of a joint public service commission to hold his/her officer as per the Indian Constitution?',
+        options: ['60 years', '62 years', '63 years', '65 years'],
+        correct: 1,
+        explanation: '62 years is the maximum age for a member of a joint public service commission to hold his/her officer as per the Indian Constitution.',
+      },
+      {
+        question: 'Who was the first Chairman of the Finance Commission of India?',
+        options: ['Ashok Kumar Chanda', 'K Santhanam', 'KC Neogy', 'PV Rajamannar'],
+        correct: 2,
+        explanation: 'KC Neogy was the first Chairman of the Finance Commission of India.',
+      },
+      {
+        question: 'Under which of the following Acts was the National Commission for Women established?',
+        options: ['The National Commission for Women Act, 1987', 'The National Commission for Women Act, 1988', 'The National Commission for Women Act, 1989', 'The National Commission for Women Act, 1990'],
+        correct: 3,
+        explanation: 'The National Commission for Women Act, 1990 was the Act under which the National Commission for Women was established.',
+      },
+      {
+        question: 'Who appoints the State Election Commissioners?',
+        options: ['Chief Minister', 'Governor', 'President', 'Advocate General'],
+        correct: 1,
+        explanation: 'Governor appoints the State Election Commissioners.',
+      },
+      {
+        question: 'The Chairman of a State Public Service Commission can be removed by the order of the __________',
+        options: ['Chief Minister', 'Governor', 'President', 'Advocate General'],
+        correct: 2,
+        explanation: 'President can remove the Chairman of a State Public Service Commission by the order of the President.',
+      },
+      {
+        question: 'Which of the following is NOT a Constitutional Body in India?',
+        options: ['Election Commission of India', 'State Human Rights Commission', 'State Public Service Commission', 'Union Public Service Commission'],
+        correct: 1,
+        explanation: 'State Human Rights Commission is NOT a Constitutional Body in India.',
+      },
+      {
+        question: 'The elections to the Panchayati Raj Institutions are conducted by the __________',
+        options: ['Election Commission of India', 'State Election Commission', 'Union Election Commission', 'State Public Service Commission'],
+        correct: 1,
+        explanation: 'State Election Commission conducts the elections to the Panchayati Raj Institutions.',
+      },
+      {
+        question: 'What is the tenure of the Chairperson of National Human Rights Commission?',
+        options: ['3 years', '4 years', '5 years', '6 years'],
+        correct: 0,
+        explanation: '3 years is the tenure of the Chairperson of National Human Rights Commission.',
+      },
+      {
+        question: 'In which year was the National Commission for Women established in India?',
+        options: ['1990', '1991', '1992', '1993'],
+        correct: 3,
+        explanation: '1993 is the year in which the National Commission for Women was established in India.',
+      },
+      {
+        question: '',
+        options: ['District Magistrate', 'Former Chief Justice of the High Court', 'Former Judge of the Supreme Court', 'Former Chief Justice of the Supreme Court'],
+        correct: 0,
+        explanation: 'District Magistrate is NOT a member of the National Commission for Protection for Child Rights.',
+      },
+      
+      
+      
+      
+      
     ]
   },
 }

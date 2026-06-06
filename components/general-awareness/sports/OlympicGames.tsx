@@ -55,12 +55,41 @@ function SectionHeading({
   )
 }
 
-function DiamondMarker({ className = '' }: { className?: string }) {
+
+
+function splitCsvItems(values: readonly string[]) {
+  return values
+    .flatMap((line) => line.split(','))
+    .map((item) => item.trim())
+    .filter((item) => item.length > 0)
+}
+
+function SportsDetailsBlock({ value }: { value: string }) {
+  const separatorIndex = value.indexOf(':')
+  const label = separatorIndex >= 0 ? value.slice(0, separatorIndex).trim() : 'Sports Details'
+  const listPart = separatorIndex >= 0 ? value.slice(separatorIndex + 1) : value
+  const items = splitCsvItems([listPart])
+
   return (
-    <span
-      className={`mt-1.5 flex h-2.5 w-2.5 shrink-0 rotate-45 border border-emerald-400/75 bg-emerald-400/25 shadow-[0_0_12px_rgba(16,185,129,0.35)] ${className}`}
-      aria-hidden
-    />
+    <>
+      <div className="mb-2 flex items-center gap-2.5">
+        <Medal className="h-4.5 w-4.5 text-emerald-300" strokeWidth={2} aria-hidden />
+        <h3 className="text-base font-bold tracking-tight text-emerald-100 sm:text-lg">{label}</h3>
+      </div>
+      <ol className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        {items.map((item, i) => (
+          <li
+            key={`${item}-${i}`}
+            className="group flex items-center gap-3 rounded-xl border border-slate-600/45 bg-slate-900/25 px-3.5 py-2.5 transition hover:border-emerald-500/40 hover:bg-slate-900/45"
+          >
+            <span className="flex h-7 min-w-7 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-emerald-500/35 to-teal-600/20 text-xs font-bold tabular-nums text-emerald-100 ring-1 ring-emerald-500/35">
+              {i + 1}
+            </span>
+            <span className="min-w-0 flex-1 leading-relaxed text-slate-200">{item}</span>
+          </li>
+        ))}
+      </ol>
+    </>
   )
 }
 
@@ -77,7 +106,6 @@ function ArrowBulletList({
     >
       {items.map((b, i) => (
         <li key={`${b.label}-${i}`} className="flex gap-3 px-4 py-3.5 text-slate-200 first:rounded-t-xl last:rounded-b-xl">
-          <DiamondMarker />
           <span className="min-w-0 flex-1 leading-relaxed">
             <span className="font-semibold text-emerald-200/90">{b.label}</span>
             {' : '}
@@ -158,7 +186,7 @@ const OlympicGames = ({ showBackNav = false }: OlympicGamesProps) => {
               </div>
               <SectionHeading className="mb-0 min-w-0 flex-1">{summerOlympicGamesSection.heading}</SectionHeading>
             </div>
-            <p className="whitespace-pre-line leading-relaxed text-slate-300">{summerOlympicGamesSection.sportsDetails}</p>
+            <SportsDetailsBlock value={summerOlympicGamesSection.sportsDetails} />
             <ArrowBulletList items={summerOlympicGamesSection.sinceBullets} />
             <SubsectionTitleBar attachListBelow title={summerOlympicGamesSection.for2016Title} />
             <ArrowBulletList
@@ -215,9 +243,9 @@ const OlympicGames = ({ showBackNav = false }: OlympicGamesProps) => {
               </p>
             ))}
             <ArrowBulletList items={summerParalympicGamesSection.sinceBullets} />
-            <p className="mt-5 whitespace-pre-line leading-relaxed text-slate-300">
-              {summerParalympicGamesSection.sportsDetails}
-            </p>
+            <div className="mt-5">
+              <SportsDetailsBlock value={summerParalympicGamesSection.sportsDetails} />
+            </div>
             <SubsectionTitleBar attachListBelow title={summerParalympicGamesSection.for2021Title} />
             <ArrowBulletList
               className="mt-0! rounded-t-none rounded-b-xl border-t-0 [&_li:first-child]:rounded-none"
@@ -273,9 +301,9 @@ const OlympicGames = ({ showBackNav = false }: OlympicGamesProps) => {
               <SectionHeading className="mb-0 min-w-0 flex-1">{summerYouthOlympicGamesSection.heading}</SectionHeading>
             </div>
             <ArrowBulletList items={summerYouthOlympicGamesSection.sinceBullets} />
-            <p className="mt-5 whitespace-pre-line leading-relaxed text-slate-300">
-              {summerYouthOlympicGamesSection.sportsDetails}
-            </p>
+            <div className="mt-5">
+              <SportsDetailsBlock value={summerYouthOlympicGamesSection.sportsDetails} />
+            </div>
             <SubsectionTitleBar title={summerYouthOlympicGamesSection.block2022Title} />
             <p className="mt-5 leading-relaxed text-slate-300">{summerYouthOlympicGamesSection.block2022Line}</p>
           </SectionShell>

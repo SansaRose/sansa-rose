@@ -1,6 +1,16 @@
 import Link from 'next/link'
 import React from 'react'
-import { Award, ChevronRight, Medal, Sparkles, Trophy, Users } from 'lucide-react'
+import {
+  Award,
+  ChevronRight,
+  Info,
+  ListChecks,
+  Medal,
+  ScrollText,
+  Sparkles,
+  Trophy,
+  Users,
+} from 'lucide-react'
 
 import {
   asianWrestlingChampionshipsSection,
@@ -8,6 +18,7 @@ import {
   introParagraph,
   relatedTermsSection,
   worldWrestlingChampionshipsSection,
+  wrestlingOverviewSection,
   wrestlingPageTitle,
 } from '@/assets/general-awareness/sports/wrestling'
 
@@ -97,6 +108,31 @@ function SubsectionTitleBar({ title, attachListBelow = false }: { title: string;
   )
 }
 
+function splitCsvItems(values: readonly string[]) {
+  return values
+    .flatMap((line) => line.split(','))
+    .map((item) => item.trim())
+    .filter((item) => item.length > 0)
+}
+
+function NumberedGrid({ items }: { items: readonly string[] }) {
+  return (
+    <ol className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
+      {items.map((item, i) => (
+        <li
+          key={`${item}-${i}`}
+          className="group flex items-center gap-3 rounded-xl border border-slate-600/45 bg-slate-900/25 px-4 py-3 transition hover:border-emerald-500/40 hover:bg-slate-900/45"
+        >
+          <span className="flex h-7 min-w-7 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-emerald-500/35 to-teal-600/20 text-xs font-bold tabular-nums text-emerald-100 ring-1 ring-emerald-500/35">
+            {i + 1}
+          </span>
+          <span className="min-w-0 flex-1 leading-relaxed text-slate-200">{item}</span>
+        </li>
+      ))}
+    </ol>
+  )
+}
+
 function NumberedLines({ lines }: { lines: readonly string[] }) {
   return (
     <ol className="mt-5 list-none overflow-hidden rounded-xl border border-slate-600/45 bg-slate-900/15 p-0">
@@ -134,6 +170,33 @@ const Wrestling = ({ showBackNav = false }: WrestlingProps) => {
         </header>
 
         <div className="space-y-8 sm:space-y-10">
+          <SectionShell>
+            <div className="mb-6 flex items-start gap-3 sm:gap-4">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300 ring-1 ring-emerald-500/25">
+                <Info className="h-5 w-5" strokeWidth={2} />
+              </div>
+              <p className="min-w-0 flex-1 text-base leading-relaxed text-slate-200 sm:text-lg">
+                {wrestlingOverviewSection.intro}
+              </p>
+            </div>
+
+            <div className="mb-2 flex items-center gap-2.5">
+              <ListChecks className="h-4.5 w-4.5 text-emerald-300" strokeWidth={2} aria-hidden />
+              <h3 className="text-base font-bold tracking-tight text-emerald-100 sm:text-lg">
+                {wrestlingOverviewSection.keyFeaturesHeading}
+              </h3>
+            </div>
+            <ArrowBulletList className="mt-2" items={wrestlingOverviewSection.keyFeatures} />
+
+            <div className="mt-7 mb-2 flex items-center gap-2.5">
+              <ScrollText className="h-4.5 w-4.5 text-emerald-300" strokeWidth={2} aria-hidden />
+              <h3 className="text-base font-bold tracking-tight text-emerald-100 sm:text-lg">
+                {wrestlingOverviewSection.basicRulesHeading}
+              </h3>
+            </div>
+            <NumberedLines lines={wrestlingOverviewSection.basicRules} />
+          </SectionShell>
+
           <SectionShell>
             <div className="flex items-start gap-3 sm:gap-4">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-300 ring-1 ring-emerald-500/25">
@@ -195,7 +258,7 @@ const Wrestling = ({ showBackNav = false }: WrestlingProps) => {
               </div>
               <SectionHeading className="mb-0 min-w-0 flex-1">{relatedTermsSection.heading}</SectionHeading>
             </div>
-            <p className="leading-relaxed text-slate-300">{relatedTermsSection.text}</p>
+            <NumberedGrid items={splitCsvItems([relatedTermsSection.text])} />
           </SectionShell>
 
           <SectionShell>

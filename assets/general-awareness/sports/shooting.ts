@@ -1,5 +1,28 @@
 export const shootingPageTitle = 'SHOOTING' as const
 
+export const shootingOverviewSection = {
+  intro:
+    'Shooting is a precision sport in which competitors use firearms or air guns to hit stationary or moving targets. Success depends on accuracy, concentration, control, and consistency.',
+  keyFeaturesHeading: 'Key Features',
+  keyFeatures: [
+    { label: 'Players', value: 'Individual competitors or teams.' },
+    {
+      label: 'Equipment',
+      value: 'Air rifles, air pistols, rifles, shotguns, targets, and safety gear.',
+    },
+    { label: 'Objective', value: 'Score the highest points by hitting targets as accurately as possible.' },
+    { label: 'Events', value: 'Rifle, pistol, and shotgun competitions.' },
+  ],
+  basicRulesHeading: 'Basic Rules',
+  basicRules: [
+    'Competitors fire a specified number of shots at targets.',
+    'Points are awarded based on how close each shot is to the center of the target.',
+    'The athlete with the highest score wins.',
+    'Strict safety rules must be followed at all times.',
+    'Different events have different distances, target types, and time limits.',
+  ],
+} as const
+
 export const issfWorldCup2021Section = {
   heading: 'International Shooting Sports Federation (ISSF) World Cup – 2021',
   arrowBullets: [
@@ -10,7 +33,7 @@ export const issfWorldCup2021Section = {
 
 export const relatedTermsSection = {
   heading: 'Related Terms',
-  text: 'Muzzle',
+  text: 'Muzzle, Aperture Sight, Flyer, Grouping',
 } as const
 
 export const famousShootersSection = {
