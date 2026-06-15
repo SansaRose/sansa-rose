@@ -745,6 +745,267 @@ export const polityQuiz = {
       
       
       
-    ]
+    ],
+    'quiz-6': [
+      {
+        question: 'In India, who among the following has the power to pardon, remit or commute the punishment of a criminal',
+        options: ['President of India', 'Vice President of India', 'Speaker of Lok Sabha', 'Prime Minister'],
+        correct: 0,
+        explanation: 'President of India has the power to pardon, remit or commute the punishment of a criminal .',
+      },
+      {
+        question: 'Which of the following statements in NOT correct regarding the election of the Vice President of India?',
+        options: ['He should be a citizen of India', 'He is eligible to contest elections as a member of the Rajya Sabha', 'He is eligible to contest elections as a member of the Lok Sabha', 'He should be above 35 years of age'],
+        correct: 2,
+        explanation: 'He is eligible to contest elections as a member of the Lok Sabha is NOT correct regarding the election of the Vice President of India.',
+      },
+      {
+        question: 'A bill becomes an Act of the Parliament after being passed by both the Houses of Parliament and assented to by the __________',
+        options: ['President of India', 'Vice President of India', 'Speaker of Lok Sabha', 'Prime Minister'],
+        correct: 0,
+        explanation: 'President of India is the one who assented to the bill becomes an Act of the Parliament after being passed by both the Houses of Parliament and assented to by the President of India.',
+      },
+      {
+        question: 'Which of the following Articles of the Constitution of India states that there will be Vice President of India',
+        options: ['Article 61', 'Article 62', 'Article 63', 'Article 64'],
+        correct: 2,
+        explanation: 'Article 63 of the Constitution of India states that there will be Vice President of India.',
+      },
+      {
+        question: 'Which of the following Articles of Constitution of India deals with the manner of election of the President of India',
+        options: ['Article 55', 'Article 56', 'Article 57', 'Article 58'],
+        correct: 0,
+        explanation: 'Article 55 of the Constitution of India deals with the manner of election of the President of India.',
+      },
+      {
+        question: 'The President of India has the power to pardon under which article of the Constitution of India?',
+        options: ['Article 70', 'Article 71', 'Article 72', 'Article 73'],
+        correct: 2,
+        explanation: 'Article 72 of the Constitution of India has the power to pardon.',
+      },
+      {
+        question: 'As per the Constitution of India, who is authorised to transfer the Judge of the High Court to another High Court?',
+        options: ['President of India', 'Governor of the State', 'Chief Justice of the High Court', 'Chief Justice of the Supreme Court'],
+        correct: 0,
+        explanation: 'President of India is the one who is authorised to transfer the Judge of the High Court to another High Court.',
+      },
+      {
+        question: 'With whose consultation does the President of India convene ad prorogue Parliament?',
+        options: ['The Speaker', 'The Prime Minister', 'The Council of Ministers', 'The Prime Minister and the leader of the opposition in Lok Sabha'],
+        correct: 1,
+        explanation: 'The Prime Minister is the one who is authorised to convene ad prorogue Parliament.',
+      },
+      {
+        question: 'In case of death of the President and Vice President of India, who will act as the President of India?',
+        options: ['Attorney General of India', 'Chief Justice of Supreme Court', 'Prime Minister of India', 'Parliament chosen candidate'],
+        correct: 1,
+        explanation: 'Chief Justice of Supreme Court will act as the President of India in case of death of the President and Vice President of India.',
+      },
+      {
+        question: 'How many members can be nominated by the President of India in the Rajya Sabha?',
+        options: ['8', '10', '12', '14'],
+        correct: 2,
+        explanation: '12 members can be nominated by the President of India in the Rajya Sabha.',
+      },
+      {
+        question: 'Who has the right to investigate and decide all the doubts and controversies arising out of the election of the President of India?',
+        options: ['Supreme Court of India', 'Vice President of India', 'Speaker of Lok Sabha', 'Lokpal'],
+        correct: 0,
+        explanation: 'Supreme Court of India has the right to investigate and decide all the doubts and controversies arising out of the election of the President of India.',
+      },
+      {
+        question: 'Under which article of the Constitution of India can the President of India promulgate an ordinance?',
+        options: ['Article 120', 'Article 121', 'Article 122', 'Article 123'],
+        correct: 3,
+        explanation: 'Article 123 of the Constitution of India can the President of India promulgate an ordinance.',
+      },
+      {
+        question: 'Who is nominal executive authority of India?',
+        options: ['President of India', 'Vice President of India', 'Speaker of Lok Sabha', 'Prime Minister'],
+        correct: 1,
+        explanation: 'President of India is the nominal executive authority of India.',
+      },
+      {
+        question: 'Which of the following is NOT an eligibility requirement to become the Vice President of India?',
+        options: ['He should be a citizen of India', 'He should have completed 40 years of age', 'He should be qualified to be as a member of Rajya Sabha', 'They should not hold any office of profit under the Government of India or the Government of any State'],
+        correct: 1,
+        explanation: 'He should have completed 40 years of age is NOT an eligibility requirement to become the Vice President of India.',
+      },
+      {
+        question: 'Which of the following statement is CORRECT',
+        options: ['The Governor can dissolve the Legislative Assembly of a State', 'The Speaker of the Lok Sabha can dissolve the Lok Sabha', 'The President of India can dissolve the Rajya Sabha', 'The Vice President of India can dissolve the Legislative Assembly of a State'],
+        correct: 0,
+        explanation: 'The Governor can dissolve the Legislative Assembly of a State is CORRECT.',
+      },
+      {
+        question: 'Which Article of the Constitution of India deals with the "Pardoning Power of the Governor"',
+        options: ['Article 160', 'Article 161', 'Article 162', 'Article 163'],
+        correct: 1,
+        explanation: 'Article 161 of the Constitution of India deals with the "Pardoning Power of the Governor".',
+      },
+      {
+        question: 'Who was the first Woman Governor of an Indian State?',
+        options: ['Sarojini Naidu', 'Sucheta Kripalani', 'Padmaja Naidu', 'Tarkeswari Sinha'],
+        correct: 0,
+        explanation: 'Sarojini Naidu was the first Woman Governor of an Indian State.',
+      },
+      
+    ],
+    'quiz-7': [
+      {
+        question: 'Who is the real executive head of the Union Government in India?',
+        options: ['President of India', 'Vice President of India', 'Prime Minister', 'Speaker of Lok Sabha'],
+        correct: 2,
+        explanation: 'Prime Minister is the real executive head of the Union Government in India.',
+      },
+      {
+        question: 'The Prime Minister of India is appointed by the __________',
+        options: ['President of India', 'Vice President of India', 'Parliament', 'Council of Ministers'],
+        correct: 0,
+        explanation: 'President of India is the one who appoints the Prime Minister of India.',
+      },
+      {
+        question: 'The Prime Minister of India must be a member of __________',
+        options: ['Lok Sabha', 'Rajya Sabha', 'Either Lok Sabha or Rajya Sabha', 'Neither Lok Sabha nor Rajya Sabha'],
+        correct: 2,
+        explanation: 'The Prime Minister of India must be a member of Either Lok Sabha or Rajya Sabha.',
+      },
+      {
+        question: 'Who presides over the meetins of the Union Cabinet?',
+        options: ['President of India', 'Vice President of India', 'Prime Minister', 'Speaker of Lok Sabha'],
+        correct: 2,
+        explanation: 'Prime Minister presides over the meetins of the Union Cabinet.',
+      },
+      {
+        question: 'Which Article of the Constitution of India mentions the Prime Minister of India?',
+        options: ['Article 74', 'Article 75', 'Article 78', 'All of the above'],
+        correct: 3,
+        explanation: 'All of the above Articles mention the Prime Minister of India.',
+      },
+      {
+        question: 'Who acts as the link between the President and Council of Ministers?',
+        options: ['President of India', 'Vice President of India', 'Prime Minister', 'Speaker of Lok Sabha'],
+        correct: 2,
+        explanation: 'Prime Minister acts as the link between the President and Council of Ministers.',
+      },
+      {
+        question: 'In the event of the death or resignation of the Prime Minister, the Council of Ministers',
+        options: ['Continues', 'Automatically dissolves', 'Is headed by the President', 'Stay until Parliament is dissolved'],
+        correct: 1,
+        explanation: 'Automatically dissolves in the event of the death or resignation of the Prime Minister.',
+      },
+      {
+        question: 'Who prepares the list of Portfolios for the Council of Ministers?',
+        options: ['President of India', 'Vice President of India', 'Prime Minister', 'Speaker of Lok Sabha'],
+        correct: 2,
+        explanation: 'Prime Minister prepares the list of Portfolios for the Council of Ministers.',
+      },
+      {
+        question: 'Which body is responsible for making major policy decisions in India?',
+        options: ['Lok Sabha', 'Planning Commission', 'President of India', 'Union Cabinet'],
+        correct: 3,
+        explanation: 'Union Cabinet is responsible for making major policy decisions in India.',
+      },
+      {
+        question: 'Who is the real executive head of a state?',
+        options: ['Governor', 'Chief Minister', 'Chief Secretary', 'State Assembly Speaker'],
+        correct: 1,
+        explanation: 'Chief Minister is the real executive head of a state.',
+      },
+      {
+        question: 'Who appoints the Chief Minister of a state?',
+        options: ['President of India', 'Governor of the State', 'Chief Justice of the High Court', 'Speaker of Lok Sabha'],
+        correct: 1,
+        explanation: 'Governor of the State appoints the Chief Minister of a state.',
+      },
+      {
+        question: 'Which Article of the Constitution of India deals with the "Appointment of the Chief Minister of a State"?',
+        options: ['Article 164', 'Article 165', 'Article 166', 'Article 167'],
+        correct: 0,
+        explanation: 'Article 164 of the Constitution of India deals with the "Appointment of the Chief Minister of a State".',
+      },
+      {
+        question: 'What is the maximum term of a Chief Minister of a State?',
+        options: ['4 years', '5 years', '6 years', 'No fixed term'],
+        correct: 3,
+        explanation: 'No fixed term is the maximum term of a Chief Minister of a State.',
+      },
+      {
+        question: 'The Chief Minister communicates all administrative decisions to__________',
+        options: ['President of India', 'Governor of the State', 'Chief Justice of the High Court', 'State Assembly Speaker'],
+        correct: 1,
+        explanation: 'Governor of the State is the one who communicates all administrative decisions to the Chief Minister.',
+      },  
+      {
+        question: 'Who allocates the portfolios among the state ministers?',
+        options: ['Governor of the State', 'Chief Minister', 'Chief Justice of the High Court', 'State Assembly Speaker'],
+        correct: 1,
+        explanation: 'Chief Minister allocates the portfolios among the state ministers.',
+      },
+      {
+        question: 'In case of resignation of Chief Minister, the Council of Ministers',
+        options: ['Continues', 'Automatically dissolves', 'Is headed by the Governor', 'Is reappointed by the Governor'],
+        correct: 1,
+        explanation: 'Automatically dissolves in case of resignation of Chief Minister.',
+      },
+      {
+        question: 'The Chief Minister is required to be a member of the state legislature within:',
+        options: ['3 months', '4 months', '6 months', '1 year'],
+        correct: 2,
+        explanation: '6 months is the time required for the Chief Minister to be a member of the state legislature.',
+      },
+      {
+        question: 'Which Article of the Constitution of India deals with the duties of Chief Minister to communicate with the Governor?',
+        options: ['Article 164', 'Article 165', 'Article 166', 'Article 167'],
+        correct: 3,
+        explanation: 'Article 167 of the Constitution of India deals with the duties of Chief Minister to communicate with the Governor.',
+      },
+      {
+        question: 'Chief Minister is the head of the',
+        options: ['State Government', 'Union Government', 'State Legislature', 'Council of Ministers'],
+        correct: 0,
+        explanation: 'Chief Minister is the head of the State Government.',
+      },
+      {
+        question: 'The Council of Ministers is collectively responsible for',
+        options: ['Lok Sabha', 'Rajya Sabha', 'President', 'Supreme Court'],
+        correct: 0,
+        explanation: 'Lok Sabha is collectively responsible for the Council of Ministers.',
+      },
+      {
+        question: 'What is the maximum number of ministers in a state including the Chief Minister?',
+        options: ['10% of the total members', '15% of the total members', '20% of the total members', '25% of the total members'],
+        correct: 1,
+        explanation: '15% of the total members is the maximum number of ministers in a state including the Chief Minister (As per 91st Amendment).',
+      },
+      {
+        question: 'Ministers hold office during the peasure of the:',
+        options: ['Prime Minister', 'President', 'Parliament', 'Supreme Court'],
+        correct: 1,
+        explanation: 'President is the one who holds office during the peasure of the President.',
+      },
+      {
+        question: 'The Council of Ministers includes the',
+        options: ['Cabinet Ministers only', 'Minister of State only', 'Deputy Ministers only', 'All of the above'],
+        correct: 3,
+        explanation: 'All of the above are members of the Council of Ministers.',
+      },
+      {
+        question: 'Who decides the rank of ministers in the Council of Ministers?',
+        options: ['President of India', 'Vice President of India', 'Prime Minister', 'Speaker of Lok Sabha'],
+        correct: 2,
+        explanation: 'Prime Minister decides the rank of ministers in the Council of Ministers.',
+      },
+      
+      
+    ],
+    'quiz-8': [
+      {
+        question: 'If the President neither signs nor returns a bill, it is consider as:',
+        options: ['Absolute veto', 'Pocket veto', 'Suspensive veto', 'Line-term veto'],
+        correct: 1,
+        explanation: 'Pocket veto is the one who is considered as if the President neither signs nor returns a bill.',
+      },
+    ],
   },
 }
