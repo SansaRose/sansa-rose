@@ -268,9 +268,9 @@ const OlympicGames = ({ showBackNav = false }: OlympicGamesProps) => {
               </p>
             ))}
             <ArrowBulletList items={winterParalympicGamesSection.sinceBullets} />
-            <p className="mt-5 whitespace-pre-line leading-relaxed text-slate-300">
-              {winterParalympicGamesSection.sportsDetails}
-            </p>
+            <div className="mt-5">
+              <SportsDetailsBlock value={winterParalympicGamesSection.sportsDetails} />
+            </div>
             <SubsectionTitleBar attachListBelow title={winterParalympicGamesSection.for2022Title} />
             <ArrowBulletList
               className="mt-0! rounded-t-none rounded-b-xl border-t-0 [&_li:first-child]:rounded-none"

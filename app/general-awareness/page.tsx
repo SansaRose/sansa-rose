@@ -180,6 +180,16 @@ const awarenessSections: { heading: string; blurb: string; items: Topic[] }[] = 
         ring: 'ring-teal-500/30',
         iconBg: 'bg-teal-500/20',
       },
+      {
+        href: '/general-awareness/world-information',
+        title: 'World information',
+        subtitle: 'Global facts & figures',
+        description: 'Key facts about countries, capitals, organizations, and the wider world.',
+        icon: Globe2,
+        gradient: 'from-blue-600 to-indigo-800',
+        ring: 'ring-blue-500/30',
+        iconBg: 'bg-blue-500/20',
+      },
     ],
   },
   {

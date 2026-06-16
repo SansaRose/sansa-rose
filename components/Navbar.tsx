@@ -149,6 +149,7 @@ const Navbar = () => {
     { href: '/general-awareness/unesco-world-heritage-sites', label: 'UNESCO World Heritage Sites', icon: '🏰' },
     { href: '/general-awareness/who-is-who', label: 'Who Is Who', icon: '👤' },
     { href: '/general-awareness/wildlife-sanctuaries', label: 'Wildlife Sanctuaries', icon: '🦅' },
+    { href: '/general-awareness/world-information', label: 'World Information', icon: '🌐' },
   ]
 
   return (
