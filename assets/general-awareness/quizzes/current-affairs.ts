@@ -88,6 +88,34 @@ export const currentAffairsQuiz = {
         correct: 3,
         explanation: '2047 is the correct answer because it is the year that the report "Strategic Roadmap for Making Ayurveda Global" aims to transform Ayurveda into a globally recognized healthcare system by 2047.',
       },
+      {
+        question:
+          'The Government of India launched the Smart Cities Mission in which year?',
+        options: ['2015', '2016', '2017', '2018'],
+        correct: 0,
+        explanation: '25.06.2015 is the correct answer because it is the year that the Government of India launched the Smart Cities Mission. The Smart Cities Mission is a scheme to develop 100 smart cities in India.',
+      },
+      {
+        question:
+          'Which Indian Musician and sitar player is the founder of the National Orchestra of India?',
+        options: ['Ravi Shankar', 'Ustad Bismillah Khan', 'Bhimsen Joshi', 'Hari Prasad Chaurasia'],
+        correct: 0,
+        explanation: 'Ravi Shankar is the correct answer because it is the Indian Musician and sitar player who is the founder of the National Orchestra of India. He was a sitar player and a composer. He was known as the "Sitar Maestro" and "The Messenger of Peace".',
+      },
+      {
+        question:
+          'Who among the following renowned musicians is celebrated for popularising the unique instrument knonw as the "Sarod" and is considered one of the most famous maestros of the Senia Shahjahanpur Gharana?',
+        options: ['Ustad Amjad Ali Khan', 'Ustad Bismillah Khan', 'Ustad Allarakha', 'Ustad Zakir Hussain'],
+        correct: 0,
+        explanation: 'Ustad Amjad Ali Khan is the correct answer because it is the Indian Musician and sitar player who is celebrated for popularising the unique instrument known as the "Sarod" and is considered one of the most famous maestros of the Senia Shahjahanpur Gharana.',
+      },
+      {
+        question:
+          'Which of the following is the highest award in the Rashtriya Vigyan Puraskar awards',
+        options: ['Vigyan vajra', 'Vighay Mahan', 'Vighay Shri', 'Vigyan Ratna'],
+        correct: 3,
+        explanation: 'Vigyan Ratna is the correct answer because it is the highest award in the Rashtriya Vigyan Puraskar awards. It is given to the scientists who have made significant contributions to the field of science and technology.',
+      },
     ],
   },
 };

@@ -1346,6 +1346,63 @@ export const historyQuiz = {
         correct: 3,
         explanation: 'Balban (1266-1287) is the correct answer because it is the Sultan of Delhi that adopted the policy of Blood and Iron. The policy emphasized military power, strict discipline, and punitive measures to maintain control over the empire.',
       },
+      {
+        question:
+          'An Indian woman social reformer, ___________ is credited with the establishment of "Bharat Stree Mandal" in 1910.',
+        options: ['Savitri Bai Phule', 'Sarala Devi', 'Sarojini Naidu', 'Usha Mehta'],
+        correct: 1,
+        explanation: 'Sarala Devi is the correct answer because it is the personality that is credited with the establishment of "Bharat Stree Mandal" in 1910. She was an Indian woman social reformer who was credited with the establishment of "Bharat Stree Mandal" in 1910.',
+      },
+      {
+        question:
+          'In which year was the temple entry movement started by BR Ambedkar?',
+        options: ['1927', '1928', '1929', '1930'],
+        correct: 0,
+        explanation: '1927 is the correct answer because it is the year that the temple entry movement was started by BR Ambedkar.',
+      },
+      {
+        question:
+          'Who among the following was proclaimed as the leader of the revolt by the rebels during the First war of Indian independence, 1857, against the British oppression?',
+        options: ['Rani Lakshmi Bai', 'Nana Sahib', 'Shah Alam II', 'Bahadur Shah Zafar'],
+        correct: 3,
+        explanation: 'Bahadur Shah Zafar is the correct answer because it is the personality that was proclaimed as the leader of the revolt by the rebels during the First war of Indian independence, 1857, against the British oppression.',
+      },
+      {
+        question:
+          'Who among the following compiled the Mrga-pasi-shastra in the 13th century, which provided an account of beasts and birds of hunting?',
+        options: ['Akbar', 'Hamsadeva', 'Jahangir', 'Shah Jahan'],
+        correct: 1,
+        explanation: 'Hamsadeva is the correct answer because it is the personality that compiled the Mrga-pasi-shastra in the 13th century, which provided an account of beasts and birds of hunting.',
+      },
+      {
+        question:
+          'Who among the following was the successor of Sultan Iltumish in the Delhi Sultanate?',
+        options: ['Alauddin Khilji', 'Feroz Shah Tughlaq', 'Shah Alam II', 'Razia Sultana'],
+        correct: 3,
+        explanation: 'Razia Sultana is the correct answer because it is the personality that was the successor of Sultan Iltumish in the Delhi Sultanate.',
+      },
+      {
+        question:
+          'Bolgatty Palace in Kochi, Kerala, India was built in the ________ architectural style?',
+        options: ['Mughal', 'Dutch', 'British', 'Portuguese'],
+        correct: 1,
+        explanation: 'Dutch is the correct answer because it is the architectural style that was built in the Bolgatty Palace in Kochi, Kerala, India.',
+      },
+      {
+        question:
+          'Which liberal Viceroy enacted local self-government for muncipalities and repealed the unpopular Vernacular Press Act of 1878?',
+        options: ['Lord Ripon', 'Lord Curzon', 'Lord Hardinge', 'Lord Minto'],
+        correct: 0,
+        explanation: 'Lord Ripon is the correct answer because it is the liberal Viceroy that enacted local self-government for muncipalities and repealed the unpopular Vernacular Press Act of 1878.',
+      },
+      {
+        question:
+          'Which of the following policies allowed the British to indirectly control the Indian states while maintaining the appearance of local sovereignty?',
+        options: ['Doctrine of Lapse', 'Dual Government', 'Regulating act', 'Subsidiary Alliance'],
+        correct: 3,
+        explanation: 'Subsidiary Alliance is the correct answer because it is the policy that allowed the British to indirectly control the Indian states while maintaining the appearance of local sovereignty.',
+      },
+      
     ],
   },
 };

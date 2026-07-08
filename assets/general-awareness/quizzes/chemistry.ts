@@ -8,6 +8,20 @@ export const chemistryQuiz = {
         correct: 3,
         explanation: 'Both low melting point and boiling point is the correct answer because it is the characteristic of the carbon compounds that corresponds to the covalent bonding behaviour of the carbon compounds. Covalent bonds are formed by the sharing of electrons between atoms, and the strength of the bond depends on the number of shared electrons. The carbon compounds with covalent bonds have both low melting point and boiling point because the bonds are not strong enough to hold the atoms together.',
       },
+      {
+        question:
+          'What is the term used for a substance that reduces the rate of a chemical reaction?',
+        options: ['Catalyst', 'Inhibitor', 'Reactant', 'Product'],
+        correct: 1,
+        explanation: 'Inhibitor is the correct answer because it is the substance that reduces the rate of a chemical reaction. An inhibitor is a substance that decreases the rate of a chemical reaction without being consumed in the reaction. It is a substance that decreases the rate of a chemical reaction without being consumed in the reaction.',
+      },
+      {
+        question:
+          'What is used to remove permanent hardness of water?',
+        options: ['Baking soda', 'Bleaching powder', 'Sodium hydroxide', 'Washing soda'],
+        correct: 3,
+        explanation: 'Washing soda is the correct answer because it is the substance that is used to remove permanent hardness of water.',
+      },
     ],
   },
 };

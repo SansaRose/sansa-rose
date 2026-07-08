@@ -64,6 +64,76 @@ export const physicsQuiz = {
         correct: 2,
         explanation: 'Periscope is the correct answer because it is the optical instrument that is used in a system of prisms, lenses or mirrors to reflect images through a tube. It is a device that is used to see objects that are not visible to the naked eye.',
       },
+      {
+        question:
+          'The provision for the appointment of a Governor for each state appears in which article of the Indian Constitution?',
+        options: ['Article 153', 'Article 154', 'Article 155', 'Article 156'],
+        correct: 0,
+        explanation: 'Article 153 is the correct answer because it is the article that deals with the provision for the appointment of a Governor for each state. Article 153 of the Constitution of India deals with the provision for the appointment of a Governor for each state.',
+      },
+      {
+        question:
+          'When white light is falls on a glass prism, it splits into seven colours. This phenomenon is called',
+        options: ['Dispersion', 'Refraction', 'Reflection', 'Diffraction'],
+        correct: 0,
+        explanation: 'Dispersion is the correct answer because it is the phenomenon that is responsible for the splitting of white light into seven colours. The dispersion of light by the glass prism gives the seven colours to the light.',
+      },
+      {
+        question:
+          'Particles of matter are continously moving because of ________',
+        options: ['Kinetic energy', 'Potential energy', 'Size of the particles', 'Intermixing of particles'],
+        correct: 0,
+        explanation: 'Kinetic energy is the correct answer because it is the energy that is responsible for the continuous motion of the particles of matter. The kinetic energy of the particles of matter is the energy that is responsible for the continuous motion of the particles of matter.',
+      },
+      {
+        question:
+          'Where does the centre of curvature of a concave mirror lie?',
+        options: ['In front of the mirror', 'Behind the mirror', 'At the centre of the mirror', 'At the focus of the mirror'],
+        correct: 0,
+        explanation: 'In front of the mirror is the correct answer because it is the centre of curvature of a concave mirror. The centre of curvature of a concave mirror is the point where the light rays converge after reflection. It is a point in the mirror that is in front of the mirror.',
+      },
+      {
+        question:
+          'Which of the following can have higher optical density but lower mass density?',
+        options: ['Glass', 'Water', 'Germanium', 'Turpentine'],
+        correct: 3,
+        explanation: 'Turpentine is the correct answer because it is the material that can have higher optical density but lower mass density.',
+      },
+      {
+        question:
+          'The gravitional force between two objects of masses m1 and m2 is directly proportional to ________',
+        options: ['m1 - m2', 'm1 * m2', 'm1 / m2', 'm1 + m2'],
+        correct: 1,
+        explanation: 'm1 * m2 is the correct answer because it is the product of the masses of the two objects. The gravitational force between two objects of masses m1 and m2 is directly proportional to the product of the masses of the two objects.',
+      },
+      {
+        question:
+          'The line joining the centre of curvature and the pole of a given spherical mirror is called the __________',
+        options: ['Principal axis', 'Principal focus', 'Principal centre', 'Principal radius'],
+        correct: 0,
+        explanation: 'Principal axis is the correct answer because it is the line that joins the centre of curvature and the pole of a given spherical mirror.',
+      },
+      {
+        question:
+          'If a force "F" acts on a body such that body gets displaced through the distance "d" in the direction of the force, the work done by the force is given by __________',
+        options: ['F * d', 'F / d', 'F + d', 'F - d'],
+        correct: 0,
+        explanation: 'F * d is the correct answer because it is the work done by the force. The work done by the force is given by the product of the force and the distance through which the body is displaced.',
+      },
+      {
+        question:
+          'In which year did Galileo Galilei describe the regular, swinging motion of a pendulum by the action of gravity and acquired momentum?',
+        options: ['1602', '1603', '1604', '1605'],
+        correct: 0,
+        explanation: '1602 is the correct answer because it is the year that Galileo Galilei described the regular, swinging motion of a pendulum by the action of gravity and acquired momentum.',
+      },
+      {
+        question:
+          'Which type of electormagnetic radiation was discovered by Johann Wilhelm Ritter in 1801?',
+        options: ['Ultraviolet radiation', 'Infrared radiation', 'Microwaves', 'X-rays'],
+        correct: 0,
+        explanation: 'Ultraviolet radiation is the correct answer because it is the type of electromagnetic radiation that was discovered by Johann Wilhelm Ritter in 1801.',
+      },
     ]
   },
 };
