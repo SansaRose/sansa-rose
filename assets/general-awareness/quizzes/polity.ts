@@ -1482,6 +1482,48 @@ export const polityQuiz = {
         correct: 0,
         explanation: 'Article 323 is the one who deals with the functions of the Public Service Commission.',
       },  
+      {
+        question: 'Which of the following words were added in the Preamble of the Constitution of India by the 42nd Constitutional Amendment Act, 1976?',
+        options: ['Socialist, Secular, Integrity', 'Socialist, Secular, Socialist', 'Socialist, Secular, Integrity', 'Socialist, Secular, Socialist'],
+        correct: 0,
+        explanation: 'Socialist, Secular, Integrity is the one who was added in the Preamble of the Constitution of India by the 42nd Constitutional Amendment Act, 1976.',
+      },  
+      {
+        question: 'What is the term of office of the Chiarman and Members of the National Commission for Scheduled Tribes?',
+        options: ['3 years', '4 years', '5 years', '6 years'],
+        correct: 0,
+        explanation: '3 years is the term of office of the Chiarman and Members of the National Commission for Scheduled Tribes as per Article 338A of the Constitution of India and NCST Act 2003.',
+      },  
+      {
+        question: 'Before the framing of the Constitution of India, an "Objective Resolution" was proposed by _________ in 1946.',
+        options: ['Jawaharlal Nehru', 'Subhas Chandra Bose', 'Vallabhbhai Patel', 'Rajendra Prasad'],
+        correct: 0,
+        explanation: 'Jawaharlal Nehru is the one who proposed the "Objective Resolution" before the framing of the Constitution of India in 1946.',
+      },  
+      {
+        question: 'The demand for Pakistan was made in ________ at the Lahore session of the All India Muslim League.',
+        options: ['1940', '1941', '1942', '1943'],
+        correct: 0,
+        explanation: '1940 is the one who proposed the "Objective Resolution" before the framing of the Constitution of India in 1946.',
+      },  
+      {
+        question: 'Which Article of the Indian Constitution provides for the post of Comptroller and Auditor General of India?',
+        options: ['Article 148', 'Article 149', 'Article 150', 'Article 151'],
+        correct: 0,
+        explanation: 'Article 148 is the one who provides for the post of Comptroller and Auditor General of India.',
+      },  
+      {
+        question: 'Which of the following Parts of the Constitution of India deals with the provision regarding composition, appointment and removal of members along with the independence, power and function of the UPSC?',
+        options: ['Part IX', 'Part X', 'Part XI', 'Part XIV'],
+        correct: 3,
+        explanation: 'Part XIV is the one who deals with the provision regarding composition, appointment and removal of members along with the independence, power and function of the UPSC.',
+      },
+      {
+        question: 'Which Article discusses people born in the Indian province, people with either of their parents born in India and people whotypically became Indian residents for five or more years instantaneously before the implementation of the Constitution of India?',
+        options: ['Article 5', 'Article 6', 'Article 7', 'Article 8'],
+        correct: 0,
+        explanation: 'Article 5 is the one who discusses people born in the Indian province, people with either of their parents born in India and people whotypically became Indian residents for five or more years instantaneously before the implementation of the Constitution of India.',
+      },
     ],
   },
 }

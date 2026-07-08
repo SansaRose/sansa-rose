@@ -1228,8 +1228,124 @@ export const historyQuiz = {
         explanation:
           'Madame Cama is the correct answer because it is the revolutionist that was regarded as the "Mohter of Indian Revolution".',
       },
-      
-      
+      {
+        question:
+          'Who was the Mughal emperor, when a massive rebellion against the British rule broke out in 1857?',
+        options: ['Akbar', 'Aurangzeb', 'Bahadur Shah Zafar', 'Shah Alam II'],
+        correct: 2,
+        explanation:
+          'Bahadur Shah Zafar is the correct answer because it is the Mughal emperor that was the Mughal emperor when a massive rebellion against the British rule broke out in 1857.',
+      },
+      {
+        question:
+          'Mughal ruler, Aurangazeb died in which year?',
+        options: ['1707', '1717', '1727', '1737'],
+        correct: 0,
+        explanation:
+          '1707 is the correct answer because it is the year that the Mughal ruler, Aurangazeb died.',
+      },
+      {
+        question:
+          'What does the term "Upa" in the term Upanishad mean?',
+        options: ['Happiness', 'Nearness', 'Secret', 'Totality'],
+        correct: 1,
+        explanation:
+          'Nearness is the correct answer because it is the term that means the Nearness.',
+      },
+      {
+        question:
+          'The main (chief) social unit of the Aryans was ________',
+        options: ['Gana', 'Jana', 'Parishad', 'Rajan'],
+        correct: 1,
+        explanation:
+          'Jana is the correct answer because it is the social unit that was the main (chief) social unit of the Aryans.',
+      },
+      {
+        question:
+          'Which of the following Vedas depicts the life of the early Vedic people of India and has a collection of 1028 hymns divided into 10 mandalas?',
+        options: ['Rigveda', 'Yajurveda', 'Samaveda', 'Atharvaveda'],
+        correct: 0,
+        explanation:
+          'Rigveda is the correct answer because it is the Veda that depicts the life of the early Vedic people of India and has a collection of 1028 hymns divided into 10 mandalas.',
+      },
+      {
+        question:
+          'In the lated Vedic period, which of the following Varnas was mainly engaged in farming, animal husbandry and trade?',
+        options: ['Brahmanas', 'Kshatriyas', 'Vaishyas', 'Shudras'],
+        correct: 2,
+        explanation:
+          'Vaishyas is the correct answer because it is the Varna that was mainly engaged in farming, animal husbandry and trade.',
+      },
+      {
+        question:
+          'Who among the following is supposed to compile both the Puranas and the Mahabharata?',
+        options: ['Sage Vasistha', 'Sage Bharadwaj', 'Sage Valmiki', 'Sage Vyasa'],
+        correct: 3,
+        explanation:
+          'Sage Vyasa is the correct answer because it is the personality that is supposed to compile both the Puranas and the Mahabharata.',
+      },
+      {
+        question:
+          'The great poet and humanist writer Rabindranath Tagore returned his knighthood in protest of which incident?',
+        options: ['Jallianwala Bagh Massacre', 'Champaran Satyagraha', 'Ahmedabad Textile Strike', 'Non-Cooperation Movement'],
+        correct: 0,
+        explanation:
+          'Jallianwala Bagh Massacre in 1919is the correct answer because it is the incident that the great poet and humanist writer Rabindranath Tagore returned his knighthood in protest of.',
+      },
+      {
+        question:
+          'In which year was "Self Help Group-Bank Linkage Program(SHGBLP)" started in India?',
+        options: ['1988', '1990', '1992', '1994'],
+        correct: 2,
+        explanation:
+          '1992 is the correct answer because it is the year that the "Self Help Group-Bank Linkage Program(SHGBLP)" was started in India by NABARD.'
+      },
+      {
+        question:
+          'The Shilendra kings who had close contacts with the Indian rulers were followers of which of the following religions?',
+        options: ['Hinduism', 'Jainism', 'Buddhism', 'Islam'],
+        correct: 2,
+        explanation:
+          'Buddhism is the correct answer because it is the religion that the Shilendra kings who had close contacts with the Indian rulers were followers of.',
+      },
+      {
+        question:
+          'Who among the following envoys was sent by Seleucus Nicator to the court of Chandragupta Maurya?',
+        options: ['Megasthenes', 'Kautilya', 'Chanakya', 'Chanakya'],
+        correct: 0,
+        explanation:
+          'Megasthenes is the correct answer because it is the envoy that was sent by Seleucus Nicator to the court of Chandragupta Maurya.',
+      },
+      {
+        question:
+          'Which temple is a prime example of Kalinga architecture, featuring a tall shikhara (Rekha Deul) and eleaborate carvings?',
+        options: ['Konark Sun Temple', 'Puri Jagannath Temple', 'Lingaraja Temple', 'Kailash Mansarovar'],
+        correct: 2,
+        explanation:
+          'Lingaraja Temple is the correct answer because it is the temple that is a prime example of Kalinga architecture, featuring a tall shikhara (Rekha Deul) and eleaborate carvings. It is located in Bhubaneswar, the capital of the state of Odisha. It was built primarily in the 11th century by the Somavamsi dynasty.',
+      },
+      {
+        question:
+          'Which secret society was founded by Vinayak Damodar Savarkar promoted armed revolution against the British rule?',
+        options: ['Abhinav Bharat', 'Anushilan Samiti', 'Hindu Jana Sangh', 'Hindu Mahasabha'],
+        correct: 0,
+        explanation:
+          'Abhinav Bharat is the correct answer because it is the secret society that was founded by Vinayak Damodar Savarkar promoted armed revolution against the British rule in 1904.',
+      },
+      {
+        question:
+          'In which of the following years was the All India Muslim League founded?',
+        options: ['1906', '1907', '1908', '1909'],
+        correct: 0,
+        explanation: '1906 is the correct answer because it is the year that the All India Muslim League was founded in Dhaka, Bangladesh. It was founded by Allama Muhammad Iqbal, Shabbir Ahmad Usmani, and other prominent Muslim leaders.',
+      },
+      {
+        question:
+          'Which of the following Sultans of Delhi adopted the policy of Blood and Iron?',
+        options: ['Alauddin Khilji', 'Shamsuddin Iltutmish', 'Shah Jahan', 'Balban'],
+        correct: 3,
+        explanation: 'Balban (1266-1287) is the correct answer because it is the Sultan of Delhi that adopted the policy of Blood and Iron. The policy emphasized military power, strict discipline, and punitive measures to maintain control over the empire.',
+      },
     ],
   },
 };
