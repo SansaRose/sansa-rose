@@ -22,6 +22,13 @@ export const chemistryQuiz = {
         correct: 3,
         explanation: 'Washing soda is the correct answer because it is the substance that is used to remove permanent hardness of water.',
       },
+      {
+        question:
+          'How many electrons does carbon typically share when bonding with another carbon or with atoms of other elements?',
+        options: ['1', '2', '3', '4'],
+        correct: 3,
+        explanation: '4 is the correct answer because it is the number of electrons that carbon typically shares when bonding with another carbon or with atoms of other elements. Carbon is a tetravalent element, meaning it can form four covalent bonds with other atoms.',
+      },
     ],
   },
 };

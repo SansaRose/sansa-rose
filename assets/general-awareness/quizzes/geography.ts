@@ -376,6 +376,42 @@ export const geographyQuiz = {
         correct: 1,
         explanation: 'Kiel Canal is the correct answer because it is the canal that links the North Sea to Baltic Sea.',
       },
+      {
+        question: 'The Vindhyan range separates which two major physiographic regions of India?',
+        options: ['The Deccan Plateau and the Northern Plains', 'The Deccan Plateau and the Western Ghats', 'The Deccan Plateau and the Eastern Ghats', 'The Deccan Plateau and the Western Ghats'],
+        correct: 0,
+        explanation: 'The Deccan Plateau and the Northern Plains is the correct answer because it is the physiographic region that is separated by the Vindhyan range. The Vindhyan range separates the Deccan Plateau and the Northern Plains. The Vindhyan range is a range of mountains that separates the Deccan Plateau and the Northern Plains.',
+      },
+      {
+        question: 'Which temples\s garbhagriha houses a Chaturmukha (four-faced) Vishnu idol?',
+        options: ['Lakshmana Temple, Khajuraho', 'Meenakshi temple, Madurai', 'Brihadeeshwara Temple, Tanjavur', 'Dashavatara Temple, Deogarh'],
+        correct: 0,
+        explanation: 'Lakshmana Temple, Khajuraho is the correct answer because it is the temple that houses a Chaturmukha (four-faced) Vishnu idol. Lakshmana Temple, Khajuraho is a temple that is located in the state of Madhya Pradesh, where the Chaturmukha (four-faced) Vishnu idol is located.',
+      },
+      {
+        question: 'What is the priary material used in the 8th century CE Kailashnath Temple at Kanchipuram?',
+        options: ['Granite', 'Marble', 'Sandstone', 'Limestone'],
+        correct: 2,
+        explanation: 'Sandstone is the correct answer because it is the primary material used in the 8th century CE Kailashnath Temple at Kanchipuram. Sandstone is a type of rock that is used in the construction of the temple.',
+      },
+      {
+        question: 'Which of the following crops is mainly associated with Kharif season in Northern India?',
+        options: ['Rice', 'Wheat', 'Cotton', 'Sugarcane'],
+        correct: 0,
+        explanation: 'Rice is the correct answer because it is the crop that is mainly associated with Kharif season in Northern India. Rice is a crop that is grown in the Kharif season in Northern India.',
+      },
+      {
+        question: 'On which of the tributaries of Ganga river, has Gandhi Sagar Dam been constructed?',
+        options: ['Bhagirathi', 'Yamuna', 'Gandak', 'Chambal'],
+        correct: 3,
+        explanation: 'Chambal is the correct answer because it is the tributary of the Ganga river that has Gandhi Sagar Dam been constructed. Chambal is a tributary of the Ganga river that has Gandhi Sagar Dam been constructed.',
+      },
+      {
+        question: 'Which Indian region is known for the monatic music tradition that includes sacred chants with dumbeats called "Yang"?',
+        options: ['Goa', 'Gujarat', 'Kerala', 'Ladakh'],
+        correct: 3,
+        explanation: 'Ladakh is the correct answer because it is the Indian region that is known for the monatic music tradition that includes sacred chants with dumbeats called "Yang". Ladakh is a region in the northern part of India, where the monatic music tradition is practiced. Ladakh is a region in the northern part of India, where the monatic music tradition is practiced.',
+      },
     ],
   },
 };

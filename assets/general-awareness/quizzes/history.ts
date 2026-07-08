@@ -1402,7 +1402,20 @@ export const historyQuiz = {
         correct: 3,
         explanation: 'Subsidiary Alliance is the correct answer because it is the policy that allowed the British to indirectly control the Indian states while maintaining the appearance of local sovereignty.',
       },
-      
+      {
+        question:
+          'Which language was predominantly used by Amir Khusrau in his literary compositions during the Delhi Sultanate Period?',
+        options: ['Prakrit', 'Urdu', 'Persian', 'Arabic'],
+        correct: 2,
+        explanation: 'Persian is the correct answer because it is the language that was predominantly used by Amir Khusrau in his literary compositions during the Delhi Sultanate Period.',
+      },
+      {
+        question:
+          'Who among the following social reformers of Bengal earnestly fought for widow remarriage and girl\'s education?',
+        options: ['Bakim Chandra Chattopadhyay', 'Debendranath Tagore', 'Isvar Chandra Vidyasagar', 'Nabinchandra Sen'],
+        correct: 2,
+        explanation: 'Isvar Chandra Vidyasagar is the correct answer because it is the social reformer that earnestly fought for widow remarriage and girl\'s education.',
+      },
     ],
   },
 };

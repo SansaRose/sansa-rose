@@ -116,6 +116,160 @@ export const currentAffairsQuiz = {
         correct: 3,
         explanation: 'Vigyan Ratna is the correct answer because it is the highest award in the Rashtriya Vigyan Puraskar awards. It is given to the scientists who have made significant contributions to the field of science and technology.',
       },
+      {
+        question:
+          'International Plastic Free Day is observed on which date?',
+        options: ['03 June', '03 July', '03 August', '03 September'],
+        correct: 1,
+        explanation: '03 July is the correct answer because it is the date that International Plastic Free Day is observed. It is a day to raise awareness about the plastic pollution and the need to reduce plastic usage. It is observed on the 3rd of July every year since 2008.',
+      },
+      {
+        question:
+          'The Borjuli Wild Rice Site in Assam was notified as a Biodiversity Heritage Site (BHS) under which Act?',
+        options: ['The Biological Diversity Act, 2002', 'The Environment Protection Act, 1986', 'The Forest Act, 1927', 'The Wildlife Protection Act, 1972'],
+        correct: 0,
+        explanation: 'The Biological Diversity Act, 2002 is the correct answer because it is the Act under which the Borjuli Wild Rice Site in Assam was notified as a Biodiversity Heritage Site (BHS). The Biological Diversity Act, 2002 is an Act of the Parliament of India that provides for the conservation of biological diversity and the fair and equitable sharing of benefits arising from the use of genetic resources and traditional knowledge associated with them.',
+      },
+      {
+        question:
+          'After receiving 23 new Geographical Indication (GI) tags in June 2026, West Bengal ranked __________ nationally with a total of 59 GI registrations.',
+        options: ['First', 'Second', 'Third', 'Fourth'],
+        correct: 2,
+        explanation: 'Third is the correct answer because it is the rank that West Bengal has achieved after receiving 23 new Geographical Indication (GI) tags in June 2026. It is the rank that West Bengal has achieved nationally with a total of 59 GI registrations.',
+      },
+      {
+        question:
+          'In which year was the Integrated Child Development Scheme (ICDS) launched in India?',
+        options: ['1975', '1976', '1977', '1978'],
+        correct: 0,
+        explanation: '1975 is the correct answer because it is the year that the Integrated Child Development Scheme (ICDS) was launched in India. The Integrated Child Development Scheme (ICDS) is a scheme to provide comprehensive development and care for children from birth to six years of age.',
+      },
+      {
+        question:
+          'The Green Revolution was commenced under the leadership of whom among the following Prime Ministers of India?',
+        options: ['Indira Gandhi', 'Rajiv Gandhi', 'Morarji Desai', 'Lal Bahadur Shastri'],
+        correct: 3,
+        explanation: 'Lal Bahadur Shastri is the correct answer because it is the Prime Minister of India who led the Green Revolution. The Green Revolution was a period of rapid agricultural growth in India that began in the 1960s and 1970s. It was started under the leadership of Lal Bahadur Shastri in 1966.',
+      },
+      {
+        question:
+          'The first Indian woman judge of the Supreme Court of India was',
+        options: ['Justice Indira Banerjee', 'Justice Indu Malhotra', 'Justice Bhanumati Joshi', 'Fatima Beevi'],
+        correct: 3,
+        explanation: 'Fatima Beevi is the correct answer because it is the first Indian woman judge of the Supreme Court of India. She was appointed as a judge of the Supreme Court of India in 1990.',
+      },
+      {
+        question:
+          'After receiving 8 new Geographical Indication (GI) tags in July 2026, the total number of GI-tagged products in Himachal Pradesh reached __________.',
+        options: ['14', '15', '16', '17'],
+        correct: 3,
+        explanation: '17 is the correct answer because it is the total number of GI-tagged products in Himachal Pradesh after receiving 8 new Geographical Indication (GI) tags in July 2026. It is the total number of GI-tagged products in Himachal Pradesh after receiving 8 new Geographical Indication (GI) tags in July 2026.',
+      },
+      {
+        question:
+          'How many Tiger Reserves have been indentified by the Government of India for priority recovery through science-led Interventions in June 2026?',
+        options: ['20', '22', '24', '25'],
+        correct: 3,
+        explanation: '25 is the correct answer because it is the number of Tiger Reserves that have been indentified by the Government of India for priority recovery through science-led Interventions in June 2026. It is the number of Tiger Reserves that have been indentified by the Government of India for priority recovery through science-led Interventions in June 2026.',
+      },
+      {
+        question:
+          '__________ or "Dance of Enchantress" is a solo dance, performed by primarily by women, in the state of Kerala.',
+        options: ['Bharatanatyam', 'Kathak', 'Kathakali', 'Mohiniyattam'],
+        correct: 3,
+        explanation: 'Mohiniyattam is the correct answer because it is the solo dance, performed by primarily by women, in the state of Kerala. Mohiniyattam is a solo dance that is performed by primarily by women in the state of Kerala.',
+      },
+      {
+        question:
+          'Which of the following dance forms is known as the mother of all other classical dance forms of India?',
+        options: ['Bharatanatyam', 'Kathak', 'Kathakali', 'Mohiniyattam'],
+        correct: 0,
+        explanation: 'Bharatanatyam is the correct answer because it is the dance form that is known as the mother of all other classical dance forms of India. Bharatanatyam is a dance form that is performed by primarily by women in the state of Kerala.',
+      },
+      {
+        question:
+          'Which of the following indicates the correct number of main regional styles of the classical Chhau dance form?',
+        options: ['2', '3', '4', '5'],
+        correct: 1,
+        explanation: '3 is the correct answer because it is the number of main regional styles of the classical Chhau dance form. The main regional styles of the classical Chhau dance form are Chhau, Chhau, Chhau.',
+      },
+      {
+        question:
+          'Name the famous Malayalam poet who was instrumental in the revival of Kathakali as an art form.',
+        options: ['Kumaranasan', 'Ullor Parameswara Iyer', 'Vallathol Narayana Menon', 'Vyloppilli Srredhara Menon'],
+        correct: 2,
+        explanation: 'Vallathol Narayana Menon is the correct answer because it is the famous Malayalam poet who was instrumental in the revival of Kathakali as an art form. Vallathol Narayana Menon was a poet and a writer who was instrumental in the revival of Kathakali as an art form.',
+      },
+      {
+        question:
+          'Which classical dance form was traditionally performed by Maharis (female temple dancers) in the sanctum of Jagannath Temple, Puri?',
+        options: ['Bharatanatyam', 'Sattriya', 'Odissi', 'Mohiniyattam'],
+        correct: 2,
+        explanation: 'Odissi is the correct answer because it is the classical dance form that was traditionally performed by Maharis (female temple dancers) in the sanctum of Jagannath Temple, Puri. Odissi is a dance form that is performed by primarily by women in the state of Odisha.',
+      },
+      {
+        question:
+          'Guru Bipin Singh was a legend in the field of which classical dance form?',
+        options: ['Bharatanatyam', 'Manipuri', 'Odissi', 'Mohiniyattam'],
+        correct: 1,
+        explanation: 'Manipuri is the correct answer because it is the classical dance form that was traditionally performed by Maharis (female temple dancers) in the sanctum of Jagannath Temple, Puri. Manipuri is a dance form that is performed by primarily by women in the state of Manipur.',
+      },
+      {
+        question:
+          'Sitara Devi was a dancer of the popular North Indian classical dance form __________.',
+        options: ['Kathak', 'Manipuri', 'Kathakali', 'Sattriya'],
+        correct: 0,
+        explanation: 'Kathak is the correct answer because it is the classical dance form that was traditionally performed by Maharis (female temple dancers) in the sanctum of Jagannath Temple, Puri. Kathak is a dance form that is performed by primarily by women in the state of Uttar Pradesh.',
+      },
+      {
+        question:
+          'Guru Pankaj Charan and Guru Debaprasad Das are associated with which of the following classical dance forms?',
+        options: ['Odissi', 'Manipuri', 'Kathak', 'Sattriya'],
+        correct: 0,
+        explanation: 'Odissi is the correct answer because it is the classical dance form that was traditionally performed by Maharis (female temple dancers) in the sanctum of Jagannath Temple, Puri. Odissi is a dance form that is performed by primarily by women in the state of Odisha.',
+      },
+      {
+        question:
+          'Which Five-year Plan primarily focused on the "Garibi Hatao" slogan?',
+        options: ['First Five-year Plan', 'Third Five-year Plan', 'Fourth Five-year Plan', 'Fifth Five-year Plan'],
+        correct: 3,
+        explanation: 'Fifth Five-year Plan is the correct answer because it is the Five-year Plan that primarily focused on the "Garibi Hatao" slogan.',
+      },
+      {
+        question:
+          'Which of the following is the correct number of main regional styles of the classical Manipuri dance form?',
+        options: ['2', '3', '4', '5'],
+        correct: 1,
+        explanation: '3 is the correct answer because it is the number of main regional styles of the classical Manipuri dance form. The main regional styles of the classical Manipuri dance form are Manipuri, Manipuri, Manipuri.',
+      },
+      {
+        question:
+          'Which of the following Indian Stadium is renowned as a major venue for Hockey matches?',
+        options: ['Chidambaram Stadium', 'Chinnaswamy Stadium', 'Kalinga Stadium', 'Feroz Shah Kotla Stadium'],
+        correct: 2,
+        explanation: 'Kalinga Stadium is the correct answer because it is the Indian Stadium that is renowned as a major venue for Hockey matches. Kalinga Stadium is a hockey stadium in Bhubaneswar, Odisha.',
+      },
+      {
+        question:
+          'With what musical instrument is Ustad Binda Khan associated?',
+        options: ['Sitar', 'Sarangi', 'Sarod', 'Tabla'],
+        correct: 1,
+        explanation: 'Sarangi is the correct answer because it is the musical instrument that is associated with Ustad Binda Khan. Sarangi is a musical instrument that is played by Ustad Binda Khan.',
+      },
+      {
+        question:
+          'Warli painting, a traditional tribal art form, originates from which Indian state?',
+        options: ['Maharashtra', 'Madhya Pradesh', 'Rajasthan', 'Gujarat'],
+        correct: 0,
+        explanation: 'Maharashtra is the correct answer because it is the Indian state that originates from the Warli painting, a traditional tribal art form. Warli painting is a traditional tribal art form that is popular in the Maharashtra state of India.',
+      },
+      {
+        question:
+          '"Lu-Ngai-Ni" festival is celebrated in which Indian state?',
+        options: ['Manipur', 'Meghalaya', 'Mizoram', 'Nagaland'],
+        correct: 0,
+        explanation: 'Manipur is the correct answer because it is the Indian state that celebrates the "Lu-Ngai-Ni" festival. The "Lu-Ngai-Ni" festival is a festival that is celebrated in the Manipur state of India.',
+      },
     ],
   },
 };

@@ -50,6 +50,55 @@ export const biologyQuiz = {
         correct: 0,
         explanation: 'Calcium is the correct answer because it is the most abundant mineral in the human body. Calcium is a mineral that is found in the human body.',
       },
+      {
+        question:
+          'Which of the following hormones stimulates the growth of all organs?',
+        options: ['Adrenaline', 'Thyroxine', 'Insulin', 'Somatotropin'],
+        correct: 3,
+        explanation: 'Somatotropin () is the correct answer because it is the hormone that stimulates the growth of all organs. Somatotropin is a hormone that is produced by the pituitary gland. It is a hormone that stimulates the growth of all organs.',
+      },
+      {
+        question:
+          'Which part of the human brain controls the involuntary action of the vomiting?',
+        options: ['Forebrain', 'Midbrain', 'Hindbrain', 'Spinal cord'],
+        correct: 2,
+        explanation: 'Hindbrain is the correct answer because it is the part of the human brain that controls the involuntary action of the vomiting. Hindbrain is a part of the human brain that controls the involuntary action of the vomiting. Hindbrain is a part of the human brain that controls the involuntary action of the vomiting.',
+      },
+      {
+        question:
+          'Deficiency of which of the following vitamins in the human diet causes a disease called xerophthalmia?',
+        options: ['Vitamin A', 'Vitamin B', 'Vitamin C', 'Vitamin D'],
+        correct: 0,
+        explanation: 'Vitamin A is the correct answer because it is the vitamin that causes the disease called xerophthalmia. Vitamin A is a vitamin that is found in the human body. Vitamin A is a vitamin that causes the disease called xerophthalmia. Vitamin A is a vitamin that causes the disease called xerophthalmia.',
+      },
+      {
+        question:
+          'Among the following diseases, which one is NOT inherited?',
+        options: ['Down syndrome', 'Malaria', 'Cystic fibrosis', 'Muscular dystrophy'],
+        correct: 1,
+        explanation: 'Malaria is the correct answer because it is the disease that is NOT inherited. Malaria is a disease that is not inherited. Malaria is a disease that is not inherited. Malaria is a disease that is not inherited.',
+      },
+      {
+        question:
+          'Which of the following diseases is caused due to deficiency of Vitamin D?',
+        options: ['Rickets', 'Night blindness', 'Scurvy', 'Pellagra'],
+        correct: 0,
+        explanation: 'Rickets is the correct answer because it is the disease that is caused due to deficiency of Vitamin D. Rickets is a disease that is caused due to deficiency of Vitamin D. Rickets is a disease that is caused due to deficiency of Vitamin D. Rickets is a disease that is caused due to deficiency of Vitamin D.',
+      },
+      {
+        question:
+          'Which of the following type of medicine is used for treating indigestion?',
+        options: ['Antacid', 'Antibiotic', 'Antipyretic', 'Analgesic'],
+        correct: 0,
+        explanation: 'Antacid is the correct answer because it is the type of medicine that is used for treating indigestion. Antacid is a type of medicine that is used for treating indigestion.',
+      },
+      {
+        question:
+          'The use of chemicals for therapeutic effect is known by which of the following term?',
+        options: ['Chemotherapy', 'Chromatography', 'Physiotherapy', 'Pharmacology'],
+        correct: 0,
+        explanation: 'Chemotherapy is the correct answer because it is the term that is used for the use of chemicals for therapeutic effect. Chemotherapy is the use of chemical substances (drugs) to treat disease.',
+      },
     ],
   },
 };
