@@ -194,7 +194,7 @@ const GlobalSearch = () => {
                 type="search"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search here what you want to find . . ."
+                placeholder="Search here what you want . . ."
                 className="min-w-0 flex-1 bg-transparent text-base text-slate-900 outline-none placeholder:text-slate-400"
                 autoComplete="off"
                 spellCheck={false}
@@ -268,7 +268,7 @@ const GlobalSearch = () => {
               <span>
                 {results.length > 0
                   ? `${results.length} result${results.length === 1 ? '' : 's'}`
-                  : 'Search here any topic'}
+                  : `Total topics: (${searchTopics.length})`}
               </span>
               <span className="hidden sm:inline">↑↓ navigate · Enter open · Esc close</span>
             </div>

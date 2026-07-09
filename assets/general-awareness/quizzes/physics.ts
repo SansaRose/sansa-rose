@@ -148,6 +148,13 @@ export const physicsQuiz = {
         correct: 0,
         explanation: 'Luminous intensity is the correct answer because it is the unit of the luminous intensity. Luminous intensity is the unit of the luminous intensity. Luminous intensity is the unit of the luminous intensity.',
       },
+      {
+        question:
+          'Which principle states that the partial vapour pressure of each volatile component in a solution is directly proportional to its mole fraction in the solution?',
+        options: ['Raoult\'s law', 'Henry\'s law', 'Dalton\'s law', 'Avogadro\'s law'],
+        correct: 0,
+        explanation: 'Raoult\'s law is the correct answer because it is the principle that states that the partial vapour pressure of each volatile component in a solution is directly proportional to its mole fraction in the solution.',
+      },
     ]
   },
 };

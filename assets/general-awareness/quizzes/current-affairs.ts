@@ -326,6 +326,13 @@ export const currentAffairsQuiz = {
         correct: 3,
         explanation: '125 days is the correct answer because it is the revised annual employment guarantee per rural household. The revised annual employment guarantee per rural household is 125 days.',
       },
+      {
+        question:
+          'When a person is NOT paying anything for public goods, it is known as _______.',
+        options: ['Free Rider', 'Private good', 'Rivalrous good', 'Non-rivalrous good'],
+        correct: 0,
+        explanation: 'Free Rider is the correct answer because it is the term that is used to describe when a person is NOT paying anything for public goods. Free Rider is a term that is used to describe when a person is NOT paying anything for public goods.',
+      },
     ],
   },
 };

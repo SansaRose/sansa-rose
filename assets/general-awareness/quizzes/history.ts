@@ -1465,6 +1465,13 @@ export const historyQuiz = {
         correct: 0,
         explanation: 'Grid systme of town planning is the correct answer because it is the industry that the Harappan cities were famous for their agriculture.',
       },
+      {
+        question:
+          'The result of which of the following movements/satyagrahas was the abolishment of the Tinkathia system under which the farmers were asked to cultivate indigo in 3/20th of their land?',
+        options: ['Champaran Satyagraha', 'Ahmedabad Textile Strike', 'Non-Cooperation Movement', 'Khilafat Movement'],
+        correct: 0,
+        explanation: 'Champaran Satyagraha is the correct answer because it is the movement/satyagraha that was the result of the abolishment of the Tinkathia system under which the farmers were asked to cultivate indigo in 3/20th of their land.',
+      },
     ],
   },
 };

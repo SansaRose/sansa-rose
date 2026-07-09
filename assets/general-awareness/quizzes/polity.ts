@@ -1764,6 +1764,42 @@ export const polityQuiz = {
         correct: 0,
         explanation: '1985 is the correct answer because it is the year in which the 52nd Amendment Act of the Indian Constitution, which introduced the Anti Defection Law to prevent elected representatives from switching political parties without resigning, was introduced.',
       },
+      {
+        question: 'Which article in the fundamental duty is invoked when you see in a private party that the Indian flag has been used as a covering for the speaker\s desk',
+        options: ['Article 51(A)', 'Article 51(B)', 'Article 51(C)', 'Article 51(D)'],
+        correct: 0,
+        explanation: 'Article 51(A) is the one who deals with the functions of the Public Service Commission.',
+      },
+      {
+        question: 'Beign the President of the Indian National Congress, who among the following had called for complete independence from the British Raj in 1929?',
+        options: ['Jawaharlal Nehru', 'Subhas Chandra Bose', 'Vallabhbhai Patel', 'Rajendra Prasad'],
+        correct: 0,
+        explanation: 'Jawaharlal Nehru is the one who had called for complete independence from the British Raj in 1929.',
+      },
+      {
+        question: 'The UIDAI is under the jurisdiction of which of the following ministries?',
+        options: ['Home Ministry', 'Ministry of Education', 'Finance Ministry', 'Ministry of Electronics and Information Technology'],
+        correct: 3,
+        explanation: 'Ministry of Electronics and Information Technology is the correct answer because it is the ministry that is under the jurisdiction of the UIDAI. The UIDAI is under the jurisdiction of the Ministry of Electronics and Information Technology.',
+      },
+      {
+        question: 'The 24th Constitutional Amendment gave the Parliament which of the following powers?',
+        options: ['Amend Fundamental Rights', 'Amend Directive Principles of State Policy', 'Amend Fundamental Duties', 'Amend the Preamble'],
+        correct: 0,
+        explanation: 'Amend Fundamental Rights is the correct answer because it is the power that the 24th Constitutional Amendment gave the Parliament. The 24th Constitutional Amendment Act, 1971 is a constitutional amendment that gave the Parliament the power to make laws for the whole of India.',
+      },
+      {
+        question: 'Which article provides that all minorites have the right to establish and administer educational institutions of their choice?',
+        options: ['Article 29', 'Article 30', 'Article 31', 'Article 32'],
+        correct: 1,
+        explanation: 'Article 30 is the correct answer because it is the article that provides that all minorites have the right to establish and administer educational institutions of their choice.',
+      },
+      {
+        question: 'Members of the Rajya Sabha are elected for a term of how many years?',
+        options: ['3 years', '4 years', '5 years', '6 years'],
+        correct: 3,
+        explanation: '6 years is the correct answer because it is the term of office of the members of the Rajya Sabha. The members of the Rajya Sabha are elected for a term of 3 years.',
+      },
     ],
   },
 }

@@ -148,6 +148,20 @@ export const biologyQuiz = {
         correct: 1,
         explanation: '24 hours is the correct answer because it is the time that an unfertilised egg typically survives in the female reproductive tract.',
       },
+      {
+        question:
+          'The liver belongs to which organ system in the human body?',
+        options: ['Digestive System', 'Respiratory System', 'Nervous System', 'Endocrine System'],
+        correct: 0,
+        explanation: 'Digestive System is the correct answer because it is the organ system that the liver belongs to. The liver is an organ that is part of the digestive system.',
+      },
+      {
+        question:
+          'Buccal cavity in humans is a part of which of the following organ system?',
+        options: ['Digestive System', 'Respiratory System', 'Circulatory System', 'Urinary System'],
+        correct: 0,
+        explanation: 'Digestive System is the correct answer because it is the organ system that the buccal cavity belongs to. The buccal cavity is a part of the digestive system.',
+      },
     ],
   },
 };

@@ -454,6 +454,36 @@ export const geographyQuiz = {
         correct: 0,
         explanation: 'Siachen Glacier is the correct answer because it is the glacier that is located in the Karakoram range, is the longest in this range and the second longest in the world outside the polar regions.',
       },
+      {
+        question: 'Which of the following is NOT a tributary of the Ganga river?',
+        options: ['Yamuna', 'Gandak', 'Kosi', 'Lohit'],
+        correct: 3,
+        explanation: 'Lohit is the correct answer because it is not a tributary of the Ganga river.',
+      },
+      {
+        question: 'El Nino is a climate pattern that describes the unusal warming of surface water in which ocean?',
+        options: ['Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean'],
+        correct: 0,
+        explanation: 'Pacific Ocean is the correct answer because it is the ocean that is described by the El Nino climate pattern. The El Nino climate pattern is a climate pattern that describes the unusal warming of surface water in the Pacific Ocean.',
+      },
+      {
+        question: 'Which is the water body that separates Andaman Islands and Nicobar Islands?',
+        options: ['Eight Degree Channel', 'Nine Degree Channel', 'Ten Degree Channel', 'Eleven Degree Channel'],
+        correct: 2,
+        explanation: 'Ten Degree Channel is the correct answer because it is the water body that separates Andaman Islands and Nicobar Islands. Ten Degree Channel is a channel that is located between the Andaman Islands and Nicobar Islands.',
+      },
+      {
+        question: 'In India, the musical instrument "Flute" is also known as _______.',
+        options: ['Bansuri', 'Veena', 'Manjira', 'Tabla'],
+        correct: 0,
+        explanation: 'Bansuri is the correct answer because it is the musical instrument that is also known as the "Flute" in India. Bansuri is a musical instrument that is made of bamboo and is used to play the music.',
+      },
+      {
+        question: 'Bharatanatyam of Tamil Nadu has grow out of the art of dancers dedicated to temples, and was earler known as _______.',
+        options: ['Cholom', 'Gat', 'Jagoi', 'Sadir'],
+        correct: 3,
+        explanation: 'Sadir is the correct answer because it is the art that is dedicated to the temples. Sadir is a art that is dedicated to the temples. Sadir is a art that is dedicated to the temples.',
+      },
     ],
   },
 };
