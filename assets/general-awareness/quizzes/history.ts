@@ -1416,6 +1416,55 @@ export const historyQuiz = {
         correct: 2,
         explanation: 'Isvar Chandra Vidyasagar is the correct answer because it is the social reformer that earnestly fought for widow remarriage and girl\'s education.',
       },
+      {
+        question:
+          'The system in which peasants were forced into lifelong labour due to debts obligations was known as',
+        options: ['Dadni system', 'Hazara system', 'Kamiyauti system', 'Tinkathia system'],
+        correct: 2,
+        explanation: 'Kamiyauti system is the one who deals with the functions of the Public Service Commission.',
+      },
+      {
+        question:
+          'What was the nature of the land tax system introduced by Haider Ali and Tipu Sultan?',
+        options: ['Taxation in goods', 'Direct land tax paid in cash', 'Poll tax', 'Barter-based taxation'],
+        correct: 1,
+        explanation: 'Direct land tax paid in cash is the one who deals with the functions of the Public Service Commission.',
+      },
+      {
+        question:
+          'The book "Sutta Pitaka" contains the words of which religious preacher?',
+        options: ['Buddha', 'Mahavira', 'Guru Nanak', 'Sudras'],
+        correct: 0,
+        explanation: 'Buddha is the correct answer because it is the religious preacher that the book "Sutta Pitaka" contains the words of. Buddha is a religious preacher who is the founder of Buddhism. Buddha is a religious preacher who is the founder of Buddhism.',
+      },
+      {
+        question:
+          'The British police attacked Lala Lajpat Rai during peaceful demonstration against the ________ in 1928.',
+        options: ['British Salt monopoly', 'Hindu casteism', 'Simon commission', 'Unjust taxation'],
+        correct: 2,
+        explanation: 'Simon commission is the correct answer because it is the commission that was the British police attacked Lala Lajpat Rai during peaceful demonstration against the Simon commission in 1928.',
+      },
+      {
+        question:
+          'Bhagat Singh and ________ threw a bomb in the Central Legislative Assembly on 8 April 1929.',
+        options: ['Sukhdev', 'Rajguru', 'Shivaram Rajguru', 'Batukeshwar Dutt'],
+        correct: 3,
+        explanation: 'Batukeshwar Dutt is the correct answer because it is the personality that threw a bomb in the Central Legislative Assembly on 8 April 1929.',
+      },
+      {
+        question:
+          'Who among the following was NOT sentenced to death in the Kakori Conspiracy Case (1925)?',
+        options: ['Ashfaqullah Khan', 'Rajendra Lahiri', 'Roshan Singh', 'Sachindra Nath Bakshi'],
+        correct: 3,
+        explanation: 'Sachindra Nath Bakshi is the correct answer because it is the personality that was NOT sentenced to death in the Kakori Conspiracy Case (Train action case) (09.08.1925).',
+      },
+      {
+        question:
+          'The Harappan cities were famous for their ________',
+        options: ['Grid systme of town planning', 'Irregular street patterns', 'Stone places', 'Wooden structures'],
+        correct: 0,
+        explanation: 'Grid systme of town planning is the correct answer because it is the industry that the Harappan cities were famous for their agriculture.',
+      },
     ],
   },
 };

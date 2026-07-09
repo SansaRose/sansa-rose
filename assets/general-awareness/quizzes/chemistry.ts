@@ -29,6 +29,20 @@ export const chemistryQuiz = {
         correct: 3,
         explanation: '4 is the correct answer because it is the number of electrons that carbon typically shares when bonding with another carbon or with atoms of other elements. Carbon is a tetravalent element, meaning it can form four covalent bonds with other atoms.',
       },
+      {
+        question:
+          'Which of the following is an example of a cyclic hydrocarbon?',
+        options: ['Methane', 'Butane', 'Ethene', 'Cyclohexane'],
+        correct: 3,
+        explanation: 'Cyclohexane is the correct answer because it is the example of a cyclic hydrocarbon. Cyclohexane is a cyclic hydrocarbon that is found in the nucleus of cells. Cyclohexane is a cyclic hydrocarbon that is found in the nucleus of cells.',
+      },
+      {
+        question:
+          'Ethanol reacts with sodium to give which of the following products?',
+        options: ['Bromine gas', 'Chlorine gas', 'Hydrogen gas', 'Nitrogen gas'],
+        correct: 2,
+        explanation: 'Hydrogen gas is the correct answer because it is the product that is given when ethanol reacts with sodium. Hydrogen gas is the product that is given when ethanol reacts with sodium. Hydrogen gas is the product that is given when ethanol reacts with sodium.',
+      },
     ],
   },
 };

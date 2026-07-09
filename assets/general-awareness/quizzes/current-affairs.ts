@@ -270,6 +270,62 @@ export const currentAffairsQuiz = {
         correct: 0,
         explanation: 'Manipur is the correct answer because it is the Indian state that celebrates the "Lu-Ngai-Ni" festival. The "Lu-Ngai-Ni" festival is a festival that is celebrated in the Manipur state of India.',
       },
+      {
+        question:
+          'Which of the following commissions recommended the creation of the Inter-State Council?',
+        options: ['Rajaji Commission', 'Mohanlal Sukhadia Commission', 'Nariman Commission', 'Sarkaria Commission'],
+        correct: 3,
+        explanation: 'Sarkaria Commission is the correct answer because it is the commission that recommended the creation of the Inter-State Council. The Inter-State Council is a body that is responsible for the coordination of the states of India.',
+      },
+      {
+        question:
+          'Which Indian athlete won the nation\s first-ever Asian Games gold medal?',
+        options: ['K D Jadhav', 'Milkha Singh', 'Primal Roy', 'Sachin Nag'],
+        correct: 3,
+        explanation: 'Sachin Nag is the correct answer because it is the Indian athlete who won the nation\'s first-ever Asian Games gold medal in the 100m freestyle swimming event held in New Delhi in 1951. Sachin Nag is a sprinter and a long jumper who won the nation\'s first-ever Asian Games gold medal in 1951.',
+      },
+      {
+        question:
+          'Minor points called "Yuko" are part of which of the following sports?',
+        options: ['Hockey', 'Basketball', 'Skating', 'Judo'],
+        correct: 3,
+        explanation: 'Judo is the correct answer because it is the sport that has minor points called "Yuko". Judo is a sport that is played between two players. The game is played on a mat with a referee who is responsible for the rules of the game.',
+      },
+      {
+        question:
+          'In which year was radio broadcasting started in India by the Radio Club of Bombay?',
+        options: ['1923', '1928', '1929', '1930'],
+        correct: 0,
+        explanation: '1923 is the correct answer because it is the year that radio broadcasting started in India by the Radio Club of Bombay. Radio broadcasting started in India by the Radio Club of Bombay in 1923.',
+      },
+      {
+        question:
+          'Which city is popularly known as the "City of Dreaming Spires"?',
+        options: ['London', 'Paris', 'Rome', 'Oxford'],
+        correct: 1,
+        explanation: 'Oxford is the correct answer because it is the city that is popularly known as the "City of Dreaming Spires".',
+      },
+      {
+        question:
+          'The term _______ is used to describe those receipts which can not be claimed from the government and are non redeemable',
+        options: ['Capital Receipts', 'Revenue Receipts', 'Unsecured Receipts', 'Non-Convertible Receipts'],
+        correct: 1,
+        explanation: 'Revenue Receipts is the correct answer because it is the term that is used to describe those receipts which can not be claimed from the government and are non redeemable.',
+      },
+      {
+        question:
+          'Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grameen)[VB-G RAM G]Act, 2025 will come into effect from which date?',
+        options: ['01 July 2026', '01 August 2026', '01 September 2026', '01 October 2026'],
+        correct: 0,
+        explanation: '01 July 2026 is the correct answer because it is the date from which the Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grameen)[VB-G RAM G]Act, 2025 will come into effect. The Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grameen)[VB-G RAM G]Act, 2025 is an Act of the Parliament of India that provides for the guarantee of employment and self-employment for the people of India.',
+      },
+      {
+        question:
+          'Under the VB-G RAM G Bill, what is the reivsed annual employment guarantee per rural household?',
+        options: ['100 days', '110 days', '120 days', '125 days'],
+        correct: 3,
+        explanation: '125 days is the correct answer because it is the revised annual employment guarantee per rural household. The revised annual employment guarantee per rural household is 125 days.',
+      },
     ],
   },
 };

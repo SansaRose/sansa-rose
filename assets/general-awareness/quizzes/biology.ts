@@ -99,6 +99,55 @@ export const biologyQuiz = {
         correct: 0,
         explanation: 'Chemotherapy is the correct answer because it is the term that is used for the use of chemicals for therapeutic effect. Chemotherapy is the use of chemical substances (drugs) to treat disease.',
       },
+      {
+        question:
+          'Why is the plasma membrane called a selectively permeable membrane?',
+        options: ['It allows only certain substances to pass through', 'It allows all substances to pass through', 'It allows no substances to pass through', 'It allows only water to pass through'],
+        correct: 0,
+        explanation: 'It allows only certain substances to pass through is the correct answer because it is the reason why the plasma membrane is called a selectively permeable membrane. The plasma membrane is a selectively permeable membrane that allows only certain substances to pass through.',
+      },
+      {
+        question:
+          '_________ softens the bone surface a the joints',
+        options: ['Cartilage', 'Areolar', 'Muscle', 'Ligament'],
+        correct: 0,
+        explanation: 'Cartilage is the correct answer because it is the cartilage that softens the bone surface a the joints. Cartilage is a type of tissue that is found in the body. Cartilage is a type of tissue that is found in the body.',
+      },
+      {
+        question:
+          'What instrument is used to measure lung volumes during breathing?',
+        options: ['Spirometer', 'Stethoscope', 'Otoscope', 'Ophthalmoscope'],
+        correct: 0,
+        explanation: 'Spirometer is the correct answer because it is the instrument that is used to measure lung volumes during breathing. Spirometer is a device that is used to measure lung volumes during breathing. Spirometer is a device that is used to measure lung volumes during breathing.',
+      },
+      {
+        question:
+          'A glucometer is generally used as a monitor by a ________ patient?',
+        options: ['Hypoglycemic', 'Hypertensive', 'Asthmatic', 'Hyperthyroid'],
+        correct: 0,
+        explanation: 'Hypoglycemic is the correct answer because it is the patient that is generally used as a monitor by a hypoglycemic patient. Hypoglycemic is a patient that is generally used as a monitor by a hypoglycemic patient. Hypoglycemic is a patient that is generally used as a monitor by a hypoglycemic patient.',
+      },
+      {
+        question:
+          'Hair is primarily made up of which of the following protein?',
+        options: ['Keratin', 'Collagen', 'Elastin', 'Protine'],
+        correct: 0,
+        explanation: 'Keratin is the correct answer because it is the protein that is primarily made up of the hair. Keratin is a protein that is primarily made up of the hair. Keratin is a protein that is primarily made up of the hair.',
+      },
+      {
+        question:
+          'MRI scans produce detailed images of the organs and tissues in the body. What is the full form of MRI?',
+        options: ['Magnetic Resonance Imaging', 'Magnetic Resonance Interference', 'Magnetic Resonance Induction', 'Magnetic Resonance Inversion'],
+        correct: 0,
+        explanation: 'Magnetic Resonance Imaging is the correct answer because it is the full form of MRI. Magnetic Resonance Imaging is a technique that is used to produce detailed images of the organs and tissues in the body. Magnetic Resonance Imaging is a technique that is used to produce detailed images of the organs and tissues in the body.',
+      },
+      {
+        question:
+          'How long does an unfertilised egg typically survive in the female reproductive tract?',
+        options: ['12 hours', '24 hours', '36 hours', '48 hours'],
+        correct: 1,
+        explanation: '24 hours is the correct answer because it is the time that an unfertilised egg typically survives in the female reproductive tract.',
+      },
     ],
   },
 };

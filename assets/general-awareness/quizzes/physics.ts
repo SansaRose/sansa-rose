@@ -134,6 +134,20 @@ export const physicsQuiz = {
         correct: 0,
         explanation: 'Ultraviolet radiation is the correct answer because it is the type of electromagnetic radiation that was discovered by Johann Wilhelm Ritter in 1801.',
       },
+      {
+        question:
+          'A long straight conductor carries current vertically upwards. What will be the direction of the magnetic field at a point lying to the east of the wire?',
+        options: ['Towards the north', 'Towards the south', 'Towards the east', 'Towards the west'],
+        correct: 0,
+        explanation: 'Towards the north is the correct answer because it is the direction of the magnetic field at a point lying to the east of the wire. The magnetic field at a point lying to the east of the wire is towards the north.',
+      },
+      {
+        question:
+          'Candela is the unit of which of the following physical quantity?',
+        options: ['Luminous intensity', 'Luminous flux', 'Luminous efficiency', 'Luminous efficiency'],
+        correct: 0,
+        explanation: 'Luminous intensity is the correct answer because it is the unit of the luminous intensity. Luminous intensity is the unit of the luminous intensity. Luminous intensity is the unit of the luminous intensity.',
+      },
     ]
   },
 };

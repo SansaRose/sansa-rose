@@ -2631,6 +2631,14 @@ export const july = {
       ] satisfies readonly ImportantDayField[],
     },
     {
+      headline: "July – 7 : World Kiswahili Language Day",
+      fields: [
+        { label: "Since", value: "2022" },
+        { label: "Purpose", value: "The day recognizes the role of Kiswahili language in the promotion of peace, unity and cultural exchange, and sustainable development across the Africa and beyond." },
+        { label: "Theme/2022", value: "Kiswahili for Peace, Solidarity and Global Economy Diplomacy" },
+      ] satisfies readonly ImportantDayField[],
+    },
+    {
       headline: "July – 11 : World Population Day",
       fields: [
         { label: "Since", value: "1990 [United Nations Development Program]" },

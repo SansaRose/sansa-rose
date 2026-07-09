@@ -15,6 +15,13 @@ export const zoologyQuiz = {
         correct: 3,
         explanation: 'Trophic level is the correct answer because it is the step of the food chain that is formed by each step of the food chain. Trophic level is a step of the food chain that is formed by each step of the food chain. Trophic level is a step of the food chain that is formed by each step of the food chain.',
       },
+      {
+        question:
+          'Burrs with hooks or spines are commonly dispersed by which of the following?',
+        options: ['Wind', 'Water', 'Animals', 'Plants'],
+        correct: 2,
+        explanation: 'Animals are the correct answer because it is the animals that are commonly dispersed by burrs with hooks or spines. Animals are the animals that are commonly dispersed by burrs with hooks or spines. Animals are the animals that are commonly dispersed by burrs with hooks or spines.',
+      },
     ],
   },
 };

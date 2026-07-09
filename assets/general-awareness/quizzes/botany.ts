@@ -36,6 +36,13 @@ export const botanyQuiz = {
         correct: 0,
         explanation: '2 is the correct answer because it is the number of cotyledons present in the seed. 2 is the number of cotyledons present in the seed. 2 is the number of cotyledons present in the seed.',
       },
+      {
+        question:
+          'The type of pollination where pollen grains are transferred from one flower to another of the same species through the wind is known as',
+        options: ['Anemophily', 'Entomophily', 'Hydrochory', 'Ornithophily'],
+        correct: 0,
+        explanation: 'Anemophily is the correct answer because it is the type of pollination where pollen grains are transferred from one flower to another of the same species through the wind. Anemophily is a type of pollination that is carried out by the wind.',
+      },
     ],
   },
 };

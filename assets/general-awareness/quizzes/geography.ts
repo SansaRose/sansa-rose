@@ -412,6 +412,48 @@ export const geographyQuiz = {
         correct: 3,
         explanation: 'Ladakh is the correct answer because it is the Indian region that is known for the monatic music tradition that includes sacred chants with dumbeats called "Yang". Ladakh is a region in the northern part of India, where the monatic music tradition is practiced. Ladakh is a region in the northern part of India, where the monatic music tradition is practiced.',
       },
+      {
+        question: 'Ananthapura Lake, often mentioned in Indian geography, is located in which of the following Indian state?',
+        options: ['Kerala', 'Karnataka', 'Madhya Pradesh', 'Tamil Nadu'],
+        correct: 0,
+        explanation: 'Kerala is the correct answer because it is the Indian state that is located in the Ananthapura Lake. Kerala is a state in the southern part of India, where the Ananthapura Lake is located.',
+      },
+      {
+        question: 'The first Sugar mill in India was established in which of the following Indian state?',
+        options: ['Bihar', 'West Bengal', 'Madhya Pradesh', 'Tamil Nadu'],
+        correct: 0,
+        explanation: 'Bihar is the correct answer because it is the Indian state that is known for the first Sugar mill in India in Bettiah in Bihar in 1840.',
+      },
+      {
+        question: 'Thang-Ta, often mentioned in cultural heritage, is associated with which of the following Indian state?',
+        options: ['Manipur', 'Kerala', 'Madhya Pradesh', 'Tamil Nadu'],
+        correct: 0,
+        explanation: 'Manipur is the correct answer because it is the Indian state that is associated with the Thang-Ta. Thang-Ta is a traditional martial art of Manipur.',
+      },
+      {
+        question: 'Gir Forest National Park is famous for the conservation of which of the following animal?',
+        options: ['Asian Lion', 'Siberian Tiger', 'Indian Elephant', 'Indian Rhinoceros'],
+        correct: 0,
+        explanation: 'Asian Lion is the correct answer because it is the animal that is famous for the conservation of the Gir Forest National Park. Asian Lion is a mammal that is found in the Gir Forest National Park.',
+      },
+      {
+        question: 'Lai Haraoba, which literally means "The festival of gods" is primarily celebrated in which of the following Indian state?',
+        options: ['Manipur', 'Kerala', 'Madhya Pradesh', 'Tamil Nadu'],
+        correct: 0,
+        explanation: 'Manipur is the correct answer because it is the Indian state that is primarily celebrated in the Lai Haraoba. Lai Haraoba is a festival that is celebrated in the state of Manipur.',
+      },
+      {
+        question: 'Which festival is celebrated to commemorate the birth anniversary of Lord Buddha?',
+        options: ['Vesak', 'Parinirvan day', 'Kathina', 'Ullambana'],
+        correct: 0,
+        explanation: 'Vesak is the correct answer because it is the festival that is celebrated to commemorate the birth anniversary of Lord Buddha.',
+      },
+      {
+        question: 'Which glacier located in the Karakoram range, is the longest in this range and the second longest in the world outside the polar regions?',
+        options: ['Siachen Glacier', 'Baltoro Glacier', 'Ghanche Glacier', 'Nubra Glacier'],
+        correct: 0,
+        explanation: 'Siachen Glacier is the correct answer because it is the glacier that is located in the Karakoram range, is the longest in this range and the second longest in the world outside the polar regions.',
+      },
     ],
   },
 };
