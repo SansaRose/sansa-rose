@@ -12,6 +12,7 @@ const topicsLinksRaw: TopicNavLink[] = [
   { href: '/topics/public-complaints', label: 'Public complaints', icon: '📢' },
   { href: '/topics/establishment-rules', label: 'Establishment rules', icon: '📜' },
   { href: '/topics/financial-rules', label: 'Financial rules', icon: '💰' },
+  { href: '/topics/general-rules', label: 'General rules', icon: '📘' },
   { href: '/topics/hrms', label: 'HRMS', icon: '👥' },
   { href: '/topics/irec', label: 'IREC', icon: '📕' },
   { href: '/topics/irem', label: 'IREM', icon: '📗' },

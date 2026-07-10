@@ -603,6 +603,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes general awareness General Awareness",
   },
   {
+    href: "/topics/general-rules",
+    title: "General Rules",
+    category: "Study Topics",
+    parent: "Topics",
+    keywords: "topics general rules General Rules GR",
+  },
+  {
     href: "/manuals/general-subsidiary-rules",
     title: "General Subsidiary Rules",
     category: "Manuals",
