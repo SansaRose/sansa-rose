@@ -216,12 +216,20 @@ function flattenRules(): FlatRule[] {
   let number = 0
 
   for (const chapter of generalRules) {
-    for (const page of chapter.pages) {
+    const chapterRecord = chapter as {
+      id: number
+      chapter: string
+      pages?: Array<{ id: number; title: string; rule: string; description: string }>
+      rules?: Array<{ id: number; title: string; rule: string; description: string }>
+    }
+    const pages = chapterRecord.pages ?? chapterRecord.rules ?? []
+
+    for (const page of pages) {
       number += 1
       items.push({
-        key: `${chapter.id}-${page.id}`,
+        key: `${chapterRecord.id}-${page.id}`,
         number,
-        chapter: chapter.chapter,
+        chapter: chapterRecord.chapter,
         title: page.title,
         rule: page.rule,
         description: page.description,

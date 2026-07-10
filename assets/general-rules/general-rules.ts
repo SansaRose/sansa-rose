@@ -703,11 +703,2074 @@ shown below:
 (10)The aspects and indications of a semaphore arm type shunt signal
 are shown below:`,
             },
+            {
+                id: 15,
+                title: 'Co-acting signals',
+                rule: 'GR 3.15',
+                description: `(1) Co-acting signals are duplicate signals fixed below ordinary signals
+and are provided where, in consequence of the height of the signal
+post, or of there being an over-bridge or other obstacle, the main arm
+or light is not in view of the Loco Pilot during the whole time that he is
+approaching it.
+(2) Co-acting signals shall be fitted at such height that either the main
+arm or light or the co-acting arm or light, is always visible.`,
+            },
+            {
+                id: 16,
+                title: 'Repeating signals',
+                rule: 'GR 3.16',
+                description: `(1) A signal placed in rear of a fixed signal for the purpose of repeating to
+the Loco Pilot of an approaching train the aspects of the fixed signal
+in advance is called a Repeating signal.
+(2) A Repeating signal shall be provided with an ‘R’ marker and shall be
+of –
+(a) banner type, or
+(b) a square ended semaphore arm, or
+(c) a colour light signal.
+(3) The aspects and indications of a banner type Repeating signal are
+shown below:
+4) The aspects and indications of a semaphore arm type Repeating
+Signals are shown below:
+(5) The aspects and indications of a colour light type Repeating signal
+are shown below:`,
+            },
+            {
+                id: 17,
+                title: 'Distinguishing markers and signs for signals',
+                rule: 'GR 3.17',
+                description: `(1)Where necessary, signal shall be distinguished by prescribed
+markers. Such markers shall be fixed on the signal posts below the
+signals as under:
+Note: Where a Colour Light Distant signal is combined with a Last Stop
+Signal as provided under sub-rule (7) of rules 3.07, the marker shall be
+dispensed with.
+Note: Letter ‘A’ shall be lit only when the gates are closed and locked against
+road traffic.
+(2) Where necessary, signal arms shall be distinguished by prescribed
+signs as under:
+(3)Other distinguishing markers or signs may be used with the approval
+of the Railway Board.`,
+            },
+            {
+                id: 18,
+                title: 'Signals out of use',
+                rule: 'GR 3.18',
+                description: `(1) When a fixed signal is not in use, it shall be distinguished by two
+crossed bars, each bar being not less than one metre long and 10
+centimeters wide, as illustrated below:
+(2) A semaphore or disc signal when not in use shall be kept fixed in the
+‘on’ position.
+(3) Signals not in use shall not be lit.`,
+            },
+            {
+                id: 19,
+                title: 'Placing of Stop signals at diverging junctions',
+                rule: 'GR 3.19',
+                description: `Unless otherwise permitted by approved special instructions where two or
+more lines diverge, the signals shall be fixed on a bracket post or an approved
+type of route indicator shall be provided instead of separate signals:
+Provided that for speeds upto 75 Kilometres an hour with manually operated
+multiple-aspect signals, only single arm home signal may be provided instead
+of separate signals on a bracket post or a route indicator, the facing points
+must be provided with point indicators.`,
+            },
+            {
+                id: 20,
+                title: 'Placing of Stop signals at converging junctions',
+                rule: 'GR 3.20',
+                description: `Unless otherwise permitted by approved special instructions, where two or
+more lines converge, signals shall be placed on separate posts. Where the
+number of signals is considerable, these may be provided on a bracket post or
+a signal bridge or gantry.`,
+            },
+            {
+                id: 21,
+                title: 'Signals on bracket post or signal bridge or gantry',
+                rule: 'GR 3.21',
+                description: `Where signals are placed on a bracket post or a signal bridge or a gantry, these
+shall be-
+(a) so grouped that the respective signals are easily distinguishable for
+each running line and are placed as nearly as possible over the
+running lines to which they refer,
+(b) so placed that the signal referring to the main line is higher than the
+signal or signals referring to the other running line or lines and
+(c) so arranged that the extreme left hand signal refers to the extreme left
+hand line and the second signal from the left refers to the next line
+from the left and so on.`,
+            },
+            {
+                id: 22,
+                title: 'Placing of more than one signal on the same post',
+                rule: 'GR 3.22',
+                description: `(1) Not more than one signal referring to trains moving in the same
+direction, whether on the same line or on separate lines, shall be
+placed on the same post, except-
+(a) as prescribed in these rules for Calling-on, Shunt, Co-acting and
+Warner signals or
+(b)under approved special instructions.
+(2) Where under approved special instructions more than one signal is
+placed on the same post, the top most signal shall apply to the
+extreme left hand diverging line and the second signal from the top
+shall apply to the next line from the left and so on:
+Provided that in exceptional cases where two Home signals are
+placed on the same post, under approved special instructions, the top
+signal shall apply to the main line and the lower signal shall apply to
+the other lines.`,
+            },
+            {
+                id: 23,
+                title: 'Placing of signals on a signal bridge or gantry',
+                rule: 'GR 3.23',
+                description: `The arm and light of any fixed signal which cannot be seen from the place from
+which the signal is worked shall be repeated to such place by means of an
+efficient electric repeater.`,
+            },
+            {
+                id: 24,
+                title: 'Back-lights',
+                rule: 'GR 3.24',
+                description: `(1) Every semaphore or disc signal, the light of which cannot be seen from
+the place from which the signal is worked, shall be provided witha backlight
+to indicate whether the signal light is burning or not.
+(2) Back-lights of signals shall show a small white light when ‘on’ and no
+light at all in any other position.
+(3) Any fixed light used in conjunction with a semaphore signal shall show
+a back-light.
+(4) Back-lights may not be provided when alternative arrangements are
+made at the place from which the signal is worked to indicate whether
+signal lights are burning or not.`,
+            },
+            {
+                id: 25,
+                title: 'Obligation to provide fixed signals at stations',
+                rule: 'GR 3.25',
+                description: `Fixed signals prescribed in this sub-chapter shall be provided at every
+stationexcept –
+(a) At stations between which trains are worked on the One Train Only
+System, and
+(b) At stations which are exempted from the provision of signals under
+approved special instructions.`,
+            },
+            {
+                id: 26,
+                title: 'Commissioning of fixed signals',
+                rule: 'GR 3.26',
+                description: `Fixed signals shall not be brought into use until they have been passed by
+the Commissioner of Railway Safety as being sufficient to secure the safe
+working of trains.
+Provided that, fixed signals can be brought into use if they have been passed
+by the Sanctioning Authority (in case of item (a) below – Principal Chief
+Signal and Telecom Engineer of the concerned Zonal Railway, and in case
+of item (b), (c) and (d) below- General Manager of the concerned Railway) as
+being sufficient to secure the safe working of trains for the purpose of –
+(a) Interlocking of level crossings outside station limits;
+(b) Double Distant signaling along with corresponding changes at adjacent
+stations without yard remodelling;
+(c) Intermediate Block signaling except in section with Slip siding and Catch
+siding, along with corresponding changes at adjacent stations without
+yard remodelling; and
+(d) Automatic Block signaling except in section with Slip siding and Catch
+siding, along with corresponding changes at adjacent stations without
+yard remodelling. (Item No. 4 of As 20 Dt: 21.02.2025)`,
+            },
+            {
+                id: 27,
+                title: 'Minimum equipment of fixed signals at stations provided with manually operated multiple-aspect signaling',
+                rule: 'GR 3.27',
+                description: `The minimum equipment of fixed signals to be provided for each direction shall
+be as follows–
+(a) at class ‘B’ stations… a Distant, a Home and a Starter, and
+(b) at class ‘C’ stations… a Distant and a Home.`,
+            },
+            {
+                id: 28,
+                title: 'Minimum equipment of fixed signals at stations provided with modified lower quadrant signalling',
+                rule: 'GR 3.28',
+                description: `Modified lower quadrant signalling may be introduced only where it is expressly
+sanctioned by a special order of the Railway Board. The minimum equipment of
+fixed signals to be provided for each direction shall be as follows–
+(a) at class ‘B’ stations … a Distant, a Home, a Warner below the
+Main Home and a Starter and
+(b) at class ‘C’ stations … a Distant and a Home.`,
+            },
+            {
+                id: 29,
+                title: 'Minimum equipment of fixed signals at other stations provided with twoaspect signalling',
+                rule: 'GR 3.29',
+                description: `The minimum equipment of fixed signals to be provided for each direction shall
+be as follows –
+(a) at class ‘A’ stations … a Warner, a Home and a Starter.
+(b) at class ‘B’ stations—
+(i) on a single line … an Outer and a Home,
+(ii) on a double line … an Outer, a Home and a Starter, and
+both on a single and a double line, a Warner
+shall be provided in accordance with Rule
+3.06, if trains run through at a speed
+exceeding 50 kilometres an hour without
+stopping, and
+(c) at class ‘C’ stations … a Warner and a Home.`,
+            },
+            {
+                id: 30,
+                title: 'Additional fixed signals at stations generally',
+                rule: 'GR 3.30',
+                description: `In addition to the minimum equipment of signals prescribed in Rules 3.27, 3.28,
+3.29 and 3.32 such other fixed signals shall be provided at every station as may
+be necessary for the safe working of trains.`,
+            },
+            {
+                id: 31,
+                title: 'Signals at class ‘D’ stations',
+                rule: 'GR 3.31',
+                description: `At a class ‘D’ station, a train may be stopped in such a manner as may be
+authorised by special instructions.`,
+            },
+            {
+                id: 32,
+                title: 'Provision of an Advanced Starter, Shunting Limit Board or Block Section Limit Board',
+                rule: 'GR 3.32',
+                description: `(1) On a single line class ‘B’ station worked on the Absolute Block System,
+if the obstructing of the line outside the Home signal or the outermost
+facing points in the direction of an approaching train is permitted
+under special instructions under Rule 8.09, a Shunting Limit Board or
+an Advanced Starter shall be placed at such shunting distance from
+the Home signal or the outermost facing points as local conditions may
+require, provided the distance between the Shunting Limit Board
+(bearing the words ‘Shunting Limit’ on the side which faces the station, and fitted with a lamp showing a white light in both directions
+to mark its position by night) or the Advanced Starter and the opposing
+first Stop signal is never less than 400 metres in the two-aspect
+signalling territory and 180 metres in the multiple-aspect or modified
+lower quadrant signalling territory. The location of such board or
+Advanced Starter shall mark the limit up to which shunting may be
+permitted.
+(2) On a double line Class ‘B’ station worked on Absolute Block System
+equipped with multiple-aspect or modified lower quadrant signalling
+and where there are no points or the outer most points at the
+approaching end are trailing, a Block Section Limit Board (bearing the
+words ‘Block Section Limit’ on the side which faces the station and
+fitted with a lamp showing white light in both directions to mark its
+position by night) shall be provided. It shall be placed at a distance of
+not less than 180 metres in advance of the Home signal and shall
+protect the fouling mark of the outermost trailing points, if any. The
+location of such board shall mark the limit of the block section at such
+stations.`,
+            },
+            {
+                id: 33,
+                title: 'Exceptions to Rules 3.27, 3.28, 3.29 and 3.32',
+                rule: 'GR 3.33',
+                description: `Notwithstanding anything contained in Rules 3.27, 3.28, 3.29 and 3.32—
+(a) If the station has only one connection off the main line, the station
+shall be worked in accordance with approved special instructions;
+(b) On any section, where the traffic is light and speed slow, one Stop
+signal only in each direction may be provided at each station; such
+signal to be located at an adequate distance outside the outermost
+facing points of the station and trains worked in accordance with
+approved special instructions; and
+(c) On any railway having very light traffic, all signals may be dispensed
+with and trains worked under approved special instructions.
+Provided that at stations with manually operated multiple-aspect signals,
+where the speed of trains through a station does not exceed 50
+kilometres an hour, a Distant signal and a Home signal only may be
+provided in each direction, under approved special instructions.`,
+            },
+            {
+                id: 34,
+                title: 'Fixed signals at level crossings',
+                rule: 'GR 3.34',
+                description: `(1) Unless exempted under approved special instructions, every level
+crossing gate which closes across the line at a level crossing shall,
+except when interlocked with station signals, be provided with signals
+fixed at an adequate distance from the level crossing showing Stop
+aspects in both Up and Down directions when the gates are open for
+the passage of road traffic.
+(2) Except where otherwise prohibited under special instructions, a ‘G’
+marker shall be provided on a gate Stop signal.`,
+            },
+            {
+                id: 35,
+                title: 'Protection and working of points of outlying siding',
+                rule: 'GR 3.35',
+                description: `Where there are points in the main line at a place which is not a block station,
+provision for the protection of such points, by signals or otherwise, and for
+working them, shall be made in order to secure the safe working of trains, as
+laid down under approved special instructions.`,
+            },
+            {
+                id: 36,
+                title: 'Fixed signals generally',
+                rule: 'GR 3.36',
+                description: `(1) Every fixed signal shall be so constructed that, in case of failure of
+any part of its connections, it shall remain at, or return to its most
+restrictive aspect.
+(2) A signal which has been taken ‘off’ for the passage of a train shall not
+be placed to ‘on’ until the whole of the train which it controls has
+passed it, except—
+(a) in case of emergency to avert an accident,
+(a(a)) Where Starter and Advanced Starter taken ‘off’ for departing
+trains that is trains starting from station after coming to stop are
+required to be put back for the purpose of movement of another
+train for precedence or crossing shall be put back only after
+taking following precautions:-
+(i) relevant Starter and Advanced Starter may be replaced to ‘on’
+position and thereafter the Loco Pilot of the train for which
+the signals had been taken ‘off’ shall be advised by on-duty
+station Master through a secured means of communication,
+specified under special instructions, or where secured means
+of communication are not available, through a written memo
+to the effect that the said signals have been replaced to ‘on’
+and that the Loco Pilot shall not start.
+(ii) till the Loco Pilot has been advised through secured means of
+communication referred to in sub-clause (i) or through written
+memo and his acknowledgement received, the route set shall
+not be altered except to avert an accident; or
+(b) Where arrangement is provided to restore the signal to ‘on’
+automatically, the control operating the signal shall not be
+restored to its normal position till the whole of the train has
+passed it.
+(3) No fixed signal within station limits shall be taken ‘off’ without the
+permission of the Station Master and in the case of a signal outside
+the station limits without the permission of such person as may for the
+time being be in independent charge of the working of such signal.`,
+            },
+            {
+                id: 37,
+                title: 'Normal aspect of signal',
+                rule: 'GR 3.37',
+                description: `(1) Unless otherwise authorised under approved special instructions,
+fixed signals, except automatic signals, shall always show their most
+restrictive aspect in their normal position.
+(2) The normal aspect of an Automatic Stop signal is ‘Proceed’. Where,
+however, the signal ahead is manually operated, the aspect normally
+displayed may be ‘Caution’ or ‘Attention’.`,
+            },
+            {
+                id: 38,
+                title: 'Points affecting movement of train',
+                rule: 'GR 3.38',
+                description: `(1) The Station Master shall not give permission to take signals ‘off’ for a
+train until-
+(a) all facing points over which the train will pass are correctly set and
+locked,
+(b) all trailing points over which the train will pass are correctly set,
+and
+(c) the line over which the train is to pass is clear and free from
+obstructions.
+(2)When a running line is blocked by a stabled load, wagon, vehicle or by
+a train which is to cross or give precedence to another train or
+immediately after the arrival of a train at the station the points in rear
+on double line sections and at either end on single line sections
+should be immediately set against the blocked line except when
+shunting or any other movement is required to be done immediately in
+that direction on that line.`,
+            },
+            {
+                id: 39,
+                title: 'Locking of facing points',
+                rule: 'GR 3.39',
+                description: `Facing points, when neither interlocked nor key locked, shall be locked for the
+passage of a train either by a clamp, or by a through bolt, with a padlock. It is
+not sufficient to lock the lever working the points.`,
+            },
+            {
+                id: 40,
+                title: 'Conditions for taking ‘off’ Home signal',
+                rule: 'GR 3.40',
+                description: `(1)When a train is approaching a Home signal otherwise than at a
+terminal station, the signal shall not be taken ‘off’ until the train has
+first been brought to a stand outside it, unlessa)
+on a double line, the line is clear for an adequate distance beyond
+the Starter or
+b) on a single line, line is clear for an adequate distance beyond the
+trailing points, or for an adequate distance beyond the place at
+which the train is required to come to a stand.
+(2) Where a train has first been brought to a stand outside the Home
+signal, the signal may be taken ‘off’, ifa)
+on a double line, the line is clear up to the Starter, or
+b) on a single line, the line is clear up to the trailing points or under
+approved special instructions up to the place at which the train is
+required to come to a stand.
+(3) Except under approved special instructions, the adequate distance
+referred to in sub-rule (1) shall never be less thana)
+180 metres at stations equipped with two-aspect lower quadrant or
+two-aspect colour light signals, or
+b) 120 metres in the case of stations provided with multiple-aspect
+signals or modified lower quadrant signals.
+(4)Where a sand hump of approved design, or under approved special
+instructions a derailing switch, has been provided for the line on
+which a train is to be received, they shall be deemed to be efficient
+substitutes for the adequate distance referred to in sub-rule (3).`,
+            },
+            {
+                id: 41,
+                title: 'Conditions for taking "off" Outer signal',
+                rule: 'GR 3.41',
+                description: `(1) When a train is approaching the Outer signal otherwise than at a
+terminal station, the signal shall not be taken 'off' until the train has
+first been brought to a stand outside the signal, unless the line on
+which the train is to be received in the station is clear—
+(a) in the case of a double line, up to the Starter signal, and
+(b) in the case of a single line, for an adequate distance beyond the
+first facing points.
+(2) Where the train has first been brought to a stand outside the Outer
+signal, the signal shall not be taken 'off' unless the line is clear up to
+the first facing points, or up to the Home signal at a station where
+there are no facing points.`,
+            },
+            {
+                id: 42,
+                title: 'Conditions for taking "off" Last Stop signal or Intermediate Block Stop signal',
+                rule: 'GR 3.42',
+                description: `(1) On a double line, the Last Stop or Intermediate Block Stop signal shall
+not be taken 'off' for a train unless Line Clear has been obtained from
+the block station in advance.
+(2) On a Single Line –
+(a) Last Stop signal shall not be taken 'off' for a train unless Line
+Clear has been obtained from the block station in advance;
+(b) for Intermediate Block Signalling –
+(i) first, the direction of traffic shall be established and then Line
+Clear shall be obtained from the block station in advance as
+per the established direction of traffic;
+(ii) only after establishing the direction of traffic the train
+movement in the ‘Station controlled Intermediate Block
+section’ shall be permitted; and
+(iii) the Intermediate Block Stop signal shall not be taken ‘off’
+unless the line clear has been obtained from Block station in
+advance and direction of traffic is established.
+Explanation.- On Single Line Intermediate Block Signalling, the line
+between two adjacent block stations is divided into two subsections, the
+first section which shall be termed as ‘station controlled Intermediate
+block section’ and the section between Intermediate Block Signal to First
+Stop signal of block section ahead shall be termed as ‘block controlled
+Intermediate Block section”`,
+            },
+            {
+                id: 43,
+                title: 'Conditions for taking "off" Warner signal',
+                rule: 'GR 3.43',
+                description: `A Warner signal shall not be taken 'off' for a train that is booked to stop or for a
+train that has to be stopped out of course.`,
+            },
+            {
+                id: 44,
+                title: 'Conditions for taking "off" gate Stop signal',
+                rule: 'GR 3.44',
+                description: `A gate Stop signal shall not be taken 'off' until the concerned level crossing or
+crossings is or are free from obstruction and the gates of such level crossing
+or crossings are closed and locked against road traffic. Where a gate Stop
+signal is interlocked with station signals, it shall be worked in accordance with
+special instructions.`,
+            },
+            {
+                id: 45,
+                title: 'Conditions for taking "off" Calling-on signal',
+                rule: 'GR 3.45',
+                description: `A Calling-on signal shall not be taken 'off' until the train has been brought to a
+stand at the Stop signal below which the Calling-on signal is provided.`,
+            },
+            {
+                id: 46,
+                title: 'Use of fixed signals for shunting',
+                rule: 'GR 3.46',
+                description: `(1) The Outer, Home and the last Stop signal of a station shall not be
+taken ‗off‘ for shunting purposes.
+(2) At stations where Advanced Starters are provided, Starters may be
+taken ‗off‘ for shunting purposes, except where the interlocking
+interferes with this practice, in which case hand signals shall be used
+where Shunting signals are not provided.`,
+            },
+            {
+                id: 47,
+                title: 'Taking "off" signals for more than one train at a time',
+                rule: 'GR 3.47',
+                description: `(a) When two or more trains are approaching simultaneously from any direction,
+the signals for one train only shall be taken 'off', other necessary signals being
+kept at 'on', until the train for which the signals have been taken 'off' has come
+to a stand at the station, or has cleared the station, and the signals so taken
+'off' for the said train have been put back to 'on', except where under special
+instructions, the interlocking or the layout of the yard renders a contrary
+procedure safe.
+(b) 3.47.1. Taking ‗Off‘ signals for more than one train at a time when two or more
+trains are approaching simultaneously from any direction may be permitted
+over non-isolated lines; under special instructions when requirements of
+adequate distance under Rule 3.40 are fulfilled; and under approved special
+instructions when requirements of adequate distance under Rule 3.40 are not
+fulfilled. (Item no. 5 of AS-11 dt. 22.08.2023).`,
+            },
+            {
+                id: 48,
+                title: 'Stoppage of trains out of course at stations provided with two aspect signalling',
+                rule: 'GR 3.48',
+                description: `When a train which is booked to run through has to be stopped out of course
+at a station equipped with two aspect signals, it shall not be received until-
+(a) at stations provided with working Warners but not provided with
+Starters, the working Warner is kept at 'on',
+(b) at stations provided with Starters but not provided with working
+Warners, the relevant Starter is kept at 'on',
+(c) at stations provided with both working Warners and Starters, both the
+signals are kept at 'on', and
+(d) at stations provided with neither a working Warner nor a Starter, the
+first Stop signal is kept at 'on', and the train brought to a stand
+outside it.`,
+            },
+            {
+                id: 49,
+                title: 'Care and lighting of signal lamps',
+                rule: 'GR 3.49',
+                description: `(1) The Station Master shall see that lamps of fixed signals, indicators
+and boards such as Shunting Limit Board, Block Section Limit Board
+and Stop Board at his station are lighted at sunset, and are not put
+out until after sunrise, or at such earlier or later time as may be
+prescribed by special instructions.
+(2) Sub-rule (1) shall not apply to-
+(a) Approach lighted signals,
+(b) Colour light and position light signals which shall be kept lit
+throughout the day and night, and
+(c) The sections where no train is scheduled to run at night.
+(3) The Station Master shall ensure that the lamps of fixed signals,
+indicators and boards such as Shunting Limit Board, Block Section
+Limit Board and Stop Board, when lit, are burning brightly and that
+the lenses of lamps and spectacle glasses are properly cleaned and
+back-lights clearly visible.
+(4) Whenever night signals are used, the Station Master shall not grant
+Line Clear unless he has ensured, either personally or in the manner
+prescribed under special instructions, that the lamps of fixed signals
+at his station which are not approach lighted and which apply to the
+train are burning. If signal lights cannot be kept burning he shall,
+before giving Line Clear, initiate action in accordance with the
+procedure prescribed in Rules 3.68 to 3.72.
+(5) Before lighting a semaphore signal or indicator lamp, the railway
+servant deputed for lighting it, shall inspect the lenses and spectacle
+glasses. In case he finds the red roundel broken, cracked or missing,
+he shall not light the lamp and shall report the fact immediately to the
+Station Master who shall treat the signal as defective.
+(6) Every railway servant in charge of signals shall see that the greatest
+care is taken in the focusing, cleaning and trimming of signal lamps.`,
+            },
+            {
+                id: 50,
+                title: 'Traps, slip sidings and catch sidings',
+                rule: 'GR 3.50',
+                description: `The Station Master shall take steps to ensure that the points of all traps, slip
+sidings and catch sidings and other points are set against the line which they
+are intended to isolate, except when it is not necessary that they should be
+open for the purpose of isolation.`,
+            },
+            {
+                id: 51,
+                title: 'Points',
+                rule: 'GR 3.51',
+                description: `(1) All points shall normally be set for the straight except when otherwise
+authorized by special instructions.
+(2) The railway servant concerned with the operation of points and
+signals shall not, while on duty, leave the place of operation of points
+or signals which are under his charge except under special
+instructions.
+(3) No railway servant shall interfere with any points, signals, or their
+fittings, signal wires or any interlocking or block gear for the purpose
+of effecting repairs, or for any other purpose, except with the previous
+permission of the Station Master.`,
+            },
+            {
+                id: 52,
+                title: 'Exhibition of hand signals',
+                rule: 'GR 3.52',
+                description: `(1) All hand signals shall be exhibited by day, by showing a flag or hand
+and by night by showing a light as prescribed in these rules.
+(2) During day a flag or flags shall normally be used as hand signals.
+Hands shall be used in emergencies only, when flags are not
+available.
+(3) During night a hand signal shall normally be given by showing a red
+or green light. A white light waved violently shall be used as a Stop
+signal only, when the red light is not available.
+(4) Red or green light referred to in sub-rule (3) shall be either a static or flashing type.`,
+            },
+            {
+                id: 53,
+                title: 'Stop hand signal',
+                rule: 'GR 3.53',
+                description: `Indication: Stop dead
+How given by day:By showing a red flag or by raisingboth arms with hands
+above the head as illustrated below:
+How given by night:By showing a red light or by violently wavinga white light
+horizontally across the body ofthe person showing the signal as illustrated
+below:`,
+            },
+            {
+                id: 54,
+                title: 'Proceed hand signal',
+                rule: 'GR 3.54',
+                description: `Indication: Proceed
+How given by day:By holding a green flag or by holding onearm steadily
+as illustrated below:
+How given by night: By holding a green light steadily as illustrated
+below:`,
+            },
+            {
+                id: 55,
+                title: 'Proceed with caution hand signal',
+                rule: 'GR 3.55',
+                description: `Indication: Proceed slowly reducingspeed further if thesignal is given at
+aprogressively slower rate.
+How given by day:By waving a green flag vertically up and downor by
+waving one arm in a similar manneras illustrated below:
+How given by night:By waving a green light vertically up and down as
+illustrated below:
+Note: When the speed is to be reduced further, this signal shall be given at a
+slower and slower rate and when a stop is desired, the Stop hand signal
+shall be shown.`,
+            },
+            {
+                id: 56,
+                title: 'Hand signals for shunting',
+                rule: 'GR 3.56',
+                description: `The following hand signals shall be used in
+shunting operations in addition to the Stop hand signal:-
+(a) Indication:Move away from theperson signalling
+How given by day:By a green flag or one arm moved slowly up and down
+as illustrated below:
+How given by night:By a green light moved slowly up and down as
+illustrated below:
+(b) Indication: Move towards the personsignalling
+How given by day:By a green flag or one arm moved from side to side
+across the body as illustrated below:
+How given by night:By a green light moved from side to side across the
+body as illustrated below:
+Note.-The hand signals for ‘Move away from the person signalling’, and
+‘Move towards the person signalling’ shall be displayed slower and
+slower, until the Stop hand signal is given, if it is desired to stop.
+(c) Indication: Move slowly for coupling
+How given by day:By a green and a red flag held above the head or both
+hands raised over the head and moved towards and away from each
+other as illustrated below:
+How given by night:By a green light held above the head and moved by
+twisting the wrist as illustrated below:`,
+            },
+            {
+                id: 57,
+                title: 'Banner flags',
+                rule: 'GR 3.57',
+                description: `A banner flag is a temporary fixed danger signal, consisting of a red cloth
+supported at each end on a post and stretched across the line to which it
+refers.`,
+            },
+            {
+                id: 58,
+                title: 'Knowledge and possession of hand signals',
+                rule: 'GR 3.58',
+                description: `(1) Every railway servant connected with the movement of trains,
+shunting operations, maintenance of installations and works of any
+nature affecting safety of trains shall have—
+(a) a correct knowledge of hand signals and
+(b) the requisite hand signals with him while on duty and keep them
+in good working order and ready for immediate use.
+(2) Every railway servant shall see that the staff under him concerned
+with use of hand signals are adequately supplied with all necessary
+equipment for hand signalling and have a correct knowledge of their
+use.
+(3) A red flag and a green flag by day or a lamp, which is capable of
+showing red, green and white lights by night, shall constitute the
+requisite equipment for hand signalling.
+(4) Every Station Master shall see that his station is adequately supplied
+with all necessary equipment for hand signalling.`,
+            },
+            {
+                id: 59,
+                title: 'Description of detonating signals',
+                rule: 'GR 3.59',
+                description: `Detonating signals, otherwise known as detonators or fog signals, are
+appliances which are fixed on the rails and when an engine or a vehicle passes
+over them, they explode with a loud report so as to attract the attention of the
+Loco Pilot.`,
+            },
+            {
+                id: 60,
+                title: 'Method of using detonators',
+                rule: 'GR 3.60',
+                description: `(1) A detonator when required to be used shall be placed on the rail with
+a label or brand facing upwards and shall be fixed to the rail by
+bending the clasps around the head of the rail.
+(2) In the case of a mixed gauge, detonators shall be placed on the
+common rail or on one rail of each gauge.`,
+            },
+            {
+                id: 61,
+                title: 'Placing of detonators in thick, foggy or tempestuous weather impairing visibility',
+                rule: 'GR 3.61',
+                description: `(1) In thick, foggy or tempestuous weather impairing visibility, whenever
+it is necessary to indicate to the Loco Pilot of an approaching train,
+the locality of a signal, two detonators shall be placed on the line, by a
+railway servant appointed by the Station Master in this behalf, about
+10 metres apart, and at least 270 metres outside the signal or signals
+concerned.
+(2) (a) The Station Master may comply with the provisions of sub-rule (1)
+at his discretion; but shall always do so when visibility conditions
+from any cause prevent him from seeing a prescribed visibility test
+object from a distance of not less than 180 metres or a lesser
+distance if expressly sanctioned by the Railway Board.
+(b) The Visibility Test Object may be—
+(i) a post erected for the purpose and lighted at night or
+(ii) the arm by day and the light or the back light by night of a fixed
+semaphore signal specified by special instructions or
+(iii) the light of a fixed colour light signal both by day and night
+specified by special instructions.`,
+            },
+            {
+                id: 62,
+                title: 'Placing of detonators in case of obstruction',
+                rule: 'GR 3.62',
+                description: `(1)Whenever in consequence of an obstruction of a line, it is necessary
+for a railway servant to stop approaching trains, he shall proceed,
+plainly showing his Stop hand signal, to a point 400 metres from the
+obstruction and place on the line onedetonator and then proceed to a
+point 800 metres from the obstruction and place on the line three
+detonators, about 10 metres apart, at such place:
+Provided that on the broad gauge, the first detonator shall be placed
+at 600 metres and three detonators at 1200 metres from the
+obstruction about 10 metres apart from each other.
+(2) If the said railway servant is recalled before the obstruction is
+removed, he shall leave down three detonators and on his way back,
+pick up the intermediate detonator.`,
+            },
+            {
+                id: 63,
+                title: 'Replacement of detonators on the line',
+                rule: 'GR 3.63',
+                description: `Every railway servant placing detonators on the line shall see that they are,
+when necessary, replaced immediately after a train has passed over them.`,
+            },
+            {
+                id: 64,
+                title: 'Knowledge and possession of detonators',
+                rule: 'GR 3.64',
+                description: `(1)(a) All Station Masters, Guards, Loco Pilots, Gang mates,
+Gatemenand all other railway servants on whom this duty is laid
+by theRailway Administration, shall keep a stock of detonators.
+(b) The Railway Administration shall be responsible for the supply,
+renewal, periodical testing and safe custody of such detonators,
+and for ensuring that their use is properly understood.
+(2) Every railway servant concerned with the use of detonators shall have
+a correct knowledge of their use and keep them ready for immediate
+use.
+(3) Every railway servant shall see that the railway servants in his charge
+concerned with the use of detonators have a correct knowledge of
+their use.`,
+            },
+            {
+                id: 65,
+                title: 'The signals to be used to warn the incoming train of an obstruction shall be a red flashing hand signal lamp at night or a red flag during day',
+                rule: 'GR 3.65',
+                description: `The signals to be used to warn the incoming train of an obstruction shall
+be a red flashing hand signal lamp at night or a red flag during day.`,
+            },
+            {
+                id: 66,
+                title: 'Use of warning signals',
+                rule: 'GR 3.66',
+                description: `When it becomes necessary to protect an obstruction in a block section, a
+signal may be used, as prescribed by special instructions under rule 3.65,
+while the railway servant proceeds to place detonators.`,
+            },
+            {
+                id: 67,
+                title: 'Knowledge and possession of warning signals',
+                rule: 'GR 3.67',
+                description: `(1)(a) All concerned railway servants on whom this duty is laid by the
+Railway Administration shall keep a stock of such signal as may be
+prescribed by special instructions under rule 3.65;
+(b) The Railway Administration shall be responsible for the supply,
+renewal and safe custody of such signals as may be prescribed by
+special instructions under rule 3.65 and for ensuring that their use
+is properly understood;
+(c) The Railway Administration shall supply every Guard, Loco Pilot,
+Patrolman and Gateman working on the Double or Multiple line,
+Ghat, Suburban or Automatic Block Territories with such signal as
+may be prescribed by special instructions under rule 3.65;
+(2) Every railway servant concerned with the use of signals as prescribed
+by special instructions under rule 3.65, shall have a correct
+knowledge of their use and keep them ready for immediate use.
+(3)Every railway servant shall see that the railway servants in his charge
+concerned with the use of warning signals as prescribed by special
+instructions under rule 3.65 have a correct knowledge of their use.`,
+            },
+            {
+                id: 68,
+                title: 'Duties of Station Master generally when a signal is defective',
+                rule: 'GR 3.68',
+                description: `(1) As soon as a Station Master becomes aware that any signal has become
+defective or has ceased to work properly, he shall---
+(a) Immediately arrange to place the signal at ‘on’ if it is not already in that
+position;
+(b) depute competent railway servants with such hand signals and
+detonators as may be required to give signals at the foot of the defective
+signal until he is satisfied that such signal has been put into proper
+working order;
+(c) take action in accordance with Rules 3.69 and 3.70 as may be required
+for movement of trains past the defective signals; and
+(d) report the occurrence to the railway servant responsible for the upkeep
+of the signals, and if the section is controlled, the Controller also.
+(2) When the Station Master receives information of any defect in a signal not
+pertaining to his station from the Loco Pilot or the Guard or any other
+railway servant, he shall immediately inform the Station Master concerned of
+the fact and keep the Controller advised, where the section is controlled.
+(3) In case of signals becoming defective at stations situated on Centralised
+Traffic Control territories, the Centralised Traffic Control Operator on
+becoming aware of such defects shall take action in accordance with Special
+Instructions.`,
+            },
+            {
+                id: 69,
+                title: 'Duties of Station Master when an approach Stop signal is defective',
+                rule: 'GR 3.69',
+                description: `(1) In the event of an Outer or a Home or a Routing signal becoming
+defective, the Station Master shall advise the station in rear and the
+nominated station in rear, save in a case where a signal post telephone
+or a Calling-on signal is provided on the defective signal, in order that
+the Loco Pilots of approaching trains may be warned of the defective
+signal and issued a written authority to pass such signal on receipt of
+Proceed hand signal at the foot of the defective signal.
+(2) The Station Master in rear as referred to in sub-rule (1), on receiving
+the advice of the defective signal, shall immediately acknowledge it
+and advise the Station Master of the station where the signal has
+become defective, of the number of the first train which will be notified of the defective signal and again on receipt of the advice that
+the defective signal has been put into proper working order, shall
+advise the number of the train so notified last.
+(3) The Station Master of the station where, the signal has become
+defective shall, before authorising a train to pass the defective signal,
+ensure that the conditions for taking ‘off’ that signal have been
+fulfilled. He shall then authorise the Loco Pilot to pass the defective
+signal at ‘on’ in one of the following manners—
+(a)When the Loco Pilot of an approaching train has been advised of
+the defective signal at station in rear: by deputing a competent
+railway servant in uniform under clause (b) of sub-rule (1) of Rule
+3.68, to exhibit Proceed hand signal at the foot of the defective
+signal to the approaching train. In such cases, the Station Master
+shall not give Line Clear to the station in rear unless the conditions
+for taking ‘off’ the signal which has become defective, have been
+complied with or
+(b)When the Loco Pilot of an approaching train has not been advised
+of the defective signal at a station in rear: by having a written
+authority, authorising the Loco Pilot to pass the defective signal at
+‘on’, delivered at the foot of the defective signal through a
+competent railway servant or
+(c) by taking ‘off’ the Calling-on signal where provided or
+(d) by authorising the Loco Pilot to pass the defective signal at ‘on’
+over the signal post telephone where provided, in accordance with
+special instructions.
+(4)When the Home signal becomes defective, the Outer shall also be
+deemed to be out of order and the procedure prescribed in sub-rules
+(1), (2) and (3) shall be followed.`,
+            },
+            {
+                id: 70,
+                title: 'Duties of Station Master when a departure Stop signal is defective',
+                rule: 'GR 3.70',
+                description: `(1) In the event of a Starter becoming defective, the Station Master may
+authorise the Loco Pilot to pass such signal by a written authority
+which shall be handed over to the Loco Pilot at the station where the
+defective signal is located and in addition thereto, a competent
+railway servant shall show hand signals to the departing train in
+accordance with the instructions of the Station Master or by taking
+‘off’ the Calling-on signal, if provided under sub-rule (2) of Rule 3.13,
+after the train has been brought to a stand at the defective signal.
+(2) In the event of an Advanced Starter becoming defective, hand signals
+may be dispensed with and the Station Master may authorise the Loco
+Pilot to pass such signal by a written authority, which shall be handed
+over to the Loco Pilot at the station, where the defective signal is
+located:
+Provided that in exceptional circumstances where, under approved
+special instruction, an Advanced Starter protects any points, hand
+signals shall not be dispensed with.
+(3) For the purpose of handing over the written authority mentioned in
+sub-rules (1) and (2), the train shall be stopped at the station where
+the defective signal is located. The written authority to pass a
+defective departure Stop signal shall not be handed over to the Loco
+Pilot unless all the conditions for taking ‘off’ such signal have been
+fulfilled.
+(4) Where under special instructions a Calling-on signal has
+been provided below a departure Stop signal, other than the last Stop
+signal, the Calling-on signal shall not be taken ‘off’, unless the
+conditions for taking ‘off’ the departure Stop signal above it have
+been fulfilled.`,
+            },
+            {
+                id: 71,
+                title: 'Warner or Distant signals defective in the ‘off’ position',
+                rule: 'GR 3.71',
+                description: `(1) (a) If a Warner signal on a post by itself or a Distant signal is out of
+order and cannot be kept in the ‘on’ position, a Stop hand signal
+shall be shown at the foot of the signal. At night, the light or lights
+of the signal shall be extinguished and the trainafter being first
+brought to a stand, may then be hand-signalled past the signal.
+Advice of the defective signal shall be given to the Loco Pilots of
+trains at the station in rear warning them to stop at such signal.
+(b) If a Warner signal placed below a Stop signal becomes defective
+and cannot be kept in the ‘on’ position, the Stop signal above it
+shall be treated as defective and by night the light of the Warner
+signal shall be extinguished.
+(2) If the Warner or Distant signal of an Intermediate Block Post is
+defective and cannot be kept in the ‘on’ position, the Intermediate
+Block Stop signal shall also be kept at ‘on’ and treated as defective
+and action taken as per Rule 3.75.`,
+            },
+            {
+                id: 72,
+                title: 'Warner not to be used when Stop signal is defective',
+                rule: 'GR 3.72',
+                description: `Whenever a Stop signal is defective or ceases to work properly at a station
+provided with Warners, the Warner applying to the line to which the defective
+Stop signal applies shall be kept at ‘on’ until the defective Stop signal is
+rectified.`,
+            },
+            {
+                id: 73,
+                title: 'Passing of a gate Stop signal at ‘on’',
+                rule: 'GR 3.73',
+                description: `(1) When a Loco Pilot finds a gate Stop signal at ‘on’, he shall sound the
+prescribed code of whistle and bring his train to a stop in rear of the
+signal.
+(2) (a) If the gate Stop signal is provided with a ‘G’ marker, the Loco Pilot
+shall wait at the signal for one minute by day and two minutes by
+night, and if the signal is not taken ‘off’ within this period, he may
+draw his train ahead cautiously up to the level crossing and
+(b) if the Gateman is available and exhibiting hand signals, proceed
+further past the gate cautiously or
+(c) if the Gateman is not available or is available but not exhibiting
+hand signals, he shall stop short of the level crossing, where he
+shall then be hand signaled past the gate by the Gateman, if there
+is one or in the absence of a Gateman, by one of the members of
+the engine crew of the train after ascertaining that the gates are
+closed against the road traffic.
+(3) If the Loco Pilot finds, after stopping at the signal, that there is no ‘G’
+marker, he shall proceed further only in accordance with the
+procedure laid down under special instructions.`,
+            },
+            {
+                id: 74,
+                title: 'Absence of a fixed signal or a signal without a light',
+                rule: 'GR 3.74',
+                description: `(1) (a) If there is no fixed signal at a place where a fixed signal is
+ordinarily shown, or
+(b) if the light of a signal is not burning when it should, or
+(c) if a white light is shown in place of a colour light, or
+(d) if the aspect of a signal is misleading or imperfectly shown, or
+(e) if more than one aspect is displayed,
+the Loco Pilot shall act as if the signal was showing its most
+restrictive aspect,
+provided that, during night in the case of a semaphore Stop signal for
+approaching trains only, if the Loco Pilot finds the signal light
+extinguished, he shall bring his train to a stop at such signal. If he
+finds that the day aspect of such signal is clearly visible and is
+satisfied that the signal is in the ‘off’ position, he shall proceed past it
+up to the station cautiously at a restricted speed obeying all
+intermediate Stop signals, if any, relating to him and report the matter
+to the Station Master for necessary action.
+(2) At stations equipped with a colour light signal provided with a ‘P’
+marker, the Loco Pilot shall bring his train to a stand if it does not
+show any light or shows an imperfect aspect and having satisfied
+himself that the signal is provided with a ‘P’ marker, shall proceed
+preparing to stop at the next Stop signal and shall be guided further
+by its aspect.`,
+            },
+            {
+                id: 75,
+                title: 'Passing of Intermediate Block Stop signal at ‘ON’',
+                rule: 'GR 3.75',
+                description: `(1) When a Loco Pilot finds an Intermediate Block Stop signal at ‘on’, he
+shall stop his train in rear of the signal and contact the Station Master
+of the block station in rear on the telephone, if provided on the signal
+post.
+(2) The Station Master shall authorise the Loco Pilot to pass the
+Intermediate Block Stop signal, if defective, as prescribed by special
+instructions.
+(3) If the telephone is not provided or is out of order, the Loco Pilot after
+waiting for 5 minutes at the signal shall pass it at ‘on’ and proceed
+cautiously and be prepared to stop short of any obstruction, at a
+speed not exceeding 15 kilometres an hour if he has a good view of
+the line ahead, otherwise at a speed not exceeding 8 kilometres an
+hour and report the failure to the Station Master at the block station
+ahead.
+(4) The Station Master of the block station working the Intermediate Block
+Stop signal on becoming aware that such a signal is defective shall,
+before dispatching a train, treat the entire section up to the block
+station immediately ahead of the Intermediate Block Post as one block
+section and issue a written authority to the Loco Pilot to pass the
+defective Intermediate Block Stop signal at ‘on’, without stopping at
+the signal, in accordance with the procedure prescribed by special
+instructions.`,
+            },
+            {
+                id: 76,
+                title: 'Intimation to officials when defects remedied',
+                rule: 'GR 3.76',
+                description: `As soon as a defective signal has been put into good working order, the
+Station Master shall intimate the fact to the officials who were advised of its
+being defective.`,
+            },
+            {
+                id: 77,
+                title: 'Defective or damaged points etc',
+                rule: 'GR 3.77',
+                description: `(1)Whenever points, crossings or guard rails are defective or damaged,
+the railway servant in charge of operation of points shall protect them
+and immediately arrange to report the circumstances to the Station
+Master.
+(2) The Station Master, on becoming aware of such defective or damaged
+points etc., shall -
+(a) immediately arrange to have the defect rectified by the railway
+servant responsible for their maintenance,
+(b) arrange to ensure the safe passage of trains, and
+(c) keep the signal or signals concerned at ‘on’ until the defect is
+rectified.`,
+            },
+            {
+                id: 78,
+                title: 'Duties of engine crew in respect of signals',
+                rule: 'GR 3.78',
+                description: `(1)(a)The Loco Pilot shall pay immediate attention to and obey every
+signal whether the cause of the signal being shown is known to
+him or not;
+(b)The Loco Pilot, shall not, however, trust entirely to signal,but
+always be vigilant and cautious.
+(2)(a) The Loco Pilot shall whistle intermittently when his engine
+explodes detonator(s) and take every possible caution including
+reduction of speed as necessary, so as to have the train well under
+his control and be able to stop short of any obstruction on the line;
+(b) In thick, foggy or tempestuous weather impairing visibility and his
+engine explodes two detonators within a distance of 10 metres
+apart, the Loco Pilot will control his train immediately and will
+follow the aspect of the fixed signal ahead within a distance of 270
+metres.
+(c)When Loco Pilot explodes three detonators within a distance of 40
+metres, he should control his train and move cautiously to stop
+short of any obstruction and be guided by the signal that he may
+receive and / or if no hand signal or other hand signals are at once
+visible to him he will follow the procedure as given in Para (d) & (e)
+(d)After proceeding 1.5 kilometres from the place where his engine
+exploded detonator(s), if his engine does not explode any more
+detonator(s), he may then resume authorized speed; and
+(e) Report the incident to the next station or cabin.
+(3) If in consequence of fog, storm or any other reason, the view of the
+signal is obstructed, the Loco Pilot shall take every possible
+precaution, so as to have the train well under control.
+(4) When the Loco Pilot notices a signal warning of an obstruction, except
+Detonator(s), he shall stop his train immediately and act on advice of
+the person exhibiting warning signal or on the basis of obstruction
+noticed by him.
+(5) In case no further details of exhibition of warning signal are noticed,
+after stopping for one minute by day and two minutes by night to
+ascertain the location and/or cause of the warning, he shall proceed
+cautiously up to the next block station, keeping a sharp look out.
+(6) The Loco Pilot shall acquaint himself with the system of working,
+location of signals and other local conditions affecting the running of
+trains on a section or sections of the railway over which he is to work
+and if he is not so acquainted with any portion of the railway over
+which he is to work, obtain the services of a qualified railway servant
+who is conversant with it to assist him.`,
+            },
+            {
+                id: 79,
+                title: 'Duties of Loco Pilot in respect of Calling-on signal',
+                rule: 'GR 3.79',
+                description: `The Loco Pilot of a train shall be guided always by the indication of the Stop signal
+below which the Calling-on signal is fixed. If this Stop signal is at ‘on’, he shall bring
+his train to a stop. If he finds that the Calling-on signal is taken ‘off’, he shall, after
+bringing his train to a stop, draw ahead with caution and be prepared to stop short of
+any obstruction.
+`,
+            },
+            {
+                id: 80,
+                title: 'Duties of Loco Pilot when an approach Stop signal is ‘on’ or defective',
+                rule: 'GR 3.80',
+                description: `(1) The Loco Pilot of a train shall not pass an Outer, a Home or a Routing signal
+that refers to him, when it is ‘on’ or defective, unless-
+(a) he has, at a previous station, received notice in writing specifying that
+the signal is out of order and unless he also receives a Proceed hand
+signal from a railway servant in uniform at the foot of such signal; or
+(b) after coming to a stand, he is either given a written authority by the
+Station Master to proceed past such signal or is authorised by a Callingon
+signal in the ‘off’ position or is authorised by the Station Master over
+the signal post telephone in accordance with special instructions.
+(2) The Loco Pilot of a train while passing an Outer, a Home or a Routing signal,
+when it is ‘on’ or defective, shall ensure that the speed of his train does not
+exceed 15 kilometres an hour.
+`,
+            },
+            {
+                id: 81,
+                title: 'Duties of Loco Pilot when a departure Stop signal is ‘on’ or defective',
+                rule: 'GR 3.81',
+                description: `(1) The Loco Pilot of a train shall not pass a departure Stop signal that refers to
+him, when it is ‘on’ or defective, unless his train has been brought to a stop
+at the station where the defective signal is situated and he is authorised to
+do so —
+(a) by a written permission from the Station Master, in addition, in the case
+of a Starter or Advanced Starter protecting points, he shall not pass such
+signals, when ‘on’ or defective, unless he also receives a Proceed hand
+signal from a duly authorised member of the station staff posted at the
+signal, or
+(b) by taking ‗off‘ the Calling-on signal, if provided under special
+instructions, vide sub-rule (2) of Rule 3.13. (Item no. 8 of AS-11 dt.
+22.08.2023)
+(2) In the case of a last Stop signal, he shall not pass such signal, when
+‗on‘ or defective, unless he is also in possession of a proper authority
+to proceed under the system of working.
+`,
+            },
+            {
+                id: 82,
+                title: 'Permission before entering on or crossing a running line',
+                rule: 'GR 3.82',
+                description: `No Loco Pilot shall take his engine on or across any running line until he
+has obtained the permission of the Station Master and has satisfied
+himself that all the correct signals have been shown.
+`,},
+            {
+                id: 83,
+                title: 'Assistance of the engine crew regarding signals',
+                rule: 'GR 3.83',
+                description: `(1) The Loco Pilot and Assistant Loco Pilot, as the case may be, shall
+identify each signal affecting the movement of the train as soon as it
+becomes visible. They shall call out the aspects of the signals to each
+other.
+(2) The Assistant Loco Pilot shall, when not otherwise engaged, assist the
+Loco Pilot in exchanging signals as required.
+(3) The provisions of sub-rules (1) and (2) shall, in no way, absolve the
+Loco Pilot of his responsibility in respect of observance of and
+compliance with the signals.
+`,},
+            {
+                id: 84,
+                title: 'Duties of Loco Pilots as to signals when two or more engines are attached to a train',
+                rule: 'GR 3.84',
+                description: `When two or more engines are attached to a train, the Loco Pilot of the leading
+engine shall be responsible for the observance of and compliance with the
+signals and the Loco Pilot or Loco Pilots of other engine or engines shall
+watch for and take signals from the Loco Pilot of the leading engine, except in
+cases where special instructions are issued to the contrary.
+`,},
+            {
+                id: 85,
+                title: 'Reporting of defects in signals',
+                rule: 'GR 3.85',
+                description: `(1) Should a Loco Pilot or a Guard observe that a signal is rendered
+imperfectly visible by branches of trees or by any other cause, or that
+a signal light is partially obscured or not burning brightly enough to
+give a clear aspect, he shall report the matter to the Station Master at
+the next station at which the train stops.
+(2) When such a report is made by a Loco Pilot or a Guard, the Station
+Master shall take immediate steps to advise the Station Master
+concerned who shall get it rectified.`,},
         ]
     },
     {
         id: 4,
-        chapter: 'Chapter 4 - General',
-        pages: []
-    }
-]
+        chapter: 'Chapter 4 - WORKING OF TRAINS GENERALLY',
+        pages: [
+            {
+                id: 1,
+                title: 'Standard time',
+                rule: 'GR 4.01',
+                description: `The working of trains between stations shall be regulated by the standard time
+prescribed by the Government of India, which shall be transmitted daily to all
+the principal stations of the Railway at 16.00 hours in the manner prescribed.`},
+            {
+                id: 2,
+                title: 'Adherence to advertised time',
+                rule: 'GR 4.02',
+                description: `No passenger train or mixed train shall be dispatched from a station before the
+advertised time.`},
+            {
+                id: 3,
+                title: 'Setting watch',
+                rule: 'GR 4.03',
+                description: `Before a train starts from a terminal or crew-changing station, the Guard shall
+set his watch by the station clock or the clock at the authorised place of
+reporting for duty and communicate the time to the Loco Pilot who shall set his
+watch accordingly.`,},
+            {
+                id: 4,
+                title: 'Time of attendance for train crew',
+                rule: 'GR 4.04',
+                description: `Every Guard, Loco Pilot and Assistant Loco Pilot shall be in attendance for
+duty at such place and at such time as may be prescribed by special
+instructions.`,},
+            {
+                id: 5,
+                title: 'Proper running line',
+                rule: 'GR 4.05',
+                description: `The Loco Pilot shall take his train along the proper running line.`,},
+            {
+                id: 6,
+                title: 'Direction of running',
+                rule: 'GR 4.06',
+                description: `(1) On a double line, every train shall run on the left hand line unless
+otherwise prescribed by special instructions.
+(2) If there are two or more parallel lines, the direction in which trains are
+to run on each line shall be prescribed by special instructions.`,},
+            {
+                id: 7,
+                title: 'Supply of Working Time Table and Schedule of Standard Dimensions',
+                rule: 'GR 4.07',
+                description: `(1) A copy of the Working Time Table for the time being in force shall be
+supplied to each station, Guard, Loco Pilot, Inspector of Way or
+Works, and any other railway servant requiring the use of the Working
+Time Table during the course of his duties.
+(2) A copy of the Working Time Table shall, on issue, be supplied to the
+Commissioner of Railway Safety.
+(3) A copy of the Schedule of Standard Dimensions for the time being in
+force shall be supplied to each Inspector of Way or Works and Train
+Examiner.`,},
+            {
+                id: 8,
+                title: 'Limits of speed generally',
+                rule: 'GR 4.08',
+                description: `(1) (a) Every train shall be run on each section of the railway within the
+limits of speed sanctioned for that section by special
+instructions. (Item no. 2 of AS-6 dt. 03.01.2023)
+(b) The sectional speed sanctioned and permanent speed
+restrictions shall be shown in the Working Time Table.
+(c) The Loco Pilot shall observe the sanctioned sectional speed
+except when either one speedometer in case of electric loco or
+two speedometers in case of other locomotives are defective. In
+such cases of defective speedometers, both the maximum
+permissible speed and booked speed of coaching train shall be
+reduced by 10 % from the speed otherwise permissible.
+(2) The Loco Pilot shall.—
+(a) regulate and control the running of the train according to the
+Working Time Table, so as to avoid either excessive speed or
+loss of time, and
+(b) not make up between any two stations more time than is allowed
+in this behalf in the Working Time Table, and shall also observe
+all speed restrictions.
+(3) When it is necessary to indicate to the Loco Pilot where trains are to
+run at a restricted speed or where trains have to come to a stop due to
+the line being under repairs or due to any other obstruction, action
+shall be taken as specified in Rule 15.09.`,},
+            {
+                id: 9,
+                title: 'Caution Order',
+                rule: 'GR 4.09',
+                description: `(1) Whenever, in consequence of the line being under repair or for any
+other reason, special precautions are necessary, a Caution Order
+detailing the kilometers between which such precautions are
+necessary, the reasons for taking such precautions, and the speed at
+which a train shall travel, shall be handed to the Loco Pilot at the
+stopping station immediately short of the place where such
+precautions are necessary, or at such other stations and in such
+manner, as prescribed under special instructions.
+(2) Sub-rule (1) does not apply in the case of long continued repairs when
+fixed signals are provided at an adequate distance short of such place
+and have been notified to the running staff concerned.
+(3) The Caution Order referred to in sub-rule (1) shall be on white paper in
+blue or black font or typed or made out on computers with the words
+‘Caution Order’ written on top of the form in bold letters of appropriate
+font size to draw attention distinctly and signed in full.`,},
+            {
+                id: 10,
+                title: 'Limits of speed over facing points',
+                rule: 'GR 4.10',
+                description: `(1) The speed of trains over non-interlocked facing points shall not exceed
+30 kilometres an hour in any circumstances and the speed over turnouts
+and crossovers shall not exceed its permissible speed or 30
+kilometres an hour whichever is less, unless otherwise prescribed by
+approved special instructions, which may permit a higher speed.
+(2) Subject to the provisions of sub-rule (1), a train may run over interlocked
+facing points at such speed as may be permitted by the standard of
+interlocking.`,},
+            {
+                id: 11,
+                title: 'Limits of speed while running through stations',
+                rule: 'GR 4.11',
+                description: `(1) No train shall run through an interlocked station at a speed exceeding50
+Kilometers an hour, or such less speed as may be prescribed by
+approved special instructions unless the line on which the train is to run
+has been isolated from all other lines by the setting of points or other
+approved means, and interlocking is such as to maintain this condition
+during the passage of the train.
+(2) In every case in which trains are permitted to run through on a nonisolated
+line, all shunting shall be stopped and no vehicle unattached to
+an engine or not properly secured in accordance with Rule 5.23 may be
+kept standing on a connected line which is not isolated from the through
+line.
+`,},
+            {
+                id: 12,
+                title: 'Engine pushing',
+                rule: 'GR 4.12',
+                description: `(1) No engine or self-propelled vehicle shall push any train outside station
+limits, except in accordance with special instructions and at a speed not
+exceeding 25 kilometres an hour:
+Provided that this sub-rule shall not apply to a train the leading vehicle of
+which is equipped with driving apparatus and which may be operated
+under approved special instructions:
+Provided further that this sub-rule shall not apply to an engine, assisting
+in rear of a train, which may be permitted under approved special
+instructions to run without being coupled to the train:
+Provided also that no train which is not equipped with continuous
+vacuum/air brake shall be pushed outside station limits except in caseof
+emergency:
+Provided further that a ‘Patrol’ or ‘Search-light’ special with one or more
+vehicles in front of the engine may be permitted to run at a maximum
+speed of 40 kilometers an hour.
+(2) For movement of trains outside station limits with engine pushing during
+night or in thick, foggy or tempestuous weather impairing visibility or
+where otherwise prescribed by special instructions, the leading vehicle of
+such trains shall be equipped with the prescribed head light and marker
+lights except in case of emergency.
+(3) When trains are worked as described in sub-rules (1) and (2), the
+engine pushing the load when it is the rearmost or the rearmost
+vehicle if any, shall carry a tail board or a tail lamp.
+`,},
+            {
+                id: 13,
+                title: 'Limits of speed with engine tender foremost',
+                rule: 'GR 4.13',
+                description: `(1) (a) A passenger train or a mixed train shall not be drawn outside
+station limits by a steam engine running tender foremost, except-
+(i) under a written order issued by the authorised officer; or
+(ii) in a case of unavoidable necessity, to be established by the
+Loco Pilot.
+(b) When any such train is so drawn, the speed shall not exceed 25
+kilometres an hour, or such higher speed, not exceeding 40
+kilometres an hour, as may be authorised by approved special
+instructions.
+(2) In cases of unavoidable necessity, goods trains may run with steam
+engines tender foremost at a speed not exceeding 25 kilometres an
+hour or such higher speed, which shall, in no circumstances, exceed
+40 kilometres an hour, as may be laid down by special instructions.
+(3) When trains have to be worked with steam engines tender foremost as
+a regular measure under sub-clause (i) of clause (a) of sub-rule (1) and
+sub-rule (2), the head light and marker lights as prescribed in Rule
+4.14 shall be provided on the tender.
+`,},
+            {
+                id: 14,
+                title: 'Head light, marker lights and speedometer',
+                rule: 'GR 4.14',
+                description: `(1) A train shall not be worked at night or in thick, foggy or tempestuous
+weather impairing visibility or in long tunnels, unless the engine
+carries an electric headlight of an approved design and in addition,
+two oil or electric white marker lights.
+(2) An engine employed exclusively on shunting at stations and yards
+shall, at night or during thick, foggy or tempestuous weather
+impairing visibility, display such head lights as are prescribed by the Railway Administration and exhibit two red marker lights in front and
+in rear.
+(3) The electric head light on the engine shall be fitted with a switch to
+dim the light and shall be dimmed -
+(a) when the train remains stationary at a station;
+(b) when the train is approaching another train which is running in
+opposite direction on double or multiple track of same or different
+gauges; and
+(c) on such other occasions as may be prescribed by special
+instructions.
+(4) In case the electric head light fails or a train has to be worked with the
+engine running tender foremost in an emergency, the engine shall
+display the two oil or electric white marker lights referred to in subrule
+(1) pointing in the direction of movement and the train shall run at
+a speed prescribed by special instructions.
+(5) In case of defective electric head light of locomotive running in a
+section provided with reflective type of engineering fixed signal
+during night or thick, foggy weather impairing visibility, on BG and
+MG, the Loco Pilot shall work the train cautiously at a speed not
+exceeding the severest temporary speed restriction imposed in the
+block section or 40 KMPH, whichever is less .
+(6) Coaching locos should not be turned out from home shed if the
+speedometers/recorders are in defective condition. In case of
+speedometer/recorder becoming defective during the run, the train
+should run at a speed prescribed by special instructions.`,},
+            {
+                id: 15,
+                title: 'Tail and side lights',
+                rule: 'GR 4.15',
+                description: `(1) At night or in thick, foggy or tempestuous weather impairing visibility,
+no train shall be worked outside station limits unless it has-
+(a) in the case of an engine with vehicles attached, save in a case to
+which sub-rule (2) applies, at least one red tail light and two side
+lights showing red towards the rear and white towards the engine:
+provided that, provision of side lights on goods trains and electric
+multiple unit trains may be dispensed with.
+(b) in the case of a single engine without vehicles attached at least
+one red tail light; and
+(c) in the case of two or more engines coupled together without
+vehicles attached, at least one red tail light affixed to the rear
+engine.
+(2) A colliery pilot i.e., a train used for collecting or distributing vehicles
+in colliery sidings, when working in a block section or in the colliery
+sidings taking off from a block section, need carry a red tail light only
+as it enters or leaves the block station, at either end of such block
+section, provided that special instructions are issued to ensure that
+no other train is permitted to proceed into the block section until the
+Guard of the colliery pilot has certified that he has left no vehicle
+obstructing the block section in which he has been working.
+(3) When trains may run in the same direction on parallel lines, the side
+lights mentioned in clause (a) of sub-rule (1) may be arranged in
+accordance with special instructions.
+(4) When a train has been shunted for a following train to pass, the tail
+and side lights mentioned in clause (a) of sub-rule (1) shall be dealt
+with in accordance with special instructions.
+(5) Within station limits or in a siding, an engine employed in shunting
+shall have tail lights in accordance with special instructions.`,},
+            {
+                id: 16,
+                title: 'Tail board or tail lamp',
+                rule: 'GR 4.16',
+                description: `(1) In order to indicate to the staff that a train is complete, the last vehicle
+shall, except as provided for in sub-rule (2), be distinguished by
+affixing to the rear of it-
+(a) by day, a tail board of approved design or a red painted tail lamp of
+approved design which may be unlit or
+(b)by night, as well as in thick, foggy or tempestuous weather
+impairing visibility during day, a red tail lamp of approved design
+displaying flashing red light to indicate last vehicle check device
+or
+(c) such other device as may be authorised by special instructions.
+(2) A colliery pilot, i.e., a train used for collecting or distributing vehicles
+in colliery sidings when working in a block section or in the colliery
+sidings taking off from a block section, need carry a tail board or tail
+lamp or such other device as may be authorised by special
+instructions, only as it enters or leaves the block station at either end
+of such block section, provided that special instructions are issued to
+ensure that no other train is permitted to proceed into the block
+section until the Guard of the colliery pilot certifies that he has left no
+vehicle obstructing the block section in which he has been working.
+(3) In emergencies only, and under special instructions in each case, a
+red flag may be used in lieu of a tail board or an unlit tail lamp.
+`,},
+            {
+                id: 17,
+                title: 'Responsibility of Station Master regarding tail board or tail lamp of passing trains',
+                rule: 'GR 4.17',
+                description: `(1) The Station Master shall see that the last vehicle of every train passing
+through his station is provided with a tail board or tail lamp or such
+other device in accordance with the provisions of Rule. 4.16.
+(2) If a train passes the station without such indication to show that it is
+complete, the Station Master shall-
+(a) immediately advise the station in advance to stop the train to see
+that the defect is remedied and to advise whether or not the train is
+complete,
+(b)meanwhile withhold the closing of the block section to ensure that
+no train is allowed to enter the block section from the station in
+rear and
+(c) unless the station in advance has advised that the train is
+complete, neither consider the block section in rear as clear nor
+close it.
+(3) Where in a section, a block proving axle counter or continuous track
+circuiting between block stations and complete track circuiting of
+station section excluding non-running lines of the receiving station is
+installed and is functioning and there is a clear indication of clearance
+of block section as well as complete arrival of the train as per
+indication given, if a train passes a station without conforming to the
+provisions of sub-clause (1) above, the Station Master shall still advise
+the station in advance to stop the train to see that the defect is
+remedied and he need not withhold closing of block section in rear as
+prescribed in clause (b) and (c) of sub-rule (2) in such cases.
+`,},
+            {
+                id: 18,
+                title: 'Means of communication',
+                rule: 'GR 4.18',
+                description: `(1) No passenger train or mixed train shall be despatched from any
+station, unless every passenger carriage is provided with means by
+which communication can be made with the Guard or the Loco Pilot.
+(2) Sub-rule (1) shall not apply to -
+(a) passenger or mixed trains in case of complete or partial failure of
+vacuum; and
+(b) such particular trains as may be exempted under approved special
+instructions.
+(3) If a Railway Administration is satisfied that mischievous use of the
+means of communication referred to in sub-rule (1) is prevalent, it
+may, notwithstanding anything contained in that sub-rule, direct the
+disconnection, for the time being, of the means of communication
+provided in all or any of the passenger carriages in any such train.
+(4) A goods vehicle in which passengers are carried is not a “passenger
+carriage” within the meaning of this rule.
+`,},
+            {
+                id: 19,
+                title: 'Guard’s and Loco Pilot’s equipment',
+                rule: 'GR 4.19',
+                description: `(1) Each Guard and Loco Pilot shall have with him, while on duty with his
+train, the following equipment-
+(a) a copy of these rules or such portions thereof as have been
+supplied to him under Rule 2.01,
+(b) a copy of the Working Time Table, and all correction slips and
+appendices, if any, in force on that section of the railway over
+which the train is to run,
+(c) a hand signal lamp,
+(d) a whistle (for Guards only),
+(e) a red flag and a green flag,
+(f) a stock of detonators sufficient to comply with the relevant rules
+as may be prescribed by special instructions,
+(g) a first aid box (for Guards of passenger carrying trains only), and
+(h) such other articles as may be prescribed by the Railway
+Administration in this behalf.
+(2) If any Guard or Loco Pilot is not in possession of any article
+mentioned or referred to in sub-rule (1), he shall report the fact to his
+superior who shall make good the deficiency.
+(3) Each Guard and Loco Pilot shall have with him while on duty with his
+train, two pairs of such spectacles as he is required to wear under
+medical advice.
+Note: Each Guard and Loco Pilot should also be in possession of a watch in
+addition to the equipment prescribed in sub-rule (1).
+`,},
+            {
+                id: 20,
+                title: 'Manning of engine in motion',
+                rule: 'GR 4.20',
+                description: `(1) Except when otherwise provided by special instructions, no engine
+shall be allowed to be in motion on any running line unless the Loco
+Pilot as also the Assistant Loco Pilot are upon it.
+(2) Subject to the provision of sub-rule (3), in no circumstances shall a
+person other than the Loco Pilot or a railway servant duly qualified in
+all respects, drive an engine on any running line.
+(3) If a Loco Pilot becomes incapacitated while the engine is in motion,
+the Assistant Loco Pilot, if duly qualified, may work the train to the
+next station cautiously and where the Assistant Loco Pilot is not duly
+qualified, he shall bring the train to a stop and send a message to the
+Station Master of the nearest station to make arrangements for a Loco
+Pilot to take over the train, and for so doing he may take the
+assistance of the Guard.
+`,},
+            {
+                id: 21,
+                title: 'Driving an electric train',
+                rule: 'GR 4.21',
+                description: `(1) In the case of electric trains, the Loco Pilot shall be in the leading
+driving compartment when the train is in motion or when the train is
+standing on any running line except as otherwise prescribed in these
+rules.
+(2) (a) In the case of a single or multiple unit train, if the driving apparatus
+in the leading driving compartment becomes defective, the train
+shall bedriven cautiously from the nearest driving compartment
+which isserviceable; in this event, the Guard shall travel in the
+leading drivingcompartment and shallconvey the necessary
+signals to the Loco Pilot, the Guard shall also sound the horn or
+whistle as necessary and apply the brake in caseofemergency and
+shall be responsible for stopping thetraincorrectly at signals,
+stations and obstructions.
+(b) In the case of an electric engine, if the leading driving compartment
+becomes defective, the train shall be driven from the trailing
+driving compartment by the Assistant Loco Pilot if he is duly
+qualified to drive; and the Loco Pilot shall remain in the leading
+driving compartment, and shall be responsible for the correct
+operation of the train.
+`,},
+            {
+                id: 22,
+                title: 'Driving an electric train',
+                rule: 'GR 4.22',
+                description: `(1) No person other than the engine crew shall be authorised to ride on
+the engine or tender of a steam locomotive, except in accordance with
+special instructions.
+(2) Except as may be permitted by special instructions, no person other
+than the engine crew shall be authorised to enter any driving
+compartment of a single or multiple unit train or a train propelled by
+electric, diesel or petrol engine.
+(3) Nounauthorised person shall manipulate any apparatus contained
+therein.
+`,},
+            {
+                id: 23,
+                title: 'Brake-vans',
+                rule: 'GR 4.23',
+                description: `(1) No train shall be allowed to enter a block section, unless one or more
+brake-vans or hand braked vehicles are attached to it, except in
+emergency or as provided for under special instructions.
+(2) This rule does not apply to railcars, light engine or light engines
+coupled together.
+`,},
+            {
+                id: 24,
+                title: 'Position of brake-van on train',
+                rule: 'GR 4.24',
+                description: `Unless it be otherwise directed by special instructions, one brake-van shall be
+attached to the rear of the train, provided that reserved carriages or other
+vehicles may, under special instructions, be placed in rear of such brake-van.
+`,},
+            {
+                id: 25,
+                title: 'Guards',
+                rule: 'GR 4.25',
+                description: `(1) Except under special instructions or in an emergency, every running
+train shall be provided with one or more Guards.
+(2) The Guard of a running train shall travel in his brake-van, except-
+(a) in an emergency, or
+(b) under special instructions.
+(3) When a train is worked without a Guard, such of his duties as can be
+performed by the Loco Pilot shall devolve on him as may be specified
+by special instructions.
+`,},
+            {
+                id: 26,
+                title: 'Couplings',
+                rule: 'GR 4.26',
+                description: `No vehicle that is not fitted with a coupling or couplings of approved pattern
+shall be attached to any train.
+`,},
+            {
+                id: 27,
+                title: 'Cranes',
+                rule: 'GR 4.27',
+                description: `(1) No travelling crane shall be attached to a train until it has been
+certified by a duly authorised person that it is in proper running
+order, and with a dummy truck for the jib, if necessary.
+(2) When a crane is to work on any line provided with electric traction or
+any line adjacent to it, the procedure and precautions as laid down
+under special instructions shall also be followed.
+`,},
+            {
+                id: 28,
+                title: 'Loading of vehicles',
+                rule: 'GR 4.28',
+                description: `(1) No travelling crane shall be attached to a train until it has been
+certified by a duly authorised person that it is in proper running
+order, and with a dummy truck for the jib, if necessary.
+(2) When a crane is to work on any line provided with electric traction or
+any line adjacent to it, the procedure and precautions as laid down
+under special instructions shall also be followed.No wagon or truck shall be so loaded as to exceed the maximum
+gross load on the axle fixed under sub-section (1) of section 72 of the
+Act, or such varied carrying capacity if any, as may have been
+prescribed by the Railway Administration under sub-section (4) of
+the said section.
+(2) Except under approved special instructions, no vehicle shall be so
+loaded as to exceed the maximum moving dimensions prescribed
+from time to time by the Railway Board.
+(3) When a load in a truck projects to an unsafe extent beyond the end of
+a truck, an additional truck shall be attached to act as a dummy.
+(4) The Guard shall, unless this duty is by special instructions imposed
+on some other railway servant, carefully examine the load of any open
+truck which may be attached to the train, and if any such load has
+shifted or requires adjustment, shall have the load made secure or the
+truck removed from the train.
+Note: Section 72, referred in para (1) of GR 4.28 is section of the Railways Act,
+1989.
+`,},
+            {
+                id: 29,
+                title: 'Damaged or defective vehicles',
+                rule: 'GR 4.29',
+                description: `(1) No vehicle which has been derailed shall run between stations, until it
+has been examined and passed by a competent Train Examiner:
+Provided that in case of a derailment between stations, the Loco Pilot
+may, if the vehicle has been re-railed and if he considers it safe to do so,
+take such vehicle to the next station at a slow speed.
+(2) If a Guard or Station Master has reason to apprehend danger from the
+condition of any vehicle on a train before it can be inspected by a Train
+Examiner, the Loco Pilot shall be consulted, and if he so requires, the
+vehicle shall be detached from the train.
+`,},
+            {
+                id: 30,
+                title: 'Loco Pilot and Guard to examine notices before starting',
+                rule: 'GR 4.30',
+                description: `Every Loco Pilot and Guard before starting with a train shall examine the
+notices issued for their guidance, and ascertain there from whether there is
+anything requiring their special attention on that section of the Railway over
+which they have to work.
+`,},
+            {
+                id: 31,
+                title: 'Examination of trains before starting',
+                rule: 'GR 4.31',
+                description: `When a train is examined by a Train Examiner at a station, the Station Master
+shall not give permission to start the train until he has received a report from
+such examiner to the effect that the train is fit to proceed and has the
+prescribed brake power.
+`,},
+            {
+                id: 32,
+                title: 'Examination of train by Loco Pilot',
+                rule: 'GR 4.32',
+                description: `The Loco Pilot shall, before the commencement of the journey and after
+performing any shunting en route, ensure –
+a. that his engine is in proper working order,
+b. that the coupling between the engine and the train is properly secured,
+and
+c. that the head light and marker lights as prescribed in sub-rule (1) of
+Rule 4.14 are in good order, and these are kept burning brightly, when
+required.
+`,},
+            {
+                id: 33,
+                title: 'Examination of single and multiple units by Loco Pilot',
+                rule: 'GR 4.33',
+                description: `When coupling single or multiple units or coaches of any such units together,
+the Loco Pilot shall be responsible for observing that all electrical couplings
+are properly made. After all couplings have been made, the Loco Pilot while
+taking over the complete train shall satisfy himself that the control and power
+apparatus and brakes of the complete train are in proper and prescribed
+working order. 4.33.
+`,},
+            {
+                id: 34,
+                title: 'Duties of Guard when taking over charge of a train',
+                rule: 'GR 4.34',
+                description: `The Guard when taking over charge of a train shall satisfy himself, before the
+train is dispatched –
+(a) that the train is properly coupled,
+(b) that the train is provided with the prescribed brake power,
+(c) that the train carries tail board or tail lamp and side lamps and that
+such lamps are lighted and kept burning brightly, when required,
+(d) that the appliance, if any, for communication between the Guard and
+the Loco Pilot, is in proper working order, and
+(e) generally that, as far as he can ascertain, the train is in a state of
+efficiency for travelling.`,},
+            {
+                id: 35,
+                title: 'Starting of trains',
+                rule: 'GR 4.35',
+                description: `(1) A Loco Pilot shall not start his train from a station without the
+authority to proceed. Before starting the train, he shall satisfy himself
+that all correct fixed signals and, where necessary, hand signals are
+given and the line before him, is clear of visible obstructions and the
+Guard has given the signal to start. Guard shall see, before giving the
+starting signal, that all is right for the train to proceed. (Item no. 2 of I of
+AS-3 dt. 31.03.2022)
+(2) The Station Master and Guard may be assigned any role or duty to
+ensure the safety in the manner as specified by special instructions.
+(Item no.3 of I of AS-3 dt. 31.03.2022).
+(3) The Guard shall not give the signal for starting unless he has satisfied
+himself that, except in accordance with special instructions, no
+person is travelling in any compartment or vehicle or roof of the
+vehicle not intended for the use of passengers. (Item no. 4 of I of AS-3).
+(4) In case of any travelling in contradiction to Sub-rule (3), the Guard,
+Loco Pilot or Assistant Loco Pilot shall take help, if necessary from
+Government Railway Police, Railway Protection Force and Station
+Staff to remove the unauthorised person from the compartment or
+vehicle or roof of the vehicle. (Item no. 5 of I of AS-3 dt. 31.03.2022).`,},
+            {
+                id: 36,
+                title: 'Guard to be in charge of train',
+                rule: 'GR 4.36',
+                description: `After the engine has been attached to a train, and during the journey, the Guard
+or (if there be more than one Guard) the Head Guard shall be in charge of the
+train in all matters affecting stopping or movement of the train for traffic
+purposes. In the case of any self-propelled vehicle, such as a motor coach
+without a trailer and unaccompanied by a Guard, the duties of the Guard shall
+devolve on the Loco Pilot.`,},
+            {
+                id: 37,
+                title: 'Subordination of Guards in station limits',
+                rule: 'GR 4.37',
+                description: `When a train is within station limits, the Guard shall be under the orders of the
+Station Master.`,},
+            {
+                id: 38,
+                title: 'Assistant Loco Pilots to obey Loco Pilots',
+                rule: 'GR 4.38',
+                description: `The Assistant Loco Pilots shall obey the lawful orders of their Loco Pilots in all
+particulars.`,},
+            {
+                id: 39,
+                title: 'Loco Pilot to obey certain orders',
+                rule: 'GR 4.39',
+                description: `After an engine has been attached to a train and during the journey, the Loco
+Pilot shall obey-
+(a) the orders of the Guard, in all matters affecting the starting, stopping or
+movement of the train for traffic purposes, and
+(b) all orders given to him by the Station Master or any railway servant
+acting under special instructions, so far as the safe and proper working
+of his engine will admit.`,},
+            {
+                id: 40,
+                title: 'Loco Pilot and Assistant Loco Pilot to keep a good look-out',
+                rule: 'GR 4.40',
+                description: `Every Loco Pilot shall keep a good look-out while the train is in motion, and
+every Assistant Loco Pilot shall also do so when he is not necessarily
+otherwise engaged.`,},
+            {
+                id: 41,
+                title: 'Loco Pilot and Assistant Loco Pilot to look back',
+                rule: 'GR 4.41',
+                description: `The Loco Pilot and the Assistant Loco Pilot shall look back frequently during
+the journey to see whether the train is following in a safe and proper manner.`,},
+            {
+                id: 42,
+                title: 'Exchange of signals between Loco Pilot, Guard and station staff',
+                rule: 'GR 4.42',
+                description: `(1) The Loco Pilot and the Guard of a train shall exchange signals with
+each other, at such times and in such manner as may be prescribed
+by special instructions.
+(2) The Loco Pilot and the Guard of a train shall, while running through a
+station, look out for and, except under special instructions,
+acknowledge the ‗all-right‘ signals which the Station Master and such
+other staff at the station as may be specified by special instructions
+shall give if the train is proceeding in a safe and proper manner. If the
+train is not proceeding in a safe and proper manner, the Station
+Master or the other staff shall exhibit a Stop hand signal on receipt of
+which the Guard and the Loco Pilot shall take immediate steps to
+stop the train.`,},
+            {
+                id: 43,
+                title: 'Guard to keep a good look-out',
+                rule: 'GR 4.43',
+                description: `During the journey including halts at stations, every Guard shall keep a good
+look-out and satisfy himself from time to time that the tail board and brake-van
+lamps are in position and that all brake-van lamps, where required, are burning
+brightly, that the train is complete in every respect and is proceeding in a safe
+and proper manner.
+Note –– The term ―brake-van lamp‖ includes ―tail lamp‖.
+`,},
+            {
+                id: 44,
+                title: 'Train held up at first Stop signal',
+                rule: 'GR 4.44',
+                description: `(1) When a train has, without an apparent cause, been kept standing at
+the first Stop signal for five minutes, the Loco Pilot shall sound the
+prescribed code of whistle to warn the Guard, and the Brakesman
+shall proceed to the cabin or station to warn the Station Master. If
+there is no Brakesman, the Loco Pilot shall depute the Assistant
+Loco Pilot to proceed to the Cabin or station to warn the Station
+Master. The Brakesman or Assistant Loco Pilot proceeding to the
+cabin or station shall show a Stop hand signal towards the station.
+The Guard shall, as soon as the train is stopped at the first Stop
+signal, checkup that the tail board or tail lamp is correctly exhibited
+and shall maintain a vigilant attitude in rear of the train. After fifteen
+minutes or such less time as may be prescribed by special
+instructions, the Guard shall, irrespective of whether the cause is
+apparent or not, proceed to protect the rear of the train in accordance
+with instructions laid down in Rule 6.03. If in the meantime the signal
+is taken ‗off‘, or the Loco Pilot receives the necessary authority to
+pass the signal in the ‗on‘ position, he shall sound the prescribed
+code of whistle to recall the Guard and exchange hand signal with
+him before starting the train.
+(2) In the case of a train not accompanied by a Guard, these duties shall
+devolve on the Loco Pilot.`,},
+            {
+                id: 45,
+                title: 'Attracting attention of Loco Pilot',
+                rule: 'GR 4.45',
+                description: `(1) If any Guard sees reason to apprehend danger or considers it
+necessary for any reason to stop the train, he shall use his best
+endeavors to attract the attention of the Loco Pilot.
+(2) In the absence of other means of communications with the engine, a
+Guard desiring to attract the Loco Pilot‘s attention shall apply his
+hand brake sharply and as suddenly release it, and wherever
+possible, he shall reverse the side lamps to show red towards the
+engine.
+(3) When the attention of the Loco Pilot has been attracted, the
+necessary hand signals shall be shown.
+(4) If the train is fitted with continuous brake, the Guard may, in case of
+emergency, apply such brake gradually to stop the train.`,},
+            {
+                id: 46,
+                title: 'Assistance from Guard‘s hand brake',
+                rule: 'GR 4.46',
+                description: `When the Loco Pilot requires the assistance of Guard‘s hand brake, he shall
+sound the prescribed code of whistle, if necessary repeatedly, or, if a brake
+whistle is provided, sound such whistle, and shall also use other means of
+communication, if provided, between the Loco Pilot and the Guard.
+`,},
+            {
+                id: 47,
+                title: 'Application of Guard‘s hand brake',
+                rule: 'GR 4.47',
+                description: `(1) When the Loco Pilot sounds the prescribed code of whistle or the brake
+whistle, the Guards shall immediately apply their hand brakes.
+(2) When a train is travelling down a steep incline, the Guards shall, if
+necessary to steady the train, assist the Loco Pilot with their hand
+brakes.
+`,},
+            {
+                id: 48,
+                title: 'Permission of Guard to detach engine from train',
+                rule: 'GR 4.48',
+                description: `When a train has been brought to a stand outside station limits or anywhere on
+a grade, the Loco Pilot shall not detach his engine from the train without the
+permission of the Guard who, before giving such permission, shall satisfy
+himself that the van-brakes have been put on securely and take such other
+measures as may be necessary or prescribed by special instructions: Provided that detaching of engines from trains in such cases may be
+prohibited altogether under special instructions wherever considered
+necessary in the interest of safety.
+`,},
+            {
+                id: 49,
+                title: 'Permission of Guard to detach engine from train',
+                rule: 'GR 4.49',
+                description: `The Loco Pilot shall start and stop his train carefully and without a jerk.`,},
+            {
+                id: 50,
+                title: 'Sounding of engine whistle',
+                rule: 'GR 4.50',
+                description: `(1) Except under special instructions, the Loco Pilot shall always sound
+the whistle of the engine according to the prescribed code of whistle–
+(a) before putting an engine in motion ;
+(b) when entering a tunnel ; and
+(c) at such other times and places as may be prescribed by special
+instructions.
+(2) Engine whistle code shall be prescribed under special instructions.
+`,},
+            {
+                id: 51,
+                title: 'Bell signals between Loco Pilot and Guard',
+                rule: 'GR 4.51',
+                description: `When bell communication is provided between the Loco Pilot and the Guard of
+the train, bell signal code, as may be prescribed by special instructions, shall
+be used.
+`,},
+            {
+                id: 52,
+                title: 'Throwing out water, fire or cinders',
+                rule: 'GR 4.52',
+                description: `A Loco Pilot or Assistant Loco Pilot shall not throw out water, fire or cinders,
+when passing through a station yard or tunnel, or when on a bridge.
+`,},
+            {
+                id: 53,
+                title: 'Hose or water crane',
+                rule: 'GR 4.53',
+                description: `After taking water from a tank or water column, the Loco Pilot shall see that the
+hose or arm is left clear of the line and, when it is provided with fastenings,
+properly secured.
+`,},
+            {
+                id: 54,
+                title: 'Passengers',
+                rule: 'GR 4.54',
+                description: `Every Guard shall give his best assistance to passengers entraining and
+detraining.
+`,},
+            {
+                id: 55,
+                title: 'Shutting off power',
+                rule: 'GR 4.55',
+                description: `In stopping a train, the Loco Pilot shall determine where to shut off power by
+paying particular attention to the gradient, the state of the weather, the
+condition of the rails, the brake power and the length and weight of the train.
+`,},
+            {
+                id: 56,
+                title: 'Guard to see that train is stopped clear of fouling marks',
+                rule: 'GR 4.56',
+                description: `When a train comes to a stand at a station, the Guard shall see that, wherever
+possible, the last vehicle of his train has cleared the fouling marks of all points
+and crossings. If not, he shall inform the Station Master at once and exhibit
+Stop hand signal to prevent any movement on the fouled line.
+`,},
+            {
+                id: 57,
+                title: 'Detaching engine',
+                rule: 'GR 4.57',
+                description: `Whenever a train has been brought to a stand, and it is necessary for the
+engine, with or without vehicles, to be detached from the rest of the train, the
+Guard shall, before the train is uncoupled, satisfy himself that the van-brakes
+have been put on securely and take such other measures as may be prescribed
+by special instructions.`,},
+            {
+                id: 58,
+                title: 'Loco Pilot to see that train is stopped clear of fouling marks',
+                rule: 'GR 4.58',
+                description: `When a train comes to a stand at a station, the Loco Pilot shall see that,
+wherever possible, his engine is clear of the fouling marks of all points and
+crossings. If not, he shall take steps to inform the Station Master at once and
+exhibit Stop hand signal to prevent any movement on the fouled line.`,},
+            {
+                id: 59,
+                title: 'Moving of train carrying passengers after it has been stopped at a station:',
+                rule: 'GR 4.59',
+                description: `When a train carrying passengers has been brought to a stand at a station,
+whether alongside, beyond or short of the platform, the Loco Pilot shall not
+move it, except under orders of the Guard or to avert an accident.`,},
+            {
+                id: 60,
+                title: 'Guard not to leave train till handed over',
+                rule: 'GR 4.60',
+                description: `No Guard shall leave his train until it has been properly handed over in
+accordance with special instructions.
+`,},
+            {
+                id: 61,
+                title: 'Loco Pilot not to leave engine when on duty',
+                rule: 'GR 4.61',
+                description: `No Loco Pilot shall leave his working locomotive or his self-propelled vehicle
+when on duty, whether at a station or on a running line, except in case of
+absolute necessity and after a competent railway servant as been placed in
+charge of the locomotive or self-propelled vehicle. In the case of a selfpropelled
+vehicle manned by a Loco Pilot only, a Loco Pilot may leave it when
+necessary, provided he has locked the cabs and has put the vehicle in low gear
+with the ignition switch in the off position and has screwed down and locked
+the hand brake.
+`,},
+            {
+                id: 62,
+                title: 'Working of a material train in a block section',
+                rule: 'GR 4.62',
+                description: `A material train shall be worked only with the permission of the Station Masters
+on each side and in accordance with special instructions.
+`,},
+            {
+                id: 63,
+                title: 'Workers on material train',
+                rule: 'GR 4.63',
+                description: `The Guard of a material train shall, before giving the signal to start, see that all
+the workers are on the train, and warn them to sit down`,},
+            {
+                id: 64,
+                title: 'Protection of material train when stabled',
+                rule: 'GR 4.64',
+                description: `(1) No Loco Pilot or Guard shall enter the cab of a train while it is in motion.
+(2) No Loco Pilot or Guard shall remain in the cab of a train while it is in
+motion, except for the purpose of securing or repairing a fault in the
+train.`,},
+            {
+                id: 65,
+                title: 'Working of track maintenance machines',
+                rule: 'GR 4.65',
+                description: `Track laying or on track tamping or maintenance machines shall be worked
+only with the permission of the Station Master and in accordance with special
+instructions.`,},
+            {
+                id: 66,
+                title: 'Private engines and vehicles',
+                rule: 'GR 4.66',
+                description: `No engine or other vehicle, which are the property of a private owner, shall be
+allowed to enter upon the railway, except in accordance with special
+instructions.`,},
+        ],
+        
+    },
+    {
+        id: 5,
+        chapter: 'Chapter V - CONTROL AND WORKING OF STATIONS', 
+        pages: [
+            {
+                id: 1,
+                title: 'Responsibility of the Station Master for working',
+                rule: 'GR 5.01',
+                description: `(1) The Station Master shall be responsible for the efficient discharge of
+his duties devolving upon the staff employed, either permanently or
+temporarily, under his orders at the station or within the station limits
+and such staff shall be subject to his authority and direction in the
+working of the station.
+(2) The Station Master shall see that all signals, points, gates of level
+crossings and the whole machinery of his station are in proper
+working order and shall immediately report all defects therein to the
+proper authority.
+(3) The Station Master shall also be responsible to see that the working of
+the station is carried out in strict accordance with the rules and
+regulations for the time being in force.
+(4) No person other than the Station Master shall ask for or give Line
+Clear, or give authority to proceed.
+`,},
+{
+    id: 2,
+    title: 'Supply of copies of rules and distribution or exhibition of other documents',
+    rule: 'GR 5.02',
+    description: `The Station Master shall see–
+(a) that every railway servant subordinate to him who should be supplied
+with a copy of authorised translation of these rules under Rule 2.01
+duly receives the same;
+(b) that the Working Time Table in force together with all correction slips
+and appendices, if any, working rules and instructions, and other
+notices having reference to the working of the line, are properly
+distributed or exhibited in such manner as may be prescribed under
+special instructions;
+(c) that both the sheet time tables and fare lists are correctly exhibited at
+the station if it is open for the booking of traffic; and
+(d) that copies of the Act, and the Goods and Coaching Tariffs are
+available for inspection by the public.`,},
+            ]
+            }
+            ]
