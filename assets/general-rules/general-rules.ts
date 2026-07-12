@@ -3399,7 +3399,834 @@ shall not be less than-
 colour light signalling, and
 (b)180 metres in case of multiple-aspect signalling or modified lower
 quadrant signalling.`},
+{
+    id: 2,
+    title: 'Conditions for granting Line Clear at a class "A" station',
+    rule: 'GR 8.02',
+    description: `At a class "A" station on Single line or double line, the line shall not be
+considered clear and Line Clear shall not be given, unless--
+(a) the whole of the last preceding train has arrived complete ;
+(b) all signals have been put back to ‘on’ behind the said train;
+(c) the line on which it is intended to receive the incoming train is clear
+up to the Starter; and
+(d) all points have been correctly set and all facing points have been
+locked for the admission of the train on the said line.`},
+{
+    id: 3,
+    title: 'Conditions for granting Line Clear at a class "B" station',
+    rule: 'GR 8.03',
+    description: `(1) At a class ‘B’ station on double line, the line shall not be considered
+clear and Line Clear shall not be given, unless -
+(a) the whole of the last preceding train has arrived complete ;
+(b) all necessary signals have been put back to ‘on’ behind the said
+train; and
+(c) the line is clear -
+(i) at stations equipped with two-aspect signalling –up to the Home
+signal, or
+(ii) at stations equipped with multiple-aspect signalling or modified
+lower quadrant signalling – upto the outermost facing points or
+the Block Section Limit Board (if any).
+(2) At a class ‘B’ station on single line, the line shall not be considered
+clear and Line Clear shall not be given, unless –
+(a) the whole of the last preceding train has arrived complete;
+(b) all necessary signals have been put back to ‘on’ behind the said
+train; and
+(c) the line is clear –
+(i) at stations equipped with two-aspect signalling –
+a) upto the Shunting Limit Board or Advanced Starter (if any)
+at that end of the station nearest to the expected train, or
+b) upto the Home signal if there is no Shunting Limit Board or
+Advanced Starter, or
+c) upto the outermost facing points if there is no Shunting Limit
+Board or Advanced Starter or Home signal;
+(ii) at stations equipped with multiple-aspect signalling or modified
+lower quadrant signalling –
+a) Upto the Shunting Limit Board or Advanced Starter (if any )
+at the end of the station nearest to the expected train, or
+b) Upto the outermost facing points if there is no Shunting
+Limit Board or Advanced Starter.
+Note.–– At a class ‘B’ single line station, this rule does not forbid direct
+reception of a train from one side, when Line Clear has been given to the block
+station on the other side provided the distance between the Outer signal and
+outermost facing points in two aspect signalling, and between the Home signal
+and outer most facing points in multiple-aspect signalling, or modified lower
+quadrant signalling is not less than the sum-total of the adequate distances
+prescribed in Rule 8.01 in regard to conditions for granting Line Clear and Rule
+3.40 in regard to conditions for taking ‘off’ Home signal for the admission of a
+train even where Shunting Limit Boards or Advanced Starters have not been
+provided as prescribed in sub-rule (1) of Rule 3.32. See illustrative diagrams at
+the end of this chapter.`},
+{
+    id: 4,
+    title: 'Conditions for granting Line Clear at a class "C" station',
+    rule: 'GR 8.04',
+    description: `At a class ‗C‘ station on single line or double line in two-aspect, multipleaspect
+or modified lower quadrant signalling, the line shall not be considered
+clear and Line Clear shall not be given, unless-
+(a) the whole of the last preceding train has passed complete at least 400
+metres beyond the Home signal and is continuing its journey ; and
+(b) all signals taken ‗off‘ for the preceding train have been put back to
+‗on‘ behind the said train:
+Provided that on a single line, the line is also clear of trains running in the
+opposite direction towards the block hut from the block station at the other
+end.`},
+{
+    id: 5,
+    title: 'Obstruction on double line at a block station when a train is approaching',
+    rule: 'GR 8.05',
+    description: `(1) Class ‗A‘ station –
+When Line Clear has been given, no obstruction shall be permitted
+outside the Home signal, or, on the line on which it is intended to
+admit the train, up to the Starter pertaining to the said line.
+(2) Class ‗B‘ station-
+When Line Clear has been given, no obstruction shall be permitted
+outside the station section but shunting within the station section
+may go on continuously, provided the necessary signals are kept at
+‗on‘.
+(3) When signals have been taken ‗off‘ for an incoming train on to a line
+which is not isolated, no shunting movement shall be carried out
+towards points over which the incoming train is to pass except as
+permitted by rule 5.16 of these rules. (Item no. 3 of AS-11 dt.
+22.08.2023).`},
+{
+    id: 6,
+    title: 'Obstruction on double line in the block section',
+    rule: 'GR 8.06',
+    description: `(1) When Line Clear has been given, no obstruction shall be permitted in
+the block section in rear.
+(2) Shunting or obstruction for any other purpose shall not be permitted
+in the block section in rear unless it is clear and is blocked back.
+(3) Shunting or obstruction for any other purpose shall not be permitted
+in the block section in advance unless it is clear and is blocked
+forward:
+Provided that when the block section in advance is occupied by a
+train travelling away from the station, shunting or obstruction may be
+permitted behind the train under special instructions taking into
+consideration the speed, weight and brake power of trains and the
+gradients on the section, and as soon as intimation has been received
+that the train has arrived at the block station in advance, the line shall
+be blocked forward if it is still obstructed.
+Note. –– See Rule 8.14 also.`},
+{
+    id: 7,
+    title: 'Obstruction on single line at a class "A" station when a train is approaching',
+    rule: 'GR 8.07',
+    description: `When Line Clear has been given, no obstruction shall be permitted outside the
+Home signal, or, on the line on which it is intended to admit the train, up to the
+Starter which controls the train.`},
+{
+    id: 8,
+    title: 'Obstructing the block section at a class `A` station on single line',
+    rule: 'GR 8.08',
+    description: `
+    The
+block section shall not be obstructed for shunting purposes, unless-
+(a) the Station Master has received Line Clear from the Station Master at
+the other end of the block section, or
+(b) the block section is blocked back, or
+(c) is occupied by a train travelling away from the block station at which
+the shunting is to be performed which shunting may be permitted
+under special instructions taking into consideration the speed, weight
+and brake power of trains and the gradients on the section. As soon
+as intimation has been received that the train has arrived, the block
+section shall be blocked back, and
+(d) the Loco Pilot or other person in charge of the shunting operations
+has received distinct orders from the Station Master to shunt in a
+manner directed by special instructions.`},
+{
+    id: 9,
+    title: 'Obstruction in the face of an approaching train at a class "B" station on single line',
+    rule: 'GR 8.09',
+    description: `The line outside the Home signal in two-aspect signalling territory or outermost
+facing points in multiple-aspect or modified lower quadrant signalling territory
+in the direction of a train for which Line Clear has been given, shall only be
+obstructed when a Shunting Limit Board or an Advanced Starter is provided
+and under special instructions which take into consideration the speed, weight
+and brake power of trains, the gradients, the position of the first Stop signal
+and the distance from which that signal can be seen by the Loco Pilot of an
+approaching train.`},
+{
+    id: 10,
+    title: 'Obstruction within station section at a class "B" station on single line',
+    rule: 'GR 8.10',
+    description: `(1) If the necessary signals are kept at 'on', shunting may be carried on
+within the station section, provided the provisions of Rule 8.09 are
+complied with for shunting up to Shunting Limit Board or Advanced
+Starter, where provided.
+(2) When signals have been taken 'off' for an incoming train on to a line
+which is not isolated, no shunting movement shall be carried out
+towards points over which the incoming train is to pass except as
+permitted by rule 5.16 of these rules. (Item no. 4 of AS-11 dt.
+22.08.2023).`},
+{
+    id: 11,
+    title: 'Obstruction outside station section at a class "B" single line stationequipped with two-aspect signals',
+    rule: 'GR 8.11',
+    description: `The line outside the station section and upto the Outer signal shall not be
+obstructed unless a railway servant specially appointed in this behalf by the
+Station Master is in charge of the operations, and unless-
+(a) The block section into which the shunting is to take place is clear of
+an approaching train and all relevant and necessary signals are at ‗on‘
+position, or
+(b) If an approaching train has arrived at the Outer signal, the Station
+Master has personally satisfied himself that the train has been
+brought to a dead stand at the signal:
+Provided that, the line shall not be obstructed under clause (b) in
+thick, foggy or tempestuous weather impairing visibility or in any case
+unless authorized by special instructions.`},
+{
+    id: 12,
+    title: 'Obstruction outside station section at a class "B" single line station equipped with manually operated multiple-aspect signals',
+    rule: 'GR 8.12',
+    description: `The line outside the station section and upto the first Stop signal shall not be
+obstructed, unless a railway servant specially appointed in this behalf by the
+Station Master is in charge of the operations, and unless the block section into
+which the shunting is to take place is clear of an approaching train.`},
+{
+    id: 13,
+    title: 'Obstruction outside the first Stop signal at a class "B" station on singleline',
+    rule: 'GR 8.13',
+    description: `The line outside the first Stop signal shall not be obstructed unless the line has
+been blocked back.`},
+{
+    id: 14,
+    title: 'Block back or Block forward',
+    rule: 'GR 8.14',
+    description: `Block back or block forward shall be done only in accordance with the
+procedure prescribed by special instructions.`},
+{
+    id: 15,
+    title: 'Authority for shunting or obstruction in block section',
+    rule: 'GR 8.15',
+    description: `While permitting shunting or obstruction in the block section, the Loco Pilot
+shall be given authority for shunting in the block section as prescribed under
+special instructions which authority may be -
+(a) either a shunting arm of prescribed size and design on the same post
+as and under the last Stop signal, or
+(b) a token of prescribed design, or
+(c) a written permission to shunt.`},
+{
+    id: 16,
+    title: 'Illustrative diagrams',
+    rule: 'GR 8.16',
+    description: `Class "A", "B" and "C" stations on single line and double line are illustrated in
+the following diagrams, which are not drawn to scale.`},
+            ]
+    },
+    
+    {
+        id: 9,
+        chapter: 'Chapter IX - THE AUTOMATIC BLOCK SYSTEM',
+        pages: [
+            {
+                id: 1,
+                title: 'Essentials of the Automatic Block System on double line',
+                rule: 'GR 9.01',
+                description: `(1) Where trains on a double line are worked on the Automatic Block
+system,
+(a) the line shall be provided with continuous track circuiting or axle
+counters,
+(b) the line between two adjacent block stations may, when required,
+be divided into a series of automatic block signalling sections,
+each of which is the portion of the running line between two
+consecutive Stop signals, and the entry into each of which is
+governed by a Stop signal, and
+(c) the track circuits or axle counters shall so control the Stop signal
+governing the entry into an automatic block signalling section that-
+(i) the signal shall not assume an 'off' aspect unless the line is
+clear not only up to the next Stop signal in advance but also for
+an adequate distance beyond it, and
+(ii) the signal is automatically placed to 'on' as soon as it is passed
+by the train.
+(2) Unless otherwise directed by approved special instructions, the
+adequate distance referred to in sub-clause (i) of clause (c) of sub-rule
+(1) shall not be less than 120 metres.
+(3) (a)under special instruction, one of the automatic stop signal between
+two stations in the automatic block signaling territory in each
+direction may be made as modified semi-automatic stop signal;
+(b) the mid-section modified semi-automatic stop signal so provided
+shall be interlocked with the signals of the station ahead through
+track circuits or axle counters or both and shall be controlled by
+the Station Master of the station ahead, the relevant indications
+whether the signal is in normal automatic mode or modified semiautomatic
+mode shall be available to the Station Masters at both
+the ends;
+(c) Advanced starter signal of the station in rear shall be interlocked
+with the mid-section modified semi-automatic stop signal in such a
+way that when working with 'A' sign extinguished, the Advanced
+starter shall assume 'off' aspect or be taken 'off' only when the line
+is clear upto an adequate distance beyond the mid-section
+modified semi-automatic stop signal; similarly the mid-section
+modified semi-automatic stoop signal shall assume 'off' aspect
+automatically or be taken 'off' only when the line is clear upto an
+adequate distance beyond the Home signal of the station ahead;
+(d) during abnormal conditions like fog, bad weather impairing
+visibility, the mid-section modified semi-automatic stop signal may
+be worked by extinguishing 'A' marker in the manner prescribed
+under special instructions and this action shall also ensure that the
+'A' marker of the Advanced starter signal of the station in rear and
+Home signal of the station in advance shall also be extinguished;
+(e) the adequate distance mentioned under clause (c) shall not be less
+then as prescribed under sub-rule (2);
+(f) during normal conditions, mid-section modified semi-automatic
+stop signal shall work as normal automatic stop signal.
+(4) (a) when the Loco Pilot finds mid-section modified semi-automatic
+stop signal with 'A' marker extinguished in 'on' position, he shall
+stop his train in the rear of the signal and inform this fact to the
+Station Master of the station ahead on approved means of
+communication as prescribed under special instructions;
+(b) the Station Master of the station ahead may authorize the Loco
+Pilot to pass the mid-section modified semi-automatic stop signal
+working with 'A' marker extinguished in 'on' position through
+approved means of communication after ensuring conditions and
+procedure prescribed under special instructions;
+(c) in case the Loco Pilot is unable to contact the Station Master of
+station ahead, he shall pass the signal at 'on' after waiting for five
+minutes at the signal and proceed cautiously and be prepared to
+stop short of any obstruction, at a speed not exceeding ten
+kilometers an hour upto the next Signal and act as per aspect of
+this signal; and
+(d) the Loco Pilot shall report the failure of mid-section modified semiautomatic
+stop signal to the Station Master of the station ahead.`
+            },
+            {
+                id: 2,
+                title: 'Duties of Loco Pilot and Guard when an Automatic Stop signal on double line is to be passed at "on"',
+                rule: 'GR 9.02',
+                description: `(1) when a Loco Pilot finds an Automatic Stop signal with an 'A' maker at
+'on', he shall bring his train to a stop in the rear of the signal. After
+bringing his train to a stop in the rear of the signal, the Loco Pilot
+shall wait there for one minute by day and two minutes by night. If
+after waiting for this period, the signal continues to remain at 'on', he
+shall give the prescribed code of whistle and exchange signals with
+the Guard and then proceed ahead, as far as the line is clear, towards
+the next Stop signal in advance exercising great caution so as to stop
+short of any obstruction.
+(2) The Guard shall show a Stop hand signal towards the rear when the
+train has been so stopped at an Automatic Stop signal, except as
+provided for in sub-rule (4)
+(3) Where owing to the curvature of the line, fog, rain, dust storm, engine
+working the train pushing it or other causes, the line ahead cannot be
+seen clearly, the Loco Pilot shall proceed at a very slow speed, which
+shall under no circumstances exceed 10 Kilometres an hour. Under
+these circumstances, the Loco Pilot, when not accompanied by an
+assistant Loco Pilot, and if he considers necessary, may seek the
+assistance of the Guard by giving the prescribed code of whistle.
+(4) When so sent for by the Loco Pilot, the Guard shall accompany him
+on the engine cab, before he moves forward, to assist the Loco Pilot
+in keeping a sharp look-out.
+(5) When an Automatic Stop signal has been passed at 'on', the Loco
+Pilot shall proceed with great caution until the next Stop signal is
+reached. Even if this signal is 'off', the Loco Pilot shall continue to
+look out for any possible obstruction short of the same. He shall
+proceed cautiously up to that signal and shall act upon its indication
+only after he has reached it.`},
+{
+    id: 3,
+    title: 'Essentials of the Automatic Block System on single line',
+    rule: 'GR 9.03',
+    description: `(1) Where trains on a single line are worked on the Automatic Block
+System,-
+(a) the line shall be provided with continuous track circuiting or axle
+counters,
+(b) the direction of traffic shall be established only after Line Clear has
+been obtained from the block station in advance,
+(c) a train shall be started from one block station to another only after
+the direction of traffic has been established,
+(d) it shall not be possible to obtain Line Clear unless the line is clear,
+at the block station from which Line Clear is obtained, not only up
+to the first Stop signal but also for an adequate distance beyond it,
+(e) the line between two adjacent block stations may, where required,
+be divided into two or more automatic block signalling sections by
+provision of Stop signals,
+(f) after the direction of traffic has been established, movement of
+trains into, through and out of each automatic block signalling
+section shall be controlled by the concerned Automatic Stop signal
+and the said Automatic Stop signal shall not assume ‘off’ position
+unless the line is clear up to the next Automatic Stop signal:
+Provided further that where the next Stop signal is a Manual Stop
+signal, the line is clear for an adequate distance beyond it, and
+(g) all Stop signals against the direction of traffic shall be at ‘on’.
+(2) Unless otherwise directed by approved special instructions, the
+adequate distance referred to in clauses (d) and (f) of sub-rule (1) shall
+not be less than 180 metres.
+(3) (a) under special instruction, one of the automatic stop signal between
+two stations in the automatic block signaling territory in each
+direction may be made as modified semi-automatic stop signal;
+(b) the mid-section modified semi-automatic stop signal so provided
+shall be interlocked with the signals of the station ahead through
+track circuits or axle counters or both and shall be controlled by
+the Station Master of the station ahead, the relevant indications
+whether the signal is in normal automatic mode or modified semiautomatic
+mode shall be available to the Station Masters at both
+the ends;
+(c) Advanced starter signal of the station in rear shall be interlocked
+with the mid-section modified Semi-Automatic stop signal in such
+a way that when working with ‘A’ sign extinguished, the Advanced
+starter shall assume ‘off’ aspect or be taken ‘off’ only when the line
+is clear upto an adequate distance beyond the mid-section
+modified semi-automatic stop signal; similarly the mid-section
+modified semi-automatic stop signal shall assume ‘off’ aspect
+automatically or be taken ‘off’ only when the line is clear upto an
+adequate distance beyond the Home signal of the station ahead;
+(d) during abnormal conditions like fog, bad weather impairing
+visibility, the mid-section modified semi-automatic stop signal may
+be worked by extinguishing ‘A’ marker in the manner prescribed
+under special instructions and this action shall also ensure that the
+‘A’ marker of the Advanced starter signal of the station in rear and
+Home signal of the station in advance shall also be extinguished;
+(e) the adequate distance mentioned under clause (c) shall not be less
+than as prescribed under sub-rule (2);
+(f) during normal conditions, mid-section modified semi-automatic
+stop signal shall work as normal automatic stop signal.
+(4) (a) when the Loco Pilot finds mid-section modified semi-automatic
+stop signal with “A” marker extinguished in ‘on’ position, he shall
+stop his train in the rear of the signal and inform this fact to the
+Station Master of the station ahead on approved means of
+communication as prescribed under special instructions;
+(b) the Station Master of the station ahead may authorize the Loco
+Pilot to pass the mid-section modified semi-automatic stop signal
+working with ‘A’ marker extinguished in ‘on’ position through
+approved means of communication after ensuring conditions and
+procedure prescribed under special instructions;
+(c) in case the Loco Pilot is unable to contact the Station Master of
+station ahead, he shall pass the signal at ‘on’ after waiting for five
+minutes at the signal and proceed cautiously and be prepared to
+stop short of any obstruction, at a speed not exceeding ten
+kilometers an hour upto the next Signal and act as per aspect of
+this signal; and
+(d) the Loco Pilot shall report the failure of mid-section modified semiautomatic
+stop signal to the Station Master of the station ahead.`},
+{
+    id: 4,
+    title: 'Minimum equipment of fixed signals in Automatic Block territory on single line',
+    rule: 'GR 9.04',
+    description: `The minimum equipment of fixed signals to be provided for each direction shall
+be as follows––
+(a) Manual or Semi-automatic Stop signals at a station -
+(i) a Home,
+(ii) a Starter.
+(b) An Automatic Stop signal in rear of the Home signal of the station.
+Note.–– Under approved special Instructions, the Automatic Stop signal may
+be dispensed with.`},
+{
+    id: 5,
+    title: 'Additional fixed signals in Automatic Block territory on single line',
+    rule: 'GR 9.05',
+    description: `(1) Besides the minimum equipment prescribed in Rule 9.04, one or more
+additional Automatic Stop signals, as are considered necessary, in
+between block stations, may be provided.
+(2) In addition, such other fixed signals as may be necessary for the safe
+working of trains may be provided.`},
+{
+    id: 6,
+    title: 'Conditions for taking "off" Manual Stop signal or Semi-automatic Stop signal in Automatic Block territory on single line',
+    rule: 'GR 9.06',
+    description: `(1) Home signal-
+When a train is approaching a Home signal, otherwise than at a
+terminal station, the signal shall not be taken 'off' unless the line is
+clear not only upto the Starter but also for an adequate distance
+beyond it and in addition for automatic working, direction of the block
+section ahead is not set in opposite.
+(2) Last Stop signal-
+The last Stop signal shall not be taken 'off' for a train unless the
+direction of traffic has been established and the line is clear upto the
+next Automatic Stop signal, or when the next Stop signal is a Manual
+or Semi-automatic Stop signal for an adequate distance beyond it.
+(3) The adequate distance referred to in sub rules (1) and (2) shall never
+be less than 120 metres and 180 metres respectively unless otherwise
+directed by approved special instructions. A sand hump of approved
+design, or subject to the sanction of the Commissioner of Railway
+Safety, a derailing switch shall be deemed to be an efficient substitute
+for the adequate distance referred to in sub-rule (1).
+`},
+{
+    id: 7,
+    title: 'Duties of Loco Pilot and Guard when an Automatic Stop signal on single line is to be passed at "on"',
+    rule: 'GR 9.07',
+    description: `(1) When a Loco Pilot finds an Automatic Stop signal with an 'A' marker
+at 'on', he shall bring his train to a stop in rear of that signal and wait
+there for one minute by day and two minutes by night.
+(2) If after waiting for this period the signal continues to remain at 'on',
+and if telephone communication is provided near the signal, the Loco
+Pilot shall contact the Station Master of the next block station or the
+Centralized Traffic Control Operator of the section where Centralized
+Traffic Control is provided, and obtain his instructions. The Station
+Master or the Centralized Traffic Control Operator, as the case may
+be, shall, after ascertaining that there is no train ahead up to the next
+signal and that it is otherwise safe for the Loco Pilot to proceed so far
+as is known, give permission to the Loco Pilot to pass the signal in
+the 'on' position and proceed up to the next signal, as may be
+provided under special instructions.
+(3) If no telephone communication is provided near the signal or if the
+telephone communication provided near the signal is out of order and
+cannot be made use of, the Loco Pilot shall give the prescribed code
+of whistle and exchange signals with the Guard and then proceed past
+the signal as far as the line is clear, upto the next Stop signal in
+advance, exercising great caution so as to stop short of any
+obstruction.
+(4) The Guard shall show a Stop hand signal towards the rear when the
+train has been so stopped at an Automatic Stop signal, except as
+provided for under sub-rule (6).
+(5) Where owing to the curvature of the line, fog, rain or dust storm,
+engine working the train pushing it, or other causes, the line ahead
+cannot be seen clearly, the Loco Pilot shall proceed at a very slow
+speed, which shall under no circumstances exceed 10 kilometres an
+hour. Under these circumstances, the Loco Pilot when not
+accompanied by Assistant Loco Pilot, and if he considers it
+necessary, may seek the assistance of the Guard by giving the
+prescribed code of whistle.
+(6) When so sent for by the Loco Pilot, the Guard shall accompany him
+on the engine cab, before he moves forward, to assist the Loco Pilot
+in keeping a sharp look-out.
+(7) When an Automatic Stop signal has been passed at 'on', the Loco
+Pilot shall proceed with great caution until the next Stop signal is
+reached. Even if this signal is 'off', the Loco Pilot shall continue to
+look out for any possible obstruction short of the same. He shall
+proceed cautiously up to that signal and shall act upon its indication
+only after he has reached it.`},
+{
+    id: 8,
+    title: 'Person in charge of working trains on Automatic Block System on single line',
+    rule: 'GR 9.08',
+    description: `(1)Except where Centralised Traffic Control is in operation, the Station
+Master shall be responsible for the working of trains at and between
+stations.
+(2)On a section where Centralised Traffic Control is in operation, the
+Centralised Traffic Control Operator shall be responsible for the
+working of trains on the entire section except as provided for in subrule
+(3).
+(3)On a section where Centralised Traffic Control is in operation, the
+working of trains at a station or part of a station may be taken over by
+or handed over to the Station Master during emergency or as
+prescribed by special instructions. When such emergency control is
+transferred, the Station Master shall be the person in charge of
+working trains at the station or part of the station and the station shall
+be worked in accordance with sub-rule (1).`},
+{
+    id: 9,
+    title: 'Working of trains on Centralised Traffic Control territory',
+    rule: 'GR 9.09',
+    description: `On a section where Centralised Traffic Control is in operation, the working of
+trains shall be governed by Special Instructions.`},
+{
+    id: 10,
+    title: 'Protection of a train stopped in an Automatic block signalling section',
+    rule: 'GR 9.10',
+    description: `(1) When a train is stopped in an Automatic block signalling section, the
+Guard shall immediately exhibit a Stop hand signal towards the rear
+and check up that the tail board or tail light is correctly exhibited.
+(2) If the stoppage is on account of accident, failure, or obstruction and
+the train cannot proceed, the Loco Pilot shall sound the prescribed
+code of whistle and the train shall be protected immediately as per
+Rule 6.03 except that for the protection of the occupied line one
+detonator shall be placed at 90 metres from the train on the way out
+and similarly two detonators, 10 metres apart, not less than 180
+metres from the train or at such distance as has been fixed by special
+instructions.`},
+{
+    id: 11,
+    title: 'Loco Pilot to report failures',
+    rule: 'GR 9.11',
+    description: `(1) When a Loco Pilot has to pass an Automatic Stop signal at 'on', he
+shall stop his train at the next reporting station or cabin as prescribed
+by special instructions and report particulars of Automatic Stop
+signals passed at 'on' by him.
+(2) The Station Master or person in charge of the reporting station or
+cabin shall promptly report the fact to the signal and operating
+officials concerned.`},
+{
+    id: 12,
+    title: 'Procedure during failure of Automatic signalling',
+    rule: 'GR 9.12',
+    description: `When a failure of automatic signalling is likely to last for some time and cause
+serious delay, trains shall be worked from station-to-station over the section or
+sections concerned under special instructions.`},
+{
+    id: 13,
+    title: 'Movement of trains against the direction of traffic on the Automatic Block System',
+    rule: 'GR 9.13',
+    description: `In Automatic signalling territory, trains shall run in the established direction of
+traffic only. Movement of trains against the established direction of traffic is
+not permitted. When in an emergency it becomes unavoidably necessary to
+move a train against the established direction of traffic, this shall be done only
+under special instructions which shall ensure that the line behind the said train
+up to the station in rear is clear and free from obstruction.`},
+{
+    id: 14,
+    title: 'Procedure when Semi-Automatic Stop signal is "on"',
+    rule: 'GR 9.14',
+    description: `(1) When a Semi-Automatic Stop signal is worked as an Automatic Stop
+signal, Rule 9.02 or 9.07 shall apply as the case may be.
+(2) When a Semi-Automatic Stop signal is working as a Manual Stop
+signal and becomes defective, it may only be passed under relevant
+rules detailed in Chapter III, Section 'H'.
+(3) When a Loco Pilot is authorized to pass a Semi-Automatic Stop signal
+at 'on' by taking 'off' the Calling-on signal fixed below it, he shall
+follow the precautions stipulated in Rule 9.02 or 9.07 as the case may
+be.`},
+{
+    id: 15,
+    title: 'Passing a gate Stop signal at "on" in Automatic signalling territory',
+    rule: 'GR 9.15',
+    description: `If
+the Loco Pilot finds a gate Stop signal at 'on' in an Automatic signalling
+territory,—
+(a) he shall comply with the provisions of Rule 9.02 or 9.07 as the case may be,
+if the 'A' marker is illuminated, or
+(b) (i) if the 'A' marker light is extinguished, he shall sound the prescribed
+code of whistle to warn the Gateman and bring his train to a stop in rear
+of a signal and
+(ii) if after waiting for one minute by day and two minutes by night, the
+signal is not taken 'off', he shall draw his train ahead cautiously upto
+the level crossing and
+(iii) if the Gateman is available and exhibiting hand signals, proceed further
+past the level crossing gate cautiously or
+(iv) if the Gateman is not available or is available but not exhibiting hand
+signals, stop in rear of the level crossing and after ascertaining that the
+gates are closed against road traffic and on getting hand signals from
+the Gateman and in his absence from the Assistant Loco Pilot, the Loco
+Pilot shall sound the prescribed code of whistle and cautiously proceed
+upto the next Stop signal complying with the Rule 9.02 or 9.07 as the
+case may be.`},
+{
+    id: 16,
+    title: 'Illustrative diagrams',
+    rule: 'GR 9.16',
+    description: `Automatic change of sequence of aspects behind the train in three-aspect and four–
+aspect signalling is illustrated in the following diagrams, which are not drawn to scale.`},
+        ]
+    },
+    {
+        id: 10,
+        chapter: 'Chapter X - THE FOLLOWING TRAINS SYSTEM',
+        pages: [
+            {
+                id: 1,
+                title: 'Essentials of the Following Trains System',
+                rule: 'GR 10.01',
+                description: `(1) Where trains are worked on the Following Trains System, they may
+be despatched from one station to the next, following each other in
+succession in the same direction on the same line in such manner
+and at such intervals of time as may be prescribed by special
+instructions.
+(2) Trains shall not be worked on the Following Trains System unless the
+Station Master of the block station in advance has exchanged
+messages regarding his readiness to receive the trains and has, in
+addition, given his assurance that no train will be allowed to leave his
+station for the station from which the following trains are to be
+despatched, until the latter have all arrived at his station and until he
+has received permission to despatch trains in the opposite direction.`
+            },
+            {
+                id: 2,
+                title: 'Report to the Commissioner of Railway Safety',
+                rule: 'GR 10.02',
+                description: `When the Following Trains System is introduced on any portion of a railway
+under Rule 7.01, a report shall be sent by telegram to the Commissioner of
+Railway Safety.`
+            },
+            {
+                id: 3,
+                title: 'Conditions to be observed in working trains on the Following Trains System',
+                rule: 'GR 10.03',
+                description: `When the Following Trains System is adopted, the following conditions shall
+be observed, namely:–
+(a) no train shall start until the Loco Pilot has been given a written
+authority to proceed in the form prescribed for the purpose and a
+written acknowledgement thereof has been obtained from him, the
+trains being stopped for the purpose, if not booked to stop,
+(b) the authority to proceed shall state the station at which the train is
+next to stop, the speed at which it is to run and the actual time of
+departure of the preceding train,
+(c) the Loco Pilot and Guard of each preceding train shall have been
+informed of the fact that a train will follow, and of the probable period
+which will elapse the following train shall start,
+(d) a train shall not follow another from a station unless there has
+elapsed since the departure of the previous train, an interval of not
+less than 15 minutes, or such shorter interval as may be fixed by
+special instructions,
+(e) all the trains following the first train shall be timed to run at the same
+speed and such speed shall not exceed 25 kilometres an hour except
+under special instructions.
+(f) the actual time of the departure of each train shall at once be intimated
+to the block station in advance and the actual time of arrival of each
+train shall at once be intimated to the block station in rear, and
+(g) the number of following trains running at the same time between any
+two block stations shall not be more than one for each 5 kilometres of
+station interval; and unless permitted by special instructions, shall
+never exceed four, whatever may be the length of the station interval.`
+            },
+            {
+                id: 4,
+                title: 'Delivery of authority to proceed to Loco Pilot or Guard on the Following Trains System',
+                rule: 'GR 10.04',
+                description: `(1) Every authority to proceed shall be delivered to the Guard or Loco
+Pilot by the Station Master, or by some railway servant appointed in
+this behalf under special instructions.
+(2) When such authority to proceed is delivered to the Loco Pilot under
+sub–rule (1), a duplicate shall be given to the Guard.
+(3) When an authority to proceed is delivered to the Guard under sub–
+rule (1), it shall be either-–
+(a) handed personally by the Guard to the Loco Pilot; or
+(b) countersigned by the Guard and then handed to the Loco Pilot
+either by the Station Master or by some railway servant appointed
+in this behalf by special instructions.
+(4) An authority to proceed shall not be handed to the Loco Pilot under
+sub-rule (2) or (3) -–
+(a) until the train is ready to start, and
+(b) if the train is waiting to pass another train, until the whole of the
+latter train has come in and is clear of the running line for the
+former train.`},
+{
+    id: 5,
+    title: 'Authority to proceed on the Following Trains System',
+    rule: 'GR 10.05',
+    description: `The written authority to proceed for use on the Following Trains System shall
+be in the following form–`
+},
+{
+    id: 6,
+    title: 'Responsibility as to proper preparation of authority to proceed on the Following Trains System',
+    rule: 'GR 10.06',
+    description: `(1) When an authority to proceed is delivered to the Loco Pilot under sub–
+rule (1) of Rule 10.04, the Station Master shall see-
+(a) that it is properly filled up in the form prescribed for the purpose,
+and
+(b) that it is signed in full and in ink.
+(2) When the authority to proceed is delivered to the Loco Pilot under
+sub–rule (1) of Rule 10.04, he shall satisfy himself that the authority to
+proceed delivered to him has been correctly and completely prepared
+in the form prescribed for the purpose and he shall not proceed with
+his train until he has done so and the mistake or omission, if any, has
+been rectified.
+(3) When an authority to proceed is delivered to the Guard of the train
+under sub–rule (3) of Rule 10.04, he shall, before it is handed to Loco
+Pilot, satisfy himself similarly.`
+},
+{
+    id: 7,
+    title: 'Obstruction in the face of approaching train or trains on the Following Trains System',
+    rule: 'GR 10.07',
+    description: `The line shall not be obstructed outside the outermost facing points in face of
+an approaching train as long as this system of working is in force.`
+},
+{
+    id: 8,
+    title: 'Cessation of working on the Following Trains System',
+    rule: 'GR 10.08',
+    description: `When it is intended that no more following trains shall be despatched in the
+same direction, the Station Master shall intimate such intention by a message
+to the block station in advance, after which no more trains in either direction
+shall be despatched between the two stations until the last train has arrived at
+the block station in advance and the line has been cleared between the two
+stations.`
+},
+{
+    id: 9,
+    title: 'Protection of trains on the Following Trains System',
+    rule: 'GR 10.09',
+    description: `(1) When a train is stopped between stations and if the detention exceeds
+or is likely to exceed five minutes, it shall be protected in accordance
+with the provisions of Rule 6.03, except that the Guard going back to
+protect the train shall place one detonator, at 250 metres from the train
+on the way out, and two detonators, 10 metres apart, at 500 metres
+from the train, irrespective of gauge.
+(2) In case the train, stopped between stations, is unable to proceed on
+account of accident, failure, obstruction or any other exceptional
+cause, the Loco Pilot shall also arrange to protect the train in the front
+in the manner laid down for the Guard.`
+},
+        ]
+    },
+    {
+        id: 11,
+        chapter: 'Chapter XI - THE PILOT GUARD SYSTEM',
+        pages: [
+            {
+                id: 1,
+                title: 'Essentials of the Pilot Guard System',
+                rule: 'GR 11.01',
+                description: `Where trains are worked on the Pilot Guard System,—
+(a) a railway servant (hereinafter called a Pilot Guard) shall be specially
+deputed to pilot trains; and
+(b) no train shall leave a station except under the personal authority of
+the Pilot Guard.`
+            },
+            {
+                id: 2,
+                title: 'Conditions to be observed for following trains on the Pilot Guard System',
+                rule: 'GR 11.02',
+                description: `Trains shall not follow one another in the same direction between stations,
+unless–
+(a) the Loco Pilot has been properly warned of the time of departure of
+the preceding train and of the place at which it will next stop;
+(b) all the trains are timed to run at the same speed, and such speed shall
+not exceed 25 kilometres an hour except under special instructions;
+and
+(c) an interval of fifteen minutes has elapsed since the departure of the
+preceding train.`
+            },
+            {
+                id: 3,
+                title: 'Pilot Guard’s dress or badge',
+                rule: 'GR 11.03',
+                description: `The Pilot Guard shall be distinguished by a red dress or badge.`},
+                {
+                    id: 4,
+                    title: 'Pilot Guard to accompany train or give authority to proceed',
+                    rule: 'GR 11.04',
+                    description: `(1) No train shall be started from a station unless the Loco Pilot sees that
+it is accompanied by, or that the authority to proceed is given
+personally by the Pilot Guard wearing the dress or badge prescribed
+in Rule 11.03.
+(2) The Pilot Guard shall accompany every train:
+Provided that when it is necessary to start two or more trains form
+one end of the section, before a train has to be started from the other
+end, the Pilot Guard shall accompany only the last of such trains, and
+shall personally give the authority to proceed for the preceding trains.
+(3) When accompanying a train, the Pilot Guard shall ride on the footplate
+of the engine.`
+                },
+                {
+                    id: 5,
+                    title: 'Pilot Guard’s Tickets',
+                    rule: 'GR 11.05',
+                    description: `(1) When the Pilot guard does not accompany a train, he shall deliver to
+the Guard (or if there be no Guard, to the Loco Pilot) a Pilot Guard’s
+ticket on a printed form properly filled up and signed in ink, as the
+authority to proceed.
+(2) Every such ticket shall apply only to the single journey to the station
+named on it.
+(3) If the train is in charge of a Guard, he shall, before the train is started,
+deliver the ticket to the Loco Pilot.
+(4) Immediately on the arrival of the train, the Loco Pilot shall deliver the
+ticket to the Station Master who shall at once cancel it.`
+                },
+                {
+                    id: 6,
+                    title: 'Protection of trains on the Pilot Guard System',
+                    rule: 'GR 11.06',
+                    description: `In the event of a train, which is followed by another train, stopping on the line
+between stations, the Guard and the Loco Pilot shall take action to protect the
+train in accordance with the provisions of Rule 10.09.`}
+        ]
+    },
+    {
+        id: 12,
+        chapter: 'Chapter XII - THE TRAIN-STAFF AND TICKET SYSTEM',
+        pages: [
+            {
+                id: 1,
+                title: 'Essentials of the Train-staff and Ticket System',
+                rule: 'GR 12.01',
+                description: `Where trains are worked between two stations on the Train-staff and Ticket
+System, ––
+(a) a single Train-staff shall be kept at one of such stations, and
+(b) no train shall start from either of such stations to the other unless the
+said Train-staff is at the station from which the train starts and has
+either been handed to or shown to the Loco Pilot by the Station
+Master when giving such permission.`}
             ]
     }
-            
             ]
