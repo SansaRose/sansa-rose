@@ -4226,7 +4226,594 @@ System, ––
 (b) no train shall start from either of such stations to the other unless the
 said Train-staff is at the station from which the train starts and has
 either been handed to or shown to the Loco Pilot by the Station
-Master when giving such permission.`}
+Master when giving such permission.`},
+{
+    id: 2,
+    title: 'System where applicable',
+    rule: 'GR 12.02',
+    description: `Trains may be worked on the Train-staff and Ticket System only when the line
+is single and only between such stations as have been declared by special
+instructions to be Train-staff stations.`
+},
+{
+    id: 3,
+    title: 'Conditions to be observed for following trains on the Train-staff and Ticket system',
+    rule: 'GR 12.03',
+    description: `Trains shall not follow one another in the same direction between Train-staff
+station, unless-
+(a) the Loco Pilot has been properly warned of the time of departure of
+the preceding train and of the place at which it will next stop;
+(b) all the trains are timed to run at the same speed, and such speed shall
+not exceed 25 kilometres an hour except under special instructions;
+and
+(c) an interval of fifteen minutes has elapsed since the departure of the
+preceding train.`
+},
+{
+    id: 4,
+    title: 'Loco Pilot to have Train-staff or Train-staff Ticket',
+    rule: 'GR 12.04',
+    description: `No train shall be started from a station unless the Loco Pilot has in his
+possession to be carried with him on the journey, either the Train-staff or a
+Train-staff Ticket, for the section of the line over which the train is about to
+travel.`
+},
+{
+    id: 5,
+    title: 'Train-staff or Train-staff Ticket: by whom to be delivered to Loco Pilot',
+    rule: 'GR 12.05',
+    description: `The Train-staff or Train-staff Ticket shall be delivered to the Loco Pilot by the
+Station Master or by some railway servant appointed in this behalf by special
+instructions.`
+},
+{
+    id: 6,
+    title: 'Train-staff or Train-staff Ticket: when to be delivered to Loco Pilot',
+    rule: 'GR 12.06',
+    description: `(1) When no other train is intended to follow before the Train-staff will
+be required for a train running in the opposite direction, then subject
+to the provisions of sub-rule (3), the Train-staff shall be delivered to
+the Loco Pilot.
+(2) When other trains are intended to follow before the Train-staff can be
+returned, then, subject to the provisions of sub-rule (3), a Train-staff
+Ticket indicating that the Train-staff is following, shall be delivered to
+the Loco Pilot of each train except the last; and the Train-staff shall
+be delivered to the Loco Pilot of the last train.
+(3) When a train is assisted by a second engine in the rear, a Train staff
+Ticket shall be delivered to the Loco Pilot of the front engine and the
+Train-staff shall be delivered to the Loco Pilot of the rear engine:
+Provided that if both the engines attached to the train are to travel
+over the entire length of line to which the Train-staff applies, and the
+train is to be followed by other trains, a Train- staff Ticket shall be
+delivered to the Loco Pilot of each of the engines attached to the
+first mentioned train.
+(4) When a train is assisted by a second engine in the front, the Trainstaff
+or a Train-staff Ticket, as the case may be, shall be delivered to
+the Loco Pilot of the leading engine.
+(5) When a material train has to stop between stations, the Train-staff
+shall be delivered to the Loco Pilot.
+(6) The Train-staff or a Train-staff Ticket shall not be delivered to the
+Loco Pilot of any train until the train is ready to start.
+(7) The Loco Pilot shall not accept a Train-staff Ticket unless he sees
+the Train-staff at the same time in the possession of the person who
+delivers the Train-staff Ticket to him.`
+},
+{
+    id: 7,
+    title: 'Train-staff to be kept on engine',
+    rule: 'GR 12.07',
+    description: `When the Train-staff is delivered to the Loco Pilot of a train, he shall place it in
+a conspicuous place provided for the purpose on the engine.`
+},
+{
+    id: 8,
+    title: 'Trains not to be started until Train-staff returned',
+    rule: 'GR 12.08',
+    description: `When the Train-staff has been taken away from a station by the Loco Pilot of a
+train, no other train shall be started from that station to follow the first
+mentioned train until the train-staff has been returned to the station.`
+},
+{
+    id: 9,
+    title: 'Train-staff or Train-staff Ticket to be given up and Ticket to be cancelled on arrival of train',
+    rule: 'GR 12.09',
+    description: `(1) Upon the arrival of a train at the station to which the Train-staff or a
+Train-staff Ticket extends, the Loco Pilot shall immediately give the
+Train-staff or train-staff ticket to the Station Master, or to some railway
+servant appointed by special instructions to receive it.
+(2) The person to whom any such Train-staff Ticket is so delivered shall
+immediately cancel the same.`
+},
+{
+    id: 10,
+    title: 'Procedure when engine is disabled on the Train-staff and Ticket System',
+    rule: 'GR 12.10',
+    description: `(1) If an engine which carries the Train-staff breaks down between two
+stations, the Assistant Loco Pilot shall take the Train-staff to the Staffstation
+in the direction whence assistance can best be obtained, in
+order that the Train-staff may be available at that station for delivery
+to the Loco Pilot of the assisting engine.
+(2) If an engine which carries a Train-staff Ticket breaks down between
+two stations, assistance shall ordinarily be obtained only from the
+station at which the Train-staff has been left; but if assistance can
+more readily be obtained from another station in the opposite
+direction, immediate steps shall be taken to have the Train-staff
+transferred to the other end of the section.
+(3) Whenever an engine has broken down between two stations, the
+Assistant Loco Pilot shall accompany the assisting engine to the spot.`
+},
+{
+    id: 11,
+    title: 'Train-staff Tickets: how kept',
+    rule: 'GR 12.11',
+    description: `Train-staff Ticket shall be kept in a ticket-box provided for the purpose and
+fastened by an inside spring, the key to open the box being the Train-staff to
+which the tickets apply.`
+},
+{
+    id: 12,
+    title: 'Train-staff: how kept',
+    rule: 'GR 12.12',
+    description: `The train-staff, when at a station, shall not be left in the box but shall be kept
+by the Station Master in safe custody.`
+},
+{
+    id: 13,
+    title: 'Distinguishing marks on Train-staff Tickets and boxes',
+    rule: 'GR 12.13',
+    description: `(1) Each Train-staff shall have shown upon it the name of the Train-staff
+station at each end of the portion of line to which it applies.
+(2) The Train-staff and Train-staff Tickets and boxes for the different
+portions of the line shall be distinguished by different colours.
+(3) “Up” and “Down” Train-staff Tickets shall also have distinguishing
+marks.`
+},
+{
+    id: 14,
+    title: 'Form of Train-staff Ticket',
+    rule: 'GR 12.14',
+    description: `Every Train-staff Ticket shall be in the following form:
+`
+},
+{
+    id: 15,
+    title: 'Record of Train-staff Tickets issued',
+    rule: 'GR 12.15',
+    description: `The Station Master shall keep a record in a book of each Train-staff Ticket
+issued, showing the number of each ticket and the particular train for which it
+was issued.
+`
+},
+{
+    id: 16,
+    title: 'Obstruction outside the Home signal',
+    rule: 'GR 12.16',
+    description: `The line outside the Home signal shall not be obstructed unless the Train-staff
+of the portion of the line to be obstructed is at the station.
+`
+},
+{
+    id: 17,
+    title: 'Protection of trains on the Train-staff and Ticket System',
+    rule: 'GR 12.17',
+    description: `In the event of a train, which is followed by another train, stopping on the line
+between stations, the Guard and the Loco Pilot shall take action to protect the
+train in accordance with the provisions of Rule 10.09.
+`
+},
+
+
+            ]
+    },
+    {
+        id: 13,
+        chapter: 'Chapter XIII - THE ONE TRAIN ONLY SYSTEM',
+        pages: [
+            {
+                id: 1,
+                title: 'Use of the One Train Only System',
+                rule: 'GR 13.01',
+                description: `Trains may be worked on the One Train Only System, only on short terminal
+branches on the single line.`},
+{
+    id: 2,
+    title: 'Essentials of the One Train Only System',
+    rule: 'GR 13.02',
+    description: `Where trains are worked on the One Train Only System, only one train shall be
+on the section on which this system is in force, at one and the same time.`},
+{
+    id: 3,
+    title: 'Authority to enter the section',
+    rule: 'GR 13.03',
+    description: `A Loco Pilot shall not take his train into the section unless he is in possession
+of the authority to proceed as prescribed by special instructions.`
+},
+{
+    id: 4,
+    title: 'Procedure in case of accident or disablement on the One Train Only System',
+    rule: 'GR 13.04',
+    description: `(1) (a) If the train becomes disabled and requires assistance or if an
+accident occurs which renders it impossible for the train to
+proceed, the train shall be protected in accordance with the
+provisions of Rule 6.03 in the direction from which assistance, if
+necessary, is being obtained.
+(b)The Guard of the train shall convey advice of the circumstances
+under which the train has become disabled and is not able to
+proceed, to the Station Master of the station from which assistance
+can best be obtained, and if it is necessary for such Guard to
+proceed to such station, he shall instruct the Loco Pilot in writing
+to keep the train stationary until his return, and obtain his written
+acknowledgement.
+(2) (a) Such Station Master, if he is not the Station Master of the base
+station, shall communicate this information to the Station Master of
+the base station. On receipt of such information, the Station Master
+of the base station may allow another engine to enter the line.
+(b) The engine so sent shall either be accompanied by the Guard of
+the disabled train, who shall explain to the Loco Pilot where and
+under what circumstances the disabled train is situated, or the
+Loco Pilot of the engine so sent shall be given a written authority,
+containing such instructions as to where and under what
+circumstances the disabled train is situated and such other
+particulars as may be necessary to enter the line unaccompanied
+by the Guard of the disabled train.
+(3) The Guard of the disabled train shall be responsible for the safe and
+proper working of the line until the disabled train has been moved and
+any other engine sent to the assistance of the disabled train has been
+returned to the base station.
+(4) If there is no Guard of a disabled train, the Assistant Loco Pilot or, if
+necessary, the Loco Pilot shall perform the duties imposed by this
+rule on the Guard, provided that the engine is not left unmanned in
+terms of Rule 4.20.`
+},
+            ]
+    },
+    {
+        id: 14,
+        chapter: 'Chapter XIV - BLOCK WORKING',
+        pages: [
+            {
+                id: 1,
+                title: 'Means of granting or obtaining Line Clear',
+                rule: 'GR 14.01',
+                description: `The running of every train shall, in its progress from one block station to
+another, be regulated by means of any one of or a combination of the
+following: ––
+(a) electrical block instruments of token or tokenless type,
+(b) track circuits,
+(c) axle counters, or
+(d) electrical communication instruments.`},
+{
+    id: 2,
+    title: 'Provision of instruments',
+    rule: 'GR 14.02',
+    description: `(1) Electrical communication instruments shall be provided at every
+station, except at class ‘D’ stations, where they may be provided
+under special instructions.
+(2) (a) The electrical block instruments, where provided, and electrical
+communication instruments at any station shall be of a type
+approved by the Commissioner of Railway Safety and shall not be
+brought into use in the first instance unless they have been passed
+by him.
+(b)The person in-charge of the maintenance of electrical block
+instruments or electrical communication instruments shall not
+without the approval of the Commissioner of Railway Safety, permit
+the substitution, for the instruments and installation brought into
+use in the first instance, of any instruments or installation which do
+or does not satisfy the conditions prescribed in clause (a).`},
+{
+    id: 3,
+    title: 'Consent required before interfering with Block working equipment',
+    rule: 'GR 14.03',
+    description: `No railway servant shall interfere with the block working equipment, or their
+fittings for the purpose of effecting repairs, or for any other purpose, except
+with the previous consent of the Station Master.`
+},
+{
+    id: 4,
+    title: 'Certificate of competency',
+    rule: 'GR 14.04',
+    description: `(1) No person shall operate the electrical block instruments until he has
+passed a test in the operation of block instruments and unless he
+holds a certificate of competency granted by a railway servant
+appointed in this behalf by the Railway Administration.
+(2) The certificate of competency referred to in sub-rule (1) shall only be
+valid for a period of three years or such longer period as may be laid
+down by special instructions.`
+},
+{
+    id: 5,
+    title: 'Bell code',
+    rule: 'GR 14.05',
+    description: `For the signalling of trains, the prescribed code of bell signals as detailed
+below, shall be used, and a copy thereof shall be exhibited in each block
+station near the place of operation of the block working equipment ––
+Note:- (1) ‘0’ indicates a stroke or a beat and ‘–‘ indicates a pause
+(2) Exchange of bell codes under reference numbers 3 and 4 are not
+required in a section provided with block proving axle counters or
+track circuit having complete track circuiting of station yard
+excluding non-running lines on either end.`
+},
+{
+    id: 6,
+    title: 'Acknowledgement of signals',
+    rule: 'GR 14.06',
+    description: `(1) Each signal received shall be acknowledged by sending its authorised
+acknowledgement.
+(2) No signal shall be acknowledged until it is clearly understood.
+(3) A signal shall not be deemed to be complete until it is acknowledged.
+(4) If the station to which a signal is sent does not reply, the signal shall
+be repeated at intervals of not less than 20 seconds until reply is
+received.`
+},
+{
+    id: 7,
+    title: 'Train Signal Register',
+    rule: 'GR 14.07',
+    description: `(1) A Train Signal Register shall be kept by the Station Master or under
+his orders.
+(2) All signals received or sent on the electrical block instruments and the
+timings of receipt and despatch shall be entered therein, immediately
+after acknowledgement, by the person operating the block
+instruments.
+(3) The timings entered in the register shall be the actual timings, except
+that any fraction of a minute shall be counted as one.
+(4) All entries in the register shall be made in ink.
+(5) No erasure shall be made in the register, but if any entry is found to
+be incorrect, a line shall be drawn through it, so that it may be read at
+any time and the correct entry shall be made above it.
+(6) The person who keeps the register for the time being shall be
+responsible for all entries made therein and for correctly filling in each
+column thereof.`
+},
+{
+    id: 8,
+    title: 'Authority to proceed',
+    rule: 'GR 14.08',
+    description: `The Loco Pilot shall not take his train from a block station unless he has been
+given an authority to proceed ––
+(a) on the double line, by taking ‘off’ of the last Stop signal, and
+(b) on the single line, either-
+(i) by a token for the block section, taken from an electrical block
+instrument, or
+(ii) by a Line Clear Ticket duly signed by the Station Master, or
+(iii) by any document prescribed in this behalf by special instructions,
+or
+(iv) by taking ‘off’ of the last Stop signal in lieu of tangible authority as
+mentioned in sub-clauses (i) to (iii) on sections provided with
+electrical block instruments of tokenless type or track circuits or
+axle counters.`
+},
+{
+    id: 9,
+    title: 'Loco Pilot to examine authority to proceed',
+    rule: 'GR 14.09',
+    description: `(1) The Loco Pilot shall ensure that the authority to proceed given to him
+is the proper authority under the system of working and refers to the
+block section he is about to enter, and if the said authority is in
+writing that it is complete and duly signed in full and in ink.
+(2) If the conditions mentioned in sub-rule (1) are not complied with, the
+Loco Pilot shall not take his train past or start from the station until
+the mistake or the omission is rectified.`
+},
+{
+    id: 10,
+    title: 'Conditions for closing the block section',
+    rule: 'GR 14.10',
+    description: `(1) When the block section has been cleared by the arrival of the train or
+by the removal of the cause of blocking, the block section shall be
+closed by the block station in advance by giving the prescribed bell
+code signal.
+(2) Before such signal is given, the Station Master shall satisfy himself as
+per the prescribed special instructions ––
+(a) that the train has arrived complete or the cause of blocking the
+section has been removed, and
+(b) that the conditions under which Line Clear can be given, are
+complied with.
+(3) The provision of clause (b) of sub-rule (2) may be relaxed at class ‘A’
+single line crossing stations. In such cases, the Station Master shall
+satisfy himself that the train is standing at its Starter clear of the line
+on which the second train is to run.
+(4) Where in a section, a block proving axle counter or continuous track
+circuiting between block stations and complete track circuiting of
+station section excluding non-running lines of the receiving station is
+installed and is functioning and there is a clear indication of clearance
+of block section as well as complete arrival of the train as per
+indication given, it would be taken as assurance for complete arrival
+of the train to the Station Master.`
+},
+{
+    id: 11,
+    title: 'Responsibility of Station Master as to authority to proceed',
+    rule: 'GR 14.11',
+    description: `(1) An authority to proceed shall not be given to the Loco Pilot until the
+procedure prescribed for the purpose, so far as it is applicable in the
+particular case, has been followed.
+(2) An authority to proceed shall not be given to the Loco Pilot except
+by the Station Master or by some railway servant appointed in this
+behalf by special instructions.
+(3) The Station Master shall see that the authority to proceed given to a
+Loco Pilot is accurate and that, when it is in writing, it is complete
+and is signed in full and in ink.
+(4) If the train stops at the station and is waiting to cross another train,
+the authority to proceed shall not be given to the Loco Pilot until the
+whole of the latter train has arrived and is clear of the running line
+for the former train.
+(5) If two engines are coupled together or if one engine is in front and
+another in rear of the train, the authority to proceed shall be given to
+the Loco Pilot of the leading engine.`
+},
+{
+    id: 12,
+    title: 'Special responsibility as to electrical token instruments and to the token',
+    rule: 'GR 14.12',
+    description: `(1) The Station Master shall be responsible to ensure that –
+(a) no one but himself operates the electrical block instruments,
+(b) the procedure regarding bell signals and, in addition any
+communication made by electrical communication instruments
+including the use of a private number, as laid down under special
+instructions, is correctly carried out,
+(c) in the case of stopping trains, the incoming token is surrendered
+by the Loco Pilot before an outgoing token is delivered to him,
+(d)when he receives the token of an incoming train, it is put in the
+electrical block instrument immediately, and
+(e) no one except the person authorized by special instructions
+opens the electrical block instruments.
+(2) (a) A token shall not be taken out of an electrical block instrument
+earlier than necessary and when taken out, its number shall be
+recorded in the Train Signal Register, and it shall be kept in the
+personal custody of the Station Master till issued to a Loco Pilot
+or returned to the instrument.
+(b) On arrival of the train at the block station in advance, the Loco
+Pilot shall give up the token in accordance with special
+instructions, and this token shall then be placed in the electrical
+block instrument at that station.
+(c) If the train has to return to the block station from which it started,
+the token shall, on such return, be replaced in the electrical block
+instrument from which it was extracted.`
+},
+{
+    id: 13,
+    title: 'Failure of electrical block instruments or track circuits or axle counters',
+    rule: 'GR 14.13',
+    description: `(1) If the electrical block instruments, track circuits or axle counters or
+their electric connections fail, Line Clear shall be obtained through
+the electrical communication instruments.
+(2) When Line Clear has been so obtained, an entry to that effect shall be
+made in the Train Signal Register, and the train may be allowed to
+proceed on the issue of a written authority to proceed, which shall
+also bear a remark to that effect.`
+},
+{
+    id: 14,
+    title: 'Closing of Intermediate Block Post',
+    rule: 'GR 14.14',
+    description: `If the electrical block instruments provided at the stations on either side of an
+Intermediate Block Post or the track circuiting provided beyond the Last Stop
+signal, or the Axle Counters provided at either end of block section fail, the
+Intermediate Block Stop signal shall be treated as defective and the
+Intermediate Block Post shall be deemed to be closed and the section between
+the stations on either side of the Intermediate Block Post shall be treated as
+one block section.`
+},
+{
+    id: 15,
+    title: 'Transmission of signals',
+    rule: 'GR 14.15',
+    description: `For the working of trains at such stations where electrical block instruments
+are not provided, signals as prescribed under special instructions shall be
+transmitted, as occasion may require, on the electrical communication
+instruments.`
+},
+{
+    id: 16,
+    title: 'Train Signal Register',
+    rule: 'GR 14.16',
+    description: `The Train Signal Register referred to in Rule 14.07 shall also be maintained at
+block stations where block instruments are not provided.`
+},
+{
+    id: 17,
+    title: 'Forms for messages and written authority to proceed',
+    rule: 'GR 14.17',
+    description: `(1) All messages despatched in connection with the working of trains,
+and all written authorities to proceed, shall be written on forms
+specially provided for the purpose by the Railway Administration.
+(2) Such forms shall be bound up in books and kept at each block station
+by the Station Master, or by some railway servant appointed in this
+behalf by special instructions.`
+},
+{
+    id: 18,
+    title: 'Distinction of messages',
+    rule: 'GR 14.18',
+    description: `(1) Every message despatched in connection with the working of a train
+shall distinctly describe the train to which it relates.
+(2) For every train a separate enquiry and reply shall be sent.`
+},
+{
+    id: 19,
+    title: 'Writing and signing of messages and written authorities to proceed',
+    rule: 'GR 14.19',
+    description: `(1) All messages despatched in connection with the working of trains,
+and all written authorities to proceed, shall be written up in ink and
+signed by the person authorised to despatch or issue the same.
+(2) No message or written authority to proceed shall be written out,
+either in full or in part or signed, until necessary.`
+},
+{
+    id: 20,
+    title: 'Completion of messages',
+    rule: 'GR 14.20',
+    description: `No part of any message shall be despatched or acted upon until the whole message
+has been written out except with a view to the prevention of an accident, or in some
+other case of emergency.`
+},
+{
+    id: 21,
+    title: 'Preservation of messages and written authorities to proceed',
+    rule: 'GR 14.21',
+    description: `Messages and written authorities to proceed shall be destroyed at such time after
+issue as may be prescribed by special instructions, provided that no message or
+written authority to proceed shall be destroyed before one month after issue.`
+},
+{
+    id: 22,
+    title: 'Cancellation of Line Clear',
+    rule: 'GR 14.22',
+    description: `On a single line when a Line clear has been cancelled, no train shall be allowed to
+leave in the opposite direction until a message has been received acknowledging such
+cancellation and stating that the train for which the Line Clear has been given is and
+shall be detained.`
+},
+{
+    id: 23,
+    title: 'Loco Pilot to have authority to proceed',
+    rule: 'GR 14.23',
+    description: `The Loco Pilot shall not take his train from a station unless he has in his possession
+as his authority to proceed, a Line Clear Ticket duly signed by the Station Master.`
+},
+{
+    id: 24,
+    title: 'Authority to proceed: when to be given to Loco Pilot',
+    rule: 'GR 14.24',
+    description: `An authority to proceed shall not be given to the Loco Pilot until the procedure
+prescribed for the purpose, so far as it is applicable in the particular case, has been
+followed.`
+},
+{
+    id: 25,
+    title: 'Line Clear Tickets',
+    rule: 'GR 14.25',
+    description: `(1) When owing to failure or non-provision of electrical block instruments the
+authority to proceed is a Line Clear Ticket, it shall, except under special
+instruction, be in the following form–
+(2) Each such ticket shall bear a serial number which shall be recorded in the
+Train Signal Register, the numbers for the Down direction being clearly
+distinguished from those for the Up direction.
+(3) The ticket referred in sub-rules (1) and (2) shall be printed on white paper
+with blue font. To distinguish Paper Line Clear Ticket for up and down
+directions, water mark arrow pointing “up” and “down” shall be printed on
+the ticket.`
+},
+{
+    id: 26,
+    title: 'Use and operation of block working equipment',
+    rule: 'GR 14.26',
+    description: `The use and operation of electrical block instruments shall be governed by
+special instructions to be issued with the prior approval of the Railway Board.`
+},
+            ]
+    },
+    {
+        id: 15,
+        chapter: 'Chapter XV - PERMANENT WAY AND WORKS',
+        pages: [
+            {
+                id: 1,
+                title: 'Condition of Permanent Way and Works',
+                rule: 'GR 15.01',
+                description: `Each Inspector of Way or Works shall be responsible for the condition of the
+permanent way and works under his charge.`}
             ]
     }
             ]
