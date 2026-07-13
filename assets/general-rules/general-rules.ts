@@ -4813,7 +4813,673 @@ special instructions to be issued with the prior approval of the Railway Board.`
                 title: 'Condition of Permanent Way and Works',
                 rule: 'GR 15.01',
                 description: `Each Inspector of Way or Works shall be responsible for the condition of the
-permanent way and works under his charge.`}
+permanent way and works under his charge.`},
+{
+    id: 2,
+    title: 'Maintenance of Line',
+    rule: 'GR 15.02',
+    description: `Each Inspector of Way or Works shall –
+(a) see that his length of line or works in his charge are efficiently
+maintained, and
+(b) promptly report to the Engineer-in-charge all accidents to, or defects
+in the way or works, which he considers likely to interfere with the
+safe running of trains, at the same time taking such action as may be
+necessary to prevent accidents.
+(c) Planned maintenance and asset repair or replacement or creation
+work shall be executed in accordance with the ―Rolling Block
+Programme‖.
+Explanation:- For the purposes of this clause, ―Rolling Block
+Programme‖ means advance planning of traffic blocks or
+disconnections (civil or electrical or signal & telecommunication etc.,
+including non-interlocked work) over a specified duration upto 52
+weeks, required for maintenance and asset repair or replacement or
+creation work, to be prepared on a rolling basis by adding one week
+plan every week by reviewing the output of the immediate preceding
+week and planning for the remaining weeks ahead.`
+},
+{
+    id: 3,
+    title: 'Keeping of material',
+    rule: 'GR 15.03',
+    description: `Each Inspector of Way or Works shall see to the security of all rails, chairs,
+sleepers, and other material in his charge, and ensure that such of the said
+articles as are not actually in use are properly stacked clear of the line so as
+not to interfere with the safe running of trains.`
+},
+{
+    id: 4,
+    title: 'Inspection of Permanent Way and Works',
+    rule: 'GR 15.04',
+    description: `(1) Every portion of the permanent way shall be inspected daily on foot by
+some railway servant appointed in this behalf by special instructions:
+Provided that the interval between such inspections may, under
+approved special instructions, be increased to once in two days in the
+case of lines with light and infrequent traffic.
+(2) All bridges and works including signals, signal wires, interlocking
+gear, points and crossings, overhead equipment and any other
+equipment affecting the safety and working of all trains shall be
+inspected regularly in accordance with special instructions.`
+},
+{
+    id: 5,
+    title: 'Patrolling of lines',
+    rule: 'GR 15.05',
+    description: `(1) In addition to the inspection referred to in Rule 15.04, whenever any
+portion of a railway is likely to be endangered by abnormal conditions
+such as heavy rains, breaches, floods, storms and civil disturbances,
+the line shall be patrolled in accordance with special instructions.
+(2) When a railway servant deputed to patrol the line notices any
+condition likely to affect the safety of trains or otherwise apprehends
+danger, he shall take action in accordance with special instructions
+prescribed for the purpose to protect the obstruction on line and
+thereafter inform the nearest Station Master by the most expeditious
+means. (see also Rule 3.62)`
+},
+{
+    id: 6,
+    title: 'Work involving danger to trains or traffic',
+    rule: 'GR 15.06',
+    description: `A gang shall not commence or carry on any work which will involve danger to
+trains or to traffic without the previous permission of the Inspector of Way or
+Works, or of some competent railway servant appointed in this behalf by
+special instructions; and the railway servant who gives such permission shall
+himself be present to superintend such work, and shall see that the provisions
+of Rules 15.08 and 15.09 are observed:
+Provided that, in case of emergency, when the requirements of safety warrant
+the commencement of any such work before the said railway servant can
+arrive, the Gangmate may commence the work at once and shall himself
+ensure that provisions of Rule 15.09 are observed.`
+},
+{
+    id: 7,
+    title: 'Work in thick, foggy or tempestuous weather impairing visibility',
+    rule: 'GR 15.07',
+    description: `In thick, foggy or tempestuous weather impairing visibility, no rail shall be
+displaced and no other work which is likely to cause obstruction to the
+passage of trains shall be performed, except in case of emergency.`
+},
+{
+    id: 8,
+    title: 'Precautions before commencing operations which would obstruct the line',
+    rule: 'GR 15.08',
+    description: `No person employed on the way or works shall change or turn a rail,
+disconnect points or signals, or commence any other operation which
+would obstruct the line until Stop signals have been exhibited and
+where prescribed detonators used; and if within station limits, he has
+also obtained the written permission of the Station Master and all
+necessary signals have been placed at ‘on’:
+Provided that the exhibition of Stop signal may be dispensed with, if
+such operations are performed or carried out after the necessary
+signals, other than Automatic Stop signals, have, in addition to being
+placed in the ‘on’ position, been disconnected, so that such signals cannot be taken ‘off’ again until it is safe to do so and the
+corresponding adequate distance beyond such signals is kept clear:
+Provided further that when the area of work is controlled by Automatic
+signals, the railway servant in charge of the work shall post a
+competent railway servant at an adequate distance in rear of the site
+of the work to stop and warn any train approaching the affected area.
+(2) No work involving removal of any rail from the track shall be
+undertaken without traffic block, except as provided in sub- rule (3)
+below.
+(3) In emergent cases, the Engineering official not below the rank of PWI
+– Grade III, undertaking such operations shall first bring the train to a
+stop and advise the Loco Pilot of the train about the need to stop the
+train through a written memo. The Engineering official shall
+simultaneously arrange to send a message to the Station Master for
+the need to block the track and obtain written confirmation of the
+same. In such emergent cases work may be commenced only after
+bringing the train to a stop and the Loco Pilot has been advised.`
+},
+{
+    id: 9,
+    title: 'Showing of signals',
+    rule: 'GR 15.09',
+    description: `(1) Whenever due to lines being under repair or due to any other
+obstruction it is necessary to indicate to the Loco Pilot that he has to
+stop or proceed at a restricted speed, the following signals shall be
+shown and, where prescribed, detonators used, if on a double line in
+the direction from which trains approach, and if on a single line in
+each direction ––
+(a)When the train is required to stop and the restriction is likely to last
+only for a day or less —
+A banner flag shall be exhibited at a distance of 600 metres on the
+Broad Gauge and 400 metres on the Metre Gauge and the Narrow
+Gauge and three detonators shall be placed, 10 metres apart, at a
+distance of 1200 metres on the Broad Gauge and 800 metres on the
+Metre Gauge and the Narrow Gauge from the place of obstruction.
+In addition, Stop hand signal shall be shown at a distance of 30
+metres from the place of obstruction, at the banner flag and at a
+distance of 45 metres form the three detonators. The railway
+servant at the place of obstruction shall give Proceed hand signal
+to indicate to the Loco Pilot when he may resume normal speed
+after the train has been hand-signalled past the place of
+obstruction.
+(b)When the train is required to stop and the restriction is likely to last
+for more than a day —
+A stop indicator shall be exhibited at a distance of 30 metres from
+the place of obstruction and a caution indicator at 1200 metres on
+the Broad Gauge and 800 metres on the Metre Gauge and the
+Narrow Gauge from the place of the obstruction. In addition,
+termination indicators shall be provided at the place where a Loco
+Pilot may resume normal speed.
+(c)When the train is not required to stop and the restriction is likely to
+last only for a day or less —
+Proceed with caution hand signals shall be exhibited at a distance
+of 30 metres and again at a distance of at least 800 metres from the
+place of obstruction. The distance of 800 metres shall be suitably
+increased by special instructions, where required. The railway
+servant at the place of obstruction shall give Proceed hand signal
+to indicate to the Loco Pilot when he may resume normal speed
+after the train has been hand-signalled past the place of
+obstruction.
+(d)When the train is not required to stop and the restriction is likely to
+last for more than a day —
+A speed indicator shall be exhibited at a distance of 30 metres from
+the place of obstruction and again a caution indicator at a distance
+of at least 800 metres from the place of obstruction. The distance
+of 800 metres shall be suitably increased by Special Instructions,
+where required. In addition, ‘Termination’ indicators shall be
+provided at the place where a Loco Pilot may resume normal
+speed.
+(2) In case the place of obstruction is within station limits ––
+(a) the provision of sub-rule (1) may be dispensed with if the affected
+line has been isolated by setting and securing of points or by
+securing at ‘on’ the necessary manually controlled Stop signal or
+signals, and
+(b) approach signals shall not be taken ‘off ’ for a train unless the
+train has been brought to a stop at the first Stop signal, except in
+cases where the Loco Pilot has been issued with a Caution Order
+at a station in rear, informing him of the obstruction and the
+details thereof.
+(3) If the place of work is situated in Automatic Signalling Territory, and if
+the distance between the place of obstruction and the Automatic
+signal controlling the entry of train in the signalling section concerned
+is less than 1200 metres on the Broad Gauge and 800 metres on the
+Metre Gauge and provided the Automatic signal has been secured at
+‘on’––
+(a) the banner flag and three detonators referred to in clause (a) of
+sub-rule (1) may be provided at 90 and 180 metres respectively;
+and
+(b) the caution indicator referred to in clause (b) of sub-rule (1) may be
+dispensed with.
+(4) The shapes and sizes of the indicators referred to in clauses (b) and
+(d) of sub-rule (1) may be prescribed by special instructions.`
+},
+{
+    id: 10,
+    title: 'Assistance in protection of train',
+    rule: 'GR 15.10',
+    description: `Every railway servant employed on way or works shall, on the requisition of the
+Guard of a train or the Loco Pilot thereof, render assistance for the protection
+of the train.`
+},
+{
+    id: 11,
+    title: 'Gangmate in each gang',
+    rule: 'GR 15.11',
+    description: `Each Inspector of Way or Works shall see that in every gang employed in his
+length of line there is a competent Gangmate.`
+},
+{
+    id: 12,
+    title: 'Knowledge of signals and equipment of gang',
+    rule: 'GR 15.12',
+    description: `Each Inspector of Way or Works shall see –
+(a) that every Gangman and Gangmate employed under him has a correct
+knowledge of hand signals and detonating signals; and
+(b) that every gang employed in his length of line is supplied with a
+permanent way gauge, two sets of flag signals, two hand signal lamps
+and twelve detonators, in addition to such other tools or implements
+as may be prescribed by special instructions.`
+},
+{
+    id: 13,
+    title: 'Inspection of Gauges, signals, tools and implements',
+    rule: 'GR 15.13',
+    description: `(1) Each Inspector of Way or Works shall at least once in every month
+inspect the permanent way gauges, flags, signal lamps, detonators,
+tools and implements supplied to the gangs under clause (b) of Rule
+15.12 and ascertain whether the above equipment is complete and in
+good order.
+(2) He shall also see that any defective or missing articles are replaced.`
+},
+{
+    id: 14,
+    title: 'Responsibility of Gangmate as to safety of line',
+    rule: 'GR 15.14',
+    description: `Each Gangmate shall -–
+(a) see that his length of line is kept safe for the passage of trains;
+(b) that the signals supplied to him under clause (b) of Rule 15.12, are
+kept in proper order and ready for use;
+(c) that the men in his gang each have a correct knowledge of hand
+signals and detonating signals,
+(d) endeavour to prevent any trespassing by persons or cattle on his
+length of line or within the fences thereof, and
+(e) when repairing, lifting or lowering the line or when performing any
+other operation which shall make it necessary for a train to proceed
+cautiously himself be present at the spot and be responsible that the
+caution signals prescribed in Rule 15.09 are shown.`
+},
+{
+    id: 15,
+    title: 'Blasting',
+    rule: 'GR 15.15',
+    description: `No railway servant employed on the way or on any works shall carry on any
+blasting operations on or near the railway except as permitted by special
+instructions`
+},
+{
+    id: 16,
+    title: 'Putting in or removing points or crossings',
+    rule: 'GR 15.16',
+    description: `Except in cases of emergency, no railway servant shall put in or remove any
+points or crossings otherwise than as permitted by special instructions.`
+},
+{
+    id: 17,
+    title: 'Duties of Gangmate and Gangman when apprehending danger',
+    rule: 'GR 15.17',
+    description: `If a Gangmate or Gangman considers that the line is likely to be rendered
+unsafe, or that any train is likely to be endangered in consequence of any
+defect in the way or works or of abnormal rain or floods or any other
+occurrence, he shall take immediate steps for securing the stability of the line
+and the safety of trains, by using the prescribed signals for trains to proceed
+with caution or to stop, as necessity may require; and shall as soon as
+possible report the circumstances to the nearest Station Master and the
+Inspector of Way or Works.`
+},
+
+{
+    id: 18,
+    title: 'Distinction between Trolley, Lorry and Motor Trolley',
+    rule: 'GR 15.18',
+    description: `(1) A vehicle which can be lifted bodily off the line by four men shall be
+deemed to be a Trolley and any similar but heavier vehicle shall be
+deemed to be a Lorry.
+(2) Any Trolley which is self-propelled, by means of a motor, is a Motor
+Trolley.
+(3) A Trolley shall not, except in cases of emergency, be used for the
+carriage of permanent way or other heavy material; and when a
+Trolley is so loaded, it shall be deemed, for the purposes of these
+rules, to be a Lorry.`
+},
+{
+    id: 19,
+    title: 'Red flag or light to be shown',
+    rule: 'GR 15.19',
+    description: `Every Lorry or Trolley when on the line shall show a red flag by day and a red
+light by night, during thick, foggy or tempestuous weather impairing visibility
+or in a tunnel in the directions from which a train may come.`
+},
+{
+    id: 20,
+    title: 'Equipment of Trolley, Lorry or Motor Trolley',
+    rule: 'GR 15.20',
+    description: `Each Trolley, Lorry or Motor Trolley shall have the following equipment:-
+(a) two hand signal lamps,
+(b) two red and two green hand signal flags,
+(c) sufficient supply of detonators,
+(d) a chain and a padlock,
+(e) a copy of the Working Time Table and all correction slips and
+appendices, if any, in force on that section of the railway over which
+the Trolley, Lorry or Motor Trolley is to run,
+(f ) a motor horn and a search light (for Motor Trolley only),
+(g) two banner flags (for Lorry only), and
+(h) such other articles as may be prescribed by the Railway
+Administration in this behalf.
+Note:–The official in charge of the Trolley, Lorry or Motor Trolley shall also be
+in possession of a watch in addition to the prescribed equipment.`
+},
+{
+    id: 21,
+    title: 'Efficient brakes',
+    rule: 'GR 15.21',
+    description: `No Lorry or Trolley shall be placed on the line unless it is fitted with efficient
+brakes.`
+},
+{
+    id: 22,
+    title: 'Qualified person to be in charge of Lorry or Trolley when on the line',
+    rule: 'GR 15.22',
+    description: `(1) No Lorry or Trolley shall be placed on the line except by a qualified
+person appointed in this behalf by special instructions.
+(2) Such qualified person shall accompany the Lorry or Trolley, and shall
+be responsible for its proper protection and for its being used in
+accordance with special instructions.`
+},
+{
+    id: 23,
+    title: 'Attachment to train prohibited',
+    rule: 'GR 15.23',
+    description: `No Lorry or Trolley shall be attached to a train.`
+},
+{
+    id: 24,
+    title: 'Time of running',
+    rule: 'GR 15.24',
+    description: `A Lorry shall ordinarily be run only by day and when the weather is sufficiently
+clear for a signal to be distinctly seen from an adequate distance, which shall
+never be less than 800 metres.`
+},
+{
+    id: 25,
+    title: 'Motor Trolley',
+    rule: 'GR 15.25',
+    description: `A Motor Trolley shall only be run in accordance with special instructions.`
+},
+{
+    id: 26,
+    title: 'Protection of Trolley on the line',
+    rule: 'GR 15.26',
+    description: `The qualified person in charge of a Trolley shall, before leaving a station,
+ascertain the whereabouts of all approaching trains, and shall, when a clear
+view is not obtainable for an adequate distance ––
+(a) on a single line, in both directions, or
+(b) on a double line, in the direction from which trains may approach,
+take such precautions for the protection of his Trolley as may be
+prescribed by special instructions.`
+},
+{
+    id: 27,
+    title: 'Protection of Lorry on the line',
+    rule: 'GR 15.27',
+    description: `(1) Whenever it is proposed to place a Lorry, whether loaded or empty on
+the line, the line shall, if it is possible to do so, without interference with
+the working of trains, be blocked under the rules for working of trains.
+(2) Except under approved special instructions, when the line has not been
+so blocked and a Lorry whether loaded or empty is placed on the line,
+the Lorry shall be protected ––
+(a) on double line, by one or two men as required, at a distance of 600
+metres on the Broad Gauge and 400 metres on the Metre Gauge and
+the Narrow Gauge, carrying a banner flag across the track and
+another man plainly showing a Stop hand signal at a distance of not
+less than 1200 metres on the Broad Gauge and 800 metres on the
+Metre Gauge and the Narrow Gauge from the Lorry in the direction
+from which trains may approach, or
+(b)on single line, by one or two men as required, following and
+preceding the Lorry at a distance of 600 metres on the Broad Gauge
+and 400 metres on the Metre Gauge and the Narrow Gauge, carrying
+a banner flag across the track and another man plainly showing a
+Stop hand signal at a distance of not less than 1200 metres on the
+Broad Gauge and 800 metres on the Metre Gauge and the Narrow
+Gauge from the Lorry on either side.
+(3) Each man so following or preceding the Lorry at a distance of 1200
+metres on the Broad Gauge and 800 metres on the Metre Gauge and the
+Narrow Gauge shall be provided with detonators and place three on the
+line, 10 metres apart, immediately the Lorry comes to a stand for the
+purpose of either unloading or loading or should any train be seen
+approaching, and continue to display the Stop hand signal.
+(4) The man or men carrying the banner flag shall immediately fix the
+banner flag across the track immediately the Lorry comes to a stand or
+a train is seen approaching, and continue to display the Stop hand
+signal.
+(5) In all cases where the flagmen in advance or in rear cannot be kept in
+view from the Lorry, additional intermediate flagmen shall be posted to
+relay the signals.
+(6) The Stop signals and detonators shall not be removed until the flagmen
+have received the orders to withdraw them from the official-in-charge of
+the Lorry.`
+},
+{
+    id: 28,
+    title: 'Lorries and Trollies out of use',
+    rule: 'GR 15.28',
+    description: `A Lorry or Trolley, when not in use, shall be placed clear of line, and the wheels
+thereof be secured with a chain and padlock.`
+},
+            ]
+    },
+    {
+        id: 16,
+        chapter: 'Chapter 16 - GANG PROTECTION',
+        rules: [
+            {
+                id: 1,
+                title: 'Knowledge of signals',
+                rule: 'GR 16.01',
+                description: `No person shall be appointed to be a Gateman unless he has a knowledge of
+signals.`
+            },
+            {
+                id: 2,
+                title: 'Supply and care of equipment',
+                rule: 'GR 16.02',
+                description: `Every Gateman shall---
+(a) be supplied with day and night hand signals, detonators, and other
+prescribed equipment, and
+(b) keep such signals, detonators and other equipment in proper order
+and ready for use.`
+            },
+            {
+                id: 3,
+                title: 'Road Traffic',
+                rule: 'GR 16.03',
+                description: `(1) Subject to such special instructions in that behalf as are permitted by
+these rules, all gates at level crossings shall be kept constantly
+closed and securely fastened across the thoroughfare on both sides
+of the railway and shall only be opened when it is necessary and safe
+to open them for the passage of road traffic:
+Provided that any Railway Administration may from time to time issue
+special instructions for any particular level crossing or class of level
+crossing and may by such special instructions permit the gates at any
+level crossing or class of level crossing to be normally kept open to
+road traffic and may therein prescribe the conditions under which
+gates are to be kept closed against road traffic for the passage of a
+train or trains or for the purposes of any other railway operation; and
+all such special instructions so long as they be not cancelled or
+superseded shall for the purposes only of the Railway Administration
+issuing the same be deemed to be General Rules within the meaning
+and subject to the provision of section 60 of the Act.
+(2) If for any reason the gates at level crossings cannot be so closed /
+fastened across thorough fares on both sides of the track, action to
+prevent the approaching trains, if any, from running into the gate may
+be taken in accordance with stipulations laid down under Rule 16.06.
+(3) Gatemen, where provided, shall, at all level crossings be prepared,
+whenever such level crossings be open to road traffic, to show a Stop
+hand signal to any approaching train.
+(4) Where no Gateman is specially provided for night duty at a level
+crossing, the gates thereat shall, subject to special instructions, be
+locked at night and opened only to pass road traffic in such manner
+as may be prescribed by special instructions.`
+            },
+            {
+                id: 4,
+                title: 'Gateman to observe passing trains',
+                rule: 'GR 16.04',
+                description: `Except where otherwise prescribed under special instructions, the Gateman
+shall observe all passing trains and be prepared to take such action as may be
+necessary to ensure safety of trains.`
+            },
+            {
+                id: 5,
+                title: 'Channel for flange of wheels',
+                rule: 'GR 16.05',
+                description: `The Gateman shall see that the channel for the flange of the wheels is kept
+clear.`
+            },
+            {
+                id: 6,
+                title: 'Defects at level crossings',
+                rule: 'GR 16.06',
+                description: `If any gate or the fastenings thereof, or any fixed signal pertaining to the gate
+becomes out of order, the Gateman shall—
+(a) take action to close the gates, if possible, against the road traffic
+(b) after closing the gates, hand signal that train movements past the
+level crossing,
+(c) if the gates cannot be so closed, put the banner flag or level crossing
+flag in such manner as to warn the approaching train to stop short of
+gate and thereafter hand signal the train,
+(d) report the fact to his superior or the nearest Gangmate.`
+            },
+            {
+                id: 7,
+                title: 'Obstructions at level crossings',
+                rule: 'GR 16.07',
+                description: `Every Gateman, on noticing any obstruction on the line, shall at once remove it
+or, if unable to do so, shall—
+(a) take action to ensure that the fixed signals, if any, protecting the gate
+are kept at ‘on’,
+(b) show Stop hand signal and do his best to stop approaching trains,
+and
+(c) shall protect the obstruction as per Rule 3.62.`
+            },
+            {
+                id: 8,
+                title: 'Parting of a train',
+                rule: 'GR 16.08',
+                description: `If a Gateman notices that a train has parted, he shall not show a Stop hand
+signal to the Loco Pilot, but shall endeavour to attract the attention of the Loco
+Pilot and the Guard by shouting, gesticulating or other means.`
+            },
+            {
+                id: 9,
+                title: 'Trespassing',
+                rule: 'GR 16.09',
+                description: `Every Gateman shall, as far as possible, prevent any trespassing by persons or
+cattle.`
+            },
+            {
+                id: 10,
+                title: 'Transfer of charge of gate',
+                rule: 'GR 16.10',
+                description: `Except in accordance with special instructions, no Gateman shall leave his
+gate unless another Gateman has taken charge of it.`
+            },
+            {
+                id: 11,
+                title: 'Height gauges',
+                rule: 'GR 16.11',
+                description: `(1) Adequate arrangements shall be made to erect height gauges on
+either side of the overhead equipment or other equipment at every
+level crossing so as to ensure that all vehicles and moving structures
+passing under the height gauge also pass under the overhead
+equipment or other equipment with adequate clearance.
+(2) The adequate clearance referred to in sub-rule (1) shall be sanctioned
+under approved special instructions.
+(3) Vehicles and moving structures, which cannot pass under the height
+gauge without striking or touching it, shall not be permitted to pass
+the overhead equipment or other equipment except in accordance
+with special instructions.`
+            },
+            
+        ]
+    },
+    {
+        id: 17,
+        chapter: 'Chapter 17 - WORKING OF TRAINS ON ELECTRIFIED SECTIONS OF RAILWAYS',
+        rules: [
+            {
+                id: 1,
+                title: 'Applicability of General Rules',
+                rule: 'GR 17.01',
+                description: `All rules referring to the working of trains shall also apply to electrified
+sections except as otherwise provided in the rules contained in this Chapter.`
+            },
+            {
+                id: 2,
+                title: 'Special definitions applicable to this chapter',
+                rule: 'GR 17.02',
+                description: `(1) “electrical way and works” means the traction installations including
+overhead equipment and other connected works provided on the
+electrified sections of the railway.
+(2) “feeding post” means a supply control post, where the incoming
+feeder lines from grid sub–station are terminated;
+(3) “neutral section” means a short section of insulated and dead
+overhead equipment which separates the areas fed by adjacent sub–
+stations or feeding posts;
+(4) “Power Block” means blocking of a section of line to electric traffic
+only;
+(5) “supply control post” means an assembly of interrupters, isolator
+switches, remote control equipment and other apparatus provided for
+controlling power supply to overhead equipment. It includes feeding
+posts, sectioning and paralleling post, sub–sectioning and paralleling
+posts and sub–sectioning posts;
+(6) “Tower Wagon” means a self-propelled vehicle which is used for the
+maintenance and repairs of overhead equipment.
+(7) “Traction Power Controller” means a competent railway servant who
+may for the time being be responsible for the control of power supply
+on the traction distribution system.`
+            },
+            {
+                id: 3,
+                title: 'Inspection of electrical way and works',
+                rule: 'GR 17.03',
+                description: `The electrical way and works shall be inspected regularly in accordance with
+special instructions by officials nominated for the purpose and in accordance
+with the duties assigned to them.`
+            },
+            {
+                id: 4,
+                title: 'Permit-to-work on electrical equipment',
+                rule: 'GR 17.04',
+                description: `If work is to be carried out adjacent to the electrical equipment or any other
+part thereof by other than the competent railway servant, such work shall be
+done only when and for such time as the person-in-charge of the work has
+obtained a written permit-to-work, duly signed and given by the railway servant
+authorised for the purpose by special instructions. He, in turn, shall issue the
+same only with the knowledge of the Traction Power Controller.`
+            },
+            {
+                id: 5,
+                title: 'Warning to staff and public',
+                rule: 'GR 17.05',
+                description: `(1) All electrical equipment shall be regarded as being live at all times and
+consequently dangerous to human life, save and except in cases,
+where the electrical equipment has been specially made dead in
+accordance with special instructions. Caution notices shall be
+prominently fixed near all vulnerable places to warn staff and public to
+exercise due caution.
+(2) No person shall climb on the top of engines or tenders or on the roofs
+of carriages or wagons when those vehicles are located beneath
+overhead equipment except when the overhead equipment is dead
+and earthed in accordance with special instructions.`
+            },
+            {
+                id: 6,
+                title: 'Alterations to track',
+                rule: 'GR 17.06',
+                description: `Before any alteration to alignment or level of electrified tracks is commenced,
+due notice shall be given to those responsible for the overhead equipment so
+that the overhead equipment may be adjusted to conform to the new
+conditions.`
+            },
+            {
+                id: 7,
+                title: 'Tripping of circuit breakers of locomotives and electrical multiple units at neutral sections',
+                rule: 'GR 17.07',
+                description: `Unless otherwise allowed by special instructions, the Loco Pilot of the
+locomotive or electrical multiple unit shall coast through the neutral section,
+duly switching off power. Necessary indication boards to this effect shall be
+provided to guide the Loco Pilot to switch off and switch on power.`
+            },
+            {
+                id: 8,
+                title: 'Tower Wagon',
+                rule: 'GR 17.08',
+                description: `The rules for the movement and working of Tower Wagons shall be laid down
+by special instructions.`
+            },
+            {
+                id: 9,
+                title: 'Additional rules for electrified sections',
+                rule: 'GR 17.09',
+                description: `Special instructions for working of trains on electrified sections shall be
+notified by the authorized officer.`
+            },
+            
+        ]
+    },
+    {
+        id: 18,
+        chapter: 'Chapter 18 - MISCELLANEOUS',
+        rules: [
+            {
+                id: 1,
+                title: 'Repeal and Saving',
+                rule: 'GR 18.01',
+                description: `The General Rules issued under the notification of the Government of India in
+the late Railway Department (Railway Board) No.1078-T, dated the 9th March,
+1929, are hereby repealed except as respects things done or action taken or
+omitted to be done or taken before such repeal.`}
             ]
     }
             ]
