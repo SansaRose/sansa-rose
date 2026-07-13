@@ -1324,6 +1324,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes Quizzes",
   },
   {
+    href: "/topics/railway-acts",
+    title: "Railway Acts",
+    category: "Study Topics",
+    parent: "Topics",
+    keywords: "topics railway acts Railway Acts Indian Railway Act 1989",
+  },
+  {
     href: "/topics/financial-rules/railway-budget",
     title: "Railway Budget",
     category: "Study Topics",
