@@ -217,13 +217,20 @@ function flattenActs(): FlatAct[] {
       chapter: string
       acts?: Array<{ id: number; title: string; section: string; description: string }>
       pages?: Array<{ id: number; title: string; section: string; description: string }>
+      sections?: Array<{ id: number; title: string; section: string; description: string }>
+      rules?: Array<{ id: number; title: string; section: string; description: string }>
     }
-    const acts = chapterRecord.acts ?? chapterRecord.pages ?? []
+    const acts =
+      chapterRecord.acts ??
+      chapterRecord.sections ??
+      chapterRecord.pages ??
+      chapterRecord.rules ??
+      []
 
     for (const act of acts) {
       number += 1
       items.push({
-        key: `${chapterRecord.id}-${act.id}`,
+        key: `act-${number}`,
         number,
         chapter: chapterRecord.chapter,
         title: act.title,
@@ -338,12 +345,12 @@ const RailwayActs = () => {
               className="relative bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 min-h-[260px] flex flex-col"
             >
               <div
-                className="absolute top-4 right-4 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-lg"
+                className="absolute top-4 right-4 flex min-h-8 min-w-8 items-center justify-center rounded-full px-2 text-white text-xs font-bold shadow-lg sm:text-sm"
                 style={{
                   background: 'linear-gradient(to right, #a855f7, #ec4899)',
                 }}
               >
-                {item.number}
+                {item.section}
               </div>
 
               <div className="mt-8 space-y-4 flex-1">

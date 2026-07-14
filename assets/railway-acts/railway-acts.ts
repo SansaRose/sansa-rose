@@ -1467,12 +1467,6 @@ Provided that the statement is—
 by any person in or on any train carrying passengers, or in a waiting hall, cloak room or reservation or booking office or on any platform or in any other place within the precincts of a railway station; or
 (2) the accidental falling of any passenger from a train carrying passengers.]`,
             },
-        ]
-    },
-    {
-        id: 16,
-        chapter: 'Chapter XIV - LIABILITY OF RAILWAY ADMINISTRATIONS FOR PERSONAL INJURY',
-        sections: [
             {
                 id: 1,
                 title: 'Extent of liability',
@@ -1899,6 +1893,290 @@ he shall be punishable with imprisonment for a term which may extend to one mont
                 section: '169',
                 description: `If any person obstructs or causes to be obstructed or attempts to obstruct any railway or any part thereof or any rolling stock upon any railway, he shall be punishable with imprisonment for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both.`,
             },
+            {
+                id: 34,
+                title: 'Recovery of penalty',
+                section: '170',
+                description: `Any penalty imposed by the Central Government under section 169, shall be recoverable by a suit in the District Court having jurisdiction in the place where the head office of the non-Government railway is situated.`,
+            },
+            {
+                id: 35,
+                title: 'Section 169 or 170 not to preclude Central Government from taking any other action',
+                section: '171',
+                description: `Nothing in section 169 or 170 shall preclude the Central Government from resorting to any other action to compel a non-Government railway to discharge any obligation imposed upon it by or under this Act.`,
+            },
+            {
+                id: 36,
+                title: 'Penalty for intoxication',
+                section: '172',
+                description: `If any railway servant is in a state of intoxication while on duty, he shall be punishable with fine which may extend to five hundred rupees and when the performance of any duty in such state is likely to endanger the safety of any person travelling on or being upon a railway, such railway servant shall be punishable with imprisonment for a term which may extend to one year, or with fine, or with both.`,
+            },
+            {
+                id: 37,
+                title: 'Abandoning train, etc., without authority',
+                section: '173',
+                description: `If any railway servant, when on duty, is entrusted with any responsibility connected with the running of a train, or of any other rolling stock from one station or place to another station or place, and he abandons his duty before reaching such station or place without authority or without properly handing over such train or rolling stock to another authorised railway servant, he shall be punishable with imprisonment for a term which may extend to two years, or with fine which may extend to one thousand rupees, or with both.`,
+            },
+            {
+                id: 38,
+                title: 'Obstructing running of train, etc',
+                section: '174',
+                description: `If any railway servant (whether on duty or otherwise) or any other person obstructs or causes to be obstructed or attempts to obstruct any train or other rolling stock upon a railway,—
+(a) by squatting or picketing or during any rail roko agitation or bandh; or
+(b) by keeping without authority any rolling stock on the railway; or
+(c) by tampering with, disconnecting or interfering in any other manner with its hose pipe or tampering with signal gear or otherwise,
+he shall be punishable with imprisonment for a term which may extend to two years, or with fine which may extend to two thousand rupees, or with both.`,
+            },
+            {
+                id: 39,
+                title: 'Endangering the safety of persons',
+                section: '175',
+                description: `If any railway servant, when on duty, endangers the safety of any person—
+(a) by disobeying any rule made under this Act; or
+(b) by disobeying any instruction, direction or order under this Act or the rules made thereunder; or
+(c) by any rash or negligent act or omission,
+he shall be punishable with imprisonment for a term which may extend to two years, or with fine which may extend to one thousand rupees, or with both.`,
+            },
+            {
+                id: 40,
+                title: 'Obstructing level crossing',
+                section: '176',
+                description: `If any railway servant unnecessarily—
+(a) allows any rolling stock to stand across a place where the railway crosses a public road on the level; or
+(b) keeps a level crossing closed against the public,
+he shall be punishable with fine which may extend to one hundred rupees.`,
+            },
+            {
+                id: 41,
+                title: 'False returns',
+                section: '177',
+                description: `If any railway servant required to furnish a return by or under this Act, signs and furnishes a return which is false in any material particular or which he knows or believes to be false, or does not believe to be true, he shall be punishable with imprisonment which may extend to one year, or with fine which may extend to five hundred rupees, or with both.`,
+            },
+            {
+                id: 42,
+                title: 'Making a false report by a railway servant',
+                section: '178',
+                description: `If any railway servant who is required by a railway administration to inquire into a claim for loss, destruction, damage, deterioration or non-delivery of any consignment makes a report which is false or which he knows or believes to be false or does not believe to be true, he shall be punishable with imprisonment for a term which may extend to two years, or with fine which may extend to one thousand rupees, or with both.`,
+            },
+            {
+                id: 43,
+                title: 'Arrest for offences under certain sections',
+                section: '179',
+                description: `(1) If any person commits any offence mentioned in sections 150 to 152, he may be arrested without warrant or other written authority by any railway servant or police officer not below the rank of a head constable.
+(2) If any person commits any offence mentioned in sections 137 to 139, 141 to 147, 153 to 157, 159 to 167 and 172 to 176, he may be arrested, without warrant or other written authority, by the officer authorised by a notified order of the Central Government.
+(3) The railway servant or the police officer or the officer authorised, as the case may be, may call to his aid any other person to effect the arrest under sub-section (1) or sub-section (2), as the case may be.
+(4) Any person so arrested under this section shall be produced before the nearest Magistrate within a period of twenty-four hours of such arrest excluding the time necessary for the journey from the place of arrest to the court of the Magistrate.]`,
+            },
+            {
+                id: 44,
+                title: 'Arrest of persons likely to abscond, etc',
+                section: '180',
+                description: `(1) If any person who commits any offence under this Act, other than an offence mentioned in sub-section (2) of section 179, or is liable to pay any excess charge or other sum demanded under section 138, fails or refuses to give his name and address or there is reason to believe that the name and address given by him are fictitious or that he will abscond, the officer authorised may arrest him without warrant or written authority.
+(2) 3[The officer authorised] may call to his aid any other person to effect the arrest under sub-section (1).
+(3) Any person arrested under this section shall be produced before the nearest Magistrate within a period of twenty-four hours of such arrest excluding the time necessary for the journey from the place of arrest to the court of the Magistrate unless he is released earlier on giving bail or if his true name and address are ascertained on executing a bond without sureties for his appearance before the Magistrate having jurisdiction to try him for the offence.
+(4) The provisions of Chapter XXIII of the Code of Criminal Procedure, 1973 (2 of 1974), shall, so far as may be, apply to the giving of bail and the execution of bonds under this section.`,
+            },
+            {
+                id: 45,
+                title: 'Inquiry by officer authorised to ascertain commission of offence',
+                section: '180A',
+                description: `For ascertaining facts and circumstances of a case, the officer authorised may make an inquiry into the commission of an offence mentioned in sub-section (2) of section 179 and may file a complaint in the competent court if the offence is found to have been committed.`,
+            },
+            {
+                id: 46,
+                title: 'Powers of officer authorised to inquire',
+                section: '180B',
+                description: `While making an inquiry, the officer authorised shall have power to,—
+(i) summon and enforce the attendance of any person and record his statement;
+(ii) require the discovery and production of any document;
+(iii) requisition any public record or copy thereof from any office, authority or person;
+(iv) enter and search any premises or person and seize any property or document which may be relevant to the subject-matter of the inquiry.`,
+            },
+            {
+                id: 47,
+                title: 'Disposal of persons arrested',
+                section: '180C',
+                description: `Every person arrested for an offence punishable under sub-section (2) of section 179 shall, if the arrest was made by a person other than the officer authorised, be forwarded, without delay, to such officer.`,
+            },
+            {
+                id: 48,
+                title: 'Inquiry how to be made against arrested person',
+                section: '180D',
+                description: `(1) When any person is arrested by the officer authorised for an offence punishable under this Act, such officer shall proceed to inquire into the charge against such person.
+(2) For this purpose, the officer authorised may exercise the same powers and shall be subject to the same provisions as the officer in charge of a police station may exercise and is subject to the provisions of the Code of Criminal Procedure, 1973 (2 of 1974 ), when investigating a cognizable case:
+Provided that—
+(a) if the officer authorised is of the opinion that there is sufficient evidence or reasonable ground of suspicion against the accused person, he shall either admit him to bail to appear before a Magistrate having jurisdiction in the case, or forward him in custody to such Magistrate;
+(b) if it appears to the officer authorised that there is not sufficient evidence or reasonable ground of suspicion against the accused person, he shall release the accused person on his executing a bond with or without sureties as the officer authorised may direct, to appear, if and when so required, before the Magistrate having jurisdiction.,`,
+            },
+            {
+                id: 49,
+                title: 'Search, seizure and arrest how to be made',
+                section: '180E',
+                description: `All searches, seizures and arrests made under this Act shall be carried out in accordance with the provisions of the Code of Criminal Procedure, 1973 (2 of 1974 ), relating respectively to searches and arrests made under that Code.`,
+            },
+            {
+                id: 50,
+                title: 'Cognizance by Court on a complaint made by officer authorised',
+                section: '180F',
+                description: `No court shall take cognizance of an offence mentioned in sub-section (2) of section 179 except on a complaint made by the officer authorised.`,
+            },
+            {
+                id: 51,
+                title: 'Punishment for certain offences in relation to inquiry',
+                section: '180G',
+                description: `Whoever intentionally insults or causes any interruption in the inquiry proceedings or deliberately makes a false statement before the inquiring officer shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both.]`,
+            },
+            {
+                id: 52,
+                title: 'Magistrate having jurisdiction under the Act',
+                section: '181',
+                description: `Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), no court inferior to that of a Metropolitan Magistrate or a Judicial Magistrate of the first class shall try an offence under this Act.`,
+            },
+            {
+                id: 53,
+                title: 'Place of trial',
+                section: '182',
+                description: `(1) Any person committing an offence under this Act or any rule made thereunder shall be triable for such offence in any place in which he may be or which the State Government may notify in this behalf, as well as in any other place in which he is liable to be tried under any law for the time being in force.
+(2) Every notification under sub-section (1) shall be published in the Official Gazette, and a copy thereof shall be exhibited for the information of the public in some conspicuous place at such railway stations as the State Government may direct.`,
+            },
+            
         ]
     },
+    {
+        id: 18,
+        chapter: 'Chapter XVI - MISCELLANEOUS',
+        sections: [
+            {
+                id: 1,
+                title: 'Power to provide other transport services',
+                section: '183',
+                description: `(1) A railway administration may, for the purpose of facilitating the carriage of passengers or goods or to provide integrated service for such carriage, provide any other mode of transport.
+(2) Notwithstanding anything contained in any other law for the time being in force, the provisions of this Act shall apply to the carriage of passengers or goods by the mode of transport referred to in sub-section (1).`,
+            },
+            {
+                id: 2,
+                title: 'Taxation on railways by local authorities',
+                section: '184',
+                description: `(1) Notwithstanding anything to the contrary contained in any other law, a railway administration shall not be liable to pay any tax in aid of the funds of any local authority unless the Central Government, by notification, declares the railway administration to be liable to pay the tax specified in such notification.
+(2) While a notification of the Central Government under sub-section (1) is in force, the railway administration shall be liable to pay to the local authority either the tax specified in the notification or, in lieu thereof, such sum, if any, as an officer appointed in this behalf by the Central Government may, having regard to all the circumstances of the case, from time to time, determine to be fair and reasonable.
+(3) The Central Government may at any time revoke or vary a notification issued under sub-section (1).
+(4) Nothing in this section shall be construed to prevent any railway administration from entering into a contract with any local authority for the supply of water or light, or for the scavenging of railway premises, or for any other service which the local authority may be rendering or be prepared to render to the railway administration.
+`,
+            },
+            {
+                id: 3,
+                title: 'Taxation on railways for advertisement',
+                section: '185',
+                description: `(1) Notwithstanding anything to the contrary contained in any other law, a railway administration shall not be liable to pay any tax to any local authority in respect of any advertisement made on any part of the railway unless the Central Government, by notification, declares the railway administration to be liable to pay the tax specified in such notification.
+(2) The Central Government may at any time revoke or vary a notification issued under sub-section (1).`,
+            },
+            {
+                id: 4,
+                title: 'Protection of action taken in good faith',
+                section: '186',
+                description: `No suit, prosecution or other legal proceeding shall lie against the Central Government, any railway administration, a railway servant or any other person for anything which is in good faith done or intended to be done in pursuance of this Act or any rules or orders made thereunder.`,
+            },
+            {
+                id: 5,
+                title: 'Restriction on exceution against railway property',
+                section: '187',
+                description: `(1) No rolling stock, machinery, plant, tools, fittings, materials or effects used or provided by a railway administration for the purpose of traffic on its railway, or of its stations or workshops, shall be liable to be taken in execution of any decree or order of any court or of any local authority or person having by law the power to attach or distrain property or otherwise to cause property to be taken in execution, without the previous sanction of the Central Government.
+(2) Nothing in sub-section (1) shall be construed to affect the authority of any court to attach the earnings of a railway in execution of a decree or order.`,
+            },
+            {
+                id: 6,
+                title: 'Railway servants to be public servants for the purposes of Chapter IX and section 409 of the Indian Penal Code (45 of 1860)',
+                section: '188',
+                description: `(1) Any railway servant, who is not a public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860), shall be deemed to be a public servant for the purposes of Chapter IX and section 409 of that Code.
+(2) In the definition of “legal remuneration” in section 161 of the Indian Penal Code (45 of 1860), the word “Government” shall, for the purposes of sub-section (1), be deemed to include any employer of a railway servant as such.`,
+            },
+            {
+                id: 7,
+                title: 'Railway servants not to engage in trade',
+                section: '189',
+                description: `A railway servant shall not—
+(a) purchase or bid for, either in person or by an agent, in his own name or in that of another, or jointly or in shares with others, any property put to auction under section 83 or section 84 or section 85 or section 90; or
+(b) in contravention of any direction of the railway administration in this behalf, engage in trade.`,
+            },
+            {
+                id: 8,
+                title: 'Procedure for delivery to railway administration of property detained by a railway servant',
+                section: '190',
+                description: `If a railway servant is discharged from service or is suspended, or dies or absconds or absents himself, and he or his wife or widow or any member of his family or his representative, refuses or neglects, after notice in writing for that purpose, to deliver up to the railway administration or to a person appointed by the railway administration, in this behalf, any station, office or other building with its appurtenances, or any books, papers, keys, equipment or other matters, belonging to the railway administration and in the possession or custody of such railway servant at the occurrence of any such event as aforesaid, any Metropolitan Magistrate or Judicial Magistrate of the first class may, on application made by or on behalf of the railway administration, order any police officer, with proper assistance, to enter upon the station, office or other building and remove any person found therein and take possession thereof, or to take possession of the books, papers or other matters, and to deliver the same to the railway administration or to a person appointed by the railway administration in that behalf.`,
+            },
+            {
+                id: 9,
+                title: 'Proof of entries in records and documents',
+                section: '191',
+                description: `Entries made in the records or other documents of a railway administration shall be admitted in evidence in all proceedings by or against the railway administration, and all such entries may be proved either by the production of the records or other documents of the railway administration containing such entries or by the production of a copy of the entries certified by the officer having custody of the records or other documents under his signature and stating that it is a true copy of the original entries and that such original entries are contained in the records or other documents of the railway administration in his possession.`,
+            },
+            {
+                id: 10,
+                title: 'Service of notice, etc., on railway administration',
+                section: '192',
+                description: `Any notice or other document required or authorised by this Act to be served on a railway administration may be served, in the case of a Zonal Railway, on the General Manager or any of the railway servant authorised by the General Manager, and in the case of any other railway, on the owner or lessee of the railway or the person working the railway under an agreement—
+(a) by delivering it to him; or
+(b) by leaving it at his office; or
+(c) by registered post to his office address.`,
+            },
+            {
+                id: 11,
+                title: 'Service of notice, etc., by railway administration',
+                section: '193',
+                description: `Unless otherwise provided in this Act or the rules framed thereunder, any notice or other document required or authorised by this Act to be served on any person by a railway administration may be served—
+(a) by delivering it to the person; or
+(b) by leaving it at the usual or last known place of abode of the person; or
+(c) by registered post addressed to the person at his usual or last known place of abode.`,
+            },
+            {
+                id: 12,
+                title: 'Presumption where notice is served by post',
+                section: '194',
+                description: `Where a notice or other document is served by post, it shall be deemed to have been served at the time when the letter containing it would be delivered in the ordinary course of post, and in proving such service, it shall be sufficient to prove that the letter containing the notice or other document was property addressed and registered.`,
+            },
+            {
+                id: 13,
+                title: 'Representation of railway administration',
+                section: '195',
+                description: `(1) A railway administration may, by order in writing, authorise any railway servant or other person to act for, or represent it, as the case may be, in any proceeding before any civil, criminal or other court.
+(2) A person authorised by a railway administration to conduct prosecutions on its behalf shall, notwithstanding anything in section 302 of the Code of Criminal Procedure, 1973 (2 of 1974), be entitled to conduct such prosecutions without the permission of the Magistrate.`,
+            },
+            {
+                id: 14,
+                title: 'Power to exempt railway from Act',
+                section: '196',
+                description: `(1) The Central Government may, by notification, exempt any railway from all or any of the provisions of this Act.
+(2) Every notification issued under sub-section (1) shall be laid as soon as may be after it is issued before each House of Parliament.`,
+            },
+            {
+                id: 15,
+                title: 'Matters supplemental to the definitions of “railway” and “railway servant”',
+                section: '197',
+                description: `(1) For the purposes of sections 67, 113, 121, 123, 147, 151 to 154, 160, 164, 166, 168, 170, 171, 173 to 176, 179, 180, 182, 184, 185, 187 to 190, 192, 193, 195 and of this section, the word “railway” whether it occurs alone or as a prefix to another word, has reference to a railway or portion of a railway under construction and to a railway or portion of a railway not used for the public carriage of passengers, animals or goods as well as to a railway falling within the definition of that word in clause (31) of section 2.
+(2) For the purposes of sections 7, 24, 113, 146, 172 to 176 and 188 to 190, the expression “railway servant” includes a person employed under a railway in connection with the service thereof by a person fulfilling a contract with the railway administration.`,
+            },
+            {
+                id: 16,
+                title: 'General power to make rules',
+                section: '198',
+                description: `Without prejudice to any power to make rules contained elsewhere in this Act, the Central Government may make rules generally to carry out the purposes of this Act.`,
+            },
+            {
+                id: 17,
+                title: 'Rules to be laid before Parliament',
+                section: '199',
+                description: `Every rule made under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that rule.`,
+            },
+            {
+                id: 18,
+                title: 'Repeal and saving',
+                section: '200',
+                description: `(1) The Indian Railways Act, 1890 (9 of 1890) is hereby repealed.
+(2) Notwithstanding the repeal of the Indian Railways Act, 1890 (9 of 1890) (hereinafter referred to as the repealed Act)—
+(a) anything done or any action taken or purported to have been done or taken (including any rule, notification, inspection, order or notice made or issued, or any appointment or declaration made or any licence, permission, authorisation or exemption granted or any document or instrument executed or any direction given or any proceedings taken or any penalty or fine imposed) under the repealed Act shall, in so far as it is not inconsistent with the provisions of this Act, be deemed to have been done or taken under the corresponding provisions of this Act;
+(b) any complaint made to the Railway Rates Tribunal under sub-section (1) of section 41 of the repealed Act but not disposed of before the commencement of this Act and any complaint that may be made to the said Tribunal against any act or omission of a railway administration under the repealed Act shall be heard and decided by the Tribunal constituted under this Act in accordance with the provisions of Chapter VII of this Act.
+(3) The mention of particular matters in sub-section (2) shall not be held to prejudice or affect the general application of section 6 of the General Clauses Act, 1897 (10 of 1897), with regard to the effect of repeal.`,
+            },
+        ]
+    }
 ]
