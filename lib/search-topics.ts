@@ -365,6 +365,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes commercial department Commercial Department",
   },
   {
+    href: "/quizzes/disaster-management",
+    title: "Disaster Management",
+    category: "Quizzes",
+    parent: "Quizzes",
+    keywords: "quizzes disaster management Disaster Management NDMA DM Act",
+  },
+  {
     href: "/general-awareness/committees",
     title: "Committees",
     category: "General Awareness",

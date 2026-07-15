@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import React from 'react';
 import Link from 'next/link';
-import { accidentManualQuizzes } from '@/assets/accident-manual';
+import { disasterManagementQuizzes } from '@/assets/disaster-management';
 
 type QuizQuestion = {
   question: string;
@@ -13,7 +13,7 @@ type QuizQuestion = {
   explanation?: string;
 };
 
-export default function AccidentManualQuiz() {
+export default function DisasterManagementQuiz() {
   const router = useRouter();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [quizStartTime, setQuizStartTime] = useState<number>(Date.now());
@@ -22,10 +22,10 @@ export default function AccidentManualQuiz() {
   
   // Get the category data
   const categoryData = {
-    title: 'Accident Manual',
-    description: 'Test your knowledge of Accident Manual for Indian Railways',
-    color: 'from-red-500 to-red-600',
-    quizzes: accidentManualQuizzes.quizzes as Record<string, QuizQuestion[]>
+    title: 'Disaster Management',
+    description: 'Test your knowledge of Disaster Management for Indian Railways',
+    color: 'from-orange-500 to-rose-600',
+    quizzes: disasterManagementQuizzes.quizzes as Record<string, QuizQuestion[]>
   };
   
   const [currentQuizId, setCurrentQuizId] = useState('chapter-1'); // Start with first quiz
@@ -50,7 +50,7 @@ export default function AccidentManualQuiz() {
           const data = await response.json();
           // Filter completed quizzes for this category
           const categoryCompletedQuizzes = data.recentActivity
-            ?.filter((quiz: { categoryId: string; quizId: string }) => quiz.categoryId === 'accident-manual')
+            ?.filter((quiz: { categoryId: string; quizId: string }) => quiz.categoryId === 'disaster-management')
             ?.map((quiz: { quizId: string }) => quiz.quizId) || [];
           setCompletedQuizzes(categoryCompletedQuizzes);
         }
@@ -84,7 +84,7 @@ export default function AccidentManualQuiz() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          categoryId: 'accident-manual',
+          categoryId: 'disaster-management',
           quizId: currentQuizId,
           score: finalScore,
           totalQuestions: questions.length,
@@ -166,7 +166,7 @@ export default function AccidentManualQuiz() {
     const hasMoreQuizzes = currentIndex < quizIds.length - 1;
     
     return (
-      <div className="min-h-screen bg-linear-to-br from-red-50 to-orange-50 py-8 sm:py-12 px-3 sm:px-4">
+      <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 py-8 sm:py-12 px-3 sm:px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-6 sm:mb-8">
@@ -178,10 +178,10 @@ export default function AccidentManualQuiz() {
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 mb-6 sm:mb-8">
             {/* Score Display */}
             <div className="text-center mb-6 sm:mb-8">
-              <div className="inline-flex items-center justify-center w-24 h-24 sm:w-32 sm:h-32 bg-linear-to-br from-red-500 to-orange-600 rounded-full mb-4 sm:mb-6">   
+              <div className="inline-flex items-center justify-center w-24 h-24 sm:w-32 sm:h-32 bg-linear-to-br from-blue-500 to-purple-600 rounded-full mb-4 sm:mb-6">   
                 <div className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold text-white">{percentage}%</div>
-                  <div className="text-xs sm:text-sm text-red-100">Score</div>
+                  <div className="text-xs sm:text-sm text-blue-100">Score</div>
                 </div>
               </div>
               <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2">
@@ -231,12 +231,10 @@ export default function AccidentManualQuiz() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <button
                 onClick={() => router.push('/quizzes')}
-                className="flex-1 bg-linear-to-r from-red-600 to-red-700 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full sm:rounded-full hover:from-red-700 hover:to-red-800 transition-all duration-200 font-medium shadow-lg hover:shadow-xl text-sm sm:text-base"
+                className="flex-1 bg-linear-to-r from-blue-600 to-blue-700 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full sm:rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-200 font-medium shadow-lg hover:shadow-xl text-sm sm:text-base"
               >
                 <div className="flex items-center justify-center">
-                  <svg className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                  </svg>
+                  
                   Back to Quizzes
                 </div>
               </button>
@@ -329,7 +327,7 @@ export default function AccidentManualQuiz() {
             
             {loadingProgress ? (
               <div className="flex justify-center items-center py-8">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-600"></div>
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
                 <span className="ml-3 text-gray-600">Loading progress...</span>
               </div>
             ) : (
@@ -341,7 +339,7 @@ export default function AccidentManualQuiz() {
                   
                   return (
                     <div key={quizId} className={`bg-linear-to-br from-gray-50 to-gray-100 rounded-lg py-6 lg:px-6 px-2 border-2 transition-all duration-300 transform hover:scale-105 ${
-                        isCurrentQuiz ? 'border-red-400 shadow-lg' : 'border-gray-400 hover:shadow-lg'
+                        isCurrentQuiz ? 'border-blue-400 shadow-lg' : 'border-gray-400 hover:shadow-lg'
                       }`}>
                       <div className="flex items-center justify-between mb-4">
                         <div className={`lg:w-12 lg:h-12 w-8 h-8 bg-linear-to-br ${categoryData.color} rounded-full flex items-center justify-center`}>
@@ -381,9 +379,11 @@ export default function AccidentManualQuiz() {
             <div className="text-center mt-8">
               <Link 
                 href="/quizzes"
-                className="inline-flex items-center px-8 py-3 bg-linear-to-r from-gray-600 to-gray-700 text-white rounded-lg font-semibold hover:from-gray-700 hover:to-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center px-6 py-3 bg-linear-to-r from-gray-600 to-gray-700 text-white rounded-lg font-semibold hover:from-gray-700 hover:to-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
-                
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
                 Back to All Quizzes
               </Link>
             </div>
@@ -399,8 +399,8 @@ export default function AccidentManualQuiz() {
   const showExplanation = selectedAnswer !== null;
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-red-50 to-orange-50 py-6 sm:py-8 px-3 sm:px-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 py-6 sm:py-8 px-3 sm:px-4">
+      <div className="max-w-3xl mx-auto">
         {/* Simple and Beautiful Quiz Box */}
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-6 lg:p-8">
           {/* Header */}
@@ -409,7 +409,7 @@ export default function AccidentManualQuiz() {
               <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800">{categoryData.title}</h1>
             </div>
             <div className="flex items-center justify-center text-gray-600 mb-3 sm:mb-4">
-              <span className="bg-red-100 text-red-800 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
+              <span className="bg-blue-100 text-blue-800 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
                 {currentQuizId.replace('chapter-', 'Chapter ').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
               </span>
               <span className="mx-2">•</span>
@@ -421,7 +421,7 @@ export default function AccidentManualQuiz() {
             {/* Progress Bar */}
             <div className="w-full bg-gray-200 rounded-full h-1.5 sm:h-2">
               <div 
-                className="bg-linear-to-r from-red-500 to-orange-600 h-1.5 sm:h-2 rounded-full transition-all duration-300 ease-out"
+                className="bg-linear-to-r from-blue-500 to-purple-600 h-1.5 sm:h-2 rounded-full transition-all duration-300 ease-out"
                 style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
               ></div>
             </div>
@@ -449,7 +449,7 @@ export default function AccidentManualQuiz() {
                 } else if (showExplanation && isCorrectAnswer) {
                   optionClasses += ' border-green-500 bg-green-50 text-green-700 shadow-md';
                 } else {
-                  optionClasses += ' border-gray-300 hover:border-red-300 hover:bg-red-50 hover:shadow-sm';
+                  optionClasses += ' border-gray-300 hover:border-blue-300 hover:bg-blue-50 hover:shadow-sm';
                 }
 
                 return (
@@ -467,14 +467,14 @@ export default function AccidentManualQuiz() {
                             : 'border-red-500 bg-red-500'
                           : showExplanation && isCorrectAnswer
                             ? 'border-green-500 bg-green-500'
-                            : 'border-gray-300 group-hover:border-red-400'
+                            : 'border-gray-300 group-hover:border-blue-400'
                       }`}>
                         {isSelected || (showExplanation && isCorrectAnswer) ? (
                           <svg className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                         ) : (
-                          <span className="text-xs font-medium text-gray-400 group-hover:text-red-400">
+                          <span className="text-xs font-medium text-gray-400 group-hover:text-blue-400">
                             {String.fromCharCode(65 + index)}
                           </span>
                         )}
@@ -556,7 +556,7 @@ export default function AccidentManualQuiz() {
             <button
               onClick={handleNext}
               disabled={selectedAnswer === null}
-              className="px-6 sm:px-8 py-2 sm:py-3 bg-linear-to-r from-red-600 to-orange-600 text-white rounded-md sm:rounded-lg hover:from-red-700 hover:to-orange-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 font-medium shadow-lg hover:shadow-xl flex items-center text-sm sm:text-base"
+              className="px-6 sm:px-8 py-2 sm:py-3 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-md sm:rounded-lg hover:from-blue-700 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 font-medium shadow-lg hover:shadow-xl flex items-center text-sm sm:text-base"
             >
               {currentQuestion === questions.length - 1 ? 'Finish Quiz' : 'Next Question'}
               <svg className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -573,7 +573,7 @@ export default function AccidentManualQuiz() {
           
           {loadingProgress ? (
             <div className="flex justify-center items-center py-8">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-600"></div>
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
               <span className="ml-3 text-gray-600">Loading progress...</span>
             </div>
           ) : (
@@ -585,7 +585,7 @@ export default function AccidentManualQuiz() {
                 
                 return (
                   <div key={quizId} className={`bg-linear-to-br from-gray-50 to-gray-100 rounded-lg py-6 lg:px-6 px-3 border-2 transition-all duration-300 transform hover:scale-105 ${
-                      isCurrentQuiz ? 'border-red-400 shadow-lg' : 'border-gray-400 hover:shadow-lg'
+                      isCurrentQuiz ? 'border-blue-400 shadow-lg' : 'border-gray-400 hover:shadow-lg'
                     }`}>
                     <div className="flex items-center justify-between mb-4">
                       <div className={`lg:w-12 lg:h-12 w-8 h-8 bg-linear-to-br ${categoryData.color} rounded-full flex items-center justify-center`}>

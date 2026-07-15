@@ -33,6 +33,14 @@ const Quizzes = () => {
       description: 'Understand commercial operations, ticket booking, freight management, and customer service protocols'
     },
     {
+      href: '/quizzes/disaster-management',
+      title: 'Disaster Management',
+      icon: '🚨',
+      color: 'from-orange-500 to-rose-600',
+      hoverColor: 'from-orange-600 to-rose-700',
+      description: 'Test your knowledge of Railway Disaster Management, NDMA, response teams, and DM Act 2005'
+    },
+    {
       href: '/quizzes/establishment-rules',
       title: 'Establishment Rules',
       icon: '📜',
