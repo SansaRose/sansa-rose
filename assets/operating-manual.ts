@@ -3137,5 +3137,2347 @@ export const operatingManualQuizzes = {
             explanation: "Inspection books should be reviewed before commencing the inspection.",
           },
     ],
-  },
+    'chapter-13': [
+      {
+        question: "In ____________, the functions are operated by levers, and the relationship between the functions is transferred to the levers.",
+        options: [
+          "Panel Interlocking",
+          "Route Relay Interlocking",
+          "Mechanical Interlocking",
+          "Solid State Interlocking",
+        ],
+        correct: 2,
+        explanation: "Mechanical Interlocking uses levers to mechanically establish the required interlocking between functions.",
+      },
+      {
+        question: "Where interlocking is done between one route and another route in big yards and the SM presses two buttons simultaneously, it is known as ________.",
+        options: [
+          "Panel Interlocking",
+          "Route Relay Interlocking",
+          "Mechanical Interlocking",
+          "Solid State Interlocking",
+        ],
+        correct: 0,
+        explanation: "Panel Interlocking requires simultaneous operation of route buttons for route setting.",
+      },
+      {
+        question: "Computer-based interlocking using thousands of electro-mechanical relays with complex wiring is known as ________.",
+        options: [
+          "Panel Interlocking",
+          "Route Relay Interlocking",
+          "Mechanical Interlocking",
+          "Solid State Interlocking",
+        ],
+        correct: 1,
+        explanation: "Route Relay Interlocking (RRI) uses numerous electro-mechanical relays with extensive wiring.",
+      },
+      {
+        question: "SSI system occupies less space, consumes less power, is more reliable and is easy to ________.",
+        options: [
+          "Install and maintain",
+          "Install",
+          "Maintain",
+          "Install or maintain",
+        ],
+        correct: 0,
+        explanation: "SSI is compact, reliable and easy to install as well as maintain.",
+      },
+      {
+        question: "In SSI system, initial commissioning and ________ can be carried out in negligible time.",
+        options: [
+          "Changes in interlocking",
+          "Changes in staff",
+          "Changes due to yard remodeling",
+          "Training of staff",
+        ],
+        correct: 2,
+        explanation: "SSI allows quick implementation of changes due to yard remodeling.",
+      },
+      {
+        question: "________ means points are set and locked from one place while signals are operated from another place using keys.",
+        options: [
+          "Indirect Interlocking",
+          "Direct Interlocking",
+          "Hybrid Interlocking",
+          "Mechanical Locking",
+        ],
+        correct: 0,
+        explanation: "Indirect Interlocking uses key transfer between separate lever frames.",
+      },
+      {
+        question: "________ means points, point locks and signal levers are concentrated in one lever frame.",
+        options: [
+          "Indirect Interlocking",
+          "Direct Interlocking",
+          "Hybrid Interlocking",
+          "Mechanical Locking",
+        ],
+        correct: 1,
+        explanation: "Direct Interlocking has all controls in a single lever frame.",
+      },
+      {
+        question: "Interlocking at stations is standardized into ________ different classes.",
+        options: [
+          "One",
+          "Two",
+          "Three",
+          "Four",
+        ],
+        correct: 3,
+        explanation: "Indian Railways classifies interlocking into four standards (I to IV).",
+      },
+      {
+        question: "Maximum speed permitted at a Standard I(R) interlocked station is ________.",
+        options: [
+          "30 kmph",
+          "50 kmph",
+          "110 kmph",
+          "140 kmph",
+        ],
+        correct: 0,
+        explanation: "Standard I(R) permits a maximum speed of 30 kmph.",
+      },
+      {
+        question: "Maximum speed permitted at a Standard II(R) interlocked station is ________.",
+        options: [
+          "50 kmph",
+          "75 kmph",
+          "110 kmph",
+          "140 kmph",
+        ],
+        correct: 1,
+        explanation: "Standard II(R) permits a maximum speed of 75 kmph.",
+      },
+      {
+        question: "Maximum speed permitted at a Standard III(R) interlocked station is ________.",
+        options: [
+          "50 kmph",
+          "75 kmph",
+          "110 kmph",
+          "140 kmph",
+        ],
+        correct: 2,
+        explanation: "Standard III(R) permits a maximum speed of 110 kmph.",
+      },
+      {
+        question: "Maximum speed permitted at a Standard IV(R) interlocked station is ________.",
+        options: [
+          "50 kmph",
+          "110 kmph",
+          "140 kmph",
+          "160 kmph",
+        ],
+        correct: 2,
+        explanation: "Standard IV(R) permits a maximum speed of 140 kmph.",
+      },
+      {
+        question: "An extended track of minimum 180 m used to isolate the main line from the loop line is called ________.",
+        options: [
+          "Snag Dead End",
+          "Sand Hump",
+          "Trap Points",
+          "Derailing Switch",
+        ],
+        correct: 0,
+        explanation: "A Snag Dead End acts as an efficient substitute for signal overlap.",
+      },
+      {
+        question: "An extended rail embedded in sand for 60 m with an increasing gradient is called ________.",
+        options: [
+          "Snag Dead End",
+          "Sand Hump",
+          "Trap Points",
+          "Derailing Switch",
+        ],
+        correct: 1,
+        explanation: "A Sand Hump safely arrests runaway vehicles.",
+      },
+      {
+        question: "The length of a Sand Hump is ________.",
+        options: [
+          "20 m",
+          "40 m",
+          "60 m",
+          "100 m",
+        ],
+        correct: 2,
+        explanation: "A standard Sand Hump is 60 metres long.",
+      },
+      {
+        question: "The gradient of a Sand Hump is ________.",
+        options: [
+          "1 in 100",
+          "1 in 90",
+          "1 in 80",
+          "1 in 60",
+        ],
+        correct: 3,
+        explanation: "A Sand Hump is provided with a gradient of 1 in 60.",
+      },
+      {
+        question: "A single rail cut point provided to isolate a running line from a non-running line is called ________.",
+        options: [
+          "Snag Dead End",
+          "Sand Hump",
+          "Trap Points",
+          "Scotch Block",
+        ],
+        correct: 2,
+        explanation: "Trap Points derail vehicles if they move unintentionally.",
+      },
+      {
+        question: "A log covered with iron sheets placed across the rail to prevent rolling vehicles is called ________.",
+        options: [
+          "Scotch Block",
+          "Sand Hump",
+          "Trap Points",
+          "Snag Dead End",
+        ],
+        correct: 0,
+        explanation: "A Scotch Block is used to secure vehicles on non-running lines.",
+      },
+      {
+        question: "A device designed to derail free-rolling wagons by lifting the wheel flange is called ________.",
+        options: [
+          "Scotch Block",
+          "Hayes Derail",
+          "Trap Points",
+          "Snag Dead End",
+        ],
+        correct: 1,
+        explanation: "Hayes Derail prevents uncontrolled wagon movement.",
+      },
+      {
+        question: "An extended track about 15 feet long ending with sand to isolate the main line is known as ________.",
+        options: [
+          "Scotch Block",
+          "Hayes Derail",
+          "Derailing Switch",
+          "Snag Dead End",
+        ],
+        correct: 3,
+        explanation: "A Snag Dead End isolates the running line from loop lines.",
+      },
+      {
+        question: "EGGN button is used for ________.",
+        options: [
+          "Route initiation",
+          "Emergency full route release",
+          "Emergency sub-route release",
+          "Emergency signal",
+        ],
+        correct: 1,
+        explanation: "EGGN is the Emergency Full Route Release button.",
+      },
+      {
+        question: "EUUYN button is used for ________.",
+        options: [
+          "Route initiation",
+          "Emergency full route release",
+          "Emergency sub-route release",
+          "Emergency signal",
+        ],
+        correct: 2,
+        explanation: "EUUYN is the Emergency Sub-route Release button.",
+      },
+      {
+        question: "WN button is a ________.",
+        options: [
+          "Signal button",
+          "Route button",
+          "Point button",
+          "Shunt signal button",
+        ],
+        correct: 2,
+        explanation: "WN is the Point Button in SSI/Panel Interlocking.",
+      },
+      {
+        question: "GN button is a ________.",
+        options: [
+          "Signal button",
+          "Route button",
+          "Point button",
+          "Shunt signal button",
+        ],
+        correct: 0,
+        explanation: "GN is the Signal Button.",
+      },
+      {
+        question: "WWN button is used for ________.",
+        options: [
+          "Emergency point release",
+          "Common/Group point",
+          "Point failure",
+          "Power supply failure acknowledgement",
+        ],
+        correct: 1,
+        explanation: "WWN is the Common/Group Point button.",
+      },
+      {
+        question: "UN button is a ________.",
+        options: [
+          "Signal button",
+          "Route button",
+          "Point button",
+          "Shunt signal button",
+        ],
+        correct: 1,
+        explanation: "UN is the Route Button.",
+      },
+      {
+        question: "The Emergency Point Button code is ________.",
+        options: [
+          "WWN",
+          "EWN",
+          "EUYN",
+          "WN",
+        ],
+        correct: 1,
+        explanation: "EWN is the Emergency Point Button code.",
+      },
+      {
+        question: "To put back a signal to ON position in an SSI panel, press ________.",
+        options: [
+          "UN & EUYN",
+          "EUUYN & GN",
+          "GN & UN",
+          "GN & EGGN",
+        ],
+        correct: 2,
+        explanation: "GN followed by the concerned UN button restores the signal to ON.",
+      },
+      {
+        question: "To take OFF a signal in an SSI panel, press ________.",
+        options: [
+          "UN & EUYN",
+          "EUUYN & GN",
+          "GN & concerned UN",
+          "GN & EGGN",
+        ],
+        correct: 2,
+        explanation: "GN and the concerned UN buttons are pressed together to clear the signal.",
+      },
+        ],
+        'chapter-14': [
+          
+            {
+              question: "The object of issuing __________ is to inform all staff concerned with working of trains about the special features of the station to ensure safe train operations.",
+              options: [
+                "Station Working Rules",
+                "Gate Working Rules",
+                "Temporary Working Instructions",
+                "Temporary Working Rules",
+              ],
+              correct: 0,
+              explanation: "Station Working Rules",
+            },
+            {
+              question: "Power to issue SWRs has been delegated jointly to the __________ for all stations within the Division.",
+              options: [
+                "Sr.DOM/DOM",
+                "Sr.DOM/DOM and Sr.DSTE/DSTE",
+                "Sr.DSTE/DSTE",
+                "Sr.DOM/DOM or Sr.DSTE/DSTE",
+              ],
+              correct: 1,
+              explanation: "Sr.DOM/DOM and Sr.DSTE/DSTE",
+            },
+            {
+              question: "__________ will prepare/amend the Rule Diagram on the basis of signalling plan/appendices and send it to Sr.DOM/DOM for framing SWRs.",
+              options: [
+                "Sr.DSTE/DSTE",
+                "TI/SWR",
+                "Sr.DEN/DEN",
+                "Sr.DEE/DSEE",
+              ],
+              correct: 0,
+              explanation: "Sr.DSTE/DSTE",
+            },
+            {
+              question: "The Sr.DOM/DOM will arrange for preparation of the Draft Working Rules by the ________.",
+              options: [
+                "TI/Concerned Section",
+                "TI/General",
+                "TI/SWR",
+                "SSE/Signal/SWR",
+              ],
+              correct: 2,
+              explanation: "TI/SWR",
+            },
+            {
+              question: "If there is a 'D' (_____) and 'DK' (_____) between two Block Stations, the SWRs shall contain reference to such stations.",
+              options: [
+                "Station, Station with siding",
+                "Flag Station, Station with coaching siding",
+                "Block Station, Flag Station",
+                "Flag Station, Station with siding",
+              ],
+              correct: 3,
+              explanation: "Flag Station, Station with siding",
+            },
+            {
+              question: "The SWRs should be reviewed once in every __________.",
+              options: [
+                "Four years",
+                "Five years",
+                "Six years",
+                "Seven years",
+              ],
+              correct: 1,
+              explanation: "Five years",
+            },
+            {
+              question: "Whenever any addition/amendment is required in SWRs, the __________ should be replaced.",
+              options: [
+                "Entire page/pages duly signed",
+                "Relevant portion pasted and signed",
+                "Relevant portion of the page duly signed",
+                "Page/pages",
+              ],
+              correct: 0,
+              explanation: "Entire page/pages duly signed",
+            },
+            {
+              question: "If SS/SM finds any discrepancy in the SWR, it should immediately be brought to the notice of the __________.",
+              options: [
+                "Sr.DOM/DOM or TI of the section",
+                "Sr.DOM/DOM",
+                "Sr.DOM/DOM and TI of the section",
+                "TI of the section",
+              ],
+              correct: 0,
+              explanation: "Sr.DOM/DOM or TI of the section",
+            },
+            {
+              question: "Before taking up duties independently, staff associated with train passing duties must sign a declaration in the __________.",
+              options: [
+                "SWR",
+                "Acknowledgement Book",
+                "Safety Register",
+                "Assurance Register",
+              ],
+              correct: 3,
+              explanation: "Assurance Register",
+            },
+            {
+              question: "In case of __________, the Station Manager shall explain SWRs and obtain acknowledgements in the Assurance Register.",
+              options: [
+                "Literate staff",
+                "Illiterate staff",
+                "Staff unable to understand",
+                "Other than SMs",
+              ],
+              correct: 1,
+              explanation: "Illiterate staff",
+            },
+            {
+              question: "SWR must be page numbered with station code and signed by DOM and DSTE at __________.",
+              options: [
+                "Non-interlocked stations",
+                "Top of each page",
+                "Interlocked stations",
+                "Non-block stations",
+              ],
+              correct: 2,
+              explanation: "Interlocked stations",
+            },
+            {
+              question: "SWR must be page numbered with station code and signed by DOM and DEN at __________.",
+              options: [
+                "Non-interlocked stations",
+                "Top of each page",
+                "Interlocked stations",
+                "Non-block stations",
+              ],
+              correct: 0,
+              explanation: "Non-interlocked stations",
+            },
+            {
+              question: "Temporary Working Order is issued by the __________ whenever pre-planned signalling, OHE or engineering work requires special safety precautions.",
+              options: [
+                "DOM/DSTE",
+                "Sr.DOM/DOM",
+                "DOM/DEN",
+                "DOM/DEE",
+              ],
+              correct: 1,
+              explanation: "Sr.DOM/DOM",
+            },
+            {
+              question: "Working of level crossing gates is mentioned in __________ of Station Working Rules.",
+              options: [
+                "Appendix A",
+                "Appendix B",
+                "Appendix C",
+                "Appendix D",
+              ],
+              correct: 0,
+              explanation: "Appendix A",
+            },
+            {
+              question: "System of signalling, interlocking and communication arrangements are mentioned in __________ of SWRs.",
+              options: [
+                "Appendix A",
+                "Appendix B",
+                "Appendix C",
+                "Appendix D",
+              ],
+              correct: 1,
+              explanation: "Appendix B",
+            },
+            {
+              question: "Anti-Collision Device (Raksha Kavach) is mentioned in __________ of SWRs.",
+              options: [
+                "Appendix A",
+                "Appendix B",
+                "Appendix C",
+                "Appendix D",
+              ],
+              correct: 2,
+              explanation: "Appendix C",
+            },
+            {
+              question: "Duties of train passing staff and staff in each shift are mentioned in __________ of SWRs.",
+              options: [
+                "Appendix A",
+                "Appendix B",
+                "Appendix C",
+                "Appendix D",
+              ],
+              correct: 3,
+              explanation: "Appendix D",
+            },
+            {
+              question: "List of essential equipment provided at the station is mentioned in __________ of SWRs.",
+              options: [
+                "Appendix D",
+                "Appendix E",
+                "Appendix F",
+                "Appendix G",
+              ],
+              correct: 1,
+              explanation: "Appendix E",
+            },
+            {
+              question: "Rules for working of DK stations, halts, IBH, IBS and outlying sidings are mentioned in __________ of SWRs.",
+              options: [
+                "Appendix D",
+                "Appendix E",
+                "Appendix F",
+                "Appendix G",
+              ],
+              correct: 2,
+              explanation: "Appendix F",
+            },
+            {
+              question: "Rules for working of trains in electrified sections are mentioned in __________ of SWRs.",
+              options: [
+                "Appendix D",
+                "Appendix E",
+                "Appendix F",
+                "Appendix G",
+              ],
+              correct: 3,
+              explanation: "Appendix G",
+            },
+            {
+              question: "Station Working Rule Diagram is mentioned in __________.",
+              options: [
+                "Chapter I",
+                "Chapter II",
+                "Chapter VI",
+                "Chapter VII",
+              ],
+              correct: 0,
+              explanation: "Chapter I",
+            },
+            {
+              question: "Description of station is mentioned in __________ of SWRs.",
+              options: [
+                "Chapter I",
+                "Chapter II",
+                "Chapter VI",
+                "Chapter VII",
+              ],
+              correct: 1,
+              explanation: "Chapter II",
+            },
+            {
+              question: "System of train working is mentioned in __________ of SWRs.",
+              options: [
+                "Chapter I",
+                "Chapter II",
+                "Chapter VI",
+                "Chapter VII",
+              ],
+              correct: 2,
+              explanation: "Chapter VI",
+            },
+            {
+              question: "Blocking of line is mentioned in __________ of SWRs.",
+              options: [
+                "Chapter I",
+                "Chapter II",
+                "Chapter VI",
+                "Chapter VII",
+              ],
+              correct: 3,
+              explanation: "Chapter VII",
+            },
+            {
+              question: "Shunting is mentioned in __________ of SWRs.",
+              options: [
+                "Chapter VIII",
+                "Chapter IX",
+                "Chapter X",
+                "Chapter XII",
+              ],
+              correct: 0,
+              explanation: "Chapter VIII",
+            },
+            {
+              question: "Abnormal conditions are mentioned in __________ of SWRs.",
+              options: [
+                "Chapter VIII",
+                "Chapter IX",
+                "Chapter X",
+                "Chapter XII",
+              ],
+              correct: 1,
+              explanation: "Chapter IX",
+            },
+            {
+              question: "Visibility test object is mentioned in __________ of SWRs.",
+              options: [
+                "Chapter VIII",
+                "Chapter IX",
+                "Chapter X",
+                "Chapter XII",
+              ],
+              correct: 2,
+              explanation: "Chapter X",
+            },
+            {
+              question: "Fog signal men nominated to be called in case of fog are mentioned in __________ of SWRs.",
+              options: [
+                "Chapter VIII",
+                "Chapter IX",
+                "Chapter X",
+                "Chapter XII",
+              ],
+              correct: 3,
+              explanation: "Chapter XII",
+            },
+          
+        ],
+        'chapter-15': [
+          
+            {
+              question: "The draft of ____________ is prepared by the supervisor of the concerned Engineering, Signalling and Electrical department detailing the requirement of the work and precautions to be observed.",
+              options: [
+                "Station Working Rules",
+                "Temporary Working Order",
+                "Working Instructions",
+                "Temporary Instructions",
+              ],
+              correct: 1,
+              explanation: "Temporary Working Order",
+            },
+            {
+              question: "_______________ means temporary disconnection of points, signals, track circuits, axle counters and other signalling gadgets for designated works.",
+              options: [
+                "N.I. Working",
+                "Interlocked Working",
+                "Working during failures",
+                "None of the above",
+              ],
+              correct: 0,
+              explanation: "N.I. Working",
+            },
+            {
+              question: "At the project proposal stage itself, __________ should make it clear whether the project requires NI working and its duration.",
+              options: [
+                "Operating Department",
+                "S&T Department",
+                "Engineering Department",
+                "Electrical Department",
+              ],
+              correct: 2,
+              explanation: "Engineering Department",
+            },
+            {
+              question: "____________ must quantify anticipated losses on account of Non-Interlocked working.",
+              options: [
+                "Sr.DOM",
+                "Sr.DCM",
+                "Sr.DOM & Sr.DCM",
+                "Sr.DOM or Sr.DCM",
+              ],
+              correct: 2,
+              explanation: "Sr.DOM & Sr.DCM",
+            },
+            {
+              question: "For NI working of up to 3 days, plans will be finalized in consultation with __________, Branch Officers and concerned HOD of Construction/RE Organization.",
+              options: [
+                "DRM",
+                "Sr.DSO",
+                "PCSO",
+                "PCOM",
+              ],
+              correct: 0,
+              explanation: "DRM",
+            },
+            {
+              question: "For NI working of more than 3 days, plans will be finalized in consultation with __________ and HOD of RE/Construction Organization at Zonal level.",
+              options: [
+                "CTPM",
+                "CTPM & CPTM",
+                "CPTM",
+                "PCSO",
+              ],
+              correct: 1,
+              explanation: "CTPM & CPTM",
+            },
+            {
+              question: "For NI working of more than 7 days, personal approval of the __________ must be obtained.",
+              options: [
+                "Railway Board",
+                "AGM",
+                "General Manager",
+                "PCSO",
+              ],
+              correct: 2,
+              explanation: "General Manager",
+            },
+            {
+              question: "No NI working should last for more than __________.",
+              options: [
+                "10 days",
+                "12 days",
+                "13 days",
+                "14 days",
+              ],
+              correct: 3,
+              explanation: "14 days",
+            },
+            {
+              question: "All changes in yard layout, insertion/removal of points & crossings etc. should be completed in the __________.",
+              options: [
+                "Pre-NI work",
+                "Post NI work",
+                "After NI working starts",
+                "In between NI works",
+              ],
+              correct: 0,
+              explanation: "Pre-NI work",
+            },
+            {
+              question: "Preparatory work in connection with OHE must also include shifting of __________, if required.",
+              options: [
+                "Sub-section",
+                "Neutral section",
+                "Intermediate section",
+                "Transformers",
+              ],
+              correct: 1,
+              explanation: "Neutral section",
+            },
+            {
+              question: "Construction officials should send a circular notice to Sr.DOM/Sr.DSO at least __________ in advance.",
+              options: [
+                "15 days",
+                "One month",
+                "Two months",
+                "Three months",
+              ],
+              correct: 1,
+              explanation: "One month",
+            },
+            {
+              question: "During NI working, one goomty should be made for a maximum of __________ operated from the ground.",
+              options: [
+                "One set of points",
+                "Two sets of points",
+                "Three sets of points",
+                "Four sets of points",
+              ],
+              correct: 1,
+              explanation: "Two sets of points",
+            },
+            {
+              question: "During NI working, both ends of the same points/crossings should be with __________.",
+              options: [
+                "Different goomties",
+                "Goomty with only one set of points",
+                "Manned by same staff",
+                "Same goomties",
+              ],
+              correct: 3,
+              explanation: "Same goomties",
+            },
+            {
+              question: "Each goomty should have __________ in each shift.",
+              options: [
+                "Two ASM and Two Pointsmen",
+                "One ASM and Two Pointsmen",
+                "One ASM and Four Pointsmen",
+                "One ASM and One Pointsman",
+              ],
+              correct: 1,
+              explanation: "One ASM and Two Pointsmen",
+            },
+            {
+              question: "A group of four or more goomties should be under the charge of a __________ in each shift.",
+              options: [
+                "SM",
+                "AOM",
+                "TI",
+                "None of the above",
+              ],
+              correct: 2,
+              explanation: "Traffic Inspector (TI)",
+            },
+            {
+              question: "__________ is basically meant to replace some portion of Station Working Rules during NI working.",
+              options: [
+                "Temporary Working Instructions",
+                "Temporary Instructions",
+                "Working Orders",
+                "Guidelines of NI",
+              ],
+              correct: 0,
+              explanation: "Temporary Working Instructions",
+            },
+            {
+              question: "Detailed working instructions must be issued at least __________ before NI working.",
+              options: [
+                "05 days",
+                "10 days",
+                "15 days",
+                "20 days",
+              ],
+              correct: 1,
+              explanation: "10 days",
+            },
+            {
+              question: "Normal/Reverse position of points should be painted on the __________ during NI working.",
+              options: [
+                "Stock rail",
+                "Crossing nose",
+                "Point machine",
+                "Tongue rail",
+              ],
+              correct: 0,
+              explanation: "Stock rail",
+            },
+            {
+              question: "Before actual NI working starts, a __________ demonstration/training should be given to all staff.",
+              options: [
+                "Mock drill",
+                "Ambush drill",
+                "Drill",
+                "Pre-NI work",
+              ],
+              correct: 0,
+              explanation: "Mock drill",
+            },
+            {
+              question: "No staff should be deployed during NI working unless proper entries are made in the __________.",
+              options: [
+                "Attendance Register",
+                "Assurance Register",
+                "Special Register",
+                "Muster Copy",
+              ],
+              correct: 1,
+              explanation: "Assurance Register",
+            },
+            {
+              question: "Arrangements for __________ should be made and __________ must be provided on each goomty for announcements.",
+              options: [
+                "Public Address System, Phones",
+                "Public Address System, Loud Speakers",
+                "Addressing by TC, Loud Speakers",
+                "Whistle Code, Whistle Code",
+              ],
+              correct: 1,
+              explanation: "Public Address System and Loud Speakers",
+            },
+            {
+              question: "Before permitting introduction of NI working, __________ will satisfy himself regarding staff, safety equipment, lighting and communication arrangements.",
+              options: [
+                "Sr.DOM",
+                "Sr.DSO",
+                "Sr.DSTE",
+                "DRM/ADRM",
+              ],
+              correct: 3,
+              explanation: "DRM/ADRM",
+            },
+            {
+              question: "On the notified day for introduction of NI working, the Signal Inspector shall give a general __________ for gears proposed for NI working.",
+              options: [
+                "Disconnection Memo",
+                "Reconnection Memo",
+                "Memo",
+                "Certificate of NI Working",
+              ],
+              correct: 0,
+              explanation: "Disconnection Memo",
+            },
+            {
+              question: "During NI working, speed restriction of __________ must be enforced over all points and crossings and a speed restriction board of __________ must be exhibited.",
+              options: [
+                "15 kmph, 30 kmph",
+                "15 kmph, 15 kmph",
+                "10 kmph, 20 kmph",
+                "30 kmph, 15 kmph",
+              ],
+              correct: 0,
+              explanation: "15 kmph over points & crossings with 30 kmph speed restriction board.",
+            },
+            {
+              question: "During NI working, the last stop signal should not be disconnected except at the __________.",
+              options: [
+                "Starting of NI",
+                "End of NI",
+                "Fag end of NI",
+                "Before issue of reconnection",
+              ],
+              correct: 2,
+              explanation: "Fag end of NI",
+            },
+            {
+              question: "During NI working, an incoming Loco Pilot must not pass the outermost facing points unless a __________ is exhibited.",
+              options: [
+                "Hand Signal",
+                "Proceed with Caution",
+                "Stop Hand Signal",
+                "Proceed Hand Signal",
+              ],
+              correct: 3,
+              explanation: "Proceed Hand Signal",
+            },
+            {
+              question: "After NI working is completed, the installation shall jointly be tested by __________.",
+              options: [
+                "Traffic & Engineering Officials",
+                "Traffic, S&T & Engineering Officials",
+                "S&T & Engineering Officials",
+                "Traffic & S&T Officials",
+              ],
+              correct: 1,
+              explanation: "Traffic, S&T & Engineering Officials",
+            },
+            {
+              question: "After NI working, Engineering and S&T officers shall give a __________ stating that all approved works are completed.",
+              options: [
+                "Certificate",
+                "Memo",
+                "Intimation",
+                "Verbal Orders",
+              ],
+              correct: 0,
+              explanation: "Certificate",
+            },
+            {
+              question: "Within __________ of completion of NI, a brainstorming session should be held to review lessons learnt.",
+              options: [
+                "03 days",
+                "05 days",
+                "07 days",
+                "10 days",
+              ],
+              correct: 2,
+              explanation: "07 days",
+            },
+          
+        ],
+        'chapter-16': [
+          
+            {
+              question: "The __________________ are based on four factors Quantity, Distance, Duration and Service.",
+              options: [
+                "Statistics",
+                "Managerial reports",
+                "Engineering statistics",
+                "Railway statistics",
+              ],
+              correct: 3,
+              explanation: "Railway statistics",
+            },
+            {
+              question: "In railway statistics _________ is expressed as tonnes, number of passengers carried and earnings derived.",
+              options: [
+                "Distance",
+                "Quantity",
+                "Duration",
+                "Service performed",
+              ],
+              correct: 1,
+              explanation: "Quantity",
+            },
+            {
+              question: "In railway statistics _________ is expressed in kilometres.",
+              options: [
+                "Distance",
+                "Quantity",
+                "Duration",
+                "Service performed",
+              ],
+              correct: 0,
+              explanation: "Distance",
+            },
+            {
+              question: "In railway statistics _________ is expressed in minutes, hours and days.",
+              options: [
+                "Distance",
+                "Quantity",
+                "Duration",
+                "Service performed",
+              ],
+              correct: 2,
+              explanation: "Duration",
+            },
+            {
+              question: "In railway statistics _________ is expressed in terms of trains, vehicles, wagons and engines.",
+              options: [
+                "Distance",
+                "Quantity",
+                "Duration",
+                "Service performed",
+              ],
+              correct: 3,
+              explanation: "Service performed",
+            },
+            {
+              question: "Relationship between primary units, expressed in composite terms is called ________.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 3,
+              explanation: "Composite unit",
+            },
+            {
+              question: "The relationship that exists between two sets of primary or fundamental units and the result thus arrived is termed ________.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 2,
+              explanation: "Derived unit",
+            },
+            {
+              question: "Passenger kilometres, Train-kilometres, Wagon-kilometres, Engine hours and Wagon days are examples of ________.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 3,
+              explanation: "Composite unit",
+            },
+            {
+              question: "Wagon kilometres per wagon day is an example of ________.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 2,
+              explanation: "Derived unit",
+            },
+            {
+              question: "Average distance travelled by a passenger (lead of passenger traffic) is an example of ________.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 2,
+              explanation: "Derived unit",
+            },
+            {
+              question: "Earning per passenger kilometre is an example of ________.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 2,
+              explanation: "Derived unit",
+            },
+            {
+              question: "These ________ highlight special features of transportation output and are useful in evolving suitable management strategies.",
+              options: [
+                "Primary unit",
+                "Fundamental units",
+                "Derived unit",
+                "Composite unit",
+              ],
+              correct: 2,
+              explanation: "Derived unit",
+            },
+            {
+              question: "The __________ include statistics of wagons loaded, wagon mobility, wagon usage, train loads, train mobility, productive and unproductive services, wagon detention, marshalling yard, terminal goods station and punctuality.",
+              options: [
+                "Primary statistics",
+                "Traffic statistics",
+                "Engineering statistics",
+                "Mechanical statistics",
+              ],
+              correct: 1,
+              explanation: "Traffic statistics",
+            },
+            {
+              question: "The ratio of working expenses (excluding suspense but including appropriation to Depreciation Reserve Fund and Pension Fund) to Gross Earnings is known as ________.",
+              options: [
+                "Net tonne KM per train KM",
+                "Passenger earning per train KM",
+                "Traffic ratio",
+                "Operating Ratio",
+              ],
+              correct: 3,
+              explanation: "Operating Ratio",
+            },
+            {
+              question: "The formula (RT + NLT × 100) / Total number of Passenger trains is used for calculating ________.",
+              options: [
+                "Coaching performance",
+                "Punctuality",
+                "Passenger performance",
+                "Punctuality analysis",
+              ],
+              correct: 1,
+              explanation: "Punctuality",
+            },
+            {
+              question: "In the formula for punctuality, RT denotes ________.",
+              options: [
+                "Trains arriving Right Time",
+                "Trains not losing time",
+                "Right train",
+                "Trains losing time",
+              ],
+              correct: 0,
+              explanation: "Trains arriving Right Time",
+            },
+            {
+              question: "In the formula for punctuality, NLT denotes ________.",
+              options: [
+                "Trains arriving Right Time",
+                "Trains not losing time",
+                "Right train",
+                "Trains losing time",
+              ],
+              correct: 1,
+              explanation: "Trains not losing time",
+            },
+            {
+              question: "This figure indicates the extent to which coaching vehicles are kept 'on the move'.",
+              options: [
+                "Vehicle services per day",
+                "Vehicle run per day",
+                "Vehicle Kilometres per Vehicle Day",
+                "Vehicle speeds per vehicle",
+              ],
+              correct: 2,
+              explanation: "Vehicle Kilometres per Vehicle Day",
+            },
+            {
+              question: "The main factors affecting Vehicle Kilometres per Vehicle Day are ________.",
+              options: [
+                "Average speed of trains",
+                "Average length of train run",
+                "Idle period provided in rake links",
+                "All the above",
+              ],
+              correct: 3,
+              explanation: "All the above",
+            },
+            {
+              question: "The figure measuring wagon mobility and indicating the average kilometres moved by a wagon per day is known as ________.",
+              options: [
+                "Wagon Kilometres per Wagon Day",
+                "Wagons dealt per wagon day",
+                "Wagon per wagon hours",
+                "Wagon kilometres per engine hour",
+              ],
+              correct: 0,
+              explanation: "Wagon Kilometres per Wagon Day",
+            },
+            {
+              question: "The unit of measurement of the revenue earning work done by wagons, reflecting both mobility and loading, is ________.",
+              options: [
+                "Tonne KM per wagon hours",
+                "Net Tonne Kilometres per Wagon Day",
+                "Net tonne kilometres per train",
+                "Train KMs per wagon kms",
+              ],
+              correct: 1,
+              explanation: "Net Tonne Kilometres per Wagon Day",
+            },
+            {
+              question: "The statistics target set for each yard for detention suffered by stock depending on yard layout and trains handled is known as ________.",
+              options: [
+                "Average Detention per Wagon",
+                "Detention per wagon",
+                "Wagon day per wagon hour",
+                "Average detention per wagon day",
+              ],
+              correct: 0,
+              explanation: "Average Detention per Wagon",
+            },
+            {
+              question: "Engine Kilometres per Day per Engine in Use is compiled separately for ________ train services.",
+              options: [
+                "Passenger & Goods",
+                "Passenger, Mixed and Goods",
+                "Mixed & Goods",
+                "Passenger & Mixed",
+              ],
+              correct: 1,
+              explanation: "Passenger, Mixed and Goods",
+            },
+            {
+              question: "In Engine Kilometres per Day per Engine on Line, the term 'on line' denotes locomotives that were put to ________.",
+              options: [
+                "Use",
+                "Not use",
+                "Effective use",
+                "Run in empty",
+              ],
+              correct: 0,
+              explanation: "Use",
+            },
+          
+        ],
+        'chapter-17': [
+          
+            {
+              question: "A total transparent system with continuous cargo visibility and an up-to-date business environment providing customers instant access to information regarding their consignments in transit for 'Just in Time Inventory' is ________.",
+              options: [
+                "Freight Operations System",
+                "Operation Information System",
+                "Goods Operation Information",
+                "Freight Operations Information System",
+              ],
+              correct: 3,
+              explanation: "Freight Operations Information System (FOIS)",
+            },
+            {
+              question: "A management online real-time system tool to optimize utilization of costly assets and resources by improving distribution of rakes/wagons and locos, and scheduling and routing traffic is known as ________.",
+              options: [
+                "Freight Operations Information System",
+                "Operation Information System",
+                "Goods Operation Information",
+                "Freight Operations System",
+              ],
+              correct: 0,
+              explanation: "Freight Operations Information System (FOIS)",
+            },
+            {
+              question: "The operations and data capturing will remain ________ for train, rake, locomotive and stock management.",
+              options: [
+                "Station centric",
+                "Control centric",
+                "Terminal centric",
+                "Zonal centric",
+              ],
+              correct: 1,
+              explanation: "Control centric",
+            },
+            {
+              question: "The operations and data capturing will remain ________ for booking, loading, unloading and delivery.",
+              options: [
+                "Station centric",
+                "Control centric",
+                "Terminal centric",
+                "Zonal centric",
+              ],
+              correct: 2,
+              explanation: "Terminal centric",
+            },
+            {
+              question: "Application servers of FOIS are centrally placed at ________.",
+              options: [
+                "Railways Information System",
+                "IRCTC",
+                "Central Information System",
+                "Centre for Railway Information Systems",
+              ],
+              correct: 3,
+              explanation: "Centre for Railway Information Systems (CRIS)",
+            },
+            {
+              question: "The central server of FOIS at ________ provides management reports at Board level.",
+              options: [
+                "IRCTC",
+                "CRIS",
+                "RIS",
+                "RCIL",
+              ],
+              correct: 1,
+              explanation: "CRIS",
+            },
+            {
+              question: "Train Ordering, Train Departure, Train Arrival, Train Run-through and Train Re-routing are online reporting tasks in ________.",
+              options: [
+                "TMS",
+                "RMS",
+                "CMS",
+                "ICMS",
+              ],
+              correct: 0,
+              explanation: "TMS (Train Management System)",
+            },
+            {
+              question: "Load Related, Vehicle Guidance Related, Rake Related and Loco Related tasks are online reporting tasks of yard cycle in ________.",
+              options: [
+                "TMS",
+                "CMS",
+                "RMS",
+                "ICMS",
+              ],
+              correct: 2,
+              explanation: "RMS (Rake Management System)",
+            },
+            {
+              question: "In RMS yard cycle, ________ includes online reporting of inward number taking, load planning, load stabling and load diversion/termination/extension.",
+              options: [
+                "Load Related Tasks",
+                "Vehicle Guidance Tasks",
+                "Rake Related Tasks",
+                "Loco Related Tasks",
+              ],
+              correct: 0,
+              explanation: "Load Related Tasks",
+            },
+            {
+              question: "In RMS yard cycle, ________ includes online reporting of consist of the rakes.",
+              options: [
+                "Load Related Tasks",
+                "Vehicle Guidance Tasks",
+                "Rake Related Tasks",
+                "Loco Related Tasks",
+              ],
+              correct: 1,
+              explanation: "Vehicle Guidance Tasks",
+            },
+            {
+              question: "In RMS yard cycle, ________ includes online reporting of rake formation, movement order and rake placement/release.",
+              options: [
+                "Load Related Tasks",
+                "Vehicle Guidance Tasks",
+                "Rake Related Tasks",
+                "Loco Related Tasks",
+              ],
+              correct: 2,
+              explanation: "Rake Related Tasks",
+            },
+            {
+              question: "In RMS yard cycle, ________ includes online reporting of attachment/detachment of locos, loco reporting and light engine.",
+              options: [
+                "Load Related Tasks",
+                "Vehicle Guidance Tasks",
+                "Rake Related Tasks",
+                "Loco Related Tasks",
+              ],
+              correct: 3,
+              explanation: "Loco Related Tasks",
+            },
+            {
+              question: "In RMS, new demand, modify demand, add/delete demand, fulfilling demand and forfeiture/withdrawal of demand are reported ________.",
+              options: [
+                "At station",
+                "At goods shed",
+                "At division office",
+                "At terminal",
+              ],
+              correct: 3,
+              explanation: "At terminal",
+            },
+            {
+              question: "Forecast can be reported by selecting trains from the pipeline generated from originating station to destination. The task used is ________ reporting task.",
+              options: [
+                "Interchange Position",
+                "Interchange Forecast",
+                "Review Forecast",
+                "Forecast Position",
+              ],
+              correct: 1,
+              explanation: "Interchange Forecast",
+            },
+            {
+              question: "In FOIS, ________ includes Rake Related, Load Related, Train Related, Loco Related and Roadside/Piecemeal Wagon Related tasks.",
+              options: [
+                "Interchange Position",
+                "Interchange Forecast",
+                "Review Forecast",
+                "Forecast Position",
+              ],
+              correct: 3,
+              explanation: "Forecast Position",
+            },
+            {
+              question: "The RMS conference set report giving desktop summarized view of forecast and interchange of current date is ________.",
+              options: [
+                "Running Interchange",
+                "Current Interchange",
+                "Interchange Forecast Summary",
+                "Likely Shortfall",
+              ],
+              correct: 2,
+              explanation: "Interchange Forecast Summary",
+            },
+            {
+              question: "The RMS conference set report giving detailed view of forecast, interchange and running position of forecasted trains is ________.",
+              options: [
+                "Running Interchange",
+                "Current Interchange",
+                "Interchange Forecast Summary",
+                "Likely Shortfall",
+              ],
+              correct: 0,
+              explanation: "Running Interchange",
+            },
+            {
+              question: "The RMS conference set report giving summary information of interchange with breakup of empties and loaded stock is ________.",
+              options: [
+                "Running Interchange",
+                "Current Interchange",
+                "Interchange Forecast Summary",
+                "Likely Shortfall",
+              ],
+              correct: 1,
+              explanation: "Current Interchange",
+            },
+            {
+              question: "The RMS conference set report giving yesterday's interchange shortfall/excess with reasons is ________.",
+              options: [
+                "Running Interchange",
+                "Current Interchange",
+                "Interchange Forecast Summary",
+                "Train Interchange Shortfall",
+              ],
+              correct: 3,
+              explanation: "Train Interchange Shortfall",
+            },
+            {
+              question: "The RMS conference set report that is an unstructured query for all loads on run in the system is ________.",
+              options: [
+                "Traffic Flow",
+                "Loads on Run",
+                "Outward Train Railway Wise",
+                "Terminal Position",
+              ],
+              correct: 1,
+              explanation: "Loads on Run",
+            },
+            {
+              question: "The RMS conference set report giving likely traffic flow through interchange points up to 3 days in advance is ________.",
+              options: [
+                "Traffic Flow",
+                "Loads on Run",
+                "Outward Train Railway Wise",
+                "Terminal Position",
+              ],
+              correct: 0,
+              explanation: "Traffic Flow",
+            },
+            {
+              question: "The RMS conference set report giving division-wise, destination railway-wise view of all outward trains is ________.",
+              options: [
+                "Traffic Flow",
+                "Loads on Run",
+                "Outward Train Railway Wise",
+                "Terminal Position",
+              ],
+              correct: 2,
+              explanation: "Outward Train Railway Wise",
+            },
+            {
+              question: "The RMS conference set report displaying total rakes at terminals along with terminal insights is ________.",
+              options: [
+                "Traffic Flow",
+                "Loads on Run",
+                "Outward Train Railway Wise",
+                "Terminal Position",
+              ],
+              correct: 3,
+              explanation: "Terminal Position",
+            },
+            {
+              question: "The RMS conference set report giving breakup of rakes under U/R, U/L, O/W, I/W and Empty is ________.",
+              options: [
+                "Rake Integrity",
+                "Rake Position",
+                "Rake Performance",
+                "Terminal Management Planning",
+              ],
+              correct: 1,
+              explanation: "Rake Position",
+            },
+            {
+              question: "The RMS conference set report giving details of attachment/detachment, sick reporting and examination of individual rakes is ________.",
+              options: [
+                "Rake Integrity",
+                "Rake Position",
+                "Rake Performance",
+                "Terminal Management Planning",
+              ],
+              correct: 0,
+              explanation: "Rake Integrity",
+            },
+            {
+              question: "The RMS conference set report displaying outstanding rake demands, rakes on hand and pipeline of terminating loads is ________.",
+              options: [
+                "Rake Integrity",
+                "Rake Position",
+                "Rake Performance",
+                "Terminal Management Planning",
+              ],
+              correct: 3,
+              explanation: "Terminal Management Planning",
+            },
+          
+        ],
+        'chapter-18': [
+          
+            {
+              question: "For post facto analysis of punctuality loss and its causes, ________ module captures train running at originating/terminating and interchange points along with causes of detention.",
+              options: [
+                "COIS",
+                "CMM",
+                "PAM",
+                "COA",
+              ],
+              correct: 2,
+              explanation: "PAM (Punctuality Analysis Module)",
+            },
+            {
+              question: "________ captures events on coaches/rakes and generates reports for management of coaching stock. Data input is predominantly at Station/Coaching Yard level.",
+              options: [
+                "COIS",
+                "CMM",
+                "PAM",
+                "COA",
+              ],
+              correct: 0,
+              explanation: "COIS (Coaching Operations Information System)",
+            },
+            {
+              question: "________ captures depot activities related to coaching maintenance operations and serves as a utility tool for managers looking after mechanical and electrical maintenance.",
+              options: [
+                "Coaching Operations Information System",
+                "Coaching Maintenance Module",
+                "Punctuality Analysis Module",
+                "Integrated Coaching Information System",
+              ],
+              correct: 1,
+              explanation: "Coaching Maintenance Module (CMM)",
+            },
+            {
+              question: "________ is comprehensive software for the automation of Control Charting at a Railway Divisional Control Office.",
+              options: [
+                "Punctuality Analysis Module",
+                "Integrated Coaching Information System",
+                "Control Office Application",
+                "Freight Operation Information System",
+              ],
+              correct: 2,
+              explanation: "Control Office Application (COA)",
+            },
+          
+        ],
+       'chapter-19': [
+        {
+          question: "COA is designed to form the core application to drive the existing allied systems like FOIS. NTES and COIS. The integration with allied systems will be facilitated through a Central Application Server at__________________.",
+          options: [
+            "Railways information system",
+            "IRCTC",
+            "Central Information System",
+            "Centre for Railway Information Systems",
+          ],
+          correct: 3,
+          explanation: "Centre for Railway Information Systems",
+        },
+       ],
+      'chapter-20': [
+        {
+          question: "___________ is a fully integrated Electronic Control System designed to minimize collisions and increase safety on Railway system",
+          options: [
+            "Train collision system",
+            "Collision Avoidance system",
+            "Anti collision device",
+            "Anti collision system",
+          ],
+          correct: 2,
+          explanation: "Anti collision device",
+        },
+      ],
+      'chapter-21': [
+        
+          {
+            question:
+              "Whenever site investigation is done after an accident, the gauge of the track should be checked under load for a distance of ______ on either side of the point of mount if the cause is indisputably known; otherwise for ______ ahead of the point of mount.",
+            options: [
+              "45 metres, 90 metres",
+              "30 metres, 60 metres",
+              "45 metres, 60 metres",
+              "60 metres, 90 metres",
+            ],
+            correct: 0,
+            explanation:
+              "Gauge is checked for 45 m on either side if the cause is known; otherwise for 90 m ahead of the point of mount.",
+          },
+          {
+            question:
+              "During site investigation of an accident, nothing should be disturbed except for rescuing life in case of ______.",
+            options: [
+              "Suspected sabotage",
+              "Sabotage or suspected sabotage",
+              "Sabotage",
+              "None of these",
+            ],
+            correct: 1,
+            explanation:
+              "In cases of sabotage or suspected sabotage, the site should remain undisturbed except for life-saving operations until police clearance.",
+          },
+          {
+            question:
+              "During site investigation of an accident, a ______ showing the position of derailed vehicles and marks on sleepers should be prepared, indicating the point of ______.",
+            options: [
+              "Correct sketch, drop",
+              "Diagram, mount",
+              "Scaled sketch, drop/mount",
+              "Rough sketch, drop/mount",
+            ],
+            correct: 2,
+            explanation:
+              "A scaled sketch indicating the point of drop/mount is essential for accident analysis.",
+          },
+          {
+            question:
+              "When one or both wheels of the same wheel-set fall inside the track during a derailment, the most likely cause is ______.",
+            options: [
+              "Buckling",
+              "Spread gauge",
+              "Creep",
+              "Obstruction on path",
+            ],
+            correct: 1,
+            explanation:
+              "Such derailments generally indicate spread gauge, though axle or wheel defects are remote possibilities.",
+          },
+          {
+            question:
+              "Most derailments at points and crossings initiate either at the toe of the ______ or near the nose of the crossing.",
+            options: [
+              "Stock rail",
+              "Tongue rail",
+              "Check rail",
+              "Nose rail",
+            ],
+            correct: 1,
+            explanation:
+              "Derailments commonly begin at the toe of the tongue rail.",
+          },
+          {
+            question:
+              "Most derailments at points and crossings initiate either at the toe of the tongue rail or near the ______.",
+            options: [
+              "Stock rail",
+              "Tongue of crossing",
+              "Nose of the crossing",
+              "Check rails of crossing",
+            ],
+            correct: 2,
+            explanation:
+              "The two critical locations are the toe of the tongue rail and the nose of the crossing.",
+          },
+          {
+            question:
+              "Spread gauge, gaping in points, worn tongue rails, excessive check rail clearance and shearing of fish plate bolts are defects related to ______.",
+            options: [
+              "S&T",
+              "Mechanical",
+              "Traffic",
+              "Permanent Way",
+            ],
+            correct: 3,
+            explanation:
+              "These are all Permanent Way defects that can lead to derailments.",
+          },
+          {
+            question:
+              "Loose point connections, worn rails, buckling, abrupt super elevation and sharp curves are important defects of ______.",
+            options: [
+              "S&T",
+              "Permanent Way",
+              "Traffic",
+              "Mechanical",
+            ],
+            correct: 1,
+            explanation:
+              "These defects belong to the Permanent Way discipline.",
+          },
+          {
+            question:
+              "The shortest distance between the two rails of the track is known as ______.",
+            options: [
+              "Gauge",
+              "Maximum gauge",
+              "Creep",
+              "Minimum gauge",
+            ],
+            correct: 0,
+            explanation:
+              "Gauge is the shortest distance between the running faces of the rails.",
+          },
+          {
+            question:
+              "Rail fasteners used for wooden sleepers include ______.",
+            options: [
+              "Dog spikes",
+              "Steel keys",
+              "Round head spikes",
+              "All the above",
+            ],
+            correct: 3,
+            explanation:
+              "Dog spikes, steel keys and round head spikes are all used with wooden sleepers.",
+          },
+          {
+            question:
+              "Rail fasteners used for steel trough sleepers are ______.",
+            options: [
+              "Dog spikes",
+              "Steel keys",
+              "Elastic clips with liners between the rail foot and clip",
+              "Round head spikes",
+            ],
+            correct: 2,
+            explanation:
+              "Steel trough sleepers use elastic clips with liners.",
+          },
+          {
+            question:
+              "Longitudinal displacement of the track is known as ______.",
+            options: [
+              "Buckling",
+              "Creep",
+              "Spread gauge",
+              "Defect of rail fasteners",
+            ],
+            correct: 1,
+            explanation:
+              "Creep refers to the longitudinal movement of rails.",
+          },
+          {
+            question:
+              "The effect of ______ forces is accelerated if rail fasteners cannot properly hold the rails.",
+            options: [
+              "Tractive forces",
+              "Braking forces",
+              "Traction/Braking forces",
+              "None of the above",
+            ],
+            correct: 2,
+            explanation:
+              "Combined traction and braking forces accelerate rail creep when fastenings are weak.",
+          },
+          {
+            question:
+              "When one or two rail lengths move sideways from their original position, the condition is known as ______.",
+            options: [
+              "Buckling",
+              "Creep",
+              "Spread gauge",
+              "Defect of rail fasteners",
+            ],
+            correct: 0,
+            explanation:
+              "Sideways displacement of rails is known as buckling.",
+          },
+          {
+            question:
+              "Buckling mainly occurs due to the ______ together with tractive and braking forces.",
+            options: [
+              "Drop in temperature",
+              "Rise in temperature",
+              "Variation in temperature",
+              "All the above",
+            ],
+            correct: 1,
+            explanation:
+              "Buckling is primarily caused by a rise in temperature and the resulting thermal expansion.",
+          },
+          {
+            question:
+              "Buckling normally occurs mostly during the ______ when the track has absorbed maximum heat.",
+            options: [
+              "First half of the day",
+              "Night time",
+              "Any time",
+              "Second half of the day",
+            ],
+            correct: 3,
+            explanation:
+              "Buckling is most common during the second half of the day due to peak rail temperature.",
+          },
+          {
+            question:
+              "Broken axle, defective spring gear, hot box, poor brake power and defective CBC gear are defects related to ______.",
+            options: [
+              "Permanent Way",
+              "Loco Traction",
+              "Mechanical",
+              "Electrical",
+            ],
+            correct: 2,
+            explanation:
+              "These are mechanical defects affecting rolling stock.",
+          },
+        
+      ],
+      'chapter-22': [
+        {
+          question:
+            "Warning boards are provided to remind the Loco Pilot of an approaching electric locomotive/EMU to open the locomotive circuit breaker (DJ) before approaching the ________, coast through it, and then switch 'ON' on the other side.",
+          options: [
+            "Sub-station",
+            "Transformer",
+            "Neutral section",
+            "Active section",
+          ],
+          correct: 2,
+          explanation:
+            "Warning boards are provided before a neutral section to remind the Loco Pilot to open the DJ, coast through the neutral section, and switch it ON after crossing.",
+        },
+        {
+          question:
+            "Special care is taken in fixing the location of neutral sections to ensure that the train coasts through the neutral section at a sufficiently ________, preventing it from stopping within the neutral section.",
+          options: [
+            "Low speed",
+            "High speed",
+            "Moderate speed",
+            "Maximum speed",
+          ],
+          correct: 1,
+          explanation:
+            "Neutral sections are located so that trains can coast through them at a sufficiently high speed, avoiding the possibility of stopping inside the neutral section.",
+        },
+      ],
+      'chapter-23': [
+        {
+          question:
+            "Running staff review should be carried out after every ________ by the Senior Technical Assistant of the division.",
+          options: ["3 months", "4 months", "Six months", "One year"],
+          correct: 2,
+          explanation:
+            "Running staff review is conducted every six months by the Senior Technical Assistant of the division.",
+        },
+        {
+          question:
+            "Running staff review should be carried out every six months on ________ by the Senior Technical Assistant of the division.",
+          options: [
+            "1st January and 1st July",
+            "15th January and 15th July",
+            "1st January and 15th July",
+            "15th January and 1st July",
+          ],
+          correct: 0,
+          explanation:
+            "The review is conducted on 1st January and 1st July every year.",
+        },
+        {
+          question:
+            "While carrying out the running staff review, the requirement for goods crews should be worked out as per the ________ signed by Sr. DME(P) and Sr. DOM.",
+          options: [
+            "Power plan",
+            "Loco links",
+            "Rake links",
+            "Previous year utilization",
+          ],
+          correct: 0,
+          explanation:
+            "Goods crew requirement is based on the approved Power Plan.",
+        },
+        {
+          question:
+            "Separate crews should be demanded for activities that cannot be covered in the power plan, such as ________.",
+          options: [
+            "Light engine movements",
+            "Empty coaching rake movement",
+            "Working in the lobbies",
+            "Both A & B",
+          ],
+          correct: 3,
+          explanation:
+            "Separate crews are required for both light engine movements and empty coaching rake movements.",
+        },
+        {
+          question:
+            "During running staff review, ________ leave reserve and ________ trainee reserve should be demanded for additional requirement.",
+          options: ["25%, 10%", "30%, 10%", "30%, 20%", "20%, 15%"],
+          correct: 1,
+          explanation:
+            "A leave reserve of 30% and trainee reserve of 10% are provided.",
+        },
+        {
+          question:
+            "During running staff review, shunters should be demanded at the rate of one against ________, and one rest giver for every ________ shunters.",
+          options: [
+            "6-hour point, 8 shunters",
+            "12-hour point, 6 shunters",
+            "8-hour point, 6 shunters",
+            "8-hour point, 4 shunters",
+          ],
+          correct: 2,
+          explanation:
+            "One shunter is provided for each 8-hour point and one rest giver for every 6 shunters.",
+        },
+        {
+          question:
+            "After accounts vetting during running staff review, sanction of ________ should be obtained before the Sr. DPO issues the revised sanction.",
+          options: ["DRM", "ADRM", "Sr. DOM", "Sr. DME/Sr. DEE"],
+          correct: 0,
+          explanation:
+            "Final sanction is obtained from the DRM.",
+        },
+        {
+          question:
+            "Running supervisors review should be made at the rate of one Loco Inspector against ________ Loco Pilots or ________ shunters.",
+          options: ["20, 20", "25, 30", "30, 50", "25, 50"],
+          correct: 3,
+          explanation:
+            "One Loco Inspector is provided for every 25 Loco Pilots or 50 shunters.",
+        },
+        {
+          question:
+            "For running supervisors, ________ rest giver is allowed and ________ leave reserve is provided.",
+          options: ["5%, 10%", "No, 12.5%", "2.5%, 15%", "3%, 5%"],
+          correct: 1,
+          explanation:
+            "No rest giver is allowed, while 12.5% leave reserve is provided.",
+        },
+        {
+          question:
+            "While preparing Loco Pilot links, the maximum duty hours in any one trip should not exceed ________, and the average duty hours in a fortnight should not exceed ________.",
+          options: [
+            "8 hours, 102 hours",
+            "9 hours, 104 hours",
+            "10 hours, 104 hours",
+            "12 hours, 106 hours",
+          ],
+          correct: 1,
+          explanation:
+            "Maximum trip duty is 9 hours and fortnightly average duty is 104 hours.",
+        },
+        {
+          question:
+            "The minimum number of rests in a month should be ________ or ________ hours including night in bed from 22:00 to 06:00.",
+          options: [
+            "5 of 22 hours, 4 of 30 hours",
+            "6 of 20 hours, 2 of 60 hours",
+            "5 of 20 hours, 4 of 25 hours",
+            "5 of 16 hours, 4 of 20 hours",
+          ],
+          correct: 0,
+          explanation:
+            "Running staff should receive at least five rests of 22 hours or four rests of 30 hours.",
+        },
+        {
+          question:
+            "The minimum outstation rest for duty less than 8 hours is ________. If duty is 8 hours or more, the rest should be ________. For trips up to ________, duty performed plus one hour is sufficient.",
+          options: [
+            "8 hours, 10 hours, 6 hours",
+            "6 hours, 8 hours, 5 hours",
+            "7 hours, 10 hours, 4 hours",
+            "6 hours, 10 hours, 4 hours",
+          ],
+          correct: 3,
+          explanation:
+            "The prescribed outstation rests are 6 hours, 10 hours, and duty plus one hour for trips up to 4 hours.",
+        },
+        {
+          question:
+            "Minimum home station rest after duty of less than 8 hours should be ________, and after duty of 8 hours or more should be ________.",
+          options: [
+            "8 hours, 10 hours",
+            "9 hours, 12 hours",
+            "10 hours, 14 hours",
+            "12 hours, 16 hours",
+          ],
+          correct: 2,
+          explanation:
+            "Home station rest should be 10 hours or 14 hours depending on duty duration.",
+        },
+        {
+          question:
+            "If staff are required to work a train without the stipulated rest, ________ allowance is payable.",
+          options: [
+            "Breach of duty",
+            "In lieu of mileage",
+            "Breach of rest",
+            "Overtime",
+          ],
+          correct: 2,
+          explanation:
+            "Breach of Rest allowance is payable when the prescribed rest is not given.",
+        },
+        {
+          question:
+            "The link having the maximum earning kilometreage should normally be worked by the ________ Loco Pilots.",
+          options: [
+            "Senior most",
+            "Junior most",
+            "Senior most aged",
+            "Most experienced",
+          ],
+          correct: 1,
+          explanation:
+            "Higher earning links are normally allotted to junior-most Loco Pilots.",
+        },
+        {
+          question:
+            "Loco/Power links are prepared by the ________ and circulated to the divisions to ensure optimum utilization of power.",
+          options: [
+            "CPTM Office",
+            "Headquarters Office",
+            "PCEE Office",
+            "PCOM Office",
+          ],
+          correct: 2,
+          explanation:
+            "Power links are prepared by the PCEE Office.",
+        },
+        {
+          question:
+            "Power requirement (Power Plan) should be prepared once in every ________.",
+          options: ["4 months", "6 months", "9 months", "12 months"],
+          correct: 1,
+          explanation:
+            "The Power Plan is reviewed and prepared every six months.",
+        },
+        {
+          question:
+            "The formula for calculating bare power on line is ________.",
+          options: [
+            "PDD + HOR - PAD",
+            "PDD - HOR + PAD",
+            "PDD + HOR + PAD",
+            "HOR - (PDD + PAD)",
+          ],
+          correct: 2,
+          explanation:
+            "Bare power on line is calculated as Pre-departure Detention + Hours on Road + Post-arrival Detention.",
+        },
+        {
+          question:
+            "While preparing the Power Plan, ________ further growth and ________ bunching allowance should be added to the bare power on line.",
+          options: ["1.5%, 5%", "2%, 7.5%", "3%, 8%", "3.5%, 10%"],
+          correct: 1,
+          explanation:
+            "A provision of 2% for future growth and 7.5% for bunching allowance is made.",
+        },
+        {
+          question:
+            "While preparing the Power Plan, ________ is added as major repair allowance for Mail/Express/Passenger locomotive requirements.",
+          options: ["5%", "8%", "10%", "15%"],
+          correct: 2,
+          explanation:
+            "A 10% major repair allowance is added for Mail/Express/Passenger locomotive requirements.",
+        },
+      ],
+      'chapter-24': [
+        {
+          question:
+            "Brake Power Certificate (BPC) for Ordinary End-to-End rakes is valid for ________.",
+          options: [
+            "Examination to loading and further up to destination",
+            "Loading to destination",
+            "12 days",
+            "15 days",
+          ],
+          correct: 0,
+          explanation:
+            "The BPC for an Ordinary End-to-End rake remains valid from examination to loading and further up to the destination.",
+        },
+        {
+          question:
+            "The minimum Brake Power for an Ordinary End-to-End rake should be ________ at the originating station and ________ en route.",
+          options: [
+            "90%, 85%",
+            "90%, 75%",
+            "85%, Not specified",
+            "85%, 85%",
+          ],
+          correct: 0,
+          explanation:
+            "Ordinary End-to-End rakes require a minimum brake power of 90% at origin and 85% en route.",
+        },
+        {
+          question:
+            "Brake Power Certificate (BPC) for Premium Air Brake rakes is valid for ________.",
+          options: [
+            "30 days",
+            "Loading to destination",
+            "12 days",
+            "15 days",
+          ],
+          correct: 2,
+          explanation:
+            "The BPC for Premium Air Brake rakes is valid for 12 days.",
+        },
+        {
+          question:
+            "The minimum Brake Power for a Premium Air Brake rake should be ________ at the originating station and ________ en route.",
+          options: [
+            "90%, 85%",
+            "95%, Not specified",
+            "85%, 75%",
+            "95%, 85%",
+          ],
+          correct: 1,
+          explanation:
+            "Premium Air Brake rakes require a minimum brake power of 95% at origin. No separate en-route brake power requirement is specified.",
+        },
+        {
+          question:
+            "The grace period allowed after the 12-day validity of a Premium Air Brake rake BPC for movement of a loaded train to destination is ________.",
+          options: [
+            "One day",
+            "Two days",
+            "Three days",
+            "Four days",
+          ],
+          correct: 1,
+          explanation:
+            "A grace period of two days is permitted for Premium Air Brake rakes after expiry of the 12-day BPC validity.",
+        },
+        {
+          question:
+            "Brake Power Certificate (BPC) for Premium Closed Circuit Air Brake rakes is valid for ________.",
+          options: [
+            "7500 km or 35 days, whichever is earlier",
+            "7500 km",
+            "35 days",
+            "7500 km or 35 days",
+          ],
+          correct: 0,
+          explanation:
+            "The BPC for Premium Closed Circuit Air Brake rakes is valid for 7500 km or 35 days, whichever occurs earlier.",
+        },
+        {
+          question:
+            "Brake Power Certificate (BPC) for Closed Circuit Air Brake rakes is valid for ________.",
+          options: [
+            "6000 km or 30 days, whichever is earlier",
+            "6000 km",
+            "30 days",
+            "6000 km or 30 days",
+          ],
+          correct: 0,
+          explanation:
+            "The BPC for Closed Circuit Air Brake rakes is valid for 6000 km or 30 days, whichever is earlier.",
+        },
+        {
+          question:
+            "The minimum Brake Power for a Closed Circuit Air Brake rake should be ________ at the originating station and ________ en route.",
+          options: [
+            "90%, 85%",
+            "95%, Not specified",
+            "100%, 90%",
+            "95%, 85%",
+          ],
+          correct: 2,
+          explanation:
+            "Closed Circuit Air Brake rakes require 100% brake power at origin and at least 90% en route.",
+        },
+        {
+          question:
+            "The Brake Power Certificate (BPC) validity for Container rakes (BLCA + BLCB) is ________.",
+          options: [
+            "4000 km",
+            "5000 km",
+            "6000 km",
+            "6000 km + 35 days",
+          ],
+          correct: 1,
+          explanation:
+            "The BPC for BLCA + BLCB container rakes is valid for 5000 km.",
+        },
+      ],
+      'chapter-25': [
+        {
+          question:
+            "09-3X, CSM, UNO & DUO are track machines used for ________.",
+          options: [
+            "Plain Track Tamping",
+            "Ballast Cleaning",
+            "Turnout Packing",
+            "Track Laying",
+          ],
+          correct: 0,
+          explanation:
+            "09-3X, CSM, UNO and DUO are plain track tamping machines used to correct track geometry and pack ballast beneath sleepers.",
+        },
+        {
+          question:
+            "The 09-3X track machine packs ________ at a time. In a 4-hour traffic block, its output is ________.",
+          options: [
+            "One sleeper, 1.6 km",
+            "Three sleepers, 1.6 km",
+            "Two sleepers, 1.2 km",
+            "Three sleepers, 1.5 km",
+          ],
+          correct: 1,
+          explanation:
+            "The 09-3X is a three-sleeper tamping machine with an output of about 1.6 km in a 4-hour block.",
+        },
+        {
+          question:
+            "The CSM track machine packs ________ at a time. In a 4-hour traffic block, its output is ________.",
+          options: [
+            "One sleeper, 1.2 km",
+            "Three sleepers, 1.6 km",
+            "Two sleepers, 1.2 km",
+            "Two sleepers, 1.5 km",
+          ],
+          correct: 2,
+          explanation:
+            "CSM is a continuous action two-sleeper tamping machine with an output of approximately 1.2 km in 4 hours.",
+        },
+        {
+          question:
+            "The output of the Ballast Cleaning Machine (BCM) in a 4-hour traffic block is ________.",
+          options: [
+            "0.1 km",
+            "0.2 km",
+            "0.3 km",
+            "0.4 km",
+          ],
+          correct: 3,
+          explanation:
+            "A Ballast Cleaning Machine (BCM) normally cleans about 0.4 km of track in a 4-hour block.",
+        },
+        {
+          question:
+            "The track machine that screens plain and turnout track ballast by removing muck to improve drainage and track elasticity is called ________.",
+          options: [
+            "CSM",
+            "DUO",
+            "UNIMAT",
+            "BCM",
+          ],
+          correct: 3,
+          explanation:
+            "BCM (Ballast Cleaning Machine) removes fouled ballast to improve drainage and track stability.",
+        },
+        {
+          question:
+            "The track machine used for shoulder ballast cleaning is ________.",
+          options: [
+            "CSM",
+            "DUO",
+            "FRM",
+            "BCM",
+          ],
+          correct: 2,
+          explanation:
+            "FRM (Formation Rehabilitation/Shoulder Ballast Cleaning Machine) is used for shoulder ballast cleaning.",
+        },
+        {
+          question:
+            "The track machine that corrects turnout track geometry is ________.",
+          options: [
+            "CSM",
+            "UNI",
+            "FRM",
+            "BCM",
+          ],
+          correct: 1,
+          explanation:
+            "UNIMAT (UNI) is specifically designed for tamping and correcting turnout geometry.",
+        },
+        {
+          question:
+            "The track machine used to consolidate newly tamped track, increase lateral resistance and relax speed restrictions early is ________.",
+          options: [
+            "DGS",
+            "UNI",
+            "FRM",
+            "BCM",
+          ],
+          correct: 0,
+          explanation:
+            "DGS (Dynamic Track Stabilizer) consolidates freshly tamped track and stabilizes ballast.",
+        },
+        {
+          question:
+            "The track machine that is a fully mechanized system for complete track renewal is ________.",
+          options: [
+            "DGS",
+            "TRT",
+            "FRM",
+            "BCM",
+          ],
+          correct: 1,
+          explanation:
+            "TRT (Track Relaying Train) is a fully mechanized system used for complete track renewal.",
+        },
+        {
+          question:
+            "The track machine that is a semi-mechanized system of track renewal using prefabricated rail panels is ________.",
+          options: [
+            "DGS",
+            "TRT",
+            "FRM",
+            "PQRS",
+          ],
+          correct: 3,
+          explanation:
+            "PQRS (Portal Quick Relaying System) is a semi-mechanized method of track renewal using prefabricated panels.",
+        },
+        {
+          question:
+            "The track machine also known as the turnout replacement machine, used for fully mechanized turnout renewal, is ________.",
+          options: [
+            "DGS",
+            "TRT",
+            "T-28",
+            "PQRS",
+          ],
+          correct: 2,
+          explanation:
+            "The T-28 machine is used for fully mechanized turnout replacement with minimal manual labour.",
+        },
+        {
+          question:
+            "The track machine used for mechanized track ballast equalization, regulation and profiling is ________.",
+          options: [
+            "DGS",
+            "BRM",
+            "BCM",
+            "PQRS",
+          ],
+          correct: 1,
+          explanation:
+            "BRM (Ballast Regulating Machine) is used for ballast equalization, regulation and profiling after tamping.",
+        },
+      ],
+      
+      
+  }
 };
