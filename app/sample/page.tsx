@@ -1,8 +1,11 @@
 import React from 'react'
+import Section4 from '@/components/disaster-management-act-2005/Section4'
 
 const Sample = () => {
   return (
-    <div>Sample</div>
+    <div>Sample
+      <Section4 />
+    </div>
   )
 }
 
