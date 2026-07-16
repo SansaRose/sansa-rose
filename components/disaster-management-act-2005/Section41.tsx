@@ -1,10 +1,47 @@
 'use client'
 import React from 'react'
-import { Scale } from 'lucide-react'
+import {
+  Scale,
+} from 'lucide-react'
+
+const badgeGradients = [
+  'from-blue-500 to-cyan-600 ring-blue-400/50',
+  'from-cyan-500 to-blue-600 ring-cyan-400/50',
+]
+
+const subsections = [
+  {
+    num: '1',
+    text: 'Subject to the directions of the District Authority, a local authority shall—',
+    subItems: [
+      {
+        label: 'a',
+        text: 'ensure that its officers and employees are trained for disaster management;',
+      },
+      {
+        label: 'b',
+        text: 'ensure that resources relating to disaster management are so maintained as to be readily available for use in the event of any threatening disaster situation or disaster;',
+      },
+      {
+        label: 'c',
+        text: 'ensure all construction projects under it or within its jurisdiction conform to the standards and specifications laid down for prevention of disasters and mitigation by the National Authority, State Authority and the District Authority;',
+      },
+      {
+        label: 'd',
+        text: 'carry out relief, rehabilitation and reconstruction activities in the affected area in accordance with the State Plan and the District Plan.',
+      },
+    ],
+  },
+  {
+    num: '2',
+    text: 'The local authority may take such other measures as may be necessary for the disaster management.',
+  },
+]
 
 const Section41 = () => {
   return (
     <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+      {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -13,6 +50,7 @@ const Section41 = () => {
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
+          {/* Header Section */}
           <div className="text-center mb-10">
             <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
               <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
@@ -27,7 +65,10 @@ const Section41 = () => {
             <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
           </div>
 
+          {/* Content Sections */}
           <div className="space-y-6">
+
+            {/* Functions of the local authority */}
             <div className="relative bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <span className="absolute top-3 right-3 lg:top-4 lg:right-4 bg-linear-to-br from-blue-500 to-cyan-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-lg text-sm shadow-lg ring-2 ring-blue-400/50 shrink-0 z-10">
                 41
@@ -36,13 +77,46 @@ const Section41 = () => {
                 <span className="text-center">Functions of the local authority</span>
               </h2>
               <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
-                <div className="flex items-center justify-center flex-col gap-4 p-3 rounded-lg">
-                  <span className="text-gray-300 lg:text-lg text-base leading-relaxed text-center">
-                    Section 41 — Functions of the local authority
-                  </span>
-                </div>
+                <ul className="space-y-6">
+                  {subsections.map((item, index) => {
+                    const gradient = badgeGradients[index % badgeGradients.length]
+                    return (
+                      <li
+                        key={item.num}
+                        className="flex items-center justify-center flex-col gap-4 group hover:bg-white/5 p-3 rounded-lg transition-all duration-300"
+                      >
+                        <span
+                          className={`bg-linear-to-br ${gradient} text-white lg:w-10 lg:h-10 w-8 h-8 rounded-full flex items-center justify-center font-bold lg:text-lg text-base shadow-lg ring-2 shrink-0 mt-0.5 group-hover:scale-110 transition-transform`}
+                        >
+                          {item.num}
+                        </span>
+                        <div className="text-gray-200 lg:text-lg text-base leading-relaxed pt-1 text-center w-full">
+                          <span className="font-semibold text-cyan-200">{item.text}</span>
+                          {item.subItems && (
+                            <ul className="mt-4 space-y-3">
+                              {item.subItems.map((sub) => (
+                                <li
+                                  key={sub.label}
+                                  className="flex items-center justify-center flex-col gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300"
+                                >
+                                  <span className="bg-linear-to-br from-blue-400/40 to-cyan-500/40 text-cyan-100 lg:w-8 lg:h-8 w-7 h-7 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md ring-1 ring-cyan-400/40 shrink-0 group-hover/item:scale-110 transition-transform">
+                                    {sub.label}
+                                  </span>
+                                  <span className="text-gray-200 lg:text-base text-sm leading-relaxed text-center">
+                                    {sub.text}
+                                  </span>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      </li>
+                    )
+                  })}
+                </ul>
               </div>
             </div>
+
           </div>
         </div>
       </div>

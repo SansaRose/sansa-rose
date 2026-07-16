@@ -1,10 +1,24 @@
 'use client'
 import React from 'react'
-import { Scale } from 'lucide-react'
+import {
+  Scale,
+} from 'lucide-react'
+
+const subItems = [
+  {
+    label: 'a',
+    text: 'the National Authority, the State Authority, the Central Government, the State Government, the District Authority or any other authority or officer authorised in this behalf by that Authority or Government, as the case may be; or',
+  },
+  {
+    label: 'b',
+    text: 'any person who has given notice of not less than thirty days in the manner prescribed, of the alleged offence and his intention to make a complaint to the National Authority, the State Authority, the Central Government, the State Government, the District Authority or any other authority or officer authorised as aforesaid.',
+  },
+]
 
 const Section60 = () => {
   return (
     <div className="min-h-screen bg-linear-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+      {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-linear-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -13,6 +27,7 @@ const Section60 = () => {
 
       <div className="relative z-10 py-6 lg:px-4 px-2">
         <div className="max-w-7xl mx-auto">
+          {/* Header Section */}
           <div className="text-center mb-10">
             <div className="inline-block p-2 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full mb-6 backdrop-blur-sm">
               <div className="bg-linear-to-r from-blue-500 to-purple-600 p-3 rounded-full">
@@ -27,7 +42,10 @@ const Section60 = () => {
             <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-600 mx-auto mb-6 rounded-full"></div>
           </div>
 
+          {/* Content Sections */}
           <div className="space-y-6">
+
+            {/* Cognizance of offences */}
             <div className="relative bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl py-6 lg:px-4 px-3 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <span className="absolute top-3 right-3 lg:top-4 lg:right-4 bg-linear-to-br from-blue-500 to-cyan-600 text-white lg:w-12 lg:h-12 w-10 h-10 rounded-full flex items-center justify-center font-bold lg:text-lg text-sm shadow-lg ring-2 ring-blue-400/50 shrink-0 z-10">
                 60
@@ -36,13 +54,31 @@ const Section60 = () => {
                 <span className="text-center">Cognizance of offences</span>
               </h2>
               <div className="bg-linear-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-lg rounded-xl py-6 lg:px-4 px-3 shadow-lg border border-blue-400/30">
-                <div className="flex items-center justify-center flex-col gap-4 p-3 rounded-lg">
-                  <span className="text-gray-300 lg:text-lg text-base leading-relaxed text-center">
-                    Section 60 — Cognizance of offences
-                  </span>
+                <div className="flex items-center justify-center flex-col gap-4 group hover:bg-white/5 p-3 rounded-lg transition-all duration-300">
+                  <div className="text-gray-200 lg:text-lg text-base leading-relaxed pt-1 text-center w-full">
+                    <span className="font-semibold text-cyan-200">
+                      No court shall take cognizance of an offence under this Act except on a complaint made by—
+                    </span>
+                    <ul className="mt-4 space-y-3">
+                      {subItems.map((sub) => (
+                        <li
+                          key={sub.label}
+                          className="flex items-center justify-center flex-col gap-3 group/item hover:bg-white/5 p-2 rounded-lg transition-all duration-300"
+                        >
+                          <span className="bg-linear-to-br from-blue-400/40 to-cyan-500/40 text-cyan-100 lg:w-8 lg:h-8 w-7 h-7 rounded-full flex items-center justify-center font-semibold lg:text-xs text-[10px] shadow-md ring-1 ring-cyan-400/40 shrink-0 group-hover/item:scale-110 transition-transform">
+                            {sub.label}
+                          </span>
+                          <span className="text-gray-200 lg:text-base text-sm leading-relaxed text-center">
+                            {sub.text}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
