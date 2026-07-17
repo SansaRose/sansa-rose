@@ -17,6 +17,14 @@ const Quizzes = () => {
       description: 'Test your knowledge of accident investigation procedures, reporting protocols, and safety regulations'
     },
     {
+      href: '/quizzes/aom-previous-papers',
+      title: 'AOM Previous Papers',
+      icon: '📑',
+      color: 'from-emerald-500 to-teal-600',
+      hoverColor: 'from-emerald-600 to-teal-700',
+      description: 'Practice AOM exam papers: Professional Subject, GK & Rajabhasha, and Establishment & Financial Rules'
+    },
+    {
       href: '/quizzes/block-working-manual',
       title: 'Block Working Manual',
       icon: '🔧',

@@ -43,6 +43,14 @@ export const searchTopics: SearchTopic[] = [
     keywords: "pdfs accident manual amendments Accident Manual Amendments",
   },
   {
+    href: "/quizzes/aom-previous-papers",
+    title: "AOM Previous Papers",
+    category: "Quizzes",
+    parent: "Quizzes",
+    keywords:
+      "quizzes aom previous papers AOM Previous Papers Professional Subject GK Rajabhasha Establishment Financial Rules",
+  },
+  {
     href: "/quizzes/financial-rules/accounts",
     title: "Accounts",
     category: "Quizzes",
