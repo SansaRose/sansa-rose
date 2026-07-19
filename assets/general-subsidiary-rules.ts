@@ -3760,7 +3760,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "None of the above",
         ],
         correct: 1,
-        explanation: "GR 6.09",
+        explanation: "Written permission, written instructions to return is the correct answer.  Reference -GR 6.09",
       },
       {
         question: "When the front portion of the train is taken forward, no _________________shall be placed on the rear vehicle of that portion of the train but the Guard shall give its number in full in the permission.",
@@ -3771,7 +3771,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Red flag",
         ],
         correct: 2,
-        explanation: "GR 6.09",
+        explanation: "tail lamp or tail board is the correct answer.  Reference -GR 6.09",
       },
       {
         question: "In case of fire accident in a passenger carrying train, the first objective to be achieved is",
@@ -3782,7 +3782,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Switch off power supply",
         ],
         correct: 0,
-        explanation: "GR 6.10",
+        explanation: "Safety of passengers is the correct answer.  Reference -GR 6.10",
       },
       {
         question: "In the event of a fire on any part of the electrical equipment, the affected part is to be completely",
@@ -3793,7 +3793,18 @@ export const generalSubsidiaryRulesQuizzes = {
           "none of these",
         ],
         correct: 2,
-        explanation: "GR 6.10",
+        explanation: "First A and then B is the correct answer.  Reference -GR 6.10",
+      },
+      {
+        question: "If any vehicle escapes from a station, the Station Master shall take immediate steps to___________, as far as practicable, to prevent an accident.",
+        options: [
+          "Intimate the other SM",
+          "Intimate the SCOR",
+          "Warn the passengers",
+          "Warn the other stations or person concerned",
+        ],
+        correct: 3,
+        explanation: "Warn the other stations or person concerned is the correct answer.  Reference -GR 6.11",
       },
       {
         question: "G&SR Rule pertaining to protection of trains stopped between stations is mentioned in",
@@ -3803,8 +3814,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "GR 6.03",
           "GR 6.04",
         ],
-        correct: 1,
-        explanation: "GR 6.02",
+        correct: 2,
+        explanation: "GR 6.03",
       },
       {
         question: "G&SR Rule pertaining to trains unusually delayed is mentioned in",
@@ -3814,8 +3825,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "GR 6.03",
           "GR 6.04",
         ],
-        correct: 0,
-        explanation: "GR 6.01",
+        correct: 3,
+        explanation: "GR 6.04",
       },
       {
         question: "G&SR Rule pertaining to train in the block section without authority to proceed is mentioned in",
@@ -3885,7 +3896,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "PN, block station in Rear",
         ],
         correct: 1,
-        explanation: "GR 8.01",
+        explanation: "Line Clear, block station in advance is the correct answer.  Reference -GR 8.01",
       },
       {
         question: "On Absolute Block System on Double Line, such Line Clear shall not be given unless the line is clear, ___________ at the block station at which such Line Clear is given but also __________________.",
@@ -3896,7 +3907,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "not only upto LSS, SOL beyond it",
         ],
         correct: 2,
-        explanation: "GR 8.03",
+        explanation: "not only upto the FSS, for an adequate distance beyond it is the correct answer.  Reference -GR 8.01",
       },
       {
         question: "On Absolute Block System on Single Line, such Line Clear shall not be given unless the _______________, not only upto the first Stop signal at the block station at which such Line Clear is given, but also for an adequate distance beyond it, and is clear of trains running in the direction towards the block station to which such Line Clear is given.",
@@ -3907,7 +3918,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Line is clear of trains running in the same direction",
         ],
         correct: 3,
-        explanation: "GR 8.03",
+        explanation: "Line is clear of trains running in the same direction is the correct answer.  Reference -GR 8.01",
       },
       {
         question: "Unless otherwise directed by approved special instructions, the adequate distance before granting Line Clear shall not be less than _____ in case of multiple-aspect signalling or modified lower quadrant signalling.",
@@ -3918,7 +3929,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "600 metres",
         ],
         correct: 1,
-        explanation: "GR 8.03",
+        explanation: "180 metres is the correct answer.  Reference -GR 8.01",
       },
       {
         question: "At a Class \"A\" station on Single Line or Double Line, the line shall not be considered clear and Line Clear shall not be given, unless the line on which it is intended to receive the incoming train is ____________.",
@@ -3929,7 +3940,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "clear upto the LSS",
         ],
         correct: 1,
-        explanation: "GR 8.04",
+        explanation: "clear upto the Starter is the correct answer.  Reference -GR 8.02",
       },
       {
         question: "At a Class \"B\" station on Double Line, the line shall not be considered clear and Line Clear shall not be given unless the line is clear, at stations equipped with Multiple Aspect Signalling upto the _____________ or the _________________________ (if any).",
@@ -3939,8 +3950,19 @@ export const generalSubsidiaryRulesQuizzes = {
           "Either A or B",
           "Both A & B",
         ],
-        correct: 3,
-        explanation: "GR 8.04",
+        correct: 2,
+        explanation: "Either A or B is the correct answer.  Reference -GR 8.03",
+      },
+      {
+        question: "At a class 'B' station on single line, the line shall not be considered clear and Line Clear shall not be given, unless the line is clear, at stations equipped multiple-aspect Signalling upto the ________________ if there is no Shunting Limit Board or advance Starter",
+        options: [
+          "Shunting Limit Board or Advance Starter",
+          "outermost facing points",
+          "Either A or B",
+          "Both A & B",
+        ],
+        correct: 1,
+        explanation: "Outer most facing points is the correct answer.  Reference -GR 8.03",
       },
       {
         question: "At a Class \"C\" station on Double Line in Multiple Aspect Signalling, the Line Clear shall not be given unless the whole of the last preceding train has passed complete at least __________ and is continuing its journey.",
@@ -3951,7 +3973,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "180 m beyond LSS",
         ],
         correct: 0,
-        explanation: "GR 8.04",
+        explanation: "400 m beyond the Home signal is the correct answer.  Reference -GR 8.04",
       },
       {
         question: "At a Class \"C\" station on Single Line in Multiple Aspect Signalling, the Line Clear shall not be given unless the whole of the last preceding train has passed complete at least 400 metres beyond the Home signal and is continuing its journey and the line is also _____________________ towards the block hut from the block station at the other end.",
@@ -3962,7 +3984,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "clear of trains running in the opposite direction",
         ],
         correct: 3,
-        explanation: "GR 8.04",
+        explanation: "clear of trains running in the opposite direction is the correct answer.  Reference -GR 8.04",
       },
       {
         question: "When a train is approaching at a Class \"A\" station when Line Clear has been given, no obstruction shall be permitted outside the __________, or on the line on which it is intended to admit the train, upto the __________ pertaining to the said line.",
@@ -3972,8 +3994,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "Home signal, Advance Starter",
           "Starter, Advance Starter",
         ],
-        correct: 2,
-        explanation: "GR 8.05",
+        correct: 1,
+        explanation: "Home signal, Starter is the correct answer.  Reference -GR 8.05",
       },
       {
         question: "On Double Line, shunting or obstruction for any other purpose shall not be permitted in the block section in advance unless it is clear and is ____________.",
@@ -3984,7 +4006,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "None of these",
         ],
         correct: 0,
-        explanation: "GR 8.06",
+        explanation: "Block forward is the correct answer.  Reference -GR 8.06",
       },
       {
         question: "On Double Line, when shunting is permitted in rear of a travelling away train in advance and when the train clears the advance station and if shunting has not yet completed, the Station Master shall immediately __________.",
@@ -3995,7 +4017,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "None of these",
         ],
         correct: 1,
-        explanation: "GR 8.06",
+        explanation: "Block back is the correct answer.  Reference -GR 8.06",
       },
       {
         question: "On Double Line, shunting may be permitted in advance of LSS in rear of a travelling away train under special instructions keeping into consideration __________.",
@@ -4005,8 +4027,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "provision of gates, weight and brake power",
           "classification, gates and brake power",
         ],
-        correct: 0,
-        explanation: "GR 8.06",
+        correct: 1,
+        explanation: "speed, weight and brake power is the correct answer.  Reference -GR 8.06",
       },
       {
         question: "While permitting shunting or obstruction in the block section, the Loco Pilot shall be given authority for shunting in the block section as prescribed under special instructions which authority may be:",
@@ -4017,7 +4039,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Any one of the above",
         ],
         correct: 3,
-        explanation: "GR 8.06",
+        explanation: "Any one of the above is the correct answer.  Reference -GR 8.15",
       },
     ],
     'chapter-9': [
