@@ -4052,7 +4052,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Both A & B",
         ],
         correct: 3,
-        explanation: "GR 9.01",
+        explanation: "Both A & B is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "In Automatic Block System the line between the block stations, when required, may be divided into series of",
@@ -4063,7 +4063,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "all the above",
         ],
         correct: 1,
-        explanation: "GR 9.01",
+        explanation: "Automatic block signalling sections is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "One important essential required for Automatic Block System is that the track shall be provided with continuous",
@@ -4074,7 +4074,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "none of these",
         ],
         correct: 2,
-        explanation: "GR 9.01",
+        explanation: "Track circuiting or axle counters is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "In Automatic Block System the track circuits or axle counters shall so control the Stop signal that the signal shall not assume an ________ unless the line is clear not only upto the next Stop signal in advance but also for an ___________________, and the signal is automatically placed to _______ as soon as it is passed by the train.",
@@ -4085,7 +4085,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "'off' aspect, 180 metres, 'on'",
         ],
         correct: 0,
-        explanation: "GR 9.01",
+        explanation: "'off' aspect, adequate distance beyond it, 'on' is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "Unless otherwise directed by approved special instructions, the adequate distance for Automatic signal to assume Off aspect shall not be less than ____________.",
@@ -4096,7 +4096,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "180 metres",
         ],
         correct: 1,
-        explanation: "GR 9.01",
+        explanation: "120 metres is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "Under special instructions, one of the Automatic Stop signals between two stations in the Automatic Block Signalling territory in each direction may be made as",
@@ -4107,7 +4107,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "modified semi-automatic indicator",
         ],
         correct: 2,
-        explanation: "GR 9.02",
+        explanation: "modified semi-automatic stop signal is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "Advanced Starter signal of the station in rear shall be _____________ with the modified semi-automatic stop signal in such a way that it shall __________ aspect or __________ only when the line is clear upto an adequate distance beyond the modified semi-automatic stop signal.",
@@ -4118,7 +4118,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "connected, assume 'on', be taken 'off'",
         ],
         correct: 2,
-        explanation: "GR 9.02",
+        explanation: "interlocked, assume 'off', be taken 'off' is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "Modified semi-automatic Stop signal shall assume __________ only when the line is clear upto an adequate distance beyond the Home signal of the station ahead.",
@@ -4128,8 +4128,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "Either A or B",
           "Both A & B",
         ],
-        correct: 0,
-        explanation: "GR 9.02",
+        correct: 2,
+        explanation: "Either A or B is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "Wherever modified semi-automatic signal is available and the Loco Pilot is unable to contact the Station Master of station ahead, in case signal is at ON and no communication is possible, he shall pass the signal at ON after waiting for __________ and proceed with a maximum speed of ________.",
@@ -4140,7 +4140,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "5 minutes, 15 kmph",
         ],
         correct: 0,
-        explanation: "GR 9.02",
+        explanation: "5 minutes, 10 kmph is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "When a Loco Pilot finds an Automatic Stop signal with an \"A\" marker at ON, he shall bring his train to a stop in rear of the signal. Loco Pilot shall wait there for",
@@ -4150,8 +4150,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "1 minute/2 minutes clear weather/night",
           "5 minutes in foggy weather",
         ],
-        correct: 2,
-        explanation: "GR 9.02",
+        correct: 1,
+        explanation: "1 minute/2 minutes day/night is the correct answer.  Reference -GR 9.02",
       },
       {
         question: "When a Loco Pilot finds an Automatic Stop signal with an \"A\" marker at ON, after waiting the prescribed time he shall proceed ahead, as far as the line is clear, towards the next Stop signal in advance exercising great caution ____________.",
@@ -4162,7 +4162,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "so as to stop short of any obstruction",
         ],
         correct: 3,
-        explanation: "GR 9.02",
+        explanation: "so as to stop short of any obstruction is the correct answer.  Reference -GR 9.01",
       },
       {
         question: "The Guard shall show a _____________________ towards the rear when the train has been so stopped at an Automatic Stop signal.",
@@ -4173,7 +4173,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Flashing red light",
         ],
         correct: 0,
-        explanation: "GR 9.02",
+        explanation: "Stop hand signal is the correct answer.  Reference -GR 9.02",
       },
       {
         question: "When an Automatic Stop signal has been passed at ON and even if the next signal is ________, the Loco Pilot shall continue to look out for any possible obstruction short of the same.",
@@ -4184,7 +4184,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Double yellow",
         ],
         correct: 1,
-        explanation: "GR 9.02",
+        explanation: "Stop hand signal is the correct answer.  Reference -GR 9.02",
       },
       {
         question: "Where trains on Single Line are worked on the Automatic Block System, a train shall be started from one block station to another only ______________________ and all Stop signals against the direction of traffic shall be at ON.",
@@ -4195,7 +4195,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "as instructed by Section Controller",
         ],
         correct: 1,
-        explanation: "GR 9.03",
+        explanation: "after the direction of traffic has been established is the correct answer.  Reference -GR 9.03",
       },
       {
         question: "If the stoppage is on account of accident or obstruction in Automatic Block System, the train shall be protected for the occupied line by placing one detonator at ________ from the train and similarly two detonators, 10 metres apart, not less than ____________ from the train.",
@@ -4205,8 +4205,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "180 metres, 360 metres",
           "90 metres, 180 metres",
         ],
-        correct: 1,
-        explanation: "GR 9.03",
+        correct: 3,
+        explanation: "90 metres, 180 metres is the correct answer.  Reference -GR 9.10",
       },
       {
         question: "When a Loco Pilot has to pass an Automatic Stop signal at ON, he shall stop his train at the __________ as prescribed by special instructions and report particulars of Automatic Stop signals passed at ON by him.",
@@ -4217,7 +4217,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "junction station",
         ],
         correct: 1,
-        explanation: "GR 9.02",
+        explanation: "next reporting station is the correct answer.  Reference -GR 9.11",
       },
       {
         question: "When a failure of Automatic Signalling is likely to last for some time or cause serious delay, trains shall be worked from station to station over the section or sections concerned under ____________.",
@@ -4228,7 +4228,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "None of the above",
         ],
         correct: 2,
-        explanation: "GR 9.04",
+        explanation: "special instructions is the correct answer.  Reference -GR 9.12",
       },
       {
         question: "When the \"A\" marker is illuminated on a Gate Stop signal in Automatic Signalling territory, it means",
@@ -4239,7 +4239,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Gate is defective",
         ],
         correct: 2,
-        explanation: "GR 3.17 / GR 9",
+        explanation: "Gate is closed is the correct answer.  Reference -GR 9.15",
       },
       {
         question: "When a Gate signal in Automatic Signalling territory is at ON and the \"A\" marker is illuminated, the rules to be followed for passing that signal are",
@@ -4250,7 +4250,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Rules for passing LSS",
         ],
         correct: 0,
-        explanation: "GR 9.02",
+        explanation: "Automatic ON rules is the correct answer.  Reference -GR 9.15",
       },
       {
         question: "When a Gate signal in Automatic Signalling territory is at ON and the \"A\" marker is not illuminated, the Loco Pilot shall follow the rules for passing",
@@ -4260,8 +4260,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "Automatic rule only",
           "None of these",
         ],
-        correct: 0,
-        explanation: "GR 9.02",
+        correct: 1,
+        explanation: "Gate rules and Automatic rules is the correct answer.  Reference -GR 9.15",
       },
     ],
     'chapter-10': [
@@ -4270,8 +4270,8 @@ export const generalSubsidiaryRulesQuizzes = {
         options: [
           "10 minute, 15 minutes, 20 minutes, 30 minutes",
         ],
-        correct: 0,
-        explanation: "used on every railway, approved special instructions is the correct answer.  Reference -GR 7.01 ",
+        correct: 1,
+        explanation: "15 minutes is the correct answer.  Reference -GR 10.03",
       },
       {
         question: "In Following train, Pilot Guard, Train staff & ticket systems, speed of all the trains following the first train shall not exceed ___________except under special instructions",
@@ -4281,34 +4281,28 @@ export const generalSubsidiaryRulesQuizzes = {
           "25 kmph",
           "25/10 kmph",
         ],
-        correct: 0,
-        explanation: "used on every railway, approved special instructions is the correct answer.  Reference -GR 7.01 ",
+        correct: 2,
+        explanation: "25 kmph is the correct answer.  Reference -GR 10.03",
       },
     ],
     'chapter-11': [
       {
         question: "In Following train, Pilot Guard, Train staff & ticket systems, a train shall follow another from a station unless there has elapsed, an interval of not less than_______, or such shorter interval as may be fixed by special instructions.",
         options: [
-          "10 minute",
-          "15 minutes",
-          "20 minutes",
-          "30 minutes",
+          "10 minute, 15 minutes, 20 minutes, 30 minutes",
         ],
-        correct: 0,
-        explanation: "used on every railway, approved special instructions is the correct answer.  Reference -GR 7.01 ",
+        correct: 1,
+        explanation: "15 minutes is the correct answer.  Reference -GR 10.03",
       },
     ],
     'chapter-12': [
       {
         question: "In Following train, Pilot Guard, Train staff & ticket systems, a train shall follow another from a station unless there has elapsed, an interval of not less than_______, or such shorter interval as may be fixed by special instructions.",
         options: [
-          "10 minute",
-          "15 minutes",
-          "20 minutes",
-          "30 minutes",
+          "10 minute, 15 minutes, 20 minutes, 30 minutes",
         ],
-        correct: 0,
-        explanation: "used on every railway, approved special instructions is the correct answer.  Reference -GR 7.01 ",
+        correct: 1,
+        explanation: "15 minutes is the correct answer.  Reference -GR 10.03",
       },
     ],
     'chapter-13': [
@@ -4321,7 +4315,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "short terminal branches",
         ],
         correct: 3,
-        explanation: "important sections is the correct answer.  Reference -GR 13.01 ",
+        explanation: "short terminal branches is the correct answer.  Reference -GR 13.01 ",
       },
     ],
     'chapter-14': [
@@ -4334,7 +4328,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Any one of the above",
         ],
         correct: 3,
-        explanation: "GR 14.01",
+        explanation: "Any one of the above is the correct answer.  Reference -GR 14.01",
       },
       {
         question: "The electrical block instruments and electrical communication instruments at any station shall be approved by the ____________________ and shall not be brought into use in the first instance.",
@@ -4345,7 +4339,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Principal Chief Operations Manager",
         ],
         correct: 0,
-        explanation: "GR 14.02",
+        explanation: "Commissioner of Railway Safety is the correct answer.  Reference -GR 14.02",
       },
       {
         question: "No railway servant shall interfere with the block working equipment or their fittings for the purpose of effecting repairs or for any other purpose, except with the previous consent of the __________.",
@@ -4355,8 +4349,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "Signal Inspector",
           "Traffic Inspector",
         ],
-        correct: 0,
-        explanation: "GR 14.03",
+        correct: 1,
+        explanation: "Station Master is the correct answer.  Reference -GR 14.02",
       },
       {
         question: "No person shall ____________ the electrical block instruments until he has passed a test in the operation of block instruments and unless he holds a _______________ granted by a railway servant appointed in this behalf by the Railway Administration.",
@@ -4366,8 +4360,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "Operate, certificate for competency",
           "Operate, written permission",
         ],
-        correct: 2,
-        explanation: "GR 14.04",
+        correct: 1,
+        explanation: "Interfere, certificate is the correct answer.  Reference -GR 14.04",
       },
       {
         question: "The certificate of competency for operation of block instruments shall only be valid for a period of __________ or such longer period as may be laid down by special instructions.",
@@ -4377,8 +4371,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "Three years",
           "Four years",
         ],
-        correct: 0,
-        explanation: "GR 14.04",
+        correct: 2,
+        explanation: "Three years is the correct answer.  Reference -GR 14.04",
       },
       {
         question: "If a bell code signal is sent and no reply is received on the block instrument, the signal shall be repeated at intervals of not less than _________ until reply is received.",
@@ -4388,8 +4382,8 @@ export const generalSubsidiaryRulesQuizzes = {
           "20 seconds",
           "30 seconds",
         ],
-        correct: 0,
-        explanation: "GR 14.05",
+        correct: 2,
+        explanation: "20 seconds is the correct answer.  Reference -GR 14.06",
       },
       {
         question: "All signals received or sent on the electrical block instruments and the timings of receipt and despatch shall be entered therein ______________________ by the person operating the block instrument.",
@@ -4400,7 +4394,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Immediately after acknowledgement",
         ],
         correct: 3,
-        explanation: "GR 14.06",
+        explanation: "Immediately after acknowledgement is the correct answer.  Reference -GR 14.07",
       },
       {
         question: "The timings entered in the Train Signal Register shall be the actual timings, except that ____________.",
@@ -4411,7 +4405,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Any fraction of a minute recorded in decimals",
         ],
         correct: 1,
-        explanation: "GR 14.06",
+        explanation: "Any fraction of a minute shall be counted as one is the correct answer.  Reference -GR 14.07",
       },
       {
         question: "The normal authority for the Loco Pilot of the train to enter the block section as authority to proceed is",
@@ -4422,7 +4416,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Off aspect of the Last Stop Signal",
         ],
         correct: 3,
-        explanation: "GR 14.08",
+        explanation: "Off aspect of the Last Stop Signal is the correct answer.  Reference -GR 14.08",
       },
       {
         question: "When the block section has been cleared by the arrival of the train or by the removal of the cause of blocking, the block section shall be closed by the block station in advance by giving the __________.",
@@ -4433,7 +4427,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Time of arrival",
         ],
         correct: 2,
-        explanation: "GR 14.09",
+        explanation: "Prescribed bell code signal is the correct answer.  Reference -GR 14.10",
       },
       {
         question: "Before the bell code signal for closing of the block section is given, the Station Master shall satisfy himself as per the prescribed special instructions that",
@@ -4444,7 +4438,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "All the above",
         ],
         correct: 3,
-        explanation: "GR 14.09",
+        explanation: "All the above is the correct answer.  Reference -GR 14.10",
       },
       {
         question: "Where in a section, a BPAC is provided and complete track circuiting of station section is installed and functioning and _____________, it would be taken as assurance for complete arrival of the train.",
@@ -4455,7 +4449,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Both A & B",
         ],
         correct: 3,
-        explanation: "GR 14.10",
+        explanation: "Both A & B is the correct answer.  Reference -GR 14.10",
       },
       {
         question: "If two engines are coupled together or if one engine is in front and another in rear of the train, the authority to proceed shall be given to the __________.",
@@ -4466,7 +4460,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Junior-most Loco Pilot",
         ],
         correct: 0,
-        explanation: "GR 14.11",
+        explanation: "Loco Pilot of leading engine is the correct answer.  Reference -GR 14.11",
       },
       {
         question: "When owing to failure or non-provision of electrical block instruments, the authority to proceed is a ____________, it shall be in the prescribed format.",
@@ -4477,7 +4471,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "None of the above",
         ],
         correct: 1,
-        explanation: "GR 14.12",
+        explanation: "Line Clear Ticket is the correct answer.  Reference -GR 14.25",
       },
       {
         question: "To distinguish Paper Line Clear Tickets for Up and Down directions, _________________ shall be printed on the ticket.",
@@ -4488,7 +4482,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Watermark \"UP\" and \"DN\"",
         ],
         correct: 2,
-        explanation: "GR 14.12",
+        explanation: "Watermark arrow pointing \"UP\" and \"DOWN\" is the correct answer.  Reference -GR 14.25",
       },
     ],
     'chapter-15': [
@@ -4501,7 +4495,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "daily on foot",
         ],
         correct: 3,
-        explanation: "GR 15.01",
+        explanation: "Once in 12 hours by foot is the correct answer.  Reference -GR 15.04",
       },
       {
         question: "Every portion of the permanent way shall be inspected daily on foot by some railway servant. By approved special instructions this may be increased to ________ in the case of lines with light and infrequent traffic.",
@@ -4512,7 +4506,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "once in 12 hours",
         ],
         correct: 0,
-        explanation: "GR 15.01",
+        explanation: "Once in two days is the correct answer.  Reference -GR 15.04",
       },
       {
         question: "A gang shall not commence or carry on any work which will involve danger to trains or to traffic without the previous permission of ________________________.",
@@ -4523,7 +4517,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Gang Mate",
         ],
         correct: 1,
-        explanation: "GR 15.02",
+        explanation: "Inspector of Way or Works is the correct answer.  Reference -GR 15.06",
       },
       {
         question: "Whenever due to lines being under repair or due to any other obstruction it is necessary to indicate to the Loco Pilot that he has to stop or proceed at a restricted speed, the following signals shall be shown, on a Double Line _______________ and on a Single Line __________________.",
@@ -4534,7 +4528,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Green flags, Red & Green flag",
         ],
         correct: 2,
-        explanation: "GR 15.03",
+        explanation: "in the direction of expected train, in each direction is the correct answer.  Reference -GR 15.09",
       },
       {
         question: "When the train is required to stop and the restriction is likely to last only for a day or less, a Banner Flag shall be exhibited at a distance of _______ on Broad Gauge and three detonators at a distance of ________. In addition, Stop hand signal shall be shown at a distance of _______ from the place of obstruction and _______ from the last detonator.",
@@ -4545,7 +4539,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "600 m, 1200 m, 30 m, 45 m",
         ],
         correct: 3,
-        explanation: "GR 15.03",
+        explanation: "Stop indicator, 30 metres, 1200 metres is the correct answer.  Reference -GR 15.09",
       },
       {
         question: "When the train is required to stop and the restriction is likely to last for more than a day, a _________ shall be exhibited at a distance of ________ from the place of obstruction and a __________ at 1200 metres on Broad Gauge.",
@@ -4556,7 +4550,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Banner Flag, 45 metres, Caution indicator",
         ],
         correct: 0,
-        explanation: "GR 15.03",
+        explanation: "Stop indicator, 30 metres, Caution indicator is the correct answer.  Reference -GR 15.09",
       },
       {
         question: "When the train is not required to stop and the restriction is likely to last only for a day or less, Proceed with Caution hand signals shall be exhibited at a distance of ________ and again at a distance of at least ________ from the place of obstruction.",
@@ -4567,7 +4561,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "45 metres, 600 metres",
         ],
         correct: 1,
-        explanation: "GR 15.03",
+        explanation: "30 metres, 800 metres is the correct answer.  Reference -GR 15.09",
       },
       {
         question: "When the train is not required to stop and the restriction is likely to last for more than a day, a __________ shall be exhibited at a distance of ________ from the place of obstruction and again a Caution Indicator at a distance of at least _____ or as specified by special instructions.",
@@ -4578,7 +4572,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Speed indicator, 30 metres, 1200 metres",
         ],
         correct: 2,
-        explanation: "GR 15.03",
+        explanation: "Speed indicator, 30 metres, 800 metres is the correct answer.  Reference -GR 15.09",
       },
       {
         question: "Wherever Caution, Speed or Stop Indicators are provided to indicate the place of work, the Loco Pilot shall be informed to resume normal speed by ___________________.",
@@ -4589,7 +4583,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Termination Indicator",
         ],
         correct: 3,
-        explanation: "GR 15.03",
+        explanation: "Termination Indicator is the correct answer.  Reference -GR 15.09",
       },
       {
         question: "Each Inspector of Way or Works shall at least ____________ inspect the permanent way gauges, flags, signal lamps, detonators, tools and implements supplied to the gangs and ascertain whether the equipment is complete and in good order.",
@@ -4600,7 +4594,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "quarterly",
         ],
         correct: 0,
-        explanation: "GR 15.04",
+        explanation: "Once in every month is the correct answer.  Reference -GR 15.13",
       },
       {
         question: "A vehicle which can be lifted bodily off the line by four men shall be deemed to be a _______ and any similar but heavier vehicle shall be deemed to be a _______.",
@@ -4611,7 +4605,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "dolly, motor trolley",
         ],
         correct: 1,
-        explanation: "GR 15.25",
+        explanation: "trolley, lorry is the correct answer.  Reference -GR 15.18",
       },
       {
         question: "Any trolley which is self-propelled by means of a motor is a _________.",
@@ -4622,7 +4616,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "lorry",
         ],
         correct: 2,
-        explanation: "GR 15.25",
+        explanation: "motor trolley is the correct answer.  Reference -GR 15.18",
       },
     ],
     'chapter-16': [
@@ -4635,7 +4629,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Stop hand signal",
         ],
         correct: 3,
-        explanation: "GR 16.03",
+        explanation: "Proceed hand signal is the correct answer.  Reference -GR 16.03",
       },
       {
         question: "Every Gateman, on noticing any obstruction on the line, shall at once remove it or, if unable to do so, shall:",
@@ -4646,7 +4640,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "All the above",
         ],
         correct: 3,
-        explanation: "GR 16.04",
+        explanation: "All the above is the correct answer.  Reference -GR 16.07",
       },
       {
         question: "Adequate arrangements shall be made to erect __________ on either side of the overhead equipment or other equipment at every level crossing so as to ensure that all vehicles pass with adequate clearance.",
@@ -4657,7 +4651,7 @@ export const generalSubsidiaryRulesQuizzes = {
           "Lifting barriers",
         ],
         correct: 1,
-        explanation: "GR 16.05",
+        explanation: "Height gauges is the correct answer.  Reference -GR 16.11",
       },
     ],
   },
