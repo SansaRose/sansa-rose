@@ -94,6 +94,8 @@ const Timings = () => {
     { question: 'In the case of Goods trains originating from a terminal yard, the Guards shall appear on duty at least 45 minutes before the departure of the train is scheduled to leave.', answer: 'at least 45 mins before', timing: '45 minutes' },
 
     { question: 'Every Loco Pilot and ALP shall "sign on" ________ minutes in advance for examining and taking over the Multiple Unit Electric Engine in the shed.', answer: '45 minutes', timing: '45 minutes' },
+
+    { question: 'Every Loco pilot and ALP shall "Sing ON" _____ minutes in advance for examining and taking over the Multiple Unit Electric Engine in the shed.', answer: '45 minutes', timing: '45 minutes' },
     
     { question: 'Depending upon trains in the section Disconnection should normally be allowed by SM for duration up to', answer: '60 minutes', timing: '60 minutes' },
     
@@ -112,6 +114,8 @@ const Timings = () => {
     { question: 'At least ___________ hours prior to the planned departure of CONCOR‘s Train, the CONCOR shall submit an indent (―Indent for Locomotive‖) for supply of locomotive.', answer: '4 hours', timing: '4 hours' },
 
     { question: 'Time required for preparatory and complementary work by a running staff shall be deemed to be _______ a week', answer: '4 hours', timing: '4 hours' },
+
+    { question: 'The powers to grant traffic blocks upto _____ hours have been given to DRM.', answer: '4 hours', timing: '4 hours' },
 
     { question: 'Free time for unloading of BTPN type of wagons under Engine on Load scheme is ______ hours', answer: '5 hours', timing: '5 hours' },
 
@@ -240,6 +244,8 @@ const Timings = () => {
 
     { question: 'How many days special Casual Leave may be given for participation in PNM', answer: '3 days', timing: '3 days' },
 
+    { question: 'The GM can sanction NI Working up to ______ days subject to certain conditions', answer: '3 days', timing: '3 days' },
+
     { question: 'The limit of stay away from Headquarters for Running staff should be fixed at ______ hours.', answer: '72 hours', timing: '72 hours' },
 
     { question: 'What is the limit for weekly working hours for (EI) Essential intermittent class?', answer: '75 hours', timing: '75 hours' },
@@ -307,6 +313,9 @@ const Timings = () => {
     { question: 'Detailed working instructions clearly specifying the zone of responsibility of each and every staff and supervisor, along with temporary working instructions, must be issued at least ___________ in advance of NI working', answer: '15 days', timing: '15 days' },
 
     { question: 'What is the maximum of Special Casual Leave (SCL) in a calendar year that can be granted to the delegates of members of Co-operative Societies to attend the meetings of the Society?', answer: '15 days', timing: '15 days' },
+    { question: 'For how many days is cancellation of indent not permitted after advance stacking permission is granted?', answer: '15 days', timing: '15 days' },
+
+    { question: 'A Loco pilot/Assistant loco pilot should record in the register _____ days in advance that he is lapsing road learning in a section.', answer: '15 days', timing: '15 days' },
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in a fortnight is', answer: '20 days', timing: '20 days' },
 
@@ -323,6 +332,8 @@ const Timings = () => {
     { question: 'Within how many days the In-Principle Approval (IPA) will be granted to the applicant with the approval of the DRM in case of GCT on Non-Railway Land?', answer: '20 days', timing: '20 days' },
 
     { question: 'Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of ______ days after the accident (Grievous injuries)', answer: '20 days', timing: '20 days' },
+
+    { question: 'Within how many days the In-principle Approval (IPA) will be granted to the applicant with the approval of DRM in cases of GCT on Non Railways land?', answer: '20 days', timing: '20 days' },
 
     { question: 'The validity of material train BPC in case of UIC rakes subject to examination of the train by TXR once in fortnight is', answer: '30 days', timing: '30 days' },
 
@@ -422,6 +433,8 @@ const Timings = () => {
 
     { question: 'Appeal against classification of railway servants under HOER can be within ______ days of its publication?', answer: '90 days', timing: '90 days' },
 
+    { question: 'Periodical meeting of Rajabhasha Co - ordination committee is conducted in every ____ months.', answer: '3 months', timing: '3 months' },
+
 
     { question: 'The validity for a Privilege Pass/PTO is?', answer: '4 months', timing: '4 months' },
 
@@ -517,6 +530,8 @@ const Timings = () => {
     { question: 'After how many years can a railway employee apply for reimbursement of spectacles?', answer: '3 years', timing: '3 years' },
 
     { question: 'Maximum service required for withdrawal from National Pension System (NPS) is ______ years', answer: '3 years', timing: '3 years' },
+
+    { question: 'Railway Servants with not less than _________ years of service shall be eligible for assistance for the education of their children?', answer: '3 years', timing: '3 years' },
 
 
     { question: 'How many months of study leave can be accepted for doing PHD in medical category?', answer: '36 months', timing: '36 months' },

@@ -50,6 +50,8 @@ const Distances = () => {
     { question: 'A safety radius/distance of 45M should be maintained during the explosion of detonators.', answer: '45M', distance: '45M' },
 
     { question: 'Sand hump is an extended portion of rail embedded in sand of ____ in length with increasing gradient of 1 in 60', answer: '60M', distance: '60M' },
+
+    { question: 'The distance of derailing switch from the points is about _____ feet.', answer: '15 feet', distance: '15 feet' },
     
     { question: 'When a train is stopped in an automatic block signalling section on single line and train cannot proceed further, the Guard shall protect in rear duly placing detonators at', answer: '90, 180, &190M', distance: '90M' },
     
@@ -121,6 +123,8 @@ const Distances = () => {
 
     { question: '(On a double line section where trains on the two lines run in the opposite direction). As soon as the Loco Pilot comes to know that his train has met with an accident he shall at once switch on the flasher light and switch off the head light and thereafter either go himself and send his Assistant Loco Pilot or some other competent person to protect the adjacent line in front in the manner, In rear Guard should place detonators as follows and in front in adjacent line The Loco pilot should place detonators as follows: On the Metre gauge and Narrow Gauge, the first detonator shall be placed at 400 metres and the three detonators 10 metres apart not less than 800 metres or at such distance as has been fixed by special instructions, from the place where the train has stopped.', answer: '400M, 800M, 810M 820M', distance: '400M' },
 
+    { question: 'What is Adequate distance beyond first stop signal for granting line in case of two aspect lower quadrant signalling?', answer: '400M', distance: '400M' },
+
     { question: 'Whenever dead loco is attached to a train, as a final check, the coupled locos should be run for about _________and the driver shall check for any abnormal rise in the temperature of the wheels of the dead locomotive and shall also check it at subsequent stops during the journey.', answer: '500M', distance: '500M' },
 
     { question: 'The Outer signal is located on a Single line section at a distance of Not less than 580M from Outermost points.', answer: '580M', distance: '580M' },
@@ -137,6 +141,8 @@ const Distances = () => {
     { question: '(On a double line section where trains on the two lines run in the opposite direction). As soon as the Loco Pilot comes to know that his train has met with an accident he shall at once switch on the flasher light and switch off the head light and thereafter either go himself and send his Assistant Loco Pilot or some other competent person to protect the adjacent line in front in the manner, In rear Guard should place detonators as follows and in front in adjacent line The Loco pilot should place detonators as follows: One detonator at 600 metres from his train, to be placed on the way out and three detonators, 10 metres apart, not less than 1200 metres from his train or at such distance as has been fixed by special instructions.', answer: '600, 1200, 1210, 1220M', distance: '600M' },
 
     { question: 'To protect the train from rear, the Guard shall place first detonator at', answer: '600M', distance: '600M' },
+
+    { question: 'To protect train from rear Guard shall place first detonator in BG.', answer: '600M', distance: '600M' },
     
     { question: 'Loop Line clearance Board with legend \'T/Loop\' to be provided at stations at a distance of', answer: '720M', distance: '720M' },
     
@@ -212,6 +218,8 @@ const Distances = () => {
     { question: 'Hand shunting of roller bearing fitted vehicles strictly prohibited at a station yard where the outermost points are on a grade steeper than ________ or within 100 meters of such a gradient.', answer: '1 in 400', distance: 'Gradients' },
 
     { question: 'On a line isolated from other lines, particularly running lines, a stabled load/train should ideally be placed at a station with a gradient steeper than ________', answer: '1 in 400', distance: 'Gradients' },
+
+    { question: 'In yard situated on gradients steeper than _____ no loose or hand shunting of any vehicle is to be permitted', answer: '1 in 400', distance: 'Gradients' },
 
     { question: 'The number of hand brakes of vehicles (Brake Van + 18 vehicles on train) that must be applied whenever the engine is to be detached out side station limits when the gradient is not steeper than ________', answer: '1 in 600', distance: 'Gradients' },
 

@@ -656,10 +656,10 @@ export const establishmentRulesQuizzes = {
           },
           {
             question:
-              "",
-            options: ["", "", "", ""],
-            correct: 1,
-            explanation: "",
+              "Under which Rule of Railway Servants (Discipline & Appeals) Rules 1968, can a Railway servant be dismissed from railway service without holding any inquiry",
+            options: ["Rule 14", "Rule 15", "Rule 16", "Rule 17"],
+            correct: 0,
+            explanation: "Rule 14 is the correct answer.",
           },
           
         ],

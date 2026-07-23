@@ -122,6 +122,8 @@ const SpeedRestrictions = () => {
 
     { question: 'The Track should be fit for running of goods train with axle load of 22.9 tonne at a speed not lower than ______ kmph (MGR Scheme)', answer: '40 kmph', speed: '40 kmph' },
 
+    { question: 'What is the maximize speed at which a train is permitted to run from the defective weighbridge to next availabe weighbridge?', answer: '40 kmph', speed: '40 kmph' },
+
     { question: 'Isolation is necessary where the trains are to run through a station at a speed exceeding ______ kmph', answer: '50 kmph', speed: '50 kmph' },
 
     { question: 'When major work such as relaying and re-girdering is in progress, a speed restriction that shall be observed on the adjoining line of DL/MULTIPLE line section is restricted to ______ kmph', answer: '50 kmph', speed: '50 kmph' },

@@ -41,6 +41,7 @@ type AbbreviationItem = {
         explanation: "A senior authority assisting the Commissioner of Railway Safety in ensuring railway safety supervision.",
         reference: "--"
       },
+      { acronym: "ACS", fullForm: "Advance Correction Slips" },
       { 
         acronym: "ADGM", 
         fullForm: "Additional Deputy General Manager",
@@ -472,6 +473,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "CELE", fullForm: "Coupled Electric Light Engine",
+        explanation: "Will be added later",
+        reference: "--"
+      },
+      { acronym: "CEN", fullForm: "Centralized Employment Notification",
         explanation: "Will be added later",
         reference: "--"
       },
@@ -1190,6 +1195,10 @@ type AbbreviationItem = {
       },
       { acronym: "EMU", fullForm: "Electrical Multiple Units",
         explanation: "A self-propelled passenger train unit powered by electricity, commonly used for suburban services",
+        reference: "--"
+      },
+      { acronym: "ENPV", fullForm: "Economic Net Present Value",
+        explanation: "Will be added later",
         reference: "--"
       },
       { acronym: "EOA", fullForm: "End Of Authority",
@@ -2292,6 +2301,10 @@ type AbbreviationItem = {
         reference: "--"
       },
       { acronym: "NTKM", fullForm: "Net Tonne Kilo Meter",
+        explanation: "Freight load (tonnes) multiplied by distance (km) actually carried",
+        reference: "--"
+      },
+      { acronym: "NTPC", fullForm: "Non-Technical Popular Category",
         explanation: "Freight load (tonnes) multiplied by distance (km) actually carried",
         reference: "--"
       },

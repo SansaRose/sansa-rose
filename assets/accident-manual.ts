@@ -20,19 +20,8 @@ export const accidentManualQuizzes = {
           "Mishaps",
           "Untoward incidents",
         ],
-        correct: 1,
-        explanation: "Accident Manual / Railway (Notices of and Inquiries into Accidents) Rules",
-      },
-      {
-        question: "An accident to a train carrying passengers which is attended with __________________ and in the opinion of the CCRS or CRS requires holding of an inquiry by the CRS shall be deemed to be a serious accident.",
-        options: [
-          "Loss of life",
-          "Grievous hurt to a passenger or passengers in the train",
-          "Damage to railway property, the value of which exceeds ₹2 crore",
-          "All the above",
-        ],
-        correct: 3,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        correct: 0,
+        explanation: "Accidents is the correct answer.",
       },
       {
         question: "An accident is deemed as a serious accident to a train carrying passengers which, in the opinion of the _______ requires holding of an inquiry by the CRS.",
@@ -43,7 +32,7 @@ export const accidentManualQuizzes = {
           "All the above",
         ],
         correct: 1,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "CCRS/CRS is the correct answer.",
       },
       {
         question: "A person will be considered to have incurred simple injuries, if these injuries incapacitate the injured person from pursuing his customary vocation for ........  after the occurrence of the accident",
@@ -64,8 +53,8 @@ export const accidentManualQuizzes = {
           "36 hours",
           "48 hours",
         ],
-        correct: 2,
-        explanation: "36 hours is the correct answer.",
+        correct: 3,
+        explanation: "48 hours is the correct answer.",
       },
       {
         question: "When a train passes a fixed Stop signal including a _____________ (other than Automatic Stop Signal, IB Signal and Gate Stop Signal) at danger without any authority to pass, or with an improper authority to pass, it is known as Train Passing Signal at Danger.",
@@ -76,7 +65,7 @@ export const accidentManualQuizzes = {
           "None of these",
         ],
         correct: 0,
-        explanation: "Accident Manual - SPAD",
+        explanation: "Banner Flag/Engineering Stop Indicator is the correct answer.",
       },
       {
         question: "When a train passes a fixed Stop signal including a Banner Flag or Engineering Stop Indicator (other than Automatic Stop Signal, IB Signal and Gate Stop Signal) at danger without any authority to pass, or with an improper authority to pass, it is known as",
@@ -87,7 +76,7 @@ export const accidentManualQuizzes = {
           "None of these",
         ],
         correct: 1,
-        explanation: "Accident Manual - SPAD",
+        explanation: "Train Passing Signal at Danger is the correct answer.",
       },
     ],
     'chapter-2': [
@@ -287,7 +276,7 @@ export const accidentManualQuizzes = {
           "N",
         ],
         correct: 2,
-        explanation: "Accident Manual - Accident Classification",
+        explanation: "P is the correct answer.",
       },
       {
         question: "The category of accident \"Run over/Falling out from trains\" is classified in",
@@ -298,7 +287,7 @@ export const accidentManualQuizzes = {
           "N",
         ],
         correct: 1,
-        explanation: "Accident Manual - Accident Classification",
+        explanation: "Q is the correct answer.",
       },
       {
         question: "The category of accident \"Natural death/Murder/Robbery/Suicide in trains\" is classified in",
@@ -309,7 +298,7 @@ export const accidentManualQuizzes = {
           "N",
         ],
         correct: 3,
-        explanation: "Accident Manual - Accident Classification",
+        explanation: "N is the correct answer.",
       },
       {
         question: "The category of accident \"Vehicle running away/Cattle run over/Landslides\" is classified in",
@@ -320,7 +309,7 @@ export const accidentManualQuizzes = {
           "N",
         ],
         correct: 0,
-        explanation: "Accident Manual - Accident Classification",
+        explanation: "R is the correct answer.",
       },
       {
         question: "An example of breach of block rules is",
@@ -330,8 +319,8 @@ export const accidentManualQuizzes = {
           "Train entered into siding",
           "All the above",
         ],
-        correct: 1,
-        explanation: "Accident Manual - Breach of Block Rules",
+        correct: 3,
+        explanation: "All the above is the correct answer.",
       },
       {
         question: "An example of consequential accident is",
@@ -342,7 +331,7 @@ export const accidentManualQuizzes = {
           "Averted collision",
         ],
         correct: 2,
-        explanation: "Accident Manual - Consequential Accidents",
+        explanation: "Fire on train is the correct answer.",
       },
       {
         question: "An example of indicative accident is",
@@ -353,7 +342,7 @@ export const accidentManualQuizzes = {
           "Level Crossing Gate Accidents",
         ],
         correct: 0,
-        explanation: "Accident Manual - Indicative Accidents",
+        explanation: "Passing Stop Signal at Danger is the correct answer.",
       },
       {
         question: "Passing Stop Signal at Danger (SPAD) is classified as which type of accident?",
@@ -364,7 +353,7 @@ export const accidentManualQuizzes = {
           "Indicative accident",
         ],
         correct: 3,
-        explanation: "Accident Manual - Indicative Accidents",
+        explanation: "Indicative accident is the correct answer.",
       },
       {
         question: "If the damage to Railway property exceeds ₹2 crore, such accident shall be treated as",
@@ -375,7 +364,7 @@ export const accidentManualQuizzes = {
           "SPAD",
         ],
         correct: 0,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "Serious accident is the correct answer.",
       },
       {
         question: "To treat an accident as an averted collision outside station limits, the distance between two trains shall be",
@@ -385,8 +374,8 @@ export const accidentManualQuizzes = {
           "Less than 400 metres",
           "180 metres or less",
         ],
-        correct: 1,
-        explanation: "Accident Manual - Averted Collision",
+        correct: 2,
+        explanation: "Less than 400 metres is the correct answer.",
       },
       {
         question: "To treat as equipment failure, a gate telephone shall fail for more than",
@@ -396,8 +385,8 @@ export const accidentManualQuizzes = {
           "20 minutes",
           "5 minutes",
         ],
-        correct: 0,
-        explanation: "Accident Manual - Equipment Failure",
+        correct: 3,
+        explanation: "5 minutes is the correct answer.",
       },
     ],
     'chapter-3': [
@@ -410,7 +399,7 @@ export const accidentManualQuizzes = {
           "4",
         ],
         correct: 2,
-        explanation: "ARME Scale - II has 3 sets of POMKA (Portable Medical Kit for Accidents)",
+        explanation: "3 is the correct answer.",
       },
       {
         question: "Every Railway servant travelling by the affected train or available at the site, whether ____________, shall help in disaster management by getting identified and rendering immediate assistance to the affected passengers at the site.",
@@ -421,7 +410,7 @@ export const accidentManualQuizzes = {
           "Available or not",
         ],
         correct: 1,
-        explanation: "Disaster Management Manual",
+        explanation: "On duty or not is the correct answer.",
       },
     ],
     'chapter-4': [
@@ -434,7 +423,7 @@ export const accidentManualQuizzes = {
           "Non-reportable accidents",
         ],
         correct: 2,
-        explanation: "Railways Act, 1989 - Section 113",
+        explanation: "Reportable train accidents is the correct answer.",
       },
       {
         question: "All accidents falling under the purview of ___________ of the Railways Act, 1989 are termed as reportable train accidents and include the following.",
@@ -445,7 +434,7 @@ export const accidentManualQuizzes = {
           "Section 124",
         ],
         correct: 0,
-        explanation: "Railways Act, 1989 - Section 113",
+        explanation: "Section 113 is the correct answer.",
       },
       {
         question: "All consequential accidents and yard accidents having serious repercussions are to be immediately conveyed to the Railway Board by _______________.",
@@ -455,8 +444,8 @@ export const accidentManualQuizzes = {
           "PCSO",
           "AGM",
         ],
-        correct: 1,
-        explanation: "Accident Manual - Reporting of Serious Accidents",
+        correct: 2,
+        explanation: "PCSO is the correct answer.",
       },
     ],
     'chapter-5': [
@@ -464,12 +453,12 @@ export const accidentManualQuizzes = {
         question: "The following are the responsibilities of the General Manager (GM) in case of an accident:",
         options: [
           "To direct the investigation of the accident",
+          "To report the accident to the Railway Board",
+          "To provide immediate assistance to the injured passengers",
           "To direct the investigation of the accident",
-          "To provide immediate assistance to the injured passengers",
-          "To provide immediate assistance to the injured passengers",
         ],
-        correct: 0,
-        explanation: "General Manager (GM) in case of an accident",
+        correct: 2,
+        explanation: "To provide immediate assistance to the injured passengers is the correct answer.",
       },
     ],
     'chapter-6': [
@@ -482,7 +471,7 @@ export const accidentManualQuizzes = {
           "4 long one short",
         ],
         correct: 0,
-        explanation: "Accident Manual - Siren Code",
+        explanation: "2 long is the correct answer.",
       },
       {
         question: "The siren that has to be given by the station when an accident takes place at an out-station but the main line is clear and only the ART is to be moved is",
@@ -493,7 +482,7 @@ export const accidentManualQuizzes = {
           "4 long one short",
         ],
         correct: 1,
-        explanation: "Accident Manual - Siren Code",
+        explanation: "3 long is the correct answer.",
       },
       {
         question: "The siren that has to be given by the station when an accident takes place at an out-station but the main line is clear and both MRT and ART are to be moved is",
@@ -504,7 +493,7 @@ export const accidentManualQuizzes = {
           "4 long one short",
         ],
         correct: 2,
-        explanation: "Accident Manual - Siren Code",
+        explanation: "3 long one short is the correct answer.",
       },
       {
         question: "The siren that has to be given by the station when an accident takes place at an out-station and the main line is blocked is",
@@ -515,7 +504,7 @@ export const accidentManualQuizzes = {
           "4 long one short",
         ],
         correct: 0,
-        explanation: "Accident Manual - Siren Code",
+        explanation: "4 long is the correct answer.",
       },
       {
         question: "The siren that has to be given by the station when an accident takes place at an out-station, the main line is blocked and both MRT and ART are to be moved is",
@@ -526,7 +515,7 @@ export const accidentManualQuizzes = {
           "4 long one short",
         ],
         correct: 3,
-        explanation: "Accident Manual - Siren Code",
+        explanation: "4 long one short is the correct answer.",
       },
       {
         question: "The duration of the long hooter shall be _________ and the short hooter shall be _________ with 30 seconds interval between two successive calls. At least 3 calls shall be given.",
@@ -536,8 +525,8 @@ export const accidentManualQuizzes = {
           "25 seconds, 15 seconds",
           "40 seconds, 10 seconds",
         ],
-        correct: 0,
-        explanation: "Accident Manual - Hooter/Siren Instructions",
+        correct: 1,
+        explanation: "30 seconds, 5 seconds is the correct answer.",
       },
       {
         question: "Target time for turning out the Accident Relief Train (ART) during daylight hours (06:00 to 20:00 hrs) is _______ and during night hours (20:00 to 06:00 hrs) is _______.",
@@ -547,8 +536,8 @@ export const accidentManualQuizzes = {
           "30 minutes, 45 minutes",
           "45 minutes, 60 minutes",
         ],
-        correct: 0,
-        explanation: "Accident Manual - ART Turnout Time",
+        correct: 2,
+        explanation: "30 minutes, 45 minutes is the correct answer.",
       },
       {
         question: "Mock drills for the Accident Relief Train (ART) shall be conducted once in",
@@ -559,7 +548,7 @@ export const accidentManualQuizzes = {
           "a year",
         ],
         correct: 2,
-        explanation: "Accident Manual - Mock Drill Schedule",
+        explanation: "3 months is the correct answer.",
       },
     ],
     'chapter-7': [
@@ -567,12 +556,12 @@ export const accidentManualQuizzes = {
         question: "The following are the responsibilities of the General Manager (GM) in case of an accident:",
         options: [
           "To direct the investigation of the accident",
+          "To report the accident to the Railway Board",
+          "To provide immediate assistance to the injured passengers",
           "To direct the investigation of the accident",
-          "To provide immediate assistance to the injured passengers",
-          "To provide immediate assistance to the injured passengers",
         ],
-        correct: 0,
-        explanation: "General Manager (GM) in case of an accident",
+        correct: 2,
+        explanation: "To provide immediate assistance to the injured passengers is the correct answer.",
       },
     ],
     'chapter-8': [
@@ -585,7 +574,7 @@ export const accidentManualQuizzes = {
           "₹4 lakhs",
         ],
         correct: 0,
-        explanation: "Railway Accidents and Untoward Incidents (Compensation) Rules",
+        explanation: "₹8 lakhs is the correct answer.",
       },
       {
         question: "The claim for compensation shall be made within the following time from the date of accident.",
@@ -595,8 +584,8 @@ export const accidentManualQuizzes = {
           "2 years",
           "3 years",
         ],
-        correct: 0,
-        explanation: "Railways Claims Tribunal Act, 1987",
+        correct: 1,
+        explanation: "1 year is the correct answer.",
       },
       {
         question: "The claim for compensation shall be made through",
@@ -607,7 +596,7 @@ export const accidentManualQuizzes = {
           "Railways Claims Tribunal",
         ],
         correct: 3,
-        explanation: "Railways Claims Tribunal Act, 1987",
+        explanation: "Railways Claims Tribunal is the correct answer.",
       },
     ],
     'chapter-9': [
@@ -620,7 +609,7 @@ export const accidentManualQuizzes = {
           "Take witness",
         ],
         correct: 0,
-        explanation: "Accident Manual - Joint Investigation",
+        explanation: "Jointly investigate is the correct answer.",
       },
       {
         question: "The Officers and Senior Subordinates present at the site of accident must jointly investigate the ______ and advise DRM and other Officers concerned, their opinion, mentioning the department or departments responsible and person or persons responsible for the occurrence.",
@@ -631,7 +620,7 @@ export const accidentManualQuizzes = {
           "Passengers",
         ],
         correct: 1,
-        explanation: "Accident Manual - Joint Investigation",
+        explanation: "Cause is the correct answer.",
       },
       {
         question: "The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise _______ and other Officers concerned, their opinion, mentioning the department or departments responsible and person or persons responsible for the occurrence.",
@@ -642,7 +631,7 @@ export const accidentManualQuizzes = {
           "GM",
         ],
         correct: 2,
-        explanation: "Accident Manual - Joint Investigation",
+        explanation: "DRM is the correct answer.",
       },
       {
         question: "The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise DRM and ____________, their opinion, mentioning the department or departments responsible and person or persons responsible for the occurrence.",
@@ -653,7 +642,7 @@ export const accidentManualQuizzes = {
           "Other Officers concerned",
         ],
         correct: 3,
-        explanation: "Accident Manual - Joint Investigation",
+        explanation: "Other Officers concerned is the correct answer.",
       },
       {
         question: "The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise DRM and Other Officers concerned, their opinion, mentioning the responsible _________________ for the occurrence.",
@@ -664,7 +653,7 @@ export const accidentManualQuizzes = {
           "Either department or departments or person or persons",
         ],
         correct: 2,
-        explanation: "Accident Manual - Joint Investigation",
+        explanation: "Both department or departments and person or persons is the correct answer.",
       },
       {
         question: "The investigation on the spot includes recording of statements of staff concerned and, if necessary, other independent witnesses. These ___________ shall be produced at any subsequent enquiry and included in the general evidence.",
@@ -675,7 +664,7 @@ export const accidentManualQuizzes = {
           "Depositions",
         ],
         correct: 3,
-        explanation: "Accident Manual - Spot Investigation",
+        explanation: "Depositions is the correct answer.",
       },
       {
         question: "The investigation on the spot includes _____________ of staff concerned and, if necessary, other independent witnesses. These depositions shall be produced at any subsequent enquiry and included in the general evidence.",
@@ -686,7 +675,7 @@ export const accidentManualQuizzes = {
           "Recording of site conditions",
         ],
         correct: 2,
-        explanation: "Accident Manual - Spot Investigation",
+        explanation: "Recording of statements is the correct answer.",
       },
       {
         question: "The investigation on the spot includes recording of statements of staff concerned and, if necessary, other independent witnesses. These depositions shall be produced at any ___________ and included in the general evidence.",
@@ -697,7 +686,7 @@ export const accidentManualQuizzes = {
           "Committee",
         ],
         correct: 1,
-        explanation: "Accident Manual - Spot Investigation",
+        explanation: "Subsequent enquiry is the correct answer.",
       },
       {
         question: "Staff alleged to be guilty of offences which, in the opinion of the ______________ or the concerned Divisional Officer would, if proved, amount to removal from service or dismissal, shall be placed under suspension pending the result of the inquiry.",
@@ -708,7 +697,7 @@ export const accidentManualQuizzes = {
           "ADRM",
         ],
         correct: 2,
-        explanation: "Accident Manual - Suspension Pending Inquiry",
+        explanation: "DRM is the correct answer.",
       },
       {
         question: "Staff alleged to be guilty of offences which, in the opinion of the DRM or the _____________ would, if proved, amount to removal from service or dismissal, shall be placed under suspension pending the result of the inquiry.",
@@ -719,7 +708,7 @@ export const accidentManualQuizzes = {
           "Concerned Senior Scale Officer",
         ],
         correct: 1,
-        explanation: "Accident Manual - Suspension Pending Inquiry",
+        explanation: "Concerned Divisional Officer is the correct answer.",
       },
       {
         question: "Staff alleged to be guilty of offences which, in the opinion of the DRM or the Concerned Divisional Officer would, if proved, amount to removal from service or dismissal, shall be _________ pending the result of the inquiry.",
@@ -730,7 +719,7 @@ export const accidentManualQuizzes = {
           "Issued SF-11",
         ],
         correct: 0,
-        explanation: "Accident Manual - Suspension Pending Inquiry",
+        explanation: "Suspended is the correct answer.",
       },
       {
         question: "Staff alleged to be guilty of offences which, in the opinion of the DRM or the Concerned Divisional Officer would, if proved, amount to their ___________, shall be placed under suspension pending the result of the inquiry.",
@@ -741,7 +730,7 @@ export const accidentManualQuizzes = {
           "None of the above",
         ],
         correct: 2,
-        explanation: "Accident Manual - Suspension Pending Inquiry",
+        explanation: "Removal from service or dismissal is the correct answer.",
       },
       {
         question: "In case of a Loco Pilot passing a ___________ at ON or Engineering Stop Indicator or running into Banner Flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension and directed immediately for vision test.",
@@ -752,7 +741,7 @@ export const accidentManualQuizzes = {
           "None of the above",
         ],
         correct: 1,
-        explanation: "Accident Manual - Vision Test",
+        explanation: "Fixed Stop signal is the correct answer.",
       },
       {
         question: "In case of a Loco Pilot passing a Fixed Stop Signal at ON or ______________ or running into Banner Flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension and directed immediately for vision test.",
@@ -763,7 +752,7 @@ export const accidentManualQuizzes = {
           "None of the above",
         ],
         correct: 0,
-        explanation: "Accident Manual - Vision Test",
+        explanation: "Engineering Stop Indicator is the correct answer.",
       },
       {
         question: "In case of a Loco Pilot passing a Fixed Stop Signal at ON or Engineering Stop Indicator or ________________, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension and directed immediately for vision test.",
@@ -774,7 +763,7 @@ export const accidentManualQuizzes = {
           "None of the above",
         ],
         correct: 2,
-        explanation: "Accident Manual - Vision Test",
+        explanation: "Running into Banner Flags is the correct answer.",
       },
       {
         question: "In case of a Loco Pilot passing a Fixed Stop Signal at ON or Engineering Stop Indicator or running into Banner Flags, and if there are grounds for suspecting that the accident may be due to ________________, the Loco Pilot shall be placed under suspension and directed immediately for vision test.",
@@ -785,7 +774,7 @@ export const accidentManualQuizzes = {
           "Defective signal",
         ],
         correct: 1,
-        explanation: "Accident Manual - Vision Test",
+        explanation: "Defective vision is the correct answer.",
       },
       {
         question: "In case of a Loco Pilot passing a Fixed Stop Signal at ON or Engineering Stop Indicator or running into Banner Flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be ____________ and directed immediately for vision test.",
@@ -796,7 +785,7 @@ export const accidentManualQuizzes = {
           "Issued SF-11",
         ],
         correct: 0,
-        explanation: "Accident Manual - Vision Test",
+        explanation: "Suspended is the correct answer.",
       },
       {
         question: "In case of a Loco Pilot passing a Fixed Stop Signal at ON or Engineering Stop Indicator or running into Banner Flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension and directed ___________________.",
@@ -807,7 +796,7 @@ export const accidentManualQuizzes = {
           "Immediately for vision test",
         ],
         correct: 3,
-        explanation: "Accident Manual - Vision Test",
+        explanation: "Immediately for vision test is the correct answer.",
       },
       {
         question: "After every accident certain vital information bearing on the cause of the accident is to be collected _______________ which may not be available later on account of clearance operations undertaken and the resumption of normal traffic.",
@@ -818,7 +807,7 @@ export const accidentManualQuizzes = {
           "At the place of enquiry",
         ],
         correct: 0,
-        explanation: "Accident Manual - Collection of Evidence",
+        explanation: "On the spot is the correct answer.",
       },
       {
         question: "In order to avoid any dispute later, the fact that a Loco Pilot has passed a signal at danger should be formally brought to his notice through __________ by the Station Master of the concerned station.",
@@ -829,7 +818,7 @@ export const accidentManualQuizzes = {
           "Guard of the train",
         ],
         correct: 2,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Written memo is the correct answer.",
       },
       {
         question: "In order to avoid any dispute later, the fact that a Loco Pilot has passed a signal at danger should be formally brought to his notice through written memo by the __________ of the concerned station.",
@@ -840,7 +829,7 @@ export const accidentManualQuizzes = {
           "Guard of the train",
         ],
         correct: 2,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Station Master is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, the ____________ must confront the Loco Pilot and Guard with regard to the position of the signal and the position of the lever/knob concerned.",
@@ -851,7 +840,7 @@ export const accidentManualQuizzes = {
           "Station Master / Pointsman",
         ],
         correct: 3,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Station Master / Pointsman is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, the Station Master / Pointsman must confront the Loco Pilot and Guard with regard to the position of the ___________.",
@@ -862,7 +851,7 @@ export const accidentManualQuizzes = {
           "Both A & B",
         ],
         correct: 3,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Both A & B is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, the distance by which the train has passed the signal shall be recorded with respect to the _____________.",
@@ -873,7 +862,7 @@ export const accidentManualQuizzes = {
           "All the above",
         ],
         correct: 3,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "All the above is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger during night time, the ____________ should be noted. The weather condition such as foggy/tempestuous condition shall also be recorded.",
@@ -883,8 +872,8 @@ export const accidentManualQuizzes = {
           "Glow of signals",
           "Sighting distance of signals",
         ],
-        correct: 3,
-        explanation: "Accident Manual - SPAD Investigation",
+        correct: 0,
+        explanation: "Brightness of the signals is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, weather condition such as ____________ condition shall also be recorded.",
@@ -895,7 +884,7 @@ export const accidentManualQuizzes = {
           "Rainy",
         ],
         correct: 1,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Foggy/Tempestuous is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, it should be checked whether the Loco Pilot is required to use ___________, was in possession of them and was using them.",
@@ -906,7 +895,7 @@ export const accidentManualQuizzes = {
           "Hand signal lamp",
         ],
         correct: 2,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Glasses is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, arrangement for testing ____________ of the train shall be made by Officers/Senior Subordinates at the nearest C&W examination point.",
@@ -917,7 +906,7 @@ export const accidentManualQuizzes = {
           "Brake power",
         ],
         correct: 3,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Brake power is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, arrangement for testing brake power of the train shall be made by ____________ at the nearest C&W examination point.",
@@ -928,7 +917,7 @@ export const accidentManualQuizzes = {
           "Enquiry Committee",
         ],
         correct: 0,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Officers / Senior Subordinates is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, ____________ on the Loco Pilot/ALP should be done immediately and blood samples of the Loco Pilot/ALP shall be collected.",
@@ -939,7 +928,7 @@ export const accidentManualQuizzes = {
           "Psychological test",
         ],
         correct: 1,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Breathalyzer test is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, breathalyzer test on the Loco Pilot/ALP should be done immediately and ____________ of the Loco Pilot/ALP shall be collected.",
@@ -950,7 +939,7 @@ export const accidentManualQuizzes = {
           "Hand signal flag",
         ],
         correct: 2,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Blood samples is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, breathalyzer test on the Loco Pilot/ALP should be done immediately and blood samples shall be collected. The Loco Pilot/ALP shall be sent for further ____________.",
@@ -961,7 +950,7 @@ export const accidentManualQuizzes = {
           "Medical examination",
         ],
         correct: 3,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Medical examination is the correct answer.",
       },
       {
         question: "In case of Loco Pilot passing signal at danger, ____________ in relation to this incident should be obtained from S&T officials.",
@@ -972,7 +961,7 @@ export const accidentManualQuizzes = {
           "Working conditions of signals",
         ],
         correct: 0,
-        explanation: "Accident Manual - SPAD Investigation",
+        explanation: "Data logger output is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, ____________ shall be checked and noted down immediately.",
@@ -983,7 +972,7 @@ export const accidentManualQuizzes = {
           "Both A & B",
         ],
         correct: 3,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Both A & B is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, ____________ should be signed so as to indicate the last entry made and then seized.",
@@ -994,7 +983,7 @@ export const accidentManualQuizzes = {
           "PN Exchange Register",
         ],
         correct: 0,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Train Signal Register is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, ____________, if any are in force, shall be seized from the concerned staff immediately.",
@@ -1005,7 +994,7 @@ export const accidentManualQuizzes = {
           "PN Exchange Register",
         ],
         correct: 1,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Line Nomination Books is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, the position of the two trains or train and obstruction shall be marked on the ________. A __________ showing their position vis-à-vis signals, station platform, turnouts and other fixed landmarks shall be drawn.",
@@ -1015,8 +1004,8 @@ export const accidentManualQuizzes = {
           "Sleepers, rough sketch shall be drawn",
           "Sleepers, photograph taken",
         ],
-        correct: 2,
-        explanation: "Accident Manual - Collision Investigation",
+        correct: 0,
+        explanation: "Rails, correct sketch shall be drawn is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, arrangement for testing ____________ of the train shall be made by Officers/Senior Subordinates at the nearest C&W examination point.",
@@ -1027,7 +1016,7 @@ export const accidentManualQuizzes = {
           "Brake power",
         ],
         correct: 3,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Brake power is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, arrangement for testing brake power of the train shall be made by ____________ at the nearest C&W examination point.",
@@ -1038,7 +1027,7 @@ export const accidentManualQuizzes = {
           "Enquiry Committee",
         ],
         correct: 0,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Officers / Senior Subordinates is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, ____________ test on the Loco Pilot/ALP shall be done immediately and blood samples taken and then sent for further medical examination.",
@@ -1049,7 +1038,7 @@ export const accidentManualQuizzes = {
           "G&SR",
         ],
         correct: 1,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Breathalyzer is the correct answer.",
       },
       {
         question: "In case of Collision/Averted Collision, Breathalyzer test shall be conducted on the",
@@ -1060,7 +1049,7 @@ export const accidentManualQuizzes = {
           "Both A & B",
         ],
         correct: 3,
-        explanation: "Accident Manual - Collision Investigation",
+        explanation: "Both A & B is the correct answer.",
       },
       {
         question: "In all accidents, ________ from different angles shall be taken and submitted through e-mail within ___________ of the accident to ____________ for onward transmission to Railway Board. Where necessary, __________ may also be recorded.",
@@ -1070,8 +1059,8 @@ export const accidentManualQuizzes = {
           "Photographs, 24 hours, Chief Safety Officer, videography",
           "Sketches, 36 hours, DRM, film",
         ],
-        correct: 0,
-        explanation: "Accident Manual - Photography/Videography",
+        correct: 2,
+        explanation: "Photographs, 24 hours, Chief Safety Officer, videography is the correct answer.",
       },
       {
         question: "Accident inquiries are classified into",
@@ -1081,8 +1070,8 @@ export const accidentManualQuizzes = {
           "Four types",
           "Five types",
         ],
-        correct: 1,
-        explanation: "Railway Accident Manual",
+        correct: 0,
+        explanation: "Two types is the correct answer.",
       },
       {
         question: "Accident inquiries are classified into",
@@ -1092,8 +1081,8 @@ export const accidentManualQuizzes = {
           "Both Railway enquiry and Non-Railway enquiry",
           "Either Railway enquiry or Non-Railway enquiry",
         ],
-        correct: 2,
-        explanation: "Railway Accident Manual",
+        correct: 3,
+        explanation: "Either Railway enquiry or Non-Railway enquiry is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1104,7 +1093,7 @@ export const accidentManualQuizzes = {
           "Interdepartmental",
         ],
         correct: 0,
-        explanation: "Railway Accident Manual",
+        explanation: "Judicial Commission is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1115,7 +1104,7 @@ export const accidentManualQuizzes = {
           "Interdepartmental",
         ],
         correct: 2,
-        explanation: "Railway Accident Manual",
+        explanation: "Commissioner of Railway Safety is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1126,7 +1115,7 @@ export const accidentManualQuizzes = {
           "Interdepartmental",
         ],
         correct: 1,
-        explanation: "Railway Accident Manual",
+        explanation: "Joint is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1137,7 +1126,7 @@ export const accidentManualQuizzes = {
           "Magisterial",
         ],
         correct: 3,
-        explanation: "Railway Accident Manual",
+        explanation: "Magisterial is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1148,7 +1137,7 @@ export const accidentManualQuizzes = {
           "Interdepartmental",
         ],
         correct: 1,
-        explanation: "Railway Accident Manual",
+        explanation: "Police is the correct answer.",
       },
       {
         question: "Judicial Commission or Commission of Inquiry is constituted under the Commission of Inquiry Act, __________.",
@@ -1159,7 +1148,7 @@ export const accidentManualQuizzes = {
           "1952",
         ],
         correct: 3,
-        explanation: "Commission of Inquiry Act, 1952",
+        explanation: "1952 is the correct answer.",
       },
       {
         question: "An example of Railway enquiry is",
@@ -1170,7 +1159,7 @@ export const accidentManualQuizzes = {
           "Magisterial",
         ],
         correct: 1,
-        explanation: "Railway Accident Manual",
+        explanation: "Joint is the correct answer.",
       },
       {
         question: "An example of Railway enquiry is",
@@ -1180,8 +1169,8 @@ export const accidentManualQuizzes = {
           "Commissioner of Railway Safety",
           "Interdepartmental",
         ],
-        correct: 2,
-        explanation: "Railway Accident Manual",
+        correct: 3,
+        explanation: "Interdepartmental is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1191,8 +1180,8 @@ export const accidentManualQuizzes = {
           "Departmental",
           "Magisterial",
         ],
-        correct: 1,
-        explanation: "Railway Accident Manual",
+        correct: 2,
+        explanation: "Departmental is the correct answer.",
       },
       {
         question: "An example of Non-Railway enquiry is",
@@ -1202,8 +1191,8 @@ export const accidentManualQuizzes = {
           "Departmental",
           "Magisterial",
         ],
-        correct: 3,
-        explanation: "Railway Accident Manual",
+        correct: 1,
+        explanation: "Interdepartmental is the correct answer.",
       },
       {
         question: "The Central Government may appoint a Commission of Inquiry under the Commission of Inquiry Act, ________ in a very serious accident.",
@@ -1214,7 +1203,7 @@ export const accidentManualQuizzes = {
           "1952",
         ],
         correct: 3,
-        explanation: "Commission of Inquiry Act, 1952",
+        explanation: "1952 is the correct answer.",
       },
       {
         question: "The Commissioner of Railway Safety (CRS) shall hold statutory enquiry into the accidents falling under Section 113 of the Railways Act ________.",
@@ -1225,7 +1214,7 @@ export const accidentManualQuizzes = {
           "1924",
         ],
         correct: 2,
-        explanation: "Railways Act, 1989",
+        explanation: "1989 is the correct answer.",
       },
       {
         question: "The Commissioner of Railway Safety (CRS) shall hold statutory enquiry into the accidents falling under Section ______ of the Railways Act, 1989.",
@@ -1236,7 +1225,7 @@ export const accidentManualQuizzes = {
           "113",
         ],
         correct: 3,
-        explanation: "Railways Act, 1989 - Section 113",
+        explanation: "113 is the correct answer.",
       },
       {
         question: "The Commissioner of Railway Safety (CRS) shall inform the ________ of his intention to hold an inquiry and shall at the same time fix and communicate the date, time and place of the inquiry.",
@@ -1247,7 +1236,7 @@ export const accidentManualQuizzes = {
           "CSO",
         ],
         correct: 2,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "GM / CSO is the correct answer.",
       },
       {
         question: "The Commissioner of Railway Safety (CRS) shall inform the GM / CSO of his intention to hold an inquiry and shall at the same time fix and communicate the ____________ of the inquiry.",
@@ -1258,7 +1247,7 @@ export const accidentManualQuizzes = {
           "Date and time",
         ],
         correct: 1,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "Date, time and place is the correct answer.",
       },
       {
         question: "Magisterial Inquiry may be _________ and is appointed by the State Government.",
@@ -1269,7 +1258,7 @@ export const accidentManualQuizzes = {
           "Both A & B",
         ],
         correct: 2,
-        explanation: "Railway Accident Manual",
+        explanation: "Either A or B is the correct answer.",
       },
       {
         question: "Magisterial Inquiry may be judicial or non-judicial and is appointed by the _______.",
@@ -1280,7 +1269,7 @@ export const accidentManualQuizzes = {
           "Central Government",
         ],
         correct: 1,
-        explanation: "Railway Accident Manual",
+        explanation: "State Government is the correct answer.",
       },
       {
         question: "The Railway Police may make an investigation in case of ___________ inquiry into the causes which led to the accident occurring in the course of working a railway and it can be parallel, if required, to any other enquiry.",
@@ -1291,7 +1280,7 @@ export const accidentManualQuizzes = {
           "Joint",
         ],
         correct: 0,
-        explanation: "Railway Accident Manual",
+        explanation: "Police is the correct answer.",
       },
       {
         question: "Whenever an accident, such as mentioned in Section 113 of the Act, has occurred in the course of working a railway, the Head of the Railway Administration concerned shall order an inquiry to be promptly made by a Committee of Railway Officers, to be called as",
@@ -1302,7 +1291,7 @@ export const accidentManualQuizzes = {
           "Joint Inquiry",
         ],
         correct: 3,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "Joint Inquiry is the correct answer.",
       },
       {
         question: "Whenever an accident, such as mentioned in Section 113 of the Act, has occurred in the course of working a railway, the ____________ concerned shall order an inquiry to be promptly made by a Committee of Railway Officers, to be called as Joint Inquiry.",
@@ -1313,7 +1302,7 @@ export const accidentManualQuizzes = {
           "Division",
         ],
         correct: 2,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "Head of the Railway Administration is the correct answer.",
       },
       {
         question: "Whenever an accident, such as mentioned in Section 113 of the Act, has occurred in the course of working a railway, the Head of the Railway Administration concerned shall order an inquiry to be promptly made by a Committee of ____________, to be called as Joint Inquiry.",
@@ -1324,7 +1313,7 @@ export const accidentManualQuizzes = {
           "Railway Officers",
         ],
         correct: 3,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "Railway Officers is the correct answer.",
       },
       {
         question: "For accidents not falling under the purview of the Commissioner of Railway Safety (CRS), the ________ shall order an enquiry by a committee of officers from the departments concerned.",
@@ -1335,7 +1324,7 @@ export const accidentManualQuizzes = {
           "PCSO",
         ],
         correct: 0,
-        explanation: "Railway Accident Manual",
+        explanation: "DRM is the correct answer.",
       },
       {
         question: "For accidents not falling under the purview of the Commissioner of Railway Safety (CRS), if the GM considers it necessary to hold an inquiry by the __________ into such accidents, the same can be ordered.",
@@ -1346,7 +1335,7 @@ export const accidentManualQuizzes = {
           "PCSO",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "HOD/PHOD is the correct answer.",
       },
       {
         question: "If the cause of the accident is attributable beyond doubt to a particular department in Railways and the __________ accepts the responsibility, the inquiry by the inter-departmental committee can be dispensed with.",
@@ -1357,7 +1346,7 @@ export const accidentManualQuizzes = {
           "PCSO",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "HOD/PHOD is the correct answer.",
       },
       {
         question: "Normally __________ shall order all departmental and inter-departmental inquiries into accidents.",
@@ -1368,7 +1357,7 @@ export const accidentManualQuizzes = {
           "PCSO",
         ],
         correct: 0,
-        explanation: "Accident Manual",
+        explanation: "DRM is the correct answer.",
       },
       {
         question: "The GM or on his behalf, the _________ may order a Joint Inquiry into serious accidents, as deemed fit.",
@@ -1378,8 +1367,8 @@ export const accidentManualQuizzes = {
           "AGM",
           "PCSO",
         ],
-        correct: 2,
-        explanation: "Accident Manual",
+        correct: 3,
+        explanation: "PCSO is the correct answer.",
       },
       {
         question: "Whenever a Joint Inquiry is to be made, the __________ concerned shall issue notice about the date, time and place at which the inquiry will be conducted.",
@@ -1390,7 +1379,7 @@ export const accidentManualQuizzes = {
           "Division",
         ],
         correct: 2,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "Head of the Railway Administration is the correct answer.",
       },
       {
         question: "Whenever a Joint Inquiry is to be made, the Head of the Railway Administration concerned shall issue notice regarding the date, time and place to",
@@ -1401,7 +1390,7 @@ export const accidentManualQuizzes = {
           "All the above",
         ],
         correct: 3,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        explanation: "All the above is the correct answer.",
       },
       {
         question: "Where a Joint Inquiry is held into an accident on receipt of information about the inability of the Commissioner of Railway Safety to hold an inquiry, the Head of the Railway Administration concerned shall also issue a __________.",
@@ -1411,8 +1400,8 @@ export const accidentManualQuizzes = {
           "Press Note",
           "Notice to Public Representative",
         ],
-        correct: 0,
-        explanation: "Railway (Notices of and Inquiries into Accidents) Rules",
+        correct: 2,
+        explanation: "Press Note is the correct answer.",
       },
       {
         question: "All serious accidents shall be inquired into by the __________.",
@@ -1422,8 +1411,8 @@ export const accidentManualQuizzes = {
           "SP of the District",
           "All the above",
         ],
-        correct: 1,
-        explanation: "Railways Act, 1989",
+        correct: 3,
+        explanation: "All the above is the correct answer.",
       },
       {
         question: "If the CRS/CCRS is not in a position to conduct inquiry into serious accident cases notified to him, the inquiry shall be carried out by a Committee of __________ and __________ of the Railway shall be the Convenor of such Committee.",
@@ -1433,8 +1422,8 @@ export const accidentManualQuizzes = {
           "SAG Officers, GM",
           "JAG Officers, GM",
         ],
-        correct: 0,
-        explanation: "Railway Board Instructions",
+        correct: 2,
+        explanation: "SAG Officers, PCSO is the correct answer.",
       },
       {
         question: "If the CRS/CCRS is not in a position to conduct inquiry into serious accident cases, __________ of the Railway shall be the Convenor of such Committee and __________ of the Railway will be the Accepting Authority.",
@@ -1445,7 +1434,7 @@ export const accidentManualQuizzes = {
           "PCSO, GM",
         ],
         correct: 3,
-        explanation: "Railway Board Instructions",
+        explanation: "PCSO, GM is the correct answer.",
       },
       {
         question: "All cases of collisions falling under A1 to A4 categories shall be inquired into by a committee of ______ officers with __________ as the Accepting Authority.",
@@ -1456,7 +1445,7 @@ export const accidentManualQuizzes = {
           "HOD, GM",
         ],
         correct: 2,
-        explanation: "Railway Board Accident Manual",
+        explanation: "SAG, GM is the correct answer.",
       },
       {
         question: "All other consequential train accidents shall be inquired into by _________ from the Safety Department nominated by the GM, with the _________ as the Accepting Authority.",
@@ -1467,7 +1456,7 @@ export const accidentManualQuizzes = {
           "JAG, PCSO",
         ],
         correct: 1,
-        explanation: "Railway Board Accident Manual",
+        explanation: "Dy.CSO, GM is the correct answer.",
       },
       {
         question: "Except collisions and consequential accidents, other accidents shall be inquired into by a __________ Committee of Officers as decided by the respective DRM, with ________ as the Accepting Authority.",
@@ -1478,7 +1467,7 @@ export const accidentManualQuizzes = {
           "JAG, PCSO",
         ],
         correct: 0,
-        explanation: "Railway Board Accident Manual",
+        explanation: "SS or JS, DRM is the correct answer.",
       },
       {
         question: "All yard accidents shall be inquired into by a Committee of __________ with __________ as the Accepting Authority.",
@@ -1489,7 +1478,7 @@ export const accidentManualQuizzes = {
           "JAG, PCSO",
         ],
         correct: 1,
-        explanation: "Railway Board Accident Manual",
+        explanation: "Senior Supervisors, Sr.DSO/DSO is the correct answer.",
       },
       {
         question: "All cases of Indicative Accidents shall be inquired into by a Committee of __________ Officers with __________ as the Accepting Authority.",
@@ -1499,8 +1488,8 @@ export const accidentManualQuizzes = {
           "Inspectors, GM",
           "Senior Supervisors, DRM",
         ],
-        correct: 1,
-        explanation: "Railway Board Accident Manual",
+        correct: 0,
+        explanation: "SS or JS, DRM is the correct answer.",
       },
       {
         question: "____________ can have the inquiry conducted by a committee of higher level Officers than the prescribed level depending upon the seriousness of the accident.",
@@ -1511,7 +1500,7 @@ export const accidentManualQuizzes = {
           "GM or PHODs",
         ],
         correct: 1,
-        explanation: "Railway Board Accident Manual",
+        explanation: "GM or DRM is the correct answer.",
       },
       {
         question: "In accident cases where the Inquiry Committee determines responsibility on the staff of a Foreign Railway, the Inquiry Report should be put up to __________ of the Railway on which the accident took place through __________.",
@@ -1521,8 +1510,8 @@ export const accidentManualQuizzes = {
           "PHOD, PCSO",
           "PHODs, GM",
         ],
-        correct: 0,
-        explanation: "Railway Board Accident Manual",
+        correct: 2,
+        explanation: "PHOD, PCSO is the correct answer.",
       },
       {
         question: "Finalisation of Inter-Railway DAR cases arising out of inquiry reports involving Foreign Railway staff shall be followed up by the __________ of the concerned department of the Railway on which the accident took place.",
@@ -1533,7 +1522,7 @@ export const accidentManualQuizzes = {
           "HOD",
         ],
         correct: 2,
-        explanation: "Railway Board Accident Manual",
+        explanation: "PHOD is the correct answer.",
       },
       {
         question: "If suitable response is not received from the respondent Railway at __________ level for finalisation of DAR cases involving staff of Foreign Railway, the case should be referred to Railway Board.",
@@ -1544,7 +1533,7 @@ export const accidentManualQuizzes = {
           "GM",
         ],
         correct: 3,
-        explanation: "Railway Board Accident Manual",
+        explanation: "GM is the correct answer.",
       },
       {
         question: "All cases of equipment failures shall be inquired into by __________ of the respective departments.",
@@ -1555,7 +1544,7 @@ export const accidentManualQuizzes = {
           "SS or JS Officers",
         ],
         correct: 0,
-        explanation: "Railway Board Accident Manual",
+        explanation: "Senior Supervisors/Supervisors is the correct answer.",
       },
       {
         question: "If no particular department accepts responsibility, __________ shall order the inquiry on Date of Accident (D)+1.",
@@ -1566,7 +1555,7 @@ export const accidentManualQuizzes = {
           "ADRM/GM",
         ],
         correct: 1,
-        explanation: "Railway Board Target Timeline",
+        explanation: "DRM/GM is the correct answer.",
       },
       {
         question: "If no particular department accepts responsibility, the target for ordering the inquiry by DRM/GM is within _____ .",
@@ -1577,7 +1566,7 @@ export const accidentManualQuizzes = {
           "Date of Accident (D)+7",
         ],
         correct: 0,
-        explanation: "Railway Board Target Timeline",
+        explanation: "Date of Accident (D)+1 is the correct answer.",
       },
       {
         question: "Target for the Committee to commence the inquiry into the accident ordered by GM/DRM is within __________.",
@@ -1587,8 +1576,8 @@ export const accidentManualQuizzes = {
           "Date of Accident (D)+3",
           "Date of Accident (D)+7",
         ],
-        correct: 1,
-        explanation: "Railway Board Target Timeline",
+        correct: 2,
+        explanation: "Date of Accident (D)+3 is the correct answer.",
       },
       {
         question: "Target for the Committee to submit the inquiry report to DRM/GM is within __________.",
@@ -1599,7 +1588,7 @@ export const accidentManualQuizzes = {
           "Date of Accident (D)+7",
         ],
         correct: 3,
-        explanation: "Railway Board Target Timeline",
+        explanation: "Date of Accident (D)+7 is the correct answer.",
       },
       {
         question: "Target for acceptance of the inquiry report by the DRM/GM is within __________.",
@@ -1610,7 +1599,7 @@ export const accidentManualQuizzes = {
           "Date of Accident (D)+15",
         ],
         correct: 2,
-        explanation: "Railway Board Target Timeline",
+        explanation: "Date of Accident (D)+10 is the correct answer.",
       },
       {
         question: "Target for inquiry reports for accidents ordered by DRM/GM to be finalized by PCSO/AGM is within __________.",
@@ -1621,7 +1610,7 @@ export const accidentManualQuizzes = {
           "Date of Accident (D)+15",
         ],
         correct: 3,
-        explanation: "Railway Board Target Timeline",
+        explanation: "Date of Accident (D)+15 is the correct answer.",
       },
       {
         question: "Inquiry reports for accidents ordered by DRM/GM will be finalized by PCSO for",
@@ -1631,8 +1620,8 @@ export const accidentManualQuizzes = {
           "Minor accidents",
           "Accident cases involving Foreign Railway staff",
         ],
-        correct: 3,
-        explanation: "Railway Board Accident Manual",
+        correct: 1,
+        explanation: "Review cases is the correct answer.",
       },
       {
         question: "Inquiry reports for accidents ordered by DRM/GM will be finalized by AGM for",
@@ -1642,8 +1631,8 @@ export const accidentManualQuizzes = {
           "Minor accidents",
           "Accident cases involving Foreign Railway staff",
         ],
-        correct: 1,
-        explanation: "Railway Board Accident Manual",
+        correct: 3,
+        explanation: "Accident cases involving Foreign Railway staff is the correct answer.",
       },
       {
         question: "Target for submission of inquiry report to CRS with remarks for accidents ordered by DRM/GM is within ____________.",
@@ -1653,8 +1642,8 @@ export const accidentManualQuizzes = {
           "Date of accident (D)+15",
           "Date of accident (D)+20",
         ],
-        correct: 2,
-        explanation: "Accident Manual – Target timeline",
+        correct: 3,
+        explanation: "Date of Accident (D)+20 is the correct answer.",
       },
       {
         question: "Target for accidents ordered by DRM/GM for completion of DAR action against officials held responsible is within ____________.",
@@ -1664,8 +1653,8 @@ export const accidentManualQuizzes = {
           "Date of accident (D)+90",
           "Date of accident (D)+180",
         ],
-        correct: 3,
-        explanation: "Accident Manual – Target timeline",
+        correct: 2,
+        explanation: "Date of Accident (D)+90 is the correct answer.",
       },
       {
         question: "Irrespective of whether a Joint or Inter-Departmental Inquiry is ordered by the General Manager, Sr.DSO of the division shall be advised within _______ by the other Divisional Officers whether their department is accepting responsibility or not.",
@@ -1675,8 +1664,8 @@ export const accidentManualQuizzes = {
           "Three days",
           "Five days",
         ],
-        correct: 0,
-        explanation: "Accident Manual",
+        correct: 1,
+        explanation: "Two days is the correct answer.",
       },
       {
         question: "If no department accepts responsibility, the Divisional Safety Officer shall at once put up the case to the _________ who will, if necessary, order an Inter-Departmental Inquiry.",
@@ -1687,7 +1676,7 @@ export const accidentManualQuizzes = {
           "GM",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "DRM is the correct answer.",
       },
       {
         question: "When a Joint or Inter-Departmental Inquiry is ordered by the GM, the __________ of the Inquiry Committee shall fix the date and place, in consultation with other members of the committee.",
@@ -1698,7 +1687,7 @@ export const accidentManualQuizzes = {
           "Sr.DSO",
         ],
         correct: 2,
-        explanation: "Accident Manual",
+        explanation: "Senior Most Officer is the correct answer.",
       },
       {
         question: "When a Joint or Inter-Departmental Inquiry is ordered by the GM, the inquiry shall be held at __________________.",
@@ -1709,7 +1698,7 @@ export const accidentManualQuizzes = {
           "XEN Office",
         ],
         correct: 0,
-        explanation: "Accident Manual",
+        explanation: "Station nearest to the site of accident is the correct answer.",
       },
       {
         question: "When a Joint or Inter-Departmental Inquiry is ordered by the GM, the inquiry shall be held within ________ after the occurrence of the accident.",
@@ -1720,7 +1709,7 @@ export const accidentManualQuizzes = {
           "Five days",
         ],
         correct: 2,
-        explanation: "Accident Manual",
+        explanation: "Three days is the correct answer.",
       },
       {
         question: "In case of Joint/Inter-Departmental inquiries, witnesses shall be _____________ if necessary, to elicit important details.",
@@ -1731,7 +1720,7 @@ export const accidentManualQuizzes = {
           "Both A & B",
         ],
         correct: 3,
-        explanation: "Accident Manual",
+        explanation: "Both A & B is the correct answer.",
       },
       {
         question: "If a witness has given a statement prior to the inquiry, that statement shall first be read over to him and recorded as his _________.",
@@ -1742,7 +1731,7 @@ export const accidentManualQuizzes = {
           "Evidence",
         ],
         correct: 0,
-        explanation: "Accident Manual",
+        explanation: "Deposition is the correct answer.",
       },
       {
         question: "The Inquiry Officer or the Committee shall also note ___________ in the course of the inquiry, which though not having a direct bearing on the accident may lead to accidents in future.",
@@ -1753,7 +1742,7 @@ export const accidentManualQuizzes = {
           "Evidence",
         ],
         correct: 2,
-        explanation: "Accident Manual",
+        explanation: "Matters brought to light is the correct answer.",
       },
       {
         question: "In the case of a Joint Inquiry, it is not necessary for the members of _________ to attend the deliberations regarding the findings or to sign the Joint Inquiry proceedings.",
@@ -1764,7 +1753,7 @@ export const accidentManualQuizzes = {
           "None of the above",
         ],
         correct: 0,
-        explanation: "Accident Manual",
+        explanation: "Police is the correct answer.",
       },
       {
         question: "The composition of the _____________ committee will depend upon the nature of the accident.",
@@ -1775,7 +1764,7 @@ export const accidentManualQuizzes = {
           "JAG",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "Inquiry is the correct answer.",
       },
       {
         question: "When _________________ of another division is involved, representatives of that division may also be included in the Inquiry Committee.",
@@ -1786,7 +1775,7 @@ export const accidentManualQuizzes = {
           "Both A & B",
         ],
         correct: 2,
-        explanation: "Accident Manual",
+        explanation: "Either A or B is the correct answer.",
       },
       {
         question: "In case of a fire accident, the representative of the ______________ branch should also be associated.",
@@ -1796,8 +1785,8 @@ export const accidentManualQuizzes = {
           "Operating",
           "Security",
         ],
-        correct: 0,
-        explanation: "Accident Manual",
+        correct: 3,
+        explanation: "Security is the correct answer.",
       },
       {
         question: "No Officer or Subordinate official whose evidence is required before an Inquiry Committee should be appointed as a member of that committee except under the personal orders of the ___________.",
@@ -1807,8 +1796,8 @@ export const accidentManualQuizzes = {
           "PCSO / PHOD",
           "PCSO / GM",
         ],
-        correct: 3,
-        explanation: "Accident Manual",
+        correct: 0,
+        explanation: "PCSO / DRM is the correct answer.",
       },
       {
         question: "In a Joint/Inter-Departmental Inquiry, the senior-most Officer in the highest grade among those nominated for the inquiry will act as ______________________.",
@@ -1819,7 +1808,7 @@ export const accidentManualQuizzes = {
           "Vice President of the Committee",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "President of the Inquiry Committee is the correct answer.",
       },
       {
         question: "At a Senior Supervisors Inquiry, seniority between subordinates of different departments in the same grade is reckoned on total ____________, and between subordinates of the same department on their respective ____________.",
@@ -1830,7 +1819,7 @@ export const accidentManualQuizzes = {
           "Length of service, Age",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "Length of service, Age is the correct answer.",
       },
       {
         question: "Whenever an inquiry has been ordered, it shall be the duty of the _____________ of each department to advise all concerned persons and witnesses to be present at the inquiry.",
@@ -1841,7 +1830,7 @@ export const accidentManualQuizzes = {
           "PHOD",
         ],
         correct: 2,
-        explanation: "Accident Manual",
+        explanation: "Divisional Officer is the correct answer.",
       },
       {
         question: "The ____________ of the concerned department will also be responsible for ensuring that all documents required for conducting the inquiry are available.",
@@ -1852,7 +1841,7 @@ export const accidentManualQuizzes = {
           "Divisional Officer",
         ],
         correct: 3,
-        explanation: "Accident Manual",
+        explanation: "Divisional Officer is the correct answer.",
       },
       {
         question: "If a member of the Inquiry Committee fails to attend the inquiry due to any reason, he shall submit his written explanation to the _________________ of the Inquiry Committee.",
@@ -1863,7 +1852,7 @@ export const accidentManualQuizzes = {
           "Divisional Officer",
         ],
         correct: 1,
-        explanation: "Accident Manual",
+        explanation: "President is the correct answer.",
       },
       {
         question: "If an officer/staff, who has been summoned to depose before the committee, absents himself without proper and sufficient reason, he should be ____________.",
@@ -1874,7 +1863,7 @@ export const accidentManualQuizzes = {
           "Called for enquiry",
         ],
         correct: 0,
-        explanation: "Accident Manual",
+        explanation: "Taken up under DAR is the correct answer.",
       },
       {
         question: "An inquiry will not ordinarily be postponed due to the absence of a witness, but if after recording all other evidence, a decision cannot be arrived at, the inquiry may be ____________ till the witness is available.",

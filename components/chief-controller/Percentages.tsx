@@ -205,6 +205,11 @@ const Percentages = () => {
       answer: '80%',
       category: '80%'
     },
+    {
+      question: 'The operating ratio of Indian Railway in 2024-25 is ____ %',
+      answer: '85%',
+      category: '85%'
+    },
     { 
       question: 'The effective brake power in case of Mail/Express enroute should be not less than', 
       answer: '90%', 

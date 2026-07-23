@@ -277,6 +277,11 @@ const Perminssions = () => {
       category: 'DRM'
     },
     {
+      description: 'Who is the chairman of the Divisional Rajbhasha Co-ordination committee?',
+      authority: 'DRM',
+      category: 'DRM'
+    },
+    {
       description: 'The Officer authorized to certify Group ‘C’ staff of the division for working of motor trolleys ______',
       authority: 'Sr.DSO',
       category: 'DSO'
@@ -377,6 +382,11 @@ const Perminssions = () => {
       category: 'GM'
     },
     {
+      description: 'Re-appropriation of funds from one itemised work to another itemised work of a plan head is within the power of _____',
+      authority: 'GM',
+      category: 'GM'
+    },
+    {
       description: 'Variation beyond 150% of the contract value requires the sanction of',
       authority: 'GM',
       category: 'GM'
@@ -443,6 +453,11 @@ const Perminssions = () => {
       },
       {
         description: 'Maximum Permissible speed for each section of the railway is given by ______',
+        authority: 'PCOM',
+        category: 'PCOM'
+      },
+      {
+        description: 'Who is the competent authority to notify the Associate weighbridge?',
         authority: 'PCOM',
         category: 'PCOM'
       },

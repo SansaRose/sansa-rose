@@ -121,6 +121,11 @@ const Numbers = () => {
       category: '2'
     },
     {
+      question: 'On how many days in a week, is supply of rakes against "Premium indent" done on priority?',
+      answer: '2 days (Monday & Friday)',
+      category: '2'
+    },
+    {
       question: 'The maximum number of extensions after successful testing of the detonatoris ______',
       answer: '3',
       category: '3'
@@ -313,6 +318,11 @@ const Numbers = () => {
       {
         question: 'How many Schedules are there in Railway Pass Rules 1986?',
         answer: '7 Schedules',
+        category: '7'
+      },
+      {
+        question: 'In Indian Railway, Explosive are divided into how many classes?',
+        answer: '7 classes (Gun powder, Nitrate mixture, Nitro compound, Chlorate mixture, Fulminate, Ammunition, Fireworks)',
         category: '7'
       },
       {
