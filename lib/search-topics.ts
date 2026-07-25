@@ -156,12 +156,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness world information australian countries Australian Countries",
   },
   {
+    href: "/topics/operating-material/authorised-officer",
+    title: "Authorised Officer",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material authorised officer Authorised Officer authorized officer PCOM G.R. 1.02",
+  },
+  {
     href: "/pdfs/authorities",
     title: "Authorities",
     category: "PDFs",
     parent: "PDFs",
     keywords: "pdfs authorities Authorities",
   },
+
   {
     href: "/general-awareness/awards",
     title: "Awards",
@@ -226,6 +234,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness biosphere reserves Biosphere Reserves",
   },
   {
+    href: "/topics/operating-material/block-section",
+    title: "Block Section",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material block section Block Section G.R. 1.02(10) line clear",
+  },
+  {
     href: "/manuals/block-working-manual",
     title: "Block Working Manual",
     category: "Manuals",
@@ -253,6 +268,8 @@ export const searchTopics: SearchTopic[] = [
     parent: "General Awareness",
     keywords: "general awareness books authors Books Authors",
   },
+
+
   {
     href: "/quizzes/general-awareness/botany",
     title: "Botany",
@@ -597,12 +614,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness sports football Football",
   },
   {
+    href: "/topics/operating-material/fouling-mark",
+    title: "Fouling Mark",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material fouling mark Fouling Mark G.R. 1.02(22)",
+  },
+  {
     href: "/topics/gati-shakti-terminals",
     title: "Gati Shakti Terminals",
     category: "Study Topics",
     parent: "Topics",
     keywords: "topics gati shakti terminals Gati Shakti Terminals",
   },
+
   {
     href: "/general-awareness",
     title: "General Awareness",
@@ -975,12 +1000,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes establishment rules lhb LHB",
   },
   {
+    href: "/topics/operating-material/line-clear",
+    title: "Line Clear",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material line clear Line Clear G.R. 1.02(36)",
+  },
+  {
     href: "/general-awareness/awards/literature-awards",
     title: "Literature Awards",
     category: "General Awareness",
     parent: "General Awareness › Awards",
     keywords: "general awareness awards literature awards Literature Awards",
   },
+
   {
     href: "/topics/schemes/lwis-scheme",
     title: "LWIS Scheme",
@@ -1157,12 +1190,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics information technology apps ntes NTES",
   },
   {
+    href: "/topics/operating-material/obstruction",
+    title: "Obstruction",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material obstruction Obstruction G.R. 1.02(43)",
+  },
+  {
     href: "/general-awareness/important-days/october",
     title: "October",
     category: "General Awareness",
     parent: "General Awareness › Important Days",
     keywords: "general awareness important days october October",
   },
+
   {
     href: "/general-awareness/states-information/odisha",
     title: "Odisha",
@@ -1206,12 +1247,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes operating manual Operating Manual",
   },
   {
+    href: "/topics/operating-material",
+    title: "Operating Material",
+    category: "Study Topics",
+    parent: "Topics",
+    keywords: "topics operating material Operating Material authorised officer",
+  },
+  {
     href: "/quizzes/establishment-rules/ops",
     title: "OPS",
     category: "Quizzes",
     parent: "Quizzes › Establishment Rules",
     keywords: "quizzes establishment rules ops OPS",
   },
+
   {
     href: "/general-awareness/awards/other-awards",
     title: "Other Awards",
@@ -1577,12 +1626,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness states information States Information",
   },
   {
+    href: "/topics/operating-material/station",
+    title: "Station",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material station Station G.R. 1.02(51)",
+  },
+  {
     href: "/manuals/station-working-rules",
     title: "Station Working Rules",
     category: "Manuals",
     parent: "Manuals",
     keywords: "manuals station working rules Station Working Rules",
   },
+
   {
     href: "/topics",
     title: "Study Topics",

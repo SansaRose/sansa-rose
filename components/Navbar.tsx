@@ -14,7 +14,9 @@ const topicsLinksRaw: TopicNavLink[] = [
   { href: '/topics/financial-rules', label: 'Financial rules', icon: '💰' },
   { href: '/topics/general-rules', label: 'General rules', icon: '📘' },
   { href: '/topics/railway-acts', label: 'Railway acts', icon: '⚖️' },
+  { href: '/topics/operating-material', label: 'Operating material', icon: '📂' },
   { href: '/topics/hrms', label: 'HRMS', icon: '👥' },
+
   { href: '/topics/irec', label: 'IREC', icon: '📕' },
   { href: '/topics/irem', label: 'IREM', icon: '📗' },
   { href: '/topics/joint-consultative-machinery', label: 'Joint consultative machinery', icon: '💬' },
