@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { AlertTriangle, BadgeCheck, Building2, CircleCheck, Milestone, Split } from 'lucide-react'
+import { AlertTriangle, ArrowLeftRight, BadgeCheck, Building2, CircleCheck, CirclePlay, Combine, FileCheck, Forward, GitFork, Milestone, Route, ShieldCheck, Signal, SignalHigh, Split, TrainFront, Unlink, UserRoundCog, Workflow } from 'lucide-react'
 
 const topics = [
   {
@@ -9,9 +9,29 @@ const topics = [
     icon: BadgeCheck,
   },
   {
+    href: '/topics/operating-material/authority-to-proceed',
+    title: 'Authority to Proceed',
+    icon: FileCheck,
+  },
+  {
+    href: '/topics/operating-material/block-forward',
+    title: 'Block Forward',
+    icon: Forward,
+  },
+  {
     href: '/topics/operating-material/block-section',
     title: 'Block Section',
     icon: Split,
+  },
+  {
+    href: '/topics/operating-material/facing-trailing-points',
+    title: 'Facing and Trailing Points',
+    icon: GitFork,
+  },
+  {
+    href: '/topics/operating-material/fixed-signal',
+    title: 'Fixed Signal',
+    icon: Signal,
   },
   {
     href: '/topics/operating-material/fouling-mark',
@@ -19,9 +39,29 @@ const topics = [
     icon: Milestone,
   },
   {
+    href: '/topics/operating-material/interlocking',
+    title: 'Interlocking',
+    icon: Combine,
+  },
+  {
+    href: '/topics/operating-material/isolation',
+    title: 'Isolation',
+    icon: Unlink,
+  },
+  {
+    href: '/topics/operating-material/kavach',
+    title: 'Kavach',
+    icon: ShieldCheck,
+  },
+  {
     href: '/topics/operating-material/line-clear',
     title: 'Line Clear',
     icon: CircleCheck,
+  },
+  {
+    href: '/topics/operating-material/multiple-aspect-signalling',
+    title: 'Multiple Aspect Signalling',
+    icon: SignalHigh,
   },
   {
     href: '/topics/operating-material/obstruction',
@@ -29,9 +69,39 @@ const topics = [
     icon: AlertTriangle,
   },
   {
+    href: '/topics/operating-material/running-line',
+    title: 'Running Line',
+    icon: Route,
+  },
+  {
+    href: '/topics/operating-material/running-train',
+    title: 'Running Train',
+    icon: CirclePlay,
+  },
+  {
+    href: '/topics/operating-material/shunting',
+    title: 'Shunting',
+    icon: ArrowLeftRight,
+  },
+  {
     href: '/topics/operating-material/station',
     title: 'Station',
     icon: Building2,
+  },
+  {
+    href: '/topics/operating-material/station-master',
+    title: 'Station Master',
+    icon: UserRoundCog,
+  },
+  {
+    href: '/topics/operating-material/system-of-working',
+    title: 'System of Working',
+    icon: Workflow,
+  },
+  {
+    href: '/topics/operating-material/train',
+    title: 'Train',
+    icon: TrainFront,
   },
 ]
 

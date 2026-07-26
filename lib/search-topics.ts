@@ -169,7 +169,13 @@ export const searchTopics: SearchTopic[] = [
     parent: "PDFs",
     keywords: "pdfs authorities Authorities",
   },
-
+  {
+    href: "/topics/operating-material/authority-to-proceed",
+    title: "Authority to Proceed",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material authority to proceed Authority to Proceed ATP G.R. 1.02(6)",
+  },
   {
     href: "/general-awareness/awards",
     title: "Awards",
@@ -177,6 +183,7 @@ export const searchTopics: SearchTopic[] = [
     parent: "General Awareness",
     keywords: "general awareness awards Awards",
   },
+
   {
     href: "/general-awareness/sports/badminton",
     title: "Badminton",
@@ -234,6 +241,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness biosphere reserves Biosphere Reserves",
   },
   {
+    href: "/topics/operating-material/block-forward",
+    title: "Block Forward",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material block forward Block Forward G.R. 1.02(9) shunting double line",
+  },
+  {
     href: "/topics/operating-material/block-section",
     title: "Block Section",
     category: "Study Topics",
@@ -247,6 +261,7 @@ export const searchTopics: SearchTopic[] = [
     parent: "Manuals",
     keywords: "manuals block working manual Block Working Manual",
   },
+
   {
     href: "/quizzes/block-working-manual",
     title: "Block Working Manual",
@@ -572,12 +587,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "acts factories act 1948 Factories Act 1948",
   },
   {
+    href: "/topics/operating-material/facing-trailing-points",
+    title: "Facing and Trailing Points",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material facing trailing points Facing and Trailing Points G.R. 1.02(20)",
+  },
+  {
     href: "/general-awareness/important-days/february",
     title: "February",
     category: "General Awareness",
     parent: "General Awareness › Important Days",
     keywords: "general awareness important days february February",
   },
+
   {
     href: "/quizzes/financial-rules/finance",
     title: "Finance",
@@ -600,12 +623,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics financial rules Financial Rules",
   },
   {
+    href: "/topics/operating-material/fixed-signal",
+    title: "Fixed Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material fixed signal Fixed Signal G.R. 1.02(21)",
+  },
+  {
     href: "/topics/information-technology-apps/fois",
     title: "FOIS",
     category: "Study Topics",
     parent: "Topics › Information Technology Apps",
     keywords: "topics information technology apps fois FOIS",
   },
+
   {
     href: "/general-awareness/sports/football",
     title: "Football",
@@ -874,12 +905,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics information technology apps Information Technology Apps",
   },
   {
+    href: "/topics/operating-material/interlocking",
+    title: "Interlocking",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material interlocking Interlocking G.R. 1.02(29)",
+  },
+  {
     href: "/general-awareness/international-airports",
     title: "International Airports",
     category: "General Awareness",
     parent: "General Awareness",
     keywords: "general awareness international airports International Airports",
   },
+
   {
     href: "/general-awareness/international-organization",
     title: "International Organization",
@@ -888,12 +927,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness international organization International Organization",
   },
   {
+    href: "/topics/operating-material/isolation",
+    title: "Isolation",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material isolation Isolation G.R. 1.02(32)",
+  },
+  {
     href: "/topics/irec",
     title: "IREC",
     category: "Study Topics",
     parent: "Topics",
     keywords: "topics irec IREC",
   },
+
   {
     href: "/topics/irem",
     title: "IREM",
@@ -965,12 +1012,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes kavach Kavach",
   },
   {
+    href: "/topics/operating-material/kavach",
+    title: "Kavach",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material kavach Kavach IR-ATP Indian Railway Automatic Train Protection System AS 20",
+  },
+  {
     href: "/general-awareness/states-information/kerala",
     title: "Kerala",
     category: "General Awareness",
     parent: "General Awareness › States Information",
     keywords: "general awareness states information kerala Kerala",
   },
+
   {
     href: "/general-awareness/states-information/lakshadweep",
     title: "Lakshadweep",
@@ -1127,12 +1182,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness states information mizoram Mizoram",
   },
   {
+    href: "/topics/operating-material/multiple-aspect-signalling",
+    title: "Multiple Aspect Signalling",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material multiple aspect signalling Multiple Aspect Signalling MAS G.R. 1.02(41)",
+  },
+  {
     href: "/general-awareness/states-information/nagaland",
     title: "Nagaland",
     category: "General Awareness",
     parent: "General Awareness › States Information",
     keywords: "general awareness states information nagaland Nagaland",
   },
+
   {
     href: "/topics/national-logistics-policy",
     title: "National Logistics Policy",
@@ -1514,12 +1577,28 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics information technology apps rtis RTIS",
   },
   {
+    href: "/topics/operating-material/running-line",
+    title: "Running Line",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material running line Running Line G.R. 1.02(47)",
+  },
+  {
+    href: "/topics/operating-material/running-train",
+    title: "Running Train",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material running train Running Train G.R. 1.02(48)",
+  },
+  {
     href: "/topics/information-technology-apps/satsang",
     title: "SATSANG",
     category: "Study Topics",
     parent: "Topics › Information Technology Apps",
     keywords: "topics information technology apps satsang SATSANG",
   },
+
+
   {
     href: "/general-awareness/schemes",
     title: "Schemes",
@@ -1570,12 +1649,21 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness sports shooting Shooting",
   },
   {
+    href: "/topics/operating-material/shunting",
+    title: "Shunting",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material shunting Shunting G.R. 1.02(49)",
+  },
+  {
     href: "/general-awareness/states-information/sikkim",
     title: "Sikkim",
+
     category: "General Awareness",
     parent: "General Awareness › States Information",
     keywords: "general awareness states information sikkim Sikkim",
   },
+
   {
     href: "/general-awareness/sports/snooker",
     title: "Snooker",
@@ -1633,12 +1721,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics operating material station Station G.R. 1.02(51)",
   },
   {
+    href: "/topics/operating-material/station-master",
+    title: "Station Master",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material station master Station Master G.R. 1.02(53)",
+  },
+  {
     href: "/manuals/station-working-rules",
     title: "Station Working Rules",
     category: "Manuals",
     parent: "Manuals",
     keywords: "manuals station working rules Station Working Rules",
   },
+
 
   {
     href: "/topics",
@@ -1662,10 +1758,18 @@ export const searchTopics: SearchTopic[] = [
     keywords: "syllabus Syllabus",
   },
   {
+    href: "/topics/operating-material/system-of-working",
+    title: "System of Working",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material system of working System of Working G.R. 1.02(56)",
+  },
+  {
     href: "/general-awareness/sports/table-tennis",
     title: "Table Tennis",
     category: "General Awareness",
     parent: "General Awareness › Sports",
+
     keywords: "general awareness sports table tennis Table Tennis",
   },
   {
@@ -1725,12 +1829,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "acts trade union act 1926 Trade Union Act 1926",
   },
   {
+    href: "/topics/operating-material/train",
+    title: "Train",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material train Train G.R. 1.02(58)",
+  },
+  {
     href: "/topics/transfers",
     title: "Transfers",
     category: "Study Topics",
     parent: "Topics",
     keywords: "topics transfers Transfers",
   },
+
   {
     href: "/general-awareness/states-information/tripura",
     title: "Tripura",
