@@ -316,6 +316,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes general awareness botany Botany",
   },
   {
+    href: "/topics/operating-material/brake-van",
+    title: "Brake Van",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material brake van Brake Van G.R. 4.19.6 S.R. 4.19.4.1 BV equipment OTL SLR",
+  },
+  {
     href: "/general-awareness/sports/boxing",
     title: "Boxing",
     category: "General Awareness",
@@ -533,6 +540,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics operating material defective signals Defective Signals warn danger ahead G.R. 3.65 3.66 3.67",
   },
   {
+    href: "/topics/operating-material/defective-vehicles",
+    title: "Defective Vehicles",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material defective vehicles Defective Vehicles G.R. 4.29 hot axle hot box",
+  },
+  {
     href: "/definitions",
     title: "Definitions",
     category: "Reference",
@@ -631,6 +645,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics engine on load Engine On Load",
   },
   {
+    href: "/topics/operating-material/engine-pushing",
+    title: "Engine Pushing",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material engine pushing Engine Pushing G.R. S.R. 4.12 push back",
+  },
+  {
     href: "/topics/information-technology-apps/ess",
     title: "ESS",
     category: "Study Topics",
@@ -721,6 +742,13 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Topics › Operating Material",
     keywords: "topics operating material flare signals Flare Signals warning Red flag Red flashing lamp",
+  },
+  {
+    href: "/topics/operating-material/flat-tyre",
+    title: "Flat Tyre",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material flat tyre Flat Tyre TXR USFD SR 30 kmph",
   },
   {
     href: "/topics/information-technology-apps/fois",
@@ -2069,6 +2097,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics operating material train Train G.R. 1.02(58)",
   },
   {
+    href: "/topics/operating-material/train-manager",
+    title: "Train Manager",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material train manager Train Manager without guard S.R. 4.25.4 ZRTI",
+  },
+  {
     href: "/topics/transfers",
     title: "Transfers",
     category: "Study Topics",
@@ -2126,6 +2161,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness states information uttarakhand Uttarakhand",
   },
   {
+    href: "/topics/operating-material/vehicle-guidance",
+    title: "Vehicle Guidance",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material vehicle guidance Vehicle Guidance VG S.R. 4.25.3 TNC handbook",
+  },
+  {
     href: "/topics/operating-material/visibility-test-object",
     title: "Visibility Test Object",
     category: "Study Topics",
@@ -2173,6 +2215,13 @@ export const searchTopics: SearchTopic[] = [
     category: "General Awareness",
     parent: "General Awareness",
     keywords: "general awareness wildlife sanctuaries Wildlife Sanctuaries",
+  },
+  {
+    href: "/topics/operating-material/working-time-table",
+    title: "Working Time Table",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material working time table Working Time Table WTT G.R. 4.07 PCOM",
   },
   {
     href: "/manuals/working-time-table",

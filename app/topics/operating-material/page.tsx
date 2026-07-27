@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { AlertTriangle, ArrowLeftRight, BadgeCheck, BetweenHorizontalEnd, BetweenHorizontalStart, Bomb, BrickWall, Building2, ChevronsRight, CircleCheck, CircleDot, CirclePlay, Combine, Copy, CornerDownRight, Eye, FileCheck, Flame, Forward, GitBranch, GitFork, Hand, House, KeyRound, Layers, LogIn, LogOut, Milestone, MoreHorizontal, MoveHorizontal, OctagonX, PanelTop, PhoneCall, Play, Repeat, Route, Ruler, ShieldCheck, Signal, SignalHigh, SignalLow, SignalMedium, Signpost, Siren, Spline, Split, TrainFront, TriangleAlert, Unlink, Unplug, UserRoundCog, Waypoints, Workflow, Wrench } from 'lucide-react'
+import { AlertTriangle, ArrowLeftRight, BadgeCheck, BetweenHorizontalEnd, BetweenHorizontalStart, Bomb, BrickWall, Building2, CalendarClock, ChevronsRight, CircleCheck, CircleDashed, CircleDot, CirclePlay, ClipboardList, Combine, Copy, CornerDownRight, Eye, FileCheck, Flame, Forward, GitBranch, GitFork, Hand, HardHat, House, KeyRound, Layers, LogIn, LogOut, Milestone, MoreHorizontal, MoveHorizontal, MoveRight, OctagonX, Package, PackageX, PanelTop, PhoneCall, Play, Repeat, Route, Ruler, ShieldCheck, Signal, SignalHigh, SignalLow, SignalMedium, Signpost, Siren, Spline, Split, TrainFront, TriangleAlert, Unlink, Unplug, UserRoundCog, Waypoints, Workflow, Wrench } from 'lucide-react'
 
 const topics = [
   {
@@ -39,6 +39,11 @@ const topics = [
     icon: Split,
   },
   {
+    href: '/topics/operating-material/brake-van',
+    title: 'Brake Van',
+    icon: Package,
+  },
+  {
     href: '/topics/operating-material/calling-on-signal',
     title: 'Calling On Signal',
     icon: PhoneCall,
@@ -57,6 +62,11 @@ const topics = [
     href: '/topics/operating-material/defective-signals',
     title: 'Defective Signals',
     icon: Siren,
+  },
+  {
+    href: '/topics/operating-material/defective-vehicles',
+    title: 'Defective Vehicles',
+    icon: PackageX,
   },
   {
     href: '/topics/operating-material/despatch-signals',
@@ -84,6 +94,11 @@ const topics = [
     icon: Wrench,
   },
   {
+    href: '/topics/operating-material/engine-pushing',
+    title: 'Engine Pushing',
+    icon: MoveRight,
+  },
+  {
     href: '/topics/operating-material/facing-trailing-points',
     title: 'Facing and Trailing Points',
     icon: GitFork,
@@ -97,6 +112,11 @@ const topics = [
     href: '/topics/operating-material/flare-signals',
     title: 'Flare Signals',
     icon: Flame,
+  },
+  {
+    href: '/topics/operating-material/flat-tyre',
+    title: 'Flat Tyre',
+    icon: CircleDashed,
   },
   {
     href: '/topics/operating-material/fouling-mark',
@@ -270,6 +290,16 @@ const topics = [
     icon: TrainFront,
   },
   {
+    href: '/topics/operating-material/train-manager',
+    title: 'Train Manager',
+    icon: HardHat,
+  },
+  {
+    href: '/topics/operating-material/vehicle-guidance',
+    title: 'Vehicle Guidance',
+    icon: ClipboardList,
+  },
+  {
     href: '/topics/operating-material/visibility-test-object',
     title: 'Visibility Test Object',
     icon: Eye,
@@ -278,6 +308,11 @@ const topics = [
     href: '/topics/operating-material/warner-signal',
     title: 'Warner Signal',
     icon: TriangleAlert,
+  },
+  {
+    href: '/topics/operating-material/working-time-table',
+    title: 'Working Time Table',
+    icon: CalendarClock,
   },
 ]
 

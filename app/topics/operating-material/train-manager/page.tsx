@@ -2,62 +2,60 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { ChevronsRight } from 'lucide-react'
+import { HardHat } from 'lucide-react'
 
-const items = [
+const points = [
+  { num: 1, text: 'Only qualified Guards with valid ZRTI competency certificates issued by Principal/ZRTI shall be booked for duty, and the booking official must ensure this.' },
+  { num: 2, text: 'In exceptional circumstances, only trains not carrying passengers may be run without Guard with the specific orders of Sr. DOM.' },
+  { num: 3, text: 'Such trains shall have a brake van or SLR as the rearmost vehicle.' },
   {
-    roman: 'i',
-    text: 'When a train leaving a station is guided by more than one starter signal, the outermost signal is the LSS of the station and is called the Advanced Starter.',
+    num: 4,
+    text: 'Under exceptional circumstances, short formation trains not carrying passengers, not exceeding 10 eight-wheeler units, may be run without guard and without brake van/SLR.',
+  },
+  { num: 5, text: 'Some of the duties of Guard shall devolve on the Loco Pilot and Assistant Loco Pilot.' },
+  { num: 6, text: 'It should be ensured that the train is provided with continuous air pressure from the engine to the rearmost vehicle.' },
+  { num: 7, text: 'Loco Pilot shall ensure that the required amount of air pressure is provided in the brake van before signing BPC.' },
+  {
+    num: 8,
+    text: 'Last vehicle indicator (Tail Board/Tail Lamp) shall be fixed to the tail end of the rear-most vehicle by Station Staff. The Loco Pilot shall ensure provision of the same.',
+  },
+  { num: 9, text: "SM shall issue caution order to the LP with an endorsement 'train is to run without Guard'." },
+  {
+    num: 10,
+    text: 'SM shall advise SCOR under exchange of PNs who will inform the Station Masters en route. The SM will inform END cabins and gates/gatemen under exchange of PNs.',
   },
   {
-    roman: 'ii',
-    text: 'It is interlocked with block instruments where there is no provision of Intermediate Block (IB) signal.',
+    num: 10,
+    text: 'The Station Master to inform the end cabins, where provided, and Gatemen of all the LC gates en route provided with telephonic communication under exchange of Private Numbers.',
   },
   {
-    roman: 'iii',
-    text: 'It shall be fixed at the limit beyond which no train may pass, unless Loco Pilot is given the Authority to Proceed (ATP).',
+    num: 11,
+    text: 'Where IB signal is provided, the SM shall not dispatch a passenger carrying train up to IBS unless the train without Guard reaches the station ahead.',
   },
   {
-    roman: 'iv',
-    text: 'Normally, it shall be placed outside all connections.',
+    num: 11,
+    text: 'In Automatic block system, no passenger carrying train shall be allowed to follow the goods train without Guard until it reaches to next block station. If a non-passenger carrying train with Guard and BV or Light Engine/Track machine / Towerwagon / self-propelled vehiclehas been sent, then as a next train a passenger carrying train can be sent.',
   },
   {
-    roman: 'v',
-    text: 'At class ‗B‘ station, it demarcates the station section and the block section.',
+    num: 12,
+    text: 'The SM shall ensure that the train has arrived complete and is standing clear of the fouling mark if such a train stops at a station.',
   },
   {
-    roman: 'vi',
-    text: 'On single line tokenless sections and on double line, taking off Advanced Starter is normal ATP.',
+    num: 13,
+    text: 'During tempestuous weather, total interruption of communication and TSL working, running of trains without Guard is strictly prohibited.',
   },
-  {
-    roman: 'vii',
-    text: 'While taking off departure signals, the Advanced Starter shall be taken off first and then the starter/starters.',
-  },
-  {
-    roman: 'viii',
-    text: 'On a double line section, it shall be placed at a distance of 180 meters from Starter.',
-  },
-  {
-    roman: 'ix',
-    text: 'On a single line section, it shall be placed from the trailing points at a distance of 120 meters on MAS.',
-  },
-  {
-    roman: 'x',
-    text: 'It shall not be taken off for shunting purposes.',
-  },
+  { num: 14, text: 'Extra detonators should be carried by the Loco Pilot.' },
+  { num: 15, text: 'While going for protection, care shall be taken that Loco is not deserted if it is on rails.' },
 ]
 
-const defectivePoints = [
-  'SM shall obtain line clear through electrical speaking instrument.',
-  'Follow the procedure as mentioned in block working message (BWM) to be written in Train Signal Register (TSR) by both SMs in red ink.',
-  'Authorise the Loco Pilot by issuing PLCT.',
-  'SM shall fill T/A 1425 in one copy.',
-  'As per direction of a train, hand over T/C 1425 or T/D 1425 and PN should be written which is available on T/A 1425.',
-  'Obtain LP signature on T/C or T/D 1425 form.',
-  'If signal detects any points, exhibition of Proceed Hand Signal is compulsory.',
+const troubleEnRoute = [
+  'Assistant Loco Pilot should check and attend the trouble.',
+  'Within station limits, the help of C&W staff or pointsman should be taken.',
+  'The Assistant should ensure the continuity.',
+  'The Loco Pilot should regulate the speed depending on the ‗feel test‘ conducted by him.',
 ]
 
-const AdvancedStarterPage = () => {
+const TrainManagerPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-slate-950 via-[#0d1117] to-slate-950" />
@@ -71,48 +69,47 @@ const AdvancedStarterPage = () => {
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
 
             <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-amber-400/25 to-orange-600/30 ring-1 ring-amber-400/40 shadow-lg shadow-amber-950/40 animate-[soft-pulse_3.5s_ease-in-out_infinite]">
-              <ChevronsRight className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
+              <HardHat className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
             </div>
 
-            <h1 className="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-4xl md:text-[2.5rem]">
-              Advanced Starter
+            <h1 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl md:text-3xl leading-snug">
+              Running of Trains Without Guard for not carrying passengers(S.R. 4.25.4)
             </h1>
             <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-linear-to-r from-amber-400 to-orange-500" />
           </header>
 
-          <ul className="space-y-3 px-5 py-8 sm:px-10 sm:py-10">
-            {items.map((item, index) => (
+          <ol className="space-y-3 px-5 py-8 sm:px-10 sm:py-10">
+            {points.map((item, index) => (
               <li
-                key={item.roman}
+                key={`${item.num}-${index}`}
                 className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
-                style={{ animation: `fade-up 0.55s ease-out ${0.05 * (index + 1)}s both` }}
+                style={{ animation: `fade-up 0.55s ease-out ${0.03 * (index + 1)}s both` }}
               >
                 <span className="mt-0.5 inline-flex h-7 min-w-9 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 px-1.5 text-xs font-bold text-amber-100 ring-1 ring-amber-400/35">
-                  {item.roman}
+                  {item.num}
                 </span>
                 <p className="pt-0.5 text-[15px] leading-[1.75] text-slate-300 sm:text-base">{item.text}</p>
               </li>
             ))}
-          </ul>
+          </ol>
         </article>
 
         <article
           className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
-          style={{ animation: 'fade-up 0.55s ease-out 0.25s both' }}
+          style={{ animation: 'fade-up 0.55s ease-out 0.3s both' }}
         >
           <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
             <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl leading-snug">
-              Advanced Starter Defective (AS NO 16 I.23 & 39 of 14.06.24)
+              When encountering trouble en-route:
             </h2>
           </header>
 
           <ul className="space-y-3 px-5 py-7 sm:px-8 sm:py-9">
-            {defectivePoints.map((text, index) => (
+            {troubleEnRoute.map((text) => (
               <li
-                key={index}
+                key={text}
                 className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
-                style={{ animation: `fade-up 0.55s ease-out ${0.3 + 0.04 * (index + 1)}s both` }}
               >
                 <span className="mt-0.5 shrink-0 text-amber-300" aria-hidden>
                   →
@@ -163,4 +160,4 @@ const AdvancedStarterPage = () => {
   )
 }
 
-export default AdvancedStarterPage
+export default TrainManagerPage

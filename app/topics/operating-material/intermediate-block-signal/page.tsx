@@ -60,6 +60,36 @@ const normalWorking = [
   { letter: 'i', text: 'Rear SM can take off IB signal.' },
 ]
 
+const smAwareBeforeDispatch = [
+  'Suspend the IB working.',
+  'Treat entire section as one block section.',
+  'Obtain line clear from SM of advance block station.',
+  'If any LC gate is interlocked with IB signal, it shall be treated as non-interlocked.',
+  'Ensure closure of LC gate by exchange of PN with gateman, all particulars to be recorded in T/A or T/B 1425.',
+  "Issue combined authority to Loco Pilot to pass LSS and IB stop signal at 'ON', i.e., PLCT T/C or T/D 1425.",
+  'LP may proceed with normal speed.',
+]
+
+const lpFindsIbOn = [
+  "LP shall stop the train before IB signal and contact SM of rear station on IB telephone.",
+  "If block section is free and line clear is obtained, SM shall authorise the Loco Pilot to pass IB signal at 'ON' by giving PN obtained from advance SM, duly ensuring closure of LC gates if any, interlocked with such IB signal.",
+  'Loco Pilot can pass the IB signal with normal speed.',
+]
+
+const telephoneOutOfOrder = [
+  'After waiting for 5 minutes, LP shall pass the signal at ‗ON‘ and in case any LC gates are interlocked with IB signal, follow gate rules (G.R. 3.73).',
+  'Proceed with a restricted speed of 15 kmph when view is clear and 8 kmph when view is not clear up to the FSS of next station, even if that signal and the intervening signals, if any, display ‗off‘ aspect. The Loco Pilot shall act upon the aspect of the FSS of the station in advance only after he has reached the FSS.',
+  'When LP passes IB at ON, rear SM gets K1 indication with buzzer.',
+  'Advise the advance SM particulars of train which passed IB at ON.',
+  'In case any train is occupied in IB section, intimate LP through gatemen if any LC gates are available.',
+  'By switching ―off‖ OHE through CTO TPC.',
+  'By advance SM issuing caution order to LP of adjacent line trains.',
+  'SM of rear shall ensure clearance of block section from advance SM.',
+  'By exchanging private numbers and record the same by both SMs in TSR in red ink.',
+  'The Loco Pilot must report the failure to the SM of the block section ahead.',
+  'Compulsory red ink entries in TSR & station diary.',
+]
+
 const IntermediateBlockSignalPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
@@ -180,6 +210,77 @@ const IntermediateBlockSignalPage = () => {
                 On single line (IB section), first the direction of traffic shall be established and then the line clear shall be obtained from the block section in advance as per the established direction of traffic. Only after establishing the direction of traffic, the train movement in the station controlled Intermediate block section shall be permitted.
               </p>
             </div>
+          </div>
+        </article>
+
+        <article
+          className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
+          style={{ animation: 'fade-up 0.55s ease-out 0.3s both' }}
+        >
+          <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
+            <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
+            <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl leading-snug">
+              IB Signal Defective (S.R. 3.75) (AS NO 16 I.35 & 37 of 14.06.24)
+            </h2>
+          </header>
+
+          <div className="space-y-8 px-5 py-7 sm:px-8 sm:py-9">
+            <section className="space-y-3">
+              <p className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 text-[15px] leading-[1.75] text-slate-300 ring-1 ring-white/4 sm:p-5 sm:text-base">
+                When SM of rear is aware that the IB stop signal is defective or T.C/A.C failed or LSS failed or IB Distant failed or Block Instrument failed before dispatching a train:
+              </p>
+              <ol className="space-y-3">
+                {smAwareBeforeDispatch.map((text, index) => (
+                  <li
+                    key={text}
+                    className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
+                  >
+                    <span className="mt-0.5 inline-flex h-7 min-w-9 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 px-1.5 text-xs font-bold text-amber-100 ring-1 ring-amber-400/35">
+                      {index + 1}
+                    </span>
+                    <p className="pt-0.5 text-[15px] leading-[1.75] text-slate-300 sm:text-base">{text}</p>
+                  </li>
+                ))}
+              </ol>
+            </section>
+
+            <section className="space-y-3">
+              <h3 className="border-l-4 border-amber-500/70 pl-3 text-lg font-bold text-amber-100 sm:text-xl">
+                When Loco Pilot finds an IB signal at &apos;ON&apos;:
+              </h3>
+              <ul className="space-y-3">
+                {lpFindsIbOn.map((text) => (
+                  <li
+                    key={text}
+                    className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
+                  >
+                    <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 text-sm font-bold text-amber-100 ring-1 ring-amber-400/35">
+                      ✓
+                    </span>
+                    <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{text}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section className="space-y-3">
+              <h3 className="border-l-4 border-amber-500/70 pl-3 text-lg font-bold text-amber-100 sm:text-xl">
+                If the telephone is out of order (AS NO 16 I.36 of 14.06.24):
+              </h3>
+              <ul className="space-y-3">
+                {telephoneOutOfOrder.map((text) => (
+                  <li
+                    key={text}
+                    className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
+                  >
+                    <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 text-sm font-bold text-amber-100 ring-1 ring-amber-400/35">
+                      ✓
+                    </span>
+                    <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{text}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
           </div>
         </article>
 

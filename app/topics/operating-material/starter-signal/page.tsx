@@ -35,6 +35,13 @@ const items = [
   },
 ]
 
+const despatchWays = [
+  'By taking off calling-on signal where provided, or',
+  'By authorising the Loco Pilot with T/369(3b) plus Proceed Hand Signal (PHS) at the foot of the signal, duly ensuring correct setting, clamping, and padlocking of the points over the route.',
+]
+
+const combinedAuthority =
+  'In case starter or intermediate starter along with advance starter is defective, SM shall issue Combined Authority as per direction-wise (T/C or T/D 1425), which must be printed only.'
 const StarterSignalPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
@@ -74,8 +81,57 @@ const StarterSignalPage = () => {
           </ul>
         </article>
 
-        <div className="mt-10 flex justify-center">
-          <Link
+        <article
+          className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
+          style={{ animation: 'fade-up 0.55s ease-out 0.25s both' }}
+        >
+          <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
+            <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
+            <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl md:text-3xl leading-snug">
+              Departure Signal Defective (G.R. & S.R. 3.70)
+            </h2>
+          </header>
+
+          <div className="space-y-4 px-5 py-7 sm:px-8 sm:py-9">
+            <h3 className="border-l-4 border-amber-500/70 pl-3 text-lg font-bold text-amber-100 sm:text-xl">
+              Starter / Intermediate Starter Defective (AS NO 16 I.23 of 14.06.24)
+            </h3>
+
+            <div className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 sm:p-5">
+              <div className="flex gap-3">
+                <span className="mt-0.5 shrink-0 text-amber-300" aria-hidden>
+                  →
+                </span>
+                <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">
+                  Train shall be brought to a stand and train can be despatched:
+                </p>
+              </div>
+
+              <ul className="mt-3 space-y-2.5 sm:pl-8">
+                {despatchWays.map((text) => (
+                  <li
+                    key={text}
+                    className="flex gap-3 rounded-xl border border-slate-600/30 bg-slate-950/40 p-3.5 ring-1 ring-white/3"
+                  >
+                    <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 text-sm font-bold text-amber-100 ring-1 ring-amber-400/35">
+                      ✓
+                    </span>
+                    <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{text}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5">
+              <span className="mt-0.5 shrink-0 text-amber-300" aria-hidden>
+                →
+              </span>
+              <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{combinedAuthority}</p>
+            </div>
+          </div>
+        </article>
+
+        <div className="mt-10 flex justify-center">          <Link
             href="/topics/operating-material"
             className="group inline-flex items-center gap-2 rounded-full border border-amber-400/25 bg-slate-900/70 px-4 py-2 text-sm font-medium text-amber-100 shadow-lg shadow-black/15 ring-1 ring-amber-500/10 transition hover:border-amber-300/45 hover:bg-slate-900/90"
           >
