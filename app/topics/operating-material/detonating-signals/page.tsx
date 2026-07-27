@@ -2,40 +2,30 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { GitFork } from 'lucide-react'
+import { Bomb } from 'lucide-react'
 
-const points = [
-  'Points are facing or trailing in accordance with the direction a train or vehicle moves over them. Points are said to be facing points when, by their operation, a train approaching them can be directly diverted from the line upon which it is running. (G.R. 1.02(20))',
-  'Points are connections between lines. They are used to divert the train from one line to another with either mechanical or electrical operation. Generally, points have two ends.',
-  'Points are said to be facing which, when operated, can divert the movement of train from one line to another.',
-  'Points are said to be trailing which, when operated, guide the movement of train that were diverted by facing points.',
-  'So points become facing or trailing depending on the direction of train over which they pass.',
+const points = ['DETONATING SIGNALS = Detonators or Fog signals']
+
+const fogSignalPoints = [
+  'It is an audible signal used to attract the attention of the Loco Pilot.',
+  'The detonator consists of a metal disc charged with explosive and capable of being fixed on the rail head by means of metal clasps.',
+  'For use, a detonator shall be placed on the center of the head of the rail with the label upwards and shall be securely fastened to the rail by bending the clasps.',
+  'When an engine or vehicle passes over it, it explodes with a loud sound so as to attract the attention of the Loco Pilot.',
+  'A case containing ten detonators shall be supplied to Loco Pilot, Guard, Gang mate, Gatemen, patrol men, Trolly/lorry, TT machine operator, Loco Pilot of Tower car. 20 detonators to fog signal men and 8 for key man.',
+  'The normal life of detonator manufactured in 2010 and thereafter is 5 years.',
+  'Life can be extended by one year each time after testing, to a maximum of 3 extensions.',
+  'Detonators shall be tested once in 12 months.',
+  'Detonator shall be tested under an empty wagon moving at 8 to 11 Kmph.',
+  'In thick and foggy weather, to indicate the Loco Pilot about the location of signals, two detonators shall be placed at a distance of 270 m from First Stop signal, 10 meters apart.',
+  'In case of obstruction, one detonator shall be placed at a distance of 600 m, and three detonators at 1200 m, 10 m apart from obstruction.',
+  'A safety radius of 45 meters should be maintained during explosion.',
+  'Detonators shall be carefully handled and they shall be stored in a dry place.',
+  'Such staff that is expected to use detonators should be tested once in three months.',
+  'A register is maintained in SM office (consists of four parts).',
+  'All particulars of usage of detonators etc. to be recorded by ―ON Duty‖ SM.',
 ]
 
-const differences = [
-  {
-    facing: 'Points are said to be facing when by their operation a train approaching them can be directly diverted from the line upon which it is running',
-    trailing: 'Trailing point cannot divert the train‘s direction',
-  },
-  {
-    facing: 'Facilitates diverging movements',
-    trailing: 'Facilitates converging movements',
-  },
-  {
-    facing: 'Locking is essential before permitting a movement over them',
-    trailing: 'Locking is not essential (except motor operated points)',
-  },
-  {
-    facing: 'Speed over the M/L facing point depends on the type of interlocking',
-    trailing: 'Speed over the M/L trailing points is not prescribed',
-  },
-  {
-    facing: 'Trains pass from toe end',
-    trailing: 'Trains pass from heel end',
-  },
-]
-
-const FacingTrailingPointsPage = () => {
+const DetonatingSignalsPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-slate-950 via-[#0d1117] to-slate-950" />
@@ -49,11 +39,11 @@ const FacingTrailingPointsPage = () => {
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
 
             <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-amber-400/25 to-orange-600/30 ring-1 ring-amber-400/40 shadow-lg shadow-amber-950/40 animate-[soft-pulse_3.5s_ease-in-out_infinite]">
-              <GitFork className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
+              <Bomb className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
             </div>
 
             <h1 className="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-4xl md:text-[2.5rem]">
-              Facing and Trailing Points
+              DETONATING SIGNALS
             </h1>
             <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-linear-to-r from-amber-400 to-orange-500" />
           </header>
@@ -66,7 +56,7 @@ const FacingTrailingPointsPage = () => {
                 style={{ animation: `fade-up 0.55s ease-out ${0.08 * (index + 1)}s both` }}
               >
                 <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400/25 via-amber-500/20 to-orange-600/25 text-amber-100 shadow-inner shadow-black/20 ring-1 ring-amber-400/35 transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10">
-                  <GitFork className="h-5 w-5" strokeWidth={2} />
+                  <Bomb className="h-5 w-5" strokeWidth={2} />
                 </span>
                 <p className="min-w-0 flex-1 pt-1 text-[15px] leading-[1.75] text-slate-300 sm:text-base">
                   {text}
@@ -78,44 +68,29 @@ const FacingTrailingPointsPage = () => {
 
         <article
           className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
-          style={{ animation: 'fade-up 0.55s ease-out 0.45s both' }}
+          style={{ animation: 'fade-up 0.55s ease-out 0.25s both' }}
         >
           <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
             <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl md:text-3xl leading-snug">
-              Differences Between Facing Point and Trailing Point (G.R.1.02(20), App XI1.3)
+              Fog Signal (Detonator): (G.R/S.R 3.59 to 3.64)
             </h2>
           </header>
 
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-xl border-collapse text-left">
-              <thead>
-                <tr className="border-b border-amber-500/20 bg-slate-950/50">
-                  <th className="w-1/2 px-4 py-4 text-center text-sm font-bold uppercase tracking-wide text-amber-200 sm:px-6 sm:text-base">
-                    Facing Point
-                  </th>
-                  <th className="w-1/2 px-4 py-4 text-center text-sm font-bold uppercase tracking-wide text-amber-200 sm:px-6 sm:text-base">
-                    Trailing Point
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-700/50">
-                {differences.map((row, index) => (
-                  <tr
-                    key={index}
-                    className="bg-slate-900/30 transition-colors hover:bg-slate-900/55"
-                  >
-                    <td className="border-r border-slate-700/40 px-4 py-4 text-[15px] leading-relaxed text-slate-300 sm:px-6 sm:text-base">
-                      {row.facing}
-                    </td>
-                    <td className="px-4 py-4 text-[15px] leading-relaxed text-slate-300 sm:px-6 sm:text-base">
-                      {row.trailing}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <ul className="space-y-3 px-5 py-7 sm:px-8 sm:py-9">
+            {fogSignalPoints.map((text, index) => (
+              <li
+                key={index}
+                className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
+                style={{ animation: `fade-up 0.55s ease-out ${0.04 * (index + 1)}s both` }}
+              >
+                <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 text-sm font-bold text-amber-100 ring-1 ring-amber-400/35">
+                  ✓
+                </span>
+                <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{text}</p>
+              </li>
+            ))}
+          </ul>
         </article>
 
         <div className="mt-10 flex justify-center">
@@ -158,4 +133,4 @@ const FacingTrailingPointsPage = () => {
   )
 }
 
-export default FacingTrailingPointsPage
+export default DetonatingSignalsPage

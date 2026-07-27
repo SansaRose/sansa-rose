@@ -4,13 +4,11 @@ import React from 'react'
 import Link from 'next/link'
 import { Signal } from 'lucide-react'
 
-const points = [
-  'Means a signal of fixed location indicating a condition affecting the movement of a train and includes a semaphore arm or disc or fixed light for use by day and fixed light for use by night. (G.R. 1.02(21))',
-  'It indicates the condition in different positions for controlling the movement of trains.',
-  'There are many types of fixed signals like permissive signals, stop signals, subsidiary signals and duplicate signals. Their place is fixed.',
-  'They are designed to use during both day and night.',
-  'Fixed signals when fixed must be visible to loco pilots.',
-  'They are fixed on left side of track generally.',
+const fourTypes = [
+  { roman: 'I', title: 'FIXED SIGNALS' },
+  { roman: 'II', title: 'HAND SIGNALS' },
+  { roman: 'III', title: 'DETONATING SIGNALS' },
+  { roman: 'IV', title: 'FLARE (WARNING SIGNALS)' },
 ]
 
 const stopSignalSubtypes = [
@@ -19,7 +17,13 @@ const stopSignalSubtypes = [
   { letter: 'c', text: 'Other Signals = Gate, IB, Automatic signals' },
 ]
 
-const FixedSignalPage = () => {
+const handSignals = [
+  { roman: 'i', text: 'Hand signal flags' },
+  { roman: 'ii', text: 'Hand signal lamp' },
+  { roman: 'iii', text: 'Bare hands' },
+]
+
+const SignalsPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-slate-950 via-[#0d1117] to-slate-950" />
@@ -37,32 +41,38 @@ const FixedSignalPage = () => {
             </div>
 
             <h1 className="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-4xl md:text-[2.5rem]">
-              Fixed Signal
+              Signals
             </h1>
             <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-linear-to-r from-amber-400 to-orange-500" />
           </header>
 
-          <div className="space-y-4 px-5 py-8 sm:px-10 sm:py-10">
-            {points.map((text, index) => (
-              <div
-                key={index}
-                className="group flex gap-3.5 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 shadow-sm ring-1 ring-white/4 transition-all duration-300 hover:border-amber-500/30 hover:bg-slate-900/60 hover:shadow-md hover:shadow-amber-950/20 sm:gap-5 sm:p-5"
-                style={{ animation: `fade-up 0.55s ease-out ${0.08 * (index + 1)}s both` }}
-              >
-                <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400/25 via-amber-500/20 to-orange-600/25 text-amber-100 shadow-inner shadow-black/20 ring-1 ring-amber-400/35 transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10">
-                  <Signal className="h-5 w-5" strokeWidth={2} />
-                </span>
-                <p className="min-w-0 flex-1 pt-1 text-[15px] leading-[1.75] text-slate-300 sm:text-base">
-                  {text}
-                </p>
-              </div>
-            ))}
+          <div className="space-y-6 px-5 py-8 sm:px-10 sm:py-10">
+            <p className="rounded-2xl border border-amber-500/25 bg-amber-500/10 px-4 py-3 text-[15px] font-semibold leading-relaxed text-amber-100 ring-1 ring-amber-400/15 sm:text-base">
+              In the Indian Railways, there are four types of signals
+            </p>
+
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {fourTypes.map((item, index) => (
+                <li
+                  key={item.roman}
+                  className="flex items-center gap-3.5 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60"
+                  style={{ animation: `fade-up 0.55s ease-out ${0.08 * (index + 1)}s both` }}
+                >
+                  <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400/25 to-orange-600/25 text-sm font-bold text-amber-100 ring-1 ring-amber-400/35">
+                    {item.roman}
+                  </span>
+                  <span className="text-[15px] font-semibold leading-snug text-slate-200 sm:text-base">
+                    {item.title}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </div>
         </article>
 
         <article
           className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
-          style={{ animation: 'fade-up 0.55s ease-out 0.25s both' }}
+          style={{ animation: 'fade-up 0.55s ease-out 0.2s both' }}
         >
           <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
@@ -110,6 +120,68 @@ const FixedSignalPage = () => {
           </div>
         </article>
 
+        <article
+          className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
+          style={{ animation: 'fade-up 0.55s ease-out 0.3s both' }}
+        >
+          <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
+            <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
+            <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl md:text-3xl leading-snug">
+              HAND SIGNALS
+            </h2>
+          </header>
+
+          <ul className="space-y-3 px-5 py-7 sm:px-8 sm:py-9">
+            {handSignals.map((item) => (
+              <li
+                key={item.roman}
+                className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60"
+              >
+                <span className="mt-0.5 inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 px-1.5 text-xs font-bold text-amber-100 ring-1 ring-amber-400/35">
+                  {item.roman}
+                </span>
+                <p className="pt-0.5 text-[15px] leading-relaxed text-slate-300 sm:text-base">{item.text}</p>
+              </li>
+            ))}
+          </ul>
+        </article>
+
+        <div className="mt-8 grid gap-5 sm:grid-cols-2">
+          <article
+            className="overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
+            style={{ animation: 'fade-up 0.55s ease-out 0.4s both' }}
+          >
+            <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-5 sm:px-6">
+              <div className="absolute inset-x-6 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
+              <h2 className="text-center text-lg font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-xl leading-snug">
+                DETONATING SIGNALS
+              </h2>
+            </header>
+            <div className="px-5 py-6 sm:px-6">
+              <p className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 text-center text-[15px] leading-relaxed text-slate-300 ring-1 ring-white/4 sm:text-base">
+                Detonators
+              </p>
+            </div>
+          </article>
+
+          <article
+            className="overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
+            style={{ animation: 'fade-up 0.55s ease-out 0.45s both' }}
+          >
+            <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-5 sm:px-6">
+              <div className="absolute inset-x-6 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
+              <h2 className="text-center text-lg font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-xl leading-snug">
+                FLARE (WARNING) SIGNALS
+              </h2>
+            </header>
+            <div className="px-5 py-6 sm:px-6">
+              <p className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 text-center text-[15px] leading-relaxed text-slate-300 ring-1 ring-white/4 sm:text-base">
+                Red flag, Red flashing lamp
+              </p>
+            </div>
+          </article>
+        </div>
+
         <div className="mt-10 flex justify-center">
           <Link
             href="/topics/operating-material"
@@ -150,4 +222,4 @@ const FixedSignalPage = () => {
   )
 }
 
-export default FixedSignalPage
+export default SignalsPage

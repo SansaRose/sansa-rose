@@ -2,13 +2,17 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { ShieldCheck } from 'lucide-react'
+import { BetweenHorizontalEnd } from 'lucide-react'
 
 const points = [
-  'Means a radio communication-based control system, provided as an additional aid to Loco Pilots of functional Kavach fitted locomotives, in Kavach territory, the use of which shall in no way infringe or override the provisions (codes and manuals) of regular train operation required to be followed by Loco Pilot. (AS 20)',
+  'Signal overlap is an adequate distance that has to be kept clear before taking off the Home signal.It is reckoned from trailing points on single line and from Starter on double line, not less than 120 meters (MAS).',
+  'In MAS double line:-Between Starter and Advanced Starter.',
+  'On single line MAS:-Between trailing point and Advanced Starter / SLB or for an adequate distance beyond the place at which the train is required to come to a stop.',
+  'Sand hump, dead end / buffer stop are used as a substitute for signal overlap.',
+  'Adequate distance to take off Automatic signal beyond next stop signal is 120 meters on double line.',
 ]
 
-const KavachPage = () => {
+const SignalOverlapPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-slate-950 via-[#0d1117] to-slate-950" />
@@ -22,11 +26,11 @@ const KavachPage = () => {
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
 
             <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-amber-400/25 to-orange-600/30 ring-1 ring-amber-400/40 shadow-lg shadow-amber-950/40 animate-[soft-pulse_3.5s_ease-in-out_infinite]">
-              <ShieldCheck className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
+              <BetweenHorizontalEnd className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
             </div>
 
-            <h1 className="text-center text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-3xl md:text-4xl leading-snug">
-              Indian Railway Automatic Train Protection System (IR-ATP) (Kavach)
+            <h1 className="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-4xl md:text-[2.5rem]">
+              Signal Overlap
             </h1>
             <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-linear-to-r from-amber-400 to-orange-500" />
           </header>
@@ -39,38 +43,13 @@ const KavachPage = () => {
                 style={{ animation: `fade-up 0.55s ease-out ${0.08 * (index + 1)}s both` }}
               >
                 <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400/25 via-amber-500/20 to-orange-600/25 text-amber-100 shadow-inner shadow-black/20 ring-1 ring-amber-400/35 transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10">
-                  <ShieldCheck className="h-5 w-5" strokeWidth={2} />
+                  <BetweenHorizontalEnd className="h-5 w-5" strokeWidth={2} />
                 </span>
                 <p className="min-w-0 flex-1 pt-1 text-[15px] leading-[1.75] text-slate-300 sm:text-base">
                   {text}
                 </p>
               </div>
             ))}
-          </div>
-        </article>
-
-        <article
-          className="mt-8 overflow-hidden rounded-3xl border border-slate-500/30 bg-slate-900/50 shadow-[0_24px_80px_-12px_rgba(0,0,0,0.55)] ring-1 ring-white/6 backdrop-blur-xl"
-          style={{ animation: 'fade-up 0.55s ease-out 0.25s both' }}
-        >
-          <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
-            <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
-            <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl md:text-3xl leading-snug">
-              S.R. 3.26.4
-            </h2>
-          </header>
-
-          <div className="space-y-4 px-5 py-7 sm:px-8 sm:py-9">
-            <div className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 sm:p-5">
-              <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">
-                In IR-ATP (Kavach) territory, whenever a new signal is installed or an existing signal is shifted/modified, the Signal Sighting Committee must inspect and certify that the line-side signal position and aspect correctly correspond with the on-board signal and its aspect shown on the DMI of an IR-ATP–fitted loco before commissioning.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-amber-500/25 bg-amber-500/10 px-4 py-3 ring-1 ring-amber-400/15 sm:px-5 sm:py-4">
-              <p className="text-[15px] font-semibold leading-relaxed text-amber-100 sm:text-base">
-                A Kavach-fitted loco must be used for Signal Sighting Committee inspections at least once every quarter.
-              </p>
-            </div>
           </div>
         </article>
 
@@ -114,4 +93,4 @@ const KavachPage = () => {
   )
 }
 
-export default KavachPage
+export default SignalOverlapPage

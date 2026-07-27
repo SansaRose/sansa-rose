@@ -1,8 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
-import { AlertTriangle, ArrowLeftRight, BadgeCheck, Building2, CircleCheck, CirclePlay, Combine, FileCheck, Forward, GitFork, Milestone, Route, ShieldCheck, Signal, SignalHigh, Split, TrainFront, Unlink, UserRoundCog, Workflow } from 'lucide-react'
+import { AlertTriangle, ArrowLeftRight, BadgeCheck, BetweenHorizontalEnd, BetweenHorizontalStart, Bomb, BrickWall, Building2, ChevronsRight, CircleCheck, CircleDot, CirclePlay, Combine, Copy, CornerDownRight, Eye, FileCheck, Flame, Forward, GitBranch, GitFork, Hand, House, KeyRound, Layers, LogIn, LogOut, Milestone, MoreHorizontal, MoveHorizontal, OctagonX, PanelTop, PhoneCall, Play, Repeat, Route, Ruler, ShieldCheck, Signal, SignalHigh, SignalLow, SignalMedium, Signpost, Siren, Spline, Split, TrainFront, TriangleAlert, Unlink, Unplug, UserRoundCog, Waypoints, Workflow, Wrench } from 'lucide-react'
 
 const topics = [
+  {
+    href: '/topics/operating-material/adequate-distance',
+    title: 'Adequate Distance',
+    icon: Ruler,
+  },
+  {
+    href: '/topics/operating-material/advanced-starter',
+    title: 'Advanced Starter',
+    icon: ChevronsRight,
+  },
   {
     href: '/topics/operating-material/authorised-officer',
     title: 'Authorised Officer',
@@ -19,9 +29,59 @@ const topics = [
     icon: Forward,
   },
   {
+    href: '/topics/operating-material/block-overlap',
+    title: 'Block Overlap',
+    icon: BetweenHorizontalStart,
+  },
+  {
     href: '/topics/operating-material/block-section',
     title: 'Block Section',
     icon: Split,
+  },
+  {
+    href: '/topics/operating-material/calling-on-signal',
+    title: 'Calling On Signal',
+    icon: PhoneCall,
+  },
+  {
+    href: '/topics/operating-material/catch-slip-siding',
+    title: 'Catch / Slip Siding',
+    icon: CornerDownRight,
+  },
+  {
+    href: '/topics/operating-material/coacting-signal',
+    title: 'Co-acting Signal',
+    icon: Copy,
+  },
+  {
+    href: '/topics/operating-material/defective-signals',
+    title: 'Defective Signals',
+    icon: Siren,
+  },
+  {
+    href: '/topics/operating-material/despatch-signals',
+    title: 'Despatch Signals',
+    icon: LogOut,
+  },
+  {
+    href: '/topics/operating-material/detonating-signals',
+    title: 'Detonating Signals',
+    icon: Bomb,
+  },
+  {
+    href: '/topics/operating-material/disconnection-reconnection',
+    title: 'Disconnection and Reconnection',
+    icon: Unplug,
+  },
+  {
+    href: '/topics/operating-material/distant-signal',
+    title: 'Distant Signal',
+    icon: SignalLow,
+  },
+  {
+    href: '/topics/operating-material/emergency-crank-handle',
+    title: 'Emergency Crank Handle',
+    icon: Wrench,
   },
   {
     href: '/topics/operating-material/facing-trailing-points',
@@ -34,9 +94,34 @@ const topics = [
     icon: Signal,
   },
   {
+    href: '/topics/operating-material/flare-signals',
+    title: 'Flare Signals',
+    icon: Flame,
+  },
+  {
     href: '/topics/operating-material/fouling-mark',
     title: 'Fouling Mark',
     icon: Milestone,
+  },
+  {
+    href: '/topics/operating-material/gate-signal',
+    title: 'Gate Signal',
+    icon: BrickWall,
+  },
+  {
+    href: '/topics/operating-material/hand-signals',
+    title: 'Hand Signals',
+    icon: Hand,
+  },
+  {
+    href: '/topics/operating-material/home-signal',
+    title: 'Home Signal',
+    icon: House,
+  },
+  {
+    href: '/topics/operating-material/intermediate-block-signal',
+    title: 'IB Signal',
+    icon: Spline,
   },
   {
     href: '/topics/operating-material/interlocking',
@@ -69,6 +154,51 @@ const topics = [
     icon: AlertTriangle,
   },
   {
+    href: '/topics/operating-material/other-signals',
+    title: 'Other Signals',
+    icon: MoreHorizontal,
+  },
+  {
+    href: '/topics/operating-material/outer-signal',
+    title: 'Outer Signal',
+    icon: CircleDot,
+  },
+  {
+    href: '/topics/operating-material/permissive-signals',
+    title: 'Permissive Signals',
+    icon: SignalMedium,
+  },
+  {
+    href: '/topics/operating-material/point-trap-indicator',
+    title: 'Point Trap Indicator',
+    icon: Signpost,
+  },
+  {
+    href: '/topics/operating-material/points',
+    title: 'Points Affecting the Movement',
+    icon: Waypoints,
+  },
+  {
+    href: '/topics/operating-material/reception-signals',
+    title: 'Reception Signals',
+    icon: LogIn,
+  },
+  {
+    href: '/topics/operating-material/relay-room',
+    title: 'Relay Room',
+    icon: KeyRound,
+  },
+  {
+    href: '/topics/operating-material/repeating-signal',
+    title: 'Repeating Signal',
+    icon: Repeat,
+  },
+  {
+    href: '/topics/operating-material/routing-signal',
+    title: 'Routing Signal',
+    icon: GitBranch,
+  },
+  {
     href: '/topics/operating-material/running-line',
     title: 'Running Line',
     icon: Route,
@@ -79,19 +209,55 @@ const topics = [
     icon: CirclePlay,
   },
   {
+    href: '/topics/operating-material/shunt-signal',
+    title: 'Shunt Signal',
+    icon: MoveHorizontal,
+  },
+  {
     href: '/topics/operating-material/shunting',
     title: 'Shunting',
     icon: ArrowLeftRight,
+  },
+  {
+    href: '/topics/operating-material/shunting-limit-board',
+    title: 'Shunting Limit Board',
+    icon: PanelTop,
+  },
+  {
+    href: '/topics/operating-material/signal-overlap',
+    title: 'Signal Overlap',
+    icon: BetweenHorizontalEnd,
+  },
+  {
+    href: '/topics/operating-material/signals',
+    title: 'Signals',
+    icon: Signal,
   },
   {
     href: '/topics/operating-material/station',
     title: 'Station',
     icon: Building2,
   },
+
   {
     href: '/topics/operating-material/station-master',
     title: 'Station Master',
     icon: UserRoundCog,
+  },
+  {
+    href: '/topics/operating-material/starter-signal',
+    title: 'Starter Signal',
+    icon: Play,
+  },
+  {
+    href: '/topics/operating-material/stop-signals',
+    title: 'Stop Signals',
+    icon: OctagonX,
+  },
+  {
+    href: '/topics/operating-material/subsidiary-signals',
+    title: 'Subsidiary Signals',
+    icon: Layers,
   },
   {
     href: '/topics/operating-material/system-of-working',
@@ -102,6 +268,16 @@ const topics = [
     href: '/topics/operating-material/train',
     title: 'Train',
     icon: TrainFront,
+  },
+  {
+    href: '/topics/operating-material/visibility-test-object',
+    title: 'Visibility Test Object',
+    icon: Eye,
+  },
+  {
+    href: '/topics/operating-material/warner-signal',
+    title: 'Warner Signal',
+    icon: TriangleAlert,
   },
 ]
 

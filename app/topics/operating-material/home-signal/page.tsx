@@ -2,26 +2,57 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Unlink } from 'lucide-react'
+import { House } from 'lucide-react'
 
 const points = [
-  'Means an arrangement, secured by the setting of points or other approved means, to protect the line so isolated from the danger of obstruction from other connected line or lines. (G.R. 1.02(32))',
+  'Home signal is normally provided at all block stations.',
+  'At class ‗A‘ station and class ‗B‘ stations in MAS, Home signal is the first stop signal.',
+  'At class ‗C‘ station it is the FSS and LSS.',
+  'In MAS at class ‗B‘ station, the Home signal is located at a distance of not less than 180 m from station section (outermost facing point/BSLB) on double line and 180 m from advanced starter or shunting limit board on single line or 300 m from outermost facing points where Advanced starter or SLB is not provided.',
+  'Home signal shall not be taken off for shunting purposes.',
 ]
 
-const detailParagraphs = [
-  'Isolation means an arrangement secured by the setting of points or other approved means to protect the line so it is isolated from the danger of obstruction from other connected line or lines.',
-  "By providing isolation, chances of side collision can be averted.Isolation is not required when the speed of run-through trains doesn't exceed 50 kmph.",
+type ConditionItem =
+  | { num: number; text: string }
+  | { num: number; text: string; arrows: string[] }
+
+const conditions: ConditionItem[] = [
+  {
+    num: 1,
+    text: 'When a train is approaching:',
+    arrows: [
+      'On single line, home signal shall not be taken off unless the line is clear for an adequate distance beyond the trailing points or for an adequate distance beyond the place at which the train is required to come to a stand.',
+      'On double line, beyond starter.',
+      'Such adequate distance shall not be less than 120 meters in MAS.',
+    ],
+  },
+  {
+    num: 2,
+    text: 'If the train stops at the home signal:',
+    arrows: [
+      'On single line, the line is clear up to trailing points or place at which the train is required to come to a stop.',
+      'On double line, up to starter.',
+    ],
+  },
+  {
+    num: 3,
+    text: 'At terminal stations or where there is an exception, CRS approval to be taken.',
+  },
+  {
+    num: 4,
+    text: 'Sand hump of approved design / derailing switch (CRS approval) shall be deemed to be efficient substitutes of adequate distance referred above.',
+  },
+  {
+    num: 5,
+    text: 'Adequate distances / any CRS approvals to be indicated in SWR.',
+  },
+  {
+    num: 6,
+    text: 'Whenever a stopping train is to be received on a line not provided with track circuit or axle counter, SM shall ensure that line is free including adequate distance.',
+  },
 ]
 
-const isolationMeans = [
-  'Derailing switch:-When it is open, any vehicle passing over it derails without fouling the other lines.',
-  'Scotch block:-It is a metal or wooden piece placed on a rail ahead of points and locked to prevent movement of any vehicle.',
-  "Haye's Derail:-When it is on a rail, any vehicle passing over it derails.",
-  'Dead end / Buffer stop:-It is an extended siding into a dead end or buffer stop. It traps escaped vehicles.',
-  'Sand hump:-It is a short siding of an approved design ending in a sanded hump and a sharp rising gradient. It traps the escaped vehicles.',
-]
-
-const IsolationPage = () => {
+const HomeSignalPage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0a0c10]">
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-slate-950 via-[#0d1117] to-slate-950" />
@@ -35,11 +66,11 @@ const IsolationPage = () => {
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
 
             <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-amber-400/25 to-orange-600/30 ring-1 ring-amber-400/40 shadow-lg shadow-amber-950/40 animate-[soft-pulse_3.5s_ease-in-out_infinite]">
-              <Unlink className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
+              <House className="h-7 w-7 text-amber-200" strokeWidth={1.75} />
             </div>
 
-            <h1 className="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-4xl md:text-[2.5rem]">
-              Isolation
+            <h1 className="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-4xl md:text-[2.5rem] leading-snug">
+              Home Signal (G.R. 3.09)
             </h1>
             <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-linear-to-r from-amber-400 to-orange-500" />
           </header>
@@ -51,10 +82,10 @@ const IsolationPage = () => {
                 className="group flex gap-3.5 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 shadow-sm ring-1 ring-white/4 transition-all duration-300 hover:border-amber-500/30 hover:bg-slate-900/60 hover:shadow-md hover:shadow-amber-950/20 sm:gap-5 sm:p-5"
                 style={{ animation: `fade-up 0.55s ease-out ${0.08 * (index + 1)}s both` }}
               >
-                <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400/25 via-amber-500/20 to-orange-600/25 text-amber-100 shadow-inner shadow-black/20 ring-1 ring-amber-400/35 transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10">
-                  <Unlink className="h-5 w-5" strokeWidth={2} />
+                <span className="mt-0.5 shrink-0 text-amber-300" aria-hidden>
+                  →
                 </span>
-                <p className="min-w-0 flex-1 pt-1 text-[15px] leading-[1.75] text-slate-300 sm:text-base">
+                <p className="min-w-0 flex-1 text-[15px] leading-[1.75] text-slate-300 sm:text-base">
                   {text}
                 </p>
               </div>
@@ -69,38 +100,42 @@ const IsolationPage = () => {
           <header className="relative border-b border-amber-500/15 bg-linear-to-br from-slate-900/90 via-slate-900/70 to-amber-950/30 px-5 py-6 sm:px-8 sm:py-7">
             <div className="absolute inset-x-8 top-0 h-px bg-linear-to-r from-transparent via-amber-400/40 to-transparent" />
             <h2 className="text-center text-xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 sm:text-2xl md:text-3xl leading-snug">
-              Isolation (G.R. 1.02(32), S.R. 3.50)
+              Conditions for Taking Off Home Signal (G.R./S.R. 3.40)
             </h2>
           </header>
 
-          <div className="space-y-4 px-5 py-7 sm:px-8 sm:py-9">
-            {detailParagraphs.map((text, index) => (
-              <div
-                key={index}
-                className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 sm:p-5"
+          <ol className="space-y-3 px-5 py-7 sm:px-8 sm:py-9">
+            {conditions.map((item, index) => (
+              <li
+                key={item.num}
+                className="rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60 sm:p-5"
+                style={{ animation: `fade-up 0.55s ease-out ${0.3 + 0.04 * (index + 1)}s both` }}
               >
-                <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{text}</p>
-              </div>
-            ))}
-
-            <p className="pt-1 text-[15px] font-semibold leading-relaxed text-amber-100 sm:text-base">
-              The following are the effective means of Isolation:
-            </p>
-
-            <ul className="space-y-3">
-              {isolationMeans.map((text, index) => (
-                <li
-                  key={index}
-                  className="flex gap-3 rounded-2xl border border-slate-600/40 bg-slate-900/40 p-4 ring-1 ring-white/4 transition-colors hover:border-amber-500/30 hover:bg-slate-900/60"
-                >
-                  <span className="mt-0.5 shrink-0 text-amber-300" aria-hidden>
-                    →
+                <div className="flex gap-3">
+                  <span className="mt-0.5 inline-flex h-7 min-w-9 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-amber-400/25 to-orange-600/25 px-1.5 text-xs font-bold text-amber-100 ring-1 ring-amber-400/35">
+                    {item.num}
                   </span>
-                  <p className="text-[15px] leading-relaxed text-slate-300 sm:text-base">{text}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
+                  <p className="pt-0.5 text-[15px] leading-[1.75] text-slate-300 sm:text-base">{item.text}</p>
+                </div>
+
+                {'arrows' in item && item.arrows ? (
+                  <ul className="mt-3 space-y-2.5 sm:pl-12">
+                    {item.arrows.map((arrow) => (
+                      <li
+                        key={arrow}
+                        className="flex gap-3 rounded-xl border border-slate-600/30 bg-slate-950/40 p-3.5 ring-1 ring-white/3"
+                      >
+                        <span className="mt-0.5 shrink-0 text-amber-300" aria-hidden>
+                          →
+                        </span>
+                        <p className="text-[15px] leading-[1.75] text-slate-300 sm:text-base">{arrow}</p>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </li>
+            ))}
+          </ol>
         </article>
 
         <div className="mt-10 flex justify-center">
@@ -143,4 +178,4 @@ const IsolationPage = () => {
   )
 }
 
-export default IsolationPage
+export default HomeSignalPage

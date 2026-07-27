@@ -65,9 +65,24 @@ export const searchTopics: SearchTopic[] = [
     keywords: "acts Acts & Rules",
   },
   {
+    href: "/topics/operating-material/adequate-distance",
+    title: "Adequate Distance",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material adequate distance Adequate Distance block overlap signal overlap G.R. 1.02(2) G.R. 8.01 3.40",
+  },
+  {
+    href: "/topics/operating-material/advanced-starter",
+    title: "Advanced Starter",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material advanced starter Advanced Starter LSS ATP MAS IB",
+  },
+  {
     href: "/general-awareness/world-information/africa-countries",
     title: "African Countries",
     category: "General Awareness",
+
     parent: "General Awareness › World Information",
     keywords: "general awareness world information africa countries African Countries",
   },
@@ -248,12 +263,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics operating material block forward Block Forward G.R. 1.02(9) shunting double line",
   },
   {
+    href: "/topics/operating-material/block-overlap",
+    title: "Block Overlap",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material block overlap Block Overlap FSS MAS BSLB SLB adequate distance",
+  },
+  {
     href: "/topics/operating-material/block-section",
     title: "Block Section",
     category: "Study Topics",
     parent: "Topics › Operating Material",
     keywords: "topics operating material block section Block Section G.R. 1.02(10) line clear",
   },
+
   {
     href: "/manuals/block-working-manual",
     title: "Block Working Manual",
@@ -356,6 +379,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics chief controller Chief Controller",
   },
   {
+    href: "/topics/operating-material/calling-on-signal",
+    title: "Calling On Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material calling on signal Calling On Signal G.R. 3.13 COGGN Podanur VDU",
+  },
+  {
+    href: "/topics/operating-material/catch-slip-siding",
+    title: "Catch / Slip Siding",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material catch slip siding Catch Slip Siding G.R. S.R. 3.50",
+  },
+  {
     href: "/general-awareness/awards/cinema-awards",
     title: "Cinema Awards",
     category: "General Awareness",
@@ -389,6 +426,13 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Topics",
     keywords: "topics coaches data Coaches Data",
+  },
+  {
+    href: "/topics/operating-material/coacting-signal",
+    title: "Co-acting Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material co-acting signal Co-acting Signal G.R. 3.15 duplicating",
   },
   {
     href: "/topics/information-technology-apps/cois",
@@ -482,6 +526,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness important days december December",
   },
   {
+    href: "/topics/operating-material/defective-signals",
+    title: "Defective Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material defective signals Defective Signals warn danger ahead G.R. 3.65 3.66 3.67",
+  },
+  {
     href: "/definitions",
     title: "Definitions",
     category: "Reference",
@@ -503,6 +554,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics financial rules demands Demands",
   },
   {
+    href: "/topics/operating-material/despatch-signals",
+    title: "Despatch Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material despatch signals Despatch Signals Starter Advanced starter",
+  },
+  {
+    href: "/topics/operating-material/detonating-signals",
+    title: "Detonating Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material detonating signals Detonating Signals Detonators",
+  },
+  {
     href: "/acts/disaster-management-act-2005",
     title: "Disaster Management Act 2005",
     category: "Acts & Rules",
@@ -517,6 +582,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "quizzes establishment rules discipline appeal rules Discipline Appeal Rules",
   },
   {
+    href: "/topics/operating-material/disconnection-reconnection",
+    title: "Disconnection and Reconnection",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material disconnection reconnection Disconnection and Reconnection SR 3.51.6 APP XIII T.351",
+  },
+  {
+    href: "/topics/operating-material/distant-signal",
+    title: "Distant Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material distant signal Distant Signal G.R S.R. 3.07 P marker double distant",
+  },
+  {
     href: "/topics/information-technology-apps/e-drishti",
     title: "e-Drishti",
     category: "Study Topics",
@@ -529,6 +608,13 @@ export const searchTopics: SearchTopic[] = [
     category: "General Awareness",
     parent: "General Awareness",
     keywords: "general awareness elephant reserves Elephant Reserves",
+  },
+  {
+    href: "/topics/operating-material/emergency-crank-handle",
+    title: "Emergency Crank Handle",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material emergency crank handle Emergency Crank Handle S.R. 3.38.7 App XI-6 HKT",
   },
   {
     href: "/acts/employees-compensation-act-2010",
@@ -630,6 +716,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics operating material fixed signal Fixed Signal G.R. 1.02(21)",
   },
   {
+    href: "/topics/operating-material/flare-signals",
+    title: "Flare Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material flare signals Flare Signals warning Red flag Red flashing lamp",
+  },
+  {
     href: "/topics/information-technology-apps/fois",
     title: "FOIS",
     category: "Study Topics",
@@ -650,6 +743,13 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Topics › Operating Material",
     keywords: "topics operating material fouling mark Fouling Mark G.R. 1.02(22)",
+  },
+  {
+    href: "/topics/operating-material/gate-signal",
+    title: "Gate Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material gate signal Gate Signal G.R. S.R. 3.34 3.73 LC G marker",
   },
   {
     href: "/topics/gati-shakti-terminals",
@@ -758,6 +858,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness states information gujarat Gujarat",
   },
   {
+    href: "/topics/operating-material/hand-signals",
+    title: "Hand Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material hand signals Hand Signals flags lamp bare hands",
+  },
+  {
     href: "/general-awareness/states-information/haryana",
     title: "Haryana",
     category: "General Awareness",
@@ -800,6 +907,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "Home",
   },
   {
+    href: "/topics/operating-material/home-signal",
+    title: "Home Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material home signal Home Signal G.R. 3.09 MAS FSS LSS",
+  },
+  {
     href: "/quizzes/establishment-rules/hrms",
     title: "HRMS",
     category: "Quizzes",
@@ -812,6 +926,13 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Topics",
     keywords: "topics hrms HRMS",
+  },
+  {
+    href: "/topics/operating-material/intermediate-block-signal",
+    title: "IB Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material IB signal Intermediate Block Signal G.R. S.R. 3.75 14.13 14.14 axle counter",
   },
   {
     href: "/topics/information-technology-apps/icms",
@@ -1332,6 +1453,20 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness awards other awards Other Awards",
   },
   {
+    href: "/topics/operating-material/other-signals",
+    title: "Other Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material other signals Other Signals Gate IB Automatic",
+  },
+  {
+    href: "/topics/operating-material/outer-signal",
+    title: "Outer Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material outer signal Outer Signal FSS TAS class B T/369",
+  },
+  {
     href: "/quizzes/establishment-rules/pass-rules",
     title: "Pass Rules",
     category: "Quizzes",
@@ -1360,6 +1495,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics permanent negotiating machinery Permanent Negotiating Machinery",
   },
   {
+    href: "/topics/operating-material/permissive-signals",
+    title: "Permissive Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material permissive signals Permissive Signals Warner Distant",
+  },
+  {
     href: "/general-awareness/physics",
     title: "Physics",
     category: "General Awareness",
@@ -1386,6 +1528,20 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Topics › Information Technology Apps",
     keywords: "topics information technology apps pms PMS",
+  },
+  {
+    href: "/topics/operating-material/point-trap-indicator",
+    title: "Point Trap Indicator",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material point trap indicator Point Trap Indicator S.R. 3.50.2 3.51.3.1",
+  },
+  {
+    href: "/topics/operating-material/points",
+    title: "Points Affecting the Movement",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material points affecting the movement Points Affecting the Movement G.R. 3.38 VDU line block power block",
   },
   {
     href: "/quizzes/general-awareness/polity",
@@ -1528,6 +1684,27 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness ramsar sites Ramsar Sites",
   },
   {
+    href: "/topics/operating-material/reception-signals",
+    title: "Reception Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material reception signals Reception Signals Outer Home Routing",
+  },
+  {
+    href: "/topics/operating-material/relay-room",
+    title: "Relay Room",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material relay room Relay Room APP XIII locking double key EKT",
+  },
+  {
+    href: "/topics/operating-material/repeating-signal",
+    title: "Repeating Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material repeating signal Repeating Signal G.R. 3.16 R marker",
+  },
+  {
     href: "/quizzes/establishment-rules/rest-rules",
     title: "Rest Rules",
     category: "Quizzes",
@@ -1575,6 +1752,13 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Topics › Information Technology Apps",
     keywords: "topics information technology apps rtis RTIS",
+  },
+  {
+    href: "/topics/operating-material/routing-signal",
+    title: "Routing Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material routing signal Routing Signal G.R. 3.09 route indicators SEM Electric Repeater",
   },
   {
     href: "/topics/operating-material/running-line",
@@ -1649,6 +1833,13 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness sports shooting Shooting",
   },
   {
+    href: "/topics/operating-material/shunt-signal",
+    title: "Shunt Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material shunt signal Shunt Signal G.R. 3.14 SPI position light T/369",
+  },
+  {
     href: "/topics/operating-material/shunting",
     title: "Shunting",
     category: "Study Topics",
@@ -1656,13 +1847,34 @@ export const searchTopics: SearchTopic[] = [
     keywords: "topics operating material shunting Shunting G.R. 1.02(49)",
   },
   {
+    href: "/topics/operating-material/shunting-limit-board",
+    title: "Shunting Limit Board",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material shunting limit board SLB BSLB G.R. 3.32",
+  },
+  {
+    href: "/topics/operating-material/signal-overlap",
+    title: "Signal Overlap",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material signal overlap Signal Overlap MAS adequate distance SLB",
+  },
+  {
+    href: "/topics/operating-material/signals",
+    title: "Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material signals Signals fixed hand detonating flare warning",
+  },
+  {
     href: "/general-awareness/states-information/sikkim",
     title: "Sikkim",
-
     category: "General Awareness",
     parent: "General Awareness › States Information",
     keywords: "general awareness states information sikkim Sikkim",
   },
+
 
   {
     href: "/general-awareness/sports/snooker",
@@ -1734,6 +1946,20 @@ export const searchTopics: SearchTopic[] = [
     parent: "Manuals",
     keywords: "manuals station working rules Station Working Rules",
   },
+  {
+    href: "/topics/operating-material/starter-signal",
+    title: "Starter Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material starter signal Starter Signal LSS Common Intermediate Routing",
+  },
+  {
+    href: "/topics/operating-material/stop-signals",
+    title: "Stop Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material stop signals Stop Signals Reception Despatch Other",
+  },
 
 
   {
@@ -1742,6 +1968,13 @@ export const searchTopics: SearchTopic[] = [
     category: "Study Topics",
     parent: "Study Topics",
     keywords: "topics Study Topics",
+  },
+  {
+    href: "/topics/operating-material/subsidiary-signals",
+    title: "Subsidiary Signals",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material subsidiary signals Subsidiary Signals Calling On Shunt Co-acting Repeating",
   },
   {
     href: "/general-awareness/summits",
@@ -1893,11 +2126,25 @@ export const searchTopics: SearchTopic[] = [
     keywords: "general awareness states information uttarakhand Uttarakhand",
   },
   {
+    href: "/topics/operating-material/visibility-test-object",
+    title: "Visibility Test Object",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material visibility test object VTO VTP Fog signal post G.R S.R. 3.61",
+  },
+  {
     href: "/topics/wagons-data",
     title: "Wagons Data",
     category: "Study Topics",
     parent: "Topics",
     keywords: "topics wagons data Wagons Data",
+  },
+  {
+    href: "/topics/operating-material/warner-signal",
+    title: "Warner Signal",
+    category: "Study Topics",
+    parent: "Topics › Operating Material",
+    keywords: "topics operating material warner signal Warner Signal GR 3.06 semaphore fish-tailed",
   },
   {
     href: "/general-awareness/sports/weightlifting",

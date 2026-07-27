@@ -12,7 +12,7 @@ const Sample = () => {
 export default Sample
 
 
-// Design beautifully the provided content. (Dont skip the content that I provided and dont add any extra content other than what I provided). And add in Operating Material and add in GlaobalSearch.tsx
+// Design beautifully the provided content. (Dont skip the content that I provided and dont add any extra content other than what I provided).
 
 
 
